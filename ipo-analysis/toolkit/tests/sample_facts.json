@@ -1,0 +1,10 @@
+{"screening":{"basis":{"name":"ZZ Test","doc_date":"2026-09-30","aud_to":"2026-06-30"},
+  "items":{"rev":[620,850,1000,null],"pat":[45,63,80,null],"cfo":[30,28,52,null]},
+  "checks":{"2":{"status":"WATCH","page":"p. 318","finding":"CFO/PAT 59%"}}},
+ "anchor":{"inputs":{"name":"ZZ Test","issue":500,"emp":5,"shr":0,"offer":100,"anchor_px":100,"bid_date":"2026-10-12","allot_date":"2026-10-16","list_date":"2026-10-19"},
+  "paths":{"Bear":[-0.1,-0.15,-0.2],"Neutral":[0.1,0.08,0.12],"Bull":[0.35,0.3,0.4]},"total_shares_lakh":1000,
+  "overhang":[["Pre-issue non-promoter",150,180,"p. 98"],["Promoter excess",300,180,""],["Promoter MPC",200,540,""]]},
+ "valuation":{"inputs":{"name":"ZZ Test","pre_sh":8,"esop":0.1,"fresh":200,"fresh_sh_fixed":1.1,"floor":180,"cap":190,"obj_net":170,"exp_pct":0.05,"gcp_pct":0.1,"ipo_capex":120,
+   "rev0":1000,"rev_prev":850,"ebitda0":150,"da0":25,"pat0":80,"nw0":450,"nd0":120,"nwc0":200,"nwc_prev":165,"capex0":60,"csp":0.01},
+  "drivers":{"g1":[0.08,0.18,0.25],"g2":[0.07,0.16,0.22],"g3":[0.06,0.14,0.18],"g4":[0.06,0.12,0.15],"g5":[0.05,0.10,0.12],"m":[0.13,0.15,0.165],"nwc":[0.22,0.20,0.18],"roic":[0.14,0.18,0.22]},
+  "peers":[["Peer A","Y","Same","Consolidated",520,5.0,150,1800,290,170,1100,0.15],["Peer B","Y","Same","Consolidated",310,9.0,60,2100,300,160,950,0.12],["Peer C","Y","Partial","Consolidated",1450,1.5,-40,1300,230,140,800,0.20],["Peer D","Y","Same","Consolidated",95,30.0,400,3200,420,210,1500,0.09]]}}
