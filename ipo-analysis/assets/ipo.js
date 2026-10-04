@@ -111,7 +111,7 @@
       $("call").innerHTML = callBadge(m.call);
       var kv = [["Platform", m.platform], ["Stage", m.stage], ["Filed", date(m.filed_on)], ["Analysed", date(m.analysed_on)],
         ["Sector", m.sector], ["Lead manager(s)", m.brlm], ["Issue size (Rs cr)", rs(m.issue_size_cr)],
-        ["Price band", m.price_band || "Not announced"], ["Exit route underwritten", m.exit_route]];
+        ["Price band", m.price_band || "Not announced"], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]];
       $("facts").innerHTML = kv.map(function (p) { return "<dt>" + esc(p[0]) + "</dt><dd>" + (p[1] == null || p[1] === "" ? "-" : esc(p[1])) + "</dd>"; }).join("");
       var md = m.model || {};
       $("val").innerHTML = ["bear", "neutral", "bull"].map(function (k) {
@@ -123,7 +123,7 @@
       $("flags").innerHTML = fl.length ? fl.map(function (f) { return '<li class="' + flagClass(f) + '">' + esc(f) + "</li>"; }).join("") : "<li>None recorded</li>";
       $("rdcf").textContent = md.reverse_dcf || "";
       var files = m.files || {}, dl = [];
-      [["screening", "Screening checklist (.xlsx)"], ["anchor", "Anchor & QIB economics (.xlsx)"], ["valuation", "Comps & valuation model (.xlsx)"],
+      [["pdf", "Full report (.pdf)"], ["screening", "Screening checklist (.xlsx)"], ["anchor", "Anchor & QIB economics (.xlsx)"], ["valuation", "Comps & valuation model (.xlsx)"],
         ["note", "Due-diligence note (.md)"]].forEach(function (f) {
         if (files[f[0]]) dl.push('<a class="btn" href="' + base + encodeURIComponent(files[f[0]]) + '" download>' + f[1] + "</a>");
       });
@@ -138,7 +138,17 @@
     }).catch(function () { $("title").textContent = "Issuer not found"; });
   }
 
+  function initDisclaimer() {
+    getJSON("data/disclaimer.json").then(function (d) {
+      Array.prototype.forEach.call(document.querySelectorAll("[data-disc-short]"), function (el) { el.textContent = d.short; });
+      Array.prototype.forEach.call(document.querySelectorAll("[data-disc-full]"), function (el) {
+        el.innerHTML = (d.paragraphs || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
+      });
+    }).catch(function () { /* keep the static fallback text */ });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    initDisclaimer();
     if (document.body.getAttribute("data-page") === "list") initList();
     if (document.body.getAttribute("data-page") === "view") initView();
   });
