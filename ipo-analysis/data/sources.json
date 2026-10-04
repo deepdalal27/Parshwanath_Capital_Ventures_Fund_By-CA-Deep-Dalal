@@ -1,0 +1,34 @@
+{
+  "max_per_run": 2,
+  "scan_from": "2026-10-01",
+  "sources": [
+    {
+      "name": "SEBI - Draft offer documents filed with SEBI (mainboard DRHPs)",
+      "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10",
+      "platform": "Mainboard",
+      "enabled": true,
+      "verified": false
+    },
+    {
+      "name": "SEBI - Red herring documents filed with RoC (mainboard RHPs)",
+      "url": "https://www.sebi.gov.in/ (Filings > Public Issues > Red Herring Documents filed with ROC)",
+      "platform": "Mainboard",
+      "enabled": true,
+      "verified": false
+    },
+    {
+      "name": "BSE SME - draft offer documents",
+      "url": "https://www.bseindia.com/ (SME platform > Public issues > Draft offer documents)",
+      "platform": "SME",
+      "enabled": true,
+      "verified": false
+    },
+    {
+      "name": "NSE Emerge - offer documents",
+      "url": "https://www.nseindia.com/ (Emerge > Issues > Offer documents)",
+      "platform": "SME",
+      "enabled": true,
+      "verified": false
+    }
+  ]
+}
