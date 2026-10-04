@@ -64,8 +64,10 @@ Take at most `max_per_run` filings from `pending`, in this priority:
 
 ### 4. Publish
 - Rebuild the index: `python3 ipo-analysis/toolkit/build_issuer.py --index`.
-- Commit on a new branch, push, open a pull request into `main` titled `IPO analysis: <company names>`, and merge it
-  (squash). GitHub Pages redeploys the site from `main`.
+- Commit on a new branch, push, and open a pull request into `main` titled `IPO analysis: <company names>`.
+  **Do not merge it.** The fund manager reviews the PR and clicks Merge; GitHub Pages then redeploys the site from `main`.
+  The PR description lists each issuer with its call, headline and red flags, so it can be reviewed from a phone.
+- If an earlier routine PR is still open and unmerged, push to that same branch instead of opening a second PR.
 - If nothing new was analysed but the queue or `last_scan` changed, publish that the same way so the pipeline stays current.
 - End the run with a short summary: filings found, analysed, still queued, and any source that failed.
 
