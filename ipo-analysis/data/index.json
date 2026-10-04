@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T15:30Z",
+  "updated": "2026-10-04T15:52Z",
   "issuers": [
     {
       "slug": "royal-chain-ltd",
@@ -11,16 +11,16 @@
       "sector": "B2B gold jewellery manufacturing",
       "brlm": "JM Financial; 360 ONE WAM",
       "issue_size_cr": 1000,
-      "price_band": "Not announced (ref. Rs 147.33)",
+      "price_band": "Not announced",
       "call": "Screen only",
-      "headline": "Profit rose 6.3x in two years, but operating cash flow was negative in every year (-Rs 2,165 m in FY26) as inventory doubled; Rs 6,500 m of the Rs 8,500 m fresh issue repays debt.",
+      "headline": "Revenue doubled and PAT rose 6.3x over FY24-FY26 with cash tax fully paid, but operating cash flow was negative each year as inventory grew; at the Rs 147.33 pre-IPO reference the P/E (15.6x) is in line with peers.",
       "red_flags": [
-        "Cumulative CFO -Rs 2,311 m vs PAT Rs 2,640 m, FY24-FY26 (CFO/PAT -87.5%)",
-        "Inventory Rs 6,959 m at Mar-26, up 95% in a year; each Rs 1 of new revenue needed Rs 0.42 of working capital",
-        "Production fell 4,491 kg to 4,005 kg (FY24-FY26) while revenue doubled; ~33% of 12,000 kg capacity used",
-        "Related party Aalishaan Jewels LLP: 5.06% of FY26 sales, 4.38% of purchases; top customer; subsidiary from Apr-26",
-        "Borrowings rose to Rs 8,204 m by 31-Aug-26 from Rs 5,602 m at Mar-26",
-        "Auditor resigned Jul-25 (no peer review); two auditor appointments since"
+        "Revenue CAGR 41.9% and PAT CAGR 151.7% (FY24-FY26); cash tax 26.9% of PBT",
+        "Operating cash flow negative each year; cumulative CFO/PAT -87.5%",
+        "Volume sold +1.7% while revenue per kg +97.9%: growth price-led",
+        "Top-10 customers 22.32% of revenue; top-5 suppliers 56.98% of COGS",
+        "Post-issue P/E ~15.6x at reference vs peer median 15.72x",
+        "Related party Aalishaan: 5.06% of FY26 sales; subsidiary from Apr-26"
       ],
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/royal-chain-limited-drhp_104015.html",
       "status": "analysed",

@@ -10,7 +10,7 @@ import re
 from openpyxl import Workbook
 from openpyxl.styles import Alignment
 
-from house import (sample_banner, CR, DATE, DISCLAIMER, F_BOLD, INT, PCT, X, WRAP, InputBlock, dropdown, flag_text, footer,
+from house import (finalize, sample_banner, CR, DATE, DISCLAIMER, F_BOLD, INT, PCT, X, WRAP, InputBlock, dropdown, flag_text, footer,
                    header, note, put, title, widths)
 
 cell = lambda a: a.split("!")[1].replace("$", "")
@@ -339,6 +339,7 @@ def build(path, facts=None):
     widths(sc, {"A": 2, "B": 36, "C": 90})
     footer(sc)
 
+    finalize(wb)
     wb.calculation.fullCalcOnLoad = True
     wb.save(path)
     return R, m0

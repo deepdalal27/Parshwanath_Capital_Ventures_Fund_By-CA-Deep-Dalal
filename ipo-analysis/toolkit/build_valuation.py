@@ -9,7 +9,7 @@ All sample values are ILLUSTRATIVE. Replace every blue cell from the offer docum
 """
 from openpyxl import Workbook
 
-from house import (sample_banner, CR, DISCLAIMER, F_BOLD, F_NOTE, PCT, X, InputBlock, dropdown, flag_text, footer,
+from house import (finalize, sample_banner, CR, DISCLAIMER, F_BOLD, F_NOTE, PCT, X, InputBlock, dropdown, flag_text, footer,
                    header, note, put, title, widths)
 
 YRS = "DEFGH"  # Y1..Y5 columns on DCF
@@ -448,6 +448,7 @@ def build(path, scenario=2, facts=None):
     footer(sm)
 
     wb.move_sheet("Summary", offset=-6)
+    finalize(wb)
     wb.calculation.fullCalcOnLoad = True
     wb.save(path)
     return A

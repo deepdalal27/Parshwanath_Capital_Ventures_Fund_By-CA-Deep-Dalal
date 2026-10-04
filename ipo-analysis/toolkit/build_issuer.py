@@ -6,7 +6,8 @@ Usage (from the repo root):
 
 Reads   ipo-analysis/companies/<slug>/facts.json  (figures, see FACTS_SCHEMA.md)
         ipo-analysis/companies/<slug>/meta.json   (judgement: call, headline, flags - written by the analyst)
-Writes  ipo-analysis/companies/<slug>/<SLUG>_01_Screening.xlsx, _02_Anchor_QIB.xlsx, _03_Valuation.xlsx
+Writes  ipo-analysis/companies/<slug>/<SLUG>_01_Screening.xlsx, _02_Anchor_QIB.xlsx, _03_Valuation.xlsx,
+        <SLUG>_Report.pdf (branded report from note.md)
         meta.json["model"]  - headline outputs recalculated from the workbooks (all three scenarios)
         ipo-analysis/data/index.json - one summary row per issuer for the website
 """
@@ -22,6 +23,7 @@ ROOT = os.path.dirname(HERE)                      # ipo-analysis/
 sys.path.insert(0, HERE)
 
 import build_anchor      # noqa: E402
+import build_pdf         # noqa: E402
 import build_screening   # noqa: E402
 import build_valuation   # noqa: E402
 from calc import recalc  # noqa: E402
@@ -70,6 +72,10 @@ def build(slug):
     if os.path.exists(os.path.join(d, "note.md")):
         meta["files"]["note"] = "note.md"
     meta["model"] = model_outputs(facts)
+    json.dump(meta, open(meta_p, "w"), indent=2, ensure_ascii=False)   # the PDF reads meta.json
+    pdf = build_pdf.build(slug)
+    if pdf:
+        meta["files"]["pdf"] = pdf
     meta.setdefault("analysed_on", dt.date.today().isoformat())
     json.dump(meta, open(meta_p, "w"), indent=2, ensure_ascii=False)
     print(f"built {slug}: {list(files.values())}")

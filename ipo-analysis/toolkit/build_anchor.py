@@ -10,7 +10,7 @@ import datetime as dt
 
 from openpyxl import Workbook
 
-from house import (pick, sample_banner, CR, DATE, DISCLAIMER, INT, PCT, F_BOLD, F_NOTE, InputBlock, dropdown, flag_text,
+from house import (finalize, pick, sample_banner, CR, DATE, DISCLAIMER, INT, PCT, F_BOLD, F_NOTE, InputBlock, dropdown, flag_text,
                    footer, header, note, put, title, widths)
 
 D = dt.date
@@ -286,6 +286,7 @@ def build(path, facts=None):
     widths(ov, {"A": 2, "B": 42, "C": 14, "D": 14, "E": 14, "F": 16, "G": 14, "H": 14, "I": 26, "J": 46})
     footer(ov)
 
+    finalize(wb)
     wb.calculation.fullCalcOnLoad = True
     wb.save(path)
     return {"inputs": I, "alloc": a.addr, "anchor_rows": anchor_rows, "qib_rows": qout, "scen_rows": sc,

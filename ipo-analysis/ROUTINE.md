@@ -7,13 +7,24 @@ the next run picks up the change. Settings that change often live in `data/sourc
 
 1. **Never invent a figure.** If the document is silent, leave the key out of `facts.json` (the workbook cell stays blank),
    and add the item to `facts.screening.gaps` and to the note's data-gaps table with a severity.
-2. **Never draft regulatory disclaimer text.** Every note carries the literal line
-   `[FIRM-APPROVED SEBI DISCLAIMER AND DISCLOSURE BLOCK TO BE INSERTED]`.
+2. **Disclaimer: use the firm-approved text, never write your own.** It lives in `data/disclaimer.json`. The website,
+   every Excel workbook and every PDF read it automatically. End each `note.md` with the heading
+   `## Disclaimer and disclosures` followed by the `short` text from that file. To change the wording, edit `disclaimer.json` only.
 3. **Never commit offer-document PDFs** (size and copyright). Link to the source URL in `meta.json.doc_url`.
-4. If a source cannot be reached or a PDF cannot be read, **leave the filing in the queue with a note**. Never analyse from memory,
-   news articles or aggregator summaries.
-5. Everything published here is public. Write in a neutral, factual register. No position sizing. Upside as a percentage only.
+4. If a source cannot be reached or a PDF cannot be read, **leave the filing in the queue with a note**. The issuer analysis comes
+   only from the offer document; never from memory, news articles or aggregator summaries. The single exception is the
+   merchant-banker section (current prices, issuer financials, ownership), which may use secondary sources only if each one is
+   named and marked unverified.
+5. **Neutral stance, always.** Everything published here is public and is the Fund's own analytical view, not advocacy.
+   - Give strengths and concerns equal care and prominence. Every positive and every negative carries its number and page cite.
+   - No loaded language ("alarming", "stellar", "red flag" as rhetoric). Use plain factual verbs.
+   - The call (`Subscribe` / `Neutral` / `Avoid` / `Screen only`) follows from the evidence and the valuation. Lean neither way by default.
+   - When the evidence is mixed, say so and say what would resolve it.
+   - No position sizing. Upside as a percentage only.
 6. Grey market premium is never used and never moves fair value.
+7. **Branding:** every output carries the fund logo, the fund name and registration, "Fund Manager: CA Deep Dalal" and
+   "Sponsor: Jignesh Shah". The toolkit adds these to Excel and PDF automatically; never strip them.
+8. **One offer document per day.** `max_per_run` in `data/sources.json` is 1. Do not raise it without the fund manager's instruction.
 
 ## Each run
 
@@ -34,7 +45,7 @@ A filing is new if its `doc_url` is not in `data/seen.json` and not already in `
 `queue.json.pending`. Set `queue.json.last_scan` to the current UTC time (`YYYY-MM-DDTHH:MMZ`).
 
 ### 2. Pick what to analyse
-Take at most `max_per_run` filings from `pending`, in this priority:
+Take at most `max_per_run` filings (currently **1**) from `pending`, in this priority:
 1. An RHP / addendum for an issuer already in `companies/` (the decision stage; supersedes the DRHP note),
 2. Mainboard DRHPs, oldest first,
 3. SME DRHPs, oldest first.
@@ -51,13 +62,26 @@ Take at most `max_per_run` filings from `pending`, in this priority:
   - `facts.json`: figures exactly as restated, with page cites. Schema: `toolkit/FACTS_SCHEMA.md`.
   - `meta.json`: company, platform, stage, filed_on, doc_url, sector, brlm, issue_size_cr, price_band, `call`
     (`Subscribe` / `Avoid` / `Neutral`, or `Screen only` at DRHP stage when there is no price band),
-    exit_route, a one-sentence `headline`, and `red_flags` (at most six, each with the number in it).
+    exit_route, `reference_note` (the price used for upside when no band exists, with its basis), a one-sentence neutral `headline`, and `red_flags`. Despite its name, `red_flags` is the list of **key
+    observations**: at most six, balanced between strengths and concerns, each carrying its number.
   - `note.md`: the due-diligence note, in the report spine below.
+  - **Merchant banker work:** before writing the merchant-banker section, open `data/merchant_bankers.json`.
+    - If a lead manager is not there, add it: `owner` (promoters / key shareholders, with source), `listed` status,
+      and the year-wise summary table from the offer document's "Price information of past issues handled by the BRLMs".
+    - For every issue in that table, record in `issues[]` its name, sector, issue size and price, listing date,
+      listing-day open and the 30/90/180-day changes. Take these **from the offer document**: it is exchange-sourced
+      and outranks any website.
+    - Then add for each issuer: **current share price with its date**, and **revenue and PAT for the last 3 financial
+      years** (or since inception if listed less than 3 years ago), as amounts and % change. Prefer exchange filings;
+      otherwise use secondary web sources, mark `"verified": false`, and name the source. Never fill a number you could not source.
+    - Reuse existing entries; refresh current prices on each run that cites them.
 - Build and verify:
   ```bash
   python3 ipo-analysis/toolkit/build_issuer.py <slug>
   python3 ipo-analysis/toolkit/verify.py
   ```
+  `build_issuer.py` also writes the branded PDF report (`<SLUG>_Report.pdf`) from `note.md`. It needs Chromium,
+  found at `/opt/pw-browsers/chromium` in the cloud container.
   `verify.py` must end with every check passed. If the issuer's own totals fail to reproduce (expenses do not sum,
   the balance sheet does not balance), say in the note whether the error is in the document or in your extraction.
 - Move the filing from `queue.json.pending` to `seen.json.filings` (store its `doc_url`).
@@ -98,6 +122,29 @@ P/E, EV/EBITDA and P/B, no EV/Sales. Peers matched on business model, disclosed 
 Use of proceeds funds capex in Neutral and Bull only. Report the divergence between DCF and relative when above 25%.
 Run the reverse DCF and say in plain words what the price asks for.
 
-**Note spine** (`note.md`): basis and staleness banner, then verdict, snapshot, investment summary, company and offer, objects,
-financials, key findings, forensic scorecard, valuation, reverse DCF, verdict, *what would change our view* (measurable
-conditions verifiable against the RHP), risks, data gaps, verification, disclaimer placeholder.
+**Note spine** (`note.md`), in this order:
+1. Basis and staleness banner.
+2. Verdict, stated neutrally.
+3. Snapshot table.
+4. **Business model:** what is sold, to whom, how it is priced, how the company earns its margin, and what it owns vs outsources.
+5. **Industry analysis:** market size and growth, structure and fragmentation, the competitors named and unnamed,
+   regulation and cyclicality. State who commissioned the industry report.
+6. **Moat:** what protects returns, such as scale, cost, switching costs, brands, licences or network. Say how durable each
+   one is and what evidence supports it. Say plainly when there is none.
+7. **Revenue and profit growth drivers:** volume vs price / mix for revenue; gross margin, operating leverage and
+   one-offs for profit. Quantify each from the document.
+8. **SWOT**, as a table of strengths, weaknesses, opportunities and threats, each item with a figure and page cite.
+9. The offer and objects.
+10. Financials and key findings: positives and concerns side by side.
+11. Forensic scorecard.
+12. **Merchant banker(s):**
+    - name, owner, issues handled (year-wise summary);
+    - for each recent issue: listing premium/discount, 30/90/180-day performance, current price, sector, and revenue and
+      PAT growth (amount and %) over 3 years or since inception, with the source for each;
+    - a neutral read of the track record.
+13. Valuation and reverse DCF.
+14. *What would change our view*: measurable conditions verifiable against the RHP.
+15. Risks.
+16. Data gaps.
+17. Verification.
+18. `## Disclaimer and disclosures`, followed by the `short` text from `data/disclaimer.json`.

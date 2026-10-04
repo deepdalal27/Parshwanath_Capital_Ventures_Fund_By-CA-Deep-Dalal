@@ -10,8 +10,16 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.formatting.rule import CellIsRule, FormulaRule
 from openpyxl.worksheet.datavalidation import DataValidation
 
-FUND = "Parshwanath Capital Ventures Fund | SEBI Registered CAT III AIF | IN/AIF3/25-26/2108"
-DISCLAIMER = "[FIRM-APPROVED SEBI DISCLAIMER AND DISCLOSURE BLOCK TO BE INSERTED]"
+import json as _json
+import os as _os
+
+_ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))     # ipo-analysis/
+LOGO = _os.path.join(_ROOT, "assets", "logo-128.png")
+DISC = _json.load(open(_os.path.join(_ROOT, "data", "disclaimer.json"), encoding="utf-8"))
+
+FUND = ("Parshwanath Capital Ventures Fund | SEBI Registered CAT III AIF | IN/AIF3/25-26/2108 | "
+        "Fund Manager: CA Deep Dalal | Sponsor: Jignesh Shah")
+DISCLAIMER = DISC["short"]           # one-line version for summary sheets; full text on each Cover
 
 NAVY, RED, AMBER, GREEN = "1F3864", "C00000", "BF8F00", "2E7D32"
 F_INPUT = Font(name="Calibri", size=10, color="0000FF")
@@ -60,11 +68,35 @@ def sample_banner(facts):
 
 
 def title(ws, text, sub=None):
+    """Sheet heading with the fund logo at top-left; the text is indented to clear the logo."""
     ws["A1"] = text
     ws["A1"].font = F_TITLE
     ws["A2"] = sub or FUND
     ws["A2"].font = F_NOTE
+    for ref in ("A1", "A2"):
+        ws[ref].alignment = Alignment(indent=6, vertical="center")
+    ws.row_dimensions[1].height = 24
+    ws.row_dimensions[2].height = 20
+    if _os.path.exists(LOGO):
+        from openpyxl.drawing.image import Image as _Img
+        img = _Img(LOGO)
+        img.width = img.height = 54
+        ws.add_image(img, "A1")
     ws.sheet_view.showGridLines = False
+
+
+def finalize(wb):
+    """Full disclaimer at the foot of the Cover sheet. Call once, just before wb.save()."""
+    if "Cover" not in wb.sheetnames:
+        return
+    cv = wb["Cover"]
+    r = cv.max_row + 2
+    cv.cell(row=r, column=1, value=DISC["title"]).font = Font(bold=True, color=NAVY, size=11)
+    for para in DISC["paragraphs"]:
+        r += 1
+        c = cv.cell(row=r, column=1, value=para)
+        c.font, c.alignment = F_NOTE, Alignment(wrap_text=True, vertical="top")
+        cv.row_dimensions[r].height = max(15, 15 * (len(para) // 140 + 1))
 
 
 def header(ws, row, labels, col=1):

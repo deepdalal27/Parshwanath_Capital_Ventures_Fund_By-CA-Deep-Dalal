@@ -1,5 +1,5 @@
 {
-  "max_per_run": 2,
+  "max_per_run": 1,
   "scan_from": "2026-09-25",
   "sources": [
     {
