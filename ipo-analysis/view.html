@@ -42,30 +42,19 @@
 
 <main class="wrap">
   <p class="disclaimer" data-disc-short>Investments in securities market are subject to market risks. Read all the related documents carefully before investing.</p>
-  <div class="grid2" style="margin-top:24px">
-    <div>
-      <div class="panel">
-        <h3>Valuation per share (Rs) - DCF and relative shown separately, then blended</h3>
-        <div class="tbl-wrap" style="border:0">
-          <table>
-            <thead><tr><th>Scenario</th><th>DCF</th><th>Relative</th><th>Blended</th><th>Upside vs cap</th></tr></thead>
-            <tbody id="val"></tbody>
-          </table>
-        </div>
-        <p class="small muted" id="rdcf" style="margin:10px 0 0"></p>
-      </div>
-      <div class="panel">
-        <h3>Key observations and model guards</h3>
-        <ul class="flags" id="flags" style="font-size:14px"></ul>
-      </div>
-      <h2 style="margin:28px 0 10px">Due-diligence note</h2>
-      <article class="note" id="note"><p class="muted">Loading...</p></article>
-    </div>
-    <aside>
-      <div class="panel"><h3>Downloads</h3><div class="dl" id="downloads"></div></div>
-      <div class="panel"><h3>Issue facts</h3><dl class="kv" id="facts"></dl></div>
-    </aside>
+  <nav class="secnav" aria-label="Sections">
+    <a href="#d-decision">Decision</a><a href="#d-focus">Where to focus</a><a href="#d-score">Scorecard</a><a href="#d-fin">Financials</a>
+    <a href="#d-val">Valuation</a><a href="#d-offer">Offer</a><a href="#d-brlm">Merchant bankers</a><a href="#d-swot">SWOT</a><a href="#d-note">Full note</a>
+  </nav>
+  <div class="toprow">
+    <div class="panel"><h3>Downloads</h3><div class="dl dl--row" id="downloads"></div></div>
+    <div class="panel"><h3>Issue facts</h3><dl class="kv kv--cols" id="facts"></dl></div>
   </div>
+  <div id="dash"><p class="muted">Loading dashboard...</p></div>
+  <section class="dash-sec" id="d-note">
+    <div class="dash-h"><h2>Due-diligence note</h2><p class="sub">The full written analysis, with page references to the offer document.</p></div>
+    <article class="note" id="note"><p class="muted">Loading...</p></article>
+  </section>
 </main>
 <footer class="foot">
   <div class="wrap">
@@ -82,6 +71,8 @@
     <div data-disc-full><p>Investments in securities market are subject to market risks. Read all the related documents carefully before investing.</p></div>
   </div>
 </footer>
+<script src="assets/charts.js"></script>
+<script src="assets/dashboard.js"></script>
 <script src="assets/ipo.js"></script>
 </body>
 </html>

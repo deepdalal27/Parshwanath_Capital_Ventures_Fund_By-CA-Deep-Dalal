@@ -23,13 +23,14 @@ ROOT = os.path.dirname(HERE)                      # ipo-analysis/
 sys.path.insert(0, HERE)
 
 import build_anchor      # noqa: E402
+import build_charts      # noqa: E402
 import build_pdf         # noqa: E402
 import build_screening   # noqa: E402
 import build_valuation   # noqa: E402
 from calc import recalc  # noqa: E402
 
 INDEX_FIELDS = ["slug", "company", "platform", "stage", "filed_on", "analysed_on", "sector", "brlm",
-                "issue_size_cr", "price_band", "call", "headline", "red_flags", "doc_url", "status"]
+                "issue_size_cr", "price_band", "call", "headline", "red_flags", "doc_url", "status", "counts", "focus_top"]
 
 
 def num(v):
@@ -72,7 +73,11 @@ def build(slug):
     if os.path.exists(os.path.join(d, "note.md")):
         meta["files"]["note"] = "note.md"
     meta["model"] = model_outputs(facts)
-    json.dump(meta, open(meta_p, "w"), indent=2, ensure_ascii=False)   # the PDF reads meta.json
+    json.dump(meta, open(meta_p, "w"), indent=2, ensure_ascii=False)   # charts and PDF read meta.json
+    charts = build_charts.build(slug)
+    meta["counts"] = charts["counts"]
+    meta["focus_top"] = [f["title"] for f in charts["focus"][:3]]
+    json.dump(meta, open(meta_p, "w"), indent=2, ensure_ascii=False)
     pdf = build_pdf.build(slug)
     if pdf:
         meta["files"]["pdf"] = pdf

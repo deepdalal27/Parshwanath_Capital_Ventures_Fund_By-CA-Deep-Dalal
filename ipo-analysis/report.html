@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPO Analysis Report - Parshwanath Capital Ventures Fund</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..500&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400..700&amp;display=swap">
+<link rel="stylesheet" href="assets/ipo.css">
+<style>
+  @page { size: A4; margin: 14mm 13mm 16mm 13mm; }
+  body { background: #fff; font-size: 13px; }
+  .rp { max-width: 760px; margin: 0 auto; padding: 0 4px; }
+  .cover { min-height: 255mm; display: flex; flex-direction: column; break-after: page; }
+  .cover__brand { display: flex; align-items: center; gap: 16px; border-bottom: 2px solid #c9a86a; padding-bottom: 14px; }
+  .cover__brand img { width: 84px; height: 84px; }
+  .cover__brand .n { font: 500 22px/1.2 var(--font-display); color: #1F3864; }
+  .cover__brand .s { font-size: 11px; color: #5d6673; }
+  .cover__brand .p { font-size: 12px; margin-top: 3px; }
+  .cover__tag { margin: 26px 0 2px; font: 500 11px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: #a8874c; }
+  .cover h1 { font: 400 38px/1.1 var(--font-display); margin: 6px 0 4px; }
+  .cover .meta { color: #5d6673; font-size: 12px; margin-bottom: 14px; }
+  .cover .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .cover .tile__val { font-size: 21px; }
+  .cover__focus { margin-top: 14px; }
+  .cover__focus ol { margin: 6px 0 0; }
+  .cover__foot { margin-top: auto; font-size: 10px; color: #5d6673; border-top: 1px solid var(--rule); padding-top: 8px; }
+  .rp .dash-sec { padding-top: 18px; }
+  .rp #d-fin, .rp #d-val, .rp #d-brlm { break-before: page; padding-top: 0; }
+  .rp .dash-h { break-after: avoid; }
+  .rp .dash-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .rp .swot { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .rp .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+  .rp .viz-card.wide { width: 100%; }
+  .rp .secnav, .rp .toprow { display: none; }
+  .rp #d-focus, .rp #d-decision { display: none; }   /* shown on the cover instead */
+  .rp .viz-card, .rp .tile, .rp .swot__q, .rp .decision, .rp table.score tr { break-inside: avoid; }
+  .rp .viz-table { display: none; }                  /* print: values are labelled; tables live in the workbooks */
+  .rp .dash-grid { gap: 10px; }
+  .rp .viz-card { padding: 12px 12px 8px; }
+  .rp .note { border: 0; padding: 0; }
+  .rp .note h2 { break-after: avoid; }
+  .rp .note table { display: table; width: 100%; font-size: 10px; table-layout: fixed; }
+  .rp .note th, .rp .note td { overflow-wrap: anywhere; word-break: break-word; padding: 4px 5px; }
+  .rp .note th { font: 600 9px/1.25 var(--font-body); letter-spacing: 0; text-transform: none; white-space: normal; }
+  .rp table { max-width: 100%; }
+  .rp .tbl-wrap, .rp .viz-card { overflow: visible; }
+  .rp table.score { table-layout: fixed; }
+  .rp table.score td, .rp table.score th { overflow-wrap: anywhere; }
+  .rp table.score th:nth-child(1) { width: 5%; } .rp table.score th:nth-child(2) { width: 21%; }
+  .rp table.score th:nth-child(3) { width: 11%; } .rp table.score th:nth-child(4) { width: 51%; }
+  .rp table.score th:nth-child(5) { width: 12%; }
+  .rp table.score td { font-size: 11px; padding: 5px 6px; }
+  .rp table.score td:nth-child(4) { min-width: 0; }
+  .rp table.mini { font-size: 10.5px; table-layout: fixed; }
+  .rp table.mini th, .rp table.mini td { padding: 4px 4px; overflow-wrap: anywhere; }
+  .rp table.mini th { font-size: 8.5px; }
+  .rp .note tr { break-inside: avoid; }
+  .rp .disc { break-before: page; font-size: 11px; color: #333; }
+  .rp .disc h2 { font: 400 20px var(--font-display); color: #1F3864; }
+  .rp h2 { font-size: 22px; }
+  .sechead { break-before: page; }
+</style>
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/vendor/purify.min.js"></script>
+</head>
+<body>
+<div class="rp" id="rp"><p>Loading report...</p></div>
+<script src="assets/charts.js"></script>
+<script src="assets/dashboard.js"></script>
+<script>
+(function () {
+  "use strict";
+  var K = window.IPOCharts, esc = K.esc, fmt = K.fmt;
+  var slug = new URLSearchParams(location.search).get("c") || "";
+  var base = "companies/" + slug + "/";
+  var get = function (u, txt) { return fetch(u + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(u); return txt ? r.text() : r.json(); }); };
+  if (!/^[a-z0-9-]+$/.test(slug)) { document.getElementById("rp").textContent = "Unknown issuer"; window.REPORT_READY = true; return; }
+  Promise.all([get(base + "meta.json"), get(base + "charts.json"), get(base + "note.md", true).catch(function () { return ""; }), get("data/disclaimer.json")])
+    .then(function (r) {
+      var m = r[0], ch = r[1], note = r[2], disc = r[3], root = document.getElementById("rp");
+      document.title = (m.company || slug) + " - IPO Analysis Report";
+      var c = ch.counts || {};
+      root.innerHTML =
+        '<section class="cover">' +
+        '<div class="cover__brand"><img src="assets/logo-128.png" alt=""><div><div class="n">' + esc(disc.entity) + '</div><div class="s">' + esc(disc.registration) +
+        '</div><div class="p"><b>Fund Manager:</b> CA Deep Dalal &nbsp;|&nbsp; <b>Sponsor:</b> Jignesh Shah</div></div></div>' +
+        '<div class="cover__tag">IPO analysis report · ' + esc(m.stage || "") + "</div>" +
+        "<h1>" + esc(m.company || slug) + "</h1>" +
+        '<div class="meta">' + esc(m.platform || "") + " · " + esc(m.sector || "") + " · filed " + esc(m.filed_on || "–") + " · lead manager(s): " + esc(m.brlm || "–") +
+        " · issue size Rs " + fmt(m.issue_size_cr, "int") + " cr · price band: " + esc(m.price_band || "not announced") + " · analysed " + esc(m.analysed_on || "") + "</div>" +
+        '<div class="decision"><div class="decision__call"><span class="lbl">Call</span><span class="val">' + esc(m.call || "Pending") + '</span><span class="lbl">Checks</span><span class="val sm">' +
+        (c.fail || 0) + " fail · " + (c.watch || 0) + " watch · " + (c.pass || 0) + " pass · " + (c.open || 0) + " open</span></div>" +
+        '<div class="decision__head">' + esc(m.headline || "") + "</div></div>" +
+        '<div class="tiles">' + (ch.kpis || []).map(function (k) {
+          return '<div class="tile"><div class="tile__lbl">' + esc(k.label) + '</div><div class="tile__val">' + fmt(k.value, k.fmt) + "</div>" +
+            (k.sub ? '<div class="tile__sub">' + esc(k.sub) + (k.subval != null ? ": <b>" + fmt(k.subval, k.subfmt) + "</b>" : "") + "</div>" : "") + "</div>";
+        }).join("") + "</div>" +
+        '<div class="cover__focus viz-card"><div class="viz-title">Where to focus</div><ol class="focus-list">' + (ch.focus || []).slice(0, 6).map(function (f) {
+          return "<li>" + window.IPODashboard.chip(f.level) + " <b>" + esc(f.title) + "</b>" + (f.page ? ' <span class="pg">' + esc(f.page) + "</span>" : "") + "<div>" + esc(f.detail) + "</div></li>";
+        }).join("") + "</ol></div>" +
+        '<div class="cover__foot">' + esc(disc.short) + "</div></section>" +
+        '<div id="dash"></div>' +
+        '<section class="sechead"><h2 style="font:400 24px var(--font-display);margin:0 0 6px">Due-diligence note</h2></section><article class="note" id="note"></article>' +
+        '<section class="disc"><h2>' + esc(disc.title) + "</h2>" + (disc.paragraphs || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</section>";
+      window.IPODashboard.render(document.getElementById("dash"), ch, m);
+      window.matchMedia && window.matchMedia("print");
+      var noteEl = document.getElementById("note");
+      noteEl.innerHTML = note ? window.DOMPurify.sanitize(window.marked.parse(note)) : "<p>Note not yet written.</p>";
+      // the note repeats the disclaimer short-form at its end; the full version follows on its own page
+      window.REPORT_READY = true;
+    })
+    .catch(function (e) { document.getElementById("rp").textContent = "Report failed to load: " + e.message; window.REPORT_READY = true; });
+})();
+</script>
+</body>
+</html>
