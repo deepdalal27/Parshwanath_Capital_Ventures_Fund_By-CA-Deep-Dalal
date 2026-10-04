@@ -50,6 +50,10 @@
   <section class="block" id="analyses">
     <h2>Analyses</h2>
     <p class="sub">Newest filing first. Click a column to sort; click a company for the full note and downloads. <span id="count"></span></p>
+    <div class="dash-grid" style="margin-bottom:16px">
+      <div class="viz-card" id="chart-upside"></div>
+      <div class="viz-card" id="chart-checks"></div>
+    </div>
     <div class="filters">
       <input id="q" type="search" placeholder="Search company, sector, lead manager..." aria-label="Search">
       <select id="f-platform" aria-label="Platform"><option value="">All platforms</option><option>Mainboard</option><option>SME</option></select>
@@ -60,7 +64,7 @@
       <table>
         <thead><tr>
           <th data-k="company">Issuer</th><th data-k="platform">Platform</th><th data-k="filed_on">Filed</th>
-          <th data-k="issue_size_cr" class="hide-sm">Issue (Rs cr)</th><th class="hide-sm">Price band</th>
+          <th data-k="issue_size_cr" class="hide-sm">Issue (Rs cr)</th><th class="hide-sm">Checks</th>
           <th>Blended value (Neutral)</th><th data-k="upside">Upside vs cap</th><th data-k="call">Call</th>
         </tr></thead>
         <tbody id="tbody"><tr><td colspan="8" class="muted">Loading...</td></tr></tbody>
@@ -99,6 +103,8 @@
     <div data-disc-full><p>Investments in securities market are subject to market risks. Read all the related documents carefully before investing.</p></div>
   </div>
 </footer>
+<script src="assets/charts.js"></script>
+<script src="assets/dashboard.js"></script>
 <script src="assets/ipo.js"></script>
 </body>
 </html>

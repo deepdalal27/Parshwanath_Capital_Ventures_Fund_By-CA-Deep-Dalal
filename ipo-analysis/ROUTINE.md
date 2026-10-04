@@ -80,8 +80,18 @@ Take at most `max_per_run` filings (currently **1**) from `pending`, in this pri
   python3 ipo-analysis/toolkit/build_issuer.py <slug>
   python3 ipo-analysis/toolkit/verify.py
   ```
-  `build_issuer.py` also writes the branded PDF report (`<SLUG>_Report.pdf`) from `note.md`. It needs Chromium,
-  found at `/opt/pw-browsers/chromium` in the cloud container.
+  `build_issuer.py` also writes `charts.json` (the data behind every chart on the website dashboard and in the PDF) and the
+  branded PDF report (`<SLUG>_Report.pdf`), printed from `report.html` with Chromium (`/opt/pw-browsers/chromium` in the
+  cloud container). Charts are generated automatically for every issue; **the inputs below must be present for them to fill:**
+  - `facts.json` → `kpi.ebitda` (3 years, Rs crore, as the issuer's KPI table) and, where disclosed, `kpi.volume` with
+    `kpi.volume_unit` (production or sales volume). Cite the page in `kpi._cite`.
+  - `meta.json` → `swot` with four lists (`strengths`, `weaknesses`, `opportunities`, `threats`); each item carries a figure
+    and a page reference. `reference_note` when there is no price band.
+  - `facts.screening.checks` filled for every check worked (PASS / WATCH / FAIL / N.A., with page and finding). The
+    "Where to focus" panel ranks FAIL, then WATCH, then model guards, then High/Medium data gaps.
+  - `data/merchant_bankers.json` updated for this offer's lead managers (see above).
+- Before publishing, open `ipo-analysis/view.html?c=<slug>` through a local server
+  (`python3 -m http.server` from the repo root) and check that every chart has data and nothing overlaps. Then open the PDF.
   `verify.py` must end with every check passed. If the issuer's own totals fail to reproduce (expenses do not sum,
   the balance sheet does not balance), say in the note whether the error is in the document or in your extraction.
 - Move the filing from `queue.json.pending` to `seen.json.filings` (store its `doc_url`).

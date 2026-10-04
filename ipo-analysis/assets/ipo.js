@@ -27,6 +27,27 @@
   var $ = function (id) { return document.getElementById(id); };
   var safeUrl = function (u) { return /^https?:\/\//i.test(String(u || "")) ? esc(u) : ""; };
 
+  function checks(c) {
+    if (!c || !window.IPODashboard) return "-";
+    var ch = window.IPODashboard.chip;
+    return ch("FAIL") + " " + (c.fail || 0) + " " + ch("WATCH") + " " + (c.watch || 0) + " " + ch("PASS") + " " + (c.pass || 0);
+  }
+  function portfolioCharts(rows) {
+    if (!window.IPOCharts || !rows.length) {
+      ["chart-upside", "chart-checks"].forEach(function (id) { if ($(id)) $(id).style.display = "none"; });
+      return;
+    }
+    var nm = function (r) { return String(r.company || r.slug).replace(/ (Limited|Ltd)$/, ""); };
+    var up = rows.filter(function (r) { return r.neutral && r.neutral.upside_cap != null; })
+      .sort(function (a, b) { return b.neutral.upside_cap - a.neutral.upside_cap; });
+    window.IPOCharts.hbars($("chart-upside"), { title: "Neutral blended value vs reference price", subtitle: "Upside / (downside) by issuer. Positive values are above the reference price.",
+      items: up.map(function (r) { return { label: nm(r), value: r.neutral.upside_cap, note: (r.call || "") + " · " + (r.stage || "") }; }), fmt: "pct", axisFmt: "pct0", diverging: true, labelWidth: 180 });
+    var withC = rows.filter(function (r) { return r.counts; });
+    window.IPOCharts.hbars($("chart-checks"), { title: "Where diligence is needed", subtitle: "Failed plus watch-list forensic checks per issuer. More items mean more work before a decision.",
+      items: withC.map(function (r) { return { label: nm(r), value: (r.counts.fail || 0) + (r.counts.watch || 0), note: (r.counts.fail || 0) + " fail, " + (r.counts.watch || 0) + " watch" }; })
+        .sort(function (a, b) { return b.value - a.value; }), fmt: "int", labelWidth: 180 });
+  }
+
   /* ---------------------------------------------------------------- list page */
   function initList() {
     var rows = [], sortKey = "filed_on", sortDir = -1;
@@ -60,7 +81,7 @@
           "<td>" + esc(r.platform || "-") + '<div class="small muted">' + esc(r.stage || "") + "</div></td>" +
           '<td class="num">' + date(r.filed_on) + "</td>" +
           '<td class="num hide-sm">' + rs(r.issue_size_cr) + "</td>" +
-          '<td class="num hide-sm">' + esc(r.price_band || "-") + "</td>" +
+          '<td class="hide-sm">' + checks(r.counts) + (r.focus_top && r.focus_top.length ? '<div class="small muted">Focus: ' + esc(r.focus_top.join("; ")) + "</div>" : "") + "</td>" +
           '<td class="num">' + rs(n.blended) + "</td>" +
           '<td class="num">' + pct(n.upside_cap) + "</td>" +
           "<td>" + callBadge(r.call) + "</td></tr>";
@@ -81,6 +102,7 @@
       $("s-updated").textContent = d.updated ? d.updated.replace("T", " ").replace("Z", " UTC") : "-";
       $("s-sub").textContent = rows.filter(function (r) { return r.call === "Subscribe"; }).length;
       render();
+      portfolioCharts(rows);
     }).catch(function (e) {
       $("tbody").innerHTML = '<tr><td colspan="8"><div class="empty">Could not load data/index.json (' + esc(e.message) +
         "). Open this page through the website, not as a local file.</div></td></tr>";
@@ -113,15 +135,15 @@
         ["Sector", m.sector], ["Lead manager(s)", m.brlm], ["Issue size (Rs cr)", rs(m.issue_size_cr)],
         ["Price band", m.price_band || "Not announced"], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]];
       $("facts").innerHTML = kv.map(function (p) { return "<dt>" + esc(p[0]) + "</dt><dd>" + (p[1] == null || p[1] === "" ? "-" : esc(p[1])) + "</dd>"; }).join("");
-      var md = m.model || {};
-      $("val").innerHTML = ["bear", "neutral", "bull"].map(function (k) {
-        var v = md[k] || {};
-        return "<tr><td>" + k.charAt(0).toUpperCase() + k.slice(1) + '</td><td class="num">' + rs(v.dcf) + '</td><td class="num">' +
-          rs(v.relative) + '</td><td class="num">' + rs(v.blended) + '</td><td class="num">' + pct(v.upside_cap) + "</td></tr>";
-      }).join("");
-      var fl = (m.red_flags || []).concat(md.flags || []);
-      $("flags").innerHTML = fl.length ? fl.map(function (f) { return '<li class="' + flagClass(f) + '">' + esc(f) + "</li>"; }).join("") : "<li>None recorded</li>";
-      $("rdcf").textContent = md.reverse_dcf || "";
+      getJSON(base + "charts.json").then(function (ch) {
+        var draw = function () { window.IPODashboard.render($("dash"), ch, m); };
+        draw();
+        var w = window.innerWidth, t;
+        window.addEventListener("resize", function () {
+          if (Math.abs(window.innerWidth - w) < 40) return;
+          w = window.innerWidth; clearTimeout(t); t = setTimeout(draw, 200);
+        });
+      }).catch(function () { $("dash").innerHTML = '<p class="muted">Dashboard not available for this issuer.</p>'; });
       var files = m.files || {}, dl = [];
       [["pdf", "Full report (.pdf)"], ["screening", "Screening checklist (.xlsx)"], ["anchor", "Anchor & QIB economics (.xlsx)"], ["valuation", "Comps & valuation model (.xlsx)"],
         ["note", "Due-diligence note (.md)"]].forEach(function (f) {

@@ -1,0 +1,829 @@
+{
+ "slug": "royal-chain-ltd",
+ "company": "Royal Chain Limited",
+ "generated": "2026-10-04T16:09Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 4732.45,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.4189,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 173.342,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 1.517,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.0609,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.0271,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": -0.8754,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2688,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 15.56,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 15.7159,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 111.2309,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.245,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 147.33,
+   "fmt": "rs",
+   "sub": "Rs 147.33 (Dec-2025 pre-IPO placement, bonus-adjusted)"
+  }
+ ],
+ "focus": [
+  {
+   "level": "FAIL",
+   "title": "Cash flow vs profit",
+   "detail": "Operating cash flow negative in all three years: -2,165.17 / -30.49 / -115.67 (Rs m, FY26/25/24) against PAT 1,733.42 / 633.31 / 273.62. Cumulative CFO/PAT = -87.5%. Inventory build of Rs 3,390.55 m in FY26 alone.",
+   "page": "p. 66"
+  },
+  {
+   "level": "WATCH",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Slump-sale purchase of the gold jewellery undertaking of promoter-interested Royal Italian Jewellery Pvt Ltd for Rs 466.20 m (FY25), plus Rs 342.50 m unsecured loan taken from it in FY26. Aalishaan Jewels LLP (KMP influence; subsidiary with 99% profit share from 01-Apr-2026) = 5.06% of FY26 sales and 4.38% of purchases.",
+   "page": "pp. 68-70"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Demand side diversified: top-10 customers 22.32% of FY26 revenue (top customer is related party Aalishaan). Supply side concentrated: top-5 suppliers 56.98% and top-10 66.30% of FY26 COGS; no long-term supply agreements stated.",
+   "page": "pp. 30, 32"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "Auditor S. Mandanmal Mehta & Co resigned 16-Jul-2025 for lack of peer-review credentials; Jain V. & Co appointed (casual vacancy) 30-Jul-2025; KKC & Associates added as joint auditor 30-Jun-2026. Audit reports not reviewed in this pass.",
+   "page": "p. 73"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -60.1% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Offer expenses and GCP amount",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Top-1 supplier share of purchases",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Audit report qualifications, CARO remarks",
+   "page": "DRHP restated financial information"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "BRLM track record",
+   "page": "BSE / NSE listing data"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "5:1 bonus on 08-Sep-2026 is reflected: EPS 14.39 and NAV 37.16 (= Rs 4,657.51 m / 125,344,092 shares) are on the post-bonus count.",
+   "page": "pp. 79, 108-110"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 620.00 m on PBT Rs 2,324.04 m (26.7%); cumulative current tax 26.9% of cumulative PBT. Profit is taxed in cash.",
+   "page": "p. 65"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill; other intangibles Rs 0.80 m.",
+   "page": "p. 64"
+  },
+  {
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 200.17 m = 4.3% of net worth, of which Rs 182.63 m is a bank guarantee.",
+   "page": "p. 67"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 79, 108-110",
+   "finding": "5:1 bonus on 08-Sep-2026 is reflected: EPS 14.39 and NAV 37.16 (= Rs 4,657.51 m / 125,344,092 shares) are on the post-bonus count."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "FAIL",
+   "page": "p. 66",
+   "finding": "Operating cash flow negative in all three years: -2,165.17 / -30.49 / -115.67 (Rs m, FY26/25/24) against PAT 1,733.42 / 633.31 / 273.62. Cumulative CFO/PAT = -87.5%. Inventory build of Rs 3,390.55 m in FY26 alone."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 65",
+   "finding": "Current tax Rs 620.00 m on PBT Rs 2,324.04 m (26.7%); cumulative current tax 26.9% of cumulative PBT. Profit is taxed in cash."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "WATCH",
+   "page": "pp. 68-70",
+   "finding": "Slump-sale purchase of the gold jewellery undertaking of promoter-interested Royal Italian Jewellery Pvt Ltd for Rs 466.20 m (FY25), plus Rs 342.50 m unsecured loan taken from it in FY26. Aalishaan Jewels LLP (KMP influence; subsidiary with 99% profit share from 01-Apr-2026) = 5.06% of FY26 sales and 4.38% of purchases."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "p. 95",
+   "finding": "Fresh issue is amount-based (Rs 8,500 m), no fixed share count, so no objects price floor. Rs 6,500 m repays debt, balance GCP (cap 25% of gross) and offer expenses."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "p. 64",
+   "finding": "No goodwill; other intangibles Rs 0.80 m."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 30, 32",
+   "finding": "Demand side diversified: top-10 customers 22.32% of FY26 revenue (top customer is related party Aalishaan). Supply side concentrated: top-5 suppliers 56.98% and top-10 66.30% of FY26 COGS; no long-term supply agreements stated."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "PASS",
+   "page": "p. 67",
+   "finding": "Contingent liabilities Rs 200.17 m = 4.3% of net worth, of which Rs 182.63 m is a bank guarantee."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "p. 73",
+   "finding": "Auditor S. Mandanmal Mehta & Co resigned 16-Jul-2025 for lack of peer-review credentials; Jain V. & Co appointed (casual vacancy) 30-Jul-2025; KKC & Associates added as joint auditor 30-Jun-2026. Audit reports not reviewed in this pass."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "N.A.",
+   "page": "",
+   "finding": "Mainboard issue under Reg 6(1) (p. 375)."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "",
+   "finding": "BRLMs JM Financial and 360 ONE WAM: track record not yet compiled."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "N.A.",
+   "page": "p. 95",
+   "finding": "No capex object."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   2350.582,
+   3617.177,
+   4732.45
+  ],
+  "ebitda": [
+   63.616,
+   130.534,
+   288.229
+  ],
+  "pat": [
+   27.362,
+   63.331,
+   173.342
+  ],
+  "cfo": [
+   -11.567,
+   -3.049,
+   -216.517
+  ],
+  "ebitda_margin": [
+   0.0271,
+   0.0361,
+   0.0609
+  ],
+  "pat_margin": [
+   0.0116,
+   0.0175,
+   0.0366
+  ],
+  "inventory": [
+   264.143,
+   356.832,
+   695.887
+  ],
+  "receivables": [
+   71.426,
+   122.976,
+   231.342
+  ],
+  "payables": [
+   46.023,
+   28.564,
+   9.754
+  ],
+  "nwc": [
+   289.55,
+   451.24,
+   917.47
+  ],
+  "nwc_pct": [
+   0.1232,
+   0.1247,
+   0.1939
+  ],
+  "unit": "Rs crore",
+  "volume": [
+   4397.22,
+   5539.88,
+   4473.67
+  ],
+  "volume_unit": "kg sold (incl. bullion)"
+ },
+ "valuation": {
+  "reference": 147.33,
+  "floor": 147.33,
+  "cap": 147.33,
+  "reference_note": "Rs 147.33 (Dec-2025 pre-IPO placement, bonus-adjusted)",
+  "scenarios": {
+   "bear": {
+    "dcf": 40.4853,
+    "relative": 173.8984,
+    "blended": 93.8505,
+    "upside_floor": -0.363,
+    "upside_cap": -0.363
+   },
+   "neutral": {
+    "dcf": 69.4525,
+    "relative": 173.8984,
+    "blended": 111.2309,
+    "upside_floor": -0.245,
+    "upside_cap": -0.245
+   },
+   "bull": {
+    "dcf": 130.3883,
+    "relative": 173.8984,
+    "blended": 147.7924,
+    "upside_floor": 0.0031,
+    "upside_cap": 0.0031
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1578,
+  "tv_share": 0.8124,
+  "reverse": {
+   "sentence": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1578
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.10350063022300952,
+     "actual": 0.0558
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.1939
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   4732.45,
+   5584.291,
+   6421.9346,
+   7192.5668,
+   7911.8235,
+   8623.8876
+  ],
+  "ebitda": [
+   288.229,
+   251.2931,
+   288.9871,
+   323.6655,
+   356.0321,
+   388.0749
+  ],
+  "nopat": [
+   197.7211,
+   166.849,
+   191.8764,
+   214.9015,
+   236.3917,
+   257.6669
+  ],
+  "fcff": [
+   -273.8779,
+   19.2087,
+   28.6923,
+   64.7722,
+   96.271,
+   118.9474
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1378,
+    0.1478,
+    0.1578,
+    0.1678,
+    0.1778
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     83.1408,
+     83.9512,
+     84.8241,
+     85.7701,
+     86.8025
+    ],
+    [
+     75.3822,
+     75.8574,
+     76.3573,
+     76.8858,
+     77.4474
+    ],
+    [
+     68.9518,
+     69.2005,
+     69.4525,
+     69.7083,
+     69.9684
+    ],
+    [
+     63.5464,
+     63.6403,
+     63.7253,
+     63.8003,
+     63.8641
+    ],
+    [
+     58.9479,
+     58.9352,
+     58.907,
+     58.8613,
+     58.7962
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.13,
+    0.16,
+    0.19,
+    0.22,
+    0.25
+   ],
+   "cols": [
+    0.025,
+    0.035,
+    0.045,
+    0.055,
+    0.065
+   ],
+   "values": [
+    [
+     50.1653,
+     70.7692,
+     91.3731,
+     111.977,
+     132.5809
+    ],
+    [
+     39.205,
+     59.8089,
+     80.4128,
+     101.0167,
+     121.6206
+    ],
+    [
+     28.2448,
+     48.8486,
+     69.4525,
+     90.0564,
+     110.6603
+    ],
+    [
+     17.2845,
+     37.8884,
+     58.4923,
+     79.0961,
+     99.7
+    ],
+    [
+     6.3242,
+     26.9281,
+     47.532,
+     68.1359,
+     88.7398
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Sky Gold & Diamonds Ltd",
+   "pe": 43.959,
+   "pb": 10.1965,
+   "issuer": false
+  },
+  {
+   "name": "Shringar House of Mangalsutra Ltd",
+   "pe": 15.7159,
+   "pb": 3.0296,
+   "issuer": false
+  },
+  {
+   "name": "Shanti Gold International Ltd",
+   "pe": 15.344,
+   "pb": 3.9229,
+   "issuer": false
+  },
+  {
+   "name": "Royal Chain Limited at reference",
+   "pe": 15.5571,
+   "pb": 2.0495,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 99.99
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 20.01
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 180.0
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 200.0
+   },
+   {
+    "label": "Non-institutional",
+    "value": 150.0
+   },
+   {
+    "label": "Retail",
+    "value": 350.0
+   }
+  ],
+  "issue_cr": 1000.0,
+  "overhang": [
+   {
+    "label": "Pre-issue non-promoter: LMJF Capital Advisors LLP",
+    "shares_lakh": 73.3032,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter group (4 family members, 3.00 lakh each)",
+    "shares_lakh": 12.0,
+    "days": 180,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "JM Financial Limited",
+    "owner": "Promoted by the Kampani family: J M Financial & Investment Consultancy Services Pvt Ltd 24.77%, Nimesh Kampani 13.11%, J M Assets Management Pvt Ltd 11.36%, Aruna Kampani 2.82%, SNK Investments 1.95%, Vishal Kampani 1.36%; promoter group about 57% (June 2026)",
+    "listed": "Yes (NSE: JMFINANCIL)",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 16,
+      "amount_rs_m": 513059.44,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 3,
+      "d30_premium_lt25": 2
+     },
+     "FY2025-26": {
+      "ipos": 27,
+      "amount_rs_m": 675324.16,
+      "d30_discount_gt50": 1,
+      "d30_discount_25_50": 1,
+      "d30_discount_lt25": 10,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 9,
+      "d180_discount_25_50": 4,
+      "d180_discount_lt25": 8,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 6
+     },
+     "FY2024-25": {
+      "ipos": 13,
+      "amount_rs_m": 255434.1,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 5,
+      "d30_premium_25_50": 2,
+      "d30_premium_lt25": 1,
+      "d180_discount_gt50": 1,
+      "d180_discount_25_50": 3,
+      "d180_discount_lt25": 1,
+      "d180_premium_gt50": 4,
+      "d180_premium_25_50": 1,
+      "d180_premium_lt25": 2
+     }
+    },
+    "short": "JM"
+   },
+   {
+    "name": "360 ONE WAM Limited",
+    "owner": "Founded and led by Karan Bhagat (Vice-Chairman & MD); promoter group holds about 6.26% after reclassification of two promoters to public (2025); widely held by institutions",
+    "listed": "Yes (NSE: 360ONE)",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 3,
+      "amount_rs_m": 282284.59,
+      "d30_discount_lt25": 1,
+      "d30_premium_gt50": 1
+     },
+     "FY2025-26": {
+      "ipos": 1,
+      "amount_rs_m": 30000.0,
+      "d30_discount_lt25": 1,
+      "d180_discount_25_50": 1
+     },
+     "FY2024-25": {
+      "ipos": 0
+     }
+    },
+    "short": "360"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "National Stock Exchange of India Ltd",
+    "sector": "Stock exchange / market infrastructure",
+    "listing_gain": 0.0084,
+    "d30": null,
+    "rev_growth": 0.1232,
+    "pat_growth": 0.2256,
+    "listing_date": "2026-09-24"
+   },
+   {
+    "issuer": "Hero Motors Ltd",
+    "sector": "Auto components / EV powertrain",
+    "listing_gain": -0.0226,
+    "d30": null,
+    "rev_growth": 0.1165,
+    "pat_growth": 1.4175,
+    "listing_date": "2026-09-23"
+   },
+   {
+    "issuer": "Karamtara Engineering Ltd",
+    "sector": "Transmission towers & solar structures",
+    "listing_gain": 0.2598,
+    "d30": null,
+    "rev_growth": 0.778,
+    "pat_growth": 1.2284,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Asset Reconstruction Company (India) Ltd",
+    "sector": "Asset reconstruction / financial services",
+    "listing_gain": 0.0,
+    "d30": null,
+    "rev_growth": 0.3208,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Lumino Industries Ltd",
+    "sector": "Power conductors & cables",
+    "listing_gain": 0.3415,
+    "d30": null,
+    "rev_growth": 0.4504,
+    "pat_growth": 0.8476,
+    "listing_date": "2026-09-03"
+   },
+   {
+    "issuer": "Symbiotec Pharmalab Ltd",
+    "sector": "Pharma APIs (steroids & hormones)",
+    "listing_gain": -0.0099,
+    "d30": null,
+    "rev_growth": 0.2135,
+    "pat_growth": 0.0983,
+    "listing_date": "2026-09-01"
+   },
+   {
+    "issuer": "Augmont Enterprises Ltd",
+    "sector": "Gold & silver refining / bullion",
+    "listing_gain": 0.2195,
+    "d30": null,
+    "rev_growth": 1.6971,
+    "pat_growth": 3.5847,
+    "listing_date": "2026-08-31"
+   },
+   {
+    "issuer": "Tempsens Instruments (India) Ltd",
+    "sector": "Temperature sensors & instrumentation",
+    "listing_gain": 1.1133,
+    "d30": 0.7702,
+    "rev_growth": 0.6189,
+    "pat_growth": 0.7368,
+    "listing_date": "2026-08-28"
+   },
+   {
+    "issuer": "Gaja Alternative Asset Management Ltd",
+    "sector": "Alternative asset management",
+    "listing_gain": 0.1562,
+    "d30": -0.0879,
+    "rev_growth": 0.5179,
+    "pat_growth": 0.8319,
+    "listing_date": "2026-08-26"
+   },
+   {
+    "issuer": "Horizon Industrial Parks Ltd",
+    "sector": "Industrial & warehousing parks",
+    "listing_gain": 0.0042,
+    "d30": -0.1207,
+    "rev_growth": 2.1274,
+    "pat_growth": null,
+    "listing_date": "2026-08-24"
+   },
+   {
+    "issuer": "Dhoot Transmission Ltd",
+    "sector": "Auto wiring harnesses",
+    "listing_gain": 0.3777,
+    "d30": 0.7863,
+    "rev_growth": 0.6174,
+    "pat_growth": 0.3283,
+    "listing_date": "2026-08-17"
+   },
+   {
+    "issuer": "WeWork India Management Ltd",
+    "sector": "Flexible workspace",
+    "listing_gain": 0.0031,
+    "d30": -0.0248,
+    "rev_growth": 0.4077,
+    "pat_growth": null,
+    "listing_date": "2025-10-10"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "Revenue CAGR 41.9%, PAT CAGR 151.7% FY24-26 (p. 65)",
+   "Cash tax 26.9% of PBT (p. 65)",
+   "Top-10 customers only 22.32% of revenue (p. 32)",
+   "Supplies leading organised retailers (p. 107)",
+   "Contingent liabilities 4.3% of net worth (p. 67)"
+  ],
+  "weaknesses": [
+   "CFO negative all three years; CFO/PAT -87.5% (p. 66)",
+   "Volume +1.7% vs revenue/kg +97.9% (p. 190)",
+   "Inventory Rs 6,958.87 m, +95% in FY26 (p. 64)",
+   "Top-5 suppliers 56.98% of COGS (p. 30)",
+   "Auditor change in 2025 (p. 73)"
+  ],
+  "opportunities": [
+   "Organised B2B segment 18.5% CAGR (issuer-commissioned report, p. 190)",
+   "~67% spare capacity (p. 111)",
+   "Broader range via Aalishaan (p. 190)",
+   "Lower interest after Rs 6,500 m repayment (p. 95)"
+  ],
+  "threats": [
+   "Gold-price fall would reverse inventory gains",
+   "On-demand working-capital debt; Rs 8,204 m at Aug-26 (p. 96)",
+   "Related-party dealings (pp. 68-70)",
+   "B2B customer bargaining power"
+  ]
+ },
+ "counts": {
+  "fail": 1,
+  "watch": 3,
+  "pass": 4,
+  "open": 5
+ }
+}

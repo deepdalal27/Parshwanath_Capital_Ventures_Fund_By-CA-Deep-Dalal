@@ -59,5 +59,44 @@
     "Related party Aalishaan: 5.06% of FY26 sales; subsidiary from Apr-26"
   ],
   "status": "analysed",
-  "reference_note": "Rs 147.33 (Dec-2025 pre-IPO placement, bonus-adjusted)"
+  "reference_note": "Rs 147.33 (Dec-2025 pre-IPO placement, bonus-adjusted)",
+  "swot": {
+    "strengths": [
+      "Revenue CAGR 41.9%, PAT CAGR 151.7% FY24-26 (p. 65)",
+      "Cash tax 26.9% of PBT (p. 65)",
+      "Top-10 customers only 22.32% of revenue (p. 32)",
+      "Supplies leading organised retailers (p. 107)",
+      "Contingent liabilities 4.3% of net worth (p. 67)"
+    ],
+    "weaknesses": [
+      "CFO negative all three years; CFO/PAT -87.5% (p. 66)",
+      "Volume +1.7% vs revenue/kg +97.9% (p. 190)",
+      "Inventory Rs 6,958.87 m, +95% in FY26 (p. 64)",
+      "Top-5 suppliers 56.98% of COGS (p. 30)",
+      "Auditor change in 2025 (p. 73)"
+    ],
+    "opportunities": [
+      "Organised B2B segment 18.5% CAGR (issuer-commissioned report, p. 190)",
+      "~67% spare capacity (p. 111)",
+      "Broader range via Aalishaan (p. 190)",
+      "Lower interest after Rs 6,500 m repayment (p. 95)"
+    ],
+    "threats": [
+      "Gold-price fall would reverse inventory gains",
+      "On-demand working-capital debt; Rs 8,204 m at Aug-26 (p. 96)",
+      "Related-party dealings (pp. 68-70)",
+      "B2B customer bargaining power"
+    ]
+  },
+  "counts": {
+    "fail": 1,
+    "watch": 3,
+    "pass": 4,
+    "open": 5
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ]
 }

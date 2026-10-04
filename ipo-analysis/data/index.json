@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T15:52Z",
+  "updated": "2026-10-04T16:11Z",
   "issuers": [
     {
       "slug": "royal-chain-ltd",
@@ -24,6 +24,17 @@
       ],
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/royal-chain-limited-drhp_104015.html",
       "status": "analysed",
+      "counts": {
+        "fail": 1,
+        "watch": 3,
+        "pass": 4,
+        "open": 5
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
       "neutral": {
         "dcf": 69.4525,
         "relative": 173.8984,
