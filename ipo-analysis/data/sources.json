@@ -1,13 +1,15 @@
 {
   "max_per_run": 2,
-  "scan_from": "2026-10-01",
+  "scan_from": "2026-09-25",
   "sources": [
     {
       "name": "SEBI - Draft offer documents filed with SEBI (mainboard DRHPs)",
       "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=10",
       "platform": "Mainboard",
       "enabled": true,
-      "verified": false
+      "verified": true,
+      "verified_on": "2026-10-04",
+      "note": "Listing works with plain HTTP. Filing pages embed the PDF as web/?file=<pdf url>."
     },
     {
       "name": "SEBI - Red herring documents filed with RoC (mainboard RHPs)",
@@ -28,7 +30,8 @@
       "url": "https://www.nseindia.com/ (Emerge > Issues > Offer documents)",
       "platform": "SME",
       "enabled": true,
-      "verified": false
+      "verified": false,
+      "note": "nseindia.com returns 403 to plain HTTP clients (bot protection, 04-Oct-2026); try a real browser."
     }
   ]
 }
