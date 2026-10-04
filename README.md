@@ -10,33 +10,21 @@ Open `index.html` in a browser and it works.
 
 ## ⚠️ Before you publish
 
-### 1. Add the three image files (required)
+### 1. Images (done)
 
-The site is wired for real imagery but the files are not in the repo yet. Drop them in at
-these exact paths and they appear automatically — no code change needed:
-
-| Path | What | Notes |
-|---|---|---|
-| `assets/img/mark.png` | Logo emblem for the navbar | **Square, emblem only** — no ring text. Renders at 34×34, so the circular badge with "PARSHWANATH CAPITAL VENTURES FUND" around it will be illegible. Crop to just the central figure. Transparent PNG or SVG. |
-| `assets/img/deep-dalal.jpg` | Portrait of CA Deep Dalal | Portrait crop, ideally 4:5. Displayed at ~800×1000. |
-| `assets/img/jignesh-shah.jpg` | Portrait of Jignesh Shah | Same treatment. |
-
-Until a file exists, the slot **degrades gracefully rather than breaking**: the navbar keeps
-its built-in SVG mark and the portraits show a monogram plate. The images are transparent
-until they fire `load`, so a missing file never shows a broken-image icon. Verified both ways.
-
-Your full circular badge logo is still worth keeping for social/OG images and print — it is
-just the wrong shape for a 34px navbar slot.
+`assets/img/mark.png` (navbar emblem cropped from the logo), `assets/img/deep-dalal.jpg` and
+`assets/img/jignesh-shah.jpg` (4:5 portraits, 800x1000) are in place. Stylesheet, script and icons live
+in `assets/css/`, `assets/js/` and `assets/img/`, where every page expects them.
 
 ### 2. Replace remaining placeholders
 
 | Placeholder | Where | Replace with |
 |---|---|---|
-| Jignesh Shah biography | `about.html` — marked with a visible "Biography to be added" notice | The Sponsor's real professional profile |
+| Jignesh Shah biography | `about.html` — currently a role-based description only | The Sponsor's full professional profile, when available |
 | `fundmanager@parshwanath.in` used as the **compliance/grievance** address | `governance.html`, `legal.html`, `contact.html` | A dedicated compliance officer mailbox, if you have one. SEBI expects a named grievance contact — right now everything routes to the Fund Manager. |
 | Custodian, fund accountant/registrar, statutory auditor rows | `about.html`, `fund.html` | Named service providers. Only the trustee (Axis Trustee Services Limited) is named, because only that was supplied. |
 | Management fee, performance fee, hurdle, lock-in, notice periods | `fund.html` | Actual figures from your PPM. Currently written as "as set out in the PPM". |
-| Insight article links (`href="#"`) | `insights.html` | Real article pages or PDFs. Titles and summaries are drafted; the articles themselves are not written. |
+| Insight articles | `insights.html` — cards are summaries without links | Turn a card back into a link (`<a class="insight" href="...">`) when its article is published |
 | `https://parshwanath.in/` | canonical + `og:` tags, `robots.txt`, `sitemap.xml` | Confirm this is the live domain. |
 
 Find them:
