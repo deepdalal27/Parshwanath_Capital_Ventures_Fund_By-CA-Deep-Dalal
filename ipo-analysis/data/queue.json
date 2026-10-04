@@ -1,1 +1,77 @@
-{"last_scan": null, "pending": []}
+{
+  "last_scan": "2026-10-04T15:30Z",
+  "pending": [
+    {
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Ekkaa Electronics (India) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Arohan Financial Services Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arohan-financial-services-limited-addendum-to-drhp_104860.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Koolking Industries (India) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited_104848.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "Sai Infinium Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sai-infinium-limited_104850.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "J Infratech Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/j-infratech-limited_104846.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "AITMC Ventures Limited",
+      "platform": "Mainboard",
+      "stage": "UDRHP-I",
+      "filed_on": "2026-09-30",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aitmc-ventures-limited-udrhp-i_104864.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "J B Ecotex Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-09-30",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/j-b-ecotex-limited_104830.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    }
+  ]
+}

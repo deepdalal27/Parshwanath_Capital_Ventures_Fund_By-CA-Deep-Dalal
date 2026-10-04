@@ -5,6 +5,7 @@ checks plus regulatory checks, the twelve analyst work blocks, a data-gaps regis
 and a scorecard. All sample values are ILLUSTRATIVE.
 """
 import datetime as dt
+import re
 
 from openpyxl import Workbook
 from openpyxl.styles import Alignment
@@ -164,6 +165,10 @@ def build(path, facts=None):
     for i, (lab, f, fmt, thr, op, ref) in enumerate(metrics):
         rr = m0 + 2 + i
         qm[f"B{rr}"] = lab
+        # A metric built on a blank single-period input is a data gap, not a zero: show it blank.
+        need = sorted(set(re.findall(r"\$E\$(\d+)", f)))
+        if need:
+            f = '=IF(OR(' + ",".join(f"ISBLANK($E${n})" for n in need) + '),"",' + f[1:] + ")"
         put(qm, f"C{rr}", f, "calc", fmt)
         if thr is not None:
             put(qm, f"D{rr}", thr, "input", fmt)

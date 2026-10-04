@@ -1,0 +1,61 @@
+{
+  "slug": "royal-chain-ltd",
+  "files": {
+    "screening": "ROYAL_CHAIN_LTD_01_Screening.xlsx",
+    "anchor": "ROYAL_CHAIN_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "ROYAL_CHAIN_LTD_03_Valuation.xlsx",
+    "note": "note.md"
+  },
+  "model": {
+    "bear": {
+      "dcf": 40.4853,
+      "relative": 173.8984,
+      "blended": 93.8505,
+      "upside_floor": -0.363,
+      "upside_cap": -0.363
+    },
+    "neutral": {
+      "dcf": 69.4525,
+      "relative": 173.8984,
+      "blended": 111.2309,
+      "upside_floor": -0.245,
+      "upside_cap": -0.245
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -60.1% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 130.3883,
+      "relative": 173.8984,
+      "blended": 147.7924,
+      "upside_floor": 0.0031,
+      "upside_cap": 0.0031
+    }
+  },
+  "analysed_on": "2026-10-04",
+  "company": "Royal Chain Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-28",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/royal-chain-limited-drhp_104015.html",
+  "sector": "B2B gold jewellery manufacturing",
+  "brlm": "JM Financial; 360 ONE WAM",
+  "issue_size_cr": 1000,
+  "price_band": "Not announced (ref. Rs 147.33)",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "Profit rose 6.3x in two years, but operating cash flow was negative in every year (-Rs 2,165 m in FY26) as inventory doubled; Rs 6,500 m of the Rs 8,500 m fresh issue repays debt.",
+  "red_flags": [
+    "Cumulative CFO -Rs 2,311 m vs PAT Rs 2,640 m, FY24-FY26 (CFO/PAT -87.5%)",
+    "Inventory Rs 6,959 m at Mar-26, up 95% in a year; each Rs 1 of new revenue needed Rs 0.42 of working capital",
+    "Production fell 4,491 kg to 4,005 kg (FY24-FY26) while revenue doubled; ~33% of 12,000 kg capacity used",
+    "Related party Aalishaan Jewels LLP: 5.06% of FY26 sales, 4.38% of purchases; top customer; subsidiary from Apr-26",
+    "Borrowings rose to Rs 8,204 m by 31-Aug-26 from Rs 5,602 m at Mar-26",
+    "Auditor resigned Jul-25 (no peer review); two auditor appointments since"
+  ],
+  "status": "analysed"
+}

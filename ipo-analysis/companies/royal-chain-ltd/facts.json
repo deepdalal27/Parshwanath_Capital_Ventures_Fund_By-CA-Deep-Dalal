@@ -1,0 +1,82 @@
+{
+  "_source": "Royal Chain Limited DRHP dated 28-Sep-2026 (SEBI filing 01-Oct-2026). Rs crore = Rs million / 10. Printed page = PDF page - 4. Restated standalone financials.",
+  "screening": {
+    "basis": {"name": "Royal Chain Limited", "platform": "Mainboard", "stage": "DRHP", "doc_date": "2026-09-28",
+              "aud_to": "2026-03-31", "band": "No", "brlm": "JM Financial Limited; 360 ONE WAM Limited",
+              "outside": "none (all figures from the DRHP)", "bid_cat": "Anchor", "exit": "2-3 year hold (assumed)"},
+    "items": {
+      "rev":   [2350.582, 3617.177, 4732.450, null],
+      "oth":   [3.928, 3.826, 5.996, null],
+      "pbt":   [36.087, 86.987, 232.404, null],
+      "ctax":  [8.911, 24.651, 62.000, null],
+      "dtax":  [-0.186, -0.995, -2.938, null],
+      "pat":   [27.362, 63.331, 173.342, null],
+      "cfo":   [-11.567, -3.049, -216.517, null],
+      "rpt_s": [0.124, 65.832, 245.882, null],
+      "rpt_p": [22.133, 119.165, 207.814, null],
+      "nw":    [120.984, 184.220, 465.751, null],
+      "recv":  [71.426, 122.976, 231.342, null],
+      "inv":   [264.143, 356.832, 695.887, null],
+      "pay":   [46.023, 28.564, 9.754, null],
+      "cl":    [null, null, 20.017, null],
+      "gw":    [0.080, 0.076, 0.080, null]
+    },
+    "cites": {"rev": "p. 65", "oth": "p. 65", "pbt": "p. 65", "ctax": "p. 65", "dtax": "p. 65", "pat": "p. 65",
+              "cfo": "p. 66", "rpt_s": "pp. 68-70", "rpt_p": "pp. 68-70", "nw": "p. 64", "recv": "p. 64",
+              "inv": "p. 64", "pay": "p. 64", "cl": "p. 67", "gw": "p. 64"},
+    "single": {"top1c": 0.0506, "top10c": 0.2232},
+    "checks": {
+      "1":  {"status": "PASS", "page": "pp. 79, 108-110", "finding": "5:1 bonus on 08-Sep-2026 is reflected: EPS 14.39 and NAV 37.16 (= Rs 4,657.51 m / 125,344,092 shares) are on the post-bonus count."},
+      "2":  {"status": "FAIL", "page": "p. 66", "finding": "Operating cash flow negative in all three years: -2,165.17 / -30.49 / -115.67 (Rs m, FY26/25/24) against PAT 1,733.42 / 633.31 / 273.62. Cumulative CFO/PAT = -87.5%. Inventory build of Rs 3,390.55 m in FY26 alone."},
+      "3":  {"status": "PASS", "page": "p. 65", "finding": "Current tax Rs 620.00 m on PBT Rs 2,324.04 m (26.7%); cumulative current tax 26.9% of cumulative PBT. Profit is taxed in cash."},
+      "4":  {"status": "WATCH", "page": "pp. 68-70", "finding": "Slump-sale purchase of the gold jewellery undertaking of promoter-interested Royal Italian Jewellery Pvt Ltd for Rs 466.20 m (FY25), plus Rs 342.50 m unsecured loan taken from it in FY26. Aalishaan Jewels LLP (KMP influence; subsidiary with 99% profit share from 01-Apr-2026) = 5.06% of FY26 sales and 4.38% of purchases."},
+      "5":  {"status": "N.A.", "page": "p. 95", "finding": "Fresh issue is amount-based (Rs 8,500 m), no fixed share count, so no objects price floor. Rs 6,500 m repays debt, balance GCP (cap 25% of gross) and offer expenses."},
+      "7":  {"status": "PASS", "page": "p. 64", "finding": "No goodwill; other intangibles Rs 0.80 m."},
+      "8":  {"status": "WATCH", "page": "pp. 30, 32", "finding": "Demand side diversified: top-10 customers 22.32% of FY26 revenue (top customer is related party Aalishaan). Supply side concentrated: top-5 suppliers 56.98% and top-10 66.30% of FY26 COGS; no long-term supply agreements stated."},
+      "9":  {"status": "PASS", "page": "p. 67", "finding": "Contingent liabilities Rs 200.17 m = 4.3% of net worth, of which Rs 182.63 m is a bank guarantee."},
+      "10": {"status": "N.A.", "page": "", "finding": "No investor presentation reviewed."},
+      "R1": {"status": "WATCH", "page": "p. 73", "finding": "Auditor S. Mandanmal Mehta & Co resigned 16-Jul-2025 for lack of peer-review credentials; Jain V. & Co appointed (casual vacancy) 30-Jul-2025; KKC & Associates added as joint auditor 30-Jun-2026. Audit reports not reviewed in this pass."},
+      "R5": {"status": "N.A.", "page": "", "finding": "Mainboard issue under Reg 6(1) (p. 375)."},
+      "R6": {"status": "OPEN", "page": "", "finding": "BRLMs JM Financial and 360 ONE WAM: track record not yet compiled."},
+      "R7": {"status": "N.A.", "page": "p. 95", "finding": "No capex object."}
+    },
+    "gaps": [
+      {"item": "Offer expenses and GCP amount", "severity": "Medium", "source": "RHP"},
+      {"item": "Top-1 supplier share of purchases", "severity": "Medium", "source": "RHP / issuer"},
+      {"item": "Revaluation reserve and other-equity breakdown not reviewed", "severity": "Low", "source": "DRHP note on other equity"},
+      {"item": "Promoter WACA per selling shareholder (post-bonus)", "severity": "Low", "source": "DRHP cover / capital structure"},
+      {"item": "Audit report qualifications, CARO remarks", "severity": "Medium", "source": "DRHP restated financial information"},
+      {"item": "BRLM track record", "severity": "Medium", "source": "BSE / NSE listing data"}
+    ]
+  },
+  "anchor": {
+    "inputs": {"name": "Royal Chain Limited", "board": "Mainboard", "issue": 1000, "emp": 0, "shr": 0,
+               "qib_pct": 0.50, "nii_pct": 0.15, "rii_pct": 0.35, "anc_pct": 0.60, "mf_anc": 0.3333, "ins_anc": 0.0667},
+    "overhang": [
+      ["Pre-issue non-promoter: LMJF Capital Advisors LLP", 73.3032, 180, "pp. 79-80; 6 months - confirm in RHP"],
+      ["Promoter group (4 family members, 3.00 lakh each)", 12.00, 180, "p. 80; confirm in RHP"]
+    ]
+  },
+  "valuation": {
+    "inputs": {"name": "Royal Chain Limited", "basis": "Standalone", "pre_sh": 12.5344092, "esop": 0, "fresh": 850,
+               "fresh_sh_fixed": 0, "floor": 147.33, "cap": 147.33, "obj_net": 650, "ipo_capex": 0,
+               "rev0": 4732.450, "rev_prev": 3617.177, "ebitda0": 288.229, "da0": 24.002, "pat0": 173.342,
+               "nw0": 465.751, "nd0": 593.926, "nwc0": 917.475, "nwc_prev": 451.244, "capex0": 29.370,
+               "csp": 0.02, "kd": 0.0815},
+    "drivers": {
+      "g1": [0.08, 0.18, 0.25], "g2": [0.07, 0.15, 0.20], "g3": [0.06, 0.12, 0.16], "g4": [0.06, 0.10, 0.13],
+      "g5": [0.05, 0.09, 0.11], "m": [0.036, 0.045, 0.060], "nwc": [0.22, 0.19, 0.15], "roic": [0.12, 0.16, 0.20]
+    },
+    "rationale": {
+      "g1": "FY25 +53.88%, FY26 +30.83% (p. 111) but production fell 4,491 to 4,005 kg (p. 111): growth was gold price and traded stock, not volume. Bear assumes gold flat and no volume gain; Bull assumes volume uses spare capacity (12,000 kg, ~33% utilised).",
+      "m": "EBITDA margin 2.71% / 3.61% / 6.09% FY24-26 (p. 111). FY26 lifted by a rising gold price on a doubled inventory. Bear = FY25 level; Neutral ~3-yr average; Bull holds FY26.",
+      "nwc": "Trade NWC (inventory + receivables - payables) 12.3% / 12.5% / 19.4% of revenue FY24-26 (p. 64).",
+      "roic": "RoCE 24.56% FY26 on the issuer's own definition (p. 111); terminal set below it."
+    },
+    "peers": [
+      ["Sky Gold & Diamonds Ltd (per share)", "Y", "B2B gold jewellery maker - issuer's peer, p. 110", "Standalone", 793.90, 1, null, null, null, 18.06, 77.86, null],
+      ["Shringar House of Mangalsutra Ltd (per share)", "Y", "B2B gold jewellery maker - issuer's peer, p. 110", "Standalone", 212.95, 1, null, null, null, 13.55, 70.29, null],
+      ["Shanti Gold International Ltd (per share)", "Y", "B2B gold jewellery maker - issuer's peer, p. 110", "Standalone", 325.60, 1, null, null, null, 21.22, 83.00, null]
+    ]
+  }
+}
