@@ -1,6 +1,6 @@
 # LinkedIn daily post - Parshwanath Capital Ventures Fund
 
-Every day at **12:00 PM IST** a GitHub Actions job posts to the Fund's LinkedIn Company Page:
+Every day at **12:00 PM IST** a scheduled Claude routine posts to the Fund's LinkedIn Company Page:
 
 | Day | Post |
 |---|---|
@@ -11,64 +11,55 @@ Each post is a 1080x1350 image with the **Fund logo at the top** and the **addre
 (*D-3/A, 2nd Floor, Nikumbh Complex, Bh. National Handloom, CG Road, Ellisbridge, Ahmedabad*), plus a
 caption that ends with the address, SEBI registration and the disclaimer.
 
-## How it works
+## How it works (free mode)
 
-1. `06:05 UTC` (11:35 IST): the workflow `.github/workflows/linkedin-daily-post.yml` starts.
-2. Claude does the research with web search, then writes the post following `POSTING_RULES.md`.
-3. `autopost/render.py` draws the branded image using `../Logo.jpeg` (and, for quotes, the Fund Manager's photo). If a market
-   post has no complete verified data set, the chart is left out rather than guessed.
-4. The image is uploaded to LinkedIn. The job waits until 12:00 IST, then publishes.
-5. The post is added to `data/history.json`, so the job never posts twice in a day and avoids repeating quotes.
-   The image and text are saved as a workflow artifact for your records.
+There is **no paid API key**. A scheduled **Claude Code routine** on your Claude plan does the work, the
+same way the IPO-analysis routine runs:
+
+1. About **11:20 IST** every day the routine starts a Claude session on this repository and follows
+   `ROUTINE.md`.
+2. Claude researches with web search and writes the post as `out/post.json`, following `POSTING_RULES.md`.
+3. `autopost/render.py` draws the branded image using `../Logo.jpeg` (and, for quotes, the Fund Manager's
+   photo). Claude looks at the image before posting. If a market post has no complete verified data set, the
+   chart is left out rather than guessed.
+4. `run.py` uploads the image to LinkedIn, waits until **12:00 IST**, then publishes.
+5. The post is recorded in `data/history.json` on the `linkedin-history` branch, so the routine never
+   posts twice in a day and avoids repeating quotes.
+
+The GitHub Actions workflow (`.github/workflows/linkedin-daily-post.yml`) is the paid alternative. It
+calls the Claude API itself and needs an `ANTHROPIC_API_KEY` secret, so its schedule is switched off.
 
 ## One-time setup
 
-### 1. LinkedIn app (to post as the Company Page)
+### 1. LinkedIn app (to post as the Company Page) - free
 
 1. Go to <https://www.linkedin.com/developers/apps> and create an app. Link it to the
    Parshwanath Capital Ventures Fund page and verify it from the page's admin account.
 2. Under **Products**, request **Community Management API**. LinkedIn reviews this; it is what allows
    posting as a page (scope `w_organization_social`). Posting does not work until it is approved.
-3. Under **Auth**, add a redirect URL (for example `https://parshwanath.in/`), and note the
-   **Client ID** and **Client Secret**.
-4. Get a token while signed in as a **page admin**. Open this in a browser (put in your Client ID):
-
-   ```
-   https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=CLIENT_ID&redirect_uri=https%3A%2F%2Fparshwanath.in%2F&scope=w_organization_social%20r_organization_social
-   ```
-
-   Approve. You are redirected to `https://parshwanath.in/?code=...`. Copy the `code` value and exchange it
-   within a few minutes:
-
-   ```bash
-   curl -X POST https://www.linkedin.com/oauth/v2/accessToken \
-     -d grant_type=authorization_code -d code=CODE \
-     -d redirect_uri=https://parshwanath.in/ \
-     -d client_id=CLIENT_ID -d client_secret=CLIENT_SECRET
-   ```
-
-   The reply contains `access_token` (valid for 60 days) and, once your app has refresh tokens enabled,
-   `refresh_token` (valid for 1 year).
-5. **Organization ID**: open the page's admin view. The URL is `linkedin.com/company/<NUMBER>/admin/`.
+3. Get a token while signed in as a **page admin**: open
+   <https://www.linkedin.com/developers/tools/oauth/token-generator>, pick your app, tick
+   `w_organization_social`, click **Request access token** and approve. Copy the token it shows
+   (valid for 60 days; repeat this step every ~2 months).
+4. **Organization ID**: open the page's admin view. The URL is `linkedin.com/company/<NUMBER>/admin/`.
    That number is the ID.
 
-### 2. GitHub secrets
+### 2. Claude cloud environment settings
 
-In the repository, open **Settings → Secrets and variables → Actions → New repository secret** and add:
+In Claude Code on the web, open the **cloud environment menu in the session's title bar → Edit**:
 
-| Secret | Value |
-|---|---|
-| `ANTHROPIC_API_KEY` | Claude API key from <https://console.anthropic.com> |
-| `LINKEDIN_ORG_ID` | The page's numeric ID |
-| `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET`, `LINKEDIN_REFRESH_TOKEN` | Recommended. A fresh access token is fetched on every run, so it keeps working for a year |
-| `LINKEDIN_ACCESS_TOKEN` | Alternative to the three above. Expires after 60 days, so replace it before then |
+- **Network access**: choose **Custom**, keep the default package-manager list, and add these allowed
+  domains: `api.linkedin.com`, `www.linkedin.com`. (LinkedIn is blocked by default.)
+- **Environment variables**: add
+  `LINKEDIN_ORG_ID=<the number from step 1.4>` and
+  `LINKEDIN_ACCESS_TOKEN=<the token from step 1.3>`.
 
-### 3. Test it
+Never paste the token into a chat; put it only in the environment settings.
 
-**Actions → LinkedIn daily post → Run workflow**, keeping *Preview only* ticked. When it finishes, download
-the artifact to see the image and caption. Nothing is posted. To post now, untick *Preview only*.
+### 3. Merge the pull request
 
-After that, it runs every day by itself.
+Merge the PR into `main` so the routine finds this folder. Until LinkedIn is set up, each run still
+makes the day's image and caption and reports what is missing, so you can post by hand.
 
 ## Changing things
 
@@ -76,18 +67,18 @@ After that, it runs every day by itself.
 |---|---|
 | Tone, topics, compliance rules | `POSTING_RULES.md` |
 | Which day gets which type, hashtags, address, disclaimer, model | `config.json` |
-| Post time | `post_time` in `config.json` **and** the cron line in the workflow (start it about 25 min earlier, in UTC) |
+| Post time | `post_time` in `config.json` **and** the routine's schedule (start it about 40 min earlier) |
 | Image design | `autopost/render.py`, then preview with `python -m autopost.render` |
 | Photo or name on quote posts | Replace `assets/deep-dalal-fund-manager.jpg`, or edit `presenter` in `config.json` |
-| Pause posting | Actions → LinkedIn daily post → ⋯ → Disable workflow |
+| Pause posting | Turn off the "LinkedIn daily post" routine in Claude Code's Routines list |
 
 ## Notes
 
 - **Compliance:** the rules forbid stock tips, return promises, fund solicitation and invented figures.
   Market figures must come from the day's web search, and the sources are saved in `data/history.json`.
   Have your compliance officer review `POSTING_RULES.md` and the disclaimer in `config.json` once.
-- **Timing:** GitHub sometimes starts scheduled jobs late. The job starts 25 minutes early to absorb this.
-  If GitHub starts it after 12:00, the post goes out as soon as it is ready.
+- **Timing:** the routine starts about 40 minutes early so research is done by noon. If it is ever late,
+  the post goes out as soon as it is ready.
 - **LinkedIn API version:** `linkedin_api_version` in `config.json` (format `YYYYMM`). LinkedIn retires
   versions after about a year. If posting starts failing with a version error, set it to a recent month.
-- **Cost:** about two Claude API calls a day, plus a few web searches.
+- **Cost:** free mode uses your Claude plan's usage (one session a day); LinkedIn and GitHub are free.
