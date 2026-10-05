@@ -1,0 +1,77 @@
+name: LinkedIn daily post
+
+on:
+  schedule:
+    # 06:05 UTC = 11:35 IST. The job writes the post, then waits and publishes at 12:00 IST.
+    # (GitHub can start scheduled jobs late; starting early keeps the post on time.)
+    - cron: "5 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only (do not post)"
+        type: boolean
+        default: true
+      kind:
+        description: "Override content type"
+        type: choice
+        options: [schedule, market, quote]
+        default: schedule
+
+permissions:
+  contents: write
+
+concurrency:
+  group: linkedin-daily-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    defaults:
+      run:
+        working-directory: linkedin-autopost
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: |
+          sudo apt-get install -y -q fonts-dejavu-core fonts-liberation >/dev/null
+          pip install -q -r requirements.txt
+
+      - name: Generate and post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+          LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+          LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+            [ "${{ inputs.kind }}" != "schedule" ] && ARGS="$ARGS --kind ${{ inputs.kind }}"
+            ARGS="$ARGS --no-wait"
+          fi
+          python run.py $ARGS
+
+      - name: Save image and text
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkedin-post-${{ github.run_id }}
+          path: linkedin-autopost/out/
+          if-no-files-found: ignore
+
+      - name: Record in history
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.json
+          git diff --cached --quiet || { git commit -m "LinkedIn: record post for $(TZ=Asia/Kolkata date +%F)"; git pull --rebase -q && git push; }
