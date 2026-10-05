@@ -97,7 +97,7 @@ def main():
 
     os.makedirs(OUT, exist_ok=True)
     png = render(post, cfg, os.path.join(HERE, "..", cfg["logo"]), now.strftime("%d %b %Y").upper(),
-                 os.path.join(OUT, f"{today}.png"))
+                 os.path.join(OUT, f"{today}.png"), os.path.join(HERE, cfg["presenter"]["photo"]))
     caption, tags = build_caption(post, cfg)
     with open(os.path.join(OUT, f"{today}.json"), "w", encoding="utf-8") as f:
         json.dump({**post, "final_caption": caption, "final_hashtags": tags}, f, indent=2, ensure_ascii=False)

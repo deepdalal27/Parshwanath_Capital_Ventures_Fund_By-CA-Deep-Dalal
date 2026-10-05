@@ -35,8 +35,16 @@ family offices.
 - Use the latest completed trading session or the past week. Say which date the data is for.
 - Structure: one clear headline, 3 data-backed observations, then one "what it means for a
   long-term investor" takeaway that is about process and risk, not a trade.
+- Every market post carries visuals: 3 stat tiles (e.g. Nifty 50 level and weekly change, FII flow,
+  10-year yield or INR) and one chart - a bar chart comparing 3-8 figures for the same period
+  (sector moves, FII vs DII flows, large/mid/small-cap returns) or a line chart of 4-12 daily closes.
+  Chart numbers follow rule 4: only verified figures, with the source named under the chart.
 
 ## Investing quote posts
+
+- The image always shows the photo of CA Deep Dalal with the name card "CA Deep Dalal, Fund
+  Manager" (the script adds these). The quote itself is always credited to the person who
+  actually said it, never to CA Deep Dalal unless it is his own documented statement.
 
 - A quote on investing, patience, risk, compounding, behaviour or business quality
   (e.g. Buffett, Munger, Graham, Lynch, Fisher, Marks, Bogle, Templeton, Rakesh Jhunjhunwala,

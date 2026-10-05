@@ -4,8 +4,8 @@ Every day at **12:00 PM IST** a GitHub Actions job posts to the Fund's LinkedIn 
 
 | Day | Post |
 |---|---|
-| Mon, Wed, Fri | **Market analysis**: Claude searches the web for the latest Indian market data (Nifty/Sensex, sectors, FII/DII flows, INR, crude, yields, RBI) and writes 3 sourced observations plus a long-term takeaway |
-| Tue, Thu, Sat, Sun | **Investing quote**: a verified quote (never repeated within 120 days) with a short explanation for Indian investors |
+| Mon, Wed, Fri | **Market analysis**: Claude searches the web for the latest Indian market data (Nifty/Sensex, sectors, FII/DII flows, INR, crude, yields, RBI). The image carries 3 stat tiles, a chart (bar chart of sector/flow figures or line chart of daily closes, source named underneath) and 3 sourced observations |
+| Tue, Thu, Sat, Sun | **Investing quote**: a verified quote (never repeated within 120 days), credited to its real author, on a dark card with **CA Deep Dalal's photo and the name card "CA Deep Dalal, Fund Manager"** |
 
 Each post is a 1080x1350 image with the **Fund logo at the top** and the **address at the bottom**
 (*D-3/A, 2nd Floor, Nikumbh Complex, Bh. National Handloom, CG Road, Ellisbridge, Ahmedabad*), plus a
@@ -15,7 +15,8 @@ caption that ends with the address, SEBI registration and the disclaimer.
 
 1. `06:05 UTC` (11:35 IST): the workflow `.github/workflows/linkedin-daily-post.yml` starts.
 2. Claude does the research with web search, then writes the post following `POSTING_RULES.md`.
-3. `autopost/render.py` draws the branded image using `../Logo.jpeg`.
+3. `autopost/render.py` draws the branded image using `../Logo.jpeg` (and, for quotes, the Fund Manager's photo). If a market
+   post has no complete verified data set, the chart is left out rather than guessed.
 4. The image is uploaded to LinkedIn. The job waits until 12:00 IST, then publishes.
 5. The post is added to `data/history.json`, so the job never posts twice in a day and avoids repeating quotes.
    The image and text are saved as a workflow artifact for your records.
@@ -77,6 +78,7 @@ After that, it runs every day by itself.
 | Which day gets which type, hashtags, address, disclaimer, model | `config.json` |
 | Post time | `post_time` in `config.json` **and** the cron line in the workflow (start it about 25 min earlier, in UTC) |
 | Image design | `autopost/render.py`, then preview with `python -m autopost.render` |
+| Photo or name on quote posts | Replace `assets/deep-dalal-fund-manager.jpg`, or edit `presenter` in `config.json` |
 | Pause posting | Actions → LinkedIn daily post → ⋯ → Disable workflow |
 
 ## Notes
