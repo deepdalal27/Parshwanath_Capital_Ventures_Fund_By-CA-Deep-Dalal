@@ -1,0 +1,32 @@
+{
+  "fund_name": "Parshwanath Capital Ventures Fund",
+  "registration_line": "SEBI Registered Category III AIF | Reg. No. IN/AIF3/25-26/2108",
+  "address": "D-3/A, 2nd Floor, Nikumbh Complex, Bh. National Handloom, CG Road, Ellisbridge, Ahmedabad",
+  "website": "parshwanath.in",
+  "logo": "Logo.jpeg",
+  "disclaimer": "For information and education only. Not an offer, solicitation, recommendation or investment advice. Investments in securities market are subject to market risks. Read all the related documents carefully before investing.",
+
+  "timezone": "Asia/Kolkata",
+  "post_time": "12:00",
+
+  "schedule": {
+    "_comment": "Content type for each weekday. 'market' = market analysis, 'quote' = investing quote.",
+    "Monday": "market",
+    "Tuesday": "quote",
+    "Wednesday": "market",
+    "Thursday": "quote",
+    "Friday": "market",
+    "Saturday": "quote",
+    "Sunday": "quote"
+  },
+
+  "hashtags": {
+    "market": ["StockMarket", "Nifty", "IndianEconomy", "Investing", "AIF"],
+    "quote": ["InvestingWisdom", "ValueInvesting", "WealthCreation", "Investing", "AIF"]
+  },
+
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "linkedin_api_version": "202608",
+  "history_days_to_avoid_repeats": 120
+}
