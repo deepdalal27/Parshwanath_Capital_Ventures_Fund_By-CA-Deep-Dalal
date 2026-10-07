@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-04T15:30Z",
+  "last_scan": "2026-10-07T13:52Z",
   "pending": [
     {
       "company": "Jagatjit Agri Engineering Limited",
@@ -65,13 +65,355 @@
       "note": ""
     },
     {
-      "company": "J B Ecotex Limited",
+      "company": "INTEGRUM ENERGY INFRASTRUCTURE LIMITED",
       "platform": "Mainboard",
       "stage": "DRHP",
-      "filed_on": "2026-09-30",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/j-b-ecotex-limited_104830.html",
+      "filed_on": "2026-10-07",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/integrum-energy-infrastructure-limited-drhp_105075.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "PM CONA INDUSTRIES LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-06",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pm-cona-industries-limited_105041.html",
       "source": "SEBI",
       "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "Pentacle Consultants I Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-06",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pentacle-consultants-i-limited_105039.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "Pentacle Consultants (I) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-06",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pentacle-consultants-i-limited-drhp_105036.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Electromech Infraprojects Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/electromech-infraprojects-limited-drhp_105027.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Baanganga Gold & Diamond (I) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/baanganga-gold-and-diamond-i-limited-drhp_105025.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Inox Air Products Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-air-products-limited-drhp_105024.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "B S Sponge Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/b-s-sponge-limited-drhp_105023.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Everbrands India Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/everbrands-india-limited-drhp_105022.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Arete 22 Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arete-22-limited_105016.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "PES Installations Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pes-installations-limited-drhp_105018.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "DEON ENERGY LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/deon-energy-limited_105012.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "RATHOD JEWELLERY MANUFACTURING LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rathod-jewellery-manufacturing-limited_105014.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "Inox Clean Energy Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/inox-clean-energy-limited-drhp_105010.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "RUDRA GREEN SHIP RECYCLING LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/rudra-green-ship-recycling-limited_105008.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "Sanghvi Housing and Infrastructure Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sanghvi-housing-and-infrastructure-limited-drhp_105004.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Tenty Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tenty-limited-drhp_105006.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Tanvi Exports India Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tanvi-exports-india-limited-drhp_105002.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "NNT DEVELOPERS LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nnt-developers-limited-drhp_105000.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "KATALINE LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kataline-limited-drhp_104993.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "SHREEJIKRUPA PROJECT LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/shreejikrupa-project-limited-drhp_104991.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "PCI INFRAPROJECTS LIMITED",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/pci-infraprojects-limited-drhp_104989.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Anarock Property Consultants Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/anarock-property-consultants-limited-drhp_104988.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Kian-M Export Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited_104874.html",
+      "source": "SEBI",
+      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
+    },
+    {
+      "company": "HD Fire Protect Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-05",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-rhp_105058.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Nityas Gems and Jewellery Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-09-25",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/nityas-gems-and-jewellery-limited-rhp_105033.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Nityas Gems and Jewellery Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-07",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/nityas-gems-and-jewellery-limited-prospectus_105059.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Vishal Nirmiti Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-06",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/vishal-nirmiti-limited-prospectus_105057.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Sonaselection India Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sonaselection-india-limited-prospectus_104876.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Runwal Enterprises Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/runwal-enterprises-limited-prospectus_104856.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "SRIT India Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/srit-india-limited-prospectus_104852.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "A ONE Steels Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-01",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/a-one-steels-limited-prospectus_104844.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Adroit Industries (India) Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-30",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/adroit-industries-india-limited-prospectus_104835.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "German Green Steel and Power Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-30",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/german-green-steel-and-power-limited-prospectus_104824.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Rays of Belief Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-30",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/rays-of-belief-limited-prospectus_104816.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Acevector Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-29",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/acevector-limited-prospectus_104868.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Moneyview Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-29",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/moneyview-limited-prospectus_104787.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Swastika Infra Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-26",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/swastika-infra-limited-prospectus_104762.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Varmora Granito Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-09-25",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/varmora-granito-limited-prospectus_105055.html",
+      "source": "SEBI",
+      "note": ""
     }
   ]
 }

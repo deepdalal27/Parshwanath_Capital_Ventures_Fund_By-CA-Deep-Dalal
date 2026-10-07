@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T16:11Z",
+  "updated": "2026-10-07T14:08Z",
   "issuers": [
     {
       "slug": "royal-chain-ltd",
@@ -41,6 +41,48 @@
         "blended": 111.2309,
         "upside_floor": -0.245,
         "upside_cap": -0.245
+      }
+    },
+    {
+      "slug": "j-b-ecotex-ltd",
+      "company": "J B Ecotex Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-09-30",
+      "analysed_on": "2026-10-07",
+      "sector": "PET recycling (recycled polyester fibre, food-grade rPET resin, chemically recycled resin)",
+      "brlm": "Motilal Oswal; JM Financial",
+      "issue_size_cr": 516.68,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "Revenue grew at a 25.3% CAGR over FY24-FY26 with positive operating cash flow each year, but PAT was flat (Rs 211.3 m to Rs 224.9 m) and ROCE stayed near 10%; the Rs 90.10 reference price is about 69x FY26 EPS, in line with the single listed peer.",
+      "red_flags": [
+        "Revenue CAGR 25.3% FY24-26; PAT flat at Rs 211.3 m / 205.7 m / 224.9 m (p. 72)",
+        "Operating cash flow positive every year; cumulative CFO/PAT 201%, about 108% after interest (p. 73)",
+        "ROCE 10.28% and EBITDA margin 10.86% FY26; net debt / EBITDA 3.40x, down from 5.25x (p. 122)",
+        "Capacity utilisation 70% in FY26 on 141,000 MTPA; 180,360 MTPA at Aug-2026 (pp. 24, 225)",
+        "Revaluation reserve Rs 614.81 m = 22.5% of total equity; issuer net worth excludes it (p. 397)",
+        "Customer and supplier concentration not disclosed; audit trail not enabled at database level (pp. 43-45, 244)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/j-b-ecotex-limited-drhp_104830.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 6,
+        "pass": 6,
+        "open": 2
+      },
+      "focus_top": [
+        "Current vs deferred tax",
+        "Related-party capex & subsidiaries",
+        "Revaluation reserve"
+      ],
+      "neutral": {
+        "dcf": 14.0255,
+        "relative": 69.8091,
+        "blended": 36.339,
+        "upside_floor": -0.5967,
+        "upside_cap": -0.5967
       }
     }
   ]
