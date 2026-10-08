@@ -1,0 +1,102 @@
+{
+  "slug": "aitmc-ventures-ltd",
+  "company": "AITMC Ventures Limited",
+  "platform": "Mainboard",
+  "stage": "UDRHP-I",
+  "filed_on": "2026-09-30",
+  "doc_date": "2026-09-30",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aitmc-ventures-limited-udrhp-i_104864.html",
+  "sector": "Drone skilling and drone manufacturing",
+  "brlm": "Khandwala Securities",
+  "issue_size_cr": null,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "headline": "Revenue rose 2.5x over FY24-FY26 to Rs 106.76 cr with PAT of Rs 13.38 cr, but operating cash flow was negative in two of three years, 83.6% of revenue comes from ten customers, and the Rs 155.03 cr of identified objects imply a price of at least Rs 44.29 against Rs 17.50 in the last secondary transfers.",
+  "red_flags": [
+    "Revenue Rs 41.87 cr to Rs 106.76 cr FY24-FY26 (2.5x); PAT Rs 8.63 cr to Rs 13.38 cr, down 17.1% in FY26 (p. 84)",
+    "Cumulative CFO/PAT -25.7%; receivables 211 closing days, Rs 14.10 cr outstanding 1-3 years (pp. 39, 86-87; Annex. 14)",
+    "Top-10 customers 83.58% of FY26 revenue, top-1 18.73%; Government share fell from 58.36% to 26.84% (pp. 49-50)",
+    "Related-party purchases and services Rs 14.11 cr (24.3% of purchases); related-party supplier advances Rs 8.06 cr (pp. 89-92)",
+    "Objects floor Rs 44.29 per share vs Rs 17.50 secondary price; blended fair value Rs 17.71 (Neutral)",
+    "Contracted growth: 20-year UP concession for 20 institutes and MoU for 50 AICTE labs; 30 labs already equipped (pp. 134-145)"
+  ],
+  "files": {
+    "screening": "AITMC_VENTURES_LTD_01_Screening.xlsx",
+    "anchor": "AITMC_VENTURES_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "AITMC_VENTURES_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "AITMC_VENTURES_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 3.8424,
+      "relative": 51.3669,
+      "blended": 13.3473,
+      "upside_floor": -0.6986,
+      "upside_cap": -0.6986
+    },
+    "neutral": {
+      "dcf": 9.3013,
+      "relative": 51.3669,
+      "blended": 17.7144,
+      "upside_floor": -0.6,
+      "upside_cap": -0.6
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -81.9% - the divergence is the finding; name its cause",
+      "RED: objects floor sits above blended fair value"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 325.7 times its current free cash flow, in perpetuity.",
+    "objects_floor": 44.2931,
+    "bull": {
+      "dcf": 13.4725,
+      "relative": 51.3669,
+      "blended": 21.0513,
+      "upside_floor": -0.5247,
+      "upside_cap": -0.5247
+    }
+  },
+  "counts": {
+    "fail": 3,
+    "watch": 5,
+    "pass": 3,
+    "open": 5
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "analysed_on": "2026-10-08",
+  "reference_note": "Rs 44.29 per share: the objects floor, i.e. identified objects of Rs 155.03 cr divided by the fixed fresh issue of 3.50 crore shares, before offer expenses and general corporate purposes (pp. 134-135). Not a price band. The last secondary transfers (Apr-Jun 2026) were at Rs 17.50 (p. 207).",
+  "swot": {
+    "strengths": [
+      "Revenue 2.5x in two years: Rs 41.87 cr to Rs 106.76 cr FY24-26 (p. 84)",
+      "Current tax 32.0% of cumulative PBT; no contingent liabilities (p. 84; Annex. 43)",
+      "20-year concession for 20 UP institutes and MoU for 50 AICTE labs; Rs 27.74 cr already deployed (pp. 134-145)",
+      "DGCA type-certified VIRAJ drone; 162 units deployed (p. 271)",
+      "Reg 6(1) tests met: average operating profit Rs 18.38 cr (p. 459)"
+    ],
+    "weaknesses": [
+      "Cumulative CFO -Rs 9.82 cr against PAT Rs 38.16 cr (pp. 86-87)",
+      "Top-10 customers 83.58% of revenue; Delhi 58.47% (pp. 49-50, 301)",
+      "Gross margin 55.66% to 46.45% FY24-26 (p. 205)",
+      "Related-party costs 24.3% of FY26 purchases; advances Rs 8.06 cr (pp. 89-92)",
+      "Drone sales Rs 10.40 cr to Rs 3.40 cr; production 4 to 100 units a quarter against 600 installed capacity (pp. 50, 301)"
+    ],
+    "opportunities": [
+      "Issuer-commissioned report: Indian drone market Rs 2.95 lakh cr by 2030, 35% CAGR (p. 239)",
+      "AV labs to train 60,000 candidates a year from FY28 (p. 137)",
+      "Haryana incentive package Rs 58.51 cr NPV for Future Tech Park (p. 272)",
+      "NSDC co-investment agreement of 24-Jul-2026 for advanced skilling centres (p. 269)"
+    ],
+    "threats": [
+      "Receivable collection from authorities: Rs 14.10 cr outstanding 1-3 years (Annex. 14)",
+      "Budget and tender dependence of Government and government-funded customers (p. 50)",
+      "Rs 17.41 cr capital commitments and Rs 25.81 cr capital advances to vendors (Annex. 12, 43)",
+      "FIR 33/2025 under s. 420 IPC; director summoned (pp. 447-448)"
+    ]
+  }
+}

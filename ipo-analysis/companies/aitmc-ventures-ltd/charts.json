@@ -1,0 +1,752 @@
+{
+ "slug": "aitmc-ventures-ltd",
+ "company": "AITMC Ventures Limited",
+ "generated": "2026-10-08T13:40Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 106.7559,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.5967,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 13.3834,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.245,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.2674,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.3992,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": -0.2574,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.3204,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 41.29,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 68.6458,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 17.7144,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.6,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 44.29,
+   "fmt": "rs",
+   "sub": "Rs 44.29 per share: the objects floor, i.e. identified objects of Rs 155.03 cr divided by the fixed fresh issue of 3.50 crore shares, before offer expenses and general corporate purposes (pp. 134-135). Not a price band. The last secondary transfers (Apr-Jun 2026) were at Rs 17.50 (p. 207)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "FAIL",
+   "title": "Cash flow vs profit",
+   "detail": "Operating cash flow -5.90 / -6.59 / +2.67 cr (FY24/25/26) against PAT 8.63 / 16.14 / 13.38 cr: cumulative CFO/PAT -25.7%. Capital advances (+Rs 9.59 cr FY26, +Rs 13.52 cr FY25) appear to sit inside operating cash flow rather than investing (balance-sheet movements match the 'other non-financial assets' line); adding them back gives FY26 +12.26 and FY25 +6.93 cr, still below PAT.",
+   "page": "pp. 86-87"
+  },
+  {
+   "level": "FAIL",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Purchases and cost of services from KMP-influenced entities Rs 14.11 cr in FY26 (24.3% of gross purchases of Rs 58.10 cr; 30.6% in FY25). Advances to related-party suppliers Rs 8.06 cr at FY26 (Rs 1.20 cr FY25), 11.5% of net worth. Farmers City International (apparently the subsidiary sold in FY25) now supplies the company. Capital advances Rs 25.81 cr (36.7% of net worth) are unreconciled to named vendors.",
+   "page": "pp. 89-92; Annex. 47"
+  },
+  {
+   "level": "FAIL",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Top-1 customer 18.73%, top-5 71.13%, top-10 83.58% of FY26 revenue (88.55% FY24); names withheld for want of consent. Top-1 supplier 20.20%, top-10 69.66%, and three FY26 supplier amounts equal those of related parties; no supply contract disclosed. Delhi alone is 58.47% of FY26 revenue.",
+   "page": "pp. 49-50, 302-303"
+  },
+  {
+   "level": "WATCH",
+   "title": "Bonus issue / share-count consistency",
+   "detail": "Bonus (1.5:1, Jun-2023) and 5-for-1 split (Sep-2023) fall inside FY24. Basis for Issue Price p. 202 prints FY24 basic EPS Rs 20.41 on the pre-split count (42.05 lakh shares) next to Rs 1.91 and Rs 1.50 on 8.98 crore shares, giving a basic weighted EPS of Rs 4.79; on one share base (FY24 Rs 1.76) it is about Rs 1.68. EPS numerators use total comprehensive income (FY26 Rs 13.51 cr vs PAT Rs 13.38 cr).",
+   "page": "pp. 202, 207; Annex. 42"
+  },
+  {
+   "level": "WATCH",
+   "title": "Current vs deferred tax",
+   "detail": "Current tax 4.76 / 7.33 / 5.47 cr (FY24/25/26) = 32.0% of cumulative PBT, so profit is taxed. But income tax paid (net) is Rs 11.07 cr against Rs 17.56 cr charged; the current-tax liability stands at Rs 6.86 cr at 31-Mar-2026.",
+   "page": "p. 84; Annex. 31"
+  },
+  {
+   "level": "WATCH",
+   "title": "Objects arithmetic as price floor",
+   "detail": "Objects need Rs 155.03 cr (Rs 20.00 cr debt repayment, Rs 135.03 cr capex) against a fixed fresh issue of 3.50 crore shares: price floor at least Rs 44.29 before offer expenses and GCP (up to 25% of gross). Last secondary transfers were at Rs 17.50 (p. 207); floor is 2.5x that.",
+   "page": "pp. 134-135"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "No contingent liabilities, but capital commitments of Rs 17.41 cr (Rs 1.49 cr FY25) are not provided for. One FIR (No. 33/2025, s. 420 IPC) is under investigation with notice issued to a director (pp. 447-448).",
+   "page": "p. 88; Annex. 43"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "NKSC & Co appointed statutory auditor 30-Aug-2023; the document records no change since. Audit reports on the FY24 and FY25 consolidated statements were not reviewed in this pass.",
+   "page": "p. 95"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -81.9% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "RED: objects floor sits above blended fair value",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Price band, offer expenses and general corporate purposes amount (all [*])",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Issue size in rupees (fresh issue of 3.50 crore shares at a price not yet set)",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Names and related-party status of the top ten customers (withheld for want of consent)",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Issuer working-capital table (Net Current Liabilities Rs 55.36 cr FY26) does not reproduce from the balance sheet (total current liabilities less short-term borrowings Rs 48.46 cr)",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Capital advances Rs 25.81 cr and supplier advances Rs 22.17 cr: vendor-wise list and delivery status",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Basis of FY26 standalone versus FY25 and FY24 consolidated; disposal terms of Farmers City International",
+   "page": "RHP / MCA"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Trade receivables of Rs 14.10 cr outstanding 1-3 years with authorities, no specific provision (pending verification)",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Status of the October 2023 SME draft offer document (NSE Emerge)",
+   "page": "SEBI / NSE"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Current share prices and financials of the BRLM's past issues",
+   "page": "NSE / BSE"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Status and outcome of FIR 33/2025 (Dadra and Nagar Haveli)",
+   "page": "Court / police records"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Revaluation reserve",
+   "detail": "No revaluation reserve in other equity (retained earnings, securities premium, OCI only).",
+   "page": "Annex. 20"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill. Intangibles nil at 31-Mar-2025 and 31-Mar-2026.",
+   "page": "pp. 82-83"
+  },
+  {
+   "title": "SME conditions",
+   "detail": "Reg 6(1) re-performed: operating profit (PAT + finance cost + tax - other income) 21.54 / 24.21 / 9.38 cr FY26/25/24, average 18.38 cr against the Rs 15 cr test; reproduces the document's figures. FY24 passes only at 9.38 cr, and the KPI table's EBITDA uses a different basis (it includes other income).",
+   "page": "p. 459"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "WATCH",
+   "page": "pp. 202, 207; Annex. 42",
+   "finding": "Bonus (1.5:1, Jun-2023) and 5-for-1 split (Sep-2023) fall inside FY24. Basis for Issue Price p. 202 prints FY24 basic EPS Rs 20.41 on the pre-split count (42.05 lakh shares) next to Rs 1.91 and Rs 1.50 on 8.98 crore shares, giving a basic weighted EPS of Rs 4.79; on one share base (FY24 Rs 1.76) it is about Rs 1.68. EPS numerators use total comprehensive income (FY26 Rs 13.51 cr vs PAT Rs 13.38 cr)."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "FAIL",
+   "page": "pp. 86-87",
+   "finding": "Operating cash flow -5.90 / -6.59 / +2.67 cr (FY24/25/26) against PAT 8.63 / 16.14 / 13.38 cr: cumulative CFO/PAT -25.7%. Capital advances (+Rs 9.59 cr FY26, +Rs 13.52 cr FY25) appear to sit inside operating cash flow rather than investing (balance-sheet movements match the 'other non-financial assets' line); adding them back gives FY26 +12.26 and FY25 +6.93 cr, still below PAT."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "WATCH",
+   "page": "p. 84; Annex. 31",
+   "finding": "Current tax 4.76 / 7.33 / 5.47 cr (FY24/25/26) = 32.0% of cumulative PBT, so profit is taxed. But income tax paid (net) is Rs 11.07 cr against Rs 17.56 cr charged; the current-tax liability stands at Rs 6.86 cr at 31-Mar-2026."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "FAIL",
+   "page": "pp. 89-92; Annex. 47",
+   "finding": "Purchases and cost of services from KMP-influenced entities Rs 14.11 cr in FY26 (24.3% of gross purchases of Rs 58.10 cr; 30.6% in FY25). Advances to related-party suppliers Rs 8.06 cr at FY26 (Rs 1.20 cr FY25), 11.5% of net worth. Farmers City International (apparently the subsidiary sold in FY25) now supplies the company. Capital advances Rs 25.81 cr (36.7% of net worth) are unreconciled to named vendors."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "WATCH",
+   "page": "pp. 134-135",
+   "finding": "Objects need Rs 155.03 cr (Rs 20.00 cr debt repayment, Rs 135.03 cr capex) against a fixed fresh issue of 3.50 crore shares: price floor at least Rs 44.29 before offer expenses and GCP (up to 25% of gross). Last secondary transfers were at Rs 17.50 (p. 207); floor is 2.5x that."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "PASS",
+   "page": "Annex. 20",
+   "finding": "No revaluation reserve in other equity (retained earnings, securities premium, OCI only)."
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "pp. 82-83",
+   "finding": "No goodwill. Intangibles nil at 31-Mar-2025 and 31-Mar-2026."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "FAIL",
+   "page": "pp. 49-50, 302-303",
+   "finding": "Top-1 customer 18.73%, top-5 71.13%, top-10 83.58% of FY26 revenue (88.55% FY24); names withheld for want of consent. Top-1 supplier 20.20%, top-10 69.66%, and three FY26 supplier amounts equal those of related parties; no supply contract disclosed. Delhi alone is 58.47% of FY26 revenue."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "p. 88; Annex. 43",
+   "finding": "No contingent liabilities, but capital commitments of Rs 17.41 cr (Rs 1.49 cr FY25) are not provided for. One FIR (No. 33/2025, s. 420 IPC) is under investigation with notice issued to a director (pp. 447-448)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed in this pass."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "p. 95",
+   "finding": "NKSC & Co appointed statutory auditor 30-Aug-2023; the document records no change since. Audit reports on the FY24 and FY25 consolidated statements were not reviewed in this pass."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "PASS",
+   "page": "p. 459",
+   "finding": "Reg 6(1) re-performed: operating profit (PAT + finance cost + tax - other income) 21.54 / 24.21 / 9.38 cr FY26/25/24, average 18.38 cr against the Rs 15 cr test; reproduces the document's figures. FY24 passes only at 9.38 cr, and the KPI table's EBITDA uses a different basis (it includes other income)."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "p. 466",
+   "finding": "Khandwala Securities: 8 SME issues listed in the document, all 8 below issue price at day 30 (-4.2% to -67.8%); no mainboard IPO handled. The summary table does not reproduce the per-issue table. Full CIR/MIRSD/1/2012 track record not compiled."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   41.8733,
+   87.47,
+   106.7559
+  ],
+  "ebitda": [
+   16.7142,
+   29.6092,
+   28.5465
+  ],
+  "pat": [
+   8.6345,
+   16.1423,
+   13.3834
+  ],
+  "cfo": [
+   -5.9026,
+   -6.5874,
+   2.6679
+  ],
+  "ebitda_margin": [
+   0.3992,
+   0.3385,
+   0.2674
+  ],
+  "pat_margin": [
+   0.2062,
+   0.1845,
+   0.1254
+  ],
+  "inventory": [
+   0.6292,
+   0.5977,
+   1.1242
+  ],
+  "receivables": [
+   38.44,
+   43.5432,
+   61.8738
+  ],
+  "payables": [
+   15.7717,
+   12.3647,
+   32.1928
+  ],
+  "nwc": [
+   23.3,
+   31.78,
+   30.81
+  ],
+  "nwc_pct": [
+   0.5564,
+   0.3633,
+   0.2886
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 44.29,
+  "floor": 44.29,
+  "cap": 44.29,
+  "reference_note": "Rs 44.29 per share: the objects floor, i.e. identified objects of Rs 155.03 cr divided by the fixed fresh issue of 3.50 crore shares, before offer expenses and general corporate purposes (pp. 134-135). Not a price band. The last secondary transfers (Apr-Jun 2026) were at Rs 17.50 (p. 207).",
+  "scenarios": {
+   "bear": {
+    "dcf": 3.8424,
+    "relative": 51.3669,
+    "blended": 13.3473,
+    "upside_floor": -0.6986,
+    "upside_cap": -0.6986
+   },
+   "neutral": {
+    "dcf": 9.3013,
+    "relative": 51.3669,
+    "blended": 17.7144,
+    "upside_floor": -0.6,
+    "upside_cap": -0.6
+   },
+   "bull": {
+    "dcf": 13.4725,
+    "relative": 51.3669,
+    "blended": 21.0513,
+    "upside_floor": -0.5247,
+    "upside_cap": -0.5247
+   }
+  },
+  "objects_floor": 44.2931,
+  "wacc": 0.1686,
+  "tv_share": -6.8107,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 325.7 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.16498865454520617,
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.0482088947696396,
+     "actual": 0.1686
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.8568545702361283,
+     "actual": 0.2066
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.3235
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   106.7559,
+   122.7693,
+   141.1847,
+   158.1268,
+   173.9395,
+   187.8547
+  ],
+  "ebitda": [
+   28.5465,
+   30.0785,
+   34.5902,
+   38.7411,
+   42.6152,
+   46.0244
+  ],
+  "nopat": [
+   16.5065,
+   16.9246,
+   19.4633,
+   21.7989,
+   23.9788,
+   25.8971
+  ],
+  "fcff": [
+   1.3071,
+   -76.8939,
+   -49.6965,
+   7.8614,
+   10.9704,
+   14.4497
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1486,
+    0.1586,
+    0.1686,
+    0.1786,
+    0.1886
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     10.8018,
+     10.8933,
+     10.9907,
+     11.095,
+     11.207
+    ],
+    [
+     9.9463,
+     10.002,
+     10.06,
+     10.1207,
+     10.1844
+    ],
+    [
+     9.2396,
+     9.2703,
+     9.3013,
+     9.3325,
+     9.364
+    ],
+    [
+     8.6499,
+     8.6631,
+     8.6753,
+     8.6864,
+     8.6962
+    ],
+    [
+     8.1536,
+     8.1545,
+     8.1536,
+     8.1508,
+     8.1458
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.26,
+    0.29,
+    0.32,
+    0.35,
+    0.38
+   ],
+   "cols": [
+    0.225,
+    0.235,
+    0.245,
+    0.255,
+    0.265
+   ],
+   "values": [
+    [
+     8.7666,
+     9.3803,
+     9.994,
+     10.6077,
+     11.2214
+    ],
+    [
+     8.4203,
+     9.034,
+     9.6476,
+     10.2613,
+     10.875
+    ],
+    [
+     8.0739,
+     8.6876,
+     9.3013,
+     9.915,
+     10.5287
+    ],
+    [
+     7.7276,
+     8.3413,
+     8.955,
+     9.5686,
+     10.1823
+    ],
+    [
+     7.3812,
+     7.9949,
+     8.6086,
+     9.2223,
+     9.836
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Drone Destination Limited (price derived: P/E 68.65 x EPS 0.48, p. 204)",
+   "pe": 68.6458,
+   "pb": 1.3254,
+   "issuer": false
+  },
+  {
+   "name": "AITMC Ventures Limited at reference",
+   "pe": 41.2855,
+   "pb": 2.4521,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [],
+  "issue_cr": 0.0,
+  "overhang": [
+   {
+    "label": "Pre-issue non-promoter shareholders (incl. promoter group 0.57 lakh)",
+    "shares_lakh": 377.98,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter holding above 20% of post-issue capital",
+    "shares_lakh": 270.06,
+    "days": 365,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter minimum contribution (20% of post-issue capital)",
+    "shares_lakh": 249.51,
+    "days": 1095,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "Khandwala Securities Limited",
+    "owner": "Not sourced in this run (offer document does not state it)",
+    "listed": "Not sourced in this run",
+    "summary": {},
+    "short": "KSL"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "QVC Exports Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": 0.8721,
+    "d30": -0.6022,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2024-08-28"
+   },
+   {
+    "issuer": "Bikewo Green Tech Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": -0.2742,
+    "d30": -0.2942,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2024-09-27"
+   },
+   {
+    "issuer": "Phoenix Overseas Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": 0.0,
+    "d30": -0.4556,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2024-09-27"
+   },
+   {
+    "issuer": "Premium Plast Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": -0.0041,
+    "d30": -0.0419,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2024-10-28"
+   },
+   {
+    "issuer": "Supreme Facility Management Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": -0.0132,
+    "d30": -0.2505,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2024-12-18"
+   },
+   {
+    "issuer": "Newmalayalam Steel Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": 0.0,
+    "d30": -0.3988,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2024-12-27"
+   },
+   {
+    "issuer": "Essex Marine Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": -0.2,
+    "d30": -0.3426,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2025-08-11"
+   },
+   {
+    "issuer": "Mopshop Distribution Limited",
+    "sector": "Not stated in the offer document",
+    "listing_gain": -0.0072,
+    "d30": -0.6781,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-08-26"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "Revenue 2.5x in two years: Rs 41.87 cr to Rs 106.76 cr FY24-26 (p. 84)",
+   "Current tax 32.0% of cumulative PBT; no contingent liabilities (p. 84; Annex. 43)",
+   "20-year concession for 20 UP institutes and MoU for 50 AICTE labs; Rs 27.74 cr already deployed (pp. 134-145)",
+   "DGCA type-certified VIRAJ drone; 162 units deployed (p. 271)",
+   "Reg 6(1) tests met: average operating profit Rs 18.38 cr (p. 459)"
+  ],
+  "weaknesses": [
+   "Cumulative CFO -Rs 9.82 cr against PAT Rs 38.16 cr (pp. 86-87)",
+   "Top-10 customers 83.58% of revenue; Delhi 58.47% (pp. 49-50, 301)",
+   "Gross margin 55.66% to 46.45% FY24-26 (p. 205)",
+   "Related-party costs 24.3% of FY26 purchases; advances Rs 8.06 cr (pp. 89-92)",
+   "Drone sales Rs 10.40 cr to Rs 3.40 cr; production 4 to 100 units a quarter against 600 installed capacity (pp. 50, 301)"
+  ],
+  "opportunities": [
+   "Issuer-commissioned report: Indian drone market Rs 2.95 lakh cr by 2030, 35% CAGR (p. 239)",
+   "AV labs to train 60,000 candidates a year from FY28 (p. 137)",
+   "Haryana incentive package Rs 58.51 cr NPV for Future Tech Park (p. 272)",
+   "NSDC co-investment agreement of 24-Jul-2026 for advanced skilling centres (p. 269)"
+  ],
+  "threats": [
+   "Receivable collection from authorities: Rs 14.10 cr outstanding 1-3 years (Annex. 14)",
+   "Budget and tender dependence of Government and government-funded customers (p. 50)",
+   "Rs 17.41 cr capital commitments and Rs 25.81 cr capital advances to vendors (Annex. 12, 43)",
+   "FIR 33/2025 under s. 420 IPC; director summoned (pp. 447-448)"
+  ]
+ },
+ "counts": {
+  "fail": 3,
+  "watch": 5,
+  "pass": 3,
+  "open": 5
+ }
+}
