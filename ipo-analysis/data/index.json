@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-09T13:36Z",
   "issuers": [
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-09",
+      "sector": "Agricultural implements (tractor-operated and tractor-mounted: seeders, laser levellers, rotavators, straw reapers, briquette machines)",
+      "brlm": "Keynote Financial Services Limited",
+      "issue_size_cr": 340.82,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "FY26 revenue of Rs 4,139.70 m is 4.3x FY25 mainly because the Company took over two promoter-owned businesses on 01-Apr-2025; on the issuer's own proforma base revenue grew 63.1% and PAT 51.7%, but FY26 operating cash flow was 8.6% of PAT, one customer is 25.2% of revenue and the offer is made under the 75%-QIB route.",
+      "red_flags": [
+        "Reported FY26 revenue Rs 4,139.70 m vs Rs 959.26 m FY25; proforma FY25 Rs 2,537.60 m gives +63.1% (pp. 87, 92)",
+        "FY26 CFO Rs 26.85 m = 8.6% of PAT Rs 313.90 m; cumulative CFO/PAT 69.7% (p. 88)",
+        "Top customer 25.21% and top-10 50.04% of FY26 revenue; distributors 46.16% and dealers 39.92% (pp. 29, 36)",
+        "EBITDA margin 13.46% FY26, ROCE 31.10%, interest cover 5.03x, debt/equity 1.89x; 78.06% of borrowings repayable within 12 months (pp. 157, 480)",
+        "Offer under Reg 6(2): net worth was Rs 5.32 m in FY24; at least 75% must be allotted to QIBs or the Offer fails (p. 57)",
+        "Dehlon expansion lifts capacity from 4,000 to 33,000 units for Rs 716.64 m, against 18,219 units produced across both plants in FY26 (pp. 136, 267)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 7,
+        "pass": 7,
+        "open": 0
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 54.3799,
+        "relative": 103.4805,
+        "blended": 64.2,
+        "upside_floor": -0.5125,
+        "upside_cap": -0.5125
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",
