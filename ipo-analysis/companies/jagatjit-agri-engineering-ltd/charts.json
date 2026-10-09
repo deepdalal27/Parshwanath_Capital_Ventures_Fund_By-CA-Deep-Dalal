@@ -1,0 +1,769 @@
+{
+ "slug": "jagatjit-agri-engineering-ltd",
+ "company": "Jagatjit Agri Engineering Limited",
+ "generated": "2026-10-09T13:36Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 413.97,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 1.9108,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 31.39,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 2.542,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.1346,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.1364,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 0.6972,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2614,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 32.9,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 27.6174,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 64.2,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.5125,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 131.69,
+   "fmt": "rs",
+   "sub": "Rs 131.69 = lowest listed-peer P/E in the DRHP (Escorts Kubota 23.35x, p. 156) x FY26 basic EPS Rs 5.64 (p. 154). It is our construct for measuring upside, not a price band. For scale: the Oct-2025 allotment to the promoters in the business transfer was Rs 1,547 per Rs 10 share, which is Rs 33.63 per Rs 5 share after the 22:1 bonus and 1:2 split (our arithmetic from pp. 105, 388)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Cash flow vs profit",
+   "detail": "CFO was Rs 124.93 m / 130.15 m / 26.85 m in FY24 / FY25 / FY26. Cumulative CFO is Rs 281.93 m against cumulative PAT of Rs 404.39 m = 69.7% (mixed standalone / consolidated basis). FY26 CFO is 8.6% of FY26 PAT after a Rs 445.46 m inventory build and a Rs 281.35 m rise in other assets; the Rs 104.52 m of tax paid is also in CFO. CFO after interest paid (Rs 96.06 m) and lease payments (Rs 17.85 m) is negative in FY26 (-Rs 87.06 m).",
+   "page": "p. 88"
+  },
+  {
+   "level": "WATCH",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Related-party purchases Rs 164.91 m in FY26 (6.5% of cost of materials consumed) and sales Rs 69.99 m (1.7% of revenue); balance receivable from Guru Nanak Agriculture Implements Rs 49.09 m = 8.0% of trade receivables. Loans and advances given to KMP at 31-Mar-2026: Jagatjit Singh Rs 45.00 m and Dharam Singh Rs 10.00 m (p. 95). The Rs 716.64 m capex object is on the Dehlon facility, whose land (16.20 acres) is leased from the promoters under a lease with 15% escalation every three years (p. 129). No proceeds go to a subsidiary.",
+   "page": "pp. 94-95, 129"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Top customer 25.21% / 21.86% / 19.36% of revenue FY26 / FY25 / FY24 (restated); top-5 40.84%, top-10 50.04%. In FY25 and FY24 the top 'customer' was the promoter's own proprietorship SMW II. On proforma basis top customer 11.59% (FY25). Top-10 suppliers 40.53% FY26 (76.68% FY25, 96.69% FY24); top supplier 7.94% FY26. No long-term agreements with suppliers or customers; distributors 46.16% and dealers 39.92% of FY26 revenue; dealer agreements terminable on 60 days' notice (p. 29). Exports 1.36% of FY26 revenue. Neither the 80% single-name test nor the top-10 test is met.",
+   "page": "pp. 23, 33, 36"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "No audit qualification on the financial statements. Rule 11(g) audit-trail remark: the accounting software did not record an audit trail at database level in FY24, FY25 and FY26 (to 31-Dec-2025; enabled January 2026). Risk factor discloses past disqualification of certain promoters / executive directors under Section 164 for directorship of Jaggatjit Agro Private Limited, which had not filed its financial statements / annual returns (p. 23). Statutory auditor: Anup Kumar Jain & Co. (FRN 005731N).",
+   "page": "pp. 47-52"
+  },
+  {
+   "level": "WATCH",
+   "title": "CARO / audit trail",
+   "detail": "CARO 2020 Rule 11(g): audit trail feature not available at database level for FY24 and FY25 and, for FY26, until 31-Dec-2025. The issuer states no impact on the financial statements and that the feature was enabled in January 2026.",
+   "page": "p. 52"
+  },
+  {
+   "level": "WATCH",
+   "title": "Eligibility re-computation",
+   "detail": "Offer is made under Reg 6(2): the issuer does not meet Reg 6(1)(a) (net tangible assets of at least Rs 30 m in each of the three preceding years) or Reg 6(1)(c) (net worth of at least Rs 10 m in each of those years); FY24 net worth is Rs 5.32 m. Reg 32(2) then requires at least 75% of the Offer to be allotted to QIBs, otherwise the Offer fails. Not-more-than 15% to NIBs and 10% to retail.",
+   "page": "pp. 57, 502"
+  },
+  {
+   "level": "WATCH",
+   "title": "Lead-manager track record",
+   "detail": "DRHP gives Keynote's two IPOs in FY2026-27 (Amir Chand Jagdish Kumar (Exports) Ltd and CSM Technologies Ltd; both below issue price at 30 days) and none in FY2025-26 or FY2024-25. Both recorded in data/merchant_bankers.json. Current prices and issuer financials are not compiled.",
+   "page": "pp. 510-511"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -47.4% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Price band, number of fresh shares, offer expenses and general corporate purposes amount",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Restated record is not like-for-like: FY26 is consolidated and includes the acquired SMW I and II businesses from 01-Apr-2025; FY24 and FY25 are the small standalone pre-acquisition Company. Only proforma FY25 / FY24 allow a like-for-like read, and the proforma has no cash flow statement or stub",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Interim (H1 FY27) financials; audited record ends 31-Mar-2026. Seasonality: Q4 revenue is lower (p. 24); the Kharif-season quarters are not disclosed",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Reconciliation of proforma goodwill (Rs 65.66 m, FY25) to restated goodwill (Rs 4.55 m, FY26) and of proforma equity to restated equity",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Land under the Dehlon plant (16.20 acres of a 30-acre promoter parcel) is leased from the promoters; lease terms for the Cheema plant and renewal rights are not in the summary pages",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Subsidy receivable from State governments: amount and ageing not disclosed in the summary pages; DRHP notes past delays in payment",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Pre-IPO placement of up to Rs 600 m not yet priced; would reduce the fresh issue",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Only three listed peers, all tractor / tiller makers; the DRHP states no direct listed peer exists. Peer net debt (cash) not disclosed, so gross borrowings are used",
+   "page": "RHP / exchange filings"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Current price and 3-year financials of Keynote's two recent issues (merchant banker table)",
+   "page": "BSE / NSE"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Industry report is commissioned and paid for by the issuer (CARE Analytics and Advisory); independent size and share data not obtained",
+   "page": "independent"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "Bonus 22:1 (allotted 27-May-2026) and split of Rs 10 to Rs 5 (4-May-2026) are applied retrospectively: EPS 5.64 / 1.42 / 0.57 and NAV Rs 12.75 use 55,650,984 shares. Check: Rs 313.90 m / 55.65 m = Rs 5.64. The FY26 balance sheet share capital of Rs 12.10 m is the pre-bonus count (1,209,804 shares of Rs 10) and is a presentation point.",
+   "page": "pp. 104-105, 154-156"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 130.30 m on PBT of Rs 444.12 m = 29.3% in FY26 (statutory 25.17%); deferred tax was a small credit of Rs 0.09 m. FY25 current tax 16.1% of PBT and FY24 10.0% of PBT, both on the small pre-acquisition standalone Company. Tax paid in cash FY26 was Rs 104.52 m = 23.5% of PBT.",
+   "page": "p. 87"
+  },
+  {
+   "title": "Revaluation reserve",
+   "detail": "No revaluation reserve line; the DRHP states no shares have been issued out of revaluation reserve (p. 105).",
+   "page": "pp. 85-86; 105"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "Goodwill Rs 4.55 m = 0.6% of tangible net worth (Rs 704.74 m); it arises on the slump-sale acquisitions (consideration Rs 324.57 m against net assets Rs 320.03 m; Rs 3.05 m and Rs 1.50 m, Note 33). Proforma FY25 shows goodwill of Rs 65.66 m (p. 91) against Rs 4.55 m restated, a difference the DRHP does not reconcile in the summary.",
+   "page": "pp. 85, 368, 388"
+  },
+  {
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 71.70 m = 10.2% of tangible net worth (Rs 704.74 m): GST demands 22.67, income tax 0.18, other 6.50, bank guarantees 42.35. Rs 2.14 m of the GST demand relates to SMW I and is to be discharged by the Company under the business transfer terms.",
+   "page": "p. 93"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Offer exceeds Rs 1,000 m; the issuer will appoint a SEBI-registered credit rating agency as monitoring agency before filing the RHP.",
+   "page": "p. 101"
+  },
+  {
+   "title": "Firm means of finance",
+   "detail": "Objects are funded wholly from the Fresh Issue; no separate means-of-finance tie-up is required. Net proceeds are not appraised by any bank or financial institution (p. 125).",
+   "page": "pp. 123-124"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 104-105, 154-156",
+   "finding": "Bonus 22:1 (allotted 27-May-2026) and split of Rs 10 to Rs 5 (4-May-2026) are applied retrospectively: EPS 5.64 / 1.42 / 0.57 and NAV Rs 12.75 use 55,650,984 shares. Check: Rs 313.90 m / 55.65 m = Rs 5.64. The FY26 balance sheet share capital of Rs 12.10 m is the pre-bonus count (1,209,804 shares of Rs 10) and is a presentation point."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "WATCH",
+   "page": "p. 88",
+   "finding": "CFO was Rs 124.93 m / 130.15 m / 26.85 m in FY24 / FY25 / FY26. Cumulative CFO is Rs 281.93 m against cumulative PAT of Rs 404.39 m = 69.7% (mixed standalone / consolidated basis). FY26 CFO is 8.6% of FY26 PAT after a Rs 445.46 m inventory build and a Rs 281.35 m rise in other assets; the Rs 104.52 m of tax paid is also in CFO. CFO after interest paid (Rs 96.06 m) and lease payments (Rs 17.85 m) is negative in FY26 (-Rs 87.06 m)."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 87",
+   "finding": "Current tax Rs 130.30 m on PBT of Rs 444.12 m = 29.3% in FY26 (statutory 25.17%); deferred tax was a small credit of Rs 0.09 m. FY25 current tax 16.1% of PBT and FY24 10.0% of PBT, both on the small pre-acquisition standalone Company. Tax paid in cash FY26 was Rs 104.52 m = 23.5% of PBT."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "WATCH",
+   "page": "pp. 94-95, 129",
+   "finding": "Related-party purchases Rs 164.91 m in FY26 (6.5% of cost of materials consumed) and sales Rs 69.99 m (1.7% of revenue); balance receivable from Guru Nanak Agriculture Implements Rs 49.09 m = 8.0% of trade receivables. Loans and advances given to KMP at 31-Mar-2026: Jagatjit Singh Rs 45.00 m and Dharam Singh Rs 10.00 m (p. 95). The Rs 716.64 m capex object is on the Dehlon facility, whose land (16.20 acres) is leased from the promoters under a lease with 15% escalation every three years (p. 129). No proceeds go to a subsidiary."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 123-124",
+   "finding": "Fresh issue is amount-based (up to Rs 3,000 m) and the share count is [●], so no objects price floor can be set. Specific objects total Rs 2,001.64 m (working capital 1,100.00; Dehlon capex 716.64; debt repayment 185.00); the remaining Rs 998.36 m is offer expenses plus general corporate purposes (cap 25% of gross proceeds = Rs 750 m)."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "PASS",
+   "page": "pp. 85-86; 105",
+   "finding": "No revaluation reserve line; the DRHP states no shares have been issued out of revaluation reserve (p. 105)."
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "pp. 85, 368, 388",
+   "finding": "Goodwill Rs 4.55 m = 0.6% of tangible net worth (Rs 704.74 m); it arises on the slump-sale acquisitions (consideration Rs 324.57 m against net assets Rs 320.03 m; Rs 3.05 m and Rs 1.50 m, Note 33). Proforma FY25 shows goodwill of Rs 65.66 m (p. 91) against Rs 4.55 m restated, a difference the DRHP does not reconcile in the summary."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 23, 33, 36",
+   "finding": "Top customer 25.21% / 21.86% / 19.36% of revenue FY26 / FY25 / FY24 (restated); top-5 40.84%, top-10 50.04%. In FY25 and FY24 the top 'customer' was the promoter's own proprietorship SMW II. On proforma basis top customer 11.59% (FY25). Top-10 suppliers 40.53% FY26 (76.68% FY25, 96.69% FY24); top supplier 7.94% FY26. No long-term agreements with suppliers or customers; distributors 46.16% and dealers 39.92% of FY26 revenue; dealer agreements terminable on 60 days' notice (p. 29). Exports 1.36% of FY26 revenue. Neither the 80% single-name test nor the top-10 test is met."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "PASS",
+   "page": "p. 93",
+   "finding": "Contingent liabilities Rs 71.70 m = 10.2% of tangible net worth (Rs 704.74 m): GST demands 22.67, income tax 0.18, other 6.50, bank guarantees 42.35. Rs 2.14 m of the GST demand relates to SMW I and is to be discharged by the Company under the business transfer terms."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "pp. 47-52",
+   "finding": "No audit qualification on the financial statements. Rule 11(g) audit-trail remark: the accounting software did not record an audit trail at database level in FY24, FY25 and FY26 (to 31-Dec-2025; enabled January 2026). Risk factor discloses past disqualification of certain promoters / executive directors under Section 164 for directorship of Jaggatjit Agro Private Limited, which had not filed its financial statements / annual returns (p. 23). Statutory auditor: Anup Kumar Jain & Co. (FRN 005731N)."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "WATCH",
+   "page": "p. 52",
+   "finding": "CARO 2020 Rule 11(g): audit trail feature not available at database level for FY24 and FY25 and, for FY26, until 31-Dec-2025. The issuer states no impact on the financial statements and that the feature was enabled in January 2026."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "p. 101",
+   "finding": "Offer exceeds Rs 1,000 m; the issuer will appoint a SEBI-registered credit rating agency as monitoring agency before filing the RHP."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "WATCH",
+   "page": "pp. 57, 502",
+   "finding": "Offer is made under Reg 6(2): the issuer does not meet Reg 6(1)(a) (net tangible assets of at least Rs 30 m in each of the three preceding years) or Reg 6(1)(c) (net worth of at least Rs 10 m in each of those years); FY24 net worth is Rs 5.32 m. Reg 32(2) then requires at least 75% of the Offer to be allotted to QIBs, otherwise the Offer fails. Not-more-than 15% to NIBs and 10% to retail."
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "N.A.",
+   "page": "",
+   "finding": "Mainboard issue; SME conditions do not apply. Offer for sale is 3,100,000 shares by one promoter (Jagatjit Singh, 88.03% pre-offer); the selling holder's participation share is a post-price calculation."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "WATCH",
+   "page": "pp. 510-511",
+   "finding": "DRHP gives Keynote's two IPOs in FY2026-27 (Amir Chand Jagdish Kumar (Exports) Ltd and CSM Technologies Ltd; both below issue price at 30 days) and none in FY2025-26 or FY2024-25. Both recorded in data/merchant_bankers.json. Current prices and issuer financials are not compiled."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "PASS",
+   "page": "pp. 123-124",
+   "finding": "Objects are funded wholly from the Fresh Issue; no separate means-of-finance tie-up is required. Net proceeds are not appraised by any bank or financial institution (p. 125)."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   48.86,
+   95.926,
+   413.97
+  ],
+  "ebitda": [
+   6.666,
+   11.165,
+   55.738
+  ],
+  "pat": [
+   2.502,
+   6.547,
+   31.39
+  ],
+  "cfo": [
+   12.493,
+   13.015,
+   2.685
+  ],
+  "ebitda_margin": [
+   0.1364,
+   0.1164,
+   0.1346
+  ],
+  "pat_margin": [
+   0.0512,
+   0.0683,
+   0.0758
+  ],
+  "inventory": [
+   13.023,
+   12.941,
+   113.711
+  ],
+  "receivables": [
+   5.285,
+   24.472,
+   61.295
+  ],
+  "payables": [
+   20.141,
+   46.044,
+   91.154
+  ],
+  "nwc": [
+   -1.83,
+   -8.63,
+   83.85
+  ],
+  "nwc_pct": [
+   -0.0375,
+   -0.09,
+   0.2026
+  ],
+  "unit": "Rs crore",
+  "volume": [
+   1578.0,
+   3803.0,
+   19111.0
+  ],
+  "volume_unit": "units sold"
+ },
+ "valuation": {
+  "reference": 131.69,
+  "floor": 131.69,
+  "cap": 131.69,
+  "reference_note": "Rs 131.69 = lowest listed-peer P/E in the DRHP (Escorts Kubota 23.35x, p. 156) x FY26 basic EPS Rs 5.64 (p. 154). It is our construct for measuring upside, not a price band. For scale: the Oct-2025 allotment to the promoters in the business transfer was Rs 1,547 per Rs 10 share, which is Rs 33.63 per Rs 5 share after the 22:1 bonus and 1:2 split (our arithmetic from pp. 105, 388).",
+  "scenarios": {
+   "bear": {
+    "dcf": 37.6364,
+    "relative": 103.4805,
+    "blended": 50.8053,
+    "upside_floor": -0.6142,
+    "upside_cap": -0.6142
+   },
+   "neutral": {
+    "dcf": 54.3799,
+    "relative": 103.4805,
+    "blended": 64.2,
+    "upside_floor": -0.5125,
+    "upside_cap": -0.5125
+   },
+   "bull": {
+    "dcf": 73.0821,
+    "relative": 103.4805,
+    "blended": 79.1618,
+    "upside_floor": -0.3989,
+    "upside_cap": -0.3989
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1678,
+  "tv_share": 0.8962,
+  "reverse": {
+   "sentence": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1678
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.43114518375465577,
+     "actual": 0.1234
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.2026
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   413.97,
+   505.0434,
+   595.9512,
+   685.3439,
+   767.5852,
+   844.3437
+  ],
+  "ebitda": [
+   55.738,
+   65.6556,
+   77.4737,
+   89.0947,
+   99.7861,
+   109.7647
+  ],
+  "nopat": [
+   38.2172,
+   44.8704,
+   52.9471,
+   60.8891,
+   68.1958,
+   75.0154
+  ],
+  "fcff": [
+   -21.1258,
+   -30.9254,
+   -9.5123,
+   27.6586,
+   37.6237,
+   46.4814
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1478,
+    0.1578,
+    0.1678,
+    0.1778,
+    0.1878
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     62.2161,
+     62.7544,
+     63.3321,
+     63.9552,
+     64.6311
+    ],
+    [
+     57.7093,
+     58.0636,
+     58.4381,
+     58.8353,
+     59.2589
+    ],
+    [
+     53.9219,
+     54.1467,
+     54.3799,
+     54.6224,
+     54.8757
+    ],
+    [
+     50.701,
+     50.8335,
+     50.9672,
+     51.1021,
+     51.2385
+    ],
+    [
+     47.9338,
+     48.0,
+     48.063,
+     48.1223,
+     48.1777
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.14,
+    0.17,
+    0.2,
+    0.23,
+    0.26
+   ],
+   "cols": [
+    0.11,
+    0.12,
+    0.13,
+    0.14,
+    0.15
+   ],
+   "values": [
+    [
+     50.4934,
+     54.8647,
+     59.2361,
+     63.6075,
+     67.9789
+    ],
+    [
+     48.0652,
+     52.4366,
+     56.808,
+     61.1794,
+     65.5508
+    ],
+    [
+     45.6371,
+     50.0085,
+     54.3799,
+     58.7513,
+     63.1227
+    ],
+    [
+     43.209,
+     47.5803,
+     51.9517,
+     56.3231,
+     60.6945
+    ],
+    [
+     40.7808,
+     45.1522,
+     49.5236,
+     53.895,
+     58.2664
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "VST Tillers Tractors Ltd",
+   "pe": 33.3451,
+   "pb": 3.1964,
+   "issuer": false
+  },
+  {
+   "name": "Indo Farm Equipment Ltd",
+   "pe": 27.6174,
+   "pb": 1.2454,
+   "issuer": false
+  },
+  {
+   "name": "Escorts Kubota Ltd",
+   "pe": 23.3452,
+   "pb": 2.6028,
+   "issuer": false
+  },
+  {
+   "name": "Jagatjit Agri Engineering Limited at reference",
+   "pe": 32.9044,
+   "pb": 2.788,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 51.1179
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 10.2297
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 92.0214
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 102.246
+   },
+   {
+    "label": "Non-institutional",
+    "value": 51.123
+   },
+   {
+    "label": "Retail",
+    "value": 34.082
+   }
+  ],
+  "issue_cr": 340.82,
+  "overhang": [
+   {
+    "label": "Promoter minimum contribution (20% of post-offer capital, at Rs 131.69 reference)",
+    "shares_lakh": 156.86,
+    "days": 540,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter holding above minimum contribution, after OFS",
+    "shares_lakh": 368.4,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Pre-issue non-promoter shareholders (0.03% pre-offer)",
+    "shares_lakh": 0.184,
+    "days": 180,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "Keynote Financial Services Limited",
+    "owner": null,
+    "listed": "Not stated in the DRHP; not verified",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 2,
+      "amount_rs_m": 5858,
+      "d30_discount_lt25": 2,
+      "d180_discount_lt25": 1
+     },
+     "FY2025-26": {
+      "ipos": 0
+     },
+     "FY2024-25": {
+      "ipos": 0
+     }
+    },
+    "short": "KFS"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "Amir Chand Jagdish Kumar (Exports) Limited",
+    "sector": "Not stated in the DRHP",
+    "listing_gain": -0.0802,
+    "d30": -0.2353,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-04-02"
+   },
+   {
+    "issuer": "CSM Technologies Limited",
+    "sector": "Not stated in the DRHP",
+    "listing_gain": 0.0,
+    "d30": -0.0275,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-07-02"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "FY26 EBITDA Rs 557.38 m, margin 13.46%; proforma FY25 margin 14.51% (p. 157)",
+   "ROCE 31.10% and interest cover 5.03x in FY26 (p. 157)",
+   "Current tax Rs 130.30 m = 29.3% of PBT, above the statutory rate (p. 87)",
+   "Two integrated plants; FY26 utilisation 73.62% at Cheema and 89.68% at Dehlon (p. 267)",
+   "Issuer reports about 13% value share in straw reapers and 30% / 15% / 12% of subsidised super-seeder units in MP / Haryana / Punjab, from an issuer-commissioned report (p. 236)"
+  ],
+  "weaknesses": [
+   "FY26 CFO Rs 26.85 m against PAT Rs 313.90 m (p. 88)",
+   "Top customer 25.21% of FY26 revenue; no long-term agreements; dealer contracts terminable on 60 days' notice (pp. 29, 36)",
+   "Borrowings Rs 1,344.07 m; debt/equity 1.89x; 78.06% repayable within 12 months (pp. 157, 480)",
+   "Audit trail not enabled at database level to 31-Dec-2025 (p. 52)",
+   "Promoters disqualified in the past as directors of Jaggatjit Agro Pvt Ltd for non-filing (p. 24)"
+  ],
+  "opportunities": [
+   "Indian farm equipment market projected at 7.7% CAGR FY26-FY30 per the issuer-commissioned CARE report (p. 129)",
+   "Organised segment about 60% of the implements market, Rs 264 bn in FY26 to Rs 415 bn in FY30, per the same report (p. 221)",
+   "Dehlon capacity from 4,000 to 33,000 units (p. 136)",
+   "Rs 185 m of the proceeds repays borrowings (p. 124)"
+  ],
+  "threats": [
+   "Subsidy-linked demand; State payments have been delayed (p. 57)",
+   "Fourth-quarter revenue is seasonally lower (p. 24)",
+   "Promoter-leased land under the Dehlon plant with 15% escalation every three years (p. 129)",
+   "Fail-if-under-75%-QIB structure under Reg 6(2) (p. 57)",
+   "Peers are far larger tractor makers; the DRHP names no direct listed peer (p. 156)"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 7,
+  "pass": 7,
+  "open": 0
+ }
+}
