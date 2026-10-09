@@ -1,0 +1,412 @@
+{
+  "_source": "J B Ecotex Limited DRHP dated 28-Sep-2026 (SEBI filing 30-Sep-2026). Rs crore = Rs million / 10. Printed page = PDF page - 5. Restated consolidated financials (FY24-FY26); no stub period. Related-party rows exclude the wholly owned subsidiary JB rPET Industries (intra-group).",
+  "screening": {
+    "basis": {
+      "name": "J B Ecotex Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "doc_date": "2026-09-28",
+      "aud_to": "2026-03-31",
+      "band": "No",
+      "brlm": "Motilal Oswal Investment Advisors Limited; JM Financial Limited",
+      "outside": "none (all figures from the DRHP)",
+      "bid_cat": "Anchor",
+      "exit": "2-3 year hold (assumed)"
+    },
+    "items": {
+      "rev": [
+        527.372,
+        716.233,
+        827.602,
+        null
+      ],
+      "oth": [
+        1.097,
+        1.624,
+        1.08,
+        null
+      ],
+      "pbt": [
+        28.535,
+        27.845,
+        30.808,
+        null
+      ],
+      "ctax": [
+        7.566,
+        4.984,
+        5.803,
+        null
+      ],
+      "dtax": [
+        -0.163,
+        2.292,
+        2.513,
+        null
+      ],
+      "pat": [
+        21.132,
+        20.569,
+        22.492,
+        null
+      ],
+      "cfo": [
+        15.684,
+        31.532,
+        82.093,
+        null
+      ],
+      "rpt_s": [
+        2.913,
+        3.971,
+        1.667,
+        null
+      ],
+      "rpt_p": [
+        8.194,
+        23.87,
+        1.955,
+        null
+      ],
+      "nw": [
+        101.902,
+        140.1,
+        212.289,
+        null
+      ],
+      "recv": [
+        68.466,
+        60.038,
+        87.402,
+        null
+      ],
+      "inv": [
+        52.763,
+        122.928,
+        68.807,
+        null
+      ],
+      "pay": [
+        55.138,
+        83.008,
+        50.84,
+        null
+      ],
+      "cl": [
+        null,
+        null,
+        133.386,
+        null
+      ],
+      "gw": [
+        0,
+        0,
+        0,
+        null
+      ],
+      "reval": [
+        61.481,
+        61.481,
+        61.481,
+        null
+      ]
+    },
+    "cites": {
+      "rev": "p. 72",
+      "oth": "p. 72",
+      "pbt": "p. 72",
+      "ctax": "p. 72",
+      "dtax": "p. 72",
+      "pat": "p. 72",
+      "cfo": "p. 73",
+      "rpt_s": "pp. 75-79 (ex subsidiary)",
+      "rpt_p": "pp. 75-79 (ex subsidiary)",
+      "nw": "p. 397 (net worth excl. revaluation reserve)",
+      "recv": "p. 71",
+      "inv": "p. 71",
+      "pay": "p. 71 (trade payables, MSME + others)",
+      "cl": "p. 74",
+      "gw": "p. 71 (no goodwill line)",
+      "reval": "p. 397; p. 333"
+    },
+    "single": {
+      "geo": 0.2029,
+      "waca": 3.6,
+      "offer": 90.1
+    },
+    "checks": {
+      "1": {
+        "status": "PASS",
+        "page": "pp. 119-120, 126",
+        "finding": "4:1 bonus (28-Apr-2026) and 1:2 split (24-Apr-2026) are reflected: EPS 1.31 / 1.24 / 1.38 and NAV 12.34 use 171,988,460 shares for all years. The FY26 balance sheet still shows 17,198,846 shares of Rs 10 (capital Rs 171.99 m), which is the pre-bonus count and is a presentation point only."
+      },
+      "2": {
+        "status": "PASS",
+        "page": "p. 73",
+        "finding": "CFO positive in all three years: 156.84 / 315.32 / 820.93 (Rs m, FY24/25/26); cumulative CFO/PAT = 201%. CFO is struck before interest (Rs 602.92 m paid over three years); after interest the ratio is about 108%. FY26 CFO includes a Rs 541.21 m inventory release after a Rs 701.65 m build in FY25. Capex over three years was Rs 2,925.09 m, funded by debt and equity."
+      },
+      "3": {
+        "status": "WATCH",
+        "page": "p. 72",
+        "finding": "Current tax 21.0% of cumulative PBT (183.53 / 871.88 = 21.0%); deferred tax was 25.13 of the 83.16 FY26 charge (30.2%). Cash tax is below the 25.17% statutory rate, consistent with accelerated depreciation on a large capex base."
+      },
+      "4": {
+        "status": "WATCH",
+        "page": "pp. 75-79; 73; 112-115",
+        "finding": "Solar panels and installation bought from related party Climate Detox Renewables: Rs 201.89 m in FY25 (27.9% of FY25 purchase of fixed assets, Rs 724.27 m). Proceeds go to the subsidiary JB rPET as equity or debt, mode not decided (p. 115); the subsidiary is wholly owned so there is no minority leakage. Loans to the subsidiary Rs 159.22 m (FY26) and Rs 265.00 m (FY25), with Rs 250.00 m converted to equity in FY26."
+      },
+      "5": {
+        "status": "N.A.",
+        "page": "pp. 109-110",
+        "finding": "Fresh issue is amount-based (up to Rs 4,000 m); no fixed fresh share count, so no objects price floor can be set. Rs 3,200 m repays bank and NBFC debt; the balance is general corporate purposes (not above 25% of gross proceeds) and offer expenses."
+      },
+      "6": {
+        "status": "WATCH",
+        "page": "p. 397; p. 333",
+        "finding": "Revaluation reserve (Ind AS deemed-cost uplift of PPE) Rs 614.81 m = 22.5% of total equity of Rs 2,737.70 m. The issuer's own net worth, NAV and RoNW exclude it (net worth Rs 2,122.89 m), but total equity, debt-to-equity and the balance sheet include it."
+      },
+      "7": {
+        "status": "PASS",
+        "page": "p. 71",
+        "finding": "No goodwill. Other intangible assets nil at 31-Mar-2026; Rs 0.71 m under development."
+      },
+      "8": {
+        "status": "OPEN",
+        "page": "pp. 244, 378",
+        "finding": "The DRHP gives 728 customers and 522 suppliers (FY26) and says there is no significant dependence on any one supplier, but gives no top-1 / top-5 / top-10 customer or supplier percentages. Concentration cannot be tested. Supply side has no long-term contracts (p. 228). Exports 20.29% of FY26 revenue (12.79% FY25). Imports 11.02% of COGS FY26."
+      },
+      "9": {
+        "status": "WATCH",
+        "page": "p. 74",
+        "finding": "Contingent liabilities Rs 1,333.86 m = 62.8% of ICDR net worth (Rs 2,122.89 m) or 48.7% of total equity. Rs 1,155.20 m are corporate guarantees for the consolidated subsidiary's own loans (the risk factor on subsidiary guarantees states Rs 1,055.20 m while the contingent liabilities table states Rs 1,155.20 m, a Rs 100.00 m difference the DRHP does not reconcile), so most of it is already in borrowings. Tax disputes Rs 76.07 m net of pre-deposits. Materiality threshold for litigation is Rs 10.70 m (lowest of three tests)."
+      },
+      "10": {
+        "status": "N.A.",
+        "page": "",
+        "finding": "No investor presentation reviewed."
+      },
+      "R1": {
+        "status": "WATCH",
+        "page": "pp. 43-45, 85",
+        "finding": "No qualification; FY24 special-purpose consolidated report carries an emphasis of matter on basis of accounting (p. 43). Auditor change: DSI & Co resigned 12-Dec-2024 citing other professional commitments; Singhi & Co appointed 20-Mar-2025 to fill the casual vacancy and re-appointed 30-Sep-2025 for four years (p. 85)."
+      },
+      "R2": {
+        "status": "WATCH",
+        "page": "pp. 43-45",
+        "finding": "CARO 2020 clause (iii)(h)(vi): audit trail feature not enabled at database level for the accounting software, reported for the consolidated, standalone and subsidiary FY26 reports. Management says it is implementing it. No adjustment to the restated numbers."
+      },
+      "R3": {
+        "status": "PASS",
+        "page": "pp. 85, 117",
+        "finding": "Monitoring agency to be appointed before the RHP is filed, as the offer exceeds Rs 1,000 m. Objects repay bank and NBFC loans only; no related-party loan is listed for repayment (pp. 112-113). Personal guarantees of promoters, directors and relatives support the loans to be prepaid (p. 334), so repayment may release them: an indirect promoter benefit."
+      },
+      "R4": {
+        "status": "PASS",
+        "page": "p. 397",
+        "finding": "Re-performed Reg 6(1): operating profit 585.80 / 509.29 / 387.58 Rs m reproduces from PBT (308.08 less other income 10.80 plus finance cost 277.79 plus exceptional 10.73 = 585.80); three-year average 494.22 vs Rs 150 m minimum. Net worth 2,122.89 / 1,401.00 / 1,019.02. Monetary assets 2.17% of net tangible assets. KPI EBITDA (898.76) reproduces from the P&L."
+      },
+      "R5": {
+        "status": "N.A.",
+        "page": "",
+        "finding": "Mainboard issue under Reg 6(1). For reference, the offer for sale of 12,950,000 shares is Rs 1,166.8 m at the Rs 90.10 reference, 22.6% of a Rs 5,166.8 m offer; test any OFS ceiling against the ICDR as in force when the RHP fixes the price."
+      },
+      "R6": {
+        "status": "OPEN",
+        "page": "pp. 403-406",
+        "finding": "DRHP gives the last 10 issues of each BRLM and year-wise summaries; both are recorded in data/merchant_bankers.json. Current prices and issuer financials for these issues are not compiled."
+      },
+      "R7": {
+        "status": "PASS",
+        "page": "p. 111",
+        "finding": "Entire requirement is met from net proceeds, so no separate 75% means-of-finance tie-up is needed; issuer states compliance with Reg 7(1)(e)."
+      }
+    },
+    "gaps": [
+      {
+        "item": "Price band, offer expenses and general corporate purposes amount",
+        "severity": "High",
+        "source": "RHP"
+      },
+      {
+        "item": "Top-1/5/10 customer and supplier concentration percentages",
+        "severity": "High",
+        "source": "RHP / issuer"
+      },
+      {
+        "item": "Which specific loans are prepaid, and the split between the Company and the subsidiary; mode of funding the subsidiary (equity vs debt)",
+        "severity": "Medium",
+        "source": "RHP"
+      },
+      {
+        "item": "Only one listed peer (Ganesha Ecosphere) is disclosed; relative valuation rests on one company",
+        "severity": "Medium",
+        "source": "RHP / exchange filings"
+      },
+      {
+        "item": "Reconciliation of bottles recycled (3,528.44 m in FY26 vs 5,392.31 m in FY25, -34.6%) with production volume (99,190 vs 98,435 MT)",
+        "severity": "Medium",
+        "source": "RHP / issuer"
+      },
+      {
+        "item": "Insurance claim for the 04-Dec-2025 fire is under assessment; recoveries not yet recognised",
+        "severity": "Low",
+        "source": "RHP"
+      },
+      {
+        "item": "Promoter WACA at floor and cap; pre-IPO placement of up to Rs 800 m not yet priced",
+        "severity": "Medium",
+        "source": "RHP"
+      },
+      {
+        "item": "Current price and 3-year financials of lead-manager issues (merchant banker table)",
+        "severity": "Medium",
+        "source": "BSE / NSE"
+      },
+      {
+        "item": "Interim (H1 FY27) financials; audited record ends 31-Mar-2026",
+        "severity": "High",
+        "source": "RHP"
+      }
+    ]
+  },
+  "anchor": {
+    "inputs": {
+      "name": "J B Ecotex Limited",
+      "board": "Mainboard",
+      "issue": 516.68,
+      "emp": 0,
+      "shr": 0,
+      "qib_pct": 0.5,
+      "nii_pct": 0.15,
+      "rii_pct": 0.35,
+      "anc_pct": 0.6,
+      "mf_anc": 0.3333,
+      "ins_anc": 0.0667
+    },
+    "overhang": [
+      [
+        "Promoter minimum contribution (20% of post-offer capital, at Rs 90.10 reference)",
+        432.77,
+        1095,
+        "p. 100; 3 years"
+      ],
+      [
+        "Promoter holding above minimum contribution, after OFS",
+        969.4,
+        365,
+        "p. 100; 1 year; confirm in RHP"
+      ],
+      [
+        "Pre-issue public shareholders (10.94% pre-offer)",
+        188.22,
+        180,
+        "pp. 100, 102; 6 months; confirm in RHP"
+      ]
+    ]
+  },
+  "valuation": {
+    "inputs": {
+      "name": "J B Ecotex Limited",
+      "basis": "Consolidated",
+      "pre_sh": 17.198846,
+      "esop": 0,
+      "fresh": 400,
+      "fresh_sh_fixed": 0,
+      "ofs_sh": 1.295,
+      "floor": 90.1,
+      "cap": 90.1,
+      "obj_net": 320,
+      "ipo_capex": 0,
+      "rev0": 827.602,
+      "rev_prev": 716.233,
+      "ebitda0": 89.876,
+      "da0": 31.296,
+      "pat0": 22.492,
+      "nw0": 212.289,
+      "nd0": 305.285,
+      "nwc0": 105.369,
+      "nwc_prev": 99.958,
+      "capex0": 65.158,
+      "csp": 0.02,
+      "kd": 0.08
+    },
+    "drivers": {
+      "g1": [
+        0.05,
+        0.14,
+        0.2
+      ],
+      "g2": [
+        0.05,
+        0.13,
+        0.18
+      ],
+      "g3": [
+        0.04,
+        0.11,
+        0.15
+      ],
+      "g4": [
+        0.04,
+        0.09,
+        0.12
+      ],
+      "g5": [
+        0.04,
+        0.08,
+        0.1
+      ],
+      "m": [
+        0.095,
+        0.105,
+        0.115
+      ],
+      "nwc": [
+        0.145,
+        0.13,
+        0.12
+      ],
+      "roic": [
+        0.09,
+        0.11,
+        0.13
+      ]
+    },
+    "rationale": {
+      "g1": "FY25 +35.8%, FY26 +15.5% (p. 72); sales volume +18.4% in FY26 to 101,505 MT (p. 122) but revenue per tonne fell 2.4% (Rs 81,533 vs Rs 83,511). Installed capacity is 180,360 MTPA at Aug-2026 against FY26 production of 99,190 MT (pp. 122, 225). Bear assumes volume growth stalls and realisation is flat; Bull assumes new food-grade capacity (+34,560 MTPA) fills.",
+      "m": "EBITDA margin 10.10% / 10.73% / 10.86% FY24-26 (p. 122); peer Ganesha Ecosphere 12.30% / 14.40% / 9.60% (p. 124). Bear sits just below the peer's FY26 trough; Bull assumes a richer food-grade and chemical mix.",
+      "nwc": "Trade NWC (inventory + receivables - payables) 12.7% of FY26 revenue and 14.0% of FY25 (p. 71).",
+      "roic": "ROCE 10.28% FY26, 9.96% FY25, 10.22% FY24 on the issuer's definition (p. 122). Terminal ROIC is set around that range; note it is near or below a typical cost of capital."
+    },
+    "peers": [
+      [
+        "Ganesha Ecosphere Ltd",
+        "Y",
+        "Same business (PET recycling; the only listed peer named, p. 121)",
+        "Consolidated",
+        997.6,
+        2.6391,
+        377.241,
+        1481.663,
+        141.71,
+        38.214,
+        1254.18,
+        0.0109
+      ]
+    ]
+  },
+  "kpi": {
+    "ebitda": [
+      53.29,
+      76.85,
+      89.876
+    ],
+    "volume": [
+      66321,
+      85765,
+      101505
+    ],
+    "volume_unit": "MT sold",
+    "_cite": "EBITDA p. 122; volume p. 122"
+  }
+}

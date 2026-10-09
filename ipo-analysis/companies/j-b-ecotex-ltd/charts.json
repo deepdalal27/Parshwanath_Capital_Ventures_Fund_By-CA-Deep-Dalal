@@ -1,0 +1,931 @@
+{
+ "slug": "j-b-ecotex-ltd",
+ "company": "J B Ecotex Limited",
+ "generated": "2026-10-07T14:08Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 827.602,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.2527,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 22.492,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.0317,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.1086,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.101,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 2.0144,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2105,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 86.68,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 68.8953,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 36.339,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.5967,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 90.1,
+   "fmt": "rs",
+   "sub": "Rs 90.10 = Sep-2025 preferential issue at Rs 901 per Rs 10 share, adjusted for the 4:1 bonus and 1:2 split (pp. 125-127). It is a reference point, not a price band."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Current vs deferred tax",
+   "detail": "Current tax 21.0% of cumulative PBT (183.53 / 871.88 = 21.0%); deferred tax was 25.13 of the 83.16 FY26 charge (30.2%). Cash tax is below the 25.17% statutory rate, consistent with accelerated depreciation on a large capex base.",
+   "page": "p. 72"
+  },
+  {
+   "level": "WATCH",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Solar panels and installation bought from related party Climate Detox Renewables: Rs 201.89 m in FY25 (27.9% of FY25 purchase of fixed assets, Rs 724.27 m). Proceeds go to the subsidiary JB rPET as equity or debt, mode not decided (p. 115); the subsidiary is wholly owned so there is no minority leakage. Loans to the subsidiary Rs 159.22 m (FY26) and Rs 265.00 m (FY25), with Rs 250.00 m converted to equity in FY26.",
+   "page": "pp. 75-79; 73; 112-115"
+  },
+  {
+   "level": "WATCH",
+   "title": "Revaluation reserve",
+   "detail": "Revaluation reserve (Ind AS deemed-cost uplift of PPE) Rs 614.81 m = 22.5% of total equity of Rs 2,737.70 m. The issuer's own net worth, NAV and RoNW exclude it (net worth Rs 2,122.89 m), but total equity, debt-to-equity and the balance sheet include it.",
+   "page": "p. 397; p. 333"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 1,333.86 m = 62.8% of ICDR net worth (Rs 2,122.89 m) or 48.7% of total equity. Rs 1,155.20 m are corporate guarantees for the consolidated subsidiary's own loans (the risk factor on subsidiary guarantees states Rs 1,055.20 m while the contingent liabilities table states Rs 1,155.20 m, a Rs 100.00 m difference the DRHP does not reconcile), so most of it is already in borrowings. Tax disputes Rs 76.07 m net of pre-deposits. Materiality threshold for litigation is Rs 10.70 m (lowest of three tests).",
+   "page": "p. 74"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "No qualification; FY24 special-purpose consolidated report carries an emphasis of matter on basis of accounting (p. 43). Auditor change: DSI & Co resigned 12-Dec-2024 citing other professional commitments; Singhi & Co appointed 20-Mar-2025 to fill the casual vacancy and re-appointed 30-Sep-2025 for four years (p. 85).",
+   "page": "pp. 43-45, 85"
+  },
+  {
+   "level": "WATCH",
+   "title": "CARO / audit trail",
+   "detail": "CARO 2020 clause (iii)(h)(vi): audit trail feature not enabled at database level for the accounting software, reported for the consolidated, standalone and subsidiary FY26 reports. Management says it is implementing it. No adjustment to the restated numbers.",
+   "page": "pp. 43-45"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -79.9% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "RED: terminal ROIC below WACC - growth destroys value",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Price band, offer expenses and general corporate purposes amount",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Top-1/5/10 customer and supplier concentration percentages",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Which specific loans are prepaid, and the split between the Company and the subsidiary; mode of funding the subsidiary (equity vs debt)",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Only one listed peer (Ganesha Ecosphere) is disclosed; relative valuation rests on one company",
+   "page": "RHP / exchange filings"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Reconciliation of bottles recycled (3,528.44 m in FY26 vs 5,392.31 m in FY25, -34.6%) with production volume (99,190 vs 98,435 MT)",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Promoter WACA at floor and cap; pre-IPO placement of up to Rs 800 m not yet priced",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Current price and 3-year financials of lead-manager issues (merchant banker table)",
+   "page": "BSE / NSE"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Interim (H1 FY27) financials; audited record ends 31-Mar-2026",
+   "page": "RHP"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "4:1 bonus (28-Apr-2026) and 1:2 split (24-Apr-2026) are reflected: EPS 1.31 / 1.24 / 1.38 and NAV 12.34 use 171,988,460 shares for all years. The FY26 balance sheet still shows 17,198,846 shares of Rs 10 (capital Rs 171.99 m), which is the pre-bonus count and is a presentation point only.",
+   "page": "pp. 119-120, 126"
+  },
+  {
+   "title": "Cash flow vs profit",
+   "detail": "CFO positive in all three years: 156.84 / 315.32 / 820.93 (Rs m, FY24/25/26); cumulative CFO/PAT = 201%. CFO is struck before interest (Rs 602.92 m paid over three years); after interest the ratio is about 108%. FY26 CFO includes a Rs 541.21 m inventory release after a Rs 701.65 m build in FY25. Capex over three years was Rs 2,925.09 m, funded by debt and equity.",
+   "page": "p. 73"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill. Other intangible assets nil at 31-Mar-2026; Rs 0.71 m under development.",
+   "page": "p. 71"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Monitoring agency to be appointed before the RHP is filed, as the offer exceeds Rs 1,000 m. Objects repay bank and NBFC loans only; no related-party loan is listed for repayment (pp. 112-113). Personal guarantees of promoters, directors and relatives support the loans to be prepaid (p. 334), so repayment may release them: an indirect promoter benefit.",
+   "page": "pp. 85, 117"
+  },
+  {
+   "title": "Eligibility re-computation",
+   "detail": "Re-performed Reg 6(1): operating profit 585.80 / 509.29 / 387.58 Rs m reproduces from PBT (308.08 less other income 10.80 plus finance cost 277.79 plus exceptional 10.73 = 585.80); three-year average 494.22 vs Rs 150 m minimum. Net worth 2,122.89 / 1,401.00 / 1,019.02. Monetary assets 2.17% of net tangible assets. KPI EBITDA (898.76) reproduces from the P&L.",
+   "page": "p. 397"
+  },
+  {
+   "title": "Firm means of finance",
+   "detail": "Entire requirement is met from net proceeds, so no separate 75% means-of-finance tie-up is needed; issuer states compliance with Reg 7(1)(e).",
+   "page": "p. 111"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 119-120, 126",
+   "finding": "4:1 bonus (28-Apr-2026) and 1:2 split (24-Apr-2026) are reflected: EPS 1.31 / 1.24 / 1.38 and NAV 12.34 use 171,988,460 shares for all years. The FY26 balance sheet still shows 17,198,846 shares of Rs 10 (capital Rs 171.99 m), which is the pre-bonus count and is a presentation point only."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "PASS",
+   "page": "p. 73",
+   "finding": "CFO positive in all three years: 156.84 / 315.32 / 820.93 (Rs m, FY24/25/26); cumulative CFO/PAT = 201%. CFO is struck before interest (Rs 602.92 m paid over three years); after interest the ratio is about 108%. FY26 CFO includes a Rs 541.21 m inventory release after a Rs 701.65 m build in FY25. Capex over three years was Rs 2,925.09 m, funded by debt and equity."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "WATCH",
+   "page": "p. 72",
+   "finding": "Current tax 21.0% of cumulative PBT (183.53 / 871.88 = 21.0%); deferred tax was 25.13 of the 83.16 FY26 charge (30.2%). Cash tax is below the 25.17% statutory rate, consistent with accelerated depreciation on a large capex base."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "WATCH",
+   "page": "pp. 75-79; 73; 112-115",
+   "finding": "Solar panels and installation bought from related party Climate Detox Renewables: Rs 201.89 m in FY25 (27.9% of FY25 purchase of fixed assets, Rs 724.27 m). Proceeds go to the subsidiary JB rPET as equity or debt, mode not decided (p. 115); the subsidiary is wholly owned so there is no minority leakage. Loans to the subsidiary Rs 159.22 m (FY26) and Rs 265.00 m (FY25), with Rs 250.00 m converted to equity in FY26."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 109-110",
+   "finding": "Fresh issue is amount-based (up to Rs 4,000 m); no fixed fresh share count, so no objects price floor can be set. Rs 3,200 m repays bank and NBFC debt; the balance is general corporate purposes (not above 25% of gross proceeds) and offer expenses."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "WATCH",
+   "page": "p. 397; p. 333",
+   "finding": "Revaluation reserve (Ind AS deemed-cost uplift of PPE) Rs 614.81 m = 22.5% of total equity of Rs 2,737.70 m. The issuer's own net worth, NAV and RoNW exclude it (net worth Rs 2,122.89 m), but total equity, debt-to-equity and the balance sheet include it."
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "p. 71",
+   "finding": "No goodwill. Other intangible assets nil at 31-Mar-2026; Rs 0.71 m under development."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "OPEN",
+   "page": "pp. 244, 378",
+   "finding": "The DRHP gives 728 customers and 522 suppliers (FY26) and says there is no significant dependence on any one supplier, but gives no top-1 / top-5 / top-10 customer or supplier percentages. Concentration cannot be tested. Supply side has no long-term contracts (p. 228). Exports 20.29% of FY26 revenue (12.79% FY25). Imports 11.02% of COGS FY26."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "p. 74",
+   "finding": "Contingent liabilities Rs 1,333.86 m = 62.8% of ICDR net worth (Rs 2,122.89 m) or 48.7% of total equity. Rs 1,155.20 m are corporate guarantees for the consolidated subsidiary's own loans (the risk factor on subsidiary guarantees states Rs 1,055.20 m while the contingent liabilities table states Rs 1,155.20 m, a Rs 100.00 m difference the DRHP does not reconcile), so most of it is already in borrowings. Tax disputes Rs 76.07 m net of pre-deposits. Materiality threshold for litigation is Rs 10.70 m (lowest of three tests)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "pp. 43-45, 85",
+   "finding": "No qualification; FY24 special-purpose consolidated report carries an emphasis of matter on basis of accounting (p. 43). Auditor change: DSI & Co resigned 12-Dec-2024 citing other professional commitments; Singhi & Co appointed 20-Mar-2025 to fill the casual vacancy and re-appointed 30-Sep-2025 for four years (p. 85)."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "WATCH",
+   "page": "pp. 43-45",
+   "finding": "CARO 2020 clause (iii)(h)(vi): audit trail feature not enabled at database level for the accounting software, reported for the consolidated, standalone and subsidiary FY26 reports. Management says it is implementing it. No adjustment to the restated numbers."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "pp. 85, 117",
+   "finding": "Monitoring agency to be appointed before the RHP is filed, as the offer exceeds Rs 1,000 m. Objects repay bank and NBFC loans only; no related-party loan is listed for repayment (pp. 112-113). Personal guarantees of promoters, directors and relatives support the loans to be prepaid (p. 334), so repayment may release them: an indirect promoter benefit."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "PASS",
+   "page": "p. 397",
+   "finding": "Re-performed Reg 6(1): operating profit 585.80 / 509.29 / 387.58 Rs m reproduces from PBT (308.08 less other income 10.80 plus finance cost 277.79 plus exceptional 10.73 = 585.80); three-year average 494.22 vs Rs 150 m minimum. Net worth 2,122.89 / 1,401.00 / 1,019.02. Monetary assets 2.17% of net tangible assets. KPI EBITDA (898.76) reproduces from the P&L."
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "N.A.",
+   "page": "",
+   "finding": "Mainboard issue under Reg 6(1). For reference, the offer for sale of 12,950,000 shares is Rs 1,166.8 m at the Rs 90.10 reference, 22.6% of a Rs 5,166.8 m offer; test any OFS ceiling against the ICDR as in force when the RHP fixes the price."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "pp. 403-406",
+   "finding": "DRHP gives the last 10 issues of each BRLM and year-wise summaries; both are recorded in data/merchant_bankers.json. Current prices and issuer financials for these issues are not compiled."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "PASS",
+   "page": "p. 111",
+   "finding": "Entire requirement is met from net proceeds, so no separate 75% means-of-finance tie-up is needed; issuer states compliance with Reg 7(1)(e)."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   527.372,
+   716.233,
+   827.602
+  ],
+  "ebitda": [
+   53.29,
+   76.85,
+   89.876
+  ],
+  "pat": [
+   21.132,
+   20.569,
+   22.492
+  ],
+  "cfo": [
+   15.684,
+   31.532,
+   82.093
+  ],
+  "ebitda_margin": [
+   0.101,
+   0.1073,
+   0.1086
+  ],
+  "pat_margin": [
+   0.0401,
+   0.0287,
+   0.0272
+  ],
+  "inventory": [
+   52.763,
+   122.928,
+   68.807
+  ],
+  "receivables": [
+   68.466,
+   60.038,
+   87.402
+  ],
+  "payables": [
+   55.138,
+   83.008,
+   50.84
+  ],
+  "nwc": [
+   66.09,
+   99.96,
+   105.37
+  ],
+  "nwc_pct": [
+   0.1253,
+   0.1396,
+   0.1273
+  ],
+  "unit": "Rs crore",
+  "volume": [
+   66321.0,
+   85765.0,
+   101505.0
+  ],
+  "volume_unit": "MT sold"
+ },
+ "valuation": {
+  "reference": 90.1,
+  "floor": 90.1,
+  "cap": 90.1,
+  "reference_note": "Rs 90.10 = Sep-2025 preferential issue at Rs 901 per Rs 10 share, adjusted for the 4:1 bonus and 1:2 split (pp. 125-127). It is a reference point, not a price band.",
+  "scenarios": {
+   "bear": {
+    "dcf": 11.694,
+    "relative": 69.8091,
+    "blended": 34.9401,
+    "upside_floor": -0.6122,
+    "upside_cap": -0.6122
+   },
+   "neutral": {
+    "dcf": 14.0255,
+    "relative": 69.8091,
+    "blended": 36.339,
+    "upside_floor": -0.5967,
+    "upside_cap": -0.5967
+   },
+   "bull": {
+    "dcf": 18.0546,
+    "relative": 69.8091,
+    "blended": 38.7564,
+    "upside_floor": -0.5699,
+    "upside_cap": -0.5699
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1576,
+  "tv_share": 0.8853,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 406.6 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.1547325578962265,
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.0475703380216894,
+     "actual": 0.1576
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.5460343582471838,
+     "actual": 0.0708
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.1273
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   827.602,
+   943.4663,
+   1066.1169,
+   1183.3898,
+   1289.8948,
+   1393.0864
+  ],
+  "ebitda": [
+   89.876,
+   99.064,
+   111.9423,
+   124.2559,
+   135.439,
+   146.2741
+  ],
+  "nopat": [
+   43.8354,
+   47.4321,
+   53.5983,
+   59.4941,
+   64.8486,
+   70.0365
+  ],
+  "fcff": [
+   4.5624,
+   -5.0783,
+   0.3615,
+   8.5916,
+   18.6198,
+   25.2459
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1376,
+    0.1476,
+    0.1576,
+    0.1676,
+    0.1776
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     17.2689,
+     17.1041,
+     16.9131,
+     16.6916,
+     16.4338
+    ],
+    [
+     15.7252,
+     15.5359,
+     15.321,
+     15.0764,
+     14.7975
+    ],
+    [
+     14.4489,
+     14.2492,
+     14.0255,
+     13.7744,
+     13.4919
+    ],
+    [
+     13.3789,
+     13.1772,
+     12.9535,
+     12.7051,
+     12.4285
+    ],
+    [
+     12.471,
+     12.2724,
+     12.0539,
+     11.8131,
+     11.5475
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.07,
+    0.1,
+    0.13,
+    0.16,
+    0.19
+   ],
+   "cols": [
+    0.085,
+    0.095,
+    0.105,
+    0.115,
+    0.125
+   ],
+   "values": [
+    [
+     11.9061,
+     14.4786,
+     17.0511,
+     19.6236,
+     22.1961
+    ],
+    [
+     10.3933,
+     12.9658,
+     15.5383,
+     18.1108,
+     20.6833
+    ],
+    [
+     8.8805,
+     11.453,
+     14.0255,
+     16.598,
+     19.1705
+    ],
+    [
+     7.3678,
+     9.9402,
+     12.5127,
+     15.0852,
+     17.6577
+    ],
+    [
+     5.855,
+     8.4275,
+     10.9999,
+     13.5724,
+     16.1449
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Ganesha Ecosphere Ltd",
+   "pe": 68.8953,
+   "pb": 2.0992,
+   "issuer": false
+  },
+  {
+   "name": "J B Ecotex Limited at reference",
+   "pe": 86.6804,
+   "pb": 3.1841,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 51.6628
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 10.3388
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 93.0024
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 103.336
+   },
+   {
+    "label": "Non-institutional",
+    "value": 77.502
+   },
+   {
+    "label": "Retail",
+    "value": 180.838
+   }
+  ],
+  "issue_cr": 516.68,
+  "overhang": [
+   {
+    "label": "Promoter minimum contribution (20% of post-offer capital, at Rs 90.10 reference)",
+    "shares_lakh": 432.77,
+    "days": 1095,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter holding above minimum contribution, after OFS",
+    "shares_lakh": 969.4,
+    "days": 365,
+    "pct_float": null
+   },
+   {
+    "label": "Pre-issue public shareholders (10.94% pre-offer)",
+    "shares_lakh": 188.22,
+    "days": 180,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "JM Financial Limited",
+    "owner": "Promoted by the Kampani family: J M Financial & Investment Consultancy Services Pvt Ltd 24.77%, Nimesh Kampani 13.11%, J M Assets Management Pvt Ltd 11.36%, Aruna Kampani 2.82%, SNK Investments 1.95%, Vishal Kampani 1.36%; promoter group about 57% (June 2026)",
+    "listed": "Yes (NSE: JMFINANCIL)",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 16,
+      "amount_rs_m": 513059.44,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 3,
+      "d30_premium_lt25": 2
+     },
+     "FY2025-26": {
+      "ipos": 27,
+      "amount_rs_m": 675324.16,
+      "d30_discount_gt50": 1,
+      "d30_discount_25_50": 1,
+      "d30_discount_lt25": 10,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 9,
+      "d180_discount_25_50": 4,
+      "d180_discount_lt25": 8,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 6
+     },
+     "FY2024-25": {
+      "ipos": 13,
+      "amount_rs_m": 255434.1,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 5,
+      "d30_premium_25_50": 2,
+      "d30_premium_lt25": 1,
+      "d180_discount_gt50": 1,
+      "d180_discount_25_50": 3,
+      "d180_discount_lt25": 1,
+      "d180_premium_gt50": 4,
+      "d180_premium_25_50": 1,
+      "d180_premium_lt25": 2
+     }
+    },
+    "short": "JM"
+   },
+   {
+    "name": "Motilal Oswal Investment Advisors Limited",
+    "owner": null,
+    "listed": "Parent Motilal Oswal Financial Services Ltd is listed (NSE: MOTILALOFS); the merchant bank itself is a subsidiary - not independently verified",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 14,
+      "amount_rs_m": 420983.02,
+      "d30_discount_lt25": 2,
+      "d30_premium_gt50": 1,
+      "d30_premium_25_50": 2,
+      "d30_premium_lt25": 1
+     },
+     "FY2025-26": {
+      "ipos": 21,
+      "amount_rs_m": 492981.69,
+      "d30_discount_25_50": 1,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 3,
+      "d30_premium_25_50": 7,
+      "d30_premium_lt25": 5,
+      "d180_discount_gt50": 1,
+      "d180_discount_25_50": 3,
+      "d180_discount_lt25": 4,
+      "d180_premium_gt50": 3,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 5
+     },
+     "FY2024-25": {
+      "ipos": 7,
+      "amount_rs_m": 108359.23,
+      "d30_discount_lt25": 2,
+      "d30_premium_gt50": 1,
+      "d30_premium_lt25": 4,
+      "d180_discount_25_50": 1,
+      "d180_discount_lt25": 1,
+      "d180_premium_25_50": 1,
+      "d180_premium_lt25": 4
+     }
+    },
+    "short": "MO"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "National Stock Exchange of India Ltd",
+    "sector": "Stock exchange / market infrastructure",
+    "listing_gain": 0.0084,
+    "d30": null,
+    "rev_growth": 0.1232,
+    "pat_growth": 0.2256,
+    "listing_date": "2026-09-24"
+   },
+   {
+    "issuer": "Hero Motors Ltd",
+    "sector": "Auto components / EV powertrain",
+    "listing_gain": -0.0226,
+    "d30": null,
+    "rev_growth": 0.1165,
+    "pat_growth": 1.4175,
+    "listing_date": "2026-09-23"
+   },
+   {
+    "issuer": "Karamtara Engineering Ltd",
+    "sector": "Transmission towers & solar structures",
+    "listing_gain": 0.2598,
+    "d30": null,
+    "rev_growth": 0.778,
+    "pat_growth": 1.2284,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Asset Reconstruction Company (India) Ltd",
+    "sector": "Asset reconstruction / financial services",
+    "listing_gain": 0.0,
+    "d30": null,
+    "rev_growth": 0.3208,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Lumino Industries Ltd",
+    "sector": "Power conductors & cables",
+    "listing_gain": 0.3415,
+    "d30": null,
+    "rev_growth": 0.4504,
+    "pat_growth": 0.8476,
+    "listing_date": "2026-09-03"
+   },
+   {
+    "issuer": "Symbiotec Pharmalab Ltd",
+    "sector": "Pharma APIs (steroids & hormones)",
+    "listing_gain": -0.0099,
+    "d30": null,
+    "rev_growth": 0.2135,
+    "pat_growth": 0.0983,
+    "listing_date": "2026-09-01"
+   },
+   {
+    "issuer": "Augmont Enterprises Ltd",
+    "sector": "Gold & silver refining / bullion",
+    "listing_gain": 0.2195,
+    "d30": null,
+    "rev_growth": 1.6971,
+    "pat_growth": 3.5847,
+    "listing_date": "2026-08-31"
+   },
+   {
+    "issuer": "Tempsens Instruments (India) Ltd",
+    "sector": "Temperature sensors & instrumentation",
+    "listing_gain": 1.1133,
+    "d30": 0.7702,
+    "rev_growth": 0.6189,
+    "pat_growth": 0.7368,
+    "listing_date": "2026-08-28"
+   },
+   {
+    "issuer": "Gaja Alternative Asset Management Ltd",
+    "sector": "Alternative asset management",
+    "listing_gain": 0.1562,
+    "d30": -0.0879,
+    "rev_growth": 0.5179,
+    "pat_growth": 0.8319,
+    "listing_date": "2026-08-26"
+   },
+   {
+    "issuer": "Horizon Industrial Parks Ltd",
+    "sector": "Industrial & warehousing parks",
+    "listing_gain": 0.0042,
+    "d30": -0.1207,
+    "rev_growth": 2.1274,
+    "pat_growth": null,
+    "listing_date": "2026-08-24"
+   },
+   {
+    "issuer": "LCC Projects Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.3144,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Rentomojo Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.1942,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Manipal Payment & Identity Solutions Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": -0.0265,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Glass Wall Systems (India) Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.0445,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-16"
+   },
+   {
+    "issuer": "Molbio Diagnostics Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.2144,
+    "d30": 0.687,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-08-17"
+   },
+   {
+    "issuer": "Lohia Corp Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.0847,
+    "d30": 0.3296,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-07-30"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "Second largest Indian PET recycler by installed capacity, 180,360 MTPA at Aug-2026; source: issuer-commissioned report (p. 220)",
+   "Only Indian player with mechanical and chemical recycling; food-grade resin approved by two global beverage firms (pp. 224, 226)",
+   "CFO positive each year: 156.84 / 315.32 / 820.93 Rs m (p. 73)",
+   "Net debt / EBITDA 5.25x to 3.40x over FY24-26 (p. 122)",
+   "Litigation materiality threshold of Rs 10.70 m is the lowest of three tests (p. 384)"
+  ],
+  "weaknesses": [
+   "PAT flat: Rs 211.32 m FY24 vs Rs 224.92 m FY26 (p. 72)",
+   "ROCE 10.28%, ROE 9.46% FY26 (p. 122)",
+   "RPSF still 55.12% of revenue; Chemically Recycled Resins revenue fell 23.3% in FY26 (p. 223)",
+   "Revenue per tonne fell 2.4% in FY26 while volume rose 18.4% (pp. 122, 72)",
+   "Audit trail not enabled at database level, FY26 (p. 43)"
+  ],
+  "opportunities": [
+   "Mandatory recycled content in rigid packaging of 30% / 40% / 50% / 60% for FY26-FY29 (p. 222)",
+   "Indian food-grade rPET resin volume 300.0 KT in FY26 to 2,210.7 KT by FY31, issuer-commissioned estimate (p. 187)",
+   "Food-grade capacity raised to 56,160 MTPA in Aug-2026; FY26 utilisation of this line was 52.47% (pp. 24, 227)",
+   "Rs 3,200 m debt repayment against Rs 3,493.95 m outstanding on listed loans (p. 113)"
+  ],
+  "threats": [
+   "Corporate guarantees of Rs 1,155.20 m for the subsidiary's loans (p. 74)",
+   "Raw material (PET waste) has no long-term supply contracts (p. 228)",
+   "Fire at the plant on 04-Dec-2025; insurance claim under assessment (p. 26)",
+   "Ganesha Ecosphere, a larger listed rival, runs 64,500 TPA of food-grade capacity (p. 188)",
+   "Imports were 11.02% of FY26 COGS, up from 1.86% (p. 244)"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 6,
+  "pass": 6,
+  "open": 2
+ }
+}

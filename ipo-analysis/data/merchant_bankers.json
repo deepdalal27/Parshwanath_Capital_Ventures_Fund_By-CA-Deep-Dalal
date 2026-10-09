@@ -72,6 +72,61 @@
       },
       "summary_source": "Royal Chain DRHP p. 383",
       "as_of": "2026-09-28"
+    },
+    "Motilal Oswal Investment Advisors Limited": {
+      "short": "MO",
+      "sebi_role": "Merchant banker (BRLM)",
+      "listed": "Parent Motilal Oswal Financial Services Ltd is listed (NSE: MOTILALOFS); the merchant bank itself is a subsidiary - not independently verified",
+      "owner": null,
+      "owner_source": "not sourced in this run: owner and shareholding to be added from exchange filings of the listed parent",
+      "summary": {
+        "FY2026-27": {
+          "ipos": 14,
+          "amount_rs_m": 420983.02,
+          "d30_discount_lt25": 2,
+          "d30_premium_gt50": 1,
+          "d30_premium_25_50": 2,
+          "d30_premium_lt25": 1
+        },
+        "FY2025-26": {
+          "ipos": 21,
+          "amount_rs_m": 492981.69,
+          "d30_discount_25_50": 1,
+          "d30_discount_lt25": 5,
+          "d30_premium_gt50": 3,
+          "d30_premium_25_50": 7,
+          "d30_premium_lt25": 5,
+          "d180_discount_gt50": 1,
+          "d180_discount_25_50": 3,
+          "d180_discount_lt25": 4,
+          "d180_premium_gt50": 3,
+          "d180_premium_25_50": 3,
+          "d180_premium_lt25": 5
+        },
+        "FY2024-25": {
+          "ipos": 7,
+          "amount_rs_m": 108359.23,
+          "d30_discount_lt25": 2,
+          "d30_premium_gt50": 1,
+          "d30_premium_lt25": 4,
+          "d180_discount_25_50": 1,
+          "d180_discount_lt25": 1,
+          "d180_premium_25_50": 1,
+          "d180_premium_lt25": 4
+        }
+      },
+      "summary_source": "J B Ecotex DRHP p. 404-405",
+      "as_of": "2026-09-28"
+    },
+    "Khandwala Securities Limited": {
+      "short": "KSL",
+      "sebi_role": "Merchant banker (BRLM)",
+      "listed": "Not sourced in this run",
+      "owner": "Not sourced in this run (offer document does not state it)",
+      "owner_source": null,
+      "summary": {},
+      "summary_source": "AITMC UDRHP-I p. 466. The offer document's summary table (FY25: 6 IPOs, Rs 96.2 cr; FY26: 1, Rs 202.15 cr; FY27: 1, Rs 23.01 cr) does not reproduce the per-issue table above it, so the summary is left blank here. All eight listed issues are SME issues; none is a mainboard IPO.",
+      "as_of": "2026-09-30"
     }
   },
   "issues": [
@@ -88,7 +143,8 @@
       "d180_pct": null,
       "handled_by": [
         "JM",
-        "360"
+        "360",
+        "MO"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -208,7 +264,8 @@
       "d90_pct": null,
       "d180_pct": null,
       "handled_by": [
-        "JM"
+        "JM",
+        "MO"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -238,7 +295,8 @@
       "d90_pct": null,
       "d180_pct": null,
       "handled_by": [
-        "JM"
+        "JM",
+        "MO"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -268,7 +326,8 @@
       "d90_pct": null,
       "d180_pct": null,
       "handled_by": [
-        "JM"
+        "JM",
+        "MO"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -440,6 +499,258 @@
         "source": "secondary: tickertape.in, business-standard.com",
         "verified": false
       },
+      "current": null
+    },
+    {
+      "issuer": "LCC Projects Ltd",
+      "sector": "Not stated in offer document",
+      "issue_size_rs_m": 4271.41,
+      "issue_price": 146.0,
+      "listing_date": "2026-09-17",
+      "listing_open": 191.9,
+      "listing_gain_pct": 0.3144,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "current": null,
+      "financials_rs_cr": null,
+      "handled_by": [
+        "MO"
+      ],
+      "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
+    },
+    {
+      "issuer": "Rentomojo Ltd",
+      "sector": "Not stated in offer document",
+      "issue_size_rs_m": 12555.67,
+      "issue_price": 404.0,
+      "listing_date": "2026-09-17",
+      "listing_open": 482.45,
+      "listing_gain_pct": 0.1942,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "current": null,
+      "financials_rs_cr": null,
+      "handled_by": [
+        "MO"
+      ],
+      "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
+    },
+    {
+      "issuer": "Manipal Payment & Identity Solutions Ltd",
+      "sector": "Not stated in offer document",
+      "issue_size_rs_m": 8050.0,
+      "issue_price": 339.0,
+      "listing_date": "2026-09-17",
+      "listing_open": 330.0,
+      "listing_gain_pct": -0.0265,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "current": null,
+      "financials_rs_cr": null,
+      "handled_by": [
+        "MO"
+      ],
+      "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
+    },
+    {
+      "issuer": "Glass Wall Systems (India) Ltd",
+      "sector": "Not stated in offer document",
+      "issue_size_rs_m": 4278.9,
+      "issue_price": 182.0,
+      "listing_date": "2026-09-16",
+      "listing_open": 190.1,
+      "listing_gain_pct": 0.0445,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "current": null,
+      "financials_rs_cr": null,
+      "handled_by": [
+        "MO"
+      ],
+      "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
+    },
+    {
+      "issuer": "Molbio Diagnostics Ltd",
+      "sector": "Not stated in offer document",
+      "issue_size_rs_m": 9396.96,
+      "issue_price": 807.0,
+      "listing_date": "2026-08-17",
+      "listing_open": 980.0,
+      "listing_gain_pct": 0.2144,
+      "d30_pct": 0.687,
+      "d90_pct": null,
+      "d180_pct": null,
+      "current": null,
+      "financials_rs_cr": null,
+      "handled_by": [
+        "MO"
+      ],
+      "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
+    },
+    {
+      "issuer": "Lohia Corp Ltd",
+      "sector": "Not stated in offer document",
+      "issue_size_rs_m": 11012.85,
+      "issue_price": 425.0,
+      "listing_date": "2026-07-30",
+      "listing_open": 461.0,
+      "listing_gain_pct": 0.0847,
+      "d30_pct": 0.3296,
+      "d90_pct": null,
+      "d180_pct": null,
+      "current": null,
+      "financials_rs_cr": null,
+      "handled_by": [
+        "MO"
+      ],
+      "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
+    },
+    {
+      "issuer": "QVC Exports Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 240.7,
+      "issue_price": 86.0,
+      "listing_date": "2024-08-28",
+      "listing_open": 161.0,
+      "listing_gain_pct": 0.8721,
+      "d30_pct": -0.6022,
+      "d90_pct": -0.7058,
+      "d180_pct": -0.7878,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Bikewo Green Tech Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 240.9,
+      "issue_price": 62.0,
+      "listing_date": "2024-09-27",
+      "listing_open": 45.0,
+      "listing_gain_pct": -0.2742,
+      "d30_pct": -0.2942,
+      "d90_pct": -0.3852,
+      "d180_pct": -0.6624,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Phoenix Overseas Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 360.3,
+      "issue_price": 64.0,
+      "listing_date": "2024-09-27",
+      "listing_open": 64.0,
+      "listing_gain_pct": 0.0,
+      "d30_pct": -0.4556,
+      "d90_pct": -0.5271,
+      "d180_pct": -0.7105,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Premium Plast Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 262.0,
+      "issue_price": 49.0,
+      "listing_date": "2024-10-28",
+      "listing_open": 48.8,
+      "listing_gain_pct": -0.0041,
+      "d30_pct": -0.0419,
+      "d90_pct": -0.1391,
+      "d180_pct": -0.3824,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Supreme Facility Management Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 500.0,
+      "issue_price": 76.0,
+      "listing_date": "2024-12-18",
+      "listing_open": 75.0,
+      "listing_gain_pct": -0.0132,
+      "d30_pct": -0.2505,
+      "d90_pct": -0.5726,
+      "d180_pct": -0.5495,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Newmalayalam Steel Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 417.6,
+      "issue_price": 90.0,
+      "listing_date": "2024-12-27",
+      "listing_open": 90.0,
+      "listing_gain_pct": 0.0,
+      "d30_pct": -0.3988,
+      "d90_pct": -0.7129,
+      "d180_pct": -0.6596,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Essex Marine Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 230.1,
+      "issue_price": 54.0,
+      "listing_date": "2025-08-11",
+      "listing_open": 43.2,
+      "listing_gain_pct": -0.2,
+      "d30_pct": -0.3426,
+      "d90_pct": -0.384,
+      "d180_pct": -0.4639,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Mopshop Distribution Limited",
+      "sector": "Not stated in the offer document",
+      "issue_size_rs_m": 272.6,
+      "issue_price": 138.0,
+      "listing_date": "2026-08-26",
+      "listing_open": 137.0,
+      "listing_gain_pct": -0.0072,
+      "d30_pct": -0.6781,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "KSL"
+      ],
+      "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
       "current": null
     }
   ]

@@ -1,0 +1,104 @@
+{
+  "slug": "j-b-ecotex-ltd",
+  "company": "J B Ecotex Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-09-30",
+  "doc_date": "2026-09-28",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/j-b-ecotex-limited-drhp_104830.html",
+  "sector": "PET recycling (recycled polyester fibre, food-grade rPET resin, chemically recycled resin)",
+  "brlm": "Motilal Oswal; JM Financial",
+  "issue_size_cr": 516.68,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "Revenue grew at a 25.3% CAGR over FY24-FY26 with positive operating cash flow each year, but PAT was flat (Rs 211.3 m to Rs 224.9 m) and ROCE stayed near 10%; the Rs 90.10 reference price is about 69x FY26 EPS, in line with the single listed peer.",
+  "red_flags": [
+    "Revenue CAGR 25.3% FY24-26; PAT flat at Rs 211.3 m / 205.7 m / 224.9 m (p. 72)",
+    "Operating cash flow positive every year; cumulative CFO/PAT 201%, about 108% after interest (p. 73)",
+    "ROCE 10.28% and EBITDA margin 10.86% FY26; net debt / EBITDA 3.40x, down from 5.25x (p. 122)",
+    "Capacity utilisation 70% in FY26 on 141,000 MTPA; 180,360 MTPA at Aug-2026 (pp. 24, 225)",
+    "Revaluation reserve Rs 614.81 m = 22.5% of total equity; issuer net worth excludes it (p. 397)",
+    "Customer and supplier concentration not disclosed; audit trail not enabled at database level (pp. 43-45, 244)"
+  ],
+  "status": "analysed",
+  "reference_note": "Rs 90.10 = Sep-2025 preferential issue at Rs 901 per Rs 10 share, adjusted for the 4:1 bonus and 1:2 split (pp. 125-127). It is a reference point, not a price band.",
+  "swot": {
+    "strengths": [
+      "Second largest Indian PET recycler by installed capacity, 180,360 MTPA at Aug-2026; source: issuer-commissioned report (p. 220)",
+      "Only Indian player with mechanical and chemical recycling; food-grade resin approved by two global beverage firms (pp. 224, 226)",
+      "CFO positive each year: 156.84 / 315.32 / 820.93 Rs m (p. 73)",
+      "Net debt / EBITDA 5.25x to 3.40x over FY24-26 (p. 122)",
+      "Litigation materiality threshold of Rs 10.70 m is the lowest of three tests (p. 384)"
+    ],
+    "weaknesses": [
+      "PAT flat: Rs 211.32 m FY24 vs Rs 224.92 m FY26 (p. 72)",
+      "ROCE 10.28%, ROE 9.46% FY26 (p. 122)",
+      "RPSF still 55.12% of revenue; Chemically Recycled Resins revenue fell 23.3% in FY26 (p. 223)",
+      "Revenue per tonne fell 2.4% in FY26 while volume rose 18.4% (pp. 122, 72)",
+      "Audit trail not enabled at database level, FY26 (p. 43)"
+    ],
+    "opportunities": [
+      "Mandatory recycled content in rigid packaging of 30% / 40% / 50% / 60% for FY26-FY29 (p. 222)",
+      "Indian food-grade rPET resin volume 300.0 KT in FY26 to 2,210.7 KT by FY31, issuer-commissioned estimate (p. 187)",
+      "Food-grade capacity raised to 56,160 MTPA in Aug-2026; FY26 utilisation of this line was 52.47% (pp. 24, 227)",
+      "Rs 3,200 m debt repayment against Rs 3,493.95 m outstanding on listed loans (p. 113)"
+    ],
+    "threats": [
+      "Corporate guarantees of Rs 1,155.20 m for the subsidiary's loans (p. 74)",
+      "Raw material (PET waste) has no long-term supply contracts (p. 228)",
+      "Fire at the plant on 04-Dec-2025; insurance claim under assessment (p. 26)",
+      "Ganesha Ecosphere, a larger listed rival, runs 64,500 TPA of food-grade capacity (p. 188)",
+      "Imports were 11.02% of FY26 COGS, up from 1.86% (p. 244)"
+    ]
+  },
+  "focus_top": [
+    "Current vs deferred tax",
+    "Related-party capex & subsidiaries",
+    "Revaluation reserve"
+  ],
+  "files": {
+    "screening": "J_B_ECOTEX_LTD_01_Screening.xlsx",
+    "anchor": "J_B_ECOTEX_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "J_B_ECOTEX_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "J_B_ECOTEX_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 11.694,
+      "relative": 69.8091,
+      "blended": 34.9401,
+      "upside_floor": -0.6122,
+      "upside_cap": -0.6122
+    },
+    "neutral": {
+      "dcf": 14.0255,
+      "relative": 69.8091,
+      "blended": 36.339,
+      "upside_floor": -0.5967,
+      "upside_cap": -0.5967
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -79.9% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+      "RED: terminal ROIC below WACC - growth destroys value"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 406.6 times its current free cash flow, in perpetuity.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 18.0546,
+      "relative": 69.8091,
+      "blended": 38.7564,
+      "upside_floor": -0.5699,
+      "upside_cap": -0.5699
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 6,
+    "pass": 6,
+    "open": 2
+  },
+  "analysed_on": "2026-10-07"
+}

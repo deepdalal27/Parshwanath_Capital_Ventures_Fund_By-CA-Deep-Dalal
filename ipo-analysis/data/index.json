@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T16:11Z",
+  "updated": "2026-10-08T13:42Z",
   "issuers": [
     {
       "slug": "royal-chain-ltd",
@@ -41,6 +41,90 @@
         "blended": 111.2309,
         "upside_floor": -0.245,
         "upside_cap": -0.245
+      }
+    },
+    {
+      "slug": "aitmc-ventures-ltd",
+      "company": "AITMC Ventures Limited",
+      "platform": "Mainboard",
+      "stage": "UDRHP-I",
+      "filed_on": "2026-09-30",
+      "analysed_on": "2026-10-08",
+      "sector": "Drone skilling and drone manufacturing",
+      "brlm": "Khandwala Securities",
+      "issue_size_cr": null,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "Revenue rose 2.5x over FY24-FY26 to Rs 106.76 cr with PAT of Rs 13.38 cr, but operating cash flow was negative in two of three years, 83.6% of revenue comes from ten customers, and the Rs 155.03 cr of identified objects imply a price of at least Rs 44.29 against Rs 17.50 in the last secondary transfers.",
+      "red_flags": [
+        "Revenue Rs 41.87 cr to Rs 106.76 cr FY24-FY26 (2.5x); PAT Rs 8.63 cr to Rs 13.38 cr, down 17.1% in FY26 (p. 84)",
+        "Cumulative CFO/PAT -25.7%; receivables 211 closing days, Rs 14.10 cr outstanding 1-3 years (pp. 39, 86-87; Annex. 14)",
+        "Top-10 customers 83.58% of FY26 revenue, top-1 18.73%; Government share fell from 58.36% to 26.84% (pp. 49-50)",
+        "Related-party purchases and services Rs 14.11 cr (24.3% of purchases); related-party supplier advances Rs 8.06 cr (pp. 89-92)",
+        "Objects floor Rs 44.29 per share vs Rs 17.50 secondary price; blended fair value Rs 17.71 (Neutral)",
+        "Contracted growth: 20-year UP concession for 20 institutes and MoU for 50 AICTE labs; 30 labs already equipped (pp. 134-145)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/aitmc-ventures-limited-udrhp-i_104864.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 3,
+        "watch": 5,
+        "pass": 3,
+        "open": 5
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 9.3013,
+        "relative": 51.3669,
+        "blended": 17.7144,
+        "upside_floor": -0.6,
+        "upside_cap": -0.6
+      }
+    },
+    {
+      "slug": "j-b-ecotex-ltd",
+      "company": "J B Ecotex Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-09-30",
+      "analysed_on": "2026-10-07",
+      "sector": "PET recycling (recycled polyester fibre, food-grade rPET resin, chemically recycled resin)",
+      "brlm": "Motilal Oswal; JM Financial",
+      "issue_size_cr": 516.68,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "Revenue grew at a 25.3% CAGR over FY24-FY26 with positive operating cash flow each year, but PAT was flat (Rs 211.3 m to Rs 224.9 m) and ROCE stayed near 10%; the Rs 90.10 reference price is about 69x FY26 EPS, in line with the single listed peer.",
+      "red_flags": [
+        "Revenue CAGR 25.3% FY24-26; PAT flat at Rs 211.3 m / 205.7 m / 224.9 m (p. 72)",
+        "Operating cash flow positive every year; cumulative CFO/PAT 201%, about 108% after interest (p. 73)",
+        "ROCE 10.28% and EBITDA margin 10.86% FY26; net debt / EBITDA 3.40x, down from 5.25x (p. 122)",
+        "Capacity utilisation 70% in FY26 on 141,000 MTPA; 180,360 MTPA at Aug-2026 (pp. 24, 225)",
+        "Revaluation reserve Rs 614.81 m = 22.5% of total equity; issuer net worth excludes it (p. 397)",
+        "Customer and supplier concentration not disclosed; audit trail not enabled at database level (pp. 43-45, 244)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/sep-2026/j-b-ecotex-limited-drhp_104830.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 6,
+        "pass": 6,
+        "open": 2
+      },
+      "focus_top": [
+        "Current vs deferred tax",
+        "Related-party capex & subsidiaries",
+        "Revaluation reserve"
+      ],
+      "neutral": {
+        "dcf": 14.0255,
+        "relative": 69.8091,
+        "blended": 36.339,
+        "upside_floor": -0.5967,
+        "upside_cap": -0.5967
       }
     }
   ]
