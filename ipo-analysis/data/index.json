@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-12T13:36Z",
   "issuers": [
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-12",
+      "sector": "Agricultural implements (Super Seeders, straw reapers, laser land levellers, rotavators)",
+      "brlm": "Keynote Financial Services Limited",
+      "issue_size_cr": 349.1,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "Revenue grew 63.1% in FY26 on a proforma basis with operating margin of 13.5%, but operating cash flow was 8.6% of PAT, three products carry 64.4% of sales, and the reference price of Rs 158.48 (28.1x EPS at the DRHP's own peer average) is about 38x on post-issue earnings.",
+      "red_flags": [
+        "Proforma revenue Rs 2,074.5 m / 2,537.6 m / 4,139.7 m FY24-26 (+22.3%, +63.1%); restated FY24-25 exclude the businesses acquired from promoters (pp. 87, 91-92)",
+        "FY26 operating cash flow Rs 26.85 m = 8.6% of PAT; cumulative CFO/PAT 69.7%; inventory 132 days (pp. 88, 128)",
+        "Super Seeder, Straw Reaper and Laser Land Leveller = 64.40% of FY26 revenue; demand depends on CRM and SMAM subsidy schemes (pp. 56, 450)",
+        "Top customer 25.21%, top 10 50.04% of FY26 revenue; top 10 suppliers 40.53% of raw materials, no long-term contracts (pp. 33, 36)",
+        "ROE 53.89% and RoNW 44.26% pre-issue fall to about 8.8% on post-issue equity at the reference price; EPS Rs 5.64 becomes about Rs 4.21 (pp. 155, 158)",
+        "Two directors served while disqualified; adjudication pending. Promoters drew Rs 60.0 m remuneration in FY26 and hold Rs 55.0 m of company advances (pp. 94-95, 489)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 7,
+        "pass": 6,
+        "open": 2
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Goodwill vs tangible equity"
+      ],
+      "neutral": {
+        "dcf": 52.102,
+        "relative": 97.6543,
+        "blended": 61.2124,
+        "upside_floor": -0.6138,
+        "upside_cap": -0.6138
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",
