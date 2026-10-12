@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-09T13:40Z",
+  "last_scan": "2026-10-12T13:40Z",
   "pending": [
     {
       "company": "Ekkaa Electronics (India) Limited",
@@ -450,6 +450,33 @@
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited-drhp_104874.html",
       "source": "SEBI",
       "note": ""
+    },
+    {
+      "company": "Matangi Rubber Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-10",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/matangi-rubber-limited-addendum-to-the-drhp_105143.html",
+      "source": "SEBI",
+      "note": "Found in 12-Oct-2026 scan"
+    },
+    {
+      "company": "Tonbo Imaging India Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-12",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-rhp_105141.html",
+      "source": "SEBI",
+      "note": "Found in 12-Oct-2026 scan"
+    },
+    {
+      "company": "Sahajanand Medical technologies Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-10",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sahajanand-medical-technologies-limited-rhp_105149.html",
+      "source": "SEBI",
+      "note": "Found in 12-Oct-2026 scan"
     }
   ]
 }
