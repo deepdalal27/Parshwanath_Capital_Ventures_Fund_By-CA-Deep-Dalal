@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-09T13:36Z",
+  "updated": "2026-10-13T13:52Z",
   "issuers": [
+    {
+      "slug": "ekkaa-electronics-india-ltd",
+      "company": "Ekkaa Electronics (India) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-13",
+      "sector": "Consumer electronics and appliances ODM/OEM",
+      "brlm": "Motilal Oswal Investment Advisors; Shannon Advisors (marketing)",
+      "issue_size_cr": 725,
+      "price_band": "Not announced (fresh issue up to Rs 525 cr plus OFS up to Rs 200 cr)",
+      "call": "Screen only",
+      "headline": "Revenue rose from Rs 4,965 m to Rs 12,218 m and PAT to Rs 654 m in FY26, but operating cash flow was negative in all three years, Rs 3,834 m of debt is promoter-guaranteed, and the DCF (Rs 76) and peer-multiple (Rs 309) values disagree by 75% around the Rs 182.63 reference.",
+      "red_flags": [
+        "CFO -Rs 286.59 m in FY26 and negative every year; cumulative -Rs 1,080.54 m vs PAT Rs 848.81 m (p. 75)",
+        "Borrowings Rs 3,087.54 m (Mar-26) to Rs 3,961.43 m (Jul-26); Rs 3,833.93 m promoter-guaranteed (p. 43)",
+        "LED TVs 71.78% of revenue; top-10 customers 65.77% (unnamed); top supplier 46.94% (pp. 22-29)",
+        "Subsidiary bought from promoter-directors for Rs 490.00 m; it was 21.01% of FY25 revenue (pp. 78, 362)",
+        "Proforma revenue +72.3% and PAT Rs 706.94 m in FY26; capacity 37.80% utilised (pp. 137, 247)",
+        "Series B at Rs 182.63 (Jul-2026) vs Rs 105.25 Series A (Sep-2025); neutral blended value Rs 169.15 (pp. 99-100)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 1,
+        "watch": 5,
+        "pass": 3,
+        "open": 5
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Goodwill vs tangible equity"
+      ],
+      "neutral": {
+        "dcf": 76.2147,
+        "relative": 308.5422,
+        "blended": 169.1457,
+        "upside_floor": -0.0738,
+        "upside_cap": -0.0738
+      }
+    },
     {
       "slug": "jagatjit-agri-engineering-ltd",
       "company": "Jagatjit Agri Engineering Limited",

@@ -25,7 +25,8 @@
       "url": "https://www.bseindia.com/ (SME platform > Public issues > Draft offer documents)",
       "platform": "SME",
       "enabled": true,
-      "verified": false
+      "verified": false,
+      "note": "13-Oct-2026: bseindia.com home page reachable (HTTP 200) but the SME offer-document listing was not scanned in this run."
     },
     {
       "name": "NSE Emerge - offer documents",
@@ -33,7 +34,7 @@
       "platform": "SME",
       "enabled": true,
       "verified": false,
-      "note": "nseindia.com returns 403 to plain HTTP clients (bot protection, 04-Oct-2026); try a real browser."
+      "note": "nseindia.com returns 403 to plain HTTP clients (bot protection, 04-Oct-2026); try a real browser. 13-Oct-2026: HTTPS to nseindia.com failed from the routine container (curl exit 000); not scanned."
     }
   ]
 }

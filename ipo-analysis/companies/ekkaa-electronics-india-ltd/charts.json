@@ -1,0 +1,846 @@
+{
+ "slug": "ekkaa-electronics-india-ltd",
+ "company": "Ekkaa Electronics (India) Limited",
+ "generated": "2026-10-13T13:52Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 1221.763,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 130.179,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 65.379,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": null,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.0937,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": -5.7465,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": -1.273,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.1561,
+   "fmt": "pct",
+   "tone": "warn"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 31.55,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 85.0452,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 169.1457,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.0738,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 182.63,
+   "fmt": "rs",
+   "sub": "Rs 182.63 (Series B CCPS placement to Abakkus Four2eight Opportunities Fund, 17-Jul-2026, Rs 1,461 per Rs 10 preference share, converting 1:1 to Rs 5 shares after the 3:1 bonus and 1:2 split)"
+  }
+ ],
+ "focus": [
+  {
+   "level": "FAIL",
+   "title": "Cash flow vs profit",
+   "detail": "Operating cash flow was negative in all three years: -286.59 / -641.12 / -152.83 (Rs m, FY26/25/24) against PAT 653.79 / 235.52 / -40.50. Cumulative CFO is -1,080.54 m against cumulative PAT of 848.81 m. Receivables and inventory absorbed Rs 972.55 m and Rs 388.97 m in FY26 alone; capex of Rs 893.28 m was funded by debt and preference capital.",
+   "page": "p. 75"
+  },
+  {
+   "level": "WATCH",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Subsidiary Ekkaa Electronics Industries was owned by promoter-directors until 29-Aug-2025 and was the issuer's largest customer in FY25 (Rs 1,043.40 m, 21.01% of revenue) and a large supplier (Rs 894.49 m purchases); the issuer borrowed Rs 1,708.58 m from it in FY25. Acquisition price Rs 490.00 m (Rs 397.58 m in shares at Rs 888 and Rs 92.42 m cash), paid to the two promoter-directors. FY26 revenue still includes Rs 758.07 m (6.20%) of sales to it before acquisition. Rent and an advance to promoter-linked entities (Gaurisuta) in FY26.",
+   "page": "pp. 78-80, 274, 362"
+  },
+  {
+   "level": "WATCH",
+   "title": "Goodwill vs tangible equity",
+   "detail": "The restated accounts record the Rs 490 m acquisition as a bargain purchase: customer-relationship intangible Rs 37.08 m and capital reserve Rs 20.39 m, no goodwill. The proforma balance sheet shows goodwill of Rs 84.99 m for the same transaction: the two documents carry different purchase accounting. The seller was a related party of the issuer.",
+   "page": "pp. 362, 380"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Demand: LED televisions 71.78% of FY26 revenue; top customer 16.86%, top-5 52.43%, top-10 65.77% (FY25: 21.01%, 70.05%, 80.35%); customers unnamed. Supply: top supplier 46.94%, top-5 69.74%, top-10 79.11% of FY26 raw-material purchases; imported open cells and PCB parts. Geographic split not disclosed.",
+   "page": "pp. 22-23, 28-29"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "FY24 and FY25 restated figures derive from special-purpose Ind AS statements prepared for the offer (previous GAAP statutory accounts; transition date 01-Apr-2024). Statutory auditor M S K A & Associates LLP. Backup log of the accounting software kept only from 18-Feb-2026; audit-trail feature stated as enabled throughout FY26.",
+   "page": "pp. 307, 372, 376"
+  },
+  {
+   "level": "WATCH",
+   "title": "SME conditions",
+   "detail": "Offer is made under Reg 6(2) (at least 75% to QIBs) because the issuer does not satisfy Reg 6(1)(b): operating profit was negative (Rs -11.96 m) in FY24. Average operating profit over three years Rs 487.76 m; net tangible assets Rs 2,532.49 m; monetary assets 0.92% of net tangible assets.",
+   "page": "p. 448"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -75.3% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Price band, floor/cap, offer expenses and GCP amount",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "H1 FY27 financials; cash flow and receivables after 31-Mar-2026",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Customer identities (top-10 unnamed); related-party status of any customer",
+   "page": "RHP / issuer / MCA"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Geographic split of revenue; import share of raw materials and hedging policy",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Units sold and average realisation by product (LED TV)",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Identity of the independent director who is also the IBBI valuer (Rupinder Kaur) and whether it is the same person",
+   "page": "MCA / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "BRLM track record beyond DRHP tables",
+   "page": "BSE / NSE listing data"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "Bonus (1:1 on 28-Aug-2025, 3:1 on 20-Aug-2026) and the 1:2 split are applied to every period: FY26 EPS 9.04 on about 72.3 m weighted shares, FY25 EPS 3.63, FY24 EPS (0.62), all on the post-bonus count. Basic EPS already counts the compulsorily convertible preference shares, so basic and diluted EPS are equal.",
+   "page": "pp. 93-94, 133"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 145.42 m on PBT Rs 796.30 m (18.3%) in FY26; cumulative current tax 15.6% of cumulative PBT (Rs 163.74 m / Rs 1,048.80 m). The statutory rate applied is 17.16% (concessional manufacturing regime). Cash taxes paid were Rs 59.60 m over three years against Rs 163.74 m current tax charged, with Rs 131.71 m of current tax liability unpaid at 31-Mar-2026.",
+   "page": "p. 350"
+  },
+  {
+   "title": "Contingent liabilities",
+   "detail": "No contingent liability requiring disclosure at 31-Mar-2026. Capital commitments not reviewed.",
+   "page": "p. 77"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 93-94, 133",
+   "finding": "Bonus (1:1 on 28-Aug-2025, 3:1 on 20-Aug-2026) and the 1:2 split are applied to every period: FY26 EPS 9.04 on about 72.3 m weighted shares, FY25 EPS 3.63, FY24 EPS (0.62), all on the post-bonus count. Basic EPS already counts the compulsorily convertible preference shares, so basic and diluted EPS are equal."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "FAIL",
+   "page": "p. 75",
+   "finding": "Operating cash flow was negative in all three years: -286.59 / -641.12 / -152.83 (Rs m, FY26/25/24) against PAT 653.79 / 235.52 / -40.50. Cumulative CFO is -1,080.54 m against cumulative PAT of 848.81 m. Receivables and inventory absorbed Rs 972.55 m and Rs 388.97 m in FY26 alone; capex of Rs 893.28 m was funded by debt and preference capital."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 350",
+   "finding": "Current tax Rs 145.42 m on PBT Rs 796.30 m (18.3%) in FY26; cumulative current tax 15.6% of cumulative PBT (Rs 163.74 m / Rs 1,048.80 m). The statutory rate applied is 17.16% (concessional manufacturing regime). Cash taxes paid were Rs 59.60 m over three years against Rs 163.74 m current tax charged, with Rs 131.71 m of current tax liability unpaid at 31-Mar-2026."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "WATCH",
+   "page": "pp. 78-80, 274, 362",
+   "finding": "Subsidiary Ekkaa Electronics Industries was owned by promoter-directors until 29-Aug-2025 and was the issuer's largest customer in FY25 (Rs 1,043.40 m, 21.01% of revenue) and a large supplier (Rs 894.49 m purchases); the issuer borrowed Rs 1,708.58 m from it in FY25. Acquisition price Rs 490.00 m (Rs 397.58 m in shares at Rs 888 and Rs 92.42 m cash), paid to the two promoter-directors. FY26 revenue still includes Rs 758.07 m (6.20%) of sales to it before acquisition. Rent and an advance to promoter-linked entities (Gaurisuta) in FY26."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 119-120",
+   "finding": "Fresh issue is amount-based (Rs 5,250 m), so there is no fixed share count and no objects price floor. Rs 2,250 m repays debt and Rs 1,500 m funds working capital; the rest is offer expenses and general corporate purposes (cap 25% of gross proceeds)."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Revaluation reserve not separately located in this pass."
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "WATCH",
+   "page": "pp. 362, 380",
+   "finding": "The restated accounts record the Rs 490 m acquisition as a bargain purchase: customer-relationship intangible Rs 37.08 m and capital reserve Rs 20.39 m, no goodwill. The proforma balance sheet shows goodwill of Rs 84.99 m for the same transaction: the two documents carry different purchase accounting. The seller was a related party of the issuer."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 22-23, 28-29",
+   "finding": "Demand: LED televisions 71.78% of FY26 revenue; top customer 16.86%, top-5 52.43%, top-10 65.77% (FY25: 21.01%, 70.05%, 80.35%); customers unnamed. Supply: top supplier 46.94%, top-5 69.74%, top-10 79.11% of FY26 raw-material purchases; imported open cells and PCB parts. Geographic split not disclosed."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "PASS",
+   "page": "p. 77",
+   "finding": "No contingent liability requiring disclosure at 31-Mar-2026. Capital commitments not reviewed."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "pp. 307, 372, 376",
+   "finding": "FY24 and FY25 restated figures derive from special-purpose Ind AS statements prepared for the offer (previous GAAP statutory accounts; transition date 01-Apr-2024). Statutory auditor M S K A & Associates LLP. Backup log of the accounting software kept only from 18-Feb-2026; audit-trail feature stated as enabled throughout FY26."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "WATCH",
+   "page": "p. 448",
+   "finding": "Offer is made under Reg 6(2) (at least 75% to QIBs) because the issuer does not satisfy Reg 6(1)(b): operating profit was negative (Rs -11.96 m) in FY24. Average operating profit over three years Rs 487.76 m; net tangible assets Rs 2,532.49 m; monetary assets 0.92% of net tangible assets."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "pp. 456-458",
+   "finding": "BRLMs Motilal Oswal Investment Advisors (14 IPOs in FY2026-27) and Shannon Advisors (marketing role only; two IPOs listed since FY2025-26, one at a 37% day-30 discount). Fuller track record not compiled."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "N.A.",
+   "page": "p. 119",
+   "finding": "No capex object."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   0.071,
+   496.514,
+   1221.763
+  ],
+  "ebitda": [
+   -0.408,
+   55.404,
+   114.534
+  ],
+  "pat": [
+   -4.05,
+   23.552,
+   65.379
+  ],
+  "cfo": [
+   -15.283,
+   -64.112,
+   -28.659
+  ],
+  "ebitda_margin": [
+   -5.7465,
+   0.1116,
+   0.0937
+  ],
+  "pat_margin": [
+   -57.0423,
+   0.0474,
+   0.0535
+  ],
+  "inventory": [
+   5.52,
+   130.303,
+   252.044
+  ],
+  "receivables": [
+   0.017,
+   75.108,
+   218.578
+  ],
+  "payables": [
+   0.196,
+   54.3,
+   196.584
+  ],
+  "nwc": [
+   5.34,
+   151.11,
+   274.04
+  ],
+  "nwc_pct": [
+   75.2113,
+   0.3043,
+   0.2243
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 182.63,
+  "floor": 182.63,
+  "cap": 182.63,
+  "reference_note": "Rs 182.63 (Series B CCPS placement to Abakkus Four2eight Opportunities Fund, 17-Jul-2026, Rs 1,461 per Rs 10 preference share, converting 1:1 to Rs 5 shares after the 3:1 bonus and 1:2 split)",
+  "scenarios": {
+   "bear": {
+    "dcf": 50.8615,
+    "relative": 308.5422,
+    "blended": 153.9338,
+    "upside_floor": -0.1571,
+    "upside_cap": -0.1571
+   },
+   "neutral": {
+    "dcf": 76.2147,
+    "relative": 308.5422,
+    "blended": 169.1457,
+    "upside_floor": -0.0738,
+    "upside_cap": -0.0738
+   },
+   "bull": {
+    "dcf": 107.0396,
+    "relative": 308.5422,
+    "blended": 187.6407,
+    "upside_floor": 0.0274,
+    "upside_cap": 0.0274
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1674,
+  "tv_share": 0.8778,
+  "reverse": {
+   "sentence": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1674
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.26463046358248704,
+     "actual": 0.0826
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.2243
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   1221.763,
+   1527.2037,
+   1832.6445,
+   2107.5412,
+   2360.4461,
+   2596.4907
+  ],
+  "ebitda": [
+   114.534,
+   129.8123,
+   155.7748,
+   179.141,
+   200.6379,
+   220.7017
+  ],
+  "nopat": [
+   83.5599,
+   93.3864,
+   112.0637,
+   128.8733,
+   144.338,
+   158.7719
+  ],
+  "fcff": [
+   -212.8341,
+   -13.6607,
+   -0.2336,
+   27.8057,
+   51.3559,
+   71.9885
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1474,
+    0.1574,
+    0.1674,
+    0.1774,
+    0.1874
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     87.5833,
+     88.5242,
+     89.5388,
+     90.6386,
+     91.8373
+    ],
+    [
+     80.9107,
+     81.5577,
+     82.2464,
+     82.9827,
+     83.7736
+    ],
+    [
+     75.3161,
+     75.7545,
+     76.2147,
+     76.6996,
+     77.2124
+    ],
+    [
+     70.569,
+     70.857,
+     71.1545,
+     71.4625,
+     71.7824
+    ],
+    [
+     66.4994,
+     66.6781,
+     66.8583,
+     67.0403,
+     67.2242
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.16,
+    0.19,
+    0.22,
+    0.25,
+    0.28
+   ],
+   "cols": [
+    0.065,
+    0.075,
+    0.085,
+    0.095,
+    0.105
+   ],
+   "values": [
+    [
+     65.6656,
+     76.1205,
+     86.5753,
+     97.0302,
+     107.485
+    ],
+    [
+     60.4853,
+     70.9402,
+     81.395,
+     91.8499,
+     102.3047
+    ],
+    [
+     55.305,
+     65.7598,
+     76.2147,
+     86.6695,
+     97.1244
+    ],
+    [
+     50.1246,
+     60.5795,
+     71.0344,
+     81.4892,
+     91.9441
+    ],
+    [
+     44.9443,
+     55.3992,
+     65.854,
+     76.3089,
+     86.7637
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Dixon Technologies (India) Ltd",
+   "pe": 48.5985,
+   "pb": 17.6701,
+   "issuer": false
+  },
+  {
+   "name": "PG Electroplast Ltd",
+   "pe": 121.4918,
+   "pb": 4.9828,
+   "issuer": false
+  },
+  {
+   "name": "Ekkaa Electronics (India) Limited at reference",
+   "pe": 31.5499,
+   "pb": 2.3533,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 108.7391
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 21.7609
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 195.75
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 217.5
+   },
+   {
+    "label": "Non-institutional",
+    "value": 108.75
+   },
+   {
+    "label": "Retail",
+    "value": 72.5
+   }
+  ],
+  "issue_cr": 725.0,
+  "overhang": [
+   {
+    "label": "Promoter minimum contribution (20% of post-offer capital, at Rs 182.63 reference)",
+    "shares_lakh": 225.9,
+    "days": 548,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter and promoter group holding above minimum contribution, after OFS",
+    "shares_lakh": 338.2,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Pre-issue non-promoter holders incl. CCPS conversion (Series A, Series B)",
+    "shares_lakh": 168.4,
+    "days": 180,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "Motilal Oswal Investment Advisors Limited",
+    "owner": null,
+    "listed": "Parent Motilal Oswal Financial Services Ltd is listed (NSE: MOTILALOFS); the merchant bank itself is a subsidiary - not independently verified",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 14,
+      "amount_rs_m": 420983.02,
+      "d30_discount_lt25": 2,
+      "d30_premium_gt50": 1,
+      "d30_premium_25_50": 2,
+      "d30_premium_lt25": 1
+     },
+     "FY2025-26": {
+      "ipos": 21,
+      "amount_rs_m": 492981.69,
+      "d30_discount_25_50": 1,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 3,
+      "d30_premium_25_50": 7,
+      "d30_premium_lt25": 5,
+      "d180_discount_gt50": 1,
+      "d180_discount_25_50": 3,
+      "d180_discount_lt25": 4,
+      "d180_premium_gt50": 3,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 5
+     },
+     "FY2024-25": {
+      "ipos": 7,
+      "amount_rs_m": 108359.23,
+      "d30_discount_lt25": 2,
+      "d30_premium_gt50": 1,
+      "d30_premium_lt25": 4,
+      "d180_discount_25_50": 1,
+      "d180_discount_lt25": 1,
+      "d180_premium_25_50": 1,
+      "d180_premium_lt25": 4
+     }
+    },
+    "short": "MO"
+   },
+   {
+    "name": "Shannon Advisors Private Limited",
+    "owner": "Not sourced",
+    "listed": "Not stated in the offer document",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 1,
+      "amount_rs_m": 5827.96
+     },
+     "FY2025-26": {
+      "ipos": 1,
+      "amount_rs_m": 310.46,
+      "d30_discount_25_50": 1,
+      "d180_discount_gt50": 1
+     },
+     "FY2024-25": {
+      "ipos": 0,
+      "amount_rs_m": 0
+     }
+    },
+    "short": "SHA"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "National Stock Exchange of India Ltd",
+    "sector": "Stock exchange / market infrastructure",
+    "listing_gain": 0.0084,
+    "d30": null,
+    "rev_growth": 0.1232,
+    "pat_growth": 0.2256,
+    "listing_date": "2026-09-24"
+   },
+   {
+    "issuer": "Lumino Industries Ltd",
+    "sector": "Power conductors & cables",
+    "listing_gain": 0.3415,
+    "d30": null,
+    "rev_growth": 0.4504,
+    "pat_growth": 0.8476,
+    "listing_date": "2026-09-03"
+   },
+   {
+    "issuer": "Symbiotec Pharmalab Ltd",
+    "sector": "Pharma APIs (steroids & hormones)",
+    "listing_gain": -0.0099,
+    "d30": null,
+    "rev_growth": 0.2135,
+    "pat_growth": 0.0983,
+    "listing_date": "2026-09-01"
+   },
+   {
+    "issuer": "Augmont Enterprises Ltd",
+    "sector": "Gold & silver refining / bullion",
+    "listing_gain": 0.2195,
+    "d30": null,
+    "rev_growth": 1.6971,
+    "pat_growth": 3.5847,
+    "listing_date": "2026-08-31"
+   },
+   {
+    "issuer": "LCC Projects Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.3144,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Rentomojo Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.1942,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Manipal Payment & Identity Solutions Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": -0.0265,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Glass Wall Systems (India) Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.0445,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-16"
+   },
+   {
+    "issuer": "Molbio Diagnostics Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.2144,
+    "d30": 0.687,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-08-17"
+   },
+   {
+    "issuer": "Lohia Corp Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.0847,
+    "d30": 0.3296,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-07-30"
+   },
+   {
+    "issuer": "Globtier Infotech Ltd",
+    "sector": "IT services (BSE SME)",
+    "listing_gain": -0.2,
+    "d30": -0.3695,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2025-09-02"
+   },
+   {
+    "issuer": "Skyways Air Services Ltd",
+    "sector": "Aviation ground handling and air services",
+    "listing_gain": -0.1014,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-01"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "Proforma revenue +72.3% FY26; PAT Rs 653.79 m (pp. 74, 137)",
+   "Capacity 5.2 m units, 37.80% utilised (p. 247)",
+   "Cash tax at 17.16% concessional rate (p. 350)",
+   "RoCE 18.00%; interest cover 3.6x (p. 137)",
+   "Series B priced at Rs 182.63 by an outside fund (p. 99)"
+  ],
+  "weaknesses": [
+   "CFO negative every year; -Rs 286.59 m FY26 (p. 75)",
+   "Borrowings Rs 3,087.54 m; 96.8% of July debt guaranteed by promoters (pp. 73, 43)",
+   "LED TVs 71.78% of revenue; top supplier 46.94% (pp. 22, 29)",
+   "Gross margin flat near 17% (p. 137)",
+   "Closing receivable days 65 vs 44 in issuer table (pp. 73, 127)"
+  ],
+  "opportunities": [
+   "Appliances 13.7% CAGR FY26-30, issuer-commissioned (p. 168)",
+   "Ganaur coolers and speakers ramping, 2-16% utilised (p. 250)",
+   "Sonipat TV capacity via subsidiary (p. 243)",
+   "Rs 2,250 m debt repayment vs finance cost Rs 278.76 m (pp. 120, 74)"
+  ],
+  "threats": [
+   "Few large customers can switch brands (p. 23)",
+   "Imported parts; unrealised FX loss Rs 101.08 m (p. 75)",
+   "Raw-material price rises (p. 411)",
+   "UP electronics subsidy is time-limited (p. 411)"
+  ]
+ },
+ "counts": {
+  "fail": 1,
+  "watch": 5,
+  "pass": 3,
+  "open": 5
+ }
+}
