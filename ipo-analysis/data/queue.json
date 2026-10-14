@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-13T13:51Z",
+  "last_scan": "2026-10-14T13:37Z",
   "pending": [
     {
       "company": "Arohan Financial Services Limited",
@@ -493,6 +493,24 @@
       "stage": "RHP",
       "filed_on": "2026-10-13",
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/zetwerk-manufacturing-businesses-limited-rhp_105195.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Paramotor Digital Technology Limited",
+      "platform": "Mainboard",
+      "stage": "UDRHP-I",
+      "filed_on": "2026-10-14",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/paramotor-digital-technology-limited-udrhp-i_105258.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Fusion CX Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-09",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/fusion-cx-limited-rhp_105257.html",
       "source": "SEBI",
       "note": ""
     }
