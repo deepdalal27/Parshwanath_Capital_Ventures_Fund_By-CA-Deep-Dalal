@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-14T13:34Z",
   "issuers": [
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-14",
+      "sector": "Agricultural implements manufacturing",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 300,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "Proforma revenue grew 63% and PAT 52% in FY26 with cash tax paid, but operating cash flow was 8.6% of PAT, the audited history is a pre-acquisition shell until FY26, and the Rs 3,000 m raise funds working capital and an 8x expansion of one plant.",
+      "red_flags": [
+        "Proforma revenue +63.1% and PAT +51.7% in FY26 (Rs 4,139.70 m, Rs 313.90 m); EBITDA margin 13.46% vs 14.51% proforma FY25",
+        "FY26 operating cash flow Rs 26.85 m = 8.6% of PAT; inventory +Rs 445.46 m",
+        "Cash tax: current tax 29.3% of FY26 PBT; direct tax paid Rs 104.52 m",
+        "Top customer Seth Agro 25.21% and top 10 customers 50.04% of FY26 revenue; dealers, no long-term contracts",
+        "Rs 1,100 m of a Rs 3,000 m raise funds working capital; Rs 716.64 m expands Dehlon from 4,000 to 33,000 units on land leased from a promoter",
+        "Borrowings Rs 1,344.07 m (D/E 1.89x); Rs 1,340.89 m covered by promoter personal guarantees"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 1,
+        "watch": 9,
+        "pass": 4,
+        "open": 2
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Objects arithmetic as price floor"
+      ],
+      "neutral": {
+        "dcf": 52.6175,
+        "relative": 109.9492,
+        "blended": 64.0839,
+        "upside_floor": -0.5956,
+        "upside_cap": -0.5956
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",
