@@ -1,0 +1,769 @@
+{
+ "slug": "koolking-industries-india-ltd",
+ "company": "Koolking Industries India Limited",
+ "generated": "2026-10-15T13:49Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 526.745,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.4817,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 33.206,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 1.0807,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.1089,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.0652,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": -0.6751,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2539,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 28.12,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 97.0773,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 76.326,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.341,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 115.82,
+   "fmt": "rs",
+   "sub": "Rs 115.82 = FY26 basic EPS of Rs 6.07 x 19.08, the lowest peer P/E in the DRHP's own table (Elin Electronics, p. 179). It is a reference point for sizing the model, not a price band and not a view of the right price. The DRHP's peer P/Es run from 19.08x to 526.00x (average 176.08x). The only priced transaction in the DRHP is the 29-Jan-2024 transfer among shareholders at Rs 34.66 per Rs 10 share, Rs 5.78 after the bonus and split (p. 190)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "FAIL",
+   "title": "Cash flow vs profit",
+   "detail": "Operating cash flow +37.40 / -66.47 / -430.08 Rs m (FY24 / FY25 / FY26) against PAT 76.70 / 271.37 / 332.06; cumulative CFO/PAT -67.5% (-459.15 / 680.13). Operating profit before working capital was positive each year (633.64 in FY26); working capital absorbed Rs 962.71 m in FY26 (inventory Rs 1,017.90 m, receivables Rs 344.94 m, offset by payables Rs 596.42 m). FY26 CFO is also after Rs 74.96 m of foreign-exchange loss in other expenses and Rs 44.24 m of unrealised loss added back.",
+   "page": "p. 87"
+  },
+  {
+   "level": "FAIL",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Demand side: top-10 customers 89.71% / 89.36% / 88.38% of revenue (FY26 / FY25 / FY24); Amber Enterprises India 28.79%; top-5 customers 75.36%. Supply side: top-10 suppliers 79.33% of expenses; Supplier 1 is 32.99% (22.74% in FY25). Amber Enterprises, the largest customer, is also named among the major suppliers (p. 26); the DRHP does not say how much is bought from it. 53.07% of raw materials are imported (South Korea, China, Thailand). The DRHP states there are no long-term contracts with the top-10 suppliers and purchases are by individual purchase order (p. 430). Both sides fail independently.",
+   "page": "pp. 24-26, 404, 430"
+  },
+  {
+   "level": "WATCH",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Related-party trade is small: purchases from KPM India / KPM International Rs 28.57 m (0.54% of FY26 revenue), sales Rs 2.65 m. Freehold land of Rs 4.99 m was bought from Koolking Foundation (a KMP-influenced entity) in FY26. Promoters lend to the company: unsecured loans of Rs 157.25 m were outstanding at 31-Jul-2026 (8.84% of borrowings, p. 37), and interest paid to promoters, relatives and their HUFs was Rs 13.97 m in FY26. Proceeds go to the company's own plants, not to a subsidiary.",
+   "page": "pp. 90-92, 407"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 133.46 m = 14.2% of net worth (Rs 941.17 m) and 30.2% of FY26 PBT; Rs 130.38 m is a customs show-cause notice (22-Apr-2025) on ASEAN-India FTA duty exemption. The High Court dismissed the writ on 28-Apr-2026; a special leave petition (29-May-2026) is pending at the Supreme Court. Not provided for.",
+   "page": "pp. 55, 89, 461"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "Statutory auditor Raj Kumar Jindal & Co resigned 20-Sep-2025 (stated reason: preoccupation with other professional arrangements) after re-appointment on 30-Sep-2024; SCV & Co. LLP was appointed 30-Sep-2025 to fill the vacancy and audited FY26. FY25 and FY24 are special-purpose financial statements. Auditors' reports carry observations on audit trail and on title deeds (p. 59).",
+   "page": "pp. 59, 95"
+  },
+  {
+   "level": "WATCH",
+   "title": "CARO / audit trail",
+   "detail": "CARO / Rule 11(g): audit trail was partly enabled at application level and not at database level throughout FY26. Title deeds of Plot UDL-7 (Gross value Rs 32.22 m, Andhra Pradesh) are not yet in the company's name (held since March 2025; sale deed pending).",
+   "page": "p. 59"
+  },
+  {
+   "level": "WATCH",
+   "title": "Lead-manager track record",
+   "detail": "Keynote Financial Services is BRLM. This DRHP lists two IPOs handled in FY27: Amir Chand Jagdish Kumar (Exports), -23.53% at day 30 and -15.98% at day 90; CSM Technologies, -2.75% at day 30. Neither has a 180-day reading. Both are recorded in data/merchant_bankers.json.",
+   "page": "pp. 481-482"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -77.3% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "DEGENERATE: TV above 100% of EV - fix assumptions, do not report",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Price band, offer expenses, GCP amount and post-issue share count (all [●])",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Interim financials: audited record ends 31-Mar-2026; FY26 inventory (116 days vs 50) and receivables build and the post-year-end unwind are not shown",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Customs show-cause notice of Rs 130.38 m: duty and interest exposure, penalty, and import values covered; Supreme Court status",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Purchases from Amber Enterprises (named as both largest customer and a major supplier) and identity of Supplier 1 (32.99% of expenses); arm's-length terms",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Orders for plant and machinery for the three new units (Rs 1,384.73 m) and the existing-plant machinery (Rs 145.27 m): none placed; quotation validity",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Foreign-exchange policy: unhedged import exposure produced a Rs 74.96 m loss in FY26 (16.9% of PBT); hedging policy and open exposure",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Copper and brass price pass-through terms in customer contracts; sales volumes by product (only installed capacity is given)",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Peer set is not comparable: P/E 19.08x to 526.00x (average 176.08x); no listed peer is a components supplier of the same scale",
+   "page": "RHP / exchange filings"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Scrap sales of Rs 670.75 m (12.7% of FY26 revenue) are counted in revenue from operations; metal content and pricing basis",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Current price and 3-year financials of lead-manager issues (merchant banker table)",
+   "page": "BSE / NSE"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "2:1 bonus (record date 21-Aug-2026, allotted 1-Sep-2026) and 1:2 split (3-Sep-2026) are applied retrospectively: EPS 6.07 / 4.96 / 1.43 and NAV 17.20 are on 54,729,240 shares. The balance sheet still shows share capital of Rs 91.22 m (pre-bonus count of 9,121,540 shares of Rs 10), which is a presentation point only.",
+   "page": "pp. 176-178"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 107.51 m of a Rs 110.42 m FY26 charge; cumulative current tax is 25.4% of cumulative PBT (236.94 / 933.13 Rs m) against a 25.17% statutory rate. Tax actually paid was Rs 155.57 m over three years, so Rs 92.03 m sits as current tax payable at 31-Mar-2026 (Rs 16.98 m at FY24).",
+   "page": "pp. 86-87"
+  },
+  {
+   "title": "Revaluation reserve",
+   "detail": "No revaluation reserve in other equity.",
+   "page": "pp. 85-86"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill; other intangible assets Rs 0.67 m.",
+   "page": "p. 85"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Monitoring agency to be appointed (issue above Rs 1,000 m). No debt-repayment object. Land for the three new units is already owned and is not funded from proceeds.",
+   "page": "pp. 133-134"
+  },
+  {
+   "title": "Eligibility re-computation",
+   "detail": "Reg 6(1) re-performed: operating profit 533.77 / 429.41 / 135.94 Rs m reproduces from PBT plus finance cost less other income (442.48 + 117.60 - 26.31 = 533.77); three-year average Rs 366.37 m against the Rs 150 m test; net tangible assets Rs 940.50 / 607.46 / 333.72 m; monetary assets 13.76% / 16.28% / 17.33% of NTA; net worth above Rs 10 m each year. KPI EBITDA Rs 573.88 m reproduces from the P&L.",
+   "page": "p. 475"
+  },
+  {
+   "title": "SME conditions",
+   "detail": "OFS of 3,050,000 shares by four selling shareholders (915,000 each from three promoters; 305,000 from a promoter-group member), each below half of its holding. At the Rs 115.82 reference the OFS is Rs 353.3 m, 10.5% of a Rs 3353.3 m offer (under the 20% ceiling). Re-test at the RHP price.",
+   "page": "p. 1"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 176-178",
+   "finding": "2:1 bonus (record date 21-Aug-2026, allotted 1-Sep-2026) and 1:2 split (3-Sep-2026) are applied retrospectively: EPS 6.07 / 4.96 / 1.43 and NAV 17.20 are on 54,729,240 shares. The balance sheet still shows share capital of Rs 91.22 m (pre-bonus count of 9,121,540 shares of Rs 10), which is a presentation point only."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "FAIL",
+   "page": "p. 87",
+   "finding": "Operating cash flow +37.40 / -66.47 / -430.08 Rs m (FY24 / FY25 / FY26) against PAT 76.70 / 271.37 / 332.06; cumulative CFO/PAT -67.5% (-459.15 / 680.13). Operating profit before working capital was positive each year (633.64 in FY26); working capital absorbed Rs 962.71 m in FY26 (inventory Rs 1,017.90 m, receivables Rs 344.94 m, offset by payables Rs 596.42 m). FY26 CFO is also after Rs 74.96 m of foreign-exchange loss in other expenses and Rs 44.24 m of unrealised loss added back."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "pp. 86-87",
+   "finding": "Current tax Rs 107.51 m of a Rs 110.42 m FY26 charge; cumulative current tax is 25.4% of cumulative PBT (236.94 / 933.13 Rs m) against a 25.17% statutory rate. Tax actually paid was Rs 155.57 m over three years, so Rs 92.03 m sits as current tax payable at 31-Mar-2026 (Rs 16.98 m at FY24)."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "WATCH",
+   "page": "pp. 90-92, 407",
+   "finding": "Related-party trade is small: purchases from KPM India / KPM International Rs 28.57 m (0.54% of FY26 revenue), sales Rs 2.65 m. Freehold land of Rs 4.99 m was bought from Koolking Foundation (a KMP-influenced entity) in FY26. Promoters lend to the company: unsecured loans of Rs 157.25 m were outstanding at 31-Jul-2026 (8.84% of borrowings, p. 37), and interest paid to promoters, relatives and their HUFs was Rs 13.97 m in FY26. Proceeds go to the company's own plants, not to a subsidiary."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 133-134",
+   "finding": "Amount-based issue (Rs 3,000 m) with no fixed share count, so no price floor can be set. Specific objects total Rs 2,130.00 m (71.0% of gross proceeds): new units Rs 1,384.73 m, existing-plant machinery Rs 145.27 m, working capital Rs 600.00 m. The balance of Rs 870.00 m must cover offer expenses and general corporate purposes, with GCP capped at 25% of gross proceeds (Rs 750 m); at that cap, offer expenses would be at least Rs 120.00 m."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "PASS",
+   "page": "pp. 85-86",
+   "finding": "No revaluation reserve in other equity."
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "p. 85",
+   "finding": "No goodwill; other intangible assets Rs 0.67 m."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "FAIL",
+   "page": "pp. 24-26, 404, 430",
+   "finding": "Demand side: top-10 customers 89.71% / 89.36% / 88.38% of revenue (FY26 / FY25 / FY24); Amber Enterprises India 28.79%; top-5 customers 75.36%. Supply side: top-10 suppliers 79.33% of expenses; Supplier 1 is 32.99% (22.74% in FY25). Amber Enterprises, the largest customer, is also named among the major suppliers (p. 26); the DRHP does not say how much is bought from it. 53.07% of raw materials are imported (South Korea, China, Thailand). The DRHP states there are no long-term contracts with the top-10 suppliers and purchases are by individual purchase order (p. 430). Both sides fail independently."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "pp. 55, 89, 461",
+   "finding": "Contingent liabilities Rs 133.46 m = 14.2% of net worth (Rs 941.17 m) and 30.2% of FY26 PBT; Rs 130.38 m is a customs show-cause notice (22-Apr-2025) on ASEAN-India FTA duty exemption. The High Court dismissed the writ on 28-Apr-2026; a special leave petition (29-May-2026) is pending at the Supreme Court. Not provided for."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "pp. 59, 95",
+   "finding": "Statutory auditor Raj Kumar Jindal & Co resigned 20-Sep-2025 (stated reason: preoccupation with other professional arrangements) after re-appointment on 30-Sep-2024; SCV & Co. LLP was appointed 30-Sep-2025 to fill the vacancy and audited FY26. FY25 and FY24 are special-purpose financial statements. Auditors' reports carry observations on audit trail and on title deeds (p. 59)."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "WATCH",
+   "page": "p. 59",
+   "finding": "CARO / Rule 11(g): audit trail was partly enabled at application level and not at database level throughout FY26. Title deeds of Plot UDL-7 (Gross value Rs 32.22 m, Andhra Pradesh) are not yet in the company's name (held since March 2025; sale deed pending)."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "pp. 133-134",
+   "finding": "Monitoring agency to be appointed (issue above Rs 1,000 m). No debt-repayment object. Land for the three new units is already owned and is not funded from proceeds."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "PASS",
+   "page": "p. 475",
+   "finding": "Reg 6(1) re-performed: operating profit 533.77 / 429.41 / 135.94 Rs m reproduces from PBT plus finance cost less other income (442.48 + 117.60 - 26.31 = 533.77); three-year average Rs 366.37 m against the Rs 150 m test; net tangible assets Rs 940.50 / 607.46 / 333.72 m; monetary assets 13.76% / 16.28% / 17.33% of NTA; net worth above Rs 10 m each year. KPI EBITDA Rs 573.88 m reproduces from the P&L."
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "PASS",
+   "page": "p. 1",
+   "finding": "OFS of 3,050,000 shares by four selling shareholders (915,000 each from three promoters; 305,000 from a promoter-group member), each below half of its holding. At the Rs 115.82 reference the OFS is Rs 353.3 m, 10.5% of a Rs 3353.3 m offer (under the 20% ceiling). Re-test at the RHP price."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "WATCH",
+   "page": "pp. 481-482",
+   "finding": "Keynote Financial Services is BRLM. This DRHP lists two IPOs handled in FY27: Amir Chand Jagdish Kumar (Exports), -23.53% at day 30 and -15.98% at day 90; CSM Technologies, -2.75% at day 30. Neither has a 180-day reading. Both are recorded in data/merchant_bankers.json."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "N.A.",
+   "page": "pp. 133-136",
+   "finding": "Total project cost of the three new units is Rs 1,530.00 m per the DPR, funded from net proceeds; orders for plant and machinery are yet to be placed (pp. 133-143). Any separate means-of-finance tie-up is not described."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   239.938,
+   483.142,
+   526.745
+  ],
+  "ebitda": [
+   15.635,
+   45.891,
+   57.388
+  ],
+  "pat": [
+   7.67,
+   27.137,
+   33.206
+  ],
+  "cfo": [
+   3.74,
+   -6.647,
+   -43.008
+  ],
+  "ebitda_margin": [
+   0.0652,
+   0.095,
+   0.1089
+  ],
+  "pat_margin": [
+   0.032,
+   0.0562,
+   0.063
+  ],
+  "inventory": [
+   30.698,
+   68.234,
+   170.024
+  ],
+  "receivables": [
+   60.116,
+   71.282,
+   106.151
+  ],
+  "payables": [
+   64.077,
+   56.189,
+   118.004
+  ],
+  "nwc": [
+   26.74,
+   83.33,
+   158.17
+  ],
+  "nwc_pct": [
+   0.1114,
+   0.1725,
+   0.3003
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 115.82,
+  "floor": 115.82,
+  "cap": 115.82,
+  "reference_note": "Rs 115.82 = FY26 basic EPS of Rs 6.07 x 19.08, the lowest peer P/E in the DRHP's own table (Elin Electronics, p. 179). It is a reference point for sizing the model, not a price band and not a view of the right price. The DRHP's peer P/Es run from 19.08x to 526.00x (average 176.08x). The only priced transaction in the DRHP is the 29-Jan-2024 transfer among shareholders at Rs 34.66 per Rs 10 share, Rs 5.78 after the bonus and split (p. 190).",
+  "scenarios": {
+   "bear": {
+    "dcf": 24.0922,
+    "relative": 199.8939,
+    "blended": 59.2525,
+    "upside_floor": -0.4884,
+    "upside_cap": -0.4884
+   },
+   "neutral": {
+    "dcf": 45.434,
+    "relative": 199.8939,
+    "blended": 76.326,
+    "upside_floor": -0.341,
+    "upside_cap": -0.341
+   },
+   "bull": {
+    "dcf": 66.249,
+    "relative": 199.8939,
+    "blended": 92.978,
+    "upside_floor": -0.1972,
+    "upside_cap": -0.1972
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1686,
+  "tv_share": 1.0841,
+  "reverse": {
+   "sentence": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1686
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.3174573244716513,
+     "actual": 0.1013
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.3099
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   526.745,
+   611.0242,
+   708.7881,
+   808.0184,
+   904.9806,
+   995.4787
+  ],
+  "ebitda": [
+   57.388,
+   70.2678,
+   81.5106,
+   92.9221,
+   104.0728,
+   114.48
+  ],
+  "nopat": [
+   39.942,
+   49.0997,
+   56.9557,
+   64.9295,
+   72.721,
+   79.9931
+  ],
+  "fcff": [
+   -91.172,
+   35.2873,
+   -136.4578,
+   23.9098,
+   32.6389,
+   42.5831
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1486,
+    0.1586,
+    0.1686,
+    0.1786,
+    0.1886
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     53.1457,
+     53.5832,
+     54.0488,
+     54.5468,
+     55.0825
+    ],
+    [
+     48.7844,
+     49.0506,
+     49.3279,
+     49.6179,
+     49.9223
+    ],
+    [
+     45.139,
+     45.286,
+     45.434,
+     45.5833,
+     45.7338
+    ],
+    [
+     42.0573,
+     42.1205,
+     42.1788,
+     42.2317,
+     42.2785
+    ],
+    [
+     39.4266,
+     39.4307,
+     39.4264,
+     39.413,
+     39.3893
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.21,
+    0.24,
+    0.27,
+    0.3,
+    0.33
+   ],
+   "cols": [
+    0.095,
+    0.105,
+    0.115,
+    0.125,
+    0.135
+   ],
+   "values": [
+    [
+     41.121,
+     46.0687,
+     51.0164,
+     55.9641,
+     60.9118
+    ],
+    [
+     38.3298,
+     43.2775,
+     48.2252,
+     53.1729,
+     58.1206
+    ],
+    [
+     35.5387,
+     40.4864,
+     45.434,
+     50.3817,
+     55.3294
+    ],
+    [
+     32.7475,
+     37.6952,
+     42.6429,
+     47.5905,
+     52.5382
+    ],
+    [
+     29.9563,
+     34.904,
+     39.8517,
+     44.7994,
+     49.7471
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "PG Electroplast Ltd",
+   "pe": 76.5774,
+   "pb": 4.9532,
+   "issuer": false
+  },
+  {
+   "name": "Amber Enterprises India Ltd",
+   "pe": 141.145,
+   "pb": 5.7525,
+   "issuer": false
+  },
+  {
+   "name": "KRN Heat Exchanger & Refrigeration Ltd",
+   "pe": 117.5772,
+   "pb": 15.66,
+   "issuer": false
+  },
+  {
+   "name": "Elin Electronics Ltd",
+   "pe": 19.0797,
+   "pb": 0.8064,
+   "issuer": false
+  },
+  {
+   "name": "Koolking Industries India Limited at reference",
+   "pe": 28.1237,
+   "pb": 2.3695,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 33.5296
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 6.71
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 60.3594
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 67.066
+   },
+   {
+    "label": "Non-institutional",
+    "value": 50.2995
+   },
+   {
+    "label": "Retail",
+    "value": 117.3655
+   }
+  ],
+  "issue_cr": 335.33,
+  "overhang": [
+   {
+    "label": "Promoter minimum contribution (20% of post-offer capital at the Rs 115.82 reference)",
+    "shares_lakh": 161.3,
+    "days": 1095,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter holding above the minimum contribution, after the OFS",
+    "shares_lakh": 292.0,
+    "days": 365,
+    "pct_float": null
+   },
+   {
+    "label": "Pre-issue holders other than promoters (promoter group, after OFS by Sugandha Sood)",
+    "shares_lakh": 63.5,
+    "days": 180,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "Keynote Financial Services Limited",
+    "owner": "Promoter holding reported at about 71.9% (promoters include Vivek Suchanti, 10.45% after a June-2025 HUF partition)",
+    "listed": "Yes (BSE: 512597; NSE: KEYFINSERV)",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 2,
+      "amount_rs_m": 5858,
+      "d30_discount_lt25": 2,
+      "d180_discount_lt25": 1
+     },
+     "FY2025-26": {
+      "ipos": 0
+     },
+     "FY2024-25": {
+      "ipos": 0
+     }
+    },
+    "short": "KFS"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "Amir Chand Jagdish Kumar (Exports) Limited",
+    "sector": "Basmati rice and agri-commodity exports (per secondary reports)",
+    "listing_gain": -0.0802,
+    "d30": -0.2353,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-04-02"
+   },
+   {
+    "issuer": "CSM Technologies Limited",
+    "sector": "IT / digital services (per secondary reports)",
+    "listing_gain": 0.0,
+    "d30": -0.0275,
+    "rev_growth": 0.14,
+    "pat_growth": 0.702,
+    "listing_date": "2026-07-02"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "PAT Rs 76.70 m to Rs 332.06 m FY24-FY26; reported EBITDA margin 6.52% to 10.89% (p. 182)",
+   "Supplies eight of the top ten Indian HVAC makers; 96.91% of FY26 revenue from repeat customers; 108 customer audits in three years (pp. 174-175, 182)",
+   "Eligibility under Reg 6(1) reproduces: average operating profit Rs 366.37 m vs Rs 150 m (p. 475)",
+   "Cash tax 25.4% of cumulative PBT (p. 86)",
+   "Related-party trade small: purchases Rs 28.57 m, sales Rs 2.65 m in FY26 (p. 90)"
+  ],
+  "weaknesses": [
+   "Operating cash flow Rs -430.08 m in FY26; cumulative CFO/PAT -67.5% (p. 87)",
+   "Top-10 customers 89.71%; Amber Enterprises 28.79% (p. 24)",
+   "Top-10 suppliers 79.33%; Supplier 1 32.99%; 53.07% of raw material imported (pp. 21, 25)",
+   "Debt/equity 1.63x; borrowings Rs 1,778.11 m at 31-Jul-2026 (pp. 58, 449)",
+   "Auditor resigned 20-Sep-2025; audit trail not enabled at database level (pp. 59, 95)"
+  ],
+  "opportunities": [
+   "Addressable HVAC-component market Rs 34.8 bn growing 24.46% a year to FY30, issuer-commissioned (p. 137)",
+   "Three new units (Punjab, Andhra Pradesh, Rajasthan) and new lines in heat exchangers, sheet metal and service valves; land already acquired (pp. 137-138)",
+   "Air-conditioner volume 12.8 m units in FY27 to 16.7 m in FY30 (9.3% CAGR) per CARE (p. 174)",
+   "Installed capacity 279.86 m units (FY24) to 419.26 m units (FY26) (p. 182)"
+  ],
+  "threats": [
+   "Customs show-cause notice of Rs 130.38 m, appeal pending at the Supreme Court (p. 461)",
+   "Unhedged import exposure: Rs 74.96 m FX loss in FY26 (p. 444)",
+   "Copper and brass price volatility; no long-term supply contracts described (pp. 25, 442)",
+   "Amber and KRN are both large customers and named listed peers (pp. 24, 179)",
+   "Government localisation policy and import-duty changes affect demand (p. 137)"
+  ]
+ },
+ "counts": {
+  "fail": 2,
+  "watch": 5,
+  "pass": 7,
+  "open": 0
+ }
+}
