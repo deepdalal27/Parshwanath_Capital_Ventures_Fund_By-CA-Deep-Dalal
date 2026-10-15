@@ -1,6 +1,132 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-15T13:49Z",
   "issuers": [
+    {
+      "slug": "ekkaa-electronics-india-ltd",
+      "company": "Ekkaa Electronics (India) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-13",
+      "sector": "Consumer electronics and appliances ODM/OEM",
+      "brlm": "Motilal Oswal Investment Advisors; Shannon Advisors (marketing)",
+      "issue_size_cr": 725,
+      "price_band": "Not announced (fresh issue up to Rs 525 cr plus OFS up to Rs 200 cr)",
+      "call": "Screen only",
+      "headline": "Revenue rose from Rs 4,965 m to Rs 12,218 m and PAT to Rs 654 m in FY26, but operating cash flow was negative in all three years, Rs 3,834 m of debt is promoter-guaranteed, and the DCF (Rs 76) and peer-multiple (Rs 309) values disagree by 75% around the Rs 182.63 reference.",
+      "red_flags": [
+        "CFO -Rs 286.59 m in FY26 and negative every year; cumulative -Rs 1,080.54 m vs PAT Rs 848.81 m (p. 75)",
+        "Borrowings Rs 3,087.54 m (Mar-26) to Rs 3,961.43 m (Jul-26); Rs 3,833.93 m promoter-guaranteed (p. 43)",
+        "LED TVs 71.78% of revenue; top-10 customers 65.77% (unnamed); top supplier 46.94% (pp. 22-29)",
+        "Subsidiary bought from promoter-directors for Rs 490.00 m; it was 21.01% of FY25 revenue (pp. 78, 362)",
+        "Proforma revenue +72.3% and PAT Rs 706.94 m in FY26; capacity 37.80% utilised (pp. 137, 247)",
+        "Series B at Rs 182.63 (Jul-2026) vs Rs 105.25 Series A (Sep-2025); neutral blended value Rs 169.15 (pp. 99-100)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 1,
+        "watch": 5,
+        "pass": 3,
+        "open": 5
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Goodwill vs tangible equity"
+      ],
+      "neutral": {
+        "dcf": 76.2147,
+        "relative": 308.5422,
+        "blended": 169.1457,
+        "upside_floor": -0.0738,
+        "upside_cap": -0.0738
+      }
+    },
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-09",
+      "sector": "Agricultural implements (tractor-operated and tractor-mounted: seeders, laser levellers, rotavators, straw reapers, briquette machines)",
+      "brlm": "Keynote Financial Services Limited",
+      "issue_size_cr": 340.82,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "FY26 revenue of Rs 4,139.70 m is 4.3x FY25 mainly because the Company took over two promoter-owned businesses on 01-Apr-2025; on the issuer's own proforma base revenue grew 63.1% and PAT 51.7%, but FY26 operating cash flow was 8.6% of PAT, one customer is 25.2% of revenue and the offer is made under the 75%-QIB route.",
+      "red_flags": [
+        "Reported FY26 revenue Rs 4,139.70 m vs Rs 959.26 m FY25; proforma FY25 Rs 2,537.60 m gives +63.1% (pp. 87, 92)",
+        "FY26 CFO Rs 26.85 m = 8.6% of PAT Rs 313.90 m; cumulative CFO/PAT 69.7% (p. 88)",
+        "Top customer 25.21% and top-10 50.04% of FY26 revenue; distributors 46.16% and dealers 39.92% (pp. 29, 36)",
+        "EBITDA margin 13.46% FY26, ROCE 31.10%, interest cover 5.03x, debt/equity 1.89x; 78.06% of borrowings repayable within 12 months (pp. 157, 480)",
+        "Offer under Reg 6(2): net worth was Rs 5.32 m in FY24; at least 75% must be allotted to QIBs or the Offer fails (p. 57)",
+        "Dehlon expansion lifts capacity from 4,000 to 33,000 units for Rs 716.64 m, against 18,219 units produced across both plants in FY26 (pp. 136, 267)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 7,
+        "pass": 7,
+        "open": 0
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 54.3799,
+        "relative": 103.4805,
+        "blended": 64.2,
+        "upside_floor": -0.5125,
+        "upside_cap": -0.5125
+      }
+    },
+    {
+      "slug": "koolking-industries-india-ltd",
+      "company": "Koolking Industries India Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-15",
+      "sector": "HVAC components (brass and copper tubes and fittings for air-conditioner indoor and outdoor units, refrigeration lines)",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 335.33,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "PAT rose from Rs 76.70 m to Rs 332.06 m over FY24-FY26 with ROCE of 28.39%, but revenue growth slowed to 9.0% in FY26, operating cash flow was negative in two of three years (cumulative -67.5% of PAT), and ten customers are 89.71% of revenue.",
+      "red_flags": [
+        "PAT Rs 76.70 m / 271.37 m / 332.06 m FY24-FY26; reported ROCE 28.39%, ROE 42.86% FY26; cash tax at the statutory rate (pp. 86, 182)",
+        "Operating cash flow +37.40 / -66.47 / -430.08 Rs m; cumulative CFO/PAT -67.5%; inventory 116 days vs 50 (pp. 87, 167)",
+        "Revenue +101.4% in FY25 but +9.0% in FY26 (Rs 5,267.45 m), with copper and brass prices higher (pp. 86, 442)",
+        "Top-10 customers 89.71%, Amber Enterprises 28.79%, who is also named as a major supplier; Supplier 1 is 32.99% of expenses (pp. 24-26)",
+        "Customs show-cause notice of Rs 130.38 m (14.2% of net worth), special leave petition pending; Rs 74.96 m FX loss on unhedged imports in FY26 (pp. 444, 461)",
+        "Rs 115.82 reference = 19.08x FY26 EPS (lowest peer P/E); no orders placed for the Rs 1,530.00 m of new units (pp. 133-134, 179)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited-drhp_104848.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 2,
+        "watch": 5,
+        "pass": 7,
+        "open": 0
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Customer / supplier / geographic concentration",
+        "Related-party capex & subsidiaries"
+      ],
+      "neutral": {
+        "dcf": 45.434,
+        "relative": 199.8939,
+        "blended": 76.326,
+        "upside_floor": -0.341,
+        "upside_cap": -0.341
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",
