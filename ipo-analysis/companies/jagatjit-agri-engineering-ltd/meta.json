@@ -1,0 +1,103 @@
+{
+  "slug": "jagatjit-agri-engineering-ltd",
+  "company": "Jagatjit Agri Engineering Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-25",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+  "sector": "Agricultural implements (tractor-mounted seeders, reapers, rotavators, land levellers, briquette machines)",
+  "brlm": "Keynote Financial Services",
+  "issue_size_cr": 340.82,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "Like-for-like (proforma) revenue grew 63.1% and PAT 51.7% in FY26 with ROCE of 31.10%, but operating cash flow was 8.6% of PAT, one customer is 25.21% of revenue, and the restated FY26 figures are not comparable with FY25 because the promoters' two proprietorships were absorbed on 1-Apr-2025.",
+  "red_flags": [
+    "Proforma revenue Rs 2,537.60 m to Rs 4,139.70 m (+63.1%) and PAT Rs 206.95 m to Rs 313.90 m (+51.7%) FY25-FY26 (p. 158)",
+    "Cash tax 26.1% of cumulative PBT; ROCE 31.10%, interest cover 5.03x FY26 (pp. 87, 158)",
+    "Operating cash flow Rs 26.85 m = 8.6% of FY26 PAT; inventory Rs 1,137.11 m, 132 days (pp. 85, 88, 127)",
+    "Seth Agro Industries 25.21% of FY26 revenue; Northern and Central states 93.99%; top two products 59.06% (pp. 26, 247, 261)",
+    "FY25: 21.9% of revenue sold to, and 52.6% of expenses bought from, the promoters' proprietorship SMW II, absorbed 1-Apr-2025 (pp. 262-263, 301)",
+    "Rs 131.69 reference = 23.35x FY26 EPS (lowest listed peer P/E); no order placed on the Rs 716.64 m capex object (pp. 139, 156)"
+  ],
+  "status": "analysed",
+  "reference_note": "Rs 131.69 = FY26 basic EPS of Rs 5.64 x 23.35, the lowest peer P/E in the DRHP's own table (Escorts Kubota, p. 156). It is a reference point for sizing the model, not a price band and not a view of fair price. The only priced transaction in the DRHP is the 22-Oct-2025 allotment to the promoters at Rs 1,547 per Rs 10 share, Rs 33.63 after the bonus and split, for the business transfer (p. 163).",
+  "swot": {
+    "strengths": [
+      "Proforma revenue Rs 2,074.48 m / 2,537.60 m / 4,139.70 m FY24-FY26, a 41.3% two-year CAGR (p. 158)",
+      "ROCE 31.10% and ROE 53.89% in FY26; interest cover 5.03x (p. 158)",
+      "Cash tax 26.1% of cumulative PBT, above the 25.17% statutory rate (p. 87)",
+      "233 dealers and 12 distributors in 20 states, up from 15 states in FY25; 192 SKUs (pp. 158, 247)",
+      "Both plants run at 73.62% (Cheema) and 89.68% (Dehlon) utilisation in FY26 (p. 266)"
+    ],
+    "weaknesses": [
+      "Operating cash flow Rs 26.85 m against PAT Rs 313.90 m in FY26; cumulative CFO/PAT 69.7% (p. 88)",
+      "Seth Agro Industries 25.21% and top-10 customers 50.04% of FY26 revenue (p. 261)",
+      "Super Seeder 32.99% and Straw Reaper 26.07% of FY26 revenue (p. 26)",
+      "Debt/equity 1.89x; borrowings Rs 1,344.07 m, of which Rs 1,340.89 m carry promoter personal guarantees (pp. 40, 158)",
+      "Audit trail not enabled at database level until Jan-2026 (p. 52)"
+    ],
+    "opportunities": [
+      "Soil-preparation equipment forecast to grow at 10.2% CAGR FY26-FY30, issuer-commissioned CARE report (p. 209)",
+      "Dehlon capacity to rise from 4,000 to 33,000 units with the Rs 716.64 m object (p. 137)",
+      "Entry into briquette and pellet machinery (p. 261)",
+      "Export revenue only 1.36% of FY26, so the base is small if exports recover (p. 158)"
+    ],
+    "threats": [
+      "Demand linked to CRM and SMAM subsidies, with past payment delays by state governments (p. 56)",
+      "Northern and Central states 93.99% of revenue; Punjab 25.79%, Haryana 18.48% (p. 56)",
+      "Promoters ran competing businesses until 31-Mar-2025; non-compete runs 12 months after they cease control (p. 53)",
+      "Promoters were disqualified as directors 2016-2021; compounding application pending (p. 36)",
+      "Larger listed rivals: VST Tillers Tractors and Escorts Kubota (p. 156)"
+    ]
+  },
+  "focus_top": [
+    "Customer / supplier / geographic concentration",
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries"
+  ],
+  "files": {
+    "screening": "JAGATJIT_AGRI_ENGINEERIN_01_Screening.xlsx",
+    "anchor": "JAGATJIT_AGRI_ENGINEERIN_02_Anchor_QIB.xlsx",
+    "valuation": "JAGATJIT_AGRI_ENGINEERIN_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "JAGATJIT_AGRI_ENGINEERIN_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 36.4747,
+      "relative": 92.9356,
+      "blended": 47.7669,
+      "upside_floor": -0.6373,
+      "upside_cap": -0.6373
+    },
+    "neutral": {
+      "dcf": 53.6639,
+      "relative": 92.9356,
+      "blended": 61.5183,
+      "upside_floor": -0.5329,
+      "upside_cap": -0.5329
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -42.3% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 73.7987,
+      "relative": 92.9356,
+      "blended": 77.6261,
+      "upside_floor": -0.4105,
+      "upside_cap": -0.4105
+    }
+  },
+  "counts": {
+    "fail": 1,
+    "watch": 6,
+    "pass": 7,
+    "open": 0
+  },
+  "analysed_on": "2026-10-15"
+}

@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-15T13:36Z",
   "issuers": [
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-15",
+      "sector": "Agricultural implements (tractor-mounted seeders, reapers, rotavators, land levellers, briquette machines)",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 340.82,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "Like-for-like (proforma) revenue grew 63.1% and PAT 51.7% in FY26 with ROCE of 31.10%, but operating cash flow was 8.6% of PAT, one customer is 25.21% of revenue, and the restated FY26 figures are not comparable with FY25 because the promoters' two proprietorships were absorbed on 1-Apr-2025.",
+      "red_flags": [
+        "Proforma revenue Rs 2,537.60 m to Rs 4,139.70 m (+63.1%) and PAT Rs 206.95 m to Rs 313.90 m (+51.7%) FY25-FY26 (p. 158)",
+        "Cash tax 26.1% of cumulative PBT; ROCE 31.10%, interest cover 5.03x FY26 (pp. 87, 158)",
+        "Operating cash flow Rs 26.85 m = 8.6% of FY26 PAT; inventory Rs 1,137.11 m, 132 days (pp. 85, 88, 127)",
+        "Seth Agro Industries 25.21% of FY26 revenue; Northern and Central states 93.99%; top two products 59.06% (pp. 26, 247, 261)",
+        "FY25: 21.9% of revenue sold to, and 52.6% of expenses bought from, the promoters' proprietorship SMW II, absorbed 1-Apr-2025 (pp. 262-263, 301)",
+        "Rs 131.69 reference = 23.35x FY26 EPS (lowest listed peer P/E); no order placed on the Rs 716.64 m capex object (pp. 139, 156)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 1,
+        "watch": 6,
+        "pass": 7,
+        "open": 0
+      },
+      "focus_top": [
+        "Customer / supplier / geographic concentration",
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries"
+      ],
+      "neutral": {
+        "dcf": 53.6639,
+        "relative": 92.9356,
+        "blended": 61.5183,
+        "upside_floor": -0.5329,
+        "upside_cap": -0.5329
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",
