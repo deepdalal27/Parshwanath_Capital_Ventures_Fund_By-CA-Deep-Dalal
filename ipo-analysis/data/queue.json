@@ -1,15 +1,6 @@
 {
-  "last_scan": "2026-10-08T00:00Z",
+  "last_scan": "2026-10-16T13:30Z",
   "pending": [
-    {
-      "company": "Jagatjit Agri Engineering Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
-      "source": "SEBI",
-      "note": ""
-    },
     {
       "company": "Ekkaa Electronics (India) Limited",
       "platform": "Mainboard",
@@ -457,6 +448,96 @@
       "stage": "DRHP",
       "filed_on": "2026-10-01",
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited-drhp_104874.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Paramotor Digital Technology Limited",
+      "platform": "Mainboard",
+      "stage": "UDRHP-I",
+      "filed_on": "2026-10-14",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/paramotor-digital-technology-limited-udrhp-i_105258.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Soleos Energy Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-13",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/soleos-energy-limited-drhp_105196.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Oswal Cables Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-12",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/oswal-cables-limited-addendum-to-drhp_105234.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Matangi Rubber Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-10",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/matangi-rubber-limited-addendum-to-the-drhp_105143.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Paras Healthcare Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-15",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/paras-healthcare-limited-rhp_105284.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Jio Platforms Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-15",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jio-platforms-limited-rhp_105274.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Zetwerk Manufacturing Businesses Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-13",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/zetwerk-manufacturing-businesses-limited-rhp_105195.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Tonbo Imaging India Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-12",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-rhp_105141.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Sahajanand Medical Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-10",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sahajanand-medical-technologies-limited-rhp_105149.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Fusion CX Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-09",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/fusion-cx-limited-rhp_105257.html",
       "source": "SEBI",
       "note": ""
     }

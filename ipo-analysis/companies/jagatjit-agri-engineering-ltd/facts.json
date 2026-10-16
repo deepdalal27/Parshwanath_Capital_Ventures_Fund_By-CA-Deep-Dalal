@@ -1,0 +1,147 @@
+{
+  "_source": "Jagatjit Agri Engineering Limited DRHP dated 25-Sep-2026 (SEBI filing 01-Oct-2026). Rs crore = Rs million / 10. Printed page numbers. FY26 is CONSOLIDATED (includes Saron Mechanical Works I and II, acquired with effect from 01-Apr-2025); FY25 and FY24 are STANDALONE (company only). The two bases are not comparable; the DRHP's proforma figures (FY25 revenue Rs 2,537.60 m, FY24 Rs 2,074.48 m) are the like-for-like series.",
+  "screening": {
+    "basis": {
+      "name": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "doc_date": "2026-09-25",
+      "aud_to": "2026-03-31",
+      "band": "No",
+      "brlm": "Keynote Financial Services Limited",
+      "outside": "none (all figures from the DRHP)",
+      "bid_cat": "Anchor",
+      "exit": "2-3 year hold (assumed)"
+    },
+    "items": {
+      "rev":  [48.860, 95.926, 413.970, null],
+      "oth":  [0.231, 0.234, 3.503, null],
+      "pbt":  [3.832, 8.020, 44.412, null],
+      "ctax": [0.384, 1.295, 13.030, null],
+      "dtax": [0.946, 0.179, -0.009, null],
+      "pat":  [2.502, 6.547, 31.390, null],
+      "cfo":  [12.493, 13.015, 2.685, null],
+      "rpt_s": [10.999, 23.522, 7.000, null],
+      "rpt_p": [25.881, 44.624, 16.491, null],
+      "nw":   [0.532, 7.078, 70.929, null],
+      "recv": [5.285, 24.472, 61.295, null],
+      "inv":  [13.023, 12.941, 113.711, null],
+      "pay":  [20.141, 46.043, 91.154, null],
+      "cl":   [null, null, 7.170, null],
+      "gw":   [0, 0, 0.455, null],
+      "reval": [0, 0, 0, null]
+    },
+    "cites": {
+      "rev": "p. 87", "oth": "p. 87", "pbt": "p. 87", "ctax": "p. 87", "dtax": "p. 87", "pat": "p. 87",
+      "cfo": "p. 88",
+      "rpt_s": "pp. 94-95 (sales to Saron Mechanical Works I/II in FY24-25, per the table on p. 95)",
+      "rpt_p": "pp. 94-95 (purchases from Saron Mechanical Works I/II in FY24-25, per the table on p. 95)",
+      "nw": "pp. 85-86", "recv": "p. 85", "inv": "p. 85", "pay": "pp. 85-86",
+      "cl": "p. 93", "gw": "p. 85"
+    },
+    "single": {
+      "top1c": 0.2521,
+      "top10c": 0.5004,
+      "top1s": 0.0794,
+      "geo": 0.9399,
+      "waca": 5.40
+    },
+    "checks": {
+      "1": {"status": "PASS", "page": "pp. 154-157", "finding": "22:1 bonus (allotted after 27-May-2026) and 2-for-1 split are applied to all periods: EPS Rs 5.64 = Rs 313.90 m / 55,650,984 shares; NAV Rs 12.75 = Rs 709.29 m / 55,650,984 shares. Consistent across the Basis for Offer Price."},
+      "2": {"status": "WATCH", "page": "pp. 88, 346", "finding": "FY26 operating cash flow Rs 26.85 m against PAT Rs 313.90 m (8.6%); FY26 working capital absorbed Rs 445.46 m of inventory and Rs 281.35 m of other assets. Cumulative FY24-26 CFO/PAT 69.7% (CFO Rs 281.93 m / PAT Rs 404.39 m) on a mixed standalone/consolidated series."},
+      "3": {"status": "PASS", "page": "p. 87", "finding": "Current tax Rs 130.30 m on FY26 PBT Rs 444.12 m (29.3%); cumulative FY24-26 current tax 26.1% of cumulative PBT. Profit is taxed in cash."},
+      "4": {"status": "WATCH", "page": "pp. 94-95, 129, 56", "finding": "Both plants stand on land leased from the promoters to 31-Mar-2055 (Cheema 19.47 acres; Dehlon 16.20 acres, Rs 0.08 m a month, +15% every 3 years), and the Rs 716.64 m expansion is on the Dehlon land. Company lent Rs 55.00 m to promoters in FY26 (balance at 31-Mar-26). Three patents assigned by promoter Dharam Singh on 21-Sep-2026 at below fair value (p. 56). Business bought from promoter proprietorships for Rs 324.57 m paid in shares at Rs 1,547 per Rs 10 share (p. 388)."},
+      "5": {"status": "N.A.", "page": "p. 123", "finding": "Fresh issue is amount-based (Rs 3,000 m), no fixed share count, so there is no objects price floor. Objects: Rs 1,100 m working capital, Rs 716.64 m capex, Rs 185 m debt repayment; the balance is general corporate purposes (cap 25% of gross proceeds) and offer expenses."},
+      "6": {"status": "PASS", "page": "pp. 85-86", "finding": "No revaluation reserve shown in the restated balance sheets."},
+      "7": {"status": "WATCH", "page": "pp. 85, 91, 388", "finding": "Goodwill Rs 4.55 m restated (0.6% of tangible net worth Rs 704.74 m). The proforma balance sheet (p. 91) shows goodwill Rs 65.66 m at 31-Mar-25 and a capital reserve of Rs 32.98 m at 31-Mar-24; the restated note records goodwill of Rs 3.05 m + Rs 1.50 m. Purchase accounting differs between the two presentations."},
+      "8": {"status": "WATCH", "page": "pp. 33, 36, 261, 56", "finding": "Top customer (Seth Agro Industries, not a disclosed related party) 25.21% of FY26 revenue; top-10 50.04%. Northern and Central states 93.99% of revenue. Supply side: top-10 suppliers 40.53% of FY26 raw material cost (76.68% in FY25 when promoter firms supplied); no definitive long-term agreements with suppliers or customers."},
+      "9": {"status": "PASS", "page": "p. 93", "finding": "Contingent liabilities Rs 71.70 m (GST demands Rs 22.67 m, other Rs 6.50 m, bank guarantees Rs 42.35 m) = 10.1% of net worth Rs 709.29 m."},
+      "10": {"status": "N.A.", "page": "", "finding": "No investor presentation reviewed."},
+      "R1": {"status": "WATCH", "page": "p. 52", "finding": "CARO 2020 / Rule 11(g): accounting software had no audit-trail feature at database level until January 2026 (FY25 and FY26 reports). No change of statutory auditor (Anup Kumar Jain & Co) in the last three years."},
+      "R2": {"status": "WATCH", "page": "p. 24", "finding": "Promoters and executive directors were in the past disqualified as directors because of a directorship in Jaggatjit Agro Private Limited, which had not filed financial statements or annual returns; the company also lists past delays in RoC filings with adjudication applications."},
+      "R5": {"status": "WATCH", "page": "p. 1, p. 57", "finding": "Offer is under Regulation 6(2) (does not meet 6(1)(a) and 6(1)(c)): at least 75% to QIBs, no more than 15% non-institutional and 10% retail, with refund if 75% cannot be allotted to QIBs. OFS of 3,100,000 shares by promoter Jagatjit Singh."},
+      "R6": {"status": "OPEN", "page": "p. 511", "finding": "BRLM Keynote Financial Services: DRHP lists two issues (Amir Chand Jagdish Kumar (Exports), CSM Technologies); full track record is on the BRLM's website, not in the DRHP."},
+      "R7": {"status": "WATCH", "page": "pp. 101, 129", "finding": "Capex orders: none placed for any of the Rs 716.64 m (100% unplaced); quotations valid for limited periods. Monitoring agency to be appointed before RHP."}
+    },
+    "gaps": [
+      {"item": "Price band, offer size, offer expenses and general corporate purposes amount", "severity": "High", "source": "RHP"},
+      {"item": "Restated figures are a mix of consolidated FY26 and standalone FY25/FY24; the proforma series is the like-for-like view but is not audited as restated", "severity": "High", "source": "RHP (restated consolidated series)"},
+      {"item": "H1 FY27 financials (audited record is 199 days old at the note date)", "severity": "High", "source": "RHP"},
+      {"item": "Identity, ownership and relationship of the top customer Seth Agro Industries (Rs 1,043.46 m)", "severity": "High", "source": "RHP / MCA / issuer"},
+      {"item": "Capacity table labelled 'Rs million' (4,000 to 33,000) while the Dehlon capacity table is in units (4,000 units); needs clarification", "severity": "Medium", "source": "RHP"},
+      {"item": "Share of FY26 revenue eligible for or sold under CRM/SMAM subsidy schemes", "severity": "Medium", "source": "RHP / issuer"},
+      {"item": "Lender-wise detail of the Rs 185 m debt to be repaid and personal guarantees released", "severity": "Medium", "source": "RHP"},
+      {"item": "BRLM track record beyond the two issues listed", "severity": "Medium", "source": "BSE / NSE listing data"},
+      {"item": "Current price and financials of the BRLM's two recent issuers", "severity": "Low", "source": "BSE / NSE filings"}
+    ]
+  },
+  "anchor": {
+    "inputs": {
+      "name": "Jagatjit Agri Engineering Limited",
+      "board": "Mainboard",
+      "issue": 340.82,
+      "emp": 0,
+      "shr": 0,
+      "qib_pct": 0.75,
+      "nii_pct": 0.15,
+      "rii_pct": 0.10,
+      "anc_pct": 0.6,
+      "mf_anc": 0.3333,
+      "ins_anc": 0.0667
+    },
+    "overhang": [
+      ["Pre-issue non-promoter shareholders (18,400 shares)", 0.184, 180, "p. 110; confirm in RHP"],
+      ["Promoter shareholding above 20% post-issue (after OFS of 31.00 lakh), at reference price", 368.46, 180, "p. 116; share count depends on price band"],
+      ["Promoter minimum contribution (20% of post-issue capital), at reference price", 156.86, 540, "p. 116; share count depends on price band"]
+    ]
+  },
+  "valuation": {
+    "inputs": {
+      "name": "Jagatjit Agri Engineering Limited",
+      "basis": "Consolidated FY26; like-for-like prior year is the proforma series",
+      "pre_sh": 5.5650984,
+      "esop": 0,
+      "fresh": 300,
+      "fresh_sh_fixed": 0,
+      "ofs_sh": 0.31,
+      "floor": 131.69,
+      "cap": 131.69,
+      "obj_net": 200.164,
+      "ipo_capex": 71.664,
+      "rev0": 413.970,
+      "rev_prev": 253.760,
+      "ebitda0": 55.738,
+      "da0": 4.666,
+      "pat0": 31.390,
+      "nw0": 70.929,
+      "nd0": 119.417,
+      "nwc0": 83.852,
+      "nwc_prev": 54.401,
+      "capex0": 32.180,
+      "csp": 0.03,
+      "kd": 0.0756,
+      "w_dcf": 0.8
+    },
+    "drivers": {
+      "g1": [0.00, 0.14, 0.25],
+      "g2": [0.03, 0.12, 0.20],
+      "g3": [0.04, 0.10, 0.15],
+      "g4": [0.04, 0.09, 0.12],
+      "g5": [0.04, 0.08, 0.10],
+      "m":   [0.10, 0.125, 0.14],
+      "nwc":  [0.24, 0.21, 0.19],
+      "roic": [0.12, 0.18, 0.24]
+    },
+    "rationale": {
+      "g1": "Proforma revenue Rs 2,074.48 m / 2,537.60 m / 4,139.70 m (FY24-26, pp. 90, 158): +22% then +63%. Units sold 19,111 in FY26 vs 12,234 proforma FY25 (p. 158). The issuer-commissioned CARE report puts implements at Rs 440 bn to Rs 649 bn, a 10.2% CAGR FY26-30 (p. 239), and farm equipment overall at 7.7% (p. 129). Bear assumes the FY26 step-up does not repeat; Bull assumes the 28% proforma CAGR (p. 248) fades.",
+      "m": "EBITDA margin 9.74% / 14.51% / 13.46% proforma FY24, proforma FY25, FY26 (p. 158); restated standalone was 13.64% / 11.64%. FY26 gross margin 39.06% vs 20.98% restated FY25 is a result of consolidating the manufacturing proprietorships, not an operating gain. Bear 10.0%, Neutral 12.5%, Bull 14.0%.",
+      "nwc": "Trade NWC (inventory + receivables - trade payables) 20.3% of FY26 revenue (Rs 838.52 m / Rs 4,139.70 m, p. 85); 21.4% on proforma FY25. Issuer projects inventory 130 days, receivables 45 days, payables 105 to 95 days (p. 128). Bear 24%, Neutral 21%, Bull 19%.",
+      "roic": "Issuer RoCE 31.10% FY26 (p. 158) on a base that includes Rs 1,344.07 m of borrowings; terminal set well below it. Bear 12%, Neutral 18%, Bull 24%."
+    },
+    "peers": [
+      ["VST Tillers Tractors Ltd (per share)", "Y", "Tillers and tractors; not implements. DRHP states no direct listed peer (p. 156)", "Consolidated", 4039.90, 1, null, null, null, 120.68, 1264.48, null],
+      ["Indo Farm Equipment Ltd (per share)", "Y", "Tractors and construction equipment; not implements (p. 156)", "Consolidated", 141.95, 1, null, null, null, 5.14, 115.81, null],
+      ["Escorts Kubota Ltd (per share)", "Y", "Tractors; much larger and diversified (p. 156)", "Consolidated", 2900.15, 1, null, null, null, 124.17, 1082.14, null]
+    ]
+  }
+}

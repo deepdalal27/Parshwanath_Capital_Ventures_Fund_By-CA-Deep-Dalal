@@ -127,6 +127,29 @@
       "summary": {},
       "summary_source": "AITMC UDRHP-I p. 466. The offer document's summary table (FY25: 6 IPOs, Rs 96.2 cr; FY26: 1, Rs 202.15 cr; FY27: 1, Rs 23.01 cr) does not reproduce the per-issue table above it, so the summary is left blank here. All eight listed issues are SME issues; none is a mainboard IPO.",
       "as_of": "2026-09-30"
+    },
+    "Keynote Financial Services Limited": {
+      "short": "KN",
+      "sebi_role": "Merchant banker (BRLM)",
+      "listed": "Yes (Keynote Financial Services Limited, BSE/NSE)",
+      "owner": "not retrieved",
+      "owner_source": "not retrieved",
+      "summary": {
+        "FY2026-27": {
+          "ipos": 2,
+          "amount_rs_m": 5858.0,
+          "d30_discount_lt25": 2,
+          "d180_discount_lt25": 1
+        },
+        "FY2025-26": {
+          "ipos": 0
+        },
+        "FY2024-25": {
+          "ipos": 0
+        }
+      },
+      "summary_source": "Jagatjit Agri Engineering DRHP p. 511",
+      "as_of": "2026-09-25"
     }
   },
   "issues": [
@@ -750,6 +773,42 @@
         "KSL"
       ],
       "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Amir Chand Jagdish Kumar (Exports) Ltd",
+      "sector": "Exports (issuer sector not stated in DRHP)",
+      "issue_size_rs_m": 4400.0,
+      "issue_price": 212.0,
+      "listing_date": "2026-04-02",
+      "listing_open": 195.0,
+      "listing_gain_pct": -0.0802,
+      "d30_pct": -0.2353,
+      "d90_pct": -0.1598,
+      "d180_pct": null,
+      "handled_by": [
+        "KN"
+      ],
+      "listing_source": "Jagatjit Agri Engineering DRHP p. 511 (BSE data as on 25-Sep-2026)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "CSM Technologies Ltd",
+      "sector": "Technology services (issuer sector not stated in DRHP)",
+      "issue_size_rs_m": 1458.0,
+      "issue_price": 113.0,
+      "listing_date": "2026-07-02",
+      "listing_open": 113.0,
+      "listing_gain_pct": 0.0,
+      "d30_pct": -0.0275,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "KN"
+      ],
+      "listing_source": "Jagatjit Agri Engineering DRHP p. 511 (BSE data as on 25-Sep-2026)",
       "financials_rs_cr": null,
       "current": null
     }
