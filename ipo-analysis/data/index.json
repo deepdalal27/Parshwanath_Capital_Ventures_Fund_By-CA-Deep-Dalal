@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-16T13:37Z",
   "issuers": [
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-16",
+      "sector": "Agricultural implements manufacturing",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 300,
+      "price_band": "Not announced",
+      "call": "Screen only",
+      "headline": "FY26 revenue of Rs 413.97 cr (+63% on the DRHP's proforma FY25) and PAT of Rs 31.39 cr come from a business that was bought from the promoters' proprietorships only on 01-Apr-2025, so the three-year series mixes bases; what decides the issue is whether the FY26 step-up, 25% of it from one customer and 93.99% from Northern and Central states, repeats in the RHP.",
+      "red_flags": [
+        "Proforma revenue Rs 2,537.60 m to Rs 4,139.70 m (+63%) and PAT Rs 206.95 m to Rs 313.90 m (+52%) in FY26; 19,111 units vs 12,234",
+        "Current tax 26.1% of cumulative PBT; FY26 EBITDA margin 13.46% vs 14.51% proforma FY25",
+        "FY26 CFO Rs 26.85 m vs PAT Rs 313.90 m (8.6%); cumulative FY24-26 CFO/PAT 69.7%",
+        "Top customer Seth Agro Industries 25.21% of FY26 revenue; Northern and Central states 93.99%",
+        "Promoter links: Both plants and the Dehlon expansion are on promoter-leased land; Rs 55.00 m lent to promoters; business bought from promoter firms",
+        "Offer under Reg 6(2): 75% to QIBs; promoter sells 31.00 lakh shares (OFS); Rs 716.64 m capex with no orders placed"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 8,
+        "pass": 4,
+        "open": 3
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Goodwill vs tangible equity"
+      ],
+      "neutral": {
+        "dcf": 49.11,
+        "relative": 104.3406,
+        "blended": 60.1561,
+        "upside_floor": -0.5432,
+        "upside_cap": -0.5432
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",
