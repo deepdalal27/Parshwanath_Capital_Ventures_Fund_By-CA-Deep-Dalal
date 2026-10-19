@@ -13,6 +13,8 @@ and three downloadable, formula-driven Excel models, plus blank templates.
 | `templates/` | Blank templates with illustrative numbers |
 | `toolkit/` | Workbook builders, `build_issuer.py`, `verify.py` (independent recalculation; must pass) |
 | `ROUTINE.md` | Standing instructions the scheduled Claude routine follows on every run. Edit it on GitHub to change behaviour |
+| `OPENING_DAY.md` | Standing instructions for the weekday opening-day routine: every IPO opening that day, published by 11:30-12:00 IST (Mainboard full report, SME snapshot), merged automatically |
+| `data/opening_calendar.json` | Calendar sources for the opening-day routine, today's openings, the 5-day look-ahead and what is done |
 
 Commands the routine runs (you never need to run these yourself):
 

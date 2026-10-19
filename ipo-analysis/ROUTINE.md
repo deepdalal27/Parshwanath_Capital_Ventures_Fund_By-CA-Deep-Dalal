@@ -47,6 +47,8 @@ A filing is new if its `doc_url` is not in `data/seen.json` and not already in `
 ### 2. Pick what to analyse
 Take at most `max_per_run` filings (currently **1**) from `pending`, in this priority:
 1. An RHP / addendum for an issuer already in `companies/` (the decision stage; supersedes the DRHP note),
+   **unless its issue opens within the next 5 working days**: those are covered by the opening-day routine
+   (`OPENING_DAY.md`, see `data/opening_calendar.json`), so leave them in the queue for it,
 2. Mainboard DRHPs, oldest first,
 3. SME DRHPs, oldest first.
 

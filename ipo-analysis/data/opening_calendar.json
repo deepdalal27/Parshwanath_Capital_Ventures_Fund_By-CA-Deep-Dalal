@@ -1,0 +1,45 @@
+{
+  "last_scan": null,
+  "publish_by_ist": "11:30-12:00",
+  "lookahead_working_days": 5,
+  "depth": { "Mainboard": "Full", "SME": "Snapshot" },
+  "sources": [
+    {
+      "name": "NSE - current and upcoming issues (JSON)",
+      "url": "https://www.nseindia.com/api/all-upcoming-issues?category=ipo",
+      "kind": "calendar",
+      "enabled": true,
+      "verified": true,
+      "verified_on": "2026-10-19",
+      "note": "Works with a browser User-Agent and Referer https://www.nseindia.com/. Fields: companyName, issueStartDate, issueEndDate, issuePrice, series (EQ = mainboard, SM/SME = SME), status (Active / Forthcoming). category=sme returned an empty object on 19-Oct-2026; SME issues may appear in this list with an SME series."
+    },
+    {
+      "name": "BSE - public issues",
+      "url": "https://www.bseindia.com/publicissue",
+      "kind": "calendar",
+      "enabled": true,
+      "verified": false,
+      "note": "Page reachable (19-Oct-2026); it is script-rendered. api.bseindia.com did not connect from the cloud container. Main source for BSE SME issues."
+    },
+    {
+      "name": "SEBI - red herring documents filed with RoC",
+      "url": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=3&ssid=15&smid=11",
+      "kind": "rhp",
+      "enabled": true,
+      "verified": true,
+      "verified_on": "2026-10-07",
+      "note": "Mainboard RHP PDFs. Filing pages embed the PDF as web/?file=<pdf url>. SME RHPs are on the exchange (BSE SME / NSE Emerge) issue pages."
+    },
+    {
+      "name": "Secondary IPO calendars (discovery only)",
+      "url": "https://www.chittorgarh.com/ ; https://www.moneycontrol.com/ipo/",
+      "kind": "discovery",
+      "enabled": true,
+      "verified": false,
+      "note": "Use only to find issues the exchanges miss. Confirm every date, band and size in the RHP or on the exchange before publishing. chittorgarh.com did not connect from the cloud container on 19-Oct-2026."
+    }
+  ],
+  "today": [],
+  "upcoming": [],
+  "done": []
+}

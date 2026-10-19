@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T13:42Z",
+  "updated": "2026-10-19T12:23Z",
   "issuers": [
     {
       "slug": "royal-chain-ltd",
@@ -12,6 +12,9 @@
       "brlm": "JM Financial; 360 ONE WAM",
       "issue_size_cr": 1000,
       "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
       "call": "Screen only",
       "headline": "Revenue doubled and PAT rose 6.3x over FY24-FY26 with cash tax fully paid, but operating cash flow was negative each year as inventory grew; at the Rs 147.33 pre-IPO reference the P/E (15.6x) is in line with peers.",
       "red_flags": [
@@ -54,6 +57,9 @@
       "brlm": "Khandwala Securities",
       "issue_size_cr": null,
       "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
       "call": "Screen only",
       "headline": "Revenue rose 2.5x over FY24-FY26 to Rs 106.76 cr with PAT of Rs 13.38 cr, but operating cash flow was negative in two of three years, 83.6% of revenue comes from ten customers, and the Rs 155.03 cr of identified objects imply a price of at least Rs 44.29 against Rs 17.50 in the last secondary transfers.",
       "red_flags": [
@@ -96,6 +102,9 @@
       "brlm": "Motilal Oswal; JM Financial",
       "issue_size_cr": 516.68,
       "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
       "call": "Screen only",
       "headline": "Revenue grew at a 25.3% CAGR over FY24-FY26 with positive operating cash flow each year, but PAT was flat (Rs 211.3 m to Rs 224.9 m) and ROCE stayed near 10%; the Rs 90.10 reference price is about 69x FY26 EPS, in line with the single listed peer.",
       "red_flags": [

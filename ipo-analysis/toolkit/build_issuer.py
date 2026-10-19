@@ -30,7 +30,7 @@ import build_valuation   # noqa: E402
 from calc import recalc  # noqa: E402
 
 INDEX_FIELDS = ["slug", "company", "platform", "stage", "filed_on", "analysed_on", "sector", "brlm",
-                "issue_size_cr", "price_band", "call", "headline", "red_flags", "doc_url", "status", "counts", "focus_top"]
+                "issue_size_cr", "price_band", "open_date", "close_date", "depth", "call", "headline", "red_flags", "doc_url", "status", "counts", "focus_top"]
 
 
 def num(v):
