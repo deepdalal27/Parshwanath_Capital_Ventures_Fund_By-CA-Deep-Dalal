@@ -1,0 +1,127 @@
+{
+  "slug": "tonbo-imaging-india-ltd",
+  "company": "Tonbo Imaging India Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "filed_on": "2026-10-10",
+  "doc_date": "2026-10-10",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-rhp_105141.html",
+  "sector": "Defence electronics: electro-optic and thermal imaging systems",
+  "brlm": "JM Financial Limited; IIFL Capital Services Limited",
+  "issue_size_cr": 852.18,
+  "price_band": "Rs 665-700",
+  "open_date": "2026-10-15",
+  "close_date": "2026-10-19",
+  "allotment_date": "2026-10-21",
+  "listing_date": "2026-10-23",
+  "lot_size": 21,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "call": "Avoid",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "files": {
+    "screening": "TONBO_IMAGING_INDIA_LTD_01_Screening.xlsx",
+    "anchor": "TONBO_IMAGING_INDIA_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "TONBO_IMAGING_INDIA_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "TONBO_IMAGING_INDIA_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 22.867,
+      "relative": 831.8545,
+      "blended": 346.462,
+      "upside_floor": -0.479,
+      "upside_cap": -0.5051
+    },
+    "neutral": {
+      "dcf": 67.1996,
+      "relative": 831.8545,
+      "blended": 373.0616,
+      "upside_floor": -0.439,
+      "upside_cap": -0.4671
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -91.9% - the divergence is the finding; name its cause",
+      "RED: terminal ROIC below WACC - growth destroys value"
+    ],
+    "reverse_dcf": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 133.2432,
+      "relative": 831.8545,
+      "blended": 412.6877,
+      "upside_floor": -0.3794,
+      "upside_cap": -0.4104
+    }
+  },
+  "counts": {
+    "fail": 2,
+    "watch": 3,
+    "pass": 5,
+    "open": 2
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Goodwill vs tangible equity"
+  ],
+  "analysed_on": "2026-10-19",
+  "business_stage": "Early growth (tender-driven, lumpy)",
+  "reference_note": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Pre-IPO secondary transfers to institutions on 29-30 Sep 2026 were also at Rs 700 (pp. 151-152).",
+  "headline": "At Rs 700 the price sits in line with listed defence peers on P/E (78.8x vs 73-118x), but revenue fell 22.7% in FY26, operating cash flow was negative in FY25, FY26 and Q1 FY27, and our DCF (Rs 67) is far below the relative value (Rs 832); the offer is entirely a sale by existing holders.",
+  "red_flags": [
+    "Owns its IP outright; largest supplier of thermal imaging systems to Indian government agencies Apr-24 to Mar-26 per the issuer-paid F&S report (pp. 246, 253)",
+    "Revenue Rs 428.19 cr -> Rs 469.08 cr -> Rs 362.65 cr FY24-26; exports 65.5% -> 5.6% of revenue; Q1 FY27 loss Rs 17.74 cr (pp. 89, 144)",
+    "Cumulative CFO/PAT FY24-26 -63.0%; trade working capital 109.7% of FY26 revenue; working-capital days 152 -> 517 (pp. 87, 90, 144)",
+    "Related party CEAQ Singapore: IP bought for Rs 183.19 cr (FY24) and Rs 78.98 cr of FY26 purchases (26.3% of expenses); CEAQ entities sell 91.5 lakh of the 121.7 lakh OFS shares (cover, pp. 94, 439)",
+    "Order book Rs 314.24 cr at 30-Jun-2026 plus Rs 118.15 cr of orders in Jul-Sep 2026; cash tax 23.3% of cumulative PBT (pp. 89, 250)",
+    "Upper band Rs 700: blended value Rs 373 (Neutral), -46.7%; QIB book 293.6x, total 135.9x at close (NSE) - demand is not a valuation input"
+  ],
+  "anchor": {
+    "amount_cr": 255.36,
+    "shares_lakh": 36.48,
+    "price": 700,
+    "investors": 43,
+    "mf_share": "21.05 lakh shares (57.7%) to 12 domestic mutual fund schemes",
+    "source": "Anchor size: NSE issue data (121.74 lakh offered less 85.26 lakh to the public). Investor count and MF split: press reports (5paisa, inc42, hdfcsky; unverified) - the NSE anchor allocation file could not be fetched from the cloud container."
+  },
+  "subscription": {
+    "as_of": "2026-10-19 17:57 IST",
+    "source": "NSE ipo-active-category",
+    "qib": 293.56,
+    "nii": 170.94,
+    "rii": 31.07,
+    "employee": 54.31,
+    "total": 135.9
+  },
+  "swot": {
+    "strengths": [
+      "100% ownership of IP since Mar-2024 across optics, IR engines and video processing (pp. 138, 246)",
+      "Largest supplier of thermal imaging systems to Indian government agencies Apr-24 to Mar-26; 94% of Indian thermal-imaging exports by units FY24-26 (issuer-paid F&S report, p. 246)",
+      "28,000+ systems deployed in 24 countries; ITAR-free portfolio (p. 246)",
+      "Gross margin 48.6% / 56.4% / 51.1% FY24-26 (p. 144)",
+      "Cash tax 23.3% of cumulative FY24-26 PBT; no auditor qualifications or auditor change (pp. 89, 100, 440)"
+    ],
+    "weaknesses": [
+      "Cumulative CFO -Rs 121.00 cr against PAT Rs 192.18 cr FY24-26 (p. 90)",
+      "Revenue -22.69% in FY26; Q1 FY27 revenue Rs 36.01 cr and loss Rs 17.74 cr (pp. 89, 144)",
+      "Top-10 customers 77.83% of FY26 and 98.17% of Q1 FY27 revenue (p. 24)",
+      "Purchases from related party CEAQ Singapore Rs 78.98 cr = 26.3% of FY26 expenses (p. 94)",
+      "Inventory Rs 319.63 cr at 30-Jun-2026 vs Rs 111.14 cr at 31-Mar-2025 (p. 87)"
+    ],
+    "opportunities": [
+      "India EO/IR market $522 m (CY2020) to $1.4 bn (CY2030), 10.5% CAGR - issuer-paid F&S report (p. 205)",
+      "Orders of Rs 118.15 cr received Jul-Sep 2026, incl. a Rs 51.44 cr export order deferred from FY26 (pp. 23, 250)",
+      "Platform systems grew from Rs 12.70 cr (FY24) to Rs 144.81 cr (FY26) (p. 248)",
+      "IDDM eligibility under DAP 2020 favours indigenous OEMs (p. 247)"
+    ],
+    "threats": [
+      "Tender-based, non-recurring contracts; bid-win ratio 14.29% in Q1 FY27 vs 40.91% in FY24 (p. 23)",
+      "Export orders exposed to conflicts and export approvals: foreign-government revenue Rs 267.69 cr -> Rs 12.11 cr FY25-26 (p. 251)",
+      "Singapore High Court suit by a CEAQ Singapore minority shareholder naming the company, MD and a nominee director (p. 448)",
+      "Lock-in expiries: 287 lakh pre-issue shares (50% of capital) free after six months (p. 121)"
+    ]
+  }
+}

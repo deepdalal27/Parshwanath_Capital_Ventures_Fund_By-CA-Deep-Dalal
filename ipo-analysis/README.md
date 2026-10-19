@@ -25,5 +25,5 @@ python3 ipo-analysis/toolkit/verify.py                # verification gate
 python3 ipo-analysis/toolkit/build_templates.py       # rebuild blank templates
 ```
 
-The pages carry `noindex` until compliance signs off. Every page shows
-`[FIRM-APPROVED SEBI DISCLAIMER AND DISCLOSURE BLOCK TO BE INSERTED]` until the firm supplies the wording.
+The pages carry `noindex` until compliance signs off. Every page, workbook and PDF carries the Fund's SEBI Category III AIF
+disclaimer and disclosures from `data/disclaimer.json`; edit that file to change the wording everywhere.

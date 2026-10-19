@@ -1,0 +1,429 @@
+{
+ "_source": "Tonbo Imaging India Limited RHP dated 10-Oct-2026 (SEBI filing 105141); restated consolidated, Rs million in the RHP converted to Rs crore. Subscription and anchor size from NSE (19-Oct-2026 17:57 IST). Printed page = PDF page - 5.",
+ "screening": {
+  "basis": {
+   "name": "Tonbo Imaging India Limited",
+   "platform": "Mainboard",
+   "stage": "RHP",
+   "doc_date": "2026-10-10",
+   "aud_to": "2026-06-30",
+   "band": "Yes",
+   "brlm": "JM Financial Limited; IIFL Capital Services Limited",
+   "outside": "Subscription and anchor size from NSE; anchor investor names from secondary press reports (unverified)",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    428.189,
+    469.08,
+    362.648,
+    36.008
+   ],
+   "oth": [
+    3.707,
+    5.31,
+    7.291,
+    1.316
+   ],
+   "pbt": [
+    94.55,
+    99.265,
+    69.959,
+    -23.748
+   ],
+   "ctax": [
+    22.652,
+    21.85,
+    17.062,
+    0.0
+   ],
+   "dtax": [
+    3.355,
+    4.658,
+    2.016,
+    -6.012
+   ],
+   "pat": [
+    68.543,
+    72.757,
+    50.88,
+    -17.737
+   ],
+   "cfo": [
+    78.333,
+    -136.119,
+    -63.216,
+    -14.683
+   ],
+   "rpt_s": [
+    42.209,
+    0.025,
+    0.042,
+    0.0
+   ],
+   "rpt_p": [
+    157.578,
+    62.661,
+    79.626,
+    17.199
+   ],
+   "nw": [
+    230.13,
+    490.138,
+    553.159,
+    538.537
+   ],
+   "recv": [
+    93.643,
+    210.312,
+    211.663,
+    96.853
+   ],
+   "inv": [
+    111.686,
+    111.144,
+    219.485,
+    319.633
+   ],
+   "pay": [
+    20.345,
+    21.145,
+    33.443,
+    46.311
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    79.766
+   ],
+   "gw": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "cites": {
+   "rev": "p. 89",
+   "oth": "p. 89",
+   "pbt": "p. 89",
+   "ctax": "p. 89 (FY24 incl. MAT credit Rs 15.02 m)",
+   "dtax": "p. 89",
+   "pat": "p. 89",
+   "cfo": "p. 90",
+   "rpt_s": "pp. 94-95",
+   "rpt_p": "pp. 94-95 (excludes the Rs 1,831.91 m IP purchase in FY24 and Rs 70.98 m intangibles in FY26)",
+   "nw": "p. 87",
+   "recv": "p. 87",
+   "inv": "p. 87",
+   "pay": "p. 87",
+   "cl": "p. 92 (bank guarantees Rs 789.34 m + GST disputes Rs 8.32 m at 30-Jun-2026)",
+   "gw": "p. 87"
+  },
+  "single": {
+   "top1c": 0.1378,
+   "top10c": 0.7783,
+   "geo": 0.9443,
+   "fresh_net": 0,
+   "offer": 852.1832
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "pp. 126, 139",
+    "finding": "19:1 bonus (30-Jun-2025) and split from Rs 10 to Rs 2 are reflected: diluted EPS 13.63 / 12.70 / 8.88 FY24-26 and NAV Rs 96.57 are on the post-bonus, post-split count of 57,282,100 shares."
+   },
+   "2": {
+    "status": "FAIL",
+    "page": "p. 90",
+    "finding": "CFO Rs 783.33 m / -1,361.19 m / -632.16 m FY24-26 and -146.83 m in Q1 FY27, against PAT 685.43 / 727.57 / 508.80 / -177.37. Cumulative CFO/PAT FY24-26 = -63.0%. Working-capital days 152 -> 280 -> 517 (p. 144)."
+   },
+   "3": {
+    "status": "PASS",
+    "page": "p. 89",
+    "finding": "Current tax (incl. MAT) Rs 615.64 m on cumulative PBT Rs 2,637.74 m FY24-26 = 23.3%; deferred tax is a small share of the charge."
+   },
+   "4": {
+    "status": "FAIL",
+    "page": "pp. 94, 439",
+    "finding": "IP bought from CEAQ Singapore (formerly Tonbo Imaging Pte; an enterprise with substantial interest, selling shareholder) for Rs 1,831.91 m in Mar-2024, valued by DCF (MPEEM, 10-year life) and capitalised: 54.4% of FY24 total expenses. Material purchases from CEAQ Singapore continue: Rs 789.80 m in FY26 (26.3% of total expenses) and Rs 171.99 m in Q1 FY27 (28.2%)."
+   },
+   "5": {
+    "status": "N.A.",
+    "page": "p. 134",
+    "finding": "Pure offer for sale; the company receives no proceeds, so there is no objects floor."
+   },
+   "7": {
+    "status": "WATCH",
+    "page": "p. 87",
+    "finding": "No goodwill. Intangible assets Rs 1,627.01 m at 31-Mar-2026 = 29.4% of net worth, mostly the related-party IP purchase; amortisation lifts D&A from Rs 133.95 m (FY24) to Rs 313.35 m (FY26)."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 23-25, 250-251",
+    "finding": "Top-10 customers 77.83% of FY26 revenue and 98.17% in Q1 FY27 (top-1 54.74%); Indian Government 71.19% of FY26 revenue; foreign-government revenue fell from Rs 2,676.93 m to Rs 121.14 m. Top-10 suppliers 68.77% of FY26 total expenses with no long-term supply contracts."
+   },
+   "9": {
+    "status": "WATCH",
+    "page": "p. 92",
+    "finding": "Bank guarantees Rs 789.34 m = 14.7% of 30-Jun-2026 net worth; GST disputes Rs 8.32 m; a customs notice received 23-Jul-2026 is disclosed as a contingent liability without an amount. Materiality threshold Rs 32.03 m (p. 447)."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "PASS",
+    "page": "pp. 100, 325, 440",
+    "finding": "Kalyanasundaram and Associates (FRN 005455S); no auditor change in three years; no qualifications, reservations or emphasis of matter; audit-trail (Rule 11(g)) operated throughout."
+   },
+   "R5": {
+    "status": "N.A.",
+    "page": "cover",
+    "finding": "Mainboard offer under Reg 6(1)."
+   },
+   "R6": {
+    "status": "PASS",
+    "page": "pp. 466-468",
+    "finding": "Track record of JM Financial and IIFL Capital compiled from the RHP's exchange-sourced tables (see merchant banker section)."
+   },
+   "R2": {
+    "status": "PASS",
+    "page": "p. 325",
+    "finding": "Auditor confirms the audit-trail (edit log) feature operated throughout for all relevant transactions and was not tampered with (Rule 11(g)). CARO remarks not reviewed separately."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "p. 134",
+    "finding": "Pure offer for sale; no proceeds to the company, so no monitoring agency is required."
+   },
+   "R7": {
+    "status": "N.A.",
+    "page": "p. 134",
+    "finding": "No objects to finance."
+   }
+  },
+  "gaps": [
+   {
+    "item": "Anchor allocation report (investor-wise list) - nsearchives.nseindia.com blocked from the cloud container; names taken from press reports",
+    "severity": "Medium",
+    "source": "NSE / BSE anchor allocation filing"
+   },
+   {
+    "item": "Contingent liabilities for FY24-FY26 year ends not extracted; customs notice of 23-Jul-2026 not quantified",
+    "severity": "Medium",
+    "source": "RHP note 40 / issuer"
+   },
+   {
+    "item": "Identity of the largest customer (54.74% of Q1 FY27 revenue) withheld for confidentiality",
+    "severity": "Medium",
+    "source": "Issuer"
+   },
+   {
+    "item": "Final offer price and post-issue lock-in table (Prospectus)",
+    "severity": "Low",
+    "source": "Prospectus / RoC"
+   },
+   {
+    "item": "Revaluation reserve not reviewed",
+    "severity": "Low",
+    "source": "RHP other equity note"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Tonbo Imaging India Limited",
+   "board": "Mainboard",
+   "offer": 700,
+   "anchor_px": 700,
+   "issue": 852.1832,
+   "emp": 0.98,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-14",
+   "allot_date": "2026-10-21",
+   "list_date": "2026-10-23"
+  },
+  "total_shares_lakh": 572.821,
+  "overhang": [
+   [
+    "Pre-issue non-promoter shareholders (excl. AIFs Yali and Tenacity, and the ESOP trust)",
+    287.07,
+    180,
+    "p. 121; six months from allotment"
+   ],
+   [
+    "Promoters' contribution incl. CEAQ Singapore shortfall shares (20% of post-issue capital)",
+    114.56,
+    540,
+    "pp. 119-120; 18 months from allotment"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Tonbo Imaging India Limited",
+   "basis": "Consolidated",
+   "pre_sh": 5.72821,
+   "esop": 0,
+   "fresh": 0,
+   "fresh_sh_fixed": 0,
+   "ofs_sh": 1.2174046,
+   "floor": 665,
+   "cap": 700,
+   "obj_net": 0,
+   "exp_pct": 0,
+   "gcp_pct": 0,
+   "ipo_capex": 0,
+   "rev0": 362.648,
+   "rev_prev": 469.08,
+   "ebitda0": 104.618,
+   "da0": 31.335,
+   "pat0": 50.88,
+   "nw0": 553.159,
+   "nd0": 77.432,
+   "nwc0": 397.705,
+   "nwc_prev": 300.311,
+   "capex0": 39.345,
+   "csp": 0.03,
+   "kd": 0.085
+  },
+  "drivers": {
+   "g1": [
+    0.1,
+    0.25,
+    0.4
+   ],
+   "g2": [
+    0.08,
+    0.2,
+    0.3
+   ],
+   "g3": [
+    0.07,
+    0.18,
+    0.25
+   ],
+   "g4": [
+    0.06,
+    0.15,
+    0.2
+   ],
+   "g5": [
+    0.05,
+    0.12,
+    0.15
+   ],
+   "m": [
+    0.22,
+    0.27,
+    0.3
+   ],
+   "nwc": [
+    0.95,
+    0.75,
+    0.55
+   ],
+   "roic": [
+    0.1,
+    0.14,
+    0.18
+   ]
+  },
+  "rationale": {
+   "g1": "FY26 revenue fell 22.69% to Rs 3,626.48 m (p. 144). Order book Rs 3,142.40 m at 30-Jun-2026 (0.87x FY26 revenue) plus Rs 1,181.52 m of orders received Jul-Sep 2026 (p. 250), incl. a Rs 514.41 m export order deferred from FY26 (p. 23). Q1 FY27 revenue only Rs 360.08 m. Bear: slow execution; Neutral: FY27 back near FY25; Bull: full conversion of the book.",
+   "m": "EBITDA margin 26.23% / 29.65% / 28.85% FY24-26 (p. 144); Q1 FY27 -36.21% on low revenue. Bear 22% allows for price pressure in tenders; Neutral ~3-year average; Bull at the FY25 high.",
+   "nwc": "Trade NWC (inventory + receivables - trade payables) 43.2% / 64.0% / 109.7% of revenue FY24-26 (p. 87); issuer's working-capital days 152 / 280 / 517 (p. 144). Neutral assumes a partial unwind as the inventory built for FY27 orders is delivered.",
+   "roic": "ROCE 67.76% / 27.41% / 14.54% FY24-26 on the issuer's definition, which excludes intangibles (p. 144). Terminal ROIC set at 14% in Neutral because the purchased IP is part of invested capital."
+  },
+  "peers": [
+   [
+    "Paras Defence and Space Technologies Ltd (per share)",
+    "Y",
+    "Defence electro-optics and electronics - issuer's peer, p. 141",
+    "Consolidated",
+    1286.95,
+    1,
+    null,
+    null,
+    null,
+    10.93,
+    90.02,
+    0.3069
+   ],
+   [
+    "Data Patterns (India) Ltd (per share)",
+    "Y",
+    "Defence electronics systems - issuer's peer, p. 141",
+    "Standalone",
+    4231.0,
+    1,
+    null,
+    null,
+    null,
+    48.47,
+    310.08,
+    0.3055
+   ],
+   [
+    "Astra Microwave Products Ltd (per share)",
+    "Y",
+    "Defence RF/microwave sub-systems - issuer's peer, p. 141",
+    "Consolidated",
+    1701.15,
+    1,
+    null,
+    null,
+    null,
+    20.27,
+    138.46,
+    0.1062
+   ],
+   [
+    "Zen Technologies Ltd (per share)",
+    "Y",
+    "Defence simulators and anti-drone - issuer's peer, p. 141",
+    "Consolidated",
+    1580.35,
+    1,
+    null,
+    null,
+    null,
+    21.52,
+    209.22,
+    -0.2937
+   ],
+   [
+    "Bharat Electronics Ltd (per share)",
+    "N",
+    "PSU defence electronics major, revenue 76x the issuer's - excluded on scale and ownership",
+    "Consolidated",
+    378.85,
+    1,
+    null,
+    null,
+    null,
+    8.29,
+    32.82,
+    0.1616
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   112.324,
+   139.064,
+   104.618
+  ],
+  "_cite": "EBITDA per the issuer's KPI table (p. 144), excluding other income."
+ }
+}
