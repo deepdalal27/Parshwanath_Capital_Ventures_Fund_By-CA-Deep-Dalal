@@ -21,10 +21,34 @@ the next run picks up the change. Settings that change often live in `data/sourc
    - The call (`Subscribe` / `Neutral` / `Avoid` / `Screen only`) follows from the evidence and the valuation. Lean neither way by default.
    - When the evidence is mixed, say so and say what would resolve it.
    - No position sizing. Upside as a percentage only.
-6. Grey market premium is never used and never moves fair value.
-7. **Branding:** every output carries the fund logo, the fund name and registration, "Fund Manager: CA Deep Dalal" and
+6. **Investor's lens, not a forensic auditor's lens** (fund manager's instruction, 19-Oct-2026). This rule overrides the
+   `drhp-due-diligence` skill wherever the two differ.
+   - The report answers one question: *is this a sound investment at this price over the holding period?* It does not
+     set out to find fault with the accounts. Lead with the business, its growth, its position and its valuation.
+   - **Normal features are context, not deductions.** Customer or sector concentration typical of the industry, working
+     capital built up during growth or in lumpy order cycles, disclosed related-party dealings, an offer for sale,
+     promoter pay within norms, small tax disputes, bank guarantees, an issuer-paid industry report, routine litigation:
+     report each once, in proportion, with its number, under **Points to monitor**. They never cut fair value on their
+     own and never appear in the headline or verdict unless they are material.
+   - **Material** means it would change the investment case: going-concern doubt, an auditor qualification or a
+     resignation for cause, fraud or regulatory action against the company or promoters, undisclosed related-party
+     dealings, misstated figures, profits that have not converted to cash over a full cycle with no business reason,
+     or proceeds that benefit promoters. Only a material issue can make a check `FAIL`; anything else is `WATCH` at most.
+   - **Valuation without a strict stance.** House defaults: company-specific premium 0%, no discount to the peer median,
+     DCF:relative blend 50:50 (70:30 when no listed peer exists). In the Neutral case use through-cycle (three-year
+     average) margins and working-capital intensity, not the worst year; the Bear case carries the stress. Terminal ROIC in
+     the Neutral case is not set below WACC unless the business has never earned its cost of capital. When DCF and relative
+     diverge, explain why in plain words and give the market's pricing of peers its due weight; a trough-year DCF does
+     not decide the call by itself.
+   - **The call follows a fixed rule** on the Neutral blended value against the upper band (or reference price):
+     `Subscribe` at -10% or better; `Neutral` between -10% and -30%, or whenever the Bull value is at or above the price;
+     `Avoid` only when the Neutral value is more than 30% below the price **and** the Bull value is also below it, or when
+     there is a material issue. State which limb applied.
+   - Words: "points to monitor", not "red flags" or "concerns"; "the price assumes", not "the price rests on".
+7. Grey market premium is never used and never moves fair value.
+8. **Branding:** every output carries the fund logo, the fund name and registration, "Fund Manager: CA Deep Dalal" and
    "Sponsor: Jignesh Shah". The toolkit adds these to Excel and PDF automatically; never strip them.
-8. **One offer document per day.** `max_per_run` in `data/sources.json` is 1. Do not raise it without the fund manager's instruction.
+9. **One offer document per day.** `max_per_run` in `data/sources.json` is 1. Do not raise it without the fund manager's instruction.
 
 ## Each run
 
@@ -129,7 +153,8 @@ post-issue dilution (ROE post-money, promoter WACA); related parties in full; ma
 forensics); corporate record; industry (who paid for the industry report).
 
 **Valuation**: restated financials, never annualise a stub. Bear / Neutral / Bull drivers each with a rationale and page cite.
-DCF and relative shown separately, then blended 60:40 (80:20 if there are no listed peers). Terminal growth 4.50%.
+DCF and relative shown separately, then blended 50:50 (70:30 if there are no listed peers). Terminal growth 4.50%.
+Apply the investor's lens in hard rule 6 (through-cycle Neutral case, no company-specific premium or peer discount by default).
 P/E, EV/EBITDA and P/B, no EV/Sales. Peers matched on business model, disclosed as ours if the document gives none.
 Use of proceeds funds capex in Neutral and Bull only. Report the divergence between DCF and relative when above 25%.
 Run the reverse DCF and say in plain words what the price asks for.
@@ -147,16 +172,16 @@ Run the reverse DCF and say in plain words what the price asks for.
    one-offs for profit. Quantify each from the document.
 8. **SWOT**, as a table of strengths, weaknesses, opportunities and threats, each item with a figure and page cite.
 9. The offer and objects.
-10. Financials and key findings: positives and concerns side by side.
-11. Forensic scorecard.
+10. Financials and key findings: positives and points to monitor side by side.
+11. Valuation and reverse DCF.
 12. **Merchant banker(s):**
     - name, owner, issues handled (year-wise summary);
     - for each recent issue: listing premium/discount, 30/90/180-day performance, current price, sector, and revenue and
       PAT growth (amount and %) over 3 years or since inception, with the source for each;
     - a neutral read of the track record.
-13. Valuation and reverse DCF.
-14. *What would change our view*: measurable conditions verifiable against the RHP.
-15. Risks.
-16. Data gaps.
+13. *What would change our view*: measurable conditions verifiable against the RHP.
+14. Risks.
+15. Data gaps.
+16. Appendix: diligence checks (the forensic scorecard; `FAIL` only for material issues, per hard rule 6).
 17. Verification.
 18. `## Disclaimer and disclosures`, followed by the `short` text from `data/disclaimer.json`.

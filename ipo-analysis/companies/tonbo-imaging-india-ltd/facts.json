@@ -136,9 +136,9 @@
     "finding": "19:1 bonus (30-Jun-2025) and split from Rs 10 to Rs 2 are reflected: diluted EPS 13.63 / 12.70 / 8.88 FY24-26 and NAV Rs 96.57 are on the post-bonus, post-split count of 57,282,100 shares."
    },
    "2": {
-    "status": "FAIL",
-    "page": "p. 90",
-    "finding": "CFO Rs 783.33 m / -1,361.19 m / -632.16 m FY24-26 and -146.83 m in Q1 FY27, against PAT 685.43 / 727.57 / 508.80 / -177.37. Cumulative CFO/PAT FY24-26 = -63.0%. Working-capital days 152 -> 280 -> 517 (p. 144)."
+    "status": "WATCH",
+    "page": "pp. 23, 90",
+    "finding": "Operating cash flow Rs 783.33 m in FY24, then -1,361.19 m (FY25, incl. the final instalments for the IP purchase) and -632.16 m (FY26) as export orders were deferred and stock was built for FY27 orders (pp. 23, 25, 439). Cumulative CFO/PAT FY24-26 -63.0%. A timing item in a lumpy order cycle; track H1 FY27 cash flow."
    },
    "3": {
     "status": "PASS",
@@ -146,9 +146,9 @@
     "finding": "Current tax (incl. MAT) Rs 615.64 m on cumulative PBT Rs 2,637.74 m FY24-26 = 23.3%; deferred tax is a small share of the charge."
    },
    "4": {
-    "status": "FAIL",
+    "status": "WATCH",
     "page": "pp. 94, 439",
-    "finding": "IP bought from CEAQ Singapore (formerly Tonbo Imaging Pte; an enterprise with substantial interest, selling shareholder) for Rs 1,831.91 m in Mar-2024, valued by DCF (MPEEM, 10-year life) and capitalised: 54.4% of FY24 total expenses. Material purchases from CEAQ Singapore continue: Rs 789.80 m in FY26 (26.3% of total expenses) and Rs 171.99 m in Q1 FY27 (28.2%)."
+    "finding": "Disclosed related-party dealings with CEAQ Singapore (former parent): the one-time IP purchase of Rs 1,831.91 m in FY24, valued by DCF and paid in instalments, which removed future royalties; and material purchases of Rs 789.80 m in FY26 (26.3% of total expenses). Track the share of purchases from CEAQ after listing."
    },
    "5": {
     "status": "N.A.",
@@ -294,7 +294,6 @@
    "nwc0": 397.705,
    "nwc_prev": 300.311,
    "capex0": 39.345,
-   "csp": 0.03,
    "kd": 0.085
   },
   "drivers": {
@@ -324,26 +323,26 @@
     0.15
    ],
    "m": [
-    0.22,
-    0.27,
+    0.24,
+    0.28,
     0.3
    ],
    "nwc": [
-    0.95,
-    0.75,
-    0.55
+    0.9,
+    0.7,
+    0.5
    ],
    "roic": [
-    0.1,
-    0.14,
-    0.18
+    0.12,
+    0.16,
+    0.22
    ]
   },
   "rationale": {
    "g1": "FY26 revenue fell 22.69% to Rs 3,626.48 m (p. 144). Order book Rs 3,142.40 m at 30-Jun-2026 (0.87x FY26 revenue) plus Rs 1,181.52 m of orders received Jul-Sep 2026 (p. 250), incl. a Rs 514.41 m export order deferred from FY26 (p. 23). Q1 FY27 revenue only Rs 360.08 m. Bear: slow execution; Neutral: FY27 back near FY25; Bull: full conversion of the book.",
-   "m": "EBITDA margin 26.23% / 29.65% / 28.85% FY24-26 (p. 144); Q1 FY27 -36.21% on low revenue. Bear 22% allows for price pressure in tenders; Neutral ~3-year average; Bull at the FY25 high.",
-   "nwc": "Trade NWC (inventory + receivables - trade payables) 43.2% / 64.0% / 109.7% of revenue FY24-26 (p. 87); issuer's working-capital days 152 / 280 / 517 (p. 144). Neutral assumes a partial unwind as the inventory built for FY27 orders is delivered.",
-   "roic": "ROCE 67.76% / 27.41% / 14.54% FY24-26 on the issuer's definition, which excludes intangibles (p. 144). Terminal ROIC set at 14% in Neutral because the purchased IP is part of invested capital."
+   "m": "EBITDA margin 26.23% / 29.65% / 28.85% FY24-26 (p. 144); Q1 FY27 is a seasonal low-revenue quarter. Neutral uses the three-year average (28.2%); Bear allows for tender price pressure; Bull holds the FY25 level.",
+   "nwc": "Trade NWC 43.2% / 64.0% / 109.7% of revenue FY24-26 (p. 87). FY26 is inflated by orders deferred into FY27 and stock bought ahead of them (pp. 23, 25). Neutral uses the three-year average (about 70%); high working capital is normal for Indian defence electronics (Data Patterns: 365-432 working-capital days, p. 147). Bull returns to the FY24 level; Bear keeps most of the FY26 build.",
+   "roic": "Issuer ROCE 67.76% / 27.41% / 14.54% FY24-26 (p. 144). Neutral terminal ROIC 16%, just above the 14.2% WACC: the business has earned well above its cost of capital in two of three years."
   },
   "peers": [
    [

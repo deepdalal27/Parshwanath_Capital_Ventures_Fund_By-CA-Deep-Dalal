@@ -29,8 +29,8 @@ def check(label, model, mirror, tol=TOL):
 # --------------------------------------------------------------- valuation mirror
 V = dict(pre_sh=8.0, esop=0.10, fresh=200, fixed=1.10, floor=180, cap=190, obj_net=170, exp=0.05, gcp=0.10,
          ipo_capex=120, y1=0.60, rev0=1000, rev_prev=850, ebitda0=150, da0=25, pat0=80, nw0=450, nd0=120,
-         nwc0=200, nwc_prev=165, capex0=60, tax=0.2517, rf=0.065, beta=1.10, erp=0.07, size=0.02, csp=0.01,
-         kd=0.10, dw=0.20, g=0.045, w_dcf=0.60, w=(0.40, 0.40, 0.20), disc=0.10)
+         nwc0=200, nwc_prev=165, capex0=60, tax=0.2517, rf=0.065, beta=1.10, erp=0.07, size=0.02, csp=0.0,
+         kd=0.10, dw=0.20, g=0.045, w_dcf=0.50, w=(0.40, 0.40, 0.20), disc=0.0)
 SCEN = {1: dict(gr=(0.08, 0.07, 0.06, 0.06, 0.05), m=0.13, nwc=0.22, roic=0.14),
         2: dict(gr=(0.18, 0.16, 0.14, 0.12, 0.10), m=0.15, nwc=0.20, roic=0.18),
         3: dict(gr=(0.25, 0.22, 0.18, 0.15, 0.12), m=0.165, nwc=0.18, roic=0.22)}
