@@ -17,7 +17,7 @@
   "lot_size": 21,
   "exchange": "NSE, BSE",
   "depth": "Full",
-  "call": "Avoid",
+  "call": "Neutral",
   "exit_route": "2-3 year hold (assumed)",
   "status": "analysed",
   "files": {
@@ -29,36 +29,35 @@
   },
   "model": {
     "bear": {
-      "dcf": 22.867,
-      "relative": 831.8545,
-      "blended": 346.462,
-      "upside_floor": -0.479,
-      "upside_cap": -0.5051
+      "dcf": 47.2532,
+      "relative": 924.2828,
+      "blended": 485.768,
+      "upside_floor": -0.2695,
+      "upside_cap": -0.306
     },
     "neutral": {
-      "dcf": 67.1996,
-      "relative": 831.8545,
-      "blended": 373.0616,
-      "upside_floor": -0.439,
-      "upside_cap": -0.4671
+      "dcf": 105.9167,
+      "relative": 924.2828,
+      "blended": 515.0998,
+      "upside_floor": -0.2254,
+      "upside_cap": -0.2641
     },
     "flags": [
-      "AMBER: DCF and relative diverge by -91.9% - the divergence is the finding; name its cause",
-      "RED: terminal ROIC below WACC - growth destroys value"
+      "AMBER: DCF and relative diverge by -88.5% - the divergence is the finding; name its cause"
     ],
-    "reverse_dcf": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
     "objects_floor": null,
     "bull": {
-      "dcf": 133.2432,
-      "relative": 831.8545,
-      "blended": 412.6877,
-      "upside_floor": -0.3794,
-      "upside_cap": -0.4104
+      "dcf": 187.507,
+      "relative": 924.2828,
+      "blended": 555.8949,
+      "upside_floor": -0.1641,
+      "upside_cap": -0.2059
     }
   },
   "counts": {
-    "fail": 2,
-    "watch": 3,
+    "fail": 0,
+    "watch": 5,
     "pass": 5,
     "open": 2
   },
@@ -69,15 +68,15 @@
   ],
   "analysed_on": "2026-10-19",
   "business_stage": "Early growth (tender-driven, lumpy)",
-  "reference_note": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Pre-IPO secondary transfers to institutions on 29-30 Sep 2026 were also at Rs 700 (pp. 151-152).",
-  "headline": "At Rs 700 the price sits in line with listed defence peers on P/E (78.8x vs 73-118x), but revenue fell 22.7% in FY26, operating cash flow was negative in FY25, FY26 and Q1 FY27, and our DCF (Rs 67) is far below the relative value (Rs 832); the offer is entirely a sale by existing holders.",
+  "reference_note": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Institutions bought from CEAQ at Rs 700 on 29-30 Sep 2026 (pp. 151-152).",
+  "headline": "A leading Indian thermal-imaging OEM that owns its technology, priced at 78.8x FY26 earnings against an 85.6x peer median; our Neutral fair value is Rs 515 (-26% vs Rs 700) because FY26 was a down year with cash tied up in orders, and the outcome turns on how quickly the Rs 432 cr of orders convert.",
   "red_flags": [
-    "Owns its IP outright; largest supplier of thermal imaging systems to Indian government agencies Apr-24 to Mar-26 per the issuer-paid F&S report (pp. 246, 253)",
-    "Revenue Rs 428.19 cr -> Rs 469.08 cr -> Rs 362.65 cr FY24-26; exports 65.5% -> 5.6% of revenue; Q1 FY27 loss Rs 17.74 cr (pp. 89, 144)",
-    "Cumulative CFO/PAT FY24-26 -63.0%; trade working capital 109.7% of FY26 revenue; working-capital days 152 -> 517 (pp. 87, 90, 144)",
-    "Related party CEAQ Singapore: IP bought for Rs 183.19 cr (FY24) and Rs 78.98 cr of FY26 purchases (26.3% of expenses); CEAQ entities sell 91.5 lakh of the 121.7 lakh OFS shares (cover, pp. 94, 439)",
-    "Order book Rs 314.24 cr at 30-Jun-2026 plus Rs 118.15 cr of orders in Jul-Sep 2026; cash tax 23.3% of cumulative PBT (pp. 89, 250)",
-    "Upper band Rs 700: blended value Rs 373 (Neutral), -46.7%; QIB book 293.6x, total 135.9x at close (NSE) - demand is not a valuation input"
+    "Owns 100% of its IP; largest supplier of thermal imaging to Indian government agencies Apr-24 to Mar-26 (issuer-paid F&S report, pp. 246, 253)",
+    "EBITDA margin 26.2% / 29.7% / 28.9% FY24-26 and cash tax 23.3% of PBT (pp. 89, 144)",
+    "Orders of Rs 432 cr in hand (Rs 314 cr book at Jun-26 plus Rs 118 cr won Jul-Sep), about 1.2x FY26 revenue (p. 250)",
+    "FY26 revenue -22.7% as export orders slipped into FY27; working capital 109.7% of FY26 revenue (pp. 23, 87)",
+    "Priced at 78.8x FY26 EPS and 7.2x book vs peer medians 85.6x and 13.0x (pp. 141, our computation)",
+    "Fair value Rs 486 / 515 / 556 (Bear / Neutral / Bull) vs Rs 700; QIB book 293.6x at close (NSE)"
   ],
   "anchor": {
     "amount_cr": 255.36,
@@ -105,11 +104,11 @@
       "Cash tax 23.3% of cumulative FY24-26 PBT; no auditor qualifications or auditor change (pp. 89, 100, 440)"
     ],
     "weaknesses": [
-      "Cumulative CFO -Rs 121.00 cr against PAT Rs 192.18 cr FY24-26 (p. 90)",
-      "Revenue -22.69% in FY26; Q1 FY27 revenue Rs 36.01 cr and loss Rs 17.74 cr (pp. 89, 144)",
-      "Top-10 customers 77.83% of FY26 and 98.17% of Q1 FY27 revenue (p. 24)",
-      "Purchases from related party CEAQ Singapore Rs 78.98 cr = 26.3% of FY26 expenses (p. 94)",
-      "Inventory Rs 319.63 cr at 30-Jun-2026 vs Rs 111.14 cr at 31-Mar-2025 (p. 87)"
+      "FY26 revenue Rs 362.65 cr, down 22.69%, as export orders slipped; Q1 FY27 is seasonally small (Rs 36.01 cr) (pp. 23, 89)",
+      "Working capital 109.7% of FY26 revenue; cumulative CFO -Rs 121.00 cr FY24-26 (pp. 87, 90)",
+      "Top-10 customers 77.83% of FY26 revenue, typical of defence tendering (p. 24)",
+      "Materials from related party CEAQ Singapore 26.3% of FY26 expenses (p. 94)",
+      "Inventory Rs 319.63 cr at Jun-26 built ahead of FY27 deliveries (pp. 25, 87)"
     ],
     "opportunities": [
       "India EO/IR market $522 m (CY2020) to $1.4 bn (CY2030), 10.5% CAGR - issuer-paid F&S report (p. 205)",
@@ -123,5 +122,6 @@
       "Singapore High Court suit by a CEAQ Singapore minority shareholder naming the company, MD and a nominee director (p. 448)",
       "Lock-in expiries: 287 lakh pre-issue shares (50% of capital) free after six months (p. 121)"
     ]
-  }
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6): Neutral value -26.4% vs the upper band lies between -10% and -30%, so the call is Neutral. No material issue was found."
 }

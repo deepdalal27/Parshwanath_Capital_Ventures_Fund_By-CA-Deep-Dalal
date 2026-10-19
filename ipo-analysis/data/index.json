@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T12:43Z",
+  "updated": "2026-10-19T12:59Z",
   "issuers": [
     {
       "slug": "tonbo-imaging-india-ltd",
@@ -15,21 +15,21 @@
       "open_date": "2026-10-15",
       "close_date": "2026-10-19",
       "depth": "Full",
-      "call": "Avoid",
-      "headline": "At Rs 700 the price sits in line with listed defence peers on P/E (78.8x vs 73-118x), but revenue fell 22.7% in FY26, operating cash flow was negative in FY25, FY26 and Q1 FY27, and our DCF (Rs 67) is far below the relative value (Rs 832); the offer is entirely a sale by existing holders.",
+      "call": "Neutral",
+      "headline": "A leading Indian thermal-imaging OEM that owns its technology, priced at 78.8x FY26 earnings against an 85.6x peer median; our Neutral fair value is Rs 515 (-26% vs Rs 700) because FY26 was a down year with cash tied up in orders, and the outcome turns on how quickly the Rs 432 cr of orders convert.",
       "red_flags": [
-        "Owns its IP outright; largest supplier of thermal imaging systems to Indian government agencies Apr-24 to Mar-26 per the issuer-paid F&S report (pp. 246, 253)",
-        "Revenue Rs 428.19 cr -> Rs 469.08 cr -> Rs 362.65 cr FY24-26; exports 65.5% -> 5.6% of revenue; Q1 FY27 loss Rs 17.74 cr (pp. 89, 144)",
-        "Cumulative CFO/PAT FY24-26 -63.0%; trade working capital 109.7% of FY26 revenue; working-capital days 152 -> 517 (pp. 87, 90, 144)",
-        "Related party CEAQ Singapore: IP bought for Rs 183.19 cr (FY24) and Rs 78.98 cr of FY26 purchases (26.3% of expenses); CEAQ entities sell 91.5 lakh of the 121.7 lakh OFS shares (cover, pp. 94, 439)",
-        "Order book Rs 314.24 cr at 30-Jun-2026 plus Rs 118.15 cr of orders in Jul-Sep 2026; cash tax 23.3% of cumulative PBT (pp. 89, 250)",
-        "Upper band Rs 700: blended value Rs 373 (Neutral), -46.7%; QIB book 293.6x, total 135.9x at close (NSE) - demand is not a valuation input"
+        "Owns 100% of its IP; largest supplier of thermal imaging to Indian government agencies Apr-24 to Mar-26 (issuer-paid F&S report, pp. 246, 253)",
+        "EBITDA margin 26.2% / 29.7% / 28.9% FY24-26 and cash tax 23.3% of PBT (pp. 89, 144)",
+        "Orders of Rs 432 cr in hand (Rs 314 cr book at Jun-26 plus Rs 118 cr won Jul-Sep), about 1.2x FY26 revenue (p. 250)",
+        "FY26 revenue -22.7% as export orders slipped into FY27; working capital 109.7% of FY26 revenue (pp. 23, 87)",
+        "Priced at 78.8x FY26 EPS and 7.2x book vs peer medians 85.6x and 13.0x (pp. 141, our computation)",
+        "Fair value Rs 486 / 515 / 556 (Bear / Neutral / Bull) vs Rs 700; QIB book 293.6x at close (NSE)"
       ],
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-rhp_105141.html",
       "status": "analysed",
       "counts": {
-        "fail": 2,
-        "watch": 3,
+        "fail": 0,
+        "watch": 5,
         "pass": 5,
         "open": 2
       },
@@ -39,11 +39,11 @@
         "Goodwill vs tangible equity"
       ],
       "neutral": {
-        "dcf": 67.1996,
-        "relative": 831.8545,
-        "blended": 373.0616,
-        "upside_floor": -0.439,
-        "upside_cap": -0.4671
+        "dcf": 105.9167,
+        "relative": 924.2828,
+        "blended": 515.0998,
+        "upside_floor": -0.2254,
+        "upside_cap": -0.2641
       }
     },
     {

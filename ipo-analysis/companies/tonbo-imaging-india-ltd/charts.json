@@ -1,7 +1,7 @@
 {
  "slug": "tonbo-imaging-india-ltd",
  "company": "Tonbo Imaging India Limited",
- "generated": "2026-10-19T12:43Z",
+ "generated": "2026-10-19T12:59Z",
  "kpis": [
   {
    "label": "Revenue FY26",
@@ -49,30 +49,30 @@
   },
   {
    "label": "Blended value (Neutral)",
-   "value": 373.0616,
+   "value": 515.0998,
    "fmt": "rs",
    "sub": "vs reference",
-   "subval": -0.4671,
+   "subval": -0.2641,
    "subfmt": "pct"
   },
   {
    "label": "Reference price",
    "value": 700.0,
    "fmt": "rs",
-   "sub": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Pre-IPO secondary transfers to institutions on 29-30 Sep 2026 were also at Rs 700 (pp. 151-152)."
+   "sub": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Institutions bought from CEAQ at Rs 700 on 29-30 Sep 2026 (pp. 151-152)."
   }
  ],
  "focus": [
   {
-   "level": "FAIL",
+   "level": "WATCH",
    "title": "Cash flow vs profit",
-   "detail": "CFO Rs 783.33 m / -1,361.19 m / -632.16 m FY24-26 and -146.83 m in Q1 FY27, against PAT 685.43 / 727.57 / 508.80 / -177.37. Cumulative CFO/PAT FY24-26 = -63.0%. Working-capital days 152 -> 280 -> 517 (p. 144).",
-   "page": "p. 90"
+   "detail": "Operating cash flow Rs 783.33 m in FY24, then -1,361.19 m (FY25, incl. the final instalments for the IP purchase) and -632.16 m (FY26) as export orders were deferred and stock was built for FY27 orders (pp. 23, 25, 439). Cumulative CFO/PAT FY24-26 -63.0%. A timing item in a lumpy order cycle; track H1 FY27 cash flow.",
+   "page": "pp. 23, 90"
   },
   {
-   "level": "FAIL",
+   "level": "WATCH",
    "title": "Related-party capex & subsidiaries",
-   "detail": "IP bought from CEAQ Singapore (formerly Tonbo Imaging Pte; an enterprise with substantial interest, selling shareholder) for Rs 1,831.91 m in Mar-2024, valued by DCF (MPEEM, 10-year life) and capitalised: 54.4% of FY24 total expenses. Material purchases from CEAQ Singapore continue: Rs 789.80 m in FY26 (26.3% of total expenses) and Rs 171.99 m in Q1 FY27 (28.2%).",
+   "detail": "Disclosed related-party dealings with CEAQ Singapore (former parent): the one-time IP purchase of Rs 1,831.91 m in FY24, valued by DCF and paid in instalments, which removed future royalties; and material purchases of Rs 789.80 m in FY26 (26.3% of total expenses). Track the share of purchases from CEAQ after listing.",
    "page": "pp. 94, 439"
   },
   {
@@ -96,13 +96,7 @@
   {
    "level": "GUARD",
    "title": "Valuation model guard",
-   "detail": "AMBER: DCF and relative diverge by -91.9% - the divergence is the finding; name its cause",
-   "page": ""
-  },
-  {
-   "level": "GUARD",
-   "title": "Valuation model guard",
-   "detail": "RED: terminal ROIC below WACC - growth destroys value",
+   "detail": "AMBER: DCF and relative diverge by -88.5% - the divergence is the finding; name its cause",
    "page": ""
   },
   {
@@ -162,9 +156,9 @@
   {
    "id": "2",
    "check": "Cash flow vs profit",
-   "status": "FAIL",
-   "page": "p. 90",
-   "finding": "CFO Rs 783.33 m / -1,361.19 m / -632.16 m FY24-26 and -146.83 m in Q1 FY27, against PAT 685.43 / 727.57 / 508.80 / -177.37. Cumulative CFO/PAT FY24-26 = -63.0%. Working-capital days 152 -> 280 -> 517 (p. 144)."
+   "status": "WATCH",
+   "page": "pp. 23, 90",
+   "finding": "Operating cash flow Rs 783.33 m in FY24, then -1,361.19 m (FY25, incl. the final instalments for the IP purchase) and -632.16 m (FY26) as export orders were deferred and stock was built for FY27 orders (pp. 23, 25, 439). Cumulative CFO/PAT FY24-26 -63.0%. A timing item in a lumpy order cycle; track H1 FY27 cash flow."
   },
   {
    "id": "3",
@@ -176,9 +170,9 @@
   {
    "id": "4",
    "check": "Related-party capex & subsidiaries",
-   "status": "FAIL",
+   "status": "WATCH",
    "page": "pp. 94, 439",
-   "finding": "IP bought from CEAQ Singapore (formerly Tonbo Imaging Pte; an enterprise with substantial interest, selling shareholder) for Rs 1,831.91 m in Mar-2024, valued by DCF (MPEEM, 10-year life) and capitalised: 54.4% of FY24 total expenses. Material purchases from CEAQ Singapore continue: Rs 789.80 m in FY26 (26.3% of total expenses) and Rs 171.99 m in Q1 FY27 (28.2%)."
+   "finding": "Disclosed related-party dealings with CEAQ Singapore (former parent): the one-time IP purchase of Rs 1,831.91 m in FY24, valued by DCF and paid in instalments, which removed future royalties; and material purchases of Rs 789.80 m in FY26 (26.3% of total expenses). Track the share of purchases from CEAQ after listing."
   },
   {
    "id": "5",
@@ -339,35 +333,35 @@
   "reference": 700.0,
   "floor": 665.0,
   "cap": 700.0,
-  "reference_note": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Pre-IPO secondary transfers to institutions on 29-30 Sep 2026 were also at Rs 700 (pp. 151-152).",
+  "reference_note": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Institutions bought from CEAQ at Rs 700 on 29-30 Sep 2026 (pp. 151-152).",
   "scenarios": {
    "bear": {
-    "dcf": 22.867,
-    "relative": 831.8545,
-    "blended": 346.462,
-    "upside_floor": -0.479,
-    "upside_cap": -0.5051
+    "dcf": 47.2532,
+    "relative": 924.2828,
+    "blended": 485.768,
+    "upside_floor": -0.2695,
+    "upside_cap": -0.306
    },
    "neutral": {
-    "dcf": 67.1996,
-    "relative": 831.8545,
-    "blended": 373.0616,
-    "upside_floor": -0.439,
-    "upside_cap": -0.4671
+    "dcf": 105.9167,
+    "relative": 924.2828,
+    "blended": 515.0998,
+    "upside_floor": -0.2254,
+    "upside_cap": -0.2641
    },
    "bull": {
-    "dcf": 133.2432,
-    "relative": 831.8545,
-    "blended": 412.6877,
-    "upside_floor": -0.3794,
-    "upside_cap": -0.4104
+    "dcf": 187.507,
+    "relative": 924.2828,
+    "blended": 555.8949,
+    "upside_floor": -0.1641,
+    "upside_cap": -0.2059
    }
   },
   "objects_floor": null,
-  "wacc": 0.1663,
-  "tv_share": 0.6653,
+  "wacc": 0.1423,
+  "tv_share": 0.6946,
   "reverse": {
-   "sentence": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+   "sentence": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
    "levers": [
     {
      "label": "Lever 1 - implied perpetual growth on current FCFF",
@@ -377,11 +371,11 @@
     {
      "label": "Lever 2 - implied WACC at terminal g",
      "required": "n.m. (FCF negative)",
-     "actual": 0.1663
+     "actual": 0.1423
     },
     {
      "label": "Lever 3 - required EBIT margin (steady state)",
-     "required": 2.576837936849434,
+     "required": 1.9515311475064787,
      "actual": 0.2021
     },
     {
@@ -411,37 +405,37 @@
   ],
   "ebitda": [
    104.618,
-   122.3937,
-   146.8724,
-   173.3095,
-   199.3059,
-   223.2226
+   126.9268,
+   152.3122,
+   179.7283,
+   206.6876,
+   231.4901
   ],
   "nopat": [
    54.8377,
-   62.2772,
-   74.7327,
-   88.1846,
-   101.4122,
-   113.5817
+   65.6693,
+   78.8032,
+   92.9878,
+   106.936,
+   119.7683
   ],
   "fcff": [
    -50.5663,
-   119.9997,
-   6.7362,
-   14.7483,
-   29.2,
-   47.1464
+   146.0573,
+   15.3398,
+   24.4473,
+   39.5378,
+   57.762
   ]
  },
  "sensitivity": {
   "wacc_g": {
    "rows": [
-    0.1463,
-    0.1563,
-    0.1663,
-    0.1763,
-    0.1863
+    0.1223,
+    0.1323,
+    0.1423,
+    0.1523,
+    0.1623
    ],
    "cols": [
     0.035,
@@ -452,92 +446,92 @@
    ],
    "values": [
     [
-     84.3242,
-     84.463,
-     84.5801,
-     84.6722,
-     84.7353
+     133.0893,
+     135.6148,
+     138.4195,
+     141.5613,
+     145.1152
     ],
     [
-     75.3476,
-     75.2321,
-     75.0754,
-     74.8717,
-     74.6142
+     116.9699,
+     118.5454,
+     120.261,
+     122.1425,
+     124.2218
     ],
     [
-     67.8079,
-     67.5288,
-     67.1996,
-     66.814,
-     66.3642
+     103.9459,
+     104.8996,
+     105.9167,
+     107.0077,
+     108.1851
     ],
     [
-     61.3959,
-     61.013,
-     60.577,
-     60.0816,
-     59.5195
+     93.2203,
+     93.7579,
+     94.3155,
+     94.8962,
+     95.5036
     ],
     [
-     55.8845,
-     55.4379,
-     54.9384,
-     54.3801,
-     53.7564
+     84.247,
+     84.5016,
+     84.7517,
+     84.9967,
+     85.2357
     ]
    ]
   },
   "nwc_margin": {
    "rows": [
-    0.69,
-    0.72,
-    0.75,
-    0.78,
-    0.81
+    0.64,
+    0.67,
+    0.7,
+    0.73,
+    0.76
    ],
    "cols": [
-    0.25,
     0.26,
     0.27,
     0.28,
-    0.29
+    0.29,
+    0.3
    ],
    "values": [
     [
-     62.5799,
-     68.085,
-     73.5902,
-     79.0953,
-     84.6004
+     98.4938,
+     105.5261,
+     112.5584,
+     119.5908,
+     126.6231
     ],
     [
-     59.3846,
-     64.8898,
-     70.3949,
-     75.9,
-     81.4051
+     95.1729,
+     102.2052,
+     109.2376,
+     116.2699,
+     123.3023
     ],
     [
-     56.1894,
-     61.6945,
-     67.1996,
-     72.7047,
-     78.2099
+     91.8521,
+     98.8844,
+     105.9167,
+     112.9491,
+     119.9814
     ],
     [
-     52.9941,
-     58.4992,
-     64.0043,
-     69.5095,
-     75.0146
+     88.5312,
+     95.5635,
+     102.5959,
+     109.6282,
+     116.6606
     ],
     [
-     49.7988,
-     55.3039,
-     60.8091,
-     66.3142,
-     71.8193
+     85.2104,
+     92.2427,
+     99.275,
+     106.3074,
+     113.3397
     ]
    ]
   }
@@ -892,11 +886,11 @@
    "Cash tax 23.3% of cumulative FY24-26 PBT; no auditor qualifications or auditor change (pp. 89, 100, 440)"
   ],
   "weaknesses": [
-   "Cumulative CFO -Rs 121.00 cr against PAT Rs 192.18 cr FY24-26 (p. 90)",
-   "Revenue -22.69% in FY26; Q1 FY27 revenue Rs 36.01 cr and loss Rs 17.74 cr (pp. 89, 144)",
-   "Top-10 customers 77.83% of FY26 and 98.17% of Q1 FY27 revenue (p. 24)",
-   "Purchases from related party CEAQ Singapore Rs 78.98 cr = 26.3% of FY26 expenses (p. 94)",
-   "Inventory Rs 319.63 cr at 30-Jun-2026 vs Rs 111.14 cr at 31-Mar-2025 (p. 87)"
+   "FY26 revenue Rs 362.65 cr, down 22.69%, as export orders slipped; Q1 FY27 is seasonally small (Rs 36.01 cr) (pp. 23, 89)",
+   "Working capital 109.7% of FY26 revenue; cumulative CFO -Rs 121.00 cr FY24-26 (pp. 87, 90)",
+   "Top-10 customers 77.83% of FY26 revenue, typical of defence tendering (p. 24)",
+   "Materials from related party CEAQ Singapore 26.3% of FY26 expenses (p. 94)",
+   "Inventory Rs 319.63 cr at Jun-26 built ahead of FY27 deliveries (pp. 25, 87)"
   ],
   "opportunities": [
    "India EO/IR market $522 m (CY2020) to $1.4 bn (CY2030), 10.5% CAGR - issuer-paid F&S report (p. 205)",
@@ -912,8 +906,8 @@
   ]
  },
  "counts": {
-  "fail": 2,
-  "watch": 3,
+  "fail": 0,
+  "watch": 5,
   "pass": 5,
   "open": 2
  }

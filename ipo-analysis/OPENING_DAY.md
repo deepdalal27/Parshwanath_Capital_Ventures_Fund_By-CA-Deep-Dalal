@@ -4,8 +4,8 @@ A second scheduled routine reads this file every weekday morning. It finds every
 and publishes a report on each one to the website by **11:30 AM - 12:00 noon IST**. Edit this file on GitHub to change what
 the routine does; settings that change often live in `data/opening_calendar.json`.
 
-All the hard rules in `ROUTINE.md` apply here too (never invent a figure, firm-approved disclaimer only, no offer-document
-PDFs in the repo, analysis only from the offer document, neutral stance, grey market premium never used, branding).
+All the hard rules in `ROUTINE.md` apply here too, **including hard rule 6, the investor's lens** (normal features are context, not deductions; no strict valuation stance; the fixed call rule), and also: never invent a figure, firm-approved disclaimer only, no offer-document
+PDFs in the repo, analysis only from the offer document, neutral stance, grey market premium never used, branding.
 The differences are listed below.
 
 | | DRHP routine (`ROUTINE.md`) | Opening-day routine (this file) |
@@ -51,7 +51,7 @@ Read `data/opening_calendar.json`. Use the enabled `sources` to list every IPO, 
 `note.md`, in this order. Every number carries an RHP page cite.
 1. **Banner**: RHP date, audited-to date and staleness in days; open / close / allotment / listing dates; price band,
    lot size and minimum application amount; issue size split fresh vs OFS; exchanges.
-2. **Verdict**, stated neutrally: `Subscribe` / `Neutral` / `Avoid`, the price it was judged at (upper band), and what decides it.
+2. **Verdict**, stated neutrally: `Subscribe` / `Neutral` / `Avoid` under the call rule in `ROUTINE.md` hard rule 6 (say which limb applied), the price it was judged at (upper band), and what decides it.
 3. **Snapshot table**: revenue, EBITDA, PAT, margins, ROE, ROCE, net debt for 3 years and the stub; market cap and
    P/E, EV/EBITDA, P/B at the upper band, post-issue.
 4. **Business model**: what is sold, to whom, how it is priced, how it earns its margin, what it owns vs outsources,
@@ -73,7 +73,7 @@ Read `data/opening_calendar.json`. Use the enabled `sources` to list every IPO, 
 10. **DCF valuation**: WACC build (risk-free, beta and its source, ERP, size and company-specific premia, cost of debt,
     weights), 5-year free cash flow projection per scenario, terminal growth 4.50%, terminal value as a share of EV,
     per-share value Bear / Neutral / Bull, a WACC x terminal-growth sensitivity, then the relative valuation and the blend
-    (60:40, or 80:20 without listed peers), and the **reverse DCF**: what the upper band asks the business to deliver.
+    (50:50, or 70:30 without listed peers; through-cycle Neutral case per hard rule 6), and the **reverse DCF**: what the upper band asks the business to deliver.
     Upside against the upper band as a percentage only.
 11. **Management and governance**: promoters' background and track record; board size and independence; key managerial
     personnel and tenure; remuneration against PAT; promoter holding pre and post issue; who sells in the OFS and their
@@ -84,16 +84,17 @@ Read `data/opening_calendar.json`. Use the enabled `sources` to list every IPO, 
 13. **Moat**: what protects returns (scale, cost, switching costs, brand, licences, network), how durable, what evidence.
     Say plainly when there is none.
 14. **Offer, objects and anchor book**: objects arithmetic, anchor investors, MF share, quality of the book.
-15. **Forensic scorecard** (the ten checks in `ROUTINE.md`).
+15. **Points to monitor**: the normal-course items an investor should track after listing, each with its number (concentration, working capital, related parties, litigation), stated once and in proportion.
 16. **Merchant banker(s)**: as in `ROUTINE.md` (track record of past issues, from the RHP).
-17. **What would change our view**, 18. **Risks**, 19. **Data gaps**, 20. **Verification**,
-21. `## Disclaimer and disclosures` followed by the `short` text from `data/disclaimer.json`.
+17. **What would change our view**, 18. **Risks**, 19. **Data gaps**, 20. **Appendix: diligence checks** (the ten checks in
+`ROUTINE.md`; `FAIL` only for material issues), 21. **Verification**,
+22. `## Disclaimer and disclosures` followed by the `short` text from `data/disclaimer.json`.
 
 ### SME: snapshot report
 Two pages, same rules on sourcing and neutrality. `note.md` sections: Banner; Verdict; Snapshot table; Business model and
 stage of the business (one paragraph each); Industry in brief; Future prospects in brief; Peer comparison (P2P) table;
 Valuation (DCF and relative, Neutral case, plus reverse DCF); Management and governance (promoters, board, RPTs,
-litigation, auditor); SWOT; Moat (one line); Forensic flags (only the checks that are FAIL or WATCH); Merchant banker
+litigation, auditor); SWOT; Moat (one line); Points to monitor (normal-course items, in proportion; any material issue stated plainly); Merchant banker
 track record (summary table); Risks; Data gaps; Disclaimer. Set `meta.depth` to `"Snapshot"`.
 `facts.json` still needs the valuation inputs, drivers and peers so the model and charts build.
 

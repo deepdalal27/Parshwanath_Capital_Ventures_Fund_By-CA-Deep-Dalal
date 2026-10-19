@@ -88,16 +88,16 @@ def build(path, scenario=2, facts=None):
     b.add("beta", "Beta", 1.10, "0.00")
     b.add("erp", "Equity risk premium", 0.07, PCT)
     b.add("size", "Size premium", 0.02, PCT)
-    b.add("csp", "Company-specific premium", 0.01, PCT)
+    b.add("csp", "Company-specific premium", 0.0, PCT, hint="0 by default; up to 1% only for a specific, cited, non-routine risk")
     b.add("kd", "Pre-tax cost of debt", 0.10, PCT)
     b.add("dw", "Target debt / (debt + equity)", 0.20, PCT)
     b.add("g", "Terminal growth", 0.045, PCT)
     b.section("Blend and relative settings")
-    b.add("w_dcf", "DCF weight in blend", 0.60, PCT, hint="80% where no comparable listed peers")
+    b.add("w_dcf", "DCF weight in blend", 0.50, PCT, hint="70% where no comparable listed peers")
     b.add("w_pe", "Relative weight - P/E", 0.40, PCT)
     b.add("w_eve", "Relative weight - EV/EBITDA", 0.40, PCT)
     b.add("w_pb", "Relative weight - P/B", 0.20, PCT)
-    b.add("rel_disc", "Discount to peer median", 0.10, PCT, hint="Size, liquidity, business-model gap - state why")
+    b.add("rel_disc", "Discount to peer median", 0.0, PCT, hint="0 by default; only for a clear business-model gap - state why")
     b.section("Derived (formulas)")
     A = b.addr
     b.add("fresh_net", "Fresh issue net of offer expenses", f"={A['fresh']}*(1-{A['exp_pct']})", CR, "calc", "Rs cr")
@@ -331,7 +331,7 @@ def build(path, scenario=2, facts=None):
         (7, "Implied EV = mcap + net debt - net proceeds", lambda c, px: f"={c}6+{A['nd0']}-{A['fresh_net']}", CR),
         (8, "Current FCFF (Y0 actual)", lambda c, px: "=DCF!$C$18", CR),
         (9, "EV / current FCFF",
-         lambda c, px: f'=IF({c}8<=0,"No multiple: FCF negative - price rests on a turn not yet begun",{c}7/{c}8)', X),
+         lambda c, px: f'=IF({c}8<=0,"No multiple: FCF negative - the price assumes cash generation improves",{c}7/{c}8)', X),
         (11, "Lever 1 - implied perpetual growth on current FCFF",
          lambda c, px: f'=IF({c}8<=0,"n.m. (FCF negative)",({c}7*{W}-{c}8)/({c}7+{c}8))', PCT),
         (12, "Lever 2 - implied WACC at terminal g",
@@ -353,8 +353,8 @@ def build(path, scenario=2, facts=None):
         put(rv, f"E{r}", f, "link", PCT)
         note(rv, f"F{r}", t)
     put(rv, "B16", "In plain words (at cap)", "bold")
-    put(rv, "C16", '=IF(D8<=0,"Current free cash flow is negative: no multiple can be stated, and the entire price '
-                   'rests on a turn that has not yet begun.","The price asks the business to deliver "&TEXT(D9,"0.0")'
+    put(rv, "C16", '=IF(D8<=0,"Current free cash flow is negative, so no multiple can be stated: the price assumes '
+                   'cash generation improves from here.","The price asks the business to deliver "&TEXT(D9,"0.0")'
                    '&" times its current free cash flow, in perpetuity.")', "calc")
     note(rv, "B18", "Levers 1-2 use actual Y0 FCFF (Gordon). Levers 3-4 use a steady state: capex = D&A + k x dRev, "
                     "terminal reinvestment g/ROIC. One implausible lever is an argument; four is a conclusion.")
