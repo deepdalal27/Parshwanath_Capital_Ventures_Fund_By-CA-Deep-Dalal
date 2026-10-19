@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-19T12:23Z",
+  "updated": "2026-10-19T12:43Z",
   "issuers": [
+    {
+      "slug": "tonbo-imaging-india-ltd",
+      "company": "Tonbo Imaging India Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-10",
+      "analysed_on": "2026-10-19",
+      "sector": "Defence electronics: electro-optic and thermal imaging systems",
+      "brlm": "JM Financial Limited; IIFL Capital Services Limited",
+      "issue_size_cr": 852.18,
+      "price_band": "Rs 665-700",
+      "open_date": "2026-10-15",
+      "close_date": "2026-10-19",
+      "depth": "Full",
+      "call": "Avoid",
+      "headline": "At Rs 700 the price sits in line with listed defence peers on P/E (78.8x vs 73-118x), but revenue fell 22.7% in FY26, operating cash flow was negative in FY25, FY26 and Q1 FY27, and our DCF (Rs 67) is far below the relative value (Rs 832); the offer is entirely a sale by existing holders.",
+      "red_flags": [
+        "Owns its IP outright; largest supplier of thermal imaging systems to Indian government agencies Apr-24 to Mar-26 per the issuer-paid F&S report (pp. 246, 253)",
+        "Revenue Rs 428.19 cr -> Rs 469.08 cr -> Rs 362.65 cr FY24-26; exports 65.5% -> 5.6% of revenue; Q1 FY27 loss Rs 17.74 cr (pp. 89, 144)",
+        "Cumulative CFO/PAT FY24-26 -63.0%; trade working capital 109.7% of FY26 revenue; working-capital days 152 -> 517 (pp. 87, 90, 144)",
+        "Related party CEAQ Singapore: IP bought for Rs 183.19 cr (FY24) and Rs 78.98 cr of FY26 purchases (26.3% of expenses); CEAQ entities sell 91.5 lakh of the 121.7 lakh OFS shares (cover, pp. 94, 439)",
+        "Order book Rs 314.24 cr at 30-Jun-2026 plus Rs 118.15 cr of orders in Jul-Sep 2026; cash tax 23.3% of cumulative PBT (pp. 89, 250)",
+        "Upper band Rs 700: blended value Rs 373 (Neutral), -46.7%; QIB book 293.6x, total 135.9x at close (NSE) - demand is not a valuation input"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-rhp_105141.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 2,
+        "watch": 3,
+        "pass": 5,
+        "open": 2
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Goodwill vs tangible equity"
+      ],
+      "neutral": {
+        "dcf": 67.1996,
+        "relative": 831.8545,
+        "blended": 373.0616,
+        "upside_floor": -0.439,
+        "upside_cap": -0.4671
+      }
+    },
     {
       "slug": "royal-chain-ltd",
       "company": "Royal Chain Limited",

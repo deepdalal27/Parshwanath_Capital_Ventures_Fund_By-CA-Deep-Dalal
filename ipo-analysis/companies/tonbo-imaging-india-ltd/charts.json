@@ -1,0 +1,920 @@
+{
+ "slug": "tonbo-imaging-india-ltd",
+ "company": "Tonbo Imaging India Limited",
+ "generated": "2026-10-19T12:43Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 362.648,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": -0.0797,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 50.88,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": -0.1384,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.2885,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.2623,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": -0.6296,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2334,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 78.81,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 85.6078,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 373.0616,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.4671,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 700.0,
+   "fmt": "rs",
+   "sub": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Pre-IPO secondary transfers to institutions on 29-30 Sep 2026 were also at Rs 700 (pp. 151-152)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "FAIL",
+   "title": "Cash flow vs profit",
+   "detail": "CFO Rs 783.33 m / -1,361.19 m / -632.16 m FY24-26 and -146.83 m in Q1 FY27, against PAT 685.43 / 727.57 / 508.80 / -177.37. Cumulative CFO/PAT FY24-26 = -63.0%. Working-capital days 152 -> 280 -> 517 (p. 144).",
+   "page": "p. 90"
+  },
+  {
+   "level": "FAIL",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "IP bought from CEAQ Singapore (formerly Tonbo Imaging Pte; an enterprise with substantial interest, selling shareholder) for Rs 1,831.91 m in Mar-2024, valued by DCF (MPEEM, 10-year life) and capitalised: 54.4% of FY24 total expenses. Material purchases from CEAQ Singapore continue: Rs 789.80 m in FY26 (26.3% of total expenses) and Rs 171.99 m in Q1 FY27 (28.2%).",
+   "page": "pp. 94, 439"
+  },
+  {
+   "level": "WATCH",
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill. Intangible assets Rs 1,627.01 m at 31-Mar-2026 = 29.4% of net worth, mostly the related-party IP purchase; amortisation lifts D&A from Rs 133.95 m (FY24) to Rs 313.35 m (FY26).",
+   "page": "p. 87"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Top-10 customers 77.83% of FY26 revenue and 98.17% in Q1 FY27 (top-1 54.74%); Indian Government 71.19% of FY26 revenue; foreign-government revenue fell from Rs 2,676.93 m to Rs 121.14 m. Top-10 suppliers 68.77% of FY26 total expenses with no long-term supply contracts.",
+   "page": "pp. 23-25, 250-251"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Bank guarantees Rs 789.34 m = 14.7% of 30-Jun-2026 net worth; GST disputes Rs 8.32 m; a customs notice received 23-Jul-2026 is disclosed as a contingent liability without an amount. Materiality threshold Rs 32.03 m (p. 447).",
+   "page": "p. 92"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -91.9% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "RED: terminal ROIC below WACC - growth destroys value",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Anchor allocation report (investor-wise list) - nsearchives.nseindia.com blocked from the cloud container; names taken from press reports",
+   "page": "NSE / BSE anchor allocation filing"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Contingent liabilities for FY24-FY26 year ends not extracted; customs notice of 23-Jul-2026 not quantified",
+   "page": "RHP note 40 / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Identity of the largest customer (54.74% of Q1 FY27 revenue) withheld for confidentiality",
+   "page": "Issuer"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "19:1 bonus (30-Jun-2025) and split from Rs 10 to Rs 2 are reflected: diluted EPS 13.63 / 12.70 / 8.88 FY24-26 and NAV Rs 96.57 are on the post-bonus, post-split count of 57,282,100 shares.",
+   "page": "pp. 126, 139"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax (incl. MAT) Rs 615.64 m on cumulative PBT Rs 2,637.74 m FY24-26 = 23.3%; deferred tax is a small share of the charge.",
+   "page": "p. 89"
+  },
+  {
+   "title": "Auditor qualifications / changes",
+   "detail": "Kalyanasundaram and Associates (FRN 005455S); no auditor change in three years; no qualifications, reservations or emphasis of matter; audit-trail (Rule 11(g)) operated throughout.",
+   "page": "pp. 100, 325, 440"
+  },
+  {
+   "title": "CARO / audit trail",
+   "detail": "Auditor confirms the audit-trail (edit log) feature operated throughout for all relevant transactions and was not tampered with (Rule 11(g)). CARO remarks not reviewed separately.",
+   "page": "p. 325"
+  },
+  {
+   "title": "Lead-manager track record",
+   "detail": "Track record of JM Financial and IIFL Capital compiled from the RHP's exchange-sourced tables (see merchant banker section).",
+   "page": "pp. 466-468"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 126, 139",
+   "finding": "19:1 bonus (30-Jun-2025) and split from Rs 10 to Rs 2 are reflected: diluted EPS 13.63 / 12.70 / 8.88 FY24-26 and NAV Rs 96.57 are on the post-bonus, post-split count of 57,282,100 shares."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "FAIL",
+   "page": "p. 90",
+   "finding": "CFO Rs 783.33 m / -1,361.19 m / -632.16 m FY24-26 and -146.83 m in Q1 FY27, against PAT 685.43 / 727.57 / 508.80 / -177.37. Cumulative CFO/PAT FY24-26 = -63.0%. Working-capital days 152 -> 280 -> 517 (p. 144)."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 89",
+   "finding": "Current tax (incl. MAT) Rs 615.64 m on cumulative PBT Rs 2,637.74 m FY24-26 = 23.3%; deferred tax is a small share of the charge."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "FAIL",
+   "page": "pp. 94, 439",
+   "finding": "IP bought from CEAQ Singapore (formerly Tonbo Imaging Pte; an enterprise with substantial interest, selling shareholder) for Rs 1,831.91 m in Mar-2024, valued by DCF (MPEEM, 10-year life) and capitalised: 54.4% of FY24 total expenses. Material purchases from CEAQ Singapore continue: Rs 789.80 m in FY26 (26.3% of total expenses) and Rs 171.99 m in Q1 FY27 (28.2%)."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "p. 134",
+   "finding": "Pure offer for sale; the company receives no proceeds, so there is no objects floor."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "WATCH",
+   "page": "p. 87",
+   "finding": "No goodwill. Intangible assets Rs 1,627.01 m at 31-Mar-2026 = 29.4% of net worth, mostly the related-party IP purchase; amortisation lifts D&A from Rs 133.95 m (FY24) to Rs 313.35 m (FY26)."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 23-25, 250-251",
+   "finding": "Top-10 customers 77.83% of FY26 revenue and 98.17% in Q1 FY27 (top-1 54.74%); Indian Government 71.19% of FY26 revenue; foreign-government revenue fell from Rs 2,676.93 m to Rs 121.14 m. Top-10 suppliers 68.77% of FY26 total expenses with no long-term supply contracts."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "p. 92",
+   "finding": "Bank guarantees Rs 789.34 m = 14.7% of 30-Jun-2026 net worth; GST disputes Rs 8.32 m; a customs notice received 23-Jul-2026 is disclosed as a contingent liability without an amount. Materiality threshold Rs 32.03 m (p. 447)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "PASS",
+   "page": "pp. 100, 325, 440",
+   "finding": "Kalyanasundaram and Associates (FRN 005455S); no auditor change in three years; no qualifications, reservations or emphasis of matter; audit-trail (Rule 11(g)) operated throughout."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "PASS",
+   "page": "p. 325",
+   "finding": "Auditor confirms the audit-trail (edit log) feature operated throughout for all relevant transactions and was not tampered with (Rule 11(g)). CARO remarks not reviewed separately."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "N.A.",
+   "page": "p. 134",
+   "finding": "Pure offer for sale; no proceeds to the company, so no monitoring agency is required."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "N.A.",
+   "page": "cover",
+   "finding": "Mainboard offer under Reg 6(1)."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "PASS",
+   "page": "pp. 466-468",
+   "finding": "Track record of JM Financial and IIFL Capital compiled from the RHP's exchange-sourced tables (see merchant banker section)."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "N.A.",
+   "page": "p. 134",
+   "finding": "No objects to finance."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   428.189,
+   469.08,
+   362.648
+  ],
+  "ebitda": [
+   112.324,
+   139.064,
+   104.618
+  ],
+  "pat": [
+   68.543,
+   72.757,
+   50.88
+  ],
+  "cfo": [
+   78.333,
+   -136.119,
+   -63.216
+  ],
+  "ebitda_margin": [
+   0.2623,
+   0.2965,
+   0.2885
+  ],
+  "pat_margin": [
+   0.1601,
+   0.1551,
+   0.1403
+  ],
+  "inventory": [
+   111.686,
+   111.144,
+   219.485
+  ],
+  "receivables": [
+   93.643,
+   210.312,
+   211.663
+  ],
+  "payables": [
+   20.345,
+   21.145,
+   33.443
+  ],
+  "nwc": [
+   184.98,
+   300.31,
+   397.71
+  ],
+  "nwc_pct": [
+   0.432,
+   0.6402,
+   1.0967
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 700.0,
+  "floor": 665.0,
+  "cap": 700.0,
+  "reference_note": "Upper band Rs 700. At Rs 700: market cap Rs 4,009.75 cr, P/E 78.8x FY26 diluted EPS Rs 8.88, P/B 7.25x, EV/EBITDA 39.1x FY26. Pre-IPO secondary transfers to institutions on 29-30 Sep 2026 were also at Rs 700 (pp. 151-152).",
+  "scenarios": {
+   "bear": {
+    "dcf": 22.867,
+    "relative": 831.8545,
+    "blended": 346.462,
+    "upside_floor": -0.479,
+    "upside_cap": -0.5051
+   },
+   "neutral": {
+    "dcf": 67.1996,
+    "relative": 831.8545,
+    "blended": 373.0616,
+    "upside_floor": -0.439,
+    "upside_cap": -0.4671
+   },
+   "bull": {
+    "dcf": 133.2432,
+    "relative": 831.8545,
+    "blended": 412.6877,
+    "upside_floor": -0.3794,
+    "upside_cap": -0.4104
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1663,
+  "tv_share": 0.6653,
+  "reverse": {
+   "sentence": "Current free cash flow is negative: no multiple can be stated, and the entire price rests on a turn that has not yet begun.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1663
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 2.576837936849434,
+     "actual": 0.2021
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 1.0967
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   362.648,
+   453.31,
+   543.972,
+   641.887,
+   738.17,
+   826.7504
+  ],
+  "ebitda": [
+   104.618,
+   122.3937,
+   146.8724,
+   173.3095,
+   199.3059,
+   223.2226
+  ],
+  "nopat": [
+   54.8377,
+   62.2772,
+   74.7327,
+   88.1846,
+   101.4122,
+   113.5817
+  ],
+  "fcff": [
+   -50.5663,
+   119.9997,
+   6.7362,
+   14.7483,
+   29.2,
+   47.1464
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1463,
+    0.1563,
+    0.1663,
+    0.1763,
+    0.1863
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     84.3242,
+     84.463,
+     84.5801,
+     84.6722,
+     84.7353
+    ],
+    [
+     75.3476,
+     75.2321,
+     75.0754,
+     74.8717,
+     74.6142
+    ],
+    [
+     67.8079,
+     67.5288,
+     67.1996,
+     66.814,
+     66.3642
+    ],
+    [
+     61.3959,
+     61.013,
+     60.577,
+     60.0816,
+     59.5195
+    ],
+    [
+     55.8845,
+     55.4379,
+     54.9384,
+     54.3801,
+     53.7564
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.69,
+    0.72,
+    0.75,
+    0.78,
+    0.81
+   ],
+   "cols": [
+    0.25,
+    0.26,
+    0.27,
+    0.28,
+    0.29
+   ],
+   "values": [
+    [
+     62.5799,
+     68.085,
+     73.5902,
+     79.0953,
+     84.6004
+    ],
+    [
+     59.3846,
+     64.8898,
+     70.3949,
+     75.9,
+     81.4051
+    ],
+    [
+     56.1894,
+     61.6945,
+     67.1996,
+     72.7047,
+     78.2099
+    ],
+    [
+     52.9941,
+     58.4992,
+     64.0043,
+     69.5095,
+     75.0146
+    ],
+    [
+     49.7988,
+     55.3039,
+     60.8091,
+     66.3142,
+     71.8193
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Paras Defence and Space Technologies Ltd",
+   "pe": 117.7447,
+   "pb": 14.2963,
+   "issuer": false
+  },
+  {
+   "name": "Data Patterns (India) Ltd",
+   "pe": 87.2911,
+   "pb": 13.6449,
+   "issuer": false
+  },
+  {
+   "name": "Astra Microwave Products Ltd",
+   "pe": 83.9245,
+   "pb": 12.2862,
+   "issuer": false
+  },
+  {
+   "name": "Zen Technologies Ltd",
+   "pe": 73.4363,
+   "pb": 7.5535,
+   "issuer": false
+  },
+  {
+   "name": "Tonbo Imaging India Limited at reference",
+   "pe": 78.8079,
+   "pb": 7.2488,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 85.1118
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 17.0326
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 153.2166
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 170.2406
+   },
+   {
+    "label": "Non-institutional",
+    "value": 127.6805
+   },
+   {
+    "label": "Retail",
+    "value": 297.9211
+   }
+  ],
+  "issue_cr": 851.2032,
+  "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 18.2401,
+    "days": 30,
+    "pct_float": 0.1354
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 18.2401,
+    "days": 90,
+    "pct_float": 0.1193
+   },
+   {
+    "label": "Pre-issue non-promoter shareholders (excl. AIFs Yali and Tenacity, and the ESOP trust)",
+    "shares_lakh": 287.07,
+    "days": 180,
+    "pct_float": 1.6769
+   },
+   {
+    "label": "Promoters' contribution incl. CEAQ Singapore shortfall shares (20% of post-issue capital)",
+    "shares_lakh": 114.56,
+    "days": 540,
+    "pct_float": 0.25
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "JM Financial Limited",
+    "owner": "Promoted by the Kampani family: J M Financial & Investment Consultancy Services Pvt Ltd 24.77%, Nimesh Kampani 13.11%, J M Assets Management Pvt Ltd 11.36%, Aruna Kampani 2.82%, SNK Investments 1.95%, Vishal Kampani 1.36%; promoter group about 57% (June 2026)",
+    "listed": "Yes (NSE: JMFINANCIL)",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 19,
+      "amount_rs_m": 546659.65,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 3,
+      "d30_premium_25_50": 1,
+      "d30_premium_lt25": 4
+     },
+     "FY2025-26": {
+      "ipos": 27,
+      "amount_rs_m": 675324.16,
+      "d30_discount_gt50": 1,
+      "d30_discount_25_50": 1,
+      "d30_discount_lt25": 10,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 9,
+      "d180_discount_25_50": 4,
+      "d180_discount_lt25": 8,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 6
+     },
+     "FY2024-25": {
+      "ipos": 13,
+      "amount_rs_m": 255434.1,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 5,
+      "d30_premium_25_50": 2,
+      "d30_premium_lt25": 1,
+      "d180_discount_gt50": 1,
+      "d180_discount_25_50": 3,
+      "d180_discount_lt25": 1,
+      "d180_premium_gt50": 4,
+      "d180_premium_25_50": 1,
+      "d180_premium_lt25": 2
+     }
+    },
+    "short": "JM"
+   },
+   {
+    "name": "IIFL Capital Services Limited",
+    "owner": "Promoter group led by the IIFL founders; shareholding percentages not sourced in this run",
+    "listed": "Yes (formerly IIFL Securities Limited) - listing status per secondary sources, unverified",
+    "summary": {
+     "FY2024-25": {
+      "ipos": 16,
+      "amount_rs_m": 481737.17,
+      "d30_discount_lt25": 1,
+      "d30_premium_gt50": 6,
+      "d30_premium_25_50": 4,
+      "d30_premium_lt25": 5,
+      "d180_discount_25_50": 2,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 4,
+      "d180_premium_lt25": 4
+     },
+     "FY2025-26": {
+      "ipos": 29,
+      "amount_rs_m": 710091.04,
+      "d30_discount_25_50": 2,
+      "d30_discount_lt25": 9,
+      "d30_premium_gt50": 1,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 11,
+      "d180_discount_25_50": 6,
+      "d180_discount_lt25": 6,
+      "d180_premium_gt50": 5,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 8
+     },
+     "FY2026-27": {
+      "ipos": 19,
+      "amount_rs_m": 420721.21,
+      "d30_discount_lt25": 4,
+      "d30_premium_gt50": 2,
+      "d30_premium_25_50": 2,
+      "d180_premium_25_50": 1
+     }
+    },
+    "short": "IIFL"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "National Stock Exchange of India Ltd",
+    "sector": "Stock exchange / market infrastructure",
+    "listing_gain": 0.0084,
+    "d30": null,
+    "rev_growth": 0.1232,
+    "pat_growth": 0.2256,
+    "listing_date": "2026-09-24"
+   },
+   {
+    "issuer": "Hero Motors Ltd",
+    "sector": "Auto components / EV powertrain",
+    "listing_gain": -0.0226,
+    "d30": null,
+    "rev_growth": 0.1165,
+    "pat_growth": 1.4175,
+    "listing_date": "2026-09-23"
+   },
+   {
+    "issuer": "Karamtara Engineering Ltd",
+    "sector": "Transmission towers & solar structures",
+    "listing_gain": 0.2598,
+    "d30": null,
+    "rev_growth": 0.778,
+    "pat_growth": 1.2284,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Asset Reconstruction Company (India) Ltd",
+    "sector": "Asset reconstruction / financial services",
+    "listing_gain": 0.0,
+    "d30": null,
+    "rev_growth": 0.3208,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Lumino Industries Ltd",
+    "sector": "Power conductors & cables",
+    "listing_gain": 0.3415,
+    "d30": null,
+    "rev_growth": 0.4504,
+    "pat_growth": 0.8476,
+    "listing_date": "2026-09-03"
+   },
+   {
+    "issuer": "Symbiotec Pharmalab Ltd",
+    "sector": "Pharma APIs (steroids & hormones)",
+    "listing_gain": -0.0099,
+    "d30": null,
+    "rev_growth": 0.2135,
+    "pat_growth": 0.0983,
+    "listing_date": "2026-09-01"
+   },
+   {
+    "issuer": "Augmont Enterprises Ltd",
+    "sector": "Gold & silver refining / bullion",
+    "listing_gain": 0.2195,
+    "d30": null,
+    "rev_growth": 1.6971,
+    "pat_growth": 3.5847,
+    "listing_date": "2026-08-31"
+   },
+   {
+    "issuer": "Tempsens Instruments (India) Ltd",
+    "sector": "Temperature sensors & instrumentation",
+    "listing_gain": 1.1133,
+    "d30": 0.7702,
+    "rev_growth": 0.6189,
+    "pat_growth": 0.7368,
+    "listing_date": "2026-08-28"
+   },
+   {
+    "issuer": "Gaja Alternative Asset Management Ltd",
+    "sector": "Alternative asset management",
+    "listing_gain": 0.1562,
+    "d30": -0.0879,
+    "rev_growth": 0.5179,
+    "pat_growth": 0.8319,
+    "listing_date": "2026-08-26"
+   },
+   {
+    "issuer": "Horizon Industrial Parks Ltd",
+    "sector": "Industrial & warehousing parks",
+    "listing_gain": 0.0042,
+    "d30": -0.1207,
+    "rev_growth": 2.1274,
+    "pat_growth": null,
+    "listing_date": "2026-08-24"
+   },
+   {
+    "issuer": "Rentomojo Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.1942,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Manipal Payment & Identity Solutions Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": -0.0265,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Orient Cables (India) Ltd",
+    "sector": "Cables and wires",
+    "listing_gain": 0.5331,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-05"
+   },
+   {
+    "issuer": "Elevate Campuses Ltd",
+    "sector": "Student housing / real estate",
+    "listing_gain": -0.0191,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-30"
+   },
+   {
+    "issuer": "Varmora Granito Ltd",
+    "sector": "Ceramic tiles",
+    "listing_gain": 0.0473,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-29"
+   },
+   {
+    "issuer": "Kanohar Electricals Ltd",
+    "sector": "Electrical equipment",
+    "listing_gain": 0.0847,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-16"
+   },
+   {
+    "issuer": "Moneyview Ltd",
+    "sector": "Digital lending (NBFC)",
+    "listing_gain": 0.6176,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-01"
+   },
+   {
+    "issuer": "AceVector Ltd",
+    "sector": "Consumer internet",
+    "listing_gain": -0.115,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-05"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "100% ownership of IP since Mar-2024 across optics, IR engines and video processing (pp. 138, 246)",
+   "Largest supplier of thermal imaging systems to Indian government agencies Apr-24 to Mar-26; 94% of Indian thermal-imaging exports by units FY24-26 (issuer-paid F&S report, p. 246)",
+   "28,000+ systems deployed in 24 countries; ITAR-free portfolio (p. 246)",
+   "Gross margin 48.6% / 56.4% / 51.1% FY24-26 (p. 144)",
+   "Cash tax 23.3% of cumulative FY24-26 PBT; no auditor qualifications or auditor change (pp. 89, 100, 440)"
+  ],
+  "weaknesses": [
+   "Cumulative CFO -Rs 121.00 cr against PAT Rs 192.18 cr FY24-26 (p. 90)",
+   "Revenue -22.69% in FY26; Q1 FY27 revenue Rs 36.01 cr and loss Rs 17.74 cr (pp. 89, 144)",
+   "Top-10 customers 77.83% of FY26 and 98.17% of Q1 FY27 revenue (p. 24)",
+   "Purchases from related party CEAQ Singapore Rs 78.98 cr = 26.3% of FY26 expenses (p. 94)",
+   "Inventory Rs 319.63 cr at 30-Jun-2026 vs Rs 111.14 cr at 31-Mar-2025 (p. 87)"
+  ],
+  "opportunities": [
+   "India EO/IR market $522 m (CY2020) to $1.4 bn (CY2030), 10.5% CAGR - issuer-paid F&S report (p. 205)",
+   "Orders of Rs 118.15 cr received Jul-Sep 2026, incl. a Rs 51.44 cr export order deferred from FY26 (pp. 23, 250)",
+   "Platform systems grew from Rs 12.70 cr (FY24) to Rs 144.81 cr (FY26) (p. 248)",
+   "IDDM eligibility under DAP 2020 favours indigenous OEMs (p. 247)"
+  ],
+  "threats": [
+   "Tender-based, non-recurring contracts; bid-win ratio 14.29% in Q1 FY27 vs 40.91% in FY24 (p. 23)",
+   "Export orders exposed to conflicts and export approvals: foreign-government revenue Rs 267.69 cr -> Rs 12.11 cr FY25-26 (p. 251)",
+   "Singapore High Court suit by a CEAQ Singapore minority shareholder naming the company, MD and a nominee director (p. 448)",
+   "Lock-in expiries: 287 lakh pre-issue shares (50% of capital) free after six months (p. 121)"
+  ]
+ },
+ "counts": {
+  "fail": 2,
+  "watch": 3,
+  "pass": 5,
+  "open": 2
+ }
+}

@@ -9,11 +9,12 @@
       "owner_source": "secondary: trendlyne.com / choiceindia.com shareholding data",
       "summary": {
         "FY2026-27": {
-          "ipos": 16,
-          "amount_rs_m": 513059.44,
+          "ipos": 19,
+          "amount_rs_m": 546659.65,
           "d30_discount_lt25": 5,
           "d30_premium_gt50": 3,
-          "d30_premium_lt25": 2
+          "d30_premium_25_50": 1,
+          "d30_premium_lt25": 4
         },
         "FY2025-26": {
           "ipos": 27,
@@ -44,8 +45,8 @@
           "d180_premium_lt25": 2
         }
       },
-      "summary_source": "Royal Chain DRHP p. 382",
-      "as_of": "2026-09-28"
+      "summary_source": "Tonbo Imaging RHP p. 466 (FY2026-27 updated); earlier years Royal Chain DRHP p. 382",
+      "as_of": "2026-10-10"
     },
     "360 ONE WAM Limited": {
       "short": "360",
@@ -127,6 +128,51 @@
       "summary": {},
       "summary_source": "AITMC UDRHP-I p. 466. The offer document's summary table (FY25: 6 IPOs, Rs 96.2 cr; FY26: 1, Rs 202.15 cr; FY27: 1, Rs 23.01 cr) does not reproduce the per-issue table above it, so the summary is left blank here. All eight listed issues are SME issues; none is a mainboard IPO.",
       "as_of": "2026-09-30"
+    },
+    "IIFL Capital Services Limited": {
+      "short": "IIFL",
+      "sebi_role": "Merchant banker (BRLM)",
+      "listed": "Yes (formerly IIFL Securities Limited) - listing status per secondary sources, unverified",
+      "owner": "Promoter group led by the IIFL founders; shareholding percentages not sourced in this run",
+      "owner_source": "not sourced (gap)",
+      "summary": {
+        "FY2024-25": {
+          "ipos": 16,
+          "amount_rs_m": 481737.17,
+          "d30_discount_lt25": 1,
+          "d30_premium_gt50": 6,
+          "d30_premium_25_50": 4,
+          "d30_premium_lt25": 5,
+          "d180_discount_25_50": 2,
+          "d180_premium_gt50": 6,
+          "d180_premium_25_50": 4,
+          "d180_premium_lt25": 4
+        },
+        "FY2025-26": {
+          "ipos": 29,
+          "amount_rs_m": 710091.04,
+          "d30_discount_25_50": 2,
+          "d30_discount_lt25": 9,
+          "d30_premium_gt50": 1,
+          "d30_premium_25_50": 6,
+          "d30_premium_lt25": 11,
+          "d180_discount_25_50": 6,
+          "d180_discount_lt25": 6,
+          "d180_premium_gt50": 5,
+          "d180_premium_25_50": 3,
+          "d180_premium_lt25": 8
+        },
+        "FY2026-27": {
+          "ipos": 19,
+          "amount_rs_m": 420721.21,
+          "d30_discount_lt25": 4,
+          "d30_premium_gt50": 2,
+          "d30_premium_25_50": 2,
+          "d180_premium_25_50": 1
+        }
+      },
+      "summary_source": "Tonbo Imaging RHP p. 468",
+      "as_of": "2026-10-10"
     }
   },
   "issues": [
@@ -144,7 +190,8 @@
       "handled_by": [
         "JM",
         "360",
-        "MO"
+        "MO",
+        "IIFL"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -204,7 +251,8 @@
       "d90_pct": null,
       "d180_pct": null,
       "handled_by": [
-        "JM"
+        "JM",
+        "IIFL"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -234,7 +282,8 @@
       "d90_pct": null,
       "d180_pct": null,
       "handled_by": [
-        "JM"
+        "JM",
+        "IIFL"
       ],
       "listing_source": "Royal Chain DRHP pp. 381-383 (exchange data as on 28-Sep-2026)",
       "financials_rs_cr": {
@@ -533,7 +582,8 @@
       "current": null,
       "financials_rs_cr": null,
       "handled_by": [
-        "MO"
+        "MO",
+        "IIFL"
       ],
       "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
     },
@@ -551,7 +601,8 @@
       "current": null,
       "financials_rs_cr": null,
       "handled_by": [
-        "MO"
+        "MO",
+        "IIFL"
       ],
       "listing_source": "J B Ecotex DRHP pp. 403-406 (exchange data as on 28-Sep-2026)"
     },
@@ -750,6 +801,117 @@
         "KSL"
       ],
       "listing_source": "AITMC UDRHP-I p. 466 (offer-document table, exchange data; closing price changes vs issue price at day 30/90/180)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Orient Cables (India) Ltd",
+      "sector": "Cables and wires",
+      "issue_size_rs_m": 5520.0,
+      "issue_price": 272.0,
+      "listing_date": "2026-10-05",
+      "listing_open": 417.0,
+      "listing_gain_pct": 0.5331,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "JM",
+        "IIFL"
+      ],
+      "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
+      "financials_rs_cr": null,
+      "current": null,
+      "note": "JM table prints opening Rs 417, IIFL table Rs 450, both citing NSE; JM figure used"
+    },
+    {
+      "issuer": "Elevate Campuses Ltd",
+      "sector": "Student housing / real estate",
+      "issue_size_rs_m": 21000.0,
+      "issue_price": 362.0,
+      "listing_date": "2026-09-30",
+      "listing_open": 355.1,
+      "listing_gain_pct": -0.0191,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "JM",
+        "IIFL"
+      ],
+      "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Varmora Granito Ltd",
+      "sector": "Ceramic tiles",
+      "issue_size_rs_m": 7080.21,
+      "issue_price": 148.0,
+      "listing_date": "2026-09-29",
+      "listing_open": 155.0,
+      "listing_gain_pct": 0.0473,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "JM"
+      ],
+      "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Kanohar Electricals Ltd",
+      "sector": "Electrical equipment",
+      "issue_size_rs_m": 10557.4,
+      "issue_price": 632.0,
+      "listing_date": "2026-09-16",
+      "listing_open": 685.5,
+      "listing_gain_pct": 0.0847,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "IIFL"
+      ],
+      "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Moneyview Ltd",
+      "sector": "Digital lending (NBFC)",
+      "issue_size_rs_m": 10916.8,
+      "issue_price": 34.0,
+      "listing_date": "2026-10-01",
+      "listing_open": 55.0,
+      "listing_gain_pct": 0.6176,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "IIFL"
+      ],
+      "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "AceVector Ltd",
+      "sector": "Consumer internet",
+      "issue_size_rs_m": 4200.0,
+      "issue_price": 32.0,
+      "listing_date": "2026-10-05",
+      "listing_open": 28.32,
+      "listing_gain_pct": -0.115,
+      "d30_pct": null,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "IIFL"
+      ],
+      "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
       "financials_rs_cr": null,
       "current": null
     }
