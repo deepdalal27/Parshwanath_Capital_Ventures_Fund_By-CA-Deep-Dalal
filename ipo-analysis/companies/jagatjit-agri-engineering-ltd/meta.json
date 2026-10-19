@@ -1,0 +1,105 @@
+{
+  "slug": "jagatjit-agri-engineering-ltd",
+  "company": "Jagatjit Agri Engineering Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-25",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+  "sector": "Agricultural implements",
+  "brlm": "Keynote Financial Services",
+  "issue_size_cr": 349,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "files": {
+    "screening": "JAGATJIT_AGRI_ENGINEERIN_01_Screening.xlsx",
+    "anchor": "JAGATJIT_AGRI_ENGINEERIN_02_Anchor_QIB.xlsx",
+    "valuation": "JAGATJIT_AGRI_ENGINEERIN_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "JAGATJIT_AGRI_ENGINEERIN_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 39.6464,
+      "relative": 121.9202,
+      "blended": 80.7833,
+      "upside_floor": -0.4903,
+      "upside_cap": -0.4903
+    },
+    "neutral": {
+      "dcf": 64.2551,
+      "relative": 121.9202,
+      "blended": 93.0877,
+      "upside_floor": -0.4126,
+      "upside_cap": -0.4126
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -47.3% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 98.5208,
+      "relative": 121.9202,
+      "blended": 110.2205,
+      "upside_floor": -0.3045,
+      "upside_cap": -0.3045
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 7,
+    "pass": 5,
+    "open": 3
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "analysed_on": "2026-10-19",
+  "business_stage": "Scaling (first full year of the combined business)",
+  "reference_note": "Rs 158.48 = the DRHP's listed-peer average P/E (28.10x, p. 155) applied to FY26 EPS Rs 5.64 (p. 154). Illustrative only: not a price band and not proposed by the issuer. The last share issue (Oct-2025, Rs 1,547 per Rs 10 share, about Rs 33.63 adjusted for the 22:1 bonus and 2:1 split) was a payment for promoter proprietorships, not a market price (pp. 105-106).",
+  "headline": "Pro forma revenue rose 63.1% to Rs 413.97 cr in FY26 with a 13.46% EBITDA margin, but operating cash flow was 8.6% of PAT, and against an illustrative Rs 158.48 (peer-average P/E) Neutral fair value is Rs 93 (-41%), so the price band will decide the call.",
+  "red_flags": [
+    "Pro forma revenue +63.1% FY26 (Rs 253.76 cr to Rs 413.97 cr); EBITDA margin 13.46% (pp. 92, 158)",
+    "FY26 CFO Rs 2.69 cr vs PAT Rs 31.39 cr (8.6%); inventory +Rs 44.55 cr (p. 88)",
+    "Top customer 25.21%, top-10 50.04% of FY26 revenue; top-3 products 64.40% (pp. 23-24)",
+    "Offer under Reg 6(2): 75% to QIBs or the offer fails; Rs 110 cr of Rs 300 cr funds working capital (pp. 57, 124)",
+    "Promoter dealings: Rs 5.5 cr advances, plant on promoter-owned leased land, past director disqualification to Oct-2021 (pp. 95, 129, 489)",
+    "Neutral fair value Rs 93.09 vs illustrative Rs 158.48 (-41.3%); Bull Rs 110.22 (pp. 154-156; our model)"
+  ],
+  "call_basis": "No price band, so the published call is Screen only. Under the call rule (ROUTINE.md hard rule 6) at the illustrative Rs 158.48 the Neutral value (-41.3%) is more than 30% below the price and the Bull value (Rs 110.22) is also below it, so the Avoid test would apply at that price. No material issue was found.",
+  "depth": "Full",
+  "swot": {
+    "strengths": [
+      "Third-largest homegrown implement maker by FY26 revenue (issuer-paid report, p. 245)",
+      "Pro forma revenue +63.1% and units sold +56.2% in FY26 (pp. 92, 158)",
+      "Cash tax 29.3% of FY26 PBT (p. 87)",
+      "RoCE 31.10% and interest cover 5.03x in FY26 (p. 158)",
+      "Brand since the 1980s; 12 distributors and 233 dealers in 20 states (pp. 246-247)"
+    ],
+    "weaknesses": [
+      "Top-3 products 64.40% and top customer 25.21% of FY26 revenue (pp. 23-24)",
+      "FY26 CFO Rs 26.85 m vs PAT Rs 313.90 m (p. 88)",
+      "Dealers partly on letters of intent, not agreements (p. 23)",
+      "Dehlon plant at 89.68% utilisation (p. 267)",
+      "Past director disqualification; adjudication pending (p. 489)"
+    ],
+    "opportunities": [
+      "Farm equipment market 7.7% CAGR to FY30 (issuer-paid report, p. 205)",
+      "Dehlon expansion of Rs 716.64 m for in-house fabrication (p. 124)",
+      "Briquette and pellet machinery via Jagatjit Energies (p. 245)",
+      "Organised share of the market rising from about 60% (p. 221)"
+    ],
+    "threats": [
+      "Subsidy reduction or empanelment changes (p. 56)",
+      "Seasonal fourth quarter; Northern and Central states 93.99% of revenue (pp. 23, 34)",
+      "Group company Goodfield Technology has overlapping interests (p. 24)",
+      "Larger rivals such as Shaktiman, Rs 18,917 m FY25 revenue (p. 241)"
+    ]
+  }
+}

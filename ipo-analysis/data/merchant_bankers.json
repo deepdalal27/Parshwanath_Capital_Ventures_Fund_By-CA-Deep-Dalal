@@ -173,6 +173,31 @@
       },
       "summary_source": "Tonbo Imaging RHP p. 468",
       "as_of": "2026-10-10"
+    },
+    "Keynote Financial Services Limited": {
+      "short": "Keynote",
+      "sebi_role": "Merchant banker (BRLM), SEBI Reg. INM000003606",
+      "listed": "Yes (BSE/NSE: KEYFINSERV)",
+      "owner": "Promoters about 71.88%: NSS Digital Media Ltd 55.91%, Vivek Nirmal Suchanti 10.45%, Concept Production Ltd 4.34% (June 2026)",
+      "owner_source": "secondary: finology.in / indiainfoline.com shareholding pages (unverified)",
+      "summary": {
+        "FY2026-27": {
+          "ipos": 2,
+          "amount_rs_m": 5858,
+          "d30_discount_lt25": 2,
+          "d180_discount_lt25": 1
+        },
+        "FY2025-26": {
+          "ipos": 0,
+          "amount_rs_m": 0
+        },
+        "FY2024-25": {
+          "ipos": 0,
+          "amount_rs_m": 0
+        }
+      },
+      "summary_source": "Jagatjit Agri Engineering DRHP p. 511 (exchange data as on DRHP date, 25-Sep-2026)",
+      "as_of": "2026-10-19"
     }
   },
   "issues": [
@@ -912,6 +937,47 @@
         "IIFL"
       ],
       "listing_source": "Tonbo Imaging RHP pp. 466-468 (exchange data as printed, RHP dated 10-Oct-2026)",
+      "financials_rs_cr": null,
+      "current": null
+    },
+    {
+      "issuer": "Amir Chand Jagdish Kumar (Exports) Ltd",
+      "sector": "Dry fruits / agri-commodity exporter (as named; sector not stated in DRHP)",
+      "issue_size_rs_m": 4400.0,
+      "issue_price": 212.0,
+      "listing_date": "2026-04-02",
+      "listing_open": 195.0,
+      "listing_gain_pct": -0.0802,
+      "d30_pct": -0.2353,
+      "d90_pct": -0.1598,
+      "d180_pct": null,
+      "handled_by": [
+        "Keynote"
+      ],
+      "listing_source": "Jagatjit Agri Engineering DRHP p. 511 (exchange data as on DRHP date, 25-Sep-2026)",
+      "financials_rs_cr": null,
+      "current": {
+        "price": 171.35,
+        "date": "2026-08-28",
+        "vs_issue_pct": -0.1917,
+        "source": "secondary: anandrathi.com (unverified)"
+      }
+    },
+    {
+      "issuer": "CSM Technologies Ltd",
+      "sector": "Not stated in DRHP",
+      "issue_size_rs_m": 1458.0,
+      "issue_price": 113.0,
+      "listing_date": "2026-07-02",
+      "listing_open": 113.0,
+      "listing_gain_pct": 0.0,
+      "d30_pct": -0.0275,
+      "d90_pct": null,
+      "d180_pct": null,
+      "handled_by": [
+        "Keynote"
+      ],
+      "listing_source": "Jagatjit Agri Engineering DRHP p. 511 (exchange data as on DRHP date, 25-Sep-2026)",
       "financials_rs_cr": null,
       "current": null
     }

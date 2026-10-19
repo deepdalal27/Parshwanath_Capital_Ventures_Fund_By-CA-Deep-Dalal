@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T13:12Z",
+  "updated": "2026-10-19T13:36Z",
   "issuers": [
     {
       "slug": "tonbo-imaging-india-ltd",
@@ -44,6 +44,51 @@
         "blended": 515.0998,
         "upside_floor": -0.2254,
         "upside_cap": -0.2641
+      }
+    },
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-19",
+      "sector": "Agricultural implements",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 349,
+      "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": "Full",
+      "call": "Screen only",
+      "headline": "Pro forma revenue rose 63.1% to Rs 413.97 cr in FY26 with a 13.46% EBITDA margin, but operating cash flow was 8.6% of PAT, and against an illustrative Rs 158.48 (peer-average P/E) Neutral fair value is Rs 93 (-41%), so the price band will decide the call.",
+      "red_flags": [
+        "Pro forma revenue +63.1% FY26 (Rs 253.76 cr to Rs 413.97 cr); EBITDA margin 13.46% (pp. 92, 158)",
+        "FY26 CFO Rs 2.69 cr vs PAT Rs 31.39 cr (8.6%); inventory +Rs 44.55 cr (p. 88)",
+        "Top customer 25.21%, top-10 50.04% of FY26 revenue; top-3 products 64.40% (pp. 23-24)",
+        "Offer under Reg 6(2): 75% to QIBs or the offer fails; Rs 110 cr of Rs 300 cr funds working capital (pp. 57, 124)",
+        "Promoter dealings: Rs 5.5 cr advances, plant on promoter-owned leased land, past director disqualification to Oct-2021 (pp. 95, 129, 489)",
+        "Neutral fair value Rs 93.09 vs illustrative Rs 158.48 (-41.3%); Bull Rs 110.22 (pp. 154-156; our model)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 7,
+        "pass": 5,
+        "open": 3
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 64.2551,
+        "relative": 121.9202,
+        "blended": 93.0877,
+        "upside_floor": -0.4126,
+        "upside_cap": -0.4126
       }
     },
     {
