@@ -138,28 +138,36 @@
         ["Subscription closes", m.close_date && date(m.close_date)], ["Listing", m.listing_date && date(m.listing_date)],
         ["Stage of business", m.business_stage], ["Report depth", m.depth], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]];
       $("facts").innerHTML = kv.map(function (p) { return "<dt>" + esc(p[0]) + "</dt><dd>" + (p[1] == null || p[1] === "" ? "-" : esc(p[1])) + "</dd>"; }).join("");
-      getJSON(base + "charts.json").then(function (ch) {
-        var draw = function () { window.IPODashboard.render($("dash"), ch, m); };
-        draw();
+      var files = m.files || {}, dl = [];
+      [["pdf", "Full report (.pdf)"], ["screening", "Screening checklist (.xlsx)"], ["anchor", "Anchor & QIB economics (.xlsx)"], ["valuation", "Comps & valuation model (.xlsx)"],
+        ["note", "Report text (.md)"]].forEach(function (f) {
+        if (files[f[0]]) dl.push('<a class="btn" href="' + base + encodeURIComponent(files[f[0]]) + '" download>' + f[1] + "</a>");
+      });
+      if (safeUrl(m.doc_url)) dl.push('<a class="btn btn--ghost" href="' + safeUrl(m.doc_url) + '" target="_blank" rel="noopener">Offer document (source)</a>');
+      $("downloads").innerHTML = dl.join("") || '<span class="muted">No files yet.</span>';
+      var toHtml = function (t) {
+        if (window.marked && window.DOMPurify) return window.DOMPurify.sanitize(window.marked.parse(t));
+        return "<pre style=\"white-space:pre-wrap\">" + esc(t) + "</pre>";
+      };
+      var notePromise = files.note
+        ? fetch(base + files.note + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.ok ? r.text() : ""; }).catch(function () { return ""; })
+        : Promise.resolve("");
+      Promise.all([getJSON(base + "charts.json").catch(function () { return null; }), notePromise]).then(function (r) {
+        var ch = r[0], noteMd = r[1];
+        var showFullNote = function (structured) {
+          // a note written in the nine-part order is shown inside the sections; older notes appear in full below
+          $("d-note").style.display = structured ? "none" : "";
+          $("note").innerHTML = noteMd ? toHtml(noteMd) : '<p class="muted">Note not yet written.</p>';
+        };
+        if (!ch) { $("dash").innerHTML = '<p class="muted">Dashboard not available for this issuer.</p>'; showFullNote(false); return; }
+        var draw = function () { return window.IPODashboard.render($("dash"), ch, m, { note: noteMd, md: toHtml }); };
+        showFullNote(draw());
         var w = window.innerWidth, t;
         window.addEventListener("resize", function () {
           if (Math.abs(window.innerWidth - w) < 40) return;
           w = window.innerWidth; clearTimeout(t); t = setTimeout(draw, 200);
         });
-      }).catch(function () { $("dash").innerHTML = '<p class="muted">Dashboard not available for this issuer.</p>'; });
-      var files = m.files || {}, dl = [];
-      [["pdf", "Full report (.pdf)"], ["screening", "Screening checklist (.xlsx)"], ["anchor", "Anchor & QIB economics (.xlsx)"], ["valuation", "Comps & valuation model (.xlsx)"],
-        ["note", "Due-diligence note (.md)"]].forEach(function (f) {
-        if (files[f[0]]) dl.push('<a class="btn" href="' + base + encodeURIComponent(files[f[0]]) + '" download>' + f[1] + "</a>");
       });
-      if (safeUrl(m.doc_url)) dl.push('<a class="btn btn--ghost" href="' + safeUrl(m.doc_url) + '" target="_blank" rel="noopener">Offer document (source)</a>');
-      $("downloads").innerHTML = dl.join("") || '<span class="muted">No files yet.</span>';
-      if (files.note) {
-        fetch(base + files.note + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.text(); }).then(function (t) {
-          if (window.marked && window.DOMPurify) $("note").innerHTML = window.DOMPurify.sanitize(window.marked.parse(t));
-          else { var pre = document.createElement("pre"); pre.style.whiteSpace = "pre-wrap"; pre.textContent = t; $("note").innerHTML = ""; $("note").appendChild(pre); }
-        });
-      } else { $("note").innerHTML = '<p class="muted">Note not yet written.</p>'; }
     }).catch(function () { $("title").textContent = "Issuer not found"; });
   }
 

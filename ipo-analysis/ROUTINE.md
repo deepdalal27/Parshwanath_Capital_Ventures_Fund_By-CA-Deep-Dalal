@@ -90,7 +90,7 @@ Take at most `max_per_run` filings (currently **1**) from `pending`, in this pri
     (`Subscribe` / `Avoid` / `Neutral`, or `Screen only` at DRHP stage when there is no price band),
     exit_route, `reference_note` (the price used for upside when no band exists, with its basis), a one-sentence neutral `headline`, and `red_flags`. Despite its name, `red_flags` is the list of **key
     observations**: at most six, balanced between strengths and concerns, each carrying its number.
-  - `note.md`: the due-diligence note, in the report spine below.
+  - `note.md`: the report, in the nine-part **Report structure** below. It applies whether or not the skill is loaded and overrides the skill's own spine.
   - **Merchant banker work:** before writing the merchant-banker section, open `data/merchant_bankers.json`.
     - If a lead manager is not there, add it: `owner` (promoters / key shareholders, with source), `listed` status,
       and the year-wise summary table from the offer document's "Price information of past issues handled by the BRLMs".
@@ -159,29 +159,37 @@ P/E, EV/EBITDA and P/B, no EV/Sales. Peers matched on business model, disclosed 
 Use of proceeds funds capex in Neutral and Bull only. Report the divergence between DCF and relative when above 25%.
 Run the reverse DCF and say in plain words what the price asks for.
 
-**Note spine** (`note.md`), in this order:
-1. Basis and staleness banner.
-2. Verdict, stated neutrally.
-3. Snapshot table.
-4. **Business model:** what is sold, to whom, how it is priced, how the company earns its margin, and what it owns vs outsources.
-5. **Industry analysis:** market size and growth, structure and fragmentation, the competitors named and unnamed,
-   regulation and cyclicality. State who commissioned the industry report.
-6. **Moat:** what protects returns, such as scale, cost, switching costs, brands, licences or network. Say how durable each
-   one is and what evidence supports it. Say plainly when there is none.
-7. **Revenue and profit growth drivers:** volume vs price / mix for revenue; gross margin, operating leverage and
-   one-offs for profit. Quantify each from the document.
-8. **SWOT**, as a table of strengths, weaknesses, opportunities and threats, each item with a figure and page cite.
-9. The offer and objects.
-10. Financials and key findings: positives and points to monitor side by side.
-11. Valuation and reverse DCF.
-12. **Merchant banker(s):**
-    - name, owner, issues handled (year-wise summary);
-    - for each recent issue: listing premium/discount, 30/90/180-day performance, current price, sector, and revenue and
-      PAT growth (amount and %) over 3 years or since inception, with the source for each;
-    - a neutral read of the track record.
-13. *What would change our view*: measurable conditions verifiable against the RHP.
-14. Risks.
-15. Data gaps.
-16. Appendix: diligence checks (the forensic scorecard; `FAIL` only for material issues, per hard rule 6).
-17. Verification.
-18. `## Disclaimer and disclosures`, followed by the `short` text from `data/disclaimer.json`.
+**Report structure (`note.md`)** - the fund manager's nine-part order (19-Oct-2026). The website and the PDF place each
+part next to its charts by reading these exact `##` headings, so use them word for word:
+
+- `# <Company>: <stage> note`, then a `>` basis banner: document and date, audited-to date and staleness, price band, dates,
+  sources outside the offer document, holding period assumed, grey market premium not used.
+- `## 1. Business of the company` - what is sold, to whom, how it is priced, how it earns its margin, what it owns vs
+  outsources, revenue mix; and the **stage of the business** (start-up / early growth / scaling / mature / turnaround /
+  declining) with the evidence and what it means for valuation.
+- `## 2. Industry outlook` - market size and growth, structure, named and unnamed competitors, regulation, cyclicality,
+  peers' recent growth. Say who commissioned the industry report.
+- `## 3. Moat and SWOT analysis` - the moat (scale, cost, switching costs, brand, licences, technology, network), how
+  durable and on what evidence; then `### SWOT` as a table, each item with a figure and page cite.
+- `## 4. Management analysis and governance` - promoters and their record, board and independence, KMP, pay against
+  profit, shareholding before and after, who sells and at what cost, related parties, litigation, auditor, banking;
+  end with a short governance read.
+- `## 5. Historical financials and ratios` - three years and the stub: revenue, growth, margins, PAT, cash flow,
+  working capital, debt, net worth, ROE, ROCE; the ratios at the issue price (market cap, P/E, P/B, EV/EBITDA).
+- `## 6. Future outlook and projections` - order book or pipeline, capacity, new products, what management says,
+  and Bear / Neutral / Bull projections with their drivers; what is contracted and what has to go right.
+- `## 7. Valuation: DCF and peer comparison (P2P)` - the peer table (issuer at the upper band against listed peers and
+  the median), the DCF inputs, WACC build and five-year projection, the scenario table (DCF, relative, fair value,
+  upside), sensitivity, why the methods differ, and the reverse DCF in plain words.
+- `## 8. Areas to watch and growth drivers` - the growth drivers to track and the **points to monitor** (normal-course
+  items, each with its number), plus *what would change our view* as measurable conditions.
+- `## 9. Conclusion` - the call under the rule in hard rule 6 (say which limb applied), the price it was judged at,
+  the fair value range, and the one or two things that decide it.
+- `## Appendix A: Offer, anchor book and lock-ins`, `## Appendix B: Merchant bankers` (track record as below),
+  `## Appendix C: Diligence checks` (the scorecard; `FAIL` only for material issues), `## Appendix D: Data gaps and
+  verification`.
+- `## Disclaimer and disclosures`, followed by the `short` text from `data/disclaimer.json`.
+
+Merchant banker appendix: name, owner, issues handled (year-wise summary); for each recent issue the listing premium or
+discount, 30/90/180-day performance, current price, sector, and revenue and PAT growth over three years with sources;
+a neutral read of the track record.
