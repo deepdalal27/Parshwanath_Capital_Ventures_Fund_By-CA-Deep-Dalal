@@ -81,7 +81,6 @@
     .then(function (r) {
       var m = r[0], ch = r[1], note = r[2], disc = r[3], root = document.getElementById("rp");
       document.title = (m.company || slug) + " - IPO Analysis Report";
-      var c = ch.counts || {};
       root.innerHTML =
         '<section class="cover">' +
         '<div class="cover__brand"><img src="assets/logo-128.png" alt=""><div><div class="n">' + esc(disc.entity) + '</div><div class="s">' + esc(disc.registration) +
@@ -90,24 +89,24 @@
         "<h1>" + esc(m.company || slug) + "</h1>" +
         '<div class="meta">' + esc(m.platform || "") + " · " + esc(m.sector || "") + " · filed " + esc(m.filed_on || "–") + " · lead manager(s): " + esc(m.brlm || "–") +
         " · issue size Rs " + fmt(m.issue_size_cr, "int") + " cr · price band: " + esc(m.price_band || "not announced") + " · analysed " + esc(m.analysed_on || "") + "</div>" +
-        '<div class="decision"><div class="decision__call"><span class="lbl">Call</span><span class="val">' + esc(m.call || "Pending") + '</span><span class="lbl">Checks</span><span class="val sm">' +
-        (c.fail || 0) + " fail · " + (c.watch || 0) + " watch · " + (c.pass || 0) + " pass · " + (c.open || 0) + " open</span></div>" +
+        '<div class="decision"><div class="decision__call"><span class="lbl">Call</span><span class="val">' + esc(m.call || "Pending") + '</span><span class="lbl">Business stage</span><span class="val sm">' + esc(m.business_stage || "–") + "</span></div>" +
         '<div class="decision__head">' + esc(m.headline || "") + "</div></div>" +
         '<div class="tiles">' + (ch.kpis || []).map(function (k) {
           return '<div class="tile"><div class="tile__lbl">' + esc(k.label) + '</div><div class="tile__val">' + fmt(k.value, k.fmt) + "</div>" +
             (k.sub ? '<div class="tile__sub">' + esc(k.sub) + (k.subval != null ? ": <b>" + fmt(k.subval, k.subfmt) + "</b>" : "") + "</div>" : "") + "</div>";
         }).join("") + "</div>" +
-        '<div class="cover__focus viz-card"><div class="viz-title">Where to focus</div><ol class="focus-list">' + (ch.focus || []).slice(0, 6).map(function (f) {
-          return "<li>" + window.IPODashboard.chip(f.level) + " <b>" + esc(f.title) + "</b>" + (f.page ? ' <span class="pg">' + esc(f.page) + "</span>" : "") + "<div>" + esc(f.detail) + "</div></li>";
+        '<div class="cover__focus viz-card"><div class="viz-title">Report structure</div><ol class="focus-list">' + window.IPODashboard.parts.map(function (p) {
+          return "<li><b>" + esc(p[1]) + "</b></li>";
         }).join("") + "</ol></div>" +
         '<div class="cover__foot">' + esc(disc.short) + "</div></section>" +
         '<div id="dash"></div>' +
-        '<section class="sechead"><h2 style="font:400 24px var(--font-display);margin:0 0 6px">Due-diligence note</h2></section><article class="note" id="note"></article>' +
+        '<section class="sechead"><h2 style="font:400 24px var(--font-display);margin:0 0 6px">Full report text</h2></section><article class="note" id="note"></article>' +
         '<section class="disc"><h2>' + esc(disc.title) + "</h2>" + (disc.paragraphs || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") + "</section>";
-      window.IPODashboard.render(document.getElementById("dash"), ch, m);
-      window.matchMedia && window.matchMedia("print");
+      var toHtml = function (t) { return window.DOMPurify.sanitize(window.marked.parse(t)); };
+      var structured = window.IPODashboard.render(document.getElementById("dash"), ch, m, { note: note, md: toHtml });
       var noteEl = document.getElementById("note");
-      noteEl.innerHTML = note ? window.DOMPurify.sanitize(window.marked.parse(note)) : "<p>Note not yet written.</p>";
+      if (structured) { noteEl.parentNode.removeChild(noteEl.previousSibling); noteEl.parentNode.removeChild(noteEl); }
+      else noteEl.innerHTML = note ? toHtml(note) : "<p>Note not yet written.</p>";
       // the note repeats the disclaimer short-form at its end; the full version follows on its own page
       window.REPORT_READY = true;
     })

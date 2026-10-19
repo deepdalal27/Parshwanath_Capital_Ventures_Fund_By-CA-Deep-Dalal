@@ -48,60 +48,26 @@ Read `data/opening_calendar.json`. Use the enabled `sources` to list every IPO, 
   read (IST). It is a fact, not a signal, and it never moves fair value.
 
 ### Mainboard: full report
-`note.md`, in this order. Every number carries an RHP page cite.
-1. **Banner**: RHP date, audited-to date and staleness in days; open / close / allotment / listing dates; price band,
-   lot size and minimum application amount; issue size split fresh vs OFS; exchanges.
-2. **Verdict**, stated neutrally: `Subscribe` / `Neutral` / `Avoid` under the call rule in `ROUTINE.md` hard rule 6 (say which limb applied), the price it was judged at (upper band), and what decides it.
-3. **Snapshot table**: revenue, EBITDA, PAT, margins, ROE, ROCE, net debt for 3 years and the stub; market cap and
-   P/E, EV/EBITDA, P/B at the upper band, post-issue.
-4. **Business model**: what is sold, to whom, how it is priced, how it earns its margin, what it owns vs outsources,
-   revenue mix by product, customer type and geography.
-5. **Stage of the business**: classify as *start-up, early growth, scaling, mature, turnaround* or *declining*, and show
-   the evidence: revenue CAGR, margin trend, capex vs depreciation, free cash flow sign, reinvestment rate, market share,
-   capacity utilisation. Say what the stage means for the valuation method and the risk.
-6. **Industry analysis**: market size and growth, structure and fragmentation, named and unnamed competitors, regulation,
-   cyclicality, entry barriers. Say who commissioned the industry report.
-7. **Future prospects**: order book or pipeline, capacity being added and when (with what the proceeds fund), new products
-   and markets, what management states in the RHP, and the 3-year path in Bear / Neutral / Bull with the drivers quantified.
-   Say what has to go right and what is already contracted.
-8. **Peer comparison (P2P)**: a table of listed peers from the RHP's "Basis for Offer Price", plus our own if the RHP list
-   is thin (mark them "added by us"). Columns: CMP and date, market cap, revenue, revenue 3-year CAGR, EBITDA margin,
-   PAT margin, ROE, ROCE, net debt/equity, P/E, EV/EBITDA, P/B. Put the issuer at the upper band on the same basis on the
-   last row, then the peer median. Say in plain words whether the price is at a premium or a discount, and whether the
-   growth and returns justify it. Peer data goes into `facts.valuation.peers`.
-9. **Financials and key findings**: positives and concerns side by side.
-10. **DCF valuation**: WACC build (risk-free, beta and its source, ERP, size and company-specific premia, cost of debt,
-    weights), 5-year free cash flow projection per scenario, terminal growth 4.50%, terminal value as a share of EV,
-    per-share value Bear / Neutral / Bull, a WACC x terminal-growth sensitivity, then the relative valuation and the blend
-    (50:50, or 70:30 without listed peers; through-cycle Neutral case per hard rule 6), and the **reverse DCF**: what the upper band asks the business to deliver.
-    Upside against the upper band as a percentage only.
-11. **Management and governance**: promoters' background and track record; board size and independence; key managerial
-    personnel and tenure; remuneration against PAT; promoter holding pre and post issue; who sells in the OFS and their
-    WACA vs the price; pledges; related-party transactions in full; group companies and conflicts; litigation and
-    regulatory actions against the company, promoters and directors; auditor (tenure, changes, qualifications, CARO,
-    audit trail); monitoring agency. Finish with a governance read: what gives comfort and what needs watching.
-12. **SWOT**: table, each item with a figure and page cite.
-13. **Moat**: what protects returns (scale, cost, switching costs, brand, licences, network), how durable, what evidence.
-    Say plainly when there is none.
-14. **Offer, objects and anchor book**: objects arithmetic, anchor investors, MF share, quality of the book.
-15. **Points to monitor**: the normal-course items an investor should track after listing, each with its number (concentration, working capital, related parties, litigation), stated once and in proportion.
-16. **Merchant banker(s)**: as in `ROUTINE.md` (track record of past issues, from the RHP).
-17. **What would change our view**, 18. **Risks**, 19. **Data gaps**, 20. **Appendix: diligence checks** (the ten checks in
-`ROUTINE.md`; `FAIL` only for material issues), 21. **Verification**,
-22. `## Disclaimer and disclosures` followed by the `short` text from `data/disclaimer.json`.
+Write `note.md` in the nine-part structure in `ROUTINE.md` ("Report structure"), with its exact headings. On opening day
+also cover, inside those parts:
+- Basis banner: RHP date, audited-to date and staleness; open / close / allotment / listing dates; price band, lot size
+  and minimum application; issue size split fresh vs OFS; exchanges.
+- Part 5: the ratios at the upper band, post-issue.
+- Part 7: peers from the RHP's "Basis for Offer Price" plus our own if the list is thin (marked "added by us"); peer
+  data goes into `facts.valuation.peers`; upside against the upper band as a percentage only.
+- Part 9: the call judged at the upper band.
+- Appendix A: the anchor book (investors, amount, MF share, lock-in, source) and subscription at the time of writing.
+Every number carries an RHP page cite.
 
 ### SME: snapshot report
-Two pages, same rules on sourcing and neutrality. `note.md` sections: Banner; Verdict; Snapshot table; Business model and
-stage of the business (one paragraph each); Industry in brief; Future prospects in brief; Peer comparison (P2P) table;
-Valuation (DCF and relative, Neutral case, plus reverse DCF); Management and governance (promoters, board, RPTs,
-litigation, auditor); SWOT; Moat (one line); Points to monitor (normal-course items, in proportion; any material issue stated plainly); Merchant banker
-track record (summary table); Risks; Data gaps; Disclaimer. Set `meta.depth` to `"Snapshot"`.
-`facts.json` still needs the valuation inputs, drivers and peers so the model and charts build.
+The same nine parts and headings, each kept short (about two pages in all), with the same rules on sourcing and
+neutrality. Set `meta.depth` to `"Snapshot"`. `facts.json` still needs the valuation inputs, drivers and peers so the
+model and charts build.
 
 ### meta.json additions
 On top of the fields in `toolkit/FACTS_SCHEMA.md`: `stage` = `"RHP"`, `price_band` (e.g. `"Rs 285-300"`),
 `open_date`, `close_date`, `allotment_date`, `listing_date`, `lot_size`, `exchange`, `depth` (`"Full"` or `"Snapshot"`),
-`business_stage` (the classification from section 5), `anchor` (`{ "amount_cr": , "investors": , "mf_share": , "source": }`),
+`business_stage` (the classification in part 1), `anchor` (`{ "amount_cr": , "investors": , "mf_share": , "source": }`),
 and `swot`. The call is judged at the upper band; `Screen only` is not used on opening day.
 
 ## 3. Build, verify, check
