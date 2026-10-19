@@ -78,7 +78,8 @@
           '<div class="small muted">' + esc(r.sector || "") + "</div>" +
           (r.headline ? '<div class="small">' + esc(r.headline) + "</div>" : "") +
           (flags ? '<ul class="flags">' + flags + "</ul>" : "") + "</td>" +
-          "<td>" + esc(r.platform || "-") + '<div class="small muted">' + esc(r.stage || "") + "</div></td>" +
+          "<td>" + esc(r.platform || "-") + '<div class="small muted">' + esc(r.stage || "") + (r.depth === "Snapshot" ? " · snapshot" : "") + "</div>" +
+          (r.open_date ? '<div class="small muted">Open ' + date(r.open_date) + (r.close_date ? " - " + date(r.close_date) : "") + "</div>" : "") + "</td>" +
           '<td class="num">' + date(r.filed_on) + "</td>" +
           '<td class="num hide-sm">' + rs(r.issue_size_cr) + "</td>" +
           '<td class="hide-sm">' + checks(r.counts) + (r.focus_top && r.focus_top.length ? '<div class="small muted">Focus: ' + esc(r.focus_top.join("; ")) + "</div>" : "") + "</td>" +
@@ -133,7 +134,9 @@
       $("call").innerHTML = callBadge(m.call);
       var kv = [["Platform", m.platform], ["Stage", m.stage], ["Filed", date(m.filed_on)], ["Analysed", date(m.analysed_on)],
         ["Sector", m.sector], ["Lead manager(s)", m.brlm], ["Issue size (Rs cr)", rs(m.issue_size_cr)],
-        ["Price band", m.price_band || "Not announced"], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]];
+        ["Price band", m.price_band || "Not announced"], ["Lot size", m.lot_size], ["Subscription opens", m.open_date && date(m.open_date)],
+        ["Subscription closes", m.close_date && date(m.close_date)], ["Listing", m.listing_date && date(m.listing_date)],
+        ["Stage of business", m.business_stage], ["Report depth", m.depth], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]];
       $("facts").innerHTML = kv.map(function (p) { return "<dt>" + esc(p[0]) + "</dt><dd>" + (p[1] == null || p[1] === "" ? "-" : esc(p[1])) + "</dd>"; }).join("");
       getJSON(base + "charts.json").then(function (ch) {
         var draw = function () { window.IPODashboard.render($("dash"), ch, m); };
