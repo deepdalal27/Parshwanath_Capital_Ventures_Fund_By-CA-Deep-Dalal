@@ -39,6 +39,11 @@
     });
     return out;
   }
+  function dropSub(md, title) {          // remove one "### title" subsection when a chart or panel replaces it
+    if (!md) return md;
+    var re = new RegExp("^### " + title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "[\\s\\S]*?(?=^### |(?![\\s\\S]))", "m");
+    return md.replace(re, "");
+  }
   function prose(parent, md, toHtml) {
     if (!md || !toHtml) return;
     var a = document.createElement("article"); a.className = "note note--sec"; a.innerHTML = toHtml(md); parent.appendChild(a);
@@ -82,7 +87,7 @@
     if (P(3) || sw) {
       var s3 = open(3);
       var moat = P(3);
-      if (moat && sw) moat = moat.replace(/^### SWOT[\s\S]*?(?=^### |(?![\s\S]))/m, "");   // the quadrant below replaces the SWOT table
+      if (sw) moat = dropSub(moat, "SWOT");   // the quadrant below replaces the SWOT table
       prose(s3, moat, toHtml);
       if (sw) {
         var q = document.createElement("div"); q.className = "swot";
@@ -98,7 +103,24 @@
 
     /* ---------- 5: historical financials and ratios */
     var s5 = open(5, "Restated figures, Rs crore. Hover a mark for its value; open \"Data table\" under any chart for the numbers.");
-    prose(s5, P(5), toHtml);
+    var eq = ch.earnings_quality;
+    prose(s5, eq ? dropSub(P(5), "Is the reported P/E right?") : P(5), toHtml);
+    if (eq) {
+      var ec = card(s5, "wide"), yy = eq.years || [];
+      ec.innerHTML = '<div class="viz-title">Is the reported P/E right? Earnings quality at Rs ' + fmt(eq.price) + "</div>" +
+        '<p class="note-s"><b>' + esc(eq.verdict) + "</b></p>" +
+        '<table class="mini"><thead><tr><th>Basis</th><th>PAT (Rs cr)</th><th>EPS (Rs)</th><th>P/E</th></tr></thead><tbody>' +
+        (eq.rows || []).map(function (r) { return "<tr><td>" + esc(r.basis) + "</td><td>" + fmt(r.pat) + "</td><td>" + fmt(r.eps) + "</td><td><b>" + (r.pe != null ? fmt(r.pe, "x") : "n.m.") + "</b></td></tr>"; }).join("") +
+        "</tbody></table>" +
+        '<div class="viz-title" style="margin-top:12px">Items found (pre-tax, Rs crore; negative reduces profit)</div><div class="tbl-wrap"><table class="mini"><thead><tr><th>Item and reason</th>' +
+        yy.map(function (y) { return "<th>" + esc(y) + "</th>"; }).join("") + "<th>In adjusted P/E</th><th>Confidence</th><th>" + esc(yy[yy.length - 1] || "") + " P/E if applied</th><th>Page</th></tr></thead><tbody>" +
+        (eq.adjustments || []).map(function (a) {
+          return "<tr><td><b>" + esc(a.item) + "</b>" + (a.reason ? "<br>" + esc(a.reason) : "") + "</td>" + (a.pre_tax || []).map(function (x) { return "<td>" + fmt(x) + "</td>"; }).join("") +
+            "<td>" + (a.include ? chip("WATCH").replace("Watch", "Yes") : "No (information)") + "</td><td>" + esc(a.confidence || "") + "</td><td>" + (a.pe_if_applied != null ? fmt(a.pe_if_applied, "x") : "n.m.") + "</td><td>" + esc(a.page || "") + "</td></tr>";
+        }).join("") + "</tbody></table></div>" +
+        ((eq.checked || []).length ? '<div class="viz-title" style="margin-top:12px">Also checked, no adjustment needed</div><ul class="focus-list">' +
+          eq.checked.map(function (c) { return "<li>" + chip("PASS") + " " + esc(c) + "</li>"; }).join("") + "</ul>" : "");
+    }
     var g5 = grid(s5);
     K.columns(card(g5), { title: "Revenue from operations", subtitle: "Rs crore", categories: yrs, series: [{ name: "Revenue", values: h.revenue }], fmt: "int", labelAll: true, width: W });
     K.columns(card(g5), { title: "EBITDA and PAT", subtitle: "Rs crore", categories: yrs, series: [{ name: "EBITDA", values: h.ebitda }, { name: "PAT", values: h.pat }], fmt: "int", labelLast: true, width: W });

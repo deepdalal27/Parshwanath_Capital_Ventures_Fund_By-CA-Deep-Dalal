@@ -58,6 +58,23 @@ dates as `"YYYY-MM-DD"`.
 
 Optional valuation overrides (house policy, defaults apply if absent): `tax rf beta erp size csp kd dw g w_dcf w_pe w_eve w_pb rel_disc capex_y1`.
 
+## facts.json: earnings_quality (optional, expected on every report)
+
+```jsonc
+"earnings_quality": {
+  "tax": 0.2517,                     // optional; defaults to the valuation tax rate
+  "adjustments": [                   // pre-tax Rs crore by year [FY-3, FY-2, FY-1]; negative reduces profit
+    { "item": "Warranty provision written back to profit", "short": "warranty write-back",
+      "pre_tax": [0, 0, -18.84], "include": true, "confidence": "High|Medium|Low",
+      "reason": "Why it moves reported profit away from recurring earnings, with the figure", "page": "pp. 373, 433" }
+  ],
+  "checked": ["Items tested that needed no adjustment, each with its page"]
+}
+```
+`build_charts.py` (via `earnings.py`) restates PAT, EPS and P/E at the reference price for the latest year, step by step
+for each included item, and on the three-year average, reported and adjusted. Items with `"include": false` are shown
+with their standalone effect but stay out of the adjusted P/E.
+
 ## meta.json
 
 ```json

@@ -52,7 +52,8 @@ Write `note.md` in the nine-part structure in `ROUTINE.md` ("Report structure"),
 also cover, inside those parts:
 - Basis banner: RHP date, audited-to date and staleness; open / close / allotment / listing dates; price band, lot size
   and minimum application; issue size split fresh vs OFS; exchanges.
-- Part 5: the ratios at the upper band, post-issue.
+- Part 5: the ratios at the upper band, post-issue, and the earnings-quality test (`### Is the reported P/E right?`) with the
+  adjusted P/E and reason flags (`ROUTINE.md`, "Earnings quality").
 - Part 7: peers from the RHP's "Basis for Offer Price" plus our own if the list is thin (marked "added by us"); peer
   data goes into `facts.valuation.peers`; upside against the upper band as a percentage only.
 - Part 9: the call judged at the upper band.

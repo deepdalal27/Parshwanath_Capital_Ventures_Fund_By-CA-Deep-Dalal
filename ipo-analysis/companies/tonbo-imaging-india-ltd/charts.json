@@ -1,7 +1,7 @@
 {
  "slug": "tonbo-imaging-india-ltd",
  "company": "Tonbo Imaging India Limited",
- "generated": "2026-10-19T13:12Z",
+ "generated": "2026-10-20T11:32Z",
  "kpis": [
   {
    "label": "Revenue FY26",
@@ -45,6 +45,14 @@
    "fmt": "x",
    "sub": "peer median",
    "subval": 85.6078,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 247.5,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 78.81,
    "subfmt": "x"
   },
   {
@@ -903,6 +911,168 @@
    "Export orders exposed to conflicts and export approvals: foreign-government revenue Rs 267.69 cr -> Rs 12.11 cr FY25-26 (p. 251)",
    "Singapore High Court suit by a CEAQ Singapore minority shareholder naming the company, MD and a nominee director (p. 448)",
    "Lock-in expiries: 287 lakh pre-issue shares (50% of capital) free after six months (p. 121)"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "price": 700.0,
+  "shares": 5.7282,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY26",
+    "pat": 50.88,
+    "eps": 8.8824,
+    "pe": 78.81
+   },
+   {
+    "basis": "FY26 after: warranty write-back",
+    "pat": 36.782,
+    "eps": 6.4212,
+    "pe": 109.01
+   },
+   {
+    "basis": "FY26 after: capitalised development",
+    "pat": 16.2008,
+    "eps": 2.8283,
+    "pe": 247.5
+   },
+   {
+    "basis": "FY24-FY26 average, reported",
+    "pat": 64.06,
+    "eps": 11.1833,
+    "pe": 62.59
+   },
+   {
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 53.0206,
+    "eps": 9.2561,
+    "pe": 75.63
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Warranty provision written back to profit",
+    "short": "warranty write-back",
+    "pre_tax": [
+     0.0,
+     0.0,
+     -18.84
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 373, 433",
+    "reason": "FY26 other expenses include a Rs 18.84 cr write-back of warranty provisions 'of earlier years'; FY24 and FY25 carried charges of Rs 20.82 cr and Rs 8.15 cr, so the release flatters FY26 alone (a further Rs 5.98 cr was written back in Q1 FY27).",
+    "post_tax": [
+     0.0,
+     0.0,
+     -14.098
+    ],
+    "pe_if_applied": 109.01
+   },
+   {
+    "item": "Development spending capitalised instead of expensed (net of software amortisation)",
+    "short": "capitalised development",
+    "pre_tax": [
+     2.437,
+     -0.351,
+     -27.504
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 342, 351-352",
+    "reason": "Additions to software and intangible CWIP rose to Rs 34.17 cr in FY26 from Rs 5.06 cr (FY25) and Rs 1.40 cr (FY24, excl. the IP purchase); the policy capitalises R&D staff costs and consultancy. Allowed under Ind AS 38 when its tests are met; shown expensed, less software amortisation of Rs 6.67 cr. The RHP does not split purchased licences from in-house development.",
+    "post_tax": [
+     1.8236,
+     -0.2627,
+     -20.5812
+    ],
+    "pe_if_applied": 132.34
+   },
+   {
+    "item": "Amortisation of the IP bought from CEAQ Singapore (non-cash)",
+    "short": "IP amortisation add-back",
+    "pre_tax": [
+     7.608,
+     18.319,
+     18.319
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 352",
+    "reason": "Raises earnings: the Rs 183.19 cr IP purchase is amortised over 10 years (Rs 18.32 cr a year) and replaced royalty payments. Shown for balance; not in the adjusted P/E.",
+    "post_tax": [
+     5.6931,
+     13.7081,
+     13.7081
+    ],
+    "pe_if_applied": 62.08
+   },
+   {
+    "item": "Executive pay at the contracted rates from Dec-2025",
+    "short": "contracted pay",
+    "pre_tax": [
+     0.0,
+     0.0,
+     -2.449
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "pp. 304-305",
+    "reason": "Contracted pay of about Rs 7.66 cr a year against Rs 5.21 cr drawn in FY26: a run-rate item for FY27, not an accounting choice.",
+    "post_tax": [
+     0.0,
+     0.0,
+     -1.8326
+    ],
+    "pe_if_applied": 81.75
+   },
+   {
+    "item": "Other income (mainly interest on term deposits)",
+    "short": "other income",
+    "pre_tax": [
+     -3.707,
+     -5.31,
+     -7.291
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 89",
+    "reason": "Recurring while the deposits are held, but not from operations; excluding it gives the operating P/E.",
+    "post_tax": [
+     -2.7739,
+     -3.9735,
+     -5.4559
+    ],
+    "pe_if_applied": 88.27
+   }
+  ],
+  "adjusted_pat": [
+   70.3666,
+   72.4943,
+   16.2008
+  ],
+  "pe_reported": 78.81,
+  "pe_adjusted": 247.5,
+  "pat_change": -0.6816,
+  "material": true,
+  "verdict": "Reported FY26 P/E of 78.8x is flattered by the items flagged: adjusted P/E 247.5x (PAT -68.2%). On the FY24-FY26 average, which smooths one-year items, the P/E is 62.6x reported and 75.6x adjusted.",
+  "flags": [
+   "FY26 other expenses include a Rs 18.84 cr write-back of warranty provisions 'of earlier years'; FY24 and FY25 carried charges of Rs 20.82 cr and Rs 8.15 cr, so the release flatters FY26 alone (a further Rs 5.98 cr was written back in Q1 FY27).",
+   "Additions to software and intangible CWIP rose to Rs 34.17 cr in FY26 from Rs 5.06 cr (FY25) and Rs 1.40 cr (FY24, excl. the IP purchase); the policy capitalises R&D staff costs and consultancy. Allowed under Ind AS 38 when its tests are met; shown expensed, less software amortisation of Rs 6.67 cr. The RHP does not split purchased licences from in-house development."
+  ],
+  "checked": [
+   "Employee stock option cost charged to profit (Rs 12.28 cr in FY26) (p. 90)",
+   "No change in depreciation or amortisation policy: IP over 10 years, software over 3-5 years (p. 342)",
+   "No borrowing costs disclosed as capitalised (pp. 342, 351)",
+   "Profit taxed in cash: current tax 23.3% of cumulative PBT; deferred tax small (p. 89)",
+   "No exceptional gains: exceptional items were charges of Rs 0.78 cr (FY25) and Rs 0.41 cr (FY24) (p. 89)",
+   "Bad debts written off through profit: Rs 21.82 cr, Rs 19.05 cr and Rs 3.35 cr FY24-26 (p. 373)",
+   "No auditor qualification or emphasis of matter (p. 440)"
   ]
  },
  "counts": {
