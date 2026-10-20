@@ -15,6 +15,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from calc import recalc  # noqa: E402
+import earnings  # noqa: E402
 
 CHECK_NAMES = {
     "1": "Bonus issue / share-count consistency", "2": "Cash flow vs profit", "3": "Current vs deferred tax",
@@ -124,6 +125,12 @@ def build(slug):
         {"label": "Reference price", "value": ref, "fmt": "rs", "sub": meta.get("reference_note") or meta.get("price_band")},
     ]
 
+    # ---------------------------------------------------------------- earnings quality (is the reported P/E right?)
+    eq = earnings.assess(facts.get("earnings_quality"), pat, years, ref, post_sh, vin.get("tax", 0.2517))
+    if eq:
+        kpis.insert(6, {"label": "Adjusted P/E (earnings quality)", "value": eq["pe_adjusted"], "fmt": "x",
+                        "sub": "reported", "subval": eq["pe_reported"], "subfmt": "x"})
+
     # ---------------------------------------------------------------- scorecard + focus
     checks = sc.get("checks", {})
     score = []
@@ -228,7 +235,7 @@ def build(slug):
         "kpis": kpis, "focus": focus, "comfort": comfort, "scorecard": score, "history": history,
         "valuation": valuation, "dcf": dcf, "sensitivity": sens, "peers": peers,
         "offer": {"structure": [s_ for s_ in structure if s_["value"]], "issue_cr": num(al.get("Net offer")), "overhang": overhang},
-        "brlm": brlm, "swot": meta.get("swot"),
+        "brlm": brlm, "swot": meta.get("swot"), "earnings_quality": eq,
         "counts": {"fail": sum(c["status"] == "FAIL" for c in score), "watch": sum(c["status"] == "WATCH" for c in score),
                    "pass": sum(c["status"] == "PASS" for c in score), "open": sum(c["status"] == "OPEN" for c in score)},
     }

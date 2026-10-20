@@ -424,5 +424,84 @@
    104.618
   ],
   "_cite": "EBITDA per the issuer's KPI table (p. 144), excluding other income."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]; negative reduces profit. Tax at the house rate 25.17%.",
+  "adjustments": [
+   {
+    "item": "Warranty provision written back to profit",
+    "short": "warranty write-back",
+    "pre_tax": [
+     0,
+     0,
+     -18.84
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 373, 433",
+    "reason": "FY26 other expenses include a Rs 18.84 cr write-back of warranty provisions 'of earlier years'; FY24 and FY25 carried charges of Rs 20.82 cr and Rs 8.15 cr, so the release flatters FY26 alone (a further Rs 5.98 cr was written back in Q1 FY27)."
+   },
+   {
+    "item": "Development spending capitalised instead of expensed (net of software amortisation)",
+    "short": "capitalised development",
+    "pre_tax": [
+     2.437,
+     -0.351,
+     -27.504
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 342, 351-352",
+    "reason": "Additions to software and intangible CWIP rose to Rs 34.17 cr in FY26 from Rs 5.06 cr (FY25) and Rs 1.40 cr (FY24, excl. the IP purchase); the policy capitalises R&D staff costs and consultancy. Allowed under Ind AS 38 when its tests are met; shown expensed, less software amortisation of Rs 6.67 cr. The RHP does not split purchased licences from in-house development."
+   },
+   {
+    "item": "Amortisation of the IP bought from CEAQ Singapore (non-cash)",
+    "short": "IP amortisation add-back",
+    "pre_tax": [
+     7.608,
+     18.319,
+     18.319
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 352",
+    "reason": "Raises earnings: the Rs 183.19 cr IP purchase is amortised over 10 years (Rs 18.32 cr a year) and replaced royalty payments. Shown for balance; not in the adjusted P/E."
+   },
+   {
+    "item": "Executive pay at the contracted rates from Dec-2025",
+    "short": "contracted pay",
+    "pre_tax": [
+     0,
+     0,
+     -2.449
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "pp. 304-305",
+    "reason": "Contracted pay of about Rs 7.66 cr a year against Rs 5.21 cr drawn in FY26: a run-rate item for FY27, not an accounting choice."
+   },
+   {
+    "item": "Other income (mainly interest on term deposits)",
+    "short": "other income",
+    "pre_tax": [
+     -3.707,
+     -5.31,
+     -7.291
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 89",
+    "reason": "Recurring while the deposits are held, but not from operations; excluding it gives the operating P/E."
+   }
+  ],
+  "checked": [
+   "Employee stock option cost charged to profit (Rs 12.28 cr in FY26) (p. 90)",
+   "No change in depreciation or amortisation policy: IP over 10 years, software over 3-5 years (p. 342)",
+   "No borrowing costs disclosed as capitalised (pp. 342, 351)",
+   "Profit taxed in cash: current tax 23.3% of cumulative PBT; deferred tax small (p. 89)",
+   "No exceptional gains: exceptional items were charges of Rs 0.78 cr (FY25) and Rs 0.41 cr (FY24) (p. 89)",
+   "Bad debts written off through profit: Rs 21.82 cr, Rs 19.05 cr and Rs 3.35 cr FY24-26 (p. 373)",
+   "No auditor qualification or emphasis of matter (p. 440)"
+  ]
  }
 }

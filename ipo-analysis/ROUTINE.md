@@ -176,6 +176,7 @@ part next to its charts by reading these exact `##` headings, so use them word f
   end with a short governance read.
 - `## 5. Historical financials and ratios` - three years and the stub: revenue, growth, margins, PAT, cash flow,
   working capital, debt, net worth, ROE, ROCE; the ratios at the issue price (market cap, P/E, P/B, EV/EBITDA).
+  Inside part 5 add `### Is the reported P/E right?` (the earnings-quality test below).
 - `## 6. Future outlook and projections` - order book or pipeline, capacity, new products, what management says,
   and Bear / Neutral / Bull projections with their drivers; what is contracted and what has to go right.
 - `## 7. Valuation: DCF and peer comparison (P2P)` - the peer table (issuer at the upper band against listed peers and
@@ -189,6 +190,27 @@ part next to its charts by reading these exact `##` headings, so use them word f
   `## Appendix C: Diligence checks` (the scorecard; `FAIL` only for material issues), `## Appendix D: Data gaps and
   verification`.
 - `## Disclaimer and disclosures`, followed by the `short` text from `data/disclaimer.json`.
+
+**Earnings quality: is the reported P/E right?** Run on every report and record it in `facts.earnings_quality`
+(schema in `toolkit/FACTS_SCHEMA.md`); the site and the PDF show reported and adjusted P/E side by side with the reasons.
+Look for, in the accounting policies, the PPE / intangibles / CWIP schedules, the expense notes and MD&A:
+1. Costs capitalised instead of expensed: development and R&D staff cost in intangibles or CWIP, software, pre-operative
+   or trial-run expenses, borrowing costs, overheads in inventory. Compare additions with the R&D expense and with prior years.
+2. Provisions released or under-booked: warranty, bad debts / expected credit loss, inventory obsolescence, gratuity and leave,
+   "liabilities no longer required written back".
+3. Expenses deferred or not yet charged: contracted but undrawn promoter pay, ESOP cost not expensed, related-party rent or
+   services below market, royalties stopped by an asset purchase.
+4. Policy changes: depreciation or amortisation lives, revenue recognition, consolidation perimeter.
+5. One-off or non-operating income inside PAT: exceptional gains, asset sales, insurance claims, exchange gains, interest on
+   IPO-bound or temporary cash.
+6. Items that **raise** earnings too (non-cash amortisation of acquired intangibles, one-off charges): record them, so the test
+   stays two-sided.
+Rules: adjust only with a figure and a page cite; pre-tax by year, negative reduces profit; `include: true` only where the
+item changes recurring earnings (confidence High or Medium), otherwise show it as information. State the verdict in plain
+words: reported P/E fair (adjustments within 10% of PAT) or flattered / understated, with the adjusted P/E and the
+three-year average P/E reported and adjusted. Items that pass go in `checked`. An earnings adjustment is not by itself a
+material issue under hard rule 6; it changes the call only through the valuation. In part 7, state the relative value on
+the latest adjusted EPS and on the three-year average adjusted EPS; the Neutral case uses the through-cycle figure.
 
 Merchant banker appendix: name, owner, issues handled (year-wise summary); for each recent issue the listing premium or
 discount, 30/90/180-day performance, current price, sector, and revenue and PAT growth over three years with sources;

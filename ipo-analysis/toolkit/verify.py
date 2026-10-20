@@ -163,6 +163,22 @@ def verify_issuer_mode(tmp):
     print(f"{'PASS' if blank_ok else 'FAIL'}  Issuer mode: missing figures left blank, supplied kept")
 
 
+# ------------------------------------------------------------- earnings quality (adjusted P/E)
+def verify_earnings():
+    import earnings
+    eq = {"tax": 0.25, "adjustments": [
+        {"item": "Capitalised development", "pre_tax": [-4, -2, -10], "include": True},
+        {"item": "IP amortisation add-back", "pre_tax": [0, 0, 5], "include": False}]}
+    r = earnings.assess(eq, [60, 70, 80], ["FY24", "FY25", "FY26"], 190, 9.2)
+    adj = [60 - 3, 70 - 1.5, 80 - 7.5]
+    check("Earnings: adjusted latest PAT", r["adjusted_pat"][2], adj[2])
+    check("Earnings: adjusted P/E", r["pe_adjusted"], 190 / (adj[2] / 9.2), 0.006)
+    check("Earnings: reported P/E", r["pe_reported"], 190 / (80 / 9.2), 0.006)
+    check("Earnings: 3-yr average adjusted P/E", r["rows"][-1]["pe"], 190 / (sum(adj) / 3 / 9.2), 0.006)
+    check("Earnings: information item not in adjusted PAT, P/E if applied", r["adjustments"][1]["pe_if_applied"],
+          190 / ((80 + 3.75) / 9.2), 0.006)
+
+
 if __name__ == "__main__":
     with tempfile.TemporaryDirectory() as tmp:
         print("== Valuation (all three scenarios) ==")
@@ -173,6 +189,8 @@ if __name__ == "__main__":
         verify_screening(tmp)
         print("== Issuer mode ==")
         verify_issuer_mode(tmp)
+        print("== Earnings quality ==")
+        verify_earnings()
     n, ok = len(results), sum(results)
     print(f"\n{ok}/{n} checks passed")
     sys.exit(0 if ok == n else 1)

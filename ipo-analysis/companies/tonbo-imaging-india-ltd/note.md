@@ -98,6 +98,29 @@ Q1 is seasonally the smallest quarter: revenue recognition is concentrated in th
 
 **At the upper band (shares unchanged at 5,72,82,100):** market cap Rs 4,009.75 cr; P/E 78.8x FY26 diluted EPS (Rs 8.88), 76.2x basic (Rs 9.19); P/B 7.25x (NAV Rs 96.57); EV Rs 4,087.18 cr using FY26 net debt of Rs 77.43 cr; EV/EBITDA 39.1x FY26. On the FY24-26 average PAT of Rs 64.06 cr, the P/E is 62.6x. Sources: pp. 87-90, 139-141, 144; price ratios are our computation.
 
+### Is the reported P/E right?
+
+**Verdict: the reported FY26 P/E of 78.8x is flattered by two items; on the three-year average, which smooths one-year items, the P/E is 62.6x reported and 75.6x adjusted.**
+
+| Basis (at Rs 700) | PAT (Rs cr) | EPS (Rs) | P/E |
+|---|---:|---:|---:|
+| Reported FY26 | 50.88 | 8.88 | 78.8x |
+| FY26 excluding the warranty write-back | 36.78 | 6.42 | 109.0x |
+| FY26 also expensing net capitalised development | 16.20 | 2.83 | 247.5x |
+| FY24-26 average, reported | 64.06 | 11.18 | 62.6x |
+| FY24-26 average, adjusted | 53.02 | 9.26 | 75.6x |
+
+**Flags (in the adjusted P/E):**
+- **Warranty provision written back (High confidence):** FY26 other expenses include a write-back of Rs 18.84 cr "of earlier years" (pp. 373, 433), equal to 27% of FY26 PBT. FY24 and FY25 carried warranty charges of Rs 20.82 cr and Rs 8.15 cr, so over three years the provision nets out and FY26 alone is flattered. Another Rs 5.98 cr was written back in Q1 FY27.
+- **Development cost capitalised (Medium confidence):** additions to software and intangible work in progress rose to Rs 34.17 cr in FY26 from Rs 5.06 cr in FY25 and Rs 1.40 cr in FY24 (excluding the IP purchase). The policy capitalises R&D staff costs, consultancy and directly attributable spending (p. 342). This is permitted under Ind AS 38 when its tests are met, and the R&D expensed through profit also rose (Rs 25.86 cr in FY26, p. 36). We show it expensed, net of software amortisation of Rs 6.67 cr. The RHP does not split purchased licences from in-house development, hence Medium.
+
+**Shown for information (not in the adjusted P/E):**
+- *Raises earnings:* amortisation of the IP bought from CEAQ Singapore, Rs 18.32 cr a year, is a non-cash charge that replaced royalties; adding it back gives a P/E of 62.1x (p. 352).
+- Executive pay at the contracted rates from Dec-2025 adds about Rs 2.45 cr a year (P/E 81.8x) (pp. 304-305).
+- Other income, mainly interest on term deposits (Rs 7.29 cr in FY26); excluding it gives an operating P/E of 88.3x (p. 89).
+
+**Also checked, no adjustment needed:** stock-option cost is charged to profit (Rs 12.28 cr in FY26, p. 90); no change in depreciation or amortisation policy (p. 342); no borrowing costs capitalised (pp. 342, 351); profit is taxed in cash (current tax 23.3% of PBT, p. 89); no exceptional gains (p. 89); bad debts are written off through profit (p. 373); no audit qualification (p. 440).
+
 ### Positives and points to monitor
 
 | Positives | Points to monitor |
@@ -173,6 +196,7 @@ Terminal value is 69.5% of enterprise value; terminal ROIC 16% (Neutral), above 
 | Against Rs 665 (floor) | -27.0% | -22.5% | -16.4% |
 
 - **Scenario drivers:** year-1 growth 10% / 25% / 40%, easing to 5% / 12% / 15% by year 5; EBITDA margin 24% / 28% / 30%; working capital 90% / 70% / 50% of revenue; terminal ROIC 12% / 16% / 22%. Rationale and page cites are in the valuation workbook.
+- **Earnings quality and the relative value:** the relative value uses reported FY26 EPS (Rs 8.88). On the FY24-26 average adjusted EPS (Rs 9.26) the peer multiples give Rs 946 and the Neutral fair value would be Rs 526 (-24.9%), so the through-cycle picture is unchanged. On FY26 adjusted EPS alone (Rs 2.83) the relative value would be Rs 579 and fair value Rs 342 (-51.1%); excluding only the warranty write-back, Rs 784 and Rs 445 (-36.4%). The Neutral case follows the through-cycle figure, per the Fund's rules.
 - **Why the two methods differ:** peer multiples price Tonbo's earnings the way the market prices listed defence electronics companies (Rs 924). The DCF prices free cash flow, which in this business arrives late because working capital is high while orders are executed (Rs 106). Both are shown; the blend gives them equal weight.
 - **Sensitivity (Neutral DCF, Rs per share):** WACC 12.2% to 16.2% moves it from Rs 138 to Rs 85; working capital at 64% of revenue with a 30% margin gives Rs 127, and 76% with a 26% margin gives Rs 85. Working-capital intensity is the main lever.
 - **Reverse DCF at Rs 700:** FY26 free cash flow was negative (-Rs 50.57 cr), so no cash-flow multiple can be stated; the price assumes cash generation improves from here. Holding today's working-capital level, the price would need a steady-state EBIT margin of about 195% against 20.2% actual, which is not a realistic path. The realistic path is working capital falling back towards FY24-25 levels as orders are delivered. In plain words: **the price assumes the business returns to its FY24-25 pattern of growth and cash conversion.**
@@ -196,6 +220,7 @@ Terminal value is 69.5% of enterprise value; terminal ROIC 16% (Neutral), above 
 | Working capital and cash flow | 109.7% of revenue; CFO negative in FY25-26 (pp. 87, 90) | The DCF value rises sharply as this normalises |
 | Customer concentration | Top-10 77.83% of FY26 revenue (p. 24) | Normal for defence; a lost tender moves revenue |
 | Related-party purchases | CEAQ Singapore 26.3% of FY26 expenses (p. 94) | Pricing and continuity of supply |
+| Earnings quality | FY26 profit includes a Rs 18.84 cr warranty write-back and Rs 34.17 cr of capitalised development (pp. 351, 373) | FY27 profit without these items shows the run-rate; adjusted FY26 P/E 247.5x vs 78.8x reported |
 | Lock-in releases | About 287 lakh shares at six months (p. 121) | Supply in the share price, not in the business |
 | Singapore suit | Not yet served (p. 448) | Low financial exposure on present facts |
 
@@ -228,6 +253,8 @@ Terminal value is 69.5% of enterprise value; terminal ROIC 16% (Neutral), above 
 - At Rs 700 the P/E is 78.8x FY26 earnings, close to the 85.6x peer median, while peers grew revenue about 21% in the same year. The price already assumes the recovery.
 
 **Valuation.** Fair value Rs 486 / **Rs 515** / Rs 556 (Bear / Neutral / Bull), -26.4% against Rs 700 in the Neutral case. Peers' multiples alone give Rs 924; a cash-flow DCF gives Rs 106, because the DCF is still carrying FY26's working capital. **Call rule:** the Neutral value is between -10% and -30% of the price, so the call is **Neutral**. No material issue was found.
+
+**Earnings quality:** FY26 reported profit is flattered by a warranty write-back and capitalised development (adjusted FY26 P/E 247.5x against 78.8x reported); on the three-year average the adjusted P/E is 75.6x, close to peers, so the through-cycle valuation and the call are unchanged.
 
 **What would move it to Subscribe:** H1 FY27 revenue of Rs 180 cr or more with positive operating cash flow, which would show the order book converting; or a market price nearer Rs 515-560.
 
