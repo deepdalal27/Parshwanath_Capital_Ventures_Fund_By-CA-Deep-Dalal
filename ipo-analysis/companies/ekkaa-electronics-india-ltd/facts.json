@@ -1,0 +1,496 @@
+{
+ "screening": {
+  "basis": {
+   "name": "Ekkaa Electronics (India) Limited",
+   "platform": "Mainboard",
+   "stage": "DRHP",
+   "doc_date": "2026-09-24",
+   "aud_to": "2026-03-31",
+   "band": "No",
+   "brlm": "Motilal Oswal Investment Advisors Limited; Shannon Advisors Private Limited",
+   "outside": "none (all figures from the DRHP)",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    0.071,
+    496.514,
+    1221.763,
+    null
+   ],
+   "oth": [
+    1.137,
+    2.096,
+    6.637,
+    null
+   ],
+   "pbt": [
+    -1.994,
+    27.244,
+    79.63,
+    null
+   ],
+   "ctax": [
+    0,
+    1.832,
+    14.542,
+    null
+   ],
+   "dtax": [
+    2.056,
+    1.86,
+    -0.291,
+    null
+   ],
+   "pat": [
+    -4.05,
+    23.552,
+    65.379,
+    null
+   ],
+   "cfo": [
+    -15.283,
+    -64.112,
+    -28.659,
+    null
+   ],
+   "rpt_s": [
+    0.071,
+    104.349,
+    75.807,
+    null
+   ],
+   "rpt_p": [
+    1.681,
+    89.449,
+    36.298,
+    null
+   ],
+   "nw": [
+    14.669,
+    38.221,
+    251.525,
+    null
+   ],
+   "recv": [
+    0.017,
+    75.108,
+    218.578,
+    null
+   ],
+   "inv": [
+    5.52,
+    130.303,
+    252.044,
+    null
+   ],
+   "pay": [
+    0.196,
+    54.3,
+    196.584,
+    null
+   ],
+   "cl": [
+    120.978,
+    327.785,
+    457.713,
+    null
+   ],
+   "gw": [
+    0,
+    0,
+    0,
+    null
+   ],
+   "reval": [
+    0,
+    0,
+    0,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "p. 74 (FY24-25 standalone; FY26 consolidated from 29-Aug-2025)",
+   "oth": "p. 74",
+   "pbt": "p. 74",
+   "ctax": "p. 74",
+   "dtax": "p. 74",
+   "pat": "p. 74",
+   "cfo": "p. 75",
+   "rpt_s": "pp. 78-80 (sales to Ekkaa Electronics Industries Pvt Ltd, a subsidiary only from 29-Aug-2025, plus Rs 0.09 m to Gaurisuta Enterprises in FY25)",
+   "rpt_p": "pp. 78-80 (goods purchased from Ekkaa Electronics Industries Pvt Ltd)",
+   "nw": "p. 73 (total equity, includes CCPS)",
+   "recv": "p. 73",
+   "inv": "p. 73",
+   "pay": "p. 73 (MSME + others)",
+   "cl": "p. 73",
+   "gw": "no goodwill in the restated balance sheet (p. 73); Rs 20.39 m capital reserve (p. 340)",
+   "reval": "no revaluation reserve (p. 340)"
+  },
+  "single": {
+   "top1c": 0.1686,
+   "top10c": 0.6577,
+   "top1s": 0.4694,
+   "waca": 132.31,
+   "offer": 226.0
+  },
+  "checks": {
+   "1": {
+    "status": "WATCH",
+    "page": "pp. 133, 70, 142",
+    "finding": "Bonus (1:1 on 28-Aug-2025, 3:1 on 20-Aug-2026) and the 1:2 split (Aug-2026) are applied in every EPS and price shown. Diluted EPS (Rs 9.04) equals basic EPS although 15,655,864 shares will be issued on CCPS conversion before the RHP; on the fully diluted pre-offer count of 84,197,664 shares FY26 EPS is Rs 7.77, 14% lower than the printed figure."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "p. 75",
+    "finding": "Operating cash flow is negative in all three years: Rs -15.28 cr (FY24), Rs -64.11 cr (FY25), Rs -28.66 cr (FY26); cumulative Rs -108.05 cr against cumulative PAT of Rs 84.88 cr. FY26 absorbed Rs 97.26 cr in receivables and Rs 38.90 cr in inventory. The business grew from Rs 0.07 cr to Rs 1,221.76 cr of revenue in two years, so a build is expected, but no full working-capital cycle has yet been seen."
+   },
+   "3": {
+    "status": "WATCH",
+    "page": "pp. 74, 75",
+    "finding": "Current tax Rs 14.54 cr on PBT Rs 79.63 cr = 18.3% in FY26 (6.7% in FY25); cumulative current tax Rs 16.37 cr on cumulative PBT Rs 104.88 cr = 15.6%, against the 25.17% statutory rate. Tax actually paid was Rs 5.26 cr in FY26; current tax liability stood at Rs 13.17 cr at 31-Mar-2026. The DRHP pages read do not give a reconciliation of the lower rate."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "pp. 78-80, 274, 304",
+    "finding": "Ekkaa Electronics Industries Pvt Ltd (EEIPL) was owned by the promoters Chandra Prakash Gupta and Madhuri Gupta until 29-Aug-2025. Sales to EEIPL were Rs 104.34 cr (21.0% of FY25 revenue) and Rs 75.81 cr (6.2% of FY26 revenue); purchases from it Rs 89.45 cr (18.0%) and Rs 36.30 cr (3.0%); loans taken from it Rs 170.85 cr in FY25 at Rs 8.40 cr interest. The promoters were paid in shares for 81.14% of EEIPL, valued at Rs 888 per Rs 10 share. The Sonipat site is leased from Gaurisuta Industries LLP (promoters are partners), rent Rs 0.03 m a month to Mar-2026 and Rs 0.50 m from Apr-2026. No proceeds go to a subsidiary or a promoter entity."
+   },
+   "5": {
+    "status": "N.A.",
+    "page": "pp. 119-120",
+    "finding": "Fresh issue is amount-based (up to Rs 525 cr), so there is no fixed share count and no price floor from the objects. Identified objects are Rs 375 cr (71.4%): debt repayment Rs 225 cr and working capital Rs 150 cr (Rs 20 cr in FY27, Rs 130 cr in FY28). General corporate purposes may be up to 25% of gross proceeds. No capex is funded."
+   },
+   "6": {
+    "status": "PASS",
+    "page": "p. 340",
+    "finding": "No revaluation reserve in the restated reserves note."
+   },
+   "7": {
+    "status": "WATCH",
+    "page": "pp. 340, 379",
+    "finding": "The restated accounts recognise a bargain-purchase capital reserve of Rs 2.04 cr on EEIPL and no goodwill; the unaudited pro-forma balance sheet shows goodwill of Rs 8.50 cr on the same acquisition (p. 381). The two treatments differ; the pro-forma goodwill would be 3.4% of net worth, the restated capital reserve 0.8%."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 23, 29, 41, 250",
+    "finding": "Demand: largest customer 16.86% of FY26 revenue (21.01% FY25), top 5 52.43%, top 10 65.77% (80.35% FY25); customer names withheld for want of consent. Supply: top supplier 46.94% of raw materials purchased (31.90% FY25), top 5 69.74%; imports Rs 802.57 cr = 76.2% of raw material purchases. LED televisions are 71.78% of revenue."
+   },
+   "9": {
+    "status": "PASS",
+    "page": "pp. 77, 434-435",
+    "finding": "No contingent liability requires disclosure at 31-Mar-2026. Litigation is one wage claim of Rs 93,433 and three direct-tax matters of Rs 0.99 m in all; the materiality threshold is Rs 15.50 m."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "WATCH",
+    "page": "pp. 82-83, 311",
+    "finding": "M S K A & Associates LLP was appointed on 27-Nov-2025 to fill a casual vacancy caused by the death of the proprietor of the previous auditor, A. K. Khattar and Associates. FY24 and FY25 were audited on a special-purpose basis by the earlier auditor, with an emphasis-of-matter on the basis of preparation; MSKA restated them. The Form ADT-1 for the 5-year re-appointment from 1-Apr-2026 was pending when the DRHP was filed."
+   },
+   "R2": {
+    "status": "WATCH",
+    "page": "p. 372",
+    "finding": "The audit trail was enabled and operated throughout FY26, but backup logs were kept only from 18-Feb-2026; periodic backups from 1-Apr-2025 to 17-Feb-2026 were taken without a retained log."
+   },
+   "R3": {
+    "status": "WATCH",
+    "page": "p. 88",
+    "finding": "The company will appoint a monitoring agency before the RHP (Reg 41); not yet named."
+   },
+   "R4": {
+    "status": "WATCH",
+    "page": "p. 448",
+    "finding": "The offer is made under Reg 6(2) because the issuer does not meet Reg 6(1)(b) (monetary assets are 0.92% of net tangible assets in FY26 and the operating-profit test fails in FY24 at Rs -1.20 cr): at least 75% of the net offer must go to QIBs or the offer fails and subscriptions are refunded. Net tangible assets Rs 253.25 cr, net worth Rs 251.53 cr and average operating profit Rs 48.78 cr at FY26."
+   },
+   "R5": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Mainboard offer."
+   },
+   "R6": {
+    "status": "WATCH",
+    "page": "pp. 456-458",
+    "finding": "Motilal Oswal: 14 IPOs listed in FY2026-27 so far, 21 in FY2025-26 and 7 in FY2024-25. Of the 21 FY26 issues, 6 closed below issue price at day 30 and 8 of the 19 with 180 days elapsed closed below at day 180. Shannon Advisors: 2 IPOs; Globtier Infotech (SME) was -36.95% at day 30 and -57.05% at day 180 (pp. 456-458). See Appendix B."
+   },
+   "R7": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Means of finance not separately tested at DRHP stage; no capex is funded from proceeds (p. 120)."
+   }
+  },
+  "gaps": [
+   {
+    "item": "Price band, offer price, final fresh/OFS share counts, offer expenses and general corporate purposes are all [●]; valuation uses reference prices of Rs 182.63 (floor) and Rs 226.00 (cap)",
+    "severity": "High",
+    "source": "RHP"
+   },
+   {
+    "item": "Financials run to 31-Mar-2026 (177 days before the DRHP date); no H1 FY27 data. Borrowings rose from Rs 308.75 cr at 31-Mar-2026 to Rs 396.14 cr at 31-Jul-2026, which the next audited period will show",
+    "severity": "High",
+    "source": "RHP / H1 FY27 results"
+   },
+   {
+    "item": "FY24 and FY25 are the company-only base (revenue Rs 0.07 cr and Rs 496.51 cr); FY26 includes EEIPL only from 29-Aug-2025. The unaudited pro-forma (FY26 Rs 1,263.14 cr, FY25 Rs 709.34 cr) is the only like-for-like view and carries no cash flow",
+    "severity": "High",
+    "source": "DRHP pp. 375-388"
+   },
+   {
+    "item": "Names of the top 10 customers and top 10 suppliers are withheld for non-receipt of consents; the single supplier at 46.94% of purchases is not identified",
+    "severity": "Medium",
+    "source": "Issuer / RHP"
+   },
+   {
+    "item": "Reconciliation of the 18.3% FY26 current-tax rate to the 25.17% statutory rate not located",
+    "severity": "Medium",
+    "source": "DRHP note on income tax"
+   },
+   {
+    "item": "Owner/promoter and listing details of Shannon Advisors Private Limited not sourced this run",
+    "severity": "Low",
+    "source": "BSE / MCA"
+   },
+   {
+    "item": "Peer EBITDA, net debt and share counts are not in the DRHP's comparison table, so peer P/E and P/B are used; EV/EBITDA is not run",
+    "severity": "Low",
+    "source": "Exchange filings"
+   }
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Ekkaa Electronics (India) Limited",
+   "basis": "Consolidated (FY26)",
+   "pre_sh": 8.4197664,
+   "esop": 0,
+   "fresh": 525,
+   "fresh_sh_fixed": 0,
+   "ofs_sh": 0.884956,
+   "floor": 182.63,
+   "cap": 226.0,
+   "obj_net": 375.0,
+   "ipo_capex": 0,
+   "rev0": 1221.763,
+   "rev_prev": 709.337,
+   "ebitda0": 114.534,
+   "da0": 13.665,
+   "pat0": 65.379,
+   "nw0": 251.525,
+   "nd0": 295.98,
+   "nwc0": 274.038,
+   "nwc_prev": 53.307,
+   "capex0": 89.328,
+   "kd": 0.09
+  },
+  "drivers": {
+   "g1": [
+    0.12,
+    0.3,
+    0.4
+   ],
+   "g2": [
+    0.1,
+    0.24,
+    0.32
+   ],
+   "g3": [
+    0.09,
+    0.2,
+    0.26
+   ],
+   "g4": [
+    0.08,
+    0.16,
+    0.2
+   ],
+   "g5": [
+    0.07,
+    0.12,
+    0.15
+   ],
+   "m": [
+    0.07,
+    0.093,
+    0.105
+   ],
+   "nwc": [
+    0.23,
+    0.18,
+    0.14
+   ],
+   "roic": [
+    0.12,
+    0.18,
+    0.22
+   ]
+  },
+  "rationale": {
+   "g1": "FY26 revenue Rs 1,221.76 cr is +146% on FY25 but that includes EEIPL from 29-Aug-2025; on the unaudited pro-forma basis revenue grew 63.6% in FY25 and 78.1% in FY26 to Rs 1,263.14 cr (p. 137). The issuer-commissioned Frost & Sullivan report puts the Indian consumer-durables ODM market at Rs 24,900 cr in FY26, growing 19.9% a year to Rs 51,380 cr in FY30 (p. 245). Installed LED TV capacity of 2.82 m units ran at 55.6% in FY26 (p. 250), so volume can grow before capex. Bear fades from 12% to the low single digits on customer loss or price pressure (top 5 customers are 52.4% of revenue, p. 23); Neutral starts at 30%, between the industry rate and the pro-forma rate; Bull holds above 30% for two years. There is no H1 FY27 data, so year 1 is an assumption.",
+   "m": "Restated EBITDA margin 9.37% in FY26 and 11.16% in FY25; pro-forma 9.36% and 9.21%, and 2.68% in FY24 (p. 137). Gross margin is stable at 17.0-17.6%. Neutral uses the through-cycle 9.3% (pro-forma average of FY25-26), not the FY25 peak. Bear 7.0% allows for pricing pressure from brand customers who can switch (p. 249 customer risk); Bull 10.5% holds near the FY25-26 restated range.",
+   "nwc": "Trade working capital (inventory + receivables - payables) is 22.4% of FY26 revenue (Rs 274.04 cr, p. 73) against 7.5% of pro-forma FY25 revenue (p. 381); the pro-forma FY25 payables of Rs 254.78 cr came mostly from EEIPL. Management's own plan lifts working capital from Rs 331.94 cr at Mar-2027 to Rs 490.88 cr at Mar-2028 (p. 125). Neutral 18%, between the two years; Bear 23% (FY26 level plus slippage; 52.8% of receivables are past due, p. 337); Bull 14%.",
+   "roic": "Issuer ROCE 18.0% in FY26 and 18.7% pro-forma (p. 137); ROE 45.1% on a thin equity base. Neutral terminal ROIC 18%, above the cost of capital; Bear 12% near WACC; Bull 22%."
+  },
+  "peers": [
+   [
+    "Dixon Technologies (India) Ltd (per share)",
+    "Y",
+    "Closest model: ODM/EMS for TVs, washing machines and other durables (p. 134-135); far larger, with backward integration at scale",
+    "Consolidated",
+    13090.0,
+    1,
+    null,
+    null,
+    null,
+    269.35,
+    740.88,
+    0.26
+   ],
+   [
+    "Amber Enterprises India Ltd (per share)",
+    "Y",
+    "Partial match: room-AC and electronics EMS/ODM; FY26 PAT margin 1.9%, so trailing P/E of 139.5x sits on depressed earnings (p. 135)",
+    "Consolidated",
+    7014.0,
+    1,
+    null,
+    null,
+    null,
+    50.28,
+    1230.77,
+    0.222
+   ],
+   [
+    "PG Electroplast Ltd (per share)",
+    "Y",
+    "Partial match: ODM for air conditioners, washing machines and coolers (p. 135); trailing P/E 121.5x",
+    "Consolidated",
+    521.2,
+    1,
+    null,
+    null,
+    null,
+    4.29,
+    104.69,
+    0.086
+   ]
+  ]
+ },
+ "earnings_quality": {
+  "adjustments": [
+   {
+    "item": "Liabilities no longer required written back to other income",
+    "short": "creditors written back",
+    "pre_tax": [
+     0,
+     0,
+     -0.854
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "p. 346",
+    "reason": "Other income of Rs 6.64 cr includes Rs 0.85 cr of liabilities written back, which did not recur in FY25 (nil); 1.1% of PBT. Not part of operating earnings."
+   },
+   {
+    "item": "Interest subsidy under the UP Electronics Manufacturing Policy credited to other income",
+    "short": "interest subsidy",
+    "pre_tax": [
+     0,
+     0,
+     -1.396
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "p. 346",
+    "reason": "Rs 1.40 cr reimburses interest on the Noida plant loans and sits in other income, not in finance costs. It continues while the policy and the loans run, so it is shown as information only."
+   },
+   {
+    "item": "Unrealised exchange loss charged to profit",
+    "short": "unrealised FX loss",
+    "pre_tax": [
+     0,
+     1.183,
+     10.108
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 75",
+    "reason": "The cash-flow add-back of Rs 10.11 cr in FY26 (Rs 1.18 cr FY25) is a non-cash charge that can reverse. With imports at 76.2% of raw material purchases (p. 41), exchange movements are a recurring feature of cost, so it is not added back; it raises earnings if it reverses."
+   },
+   {
+    "item": "Borrowing cost capitalised to property, plant and equipment",
+    "short": "interest capitalised",
+    "pre_tax": [
+     -7.253,
+     -0.749,
+     -1.146
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 332",
+    "reason": "Interest of Rs 1.15 cr (FY26), Rs 0.75 cr (FY25) and Rs 7.25 cr (FY24) was added to asset cost under Ind AS 23 while the Noida and Ganaur plants were being built. This is the standard treatment for qualifying assets; shown for completeness."
+   }
+  ],
+  "checked": [
+   "Allowance for expected credit loss Rs 0.19 cr against receivables of Rs 218.58 cr (0.09%); 52.8% of receivables are past their due date, 96% of that under six months (p. 337)",
+   "Bank-deposit interest Rs 2.41 cr is 3.0% of PBT; service and fee charges Rs 1.60 cr, insurance claim Rs 0.14 cr (p. 346)",
+   "Promoter and relative remuneration in FY26: Sagar Gupta Rs 0.88 cr, Chandra Prakash Gupta Rs 1.05 cr, Madhuri Gupta Rs 0.28 cr, relatives Rs 0.18 cr (pp. 78-80); 3.6% of PAT",
+   "Deferred tax credit of Rs 0.29 cr in FY26 does not flatter profit (p. 74)",
+   "Government capital subsidy of Rs 10.79 cr was deducted from the cost of PPE rather than taken to profit (p. 75)"
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   -0.408,
+   55.404,
+   114.534
+  ],
+  "_cite": "EBITDA per the issuer's KPI table (p. 137), excluding other income. Restated basis; FY26 consolidated from 29-Aug-2025."
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Ekkaa Electronics (India) Limited",
+   "board": "Mainboard",
+   "offer": 226.0,
+   "anchor_px": 226.0,
+   "issue": 725.0,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.75,
+   "nii_pct": 0.15,
+   "rii_pct": 0.1,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667
+  },
+  "total_shares_lakh": 1074.278,
+  "overhang": [
+   [
+    "Promoter minimum contribution (20% of post-offer capital; 18 months from allotment, p. 105); at the Rs 226 reference",
+    214.856,
+    540,
+    "p. 105"
+   ],
+   [
+    "Promoter holding above the minimum, after the Rs 200 cr OFS (6 months from allotment, p. 105); at reference",
+    217.024,
+    180,
+    "p. 105"
+   ],
+   [
+    "Promoter group (13.4% of pre-offer capital; Sonam Gupta, family members and three family trusts)",
+    153.202,
+    180,
+    "p. 105-106 (6 months for holders other than promoters)"
+   ],
+   [
+    "Pre-issue non-promoter shareholders (CCPS holders on conversion, including Abakkus Four2eight at 6.5%)",
+    168.395,
+    180,
+    "pp. 70, 106"
+   ]
+  ]
+ }
+}

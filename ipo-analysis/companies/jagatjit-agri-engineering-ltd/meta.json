@@ -1,0 +1,103 @@
+{
+  "slug": "jagatjit-agri-engineering-ltd",
+  "company": "Jagatjit Agri Engineering Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-25",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+  "sector": "Agricultural implements (Super Seeders, straw reapers, rotavators, laser levellers, biomass machines)",
+  "brlm": "Keynote Financial Services",
+  "issue_size_cr": 300,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "Proforma revenue grew 63% in FY26 to Rs 414.0 cr with an EBITDA margin of 13.5%, but the business only combined on 1-Apr-2025, one customer is 25% of revenue and FY26 operating cash flow was 8.6% of PAT as stock built up; at the Rs 155.78 peer-median reference the price asks for a continuation of that growth.",
+  "red_flags": [
+    "Proforma revenue Rs 253.8 cr to Rs 414.0 cr (+63.1%); EBITDA Rs 36.8 cr to Rs 55.7 cr; PAT Rs 20.7 cr to Rs 31.4 cr (pp. 92, 158)",
+    "Promoters' two proprietorships were taken over on 1-Apr-2025 at carrying value; restated FY25 (Rs 95.9 cr) is not comparable with FY26 (pp. 247, 387)",
+    "Seth Agro Industries is 25.21% of FY26 revenue; top 10 customers 50.04%; top supplier only 7.94% (pp. 261, 39)",
+    "FY26 CFO Rs 2.7 cr vs PAT Rs 31.4 cr; finished goods Rs 43.2 cr vs Rs 1.9 cr; cumulative CFO/PAT 69.7% (pp. 88, 474)",
+    "Rs 300 cr fresh issue: 66.7% identified (Rs 110 cr working capital, Rs 71.7 cr capex on promoter-leased land, Rs 18.5 cr debt); no capex order placed (pp. 124, 129)",
+    "Net debt Rs 119.4 cr (2.14x EBITDA); borrowings Rs 164.1 cr by 31-Aug-2026; subsidy-linked demand and Q4 seasonality (pp. 56, 34)"
+  ],
+  "status": "analysed",
+  "reference_note": "Rs 155.78 = FY26 basic EPS Rs 5.64 x 27.62x, the median of the three listed peers the issuer names (pp. 154-156). It is an assumption, not a price band. The only priced issue, the Oct-2025 allotment against the promoters' businesses at Rs 33.63 after bonus and split (pp. 163, 388), was non-cash and is not used.",
+  "swot": {
+    "strengths": [
+      "Proforma revenue CAGR 41.3% over FY24-FY26; industry 10.2% over FY23-26 per the issuer-commissioned CARE report (pp. 92, 248)",
+      "ROCE 31.1% and interest cover 5.03x in FY26 (p. 158)",
+      "Cash tax 26.1% of cumulative PBT; no deferred-tax cushion (p. 87)",
+      "Top supplier 7.94% and top 10 suppliers 40.53% of FY26 purchases, down from 76.68% (p. 39)",
+      "20+ products and 192 SKUs; 233 dealers and 12 distributors across 20 states (pp. 246, 247)"
+    ],
+    "weaknesses": [
+      "Seth Agro Industries 25.21% of FY26 revenue (p. 261)",
+      "Northern states 68.04% and Central states 25.95% of revenue (p. 29)",
+      "Top three products 64.40% of FY26 revenue (p. 29)",
+      "FY26 CFO Rs 26.85 m vs PAT Rs 313.90 m (p. 88)",
+      "Audit trail in the accounting software only from Jan-2026 (p. 416)"
+    ],
+    "opportunities": [
+      "Indian farm equipment market Rs 1,397 bn FY26 to Rs 1,876 bn FY30, 7.7% CAGR, issuer-commissioned estimate (p. 250)",
+      "Dehlon expansion adds 29,000 units to 4,000, due Mar-2028 (pp. 137, 143)",
+      "Biomass briquette and pellet machines for crop-residue conversion (pp. 252, 253)",
+      "R&D team of 46 and three patents (p. 246)"
+    ],
+    "threats": [
+      "Demand depends on CRM and SMAM subsidies, with past delays in state payments (pp. 56, 57)",
+      "Q4 is a seasonally weak quarter (p. 34)",
+      "Group company Goodfield Technology has common pursuits with the issuer (p. 30)",
+      "Promoters were disqualified as directors from Sep-2020 to Oct-2021; compounding applications filed (p. 37)",
+      "Larger tractor OEMs (Escorts Kubota, VST, Indo Farm) are the only listed comparables (p. 156)"
+    ]
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "files": {
+    "screening": "JAGATJIT_AGRI_ENGINEERIN_01_Screening.xlsx",
+    "anchor": "JAGATJIT_AGRI_ENGINEERIN_02_Anchor_QIB.xlsx",
+    "valuation": "JAGATJIT_AGRI_ENGINEERIN_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "JAGATJIT_AGRI_ENGINEERIN_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 42.2428,
+      "relative": 121.3862,
+      "blended": 81.8145,
+      "upside_floor": -0.4748,
+      "upside_cap": -0.4748
+    },
+    "neutral": {
+      "dcf": 69.1685,
+      "relative": 121.3862,
+      "blended": 95.2774,
+      "upside_floor": -0.3884,
+      "upside_cap": -0.3884
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -43.0% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 94.7413,
+      "relative": 121.3862,
+      "blended": 108.0638,
+      "upside_floor": -0.3063,
+      "upside_cap": -0.3063
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 7,
+    "pass": 6,
+    "open": 0
+  },
+  "analysed_on": "2026-10-20"
+}
