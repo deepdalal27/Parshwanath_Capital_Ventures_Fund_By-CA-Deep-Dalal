@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T13:34Z",
+  "updated": "2026-10-21T13:41Z",
   "issuers": [
     {
       "slug": "tonbo-imaging-india-ltd",
@@ -44,6 +44,51 @@
         "blended": 515.0998,
         "upside_floor": -0.2254,
         "upside_cap": -0.2641
+      }
+    },
+    {
+      "slug": "ekkaa-electronics-india-ltd",
+      "company": "Ekkaa Electronics (India) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-21",
+      "sector": "Consumer electronics and appliances ODM/OEM (LED televisions, washing machines, coolers, speakers, cooktops)",
+      "brlm": "Motilal Oswal Investment Advisors; Shannon Advisors",
+      "issue_size_cr": 725,
+      "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
+      "call": "Screen only",
+      "headline": "Revenue reached Rs 1,221.8 cr in FY26 (pro-forma Rs 1,263.1 cr, +78%) at a 9.4% EBITDA margin and 18.0% ROCE, but operating cash flow has been negative in each of the three years (Rs -108.1 cr in total) and net debt is 2.6x EBITDA; the peer-multiple and cash-flow methods give values far apart, so the price band and H1 FY27 decide the case.",
+      "red_flags": [
+        "Revenue Rs 0.07 cr, Rs 496.5 cr, Rs 1,221.8 cr (FY24-26); pro-forma FY26 Rs 1,263.1 cr, +78.1%; EBITDA margin 9.37%, ROCE 18.0% (pp. 74, 137)",
+        "Operating cash flow Rs -15.3 cr, -64.1 cr, -28.7 cr in FY24-26 against cumulative PAT of Rs 84.9 cr; receivables up Rs 97.3 cr and inventory Rs 38.9 cr in FY26 (p. 75)",
+        "Top 5 customers 52.4% and top 10 65.8% of FY26 revenue; top supplier 46.9% of purchases; imports 76.2% of raw materials (pp. 23, 29, 41)",
+        "FY25's largest customer (21.0% of revenue, Rs 104.3 cr) was the promoter-owned Ekkaa Electronics Industries, acquired on 29-Aug-2025; its sales were still 6.2% of FY26 revenue (pp. 78-80, 274)",
+        "Rs 525 cr fresh issue: Rs 225 cr repays loans and Rs 150 cr funds working capital; the Rs 200 cr offer for sale pays two promoters (WACA Rs 19.87 and Rs 17.53) (pp. 1, 119-120)",
+        "Net debt Rs 296.0 cr (2.58x EBITDA); borrowings Rs 396.1 cr by 31-Jul-2026 against Rs 308.8 cr at 31-Mar-2026; 19.9% industry growth to FY30 is an issuer-commissioned estimate (pp. 73, 42, 245)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 11,
+        "pass": 2,
+        "open": 0
+      },
+      "focus_top": [
+        "Bonus issue / share-count consistency",
+        "Cash flow vs profit",
+        "Current vs deferred tax"
+      ],
+      "neutral": {
+        "dcf": 102.4129,
+        "relative": 630.2327,
+        "blended": 366.3228,
+        "upside_floor": 1.0058,
+        "upside_cap": 0.6209
       }
     },
     {

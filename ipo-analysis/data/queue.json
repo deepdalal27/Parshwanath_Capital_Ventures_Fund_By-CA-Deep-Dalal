@@ -1,15 +1,6 @@
 {
-  "last_scan": "2026-10-20T13:40Z",
+  "last_scan": "2026-10-21T13:40Z",
   "pending": [
-    {
-      "company": "Ekkaa Electronics (India) Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
-      "source": "SEBI",
-      "note": ""
-    },
     {
       "company": "Arohan Financial Services Limited",
       "platform": "Mainboard",
@@ -549,6 +540,33 @@
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/fusion-cx-limited-rhp_105257.html",
       "source": "SEBI",
       "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Hunger Pangs Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-21",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hunger-pangs-limited-drhp_105347.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Tablespace Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-21",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tablespace-technologies-limited-addendum-to-drhp_105343.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "HD Fire Protect Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-16",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-prospectus_105337.html",
+      "source": "SEBI",
+      "note": ""
     }
   ]
 }

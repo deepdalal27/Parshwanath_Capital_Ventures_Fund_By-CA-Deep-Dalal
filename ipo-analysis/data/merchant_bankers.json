@@ -195,6 +195,31 @@
    },
    "summary_source": "Jagatjit Agri Engineering DRHP p. 511",
    "as_of": "2026-09-25"
+  },
+  "Shannon Advisors Private Limited": {
+   "short": "SA",
+   "sebi_role": "Merchant banker (BRLM)",
+   "listed": null,
+   "owner": null,
+   "owner_source": "not sourced in this run: owner, shareholding and listing status to be added from MCA / exchange filings",
+   "summary": {
+    "FY2026-27": {
+     "ipos": 1,
+     "amount_rs_m": 5827.96
+    },
+    "FY2025-26": {
+     "ipos": 1,
+     "amount_rs_m": 310.46,
+     "d30_discount_25_50": 1,
+     "d180_discount_gt50": 1
+    },
+    "FY2024-25": {
+     "ipos": 0,
+     "amount_rs_m": 0
+    }
+   },
+   "summary_source": "Ekkaa Electronics DRHP p. 458",
+   "as_of": "2026-09-24"
   }
  },
  "issues": [
@@ -970,6 +995,42 @@
     "Keynote"
    ],
    "listing_source": "Jagatjit Agri Engineering DRHP p. 511 (BSE data)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Globtier Infotech Ltd (BSE SME)",
+   "sector": null,
+   "issue_size_rs_m": 310.46,
+   "issue_price": 72.0,
+   "listing_date": "2025-09-02",
+   "listing_open": 57.6,
+   "listing_gain_pct": -0.2,
+   "d30_pct": -0.3695,
+   "d90_pct": -0.4408,
+   "d180_pct": -0.5705,
+   "handled_by": [
+    "SA"
+   ],
+   "listing_source": "Ekkaa Electronics DRHP pp. 456-458 (exchange data per the offer document)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Skyways Air Services Ltd",
+   "sector": null,
+   "issue_size_rs_m": 5827.96,
+   "issue_price": 138.0,
+   "listing_date": "2026-09-01",
+   "listing_open": 124.0,
+   "listing_gain_pct": -0.1014,
+   "d30_pct": null,
+   "d90_pct": null,
+   "d180_pct": null,
+   "handled_by": [
+    "SA"
+   ],
+   "listing_source": "Ekkaa Electronics DRHP pp. 456-458 (exchange data per the offer document)",
    "financials_rs_cr": null,
    "current": null
   }
