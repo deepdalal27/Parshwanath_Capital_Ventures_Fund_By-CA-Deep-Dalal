@@ -1,0 +1,111 @@
+{
+  "slug": "bls-polymers-ltd",
+  "company": "BLS Polymers Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "filed_on": "2026-10-17",
+  "doc_date": "2026-10-17",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
+  "sector": "Polymer compounds for wires, cables and pipe coating",
+  "brlm": "Unistone Capital Private Limited",
+  "issue_size_cr": 255.0,
+  "price_band": "Rs 142-150 (press reports; exchange notice pending)",
+  "open_date": "2026-10-27",
+  "close_date": "2026-10-29",
+  "allotment_date": "2026-10-30",
+  "listing_date": "2026-11-03",
+  "lot_size": 100,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "call": "Avoid",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "files": {
+    "screening": "BLS_POLYMERS_LTD_01_Screening.xlsx",
+    "anchor": "BLS_POLYMERS_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "BLS_POLYMERS_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "BLS_POLYMERS_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 46.0736,
+      "relative": 90.7405,
+      "blended": 68.4071,
+      "upside_floor": -0.5183,
+      "upside_cap": -0.544
+    },
+    "neutral": {
+      "dcf": 72.212,
+      "relative": 90.7405,
+      "blended": 81.4762,
+      "upside_floor": -0.4262,
+      "upside_cap": -0.4568
+    },
+    "flags": [
+      "RED: objects floor sits above blended fair value",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 22.5 times its current free cash flow, in perpetuity.",
+    "objects_floor": 98.271,
+    "bull": {
+      "dcf": 101.7206,
+      "relative": 90.7405,
+      "blended": 96.2306,
+      "upside_floor": -0.3223,
+      "upside_cap": -0.3585
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 3,
+    "pass": 8,
+    "open": 4
+  },
+  "focus_top": [
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration",
+    "Monitoring agency"
+  ],
+  "analysed_on": "2026-10-22",
+  "business_stage": "Scaling (capacity expansion under way)",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6): Neutral value -45.7% and Bull value -35.9% against the Rs 150 upper band, so the Avoid limb applies on valuation. No material issue was found.",
+  "reference_note": "Upper band Rs 150 (press reports; exchange notice pending). At Rs 150: market cap Rs 930.48 cr post-issue; P/E 34.5x FY26 EPS on post-issue shares (25.0x pre-issue); P/B 2.66x post-issue; EV/EBITDA 17.3x FY26 operating EBITDA. Objects floor Rs 98.27 (capex + working capital over 1.70 crore fresh shares).",
+  "headline": "A profitable, cash-generative polymer compounder doubling capacity, priced at 34.5x FY26 earnings after the issue against a 14.5x peer median; our fair value is Rs 81 (Neutral) against Rs 150, because growth in the core manufactured business has been flat and the price already pays for the expansion.",
+  "red_flags": [
+    "Operating EBITDA margin 5.5% -> 9.7% -> 12.0% FY24-26 (14.5% in Q1 FY27); PAT Rs 7.52 cr -> Rs 27.01 cr; cumulative CFO 118% of PAT (pp. 85-86)",
+    "Capacity to rise from 35,251 to 87,301 MTPA (+148%) by FY28 from Rs 77.56 cr of proceeds; current utilisation 73-75% (pp. 123-124)",
+    "Manufactured revenue flat to lower (Rs 254 cr -> Rs 237 cr FY24-26); growth came from resin trading, 31.9% of FY26 revenue (pp. 33, 406, 408)",
+    "Top customer 31.7% of FY26 revenue; top supplier 71.7% of procurement; purchases from promoter-group trader Vinsul Makardi 9.3% of revenue (pp. 27, 39, 89)",
+    "At Rs 150: P/E 34.5x post-issue vs peer median 14.5x (DDev Plastiks 13.0x, Kingfa 46.3x); reported P/E is a fair measure (earnings-quality adjustments -2.8%)",
+    "Fair value Rs 68 / 81 / 96 (Bear / Neutral / Bull) vs Rs 150; objects floor Rs 98; issuer KPI EBITDA leaves other income in (Rs 46.60 cr vs Rs 41.90 cr operating)"
+  ],
+  "swot": {
+    "strengths": [
+      "Enlisted with Maharatna, Navratna and Miniratna CPSEs for cable and pipe-coating compounds; approvals take years (pp. 139, 249)",
+      "Operating EBITDA margin up from 5.54% to 11.99% FY24-26 and 14.46% in Q1 FY27 (p. 85)",
+      "Cumulative operating cash flow 118% of PAT FY24-26; cash tax 24.7% of PBT (pp. 85-86)",
+      "ROE 33.17% and ROCE 29.51% in FY26 (p. 144)",
+      "Debt/equity down from 2.05x (FY24) to 0.56x (FY26) (p. 144)"
+    ],
+    "weaknesses": [
+      "Manufactured polymer revenue Rs 254.42 cr -> Rs 237.00 cr FY24-26 (pp. 406, 408)",
+      "Resin trading 31.86% of FY26 revenue, at lower margins (p. 33)",
+      "Top customer 31.74% and top-10 66.81% of FY26 revenue (p. 27)",
+      "Top supplier 71.68% of raw-material procurement (p. 39)",
+      "Single plant at Goa (p. 123)"
+    ],
+    "opportunities": [
+      "Indian polymer compounding market USD 9.9 bn (2025) to USD 16.5 bn by 2031, ~9% CAGR (issuer-paid CRISIL report, p. 179)",
+      "Capacity +148% to 87,301 MTPA by FY28 (p. 124)",
+      "GCC distribution arrangement for exports to seven countries (p. 124)",
+      "Power-cable and gas-pipeline build-out (National Gas Grid, transmission) (pp. 160-246)"
+    ],
+    "threats": [
+      "Polyethylene price swings and dependence on a few petrochemical suppliers (p. 39)",
+      "Execution and cost-overrun risk on a 148% capacity addition (p. 29)",
+      "Export markets raising tariffs (Nigeria, Algeria) (p. 51)",
+      "Larger, better-capitalised compounders (Kingfa, DDev) (p. 141)"
+    ]
+  }
+}
