@@ -1,0 +1,103 @@
+{
+  "slug": "koolking-industries-india-ltd",
+  "company": "Koolking Industries India Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-23",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited-drhp_104848.html",
+  "sector": "HVAC components (brass and copper tubes and fittings for air-conditioner indoor and outdoor units, refrigeration lines)",
+  "brlm": "Keynote Financial Services",
+  "issue_size_cr": 335.33,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "PAT grew from Rs 76.70 m to Rs 332.06 m over FY24-FY26 at a 28.39% ROCE, but FY26 revenue growth slowed to 9.0% and operating cash flow was Rs -430.08 m as inventory rose to 116 days, so the RHP's H1 FY27 cash flow and the price band decide the case.",
+  "red_flags": [
+    "PAT Rs 76.70 m / 271.37 m / 332.06 m FY24-FY26; ROCE 28.39% and ROE 42.86% in FY26; cash tax 25.4% of cumulative PBT (pp. 86, 182)",
+    "Supplies eight of the top ten Indian HVAC makers; 96.91% of FY26 revenue from repeat customers; installed capacity up 50% in two years (pp. 174-175, 182)",
+    "Operating cash flow Rs +37.40 / -66.47 / -430.08 m against PAT; FY26 inventory days 116 vs 50 and borrowings Rs 1,532.11 m vs 658.75 m (pp. 87, 167)",
+    "Top-10 customers 89.71% of revenue (Amber 28.79%); Supplier 1 is 32.99% of expenses; no long-term supply contracts (pp. 24-26, 430)",
+    "Customs show-cause notice Rs 130.38 m (14.2% of net worth) at the Supreme Court; Rs 74.96 m FX loss on unhedged imports in FY26 (pp. 444, 461)",
+    "Rs 1,530.00 m of new units with no plant orders placed; peer P/Es run 19.08x to 141x, so the multiple method and the DCF are far apart (pp. 133-134, 179)"
+  ],
+  "status": "analysed",
+  "reference_note": "Rs 115.82 = FY26 basic EPS of Rs 6.07 x 19.08, the lowest P/E in the DRHP's own peer table (Elin Electronics, p. 179). It is a reference to size the model, not a price band and not a view of the right price. The only priced transaction in the DRHP is the 29-Jan-2024 transfer among shareholders at Rs 34.66 per Rs 10 share, Rs 5.78 after the bonus and split (p. 190).",
+  "swot": {
+    "strengths": [
+      "PAT Rs 76.70 m to Rs 332.06 m FY24-FY26; reported EBITDA margin 6.52% to 10.89% (p. 182)",
+      "Supplies eight of the top ten Indian HVAC makers; 96.91% of FY26 revenue from repeat customers; 108 customer audits in three years (pp. 174-175, 182)",
+      "Eligibility under Reg 6(1) reproduces: average operating profit Rs 366.37 m vs Rs 150 m (p. 475)",
+      "Cash tax 25.4% of cumulative PBT (p. 86)",
+      "Related-party trade small: purchases Rs 28.57 m, sales Rs 2.65 m in FY26 (p. 90)"
+    ],
+    "weaknesses": [
+      "Operating cash flow Rs -430.08 m in FY26; cumulative CFO/PAT -67.5% (p. 87)",
+      "Top-10 customers 89.71%; Amber Enterprises 28.79% (p. 24)",
+      "Top-10 suppliers 79.33%; Supplier 1 32.99%; 53.07% of raw material imported (pp. 21, 25)",
+      "Debt/equity 1.63x; borrowings Rs 1,778.11 m at 31-Jul-2026 (pp. 58, 449)",
+      "Auditor changed 20-Sep-2025; audit trail not enabled at database level through FY26 (pp. 59, 95)"
+    ],
+    "opportunities": [
+      "Addressable HVAC-component market Rs 34.8 bn growing 24.46% a year to FY30, issuer-commissioned (p. 137)",
+      "Three new units (Punjab, Andhra Pradesh, Rajasthan) and new lines in heat exchangers, sheet metal and service valves; land already acquired (pp. 137-138)",
+      "Air-conditioner volume 12.8 m units in FY27 to 16.7 m in FY30 (9.3% CAGR) per CARE (p. 174)",
+      "Installed capacity 279.86 m units (FY24) to 419.26 m units (FY26) (p. 182)"
+    ],
+    "threats": [
+      "Customs show-cause notice of Rs 130.38 m, appeal pending at the Supreme Court (p. 461)",
+      "Unhedged import exposure: Rs 74.96 m FX loss in FY26 (p. 444)",
+      "Copper and brass price volatility; no long-term supply contracts described (pp. 25, 442)",
+      "Amber and KRN are both large customers and named listed peers (pp. 24, 179)",
+      "Government localisation policy and import-duty changes affect demand (p. 137)"
+    ]
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "files": {
+    "screening": "KOOLKING_INDUSTRIES_INDI_01_Screening.xlsx",
+    "anchor": "KOOLKING_INDUSTRIES_INDI_02_Anchor_QIB.xlsx",
+    "valuation": "KOOLKING_INDUSTRIES_INDI_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "KOOLKING_INDUSTRIES_INDI_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 21.7652,
+      "relative": 353.7385,
+      "blended": 187.7519,
+      "upside_floor": 0.6211,
+      "upside_cap": 0.6211
+    },
+    "neutral": {
+      "dcf": 47.7553,
+      "relative": 353.7385,
+      "blended": 200.7469,
+      "upside_floor": 0.7333,
+      "upside_cap": 0.7333
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -86.5% - the divergence is the finding; name its cause",
+      "DEGENERATE: TV above 100% of EV - fix assumptions, do not report"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 82.326,
+      "relative": 353.7385,
+      "blended": 218.0323,
+      "upside_floor": 0.8825,
+      "upside_cap": 0.8825
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 7,
+    "pass": 7,
+    "open": 0
+  },
+  "analysed_on": "2026-10-22"
+}

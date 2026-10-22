@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T08:04Z",
+  "updated": "2026-10-22T13:46Z",
   "issuers": [
     {
       "slug": "bls-polymers-ltd",
@@ -89,6 +89,141 @@
         "blended": 515.0998,
         "upside_floor": -0.2254,
         "upside_cap": -0.2641
+      }
+    },
+    {
+      "slug": "ekkaa-electronics-india-ltd",
+      "company": "Ekkaa Electronics (India) Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-21",
+      "sector": "Consumer electronics and appliances ODM/OEM (LED televisions, washing machines, coolers, speakers, cooktops)",
+      "brlm": "Motilal Oswal Investment Advisors; Shannon Advisors",
+      "issue_size_cr": 725,
+      "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
+      "call": "Screen only",
+      "headline": "Revenue reached Rs 1,221.8 cr in FY26 (pro-forma Rs 1,263.1 cr, +78%) at a 9.4% EBITDA margin and 18.0% ROCE, but operating cash flow has been negative in each of the three years (Rs -108.1 cr in total) and net debt is 2.6x EBITDA; the peer-multiple and cash-flow methods give values far apart, so the price band and H1 FY27 decide the case.",
+      "red_flags": [
+        "Revenue Rs 0.07 cr, Rs 496.5 cr, Rs 1,221.8 cr (FY24-26); pro-forma FY26 Rs 1,263.1 cr, +78.1%; EBITDA margin 9.37%, ROCE 18.0% (pp. 74, 137)",
+        "Operating cash flow Rs -15.3 cr, -64.1 cr, -28.7 cr in FY24-26 against cumulative PAT of Rs 84.9 cr; receivables up Rs 97.3 cr and inventory Rs 38.9 cr in FY26 (p. 75)",
+        "Top 5 customers 52.4% and top 10 65.8% of FY26 revenue; top supplier 46.9% of purchases; imports 76.2% of raw materials (pp. 23, 29, 41)",
+        "FY25's largest customer (21.0% of revenue, Rs 104.3 cr) was the promoter-owned Ekkaa Electronics Industries, acquired on 29-Aug-2025; its sales were still 6.2% of FY26 revenue (pp. 78-80, 274)",
+        "Rs 525 cr fresh issue: Rs 225 cr repays loans and Rs 150 cr funds working capital; the Rs 200 cr offer for sale pays two promoters (WACA Rs 19.87 and Rs 17.53) (pp. 1, 119-120)",
+        "Net debt Rs 296.0 cr (2.58x EBITDA); borrowings Rs 396.1 cr by 31-Jul-2026 against Rs 308.8 cr at 31-Mar-2026; 19.9% industry growth to FY30 is an issuer-commissioned estimate (pp. 73, 42, 245)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 11,
+        "pass": 2,
+        "open": 0
+      },
+      "focus_top": [
+        "Bonus issue / share-count consistency",
+        "Cash flow vs profit",
+        "Current vs deferred tax"
+      ],
+      "neutral": {
+        "dcf": 102.4129,
+        "relative": 630.2327,
+        "blended": 366.3228,
+        "upside_floor": 1.0058,
+        "upside_cap": 0.6209
+      }
+    },
+    {
+      "slug": "jagatjit-agri-engineering-ltd",
+      "company": "Jagatjit Agri Engineering Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-20",
+      "sector": "Agricultural implements (Super Seeders, straw reapers, rotavators, laser levellers, biomass machines)",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 300,
+      "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
+      "call": "Screen only",
+      "headline": "Proforma revenue grew 63% in FY26 to Rs 414.0 cr with an EBITDA margin of 13.5%, but the business only combined on 1-Apr-2025, one customer is 25% of revenue and FY26 operating cash flow was 8.6% of PAT as stock built up; at the Rs 155.78 peer-median reference the price asks for a continuation of that growth.",
+      "red_flags": [
+        "Proforma revenue Rs 253.8 cr to Rs 414.0 cr (+63.1%); EBITDA Rs 36.8 cr to Rs 55.7 cr; PAT Rs 20.7 cr to Rs 31.4 cr (pp. 92, 158)",
+        "Promoters' two proprietorships were taken over on 1-Apr-2025 at carrying value; restated FY25 (Rs 95.9 cr) is not comparable with FY26 (pp. 247, 387)",
+        "Seth Agro Industries is 25.21% of FY26 revenue; top 10 customers 50.04%; top supplier only 7.94% (pp. 261, 39)",
+        "FY26 CFO Rs 2.7 cr vs PAT Rs 31.4 cr; finished goods Rs 43.2 cr vs Rs 1.9 cr; cumulative CFO/PAT 69.7% (pp. 88, 474)",
+        "Rs 300 cr fresh issue: 66.7% identified (Rs 110 cr working capital, Rs 71.7 cr capex on promoter-leased land, Rs 18.5 cr debt); no capex order placed (pp. 124, 129)",
+        "Net debt Rs 119.4 cr (2.14x EBITDA); borrowings Rs 164.1 cr by 31-Aug-2026; subsidy-linked demand and Q4 seasonality (pp. 56, 34)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 7,
+        "pass": 6,
+        "open": 0
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 69.1685,
+        "relative": 121.3862,
+        "blended": 95.2774,
+        "upside_floor": -0.3884,
+        "upside_cap": -0.3884
+      }
+    },
+    {
+      "slug": "koolking-industries-india-ltd",
+      "company": "Koolking Industries India Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-22",
+      "sector": "HVAC components (brass and copper tubes and fittings for air-conditioner indoor and outdoor units, refrigeration lines)",
+      "brlm": "Keynote Financial Services",
+      "issue_size_cr": 335.33,
+      "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
+      "call": "Screen only",
+      "headline": "PAT grew from Rs 76.70 m to Rs 332.06 m over FY24-FY26 at a 28.39% ROCE, but FY26 revenue growth slowed to 9.0% and operating cash flow was Rs -430.08 m as inventory rose to 116 days, so the RHP's H1 FY27 cash flow and the price band decide the case.",
+      "red_flags": [
+        "PAT Rs 76.70 m / 271.37 m / 332.06 m FY24-FY26; ROCE 28.39% and ROE 42.86% in FY26; cash tax 25.4% of cumulative PBT (pp. 86, 182)",
+        "Supplies eight of the top ten Indian HVAC makers; 96.91% of FY26 revenue from repeat customers; installed capacity up 50% in two years (pp. 174-175, 182)",
+        "Operating cash flow Rs +37.40 / -66.47 / -430.08 m against PAT; FY26 inventory days 116 vs 50 and borrowings Rs 1,532.11 m vs 658.75 m (pp. 87, 167)",
+        "Top-10 customers 89.71% of revenue (Amber 28.79%); Supplier 1 is 32.99% of expenses; no long-term supply contracts (pp. 24-26, 430)",
+        "Customs show-cause notice Rs 130.38 m (14.2% of net worth) at the Supreme Court; Rs 74.96 m FX loss on unhedged imports in FY26 (pp. 444, 461)",
+        "Rs 1,530.00 m of new units with no plant orders placed; peer P/Es run 19.08x to 141x, so the multiple method and the DCF are far apart (pp. 133-134, 179)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited-drhp_104848.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 7,
+        "pass": 7,
+        "open": 0
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 47.7553,
+        "relative": 353.7385,
+        "blended": 200.7469,
+        "upside_floor": 0.7333,
+        "upside_cap": 0.7333
       }
     },
     {

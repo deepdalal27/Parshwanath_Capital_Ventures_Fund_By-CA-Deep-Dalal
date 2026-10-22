@@ -1,0 +1,102 @@
+{
+  "slug": "ekkaa-electronics-india-ltd",
+  "company": "Ekkaa Electronics (India) Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-24",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
+  "sector": "Consumer electronics and appliances ODM/OEM (LED televisions, washing machines, coolers, speakers, cooktops)",
+  "brlm": "Motilal Oswal Investment Advisors; Shannon Advisors",
+  "issue_size_cr": 725,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "Revenue reached Rs 1,221.8 cr in FY26 (pro-forma Rs 1,263.1 cr, +78%) at a 9.4% EBITDA margin and 18.0% ROCE, but operating cash flow has been negative in each of the three years (Rs -108.1 cr in total) and net debt is 2.6x EBITDA; the peer-multiple and cash-flow methods give values far apart, so the price band and H1 FY27 decide the case.",
+  "red_flags": [
+    "Revenue Rs 0.07 cr, Rs 496.5 cr, Rs 1,221.8 cr (FY24-26); pro-forma FY26 Rs 1,263.1 cr, +78.1%; EBITDA margin 9.37%, ROCE 18.0% (pp. 74, 137)",
+    "Operating cash flow Rs -15.3 cr, -64.1 cr, -28.7 cr in FY24-26 against cumulative PAT of Rs 84.9 cr; receivables up Rs 97.3 cr and inventory Rs 38.9 cr in FY26 (p. 75)",
+    "Top 5 customers 52.4% and top 10 65.8% of FY26 revenue; top supplier 46.9% of purchases; imports 76.2% of raw materials (pp. 23, 29, 41)",
+    "FY25's largest customer (21.0% of revenue, Rs 104.3 cr) was the promoter-owned Ekkaa Electronics Industries, acquired on 29-Aug-2025; its sales were still 6.2% of FY26 revenue (pp. 78-80, 274)",
+    "Rs 525 cr fresh issue: Rs 225 cr repays loans and Rs 150 cr funds working capital; the Rs 200 cr offer for sale pays two promoters (WACA Rs 19.87 and Rs 17.53) (pp. 1, 119-120)",
+    "Net debt Rs 296.0 cr (2.58x EBITDA); borrowings Rs 396.1 cr by 31-Jul-2026 against Rs 308.8 cr at 31-Mar-2026; 19.9% industry growth to FY30 is an issuer-commissioned estimate (pp. 73, 42, 245)"
+  ],
+  "status": "analysed",
+  "reference_note": "Upside is shown against a range, not a price band: floor Rs 182.63 = Series B CCPS price paid in cash by Abakkus Four2eight Opportunities Fund on 17-Jul-2026 (Rs 100.0 cr, post split and bonus; p. 142); cap Rs 226.00 = the price of the promoters' secondary transfers on 10 to 21-Sep-2026, the latest priced transactions in the DRHP (pp. 102-104). Both are assumptions for a screen, not a band. The call rule uses the cap. The peer-median P/E of 121.5x (Dixon 48.6x, Amber 139.5x, PG Electroplast 121.5x, p. 135) is not used to set the reference.",
+  "swot": {
+    "strengths": [
+      "Revenue Rs 1,221.8 cr in FY26, pro-forma +78.1%, from Rs 0.07 cr in FY24 (pp. 74, 137)",
+      "EBITDA margin 9.37%, ROCE 18.0%, ROE 45.1%; interest cover 3.6x on EBIT Rs 100.9 cr (pp. 74, 137)",
+      "Installed capacity 5.20 m units, LED TV 2.82 m; about 5.5% share of Indian LED TV volume (pp. 245, 247)",
+      "Six product lines; non-LED TV products are 28.2% of revenue (p. 244)",
+      "Series B of Rs 100 cr from a Category I/II AIF in Jul-2026; litigation limited to a Rs 93,433 wage claim and Rs 0.99 m of tax matters (pp. 106, 142, 434-435)"
+    ],
+    "weaknesses": [
+      "Operating cash flow Rs -108.1 cr over FY24-26; 52.8% of receivables past due (pp. 75, 337)",
+      "Top 5 customers 52.4% of revenue; top supplier 46.9% of purchases; imports 76.2% (pp. 23, 29, 41)",
+      "Net debt Rs 296.0 cr, 2.58x EBITDA; 63% of FY26 borrowings are current (p. 73)",
+      "LED TVs are 71.8% of revenue; Noida TV line ran at 55.6% utilisation (pp. 244, 250)",
+      "Acquired subsidiary EEIPL lost Rs 5.75 cr in FY26 (EBITDA Rs -9.02 cr) (p. 138)"
+    ],
+    "opportunities": [
+      "Consumer-durables ODM market Rs 24,900 cr in FY26 to Rs 51,380 cr in FY30 (19.9% CAGR), issuer-commissioned (p. 245)",
+      "Unused capacity: 2.38 m units outside LED TVs, with cooktops at 10.5% and speakers at 2.3% utilisation (p. 250)",
+      "Ganaur cooler plant commissioned Jan-2026; blower coolers and fully automatic washers planned (pp. 243, 257)",
+      "Rs 225 cr of proceeds retires term loans at 7.15% to 9.35% and cash credit at repo + 2.5% to 3.75% (pp. 122-124)"
+    ],
+    "threats": [
+      "No long-term contracts with suppliers; raw materials are bought order by order, and the top supplier is 46.9% of purchases (pp. 29-30)",
+      "Rupee: unrealised exchange loss Rs 10.1 cr in FY26 with 76.2% of materials imported (pp. 41, 75)",
+      "Import-restriction risk on open cells, PCBs and motors (p. 41)",
+      "Listed peers are 4 to 40 times the issuer's revenue (Dixon Rs 48,873 cr against Rs 1,222 cr) (p. 135)"
+    ]
+  },
+  "focus_top": [
+    "Bonus issue / share-count consistency",
+    "Cash flow vs profit",
+    "Current vs deferred tax"
+  ],
+  "files": {
+    "screening": "EKKAA_ELECTRONICS_INDIA__01_Screening.xlsx",
+    "anchor": "EKKAA_ELECTRONICS_INDIA__02_Anchor_QIB.xlsx",
+    "valuation": "EKKAA_ELECTRONICS_INDIA__03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "EKKAA_ELECTRONICS_INDIA__Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 53.2999,
+      "relative": 630.2327,
+      "blended": 341.7663,
+      "upside_floor": 0.8714,
+      "upside_cap": 0.5122
+    },
+    "neutral": {
+      "dcf": 102.4129,
+      "relative": 630.2327,
+      "blended": 366.3228,
+      "upside_floor": 1.0058,
+      "upside_cap": 0.6209
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -83.7% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 151.7287,
+      "relative": 630.2327,
+      "blended": 390.9807,
+      "upside_floor": 1.1408,
+      "upside_cap": 0.73
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 11,
+    "pass": 2,
+    "open": 0
+  },
+  "analysed_on": "2026-10-21"
+}

@@ -1,24 +1,6 @@
 {
-  "last_scan": "2026-10-08T00:00Z",
+  "last_scan": "2026-10-22T13:40Z",
   "pending": [
-    {
-      "company": "Jagatjit Agri Engineering Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
-      "source": "SEBI",
-      "note": ""
-    },
-    {
-      "company": "Ekkaa Electronics (India) Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
-      "source": "SEBI",
-      "note": ""
-    },
     {
       "company": "Arohan Financial Services Limited",
       "platform": "Mainboard",
@@ -27,15 +9,6 @@
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arohan-financial-services-limited-addendum-to-drhp_104860.html",
       "source": "SEBI",
       "note": ""
-    },
-    {
-      "company": "Koolking Industries (India) Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/koolking-industries-india-limited_104848.html",
-      "source": "SEBI",
-      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
     },
     {
       "company": "Sai Infinium Limited",
@@ -457,6 +430,132 @@
       "stage": "DRHP",
       "filed_on": "2026-10-01",
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/kian-m-export-limited-drhp_104874.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Paramotor Digital Technology Limited",
+      "platform": "Mainboard",
+      "stage": "UDRHP-I",
+      "filed_on": "2026-10-14",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/paramotor-digital-technology-limited-udrhp-i_105258.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Soleos Energy Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-13",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/soleos-energy-limited-drhp_105196.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "OSWAL CABLES LIMITED",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-12",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/oswal-cables-limited-addendum-to-drhp_105234.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Matangi Rubber Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-10",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/matangi-rubber-limited-addendum-to-the-drhp_105143.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "BLS Polymers Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-19",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
+      "source": "SEBI",
+      "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Zetwerk Manufacturing Businesses Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-19",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/zetwerk-manufacturing-businesses-limited-addendum-to-rhp_105325.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Paras Healthcare Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-15",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/paras-healthcare-limited-rhp_105284.html",
+      "source": "SEBI",
+      "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Jio Platforms Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-15",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jio-platforms-limited-rhp_105274.html",
+      "source": "SEBI",
+      "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Zetwerk Manufacturing Businesses Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-13",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/zetwerk-manufacturing-businesses-limited-rhp_105195.html",
+      "source": "SEBI",
+      "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Sahajanand Medical technologies Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-10",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sahajanand-medical-technologies-limited-rhp_105149.html",
+      "source": "SEBI",
+      "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Fusion CX Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-09",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/fusion-cx-limited-rhp_105257.html",
+      "source": "SEBI",
+      "note": "RHPs for issues opening in the next 5 working days are covered by the opening-day routine"
+    },
+    {
+      "company": "Hunger Pangs Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-21",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hunger-pangs-limited-drhp_105347.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "Tablespace Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "Addendum",
+      "filed_on": "2026-10-21",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tablespace-technologies-limited-addendum-to-drhp_105343.html",
+      "source": "SEBI",
+      "note": ""
+    },
+    {
+      "company": "HD Fire Protect Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-16",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-prospectus_105337.html",
       "source": "SEBI",
       "note": ""
     }
