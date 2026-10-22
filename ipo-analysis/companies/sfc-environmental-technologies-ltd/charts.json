@@ -1,0 +1,1064 @@
+{
+ "slug": "sfc-environmental-technologies-ltd",
+ "company": "SFC Environmental Technologies Limited",
+ "generated": "2026-10-22T08:03Z",
+ "kpis": [
+  {
+   "label": "Revenue FY25",
+   "value": 697.858,
+   "fmt": "cr",
+   "sub": "CAGR FY23-FY25",
+   "subval": 0.1591,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY25",
+   "value": 144.06,
+   "fmt": "cr",
+   "sub": "CAGR FY23-FY25",
+   "subval": 0.2387,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.2973,
+   "fmt": "pct",
+   "sub": "FY23",
+   "subval": 0.2389,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 0.2219,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.261,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 35.6,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 34.5676,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 37.55,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 35.6,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 330.4897,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.3799,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 533.0,
+   "fmt": "rs",
+   "sub": "Illustrative reference Rs 533 = the DRHP's own peer-median P/E (34.57x, Praj Industries, 14-Aug-2025 prices) x FY25 EPS Rs 15.42 (p. 168). It is not a price band. The last private price was Rs 225 per share in Apr-2024 secondary transfers, Rs 75 after the 2:1 bonus (p. 173); selling shareholders' average cost is mostly Rs 36.72 (p. 45)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Cash flow vs profit",
+   "detail": "Operating cash flow Rs 30.39 cr / -11.69 cr / 65.51 cr FY23-25 against PAT Rs 94.81 / 144.17 / 152.01 cr: cumulative CFO/PAT about 22% (owners' PAT basis). Working capital rose from 27.8% to 63.5% of revenue as receivable days went 158 -> 197 -> 262. FY25 cash flow recovered as collections improved; typical of a technology supplier paid on municipal STP project milestones, but the trend is the key thing to track.",
+   "page": "pp. 34, 368"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities tiny (Rs 0.02 cr), but subsidiary SFC Umwelttechnik GmbH faces a EUR 5.60 m (Rs 56.75 cr, 8.7% of FY25 net worth) liquidated-damages suit in Portugal over a 2018 STP supply; defence filed 28-Oct-2024, pending.",
+   "page": "pp. 33, 508"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "G B C A & Associates LLP audit with no qualifications; two overseas subsidiaries (FY25 assets Rs 23.02 cr, revenue Rs 20.07 cr) are consolidated on unaudited, management-certified accounts. Small, but should be audited by the RHP.",
+   "page": "pp. 356-358"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -66.9% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "No price band, issue dates or RHP yet (SEBI observation 12-Dec-2025, valid about 12 months)",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Audited numbers end 31-Mar-2025 (570 days old); FY26 results not in the document",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Outcome of the Goa SPCB show-cause notice (16-Jul-2025) and the FIR (21-Aug-2025) against subsidiary HWTPL over effluent discharge at the North Goa plant",
+   "page": "RHP litigation update"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Provisioning, if any, for the EUR 5.60 m Portugal claim against SFC Umwelttechnik GmbH",
+   "page": "Issuer / RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Capex and funding plan for the Rs 501.70 cr CBG plants (Tinsukia, Bhubaneswar) won by HWTPL in Apr-May 2025",
+   "page": "RHP / management"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "1:5 split (05-Sep-2024) and 2:1 bonus (05-Sep-2024) are reflected: EPS 10.05 / 15.16 / 15.42 FY23-25 are on the post-bonus count of 9,34,11,270 shares.",
+   "page": "pp. 43-46, 119"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax 26.1% of cumulative FY23-25 PBT; income tax paid Rs 135.80 cr over three years. Profit is taxed in cash.",
+   "page": "pp. 364, 368"
+  },
+  {
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Related-party dealings outside the group are small (Turbomax India purchases Rs 1.58 cr FY25). Large intra-group loans to SWT subsidiaries (Vasudha, HWTPL, Pentagen) are eliminated on consolidation. Dividends Rs 31.14 cr paid in FY25.",
+   "page": "pp. 34-36"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "Goodwill Rs 2.81 cr; other intangibles Rs 7.26 cr are service-concession rights acquired with a subsidiary in Oct-2023, amortised Rs 5.57 cr a year - not capitalised development costs.",
+   "page": "pp. 362, 402"
+  },
+  {
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Top customer 16.76% and top-10 61.37% of FY25 revenue (EPC contractors building municipal STPs); top-10 suppliers 47.71% of purchases. Usual for a project-linked technology supplier.",
+   "page": "pp. 48, 54"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Fresh issue Rs 150 cr: a monitoring agency is mandatory above Rs 50 cr; to be named in the RHP.",
+   "page": "p. 151"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 43-46, 119",
+   "finding": "1:5 split (05-Sep-2024) and 2:1 bonus (05-Sep-2024) are reflected: EPS 10.05 / 15.16 / 15.42 FY23-25 are on the post-bonus count of 9,34,11,270 shares."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "WATCH",
+   "page": "pp. 34, 368",
+   "finding": "Operating cash flow Rs 30.39 cr / -11.69 cr / 65.51 cr FY23-25 against PAT Rs 94.81 / 144.17 / 152.01 cr: cumulative CFO/PAT about 22% (owners' PAT basis). Working capital rose from 27.8% to 63.5% of revenue as receivable days went 158 -> 197 -> 262. FY25 cash flow recovered as collections improved; typical of a technology supplier paid on municipal STP project milestones, but the trend is the key thing to track."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "pp. 364, 368",
+   "finding": "Current tax 26.1% of cumulative FY23-25 PBT; income tax paid Rs 135.80 cr over three years. Profit is taxed in cash."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "PASS",
+   "page": "pp. 34-36",
+   "finding": "Related-party dealings outside the group are small (Turbomax India purchases Rs 1.58 cr FY25). Large intra-group loans to SWT subsidiaries (Vasudha, HWTPL, Pentagen) are eliminated on consolidation. Dividends Rs 31.14 cr paid in FY25."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 151-152",
+   "finding": "Fresh issue is amount-based (Rs 150 cr), no fixed share count. Rs 47.46 cr repays debt (company and Vasudha Waste Treatment), Rs 69.67 cr funds working capital, balance GCP (cap 25%) and expenses. No capex object."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "pp. 362, 402",
+   "finding": "Goodwill Rs 2.81 cr; other intangibles Rs 7.26 cr are service-concession rights acquired with a subsidiary in Oct-2023, amortised Rs 5.57 cr a year - not capitalised development costs."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "PASS",
+   "page": "pp. 48, 54",
+   "finding": "Top customer 16.76% and top-10 61.37% of FY25 revenue (EPC contractors building municipal STPs); top-10 suppliers 47.71% of purchases. Usual for a project-linked technology supplier."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "pp. 33, 508",
+   "finding": "Contingent liabilities tiny (Rs 0.02 cr), but subsidiary SFC Umwelttechnik GmbH faces a EUR 5.60 m (Rs 56.75 cr, 8.7% of FY25 net worth) liquidated-damages suit in Portugal over a 2018 STP supply; defence filed 28-Oct-2024, pending."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "pp. 356-358",
+   "finding": "G B C A & Associates LLP audit with no qualifications; two overseas subsidiaries (FY25 assets Rs 23.02 cr, revenue Rs 20.07 cr) are consolidated on unaudited, management-certified accounts. Small, but should be audited by the RHP."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "p. 151",
+   "finding": "Fresh issue Rs 150 cr: a monitoring agency is mandatory above Rs 50 cr; to be named in the RHP."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "N.A.",
+   "page": "cover",
+   "finding": "Mainboard issue under Reg 6(1)."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "p. 529",
+   "finding": "BRLMs IIFL Capital, JM Financial and Nuvama: IIFL and JM track records are in the desk database; Nuvama not yet compiled."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "N.A.",
+   "page": "p. 151",
+   "finding": "No capex object."
+  }
+ ],
+ "history": {
+  "years": [
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "revenue": [
+   519.447,
+   657.495,
+   697.858
+  ],
+  "ebitda": [
+   124.072,
+   193.254,
+   207.48
+  ],
+  "pat": [
+   93.881,
+   141.607,
+   144.06
+  ],
+  "cfo": [
+   30.391,
+   -11.694,
+   65.509
+  ],
+  "ebitda_margin": [
+   0.2389,
+   0.2939,
+   0.2973
+  ],
+  "pat_margin": [
+   0.1807,
+   0.2154,
+   0.2064
+  ],
+  "inventory": [
+   73.808,
+   108.408,
+   97.583
+  ],
+  "receivables": [
+   238.238,
+   394.514,
+   487.371
+  ],
+  "payables": [
+   107.772,
+   110.714,
+   93.17
+  ],
+  "nwc": [
+   204.27,
+   392.21,
+   491.78
+  ],
+  "nwc_pct": [
+   0.3932,
+   0.5965,
+   0.7047
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 533.0,
+  "floor": 533.0,
+  "cap": 533.0,
+  "reference_note": "Illustrative reference Rs 533 = the DRHP's own peer-median P/E (34.57x, Praj Industries, 14-Aug-2025 prices) x FY25 EPS Rs 15.42 (p. 168). It is not a price band. The last private price was Rs 225 per share in Apr-2024 secondary transfers, Rs 75 after the 2:1 bonus (p. 173); selling shareholders' average cost is mostly Rs 36.72 (p. 45).",
+  "scenarios": {
+   "bear": {
+    "dcf": 110.9673,
+    "relative": 496.5394,
+    "blended": 303.7534,
+    "upside_floor": -0.4301,
+    "upside_cap": -0.4301
+   },
+   "neutral": {
+    "dcf": 164.4399,
+    "relative": 496.5394,
+    "blended": 330.4897,
+    "upside_floor": -0.3799,
+    "upside_cap": -0.3799
+   },
+   "bull": {
+    "dcf": 219.6349,
+    "relative": 496.5394,
+    "blended": 358.0872,
+    "upside_floor": -0.3282,
+    "upside_cap": -0.3282
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1431,
+  "tv_share": 0.7435,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 168.6 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.13632915448708294,
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.051198517861822945,
+     "actual": 0.1431
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 1.1423759796636817,
+     "actual": 0.2717
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.7047
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   697.858,
+   781.601,
+   898.8411,
+   1033.6673,
+   1157.7073,
+   1273.4781
+  ],
+  "ebitda": [
+   207.48,
+   218.8483,
+   251.6755,
+   289.4268,
+   324.1581,
+   356.5739
+  ],
+  "nopat": [
+   141.9069,
+   148.8117,
+   171.1334,
+   196.8035,
+   220.4199,
+   242.4619
+  ],
+  "fcff": [
+   29.2219,
+   144.4373,
+   62.7124,
+   72.1192,
+   105.7104,
+   135.3997
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1231,
+    0.1331,
+    0.1431,
+    0.1531,
+    0.1631
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     196.3712,
+     200.8877,
+     205.9376,
+     211.6302,
+     218.1074
+    ],
+    [
+     176.1747,
+     179.3145,
+     182.7726,
+     186.6063,
+     190.8879
+    ],
+    [
+     159.8303,
+     162.039,
+     164.4399,
+     167.0642,
+     169.9498
+    ],
+    [
+     146.3531,
+     147.9148,
+     149.5925,
+     151.4029,
+     153.3664
+    ],
+    [
+     135.0663,
+     136.1688,
+     137.3397,
+     138.588,
+     139.9244
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.54,
+    0.57,
+    0.6,
+    0.63,
+    0.66
+   ],
+   "cols": [
+    0.26,
+    0.27,
+    0.28,
+    0.29,
+    0.3
+   ],
+   "values": [
+    [
+     156.9878,
+     163.8183,
+     170.6488,
+     177.4794,
+     184.3099
+    ],
+    [
+     153.8833,
+     160.7138,
+     167.5444,
+     174.3749,
+     181.2055
+    ],
+    [
+     150.7789,
+     157.6094,
+     164.4399,
+     171.2705,
+     178.101
+    ],
+    [
+     147.6744,
+     154.505,
+     161.3355,
+     168.166,
+     174.9966
+    ],
+    [
+     144.57,
+     151.4005,
+     158.2311,
+     165.0616,
+     171.8921
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Thermax Ltd",
+   "pe": 58.1318,
+   "pb": 7.4706,
+   "issuer": false
+  },
+  {
+   "name": "Praj Industries Ltd",
+   "pe": 34.5676,
+   "pb": 5.4769,
+   "issuer": false
+  },
+  {
+   "name": "Ion Exchange (India) Ltd",
+   "pe": 24.6121,
+   "pb": 5.2386,
+   "issuer": false
+  },
+  {
+   "name": "SFC Environmental Technologies Limited at reference",
+   "pe": 35.602,
+   "pb": 6.4216,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 14.9985
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 3.0015
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 27.0
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 30.0
+   },
+   {
+    "label": "Non-institutional",
+    "value": 22.5
+   },
+   {
+    "label": "Retail",
+    "value": 52.5
+   }
+  ],
+  "issue_cr": 150.0,
+  "overhang": [
+   {
+    "label": "Pre-issue non-promoter shareholders (other than OFS shares)",
+    "shares_lakh": 388.16,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter and promoter-group holding above 20% of post-issue capital",
+    "shares_lakh": 230.43,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Promoters' minimum contribution (20% of post-issue capital)",
+    "shares_lakh": 192.45,
+    "days": 540,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "JM Financial Limited",
+    "owner": "Promoted by the Kampani family: J M Financial & Investment Consultancy Services Pvt Ltd 24.77%, Nimesh Kampani 13.11%, J M Assets Management Pvt Ltd 11.36%, Aruna Kampani 2.82%, SNK Investments 1.95%, Vishal Kampani 1.36%; promoter group about 57% (June 2026)",
+    "listed": "Yes (NSE: JMFINANCIL)",
+    "summary": {
+     "FY2026-27": {
+      "ipos": 19,
+      "amount_rs_m": 546659.65,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 3,
+      "d30_premium_25_50": 1,
+      "d30_premium_lt25": 4
+     },
+     "FY2025-26": {
+      "ipos": 27,
+      "amount_rs_m": 675324.16,
+      "d30_discount_gt50": 1,
+      "d30_discount_25_50": 1,
+      "d30_discount_lt25": 10,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 9,
+      "d180_discount_25_50": 4,
+      "d180_discount_lt25": 8,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 6
+     },
+     "FY2024-25": {
+      "ipos": 13,
+      "amount_rs_m": 255434.1,
+      "d30_discount_lt25": 5,
+      "d30_premium_gt50": 5,
+      "d30_premium_25_50": 2,
+      "d30_premium_lt25": 1,
+      "d180_discount_gt50": 1,
+      "d180_discount_25_50": 3,
+      "d180_discount_lt25": 1,
+      "d180_premium_gt50": 4,
+      "d180_premium_25_50": 1,
+      "d180_premium_lt25": 2
+     }
+    },
+    "short": "JM"
+   },
+   {
+    "name": "IIFL Capital Services Limited",
+    "owner": "Promoter group led by the IIFL founders; shareholding percentages not sourced in this run",
+    "listed": "Yes (formerly IIFL Securities Limited) - listing status per secondary sources, unverified",
+    "summary": {
+     "FY2024-25": {
+      "ipos": 16,
+      "amount_rs_m": 481737.17,
+      "d30_discount_lt25": 1,
+      "d30_premium_gt50": 6,
+      "d30_premium_25_50": 4,
+      "d30_premium_lt25": 5,
+      "d180_discount_25_50": 2,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 4,
+      "d180_premium_lt25": 4
+     },
+     "FY2025-26": {
+      "ipos": 29,
+      "amount_rs_m": 710091.04,
+      "d30_discount_25_50": 2,
+      "d30_discount_lt25": 9,
+      "d30_premium_gt50": 1,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 11,
+      "d180_discount_25_50": 6,
+      "d180_discount_lt25": 6,
+      "d180_premium_gt50": 5,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 8
+     },
+     "FY2026-27": {
+      "ipos": 19,
+      "amount_rs_m": 420721.21,
+      "d30_discount_lt25": 4,
+      "d30_premium_gt50": 2,
+      "d30_premium_25_50": 2,
+      "d180_premium_25_50": 1
+     }
+    },
+    "short": "IIFL"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "National Stock Exchange of India Ltd",
+    "sector": "Stock exchange / market infrastructure",
+    "listing_gain": 0.0084,
+    "d30": null,
+    "rev_growth": 0.1232,
+    "pat_growth": 0.2256,
+    "listing_date": "2026-09-24"
+   },
+   {
+    "issuer": "Hero Motors Ltd",
+    "sector": "Auto components / EV powertrain",
+    "listing_gain": -0.0226,
+    "d30": null,
+    "rev_growth": 0.1165,
+    "pat_growth": 1.4175,
+    "listing_date": "2026-09-23"
+   },
+   {
+    "issuer": "Karamtara Engineering Ltd",
+    "sector": "Transmission towers & solar structures",
+    "listing_gain": 0.2598,
+    "d30": null,
+    "rev_growth": 0.778,
+    "pat_growth": 1.2284,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Asset Reconstruction Company (India) Ltd",
+    "sector": "Asset reconstruction / financial services",
+    "listing_gain": 0.0,
+    "d30": null,
+    "rev_growth": 0.3208,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Lumino Industries Ltd",
+    "sector": "Power conductors & cables",
+    "listing_gain": 0.3415,
+    "d30": null,
+    "rev_growth": 0.4504,
+    "pat_growth": 0.8476,
+    "listing_date": "2026-09-03"
+   },
+   {
+    "issuer": "Symbiotec Pharmalab Ltd",
+    "sector": "Pharma APIs (steroids & hormones)",
+    "listing_gain": -0.0099,
+    "d30": null,
+    "rev_growth": 0.2135,
+    "pat_growth": 0.0983,
+    "listing_date": "2026-09-01"
+   },
+   {
+    "issuer": "Augmont Enterprises Ltd",
+    "sector": "Gold & silver refining / bullion",
+    "listing_gain": 0.2195,
+    "d30": null,
+    "rev_growth": 1.6971,
+    "pat_growth": 3.5847,
+    "listing_date": "2026-08-31"
+   },
+   {
+    "issuer": "Tempsens Instruments (India) Ltd",
+    "sector": "Temperature sensors & instrumentation",
+    "listing_gain": 1.1133,
+    "d30": 0.7702,
+    "rev_growth": 0.6189,
+    "pat_growth": 0.7368,
+    "listing_date": "2026-08-28"
+   },
+   {
+    "issuer": "Gaja Alternative Asset Management Ltd",
+    "sector": "Alternative asset management",
+    "listing_gain": 0.1562,
+    "d30": -0.0879,
+    "rev_growth": 0.5179,
+    "pat_growth": 0.8319,
+    "listing_date": "2026-08-26"
+   },
+   {
+    "issuer": "Horizon Industrial Parks Ltd",
+    "sector": "Industrial & warehousing parks",
+    "listing_gain": 0.0042,
+    "d30": -0.1207,
+    "rev_growth": 2.1274,
+    "pat_growth": null,
+    "listing_date": "2026-08-24"
+   },
+   {
+    "issuer": "Rentomojo Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.1942,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Manipal Payment & Identity Solutions Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": -0.0265,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Orient Cables (India) Ltd",
+    "sector": "Cables and wires",
+    "listing_gain": 0.5331,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-05"
+   },
+   {
+    "issuer": "Elevate Campuses Ltd",
+    "sector": "Student housing / real estate",
+    "listing_gain": -0.0191,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-30"
+   },
+   {
+    "issuer": "Varmora Granito Ltd",
+    "sector": "Ceramic tiles",
+    "listing_gain": 0.0473,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-29"
+   },
+   {
+    "issuer": "Kanohar Electricals Ltd",
+    "sector": "Electrical equipment",
+    "listing_gain": 0.0847,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-16"
+   },
+   {
+    "issuer": "Moneyview Ltd",
+    "sector": "Digital lending (NBFC)",
+    "listing_gain": 0.6176,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-01"
+   },
+   {
+    "issuer": "AceVector Ltd",
+    "sector": "Consumer internet",
+    "listing_gain": -0.115,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-05"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "Over 80% share of India's SBR STP installations; 639 plants, 15,209 MLD (issuer-paid F&S, p. 261)",
+   "Operating EBITDA margin 29.7% and ROCE 29.3% in FY25 (p. 170)",
+   "Net cash Rs 52.35 cr at FY25 (p. 170)",
+   "Proprietary C-Tech and OREX processes with in-house key equipment (pp. 261-262)",
+   "Current tax 26.1% of cumulative PBT (p. 364)"
+  ],
+  "weaknesses": [
+   "Working capital 63.5% of revenue; receivable days 262 (p. 34)",
+   "Cumulative CFO about 22% of PAT FY23-25 (p. 368)",
+   "WWT revenue -10.5% and WWT order book -30% in FY25 (pp. 49, 450)",
+   "Top-10 customers 61.37% of revenue; purchase-order contracts (pp. 48-49)",
+   "Two overseas subsidiaries on unaudited accounts (p. 357)"
+  ],
+  "opportunities": [
+   "Tertiary treatment market 30.3% CAGR to FY30 (issuer-paid F&S, p. 29)",
+   "Rs 501.70 cr CBG plant orders with 10-year O&M (p. 262)",
+   "Exclusive DuPont membranes for municipal water reuse (p. 261)",
+   "Agri-residue biogas projects (p. 262)"
+  ],
+  "threats": [
+   "Goa effluent show-cause notice and FIR against HWTPL (p. 507; corrigendum)",
+   "EUR 5.60 m damages claim in Portugal (p. 508)",
+   "Municipal payment delays via EPC contractors (p. 34)",
+   "Technology displacement (p. 33)"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "price": 533.0,
+  "shares": 9.6226,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY25",
+    "pat": 144.06,
+    "eps": 14.971,
+    "pe": 35.6
+   },
+   {
+    "basis": "FY25 after: asset-sale gains",
+    "pat": 136.8688,
+    "eps": 14.2237,
+    "pe": 37.47
+   },
+   {
+    "basis": "FY25 after: JV / associate share",
+    "pat": 136.9691,
+    "eps": 14.2341,
+    "pe": 37.45
+   },
+   {
+    "basis": "FY25 after: insurance claim",
+    "pat": 136.58,
+    "eps": 14.1937,
+    "pe": 37.55
+   },
+   {
+    "basis": "FY23-FY25 average, reported",
+    "pat": 126.516,
+    "eps": 13.1478,
+    "pe": 40.54
+   },
+   {
+    "basis": "FY23-FY25 average, adjusted",
+    "pat": 121.7464,
+    "eps": 12.6521,
+    "pe": 42.13
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Gains on sale of property, plant and equipment and investment property (in other income)",
+    "short": "asset-sale gains",
+    "pre_tax": [
+     -2.102,
+     -3.305,
+     -9.61
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 368, 422",
+    "reason": "Gains on sale of PPE Rs 0.11 / 1.64 / 5.65 cr and of investment property Rs 1.99 / 1.66 / 3.96 cr FY23-25. Real cash gains, but one-off and not from operations.",
+    "post_tax": [
+     -1.5729,
+     -2.4731,
+     -7.1912
+    ],
+    "pe_if_applied": 37.47
+   },
+   {
+    "item": "Share of profit of a joint venture and associate that no longer exist",
+    "short": "JV / associate share",
+    "pre_tax": [
+     -1.313,
+     -2.406,
+     0.134
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 358, 364",
+    "reason": "The joint venture ceased on 08-Aug-2023 and the associate became a subsidiary; the share of profit (Rs 1.31 cr FY23, Rs 2.41 cr FY24) does not recur.",
+    "post_tax": [
+     -0.9825,
+     -1.8004,
+     0.1003
+    ],
+    "pe_if_applied": 35.58
+   },
+   {
+    "item": "Insurance claim received (in other income)",
+    "short": "insurance claim",
+    "pre_tax": [
+     0.0,
+     0.0,
+     -0.52
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "p. 450",
+    "reason": "Insurance claim of Rs 0.52 cr in FY25 other income (WWT segment note).",
+    "post_tax": [
+     0.0,
+     0.0,
+     -0.3891
+    ],
+    "pe_if_applied": 35.7
+   },
+   {
+    "item": "Interest on fixed deposits, loans and mutual-fund gains (treasury income)",
+    "short": "treasury income",
+    "pre_tax": [
+     -6.975,
+     -13.109,
+     -15.146
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "pp. 368, 422",
+    "reason": "Recurring while the company holds cash, but non-operating; excluding it gives the operating P/E. Shown for information.",
+    "post_tax": [
+     -5.2194,
+     -9.8095,
+     -11.3338
+    ],
+    "pe_if_applied": 38.64
+   }
+  ],
+  "adjusted_pat": [
+   91.3256,
+   137.3335,
+   136.58
+  ],
+  "pe_reported": 35.6,
+  "pe_adjusted": 37.55,
+  "pat_change": -0.0519,
+  "material": false,
+  "verdict": "Reported P/E is a fair measure: the adjustments found move FY25 PAT by -5.2%, within the 10% threshold. On the FY23-FY25 average, which smooths one-year items, the P/E is 40.5x reported and 42.1x adjusted.",
+  "flags": [
+   "Gains on sale of PPE Rs 0.11 / 1.64 / 5.65 cr and of investment property Rs 1.99 / 1.66 / 3.96 cr FY23-25. Real cash gains, but one-off and not from operations.",
+   "The joint venture ceased on 08-Aug-2023 and the associate became a subsidiary; the share of profit (Rs 1.31 cr FY23, Rs 2.41 cr FY24) does not recur.",
+   "Insurance claim of Rs 0.52 cr in FY25 other income (WWT segment note)."
+  ],
+  "checked": [
+   "Capital work in progress (Rs 5.00 cr FY25) is under a year old with no cost or time overrun stated, and was capitalised in the normal course (Rs 27.15 cr in FY25) (p. 399)",
+   "Intangibles are acquired service-concession rights being amortised, not capitalised development or project costs (p. 402)",
+   "Expected-credit-loss allowance Rs 10.16 cr on current receivables and Rs 5.25 cr on unbilled receivables is charged through profit (pp. 409, 426-427)",
+   "No exceptional items in FY23-25 (p. 364)",
+   "Profit taxed in cash: current tax 26.1% of cumulative PBT (p. 364)",
+   "No auditor qualifications; no change of auditor stated (p. 32)"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 3,
+  "pass": 6,
+  "open": 4
+ }
+}
