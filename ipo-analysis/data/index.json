@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T07:46Z",
+  "updated": "2026-10-22T08:04Z",
   "issuers": [
     {
       "slug": "bls-polymers-ltd",
@@ -224,6 +224,51 @@
         "blended": 36.339,
         "upside_floor": -0.5967,
         "upside_cap": -0.5967
+      }
+    },
+    {
+      "slug": "sfc-environmental-technologies-ltd",
+      "company": "SFC Environmental Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2025-08-25",
+      "analysed_on": "2026-10-22",
+      "sector": "Wastewater and solid-waste treatment technology",
+      "brlm": "IIFL Capital Services Limited; JM Financial Limited; Nuvama Wealth Management Limited",
+      "issue_size_cr": 150.0,
+      "price_band": "Not set (DRHP stage)",
+      "open_date": null,
+      "close_date": null,
+      "depth": "Full",
+      "call": "Screen only",
+      "headline": "India's dominant SBR sewage-treatment technology supplier (639 plants, 29.7% operating margin, net cash), moving into biogas and water reuse; our fair value is Rs 330 (Neutral), about 21x FY25 EPS, because rising working capital has kept cash conversion at about 22% of profit. Screen only until the RHP: Subscribe up to about Rs 367, Neutral to about Rs 472.",
+      "red_flags": [
+        "Revenue Rs 519.45 cr -> Rs 697.86 cr FY23-25 (15.9% CAGR, +6.1% in FY25); operating EBITDA margin 23.9% -> 29.7%; ROCE about 29% (pp. 170, 364)",
+        "Working capital 27.8% -> 63.5% of revenue; receivable days 158 -> 262; cumulative CFO about 22% of PAT FY23-25 (pp. 34, 368)",
+        "Order book Rs 1,267.50 cr at 15-Aug-2025 (1.8x FY25 revenue) after Rs 501.70 cr of CBG plant orders; WWT order book down 30% in FY25 (pp. 49, 262)",
+        "Offer mostly OFS (1.23 crore shares; average cost Rs 36.72); last private price Rs 75 bonus-adjusted (Apr-2024) (pp. 45, 173)",
+        "Goa SPCB show-cause notice and FIR against subsidiary HWTPL over effluent; EUR 5.60 m claim against SFC Umwelttechnik GmbH in Portugal (pp. 507-508; corrigendum)",
+        "Fair value Rs 304 / 330 / 358 (Bear / Neutral / Bull); reported P/E a fair measure (adjustments -5.2%); audited data 570 days old"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/aug-2025/sfc-environmental-technologies-limited-drhp_96473.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 3,
+        "pass": 6,
+        "open": 4
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Contingent liabilities",
+        "Auditor qualifications / changes"
+      ],
+      "neutral": {
+        "dcf": 164.4399,
+        "relative": 496.5394,
+        "blended": 330.4897,
+        "upside_floor": -0.3799,
+        "upside_cap": -0.3799
       }
     }
   ]
