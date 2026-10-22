@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-21T13:41Z",
+  "updated": "2026-10-22T08:04Z",
   "issuers": [
+    {
+      "slug": "bls-polymers-ltd",
+      "company": "BLS Polymers Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-17",
+      "analysed_on": "2026-10-22",
+      "sector": "Polymer compounds for wires, cables and pipe coating",
+      "brlm": "Unistone Capital Private Limited",
+      "issue_size_cr": 255.0,
+      "price_band": "Rs 142-150 (press reports; exchange notice pending)",
+      "open_date": "2026-10-27",
+      "close_date": "2026-10-29",
+      "depth": "Full",
+      "call": "Avoid",
+      "headline": "A profitable, cash-generative polymer compounder doubling capacity, priced at 34.5x FY26 earnings after the issue against a 14.5x peer median; our fair value is Rs 81 (Neutral) against Rs 150, because growth in the core manufactured business has been flat and the price already pays for the expansion.",
+      "red_flags": [
+        "Operating EBITDA margin 5.5% -> 9.7% -> 12.0% FY24-26 (14.5% in Q1 FY27); PAT Rs 7.52 cr -> Rs 27.01 cr; cumulative CFO 118% of PAT (pp. 85-86)",
+        "Capacity to rise from 35,251 to 87,301 MTPA (+148%) by FY28 from Rs 77.56 cr of proceeds; current utilisation 73-75% (pp. 123-124)",
+        "Manufactured revenue flat to lower (Rs 254 cr -> Rs 237 cr FY24-26); growth came from resin trading, 31.9% of FY26 revenue (pp. 33, 406, 408)",
+        "Top customer 31.7% of FY26 revenue; top supplier 71.7% of procurement; purchases from promoter-group trader Vinsul Makardi 9.3% of revenue (pp. 27, 39, 89)",
+        "At Rs 150: P/E 34.5x post-issue vs peer median 14.5x (DDev Plastiks 13.0x, Kingfa 46.3x); reported P/E is a fair measure (earnings-quality adjustments -2.8%)",
+        "Fair value Rs 68 / 81 / 96 (Bear / Neutral / Bull) vs Rs 150; objects floor Rs 98; issuer KPI EBITDA leaves other income in (Rs 46.60 cr vs Rs 41.90 cr operating)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 3,
+        "pass": 8,
+        "open": 4
+      },
+      "focus_top": [
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration",
+        "Monitoring agency"
+      ],
+      "neutral": {
+        "dcf": 72.212,
+        "relative": 90.7405,
+        "blended": 81.4762,
+        "upside_floor": -0.4262,
+        "upside_cap": -0.4568
+      }
+    },
     {
       "slug": "tonbo-imaging-india-ltd",
       "company": "Tonbo Imaging India Limited",
@@ -44,96 +89,6 @@
         "blended": 515.0998,
         "upside_floor": -0.2254,
         "upside_cap": -0.2641
-      }
-    },
-    {
-      "slug": "ekkaa-electronics-india-ltd",
-      "company": "Ekkaa Electronics (India) Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "analysed_on": "2026-10-21",
-      "sector": "Consumer electronics and appliances ODM/OEM (LED televisions, washing machines, coolers, speakers, cooktops)",
-      "brlm": "Motilal Oswal Investment Advisors; Shannon Advisors",
-      "issue_size_cr": 725,
-      "price_band": "Not announced",
-      "open_date": null,
-      "close_date": null,
-      "depth": null,
-      "call": "Screen only",
-      "headline": "Revenue reached Rs 1,221.8 cr in FY26 (pro-forma Rs 1,263.1 cr, +78%) at a 9.4% EBITDA margin and 18.0% ROCE, but operating cash flow has been negative in each of the three years (Rs -108.1 cr in total) and net debt is 2.6x EBITDA; the peer-multiple and cash-flow methods give values far apart, so the price band and H1 FY27 decide the case.",
-      "red_flags": [
-        "Revenue Rs 0.07 cr, Rs 496.5 cr, Rs 1,221.8 cr (FY24-26); pro-forma FY26 Rs 1,263.1 cr, +78.1%; EBITDA margin 9.37%, ROCE 18.0% (pp. 74, 137)",
-        "Operating cash flow Rs -15.3 cr, -64.1 cr, -28.7 cr in FY24-26 against cumulative PAT of Rs 84.9 cr; receivables up Rs 97.3 cr and inventory Rs 38.9 cr in FY26 (p. 75)",
-        "Top 5 customers 52.4% and top 10 65.8% of FY26 revenue; top supplier 46.9% of purchases; imports 76.2% of raw materials (pp. 23, 29, 41)",
-        "FY25's largest customer (21.0% of revenue, Rs 104.3 cr) was the promoter-owned Ekkaa Electronics Industries, acquired on 29-Aug-2025; its sales were still 6.2% of FY26 revenue (pp. 78-80, 274)",
-        "Rs 525 cr fresh issue: Rs 225 cr repays loans and Rs 150 cr funds working capital; the Rs 200 cr offer for sale pays two promoters (WACA Rs 19.87 and Rs 17.53) (pp. 1, 119-120)",
-        "Net debt Rs 296.0 cr (2.58x EBITDA); borrowings Rs 396.1 cr by 31-Jul-2026 against Rs 308.8 cr at 31-Mar-2026; 19.9% industry growth to FY30 is an issuer-commissioned estimate (pp. 73, 42, 245)"
-      ],
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/ekkaa-electronics-india-limited-drhp_104862.html",
-      "status": "analysed",
-      "counts": {
-        "fail": 0,
-        "watch": 11,
-        "pass": 2,
-        "open": 0
-      },
-      "focus_top": [
-        "Bonus issue / share-count consistency",
-        "Cash flow vs profit",
-        "Current vs deferred tax"
-      ],
-      "neutral": {
-        "dcf": 102.4129,
-        "relative": 630.2327,
-        "blended": 366.3228,
-        "upside_floor": 1.0058,
-        "upside_cap": 0.6209
-      }
-    },
-    {
-      "slug": "jagatjit-agri-engineering-ltd",
-      "company": "Jagatjit Agri Engineering Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "analysed_on": "2026-10-20",
-      "sector": "Agricultural implements (Super Seeders, straw reapers, rotavators, laser levellers, biomass machines)",
-      "brlm": "Keynote Financial Services",
-      "issue_size_cr": 300,
-      "price_band": "Not announced",
-      "open_date": null,
-      "close_date": null,
-      "depth": null,
-      "call": "Screen only",
-      "headline": "Proforma revenue grew 63% in FY26 to Rs 414.0 cr with an EBITDA margin of 13.5%, but the business only combined on 1-Apr-2025, one customer is 25% of revenue and FY26 operating cash flow was 8.6% of PAT as stock built up; at the Rs 155.78 peer-median reference the price asks for a continuation of that growth.",
-      "red_flags": [
-        "Proforma revenue Rs 253.8 cr to Rs 414.0 cr (+63.1%); EBITDA Rs 36.8 cr to Rs 55.7 cr; PAT Rs 20.7 cr to Rs 31.4 cr (pp. 92, 158)",
-        "Promoters' two proprietorships were taken over on 1-Apr-2025 at carrying value; restated FY25 (Rs 95.9 cr) is not comparable with FY26 (pp. 247, 387)",
-        "Seth Agro Industries is 25.21% of FY26 revenue; top 10 customers 50.04%; top supplier only 7.94% (pp. 261, 39)",
-        "FY26 CFO Rs 2.7 cr vs PAT Rs 31.4 cr; finished goods Rs 43.2 cr vs Rs 1.9 cr; cumulative CFO/PAT 69.7% (pp. 88, 474)",
-        "Rs 300 cr fresh issue: 66.7% identified (Rs 110 cr working capital, Rs 71.7 cr capex on promoter-leased land, Rs 18.5 cr debt); no capex order placed (pp. 124, 129)",
-        "Net debt Rs 119.4 cr (2.14x EBITDA); borrowings Rs 164.1 cr by 31-Aug-2026; subsidy-linked demand and Q4 seasonality (pp. 56, 34)"
-      ],
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/jagatjit-agri-engineering-limited-drhp_104866.html",
-      "status": "analysed",
-      "counts": {
-        "fail": 0,
-        "watch": 7,
-        "pass": 6,
-        "open": 0
-      },
-      "focus_top": [
-        "Cash flow vs profit",
-        "Related-party capex & subsidiaries",
-        "Customer / supplier / geographic concentration"
-      ],
-      "neutral": {
-        "dcf": 69.1685,
-        "relative": 121.3862,
-        "blended": 95.2774,
-        "upside_floor": -0.3884,
-        "upside_cap": -0.3884
       }
     },
     {
@@ -269,6 +224,51 @@
         "blended": 36.339,
         "upside_floor": -0.5967,
         "upside_cap": -0.5967
+      }
+    },
+    {
+      "slug": "sfc-environmental-technologies-ltd",
+      "company": "SFC Environmental Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2025-08-25",
+      "analysed_on": "2026-10-22",
+      "sector": "Wastewater and solid-waste treatment technology",
+      "brlm": "IIFL Capital Services Limited; JM Financial Limited; Nuvama Wealth Management Limited",
+      "issue_size_cr": 150.0,
+      "price_band": "Not set (DRHP stage)",
+      "open_date": null,
+      "close_date": null,
+      "depth": "Full",
+      "call": "Screen only",
+      "headline": "India's dominant SBR sewage-treatment technology supplier (639 plants, 29.7% operating margin, net cash), moving into biogas and water reuse; our fair value is Rs 330 (Neutral), about 21x FY25 EPS, because rising working capital has kept cash conversion at about 22% of profit. Screen only until the RHP: Subscribe up to about Rs 367, Neutral to about Rs 472.",
+      "red_flags": [
+        "Revenue Rs 519.45 cr -> Rs 697.86 cr FY23-25 (15.9% CAGR, +6.1% in FY25); operating EBITDA margin 23.9% -> 29.7%; ROCE about 29% (pp. 170, 364)",
+        "Working capital 27.8% -> 63.5% of revenue; receivable days 158 -> 262; cumulative CFO about 22% of PAT FY23-25 (pp. 34, 368)",
+        "Order book Rs 1,267.50 cr at 15-Aug-2025 (1.8x FY25 revenue) after Rs 501.70 cr of CBG plant orders; WWT order book down 30% in FY25 (pp. 49, 262)",
+        "Offer mostly OFS (1.23 crore shares; average cost Rs 36.72); last private price Rs 75 bonus-adjusted (Apr-2024) (pp. 45, 173)",
+        "Goa SPCB show-cause notice and FIR against subsidiary HWTPL over effluent; EUR 5.60 m claim against SFC Umwelttechnik GmbH in Portugal (pp. 507-508; corrigendum)",
+        "Fair value Rs 304 / 330 / 358 (Bear / Neutral / Bull); reported P/E a fair measure (adjustments -5.2%); audited data 570 days old"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/aug-2025/sfc-environmental-technologies-limited-drhp_96473.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 3,
+        "pass": 6,
+        "open": 4
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Contingent liabilities",
+        "Auditor qualifications / changes"
+      ],
+      "neutral": {
+        "dcf": 164.4399,
+        "relative": 496.5394,
+        "blended": 330.4897,
+        "upside_floor": -0.3799,
+        "upside_cap": -0.3799
       }
     }
   ]

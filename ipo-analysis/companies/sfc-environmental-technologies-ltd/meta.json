@@ -1,0 +1,104 @@
+{
+  "slug": "sfc-environmental-technologies-ltd",
+  "company": "SFC Environmental Technologies Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2025-08-25",
+  "doc_date": "2025-08-25",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/aug-2025/sfc-environmental-technologies-limited-drhp_96473.html",
+  "sector": "Wastewater and solid-waste treatment technology",
+  "brlm": "IIFL Capital Services Limited; JM Financial Limited; Nuvama Wealth Management Limited",
+  "issue_size_cr": 150.0,
+  "price_band": "Not set (DRHP stage)",
+  "depth": "Full",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "analysed_on": "2026-10-22",
+  "business_stage": "Established leader in its core, scaling into new segments",
+  "reference_note": "Illustrative reference Rs 533 = the DRHP's own peer-median P/E (34.57x, Praj Industries, 14-Aug-2025 prices) x FY25 EPS Rs 15.42 (p. 168). It is not a price band. The last private price was Rs 225 per share in Apr-2024 secondary transfers, Rs 75 after the 2:1 bonus (p. 173); selling shareholders' average cost is mostly Rs 36.72 (p. 45).",
+  "files": {
+    "screening": "SFC_ENVIRONMENTAL_TECHNO_01_Screening.xlsx",
+    "anchor": "SFC_ENVIRONMENTAL_TECHNO_02_Anchor_QIB.xlsx",
+    "valuation": "SFC_ENVIRONMENTAL_TECHNO_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "SFC_ENVIRONMENTAL_TECHNO_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 110.9673,
+      "relative": 496.5394,
+      "blended": 303.7534,
+      "upside_floor": -0.4301,
+      "upside_cap": -0.4301
+    },
+    "neutral": {
+      "dcf": 164.4399,
+      "relative": 496.5394,
+      "blended": 330.4897,
+      "upside_floor": -0.3799,
+      "upside_cap": -0.3799
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -66.9% - the divergence is the finding; name its cause"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 168.6 times its current free cash flow, in perpetuity.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 219.6349,
+      "relative": 496.5394,
+      "blended": 358.0872,
+      "upside_floor": -0.3282,
+      "upside_cap": -0.3282
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 3,
+    "pass": 6,
+    "open": 4
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Contingent liabilities",
+    "Auditor qualifications / changes"
+  ],
+  "call_basis": "DRHP stage with no price band, so the call is Screen only (no capital before the RHP). Under the call rule (ROUTINE.md hard rule 6) the Neutral fair value of Rs 330 would read Subscribe up to about Rs 367, Neutral from about Rs 367 to Rs 472, and Avoid above about Rs 472. No material issue was found.",
+  "headline": "India's dominant SBR sewage-treatment technology supplier (639 plants, 29.7% operating margin, net cash), moving into biogas and water reuse; our fair value is Rs 330 (Neutral), about 21x FY25 EPS, because rising working capital has kept cash conversion at about 22% of profit. Screen only until the RHP: Subscribe up to about Rs 367, Neutral to about Rs 472.",
+  "red_flags": [
+    "Revenue Rs 519.45 cr -> Rs 697.86 cr FY23-25 (15.9% CAGR, +6.1% in FY25); operating EBITDA margin 23.9% -> 29.7%; ROCE about 29% (pp. 170, 364)",
+    "Working capital 27.8% -> 63.5% of revenue; receivable days 158 -> 262; cumulative CFO about 22% of PAT FY23-25 (pp. 34, 368)",
+    "Order book Rs 1,267.50 cr at 15-Aug-2025 (1.8x FY25 revenue) after Rs 501.70 cr of CBG plant orders; WWT order book down 30% in FY25 (pp. 49, 262)",
+    "Offer mostly OFS (1.23 crore shares; average cost Rs 36.72); last private price Rs 75 bonus-adjusted (Apr-2024) (pp. 45, 173)",
+    "Goa SPCB show-cause notice and FIR against subsidiary HWTPL over effluent; EUR 5.60 m claim against SFC Umwelttechnik GmbH in Portugal (pp. 507-508; corrigendum)",
+    "Fair value Rs 304 / 330 / 358 (Bear / Neutral / Bull); reported P/E a fair measure (adjustments -5.2%); audited data 570 days old"
+  ],
+  "swot": {
+    "strengths": [
+      "Over 80% share of India's SBR STP installations; 639 plants, 15,209 MLD (issuer-paid F&S, p. 261)",
+      "Operating EBITDA margin 29.7% and ROCE 29.3% in FY25 (p. 170)",
+      "Net cash Rs 52.35 cr at FY25 (p. 170)",
+      "Proprietary C-Tech and OREX processes with in-house key equipment (pp. 261-262)",
+      "Current tax 26.1% of cumulative PBT (p. 364)"
+    ],
+    "weaknesses": [
+      "Working capital 63.5% of revenue; receivable days 262 (p. 34)",
+      "Cumulative CFO about 22% of PAT FY23-25 (p. 368)",
+      "WWT revenue -10.5% and WWT order book -30% in FY25 (pp. 49, 450)",
+      "Top-10 customers 61.37% of revenue; purchase-order contracts (pp. 48-49)",
+      "Two overseas subsidiaries on unaudited accounts (p. 357)"
+    ],
+    "opportunities": [
+      "Tertiary treatment market 30.3% CAGR to FY30 (issuer-paid F&S, p. 29)",
+      "Rs 501.70 cr CBG plant orders with 10-year O&M (p. 262)",
+      "Exclusive DuPont membranes for municipal water reuse (p. 261)",
+      "Agri-residue biogas projects (p. 262)"
+    ],
+    "threats": [
+      "Goa effluent show-cause notice and FIR against HWTPL (p. 507; corrigendum)",
+      "EUR 5.60 m damages claim in Portugal (p. 508)",
+      "Municipal payment delays via EPC contractors (p. 34)",
+      "Technology displacement (p. 33)"
+    ]
+  }
+}

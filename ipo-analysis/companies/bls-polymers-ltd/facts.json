@@ -1,0 +1,467 @@
+{
+ "_source": "BLS Polymers Limited RHP dated 17-Oct-2026 (SEBI filing 105327); restated standalone, Rs lakhs in the RHP converted to Rs crore. Printed page = PDF page - 4. Price band Rs 142-150 from press reports (exchange notice not yet seen on 22-Oct-2026).",
+ "screening": {
+  "basis": {
+   "name": "BLS Polymers Limited",
+   "platform": "Mainboard",
+   "stage": "RHP",
+   "doc_date": "2026-10-17",
+   "aud_to": "2026-06-30",
+   "band": "Yes",
+   "brlm": "Unistone Capital Private Limited",
+   "outside": "Price band and lot size from press reports (unconfirmed on exchange at writing)",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    296.3583,
+    328.4359,
+    349.4283,
+    107.0255
+   ],
+   "oth": [
+    5.1461,
+    8.2623,
+    4.9829,
+    0.7842
+   ],
+   "pbt": [
+    9.6933,
+    28.2705,
+    35.9855,
+    13.6833
+   ],
+   "ctax": [
+    2.1274,
+    6.882,
+    9.2612,
+    3.3743
+   ],
+   "dtax": [
+    0.0439,
+    0.2525,
+    -0.2851,
+    0.0792
+   ],
+   "pat": [
+    7.522,
+    21.136,
+    27.0094,
+    10.2298
+   ],
+   "cfo": [
+    2.6476,
+    25.1306,
+    38.0613,
+    -6.6409
+   ],
+   "rpt_s": [
+    9.4629,
+    3.304,
+    0.0529,
+    0.0
+   ],
+   "rpt_p": [
+    0.0,
+    1.5143,
+    32.3523,
+    8.1219
+   ],
+   "nw": [
+    46.8272,
+    67.9419,
+    94.934,
+    105.1741
+   ],
+   "recv": [
+    62.6901,
+    73.7284,
+    72.7086,
+    95.1477
+   ],
+   "inv": [
+    62.4356,
+    54.6231,
+    72.5885,
+    72.4816
+   ],
+   "pay": [
+    19.9756,
+    27.4662,
+    49.2039,
+    51.6813
+   ],
+   "cl": [
+    9.3001,
+    18.8014,
+    9.7194,
+    10.9362
+   ],
+   "gw": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "cites": {
+   "rev": "p. 85",
+   "oth": "p. 85",
+   "pbt": "p. 85",
+   "ctax": "p. 85 (incl. tax of earlier years)",
+   "dtax": "p. 85",
+   "pat": "p. 85",
+   "cfo": "p. 86",
+   "rpt_s": "p. 89 (Vinsul Makardi Limited)",
+   "rpt_p": "p. 89 (Vinsul Makardi Limited)",
+   "nw": "p. 84",
+   "recv": "p. 84",
+   "inv": "p. 84",
+   "pay": "p. 84",
+   "cl": "p. 87 (incl. capital commitments and letter of comfort)",
+   "gw": "p. 84"
+  },
+  "single": {
+   "top1c": 0.3174,
+   "top10c": 0.6681,
+   "top1s": 0.7168,
+   "geo": 0.9454,
+   "offer": 255.0
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "pp. 102, 140",
+    "finding": "Bonus of 3,54,30,164 shares (28-May-2025) is reflected: EPS 1.67 / 4.69 / 5.99 FY24-26 are on the post-bonus count of 4,50,31,834 shares."
+   },
+   "2": {
+    "status": "PASS",
+    "page": "p. 86",
+    "finding": "Operating cash flow Rs 2.65 cr / 25.13 cr / 38.06 cr FY24-26 against PAT Rs 7.52 cr / 21.14 cr / 27.01 cr: cumulative CFO/PAT 118.3%. Q1 FY27 CFO -Rs 6.64 cr as receivables rose."
+   },
+   "3": {
+    "status": "PASS",
+    "page": "p. 85",
+    "finding": "Current tax 24.7% of cumulative FY24-26 PBT; deferred tax small."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "pp. 46, 89",
+    "finding": "Promoter-group trader Vinsul Makardi Limited: purchases from it Rs 32.35 cr in FY26 (9.3% of revenue) and Rs 8.12 cr in Q1 FY27; sales to it Rs 9.46 cr in FY24 falling to nil; receivable Rs 6.46 cr at Jun-26; Rs 9.00 cr letter of comfort given for it in FY25. Disclosed."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "p. 121",
+    "finding": "Objects Rs 167.06 cr (capex Rs 77.56 cr + working capital Rs 89.50 cr) over 1.70 crore fresh shares = Rs 98.27 a share before GCP and expenses, below the Rs 142 floor of the reported band."
+   },
+   "7": {
+    "status": "PASS",
+    "page": "p. 84",
+    "finding": "No goodwill or material intangibles."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 27, 39",
+    "finding": "Top customer 31.74% and top-10 66.81% of FY26 revenue; top supplier 71.68% of FY26 raw-material procurement. Typical of a compounder buying resin from a few petrochemical producers; no long-term supply contract stated."
+   },
+   "9": {
+    "status": "PASS",
+    "page": "p. 87",
+    "finding": "Contingent liabilities Rs 9.72 cr (10.2% of FY26 net worth), mainly an Rs 8.00 cr bank guarantee to IOCL; the Rs 9.00 cr letter of comfort for a related party was released by FY26."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "PASS",
+    "page": "p. 94",
+    "finding": "Nangia & Co. LLP (peer-reviewed); no change of auditor in three years."
+   },
+   "R3": {
+    "status": "WATCH",
+    "page": "p. 121",
+    "finding": "Fresh issue about Rs 255 cr at the reported upper band: a monitoring agency is required above Rs 50 cr; appointment to be confirmed in the Prospectus."
+   },
+   "R5": {
+    "status": "N.A.",
+    "page": "cover",
+    "finding": "Mainboard issue under Reg 6(1)."
+   },
+   "R6": {
+    "status": "PASS",
+    "page": "pp. 452-453",
+    "finding": "Unistone Capital track record compiled from the RHP."
+   }
+  },
+  "gaps": [
+   {
+    "item": "Price band and lot size not yet seen in an exchange or SEBI filing; press reports give Rs 142-150 and 100 shares",
+    "severity": "Medium",
+    "source": "NSE / BSE price-band notice"
+   },
+   {
+    "item": "Issue expenses and GCP amount blank in the RHP",
+    "severity": "Medium",
+    "source": "Prospectus"
+   },
+   {
+    "item": "Names of the top customer (31.74% of revenue) and top supplier (71.68% of procurement) not disclosed",
+    "severity": "Medium",
+    "source": "Issuer"
+   },
+   {
+    "item": "Insurance-claim and miscellaneous income amounts inside other income not itemised",
+    "severity": "Low",
+    "source": "RHP other income note"
+   },
+   {
+    "item": "Anchor book (bidding on 26-Oct-2026)",
+    "severity": "Low",
+    "source": "Exchange filing"
+   },
+   {
+    "item": "Issuer KPI EBITDA (Rs 46.60 cr FY26) does not reproduce from the P&L net of other income (Rs 41.90 cr)",
+    "severity": "Low",
+    "source": "Issuer / KPI certificate"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "BLS Polymers Limited",
+   "board": "Mainboard",
+   "offer": 150,
+   "anchor_px": 150,
+   "issue": 255.0,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-26",
+   "allot_date": "2026-10-30",
+   "list_date": "2026-11-03"
+  },
+  "total_shares_lakh": 620.31834,
+  "overhang": [
+   [
+    "Pre-issue public shareholders (6.61 lakh shares)",
+    6.61,
+    180,
+    "p. 118; six months"
+   ],
+   [
+    "Promoter holding above 20% of post-issue capital",
+    319.65,
+    365,
+    "p. 117; one year"
+   ],
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    124.06,
+    1095,
+    "p. 117; three years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "BLS Polymers Limited",
+   "basis": "Standalone",
+   "pre_sh": 4.5031834,
+   "esop": 0,
+   "fresh": 255.0,
+   "fresh_sh_fixed": 1.7,
+   "ofs_sh": 0,
+   "floor": 142,
+   "cap": 150,
+   "obj_net": 167.0607,
+   "exp_pct": 0,
+   "gcp_pct": 0,
+   "ipo_capex": 65.7708,
+   "rev0": 349.4283,
+   "rev_prev": 328.4359,
+   "ebitda0": 41.901,
+   "da0": 2.8792,
+   "pat0": 27.0094,
+   "nw0": 94.934,
+   "nd0": 49.2855,
+   "nwc0": 96.0932,
+   "nwc_prev": 100.8853,
+   "capex0": 4.7299,
+   "kd": 0.09
+  },
+  "drivers": {
+   "g1": [
+    0.05,
+    0.1,
+    0.15
+   ],
+   "g2": [
+    0.08,
+    0.18,
+    0.25
+   ],
+   "g3": [
+    0.1,
+    0.22,
+    0.3
+   ],
+   "g4": [
+    0.08,
+    0.15,
+    0.2
+   ],
+   "g5": [
+    0.06,
+    0.1,
+    0.12
+   ],
+   "m": [
+    0.091,
+    0.12,
+    0.145
+   ],
+   "nwc": [
+    0.33,
+    0.29,
+    0.27
+   ],
+   "roic": [
+    0.14,
+    0.18,
+    0.22
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue +10.82% (FY25) and +6.39% (FY26), led by trading; manufactured polymer revenue Rs 254.42 cr -> Rs 241.62 cr -> Rs 237.00 cr FY24-26 (pp. 406, 408). Capacity rises from 35,251 to 87,301 MTPA (+148%) with commercial production by FY28, from 73-75% utilisation now (pp. 123-124). Neutral steps up growth in FY28-29 as the new lines fill; Bear assumes slow ramp-up; Bull assumes export orders through the GCC arrangement (p. 124).",
+   "m": "Operating EBITDA (PBT + finance cost + D&A - other income, our computation from p. 85) Rs 16.41 cr / 31.77 cr / 41.90 cr FY24-26 = 5.54% / 9.67% / 11.99% of revenue, and 14.46% in Q1 FY27. The issuer's KPI EBITDA (Rs 46.60 cr, 13.33%) does not net off other income in full despite its stated definition (p. 144). Bear = three-year average (9.1%); Neutral = FY26 actual (12.0%); Bull = Q1 FY27 level (14.5%).",
+   "nwc": "Trade working capital 35.5% / 30.7% / 27.5% of revenue FY24-26 (p. 84). Neutral 29%, near the FY25-26 level and below the three-year average, since FY26 is the base year; Bear 33%; Bull holds FY26.",
+   "roic": "ROCE 12.84% / 25.46% / 29.51% FY24-26 (p. 144). Neutral terminal ROIC 18%.",
+   "capex": "IPO capex input is Rs 65.77 cr: the Rs 77.56 cr expansion less Rs 11.79 cr already deployed by 31-Aug-2026 from accruals and borrowings (p. 122), which is in the FY26-Q1 base and is recouped from the proceeds. Base-year capex Rs 4.73 cr excludes the Rs 1.74 cr expansion CWIP (p. 86), which is part of the IPO-funded project, so growth capex is not counted twice."
+  },
+  "peers": [
+   [
+    "Kingfa Science & Technology (India) Ltd (per share)",
+    "Y",
+    "Polymer compounder - issuer's peer, p. 141",
+    "Consolidated",
+    6664.62,
+    1,
+    null,
+    null,
+    null,
+    144.1,
+    1155.4,
+    0.1438
+   ],
+   [
+    "DDev Plastiks Industries Ltd (per share)",
+    "Y",
+    "Polymer compounds for wires and cables - issuer's peer, p. 141",
+    "Consolidated",
+    252.92,
+    1,
+    null,
+    null,
+    null,
+    19.5,
+    97.93,
+    0.1323
+   ],
+   [
+    "Plastiblends India Ltd (per share)",
+    "Y",
+    "Masterbatches and compounds - issuer's peer, p. 141",
+    "Consolidated",
+    205.16,
+    1,
+    null,
+    null,
+    null,
+    14.12,
+    172.78,
+    0.0105
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   16.4077,
+   31.7665,
+   41.901
+  ],
+  "_cite": "Operating EBITDA computed from the restated P&L (p. 85): PBT + finance cost + D&A - other income. The issuer's KPI table (p. 144) shows Rs 21.05 / 39.66 / 46.60 cr, which leaves most other income in."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]; negative reduces profit.",
+  "adjustments": [
+   {
+    "item": "Liabilities and provisions written back (in other income)",
+    "short": "liability write-backs",
+    "pre_tax": [
+     -2.798,
+     -4.1439,
+     -1.0015
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 86, 406, 409",
+    "reason": "Other income includes write-backs of liabilities 'unpaid for long and deemed no longer payable': Rs 2.80 cr, Rs 4.14 cr and Rs 1.00 cr FY24-26. Non-cash and not from operations."
+   },
+   {
+    "item": "Interest waived by related party Basant India Limited",
+    "short": "related-party interest waiver",
+    "pre_tax": [
+     0,
+     -0.3038,
+     0
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "p. 89",
+    "reason": "Interest of Rs 0.30 cr accrued on a related-party loan in FY24 was waived in FY25, a one-off credit."
+   },
+   {
+    "item": "Promoter-family pay at the FY24 level",
+    "short": "family pay",
+    "pre_tax": [
+     0,
+     -2.339,
+     -2.099
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "pp. 88-89",
+    "reason": "Pay to promoter relatives and a promoter (Rs 2.34 cr in FY24) stopped from FY25; FY26 executive pay was Rs 0.37 cr. A choice that lifts FY25-26 profit, not an accounting entry; shown for information."
+   },
+   {
+    "item": "Interest and other income on deposits and receivables",
+    "short": "other interest income",
+    "pre_tax": [
+     -1.4501,
+     -2.5203,
+     -2.7982
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 86",
+    "reason": "Recurring but non-operating; excluding it gives the operating P/E."
+   }
+  ],
+  "checked": [
+   "Capital work in progress (Rs 1.74 cr FY26, Rs 3.46 cr Jun-26) is the Goa expansion funded by the objects, not P&L costs parked on the balance sheet (pp. 84, 121-124)",
+   "Bad debts, doubtful-debt provisions and inventory write-downs are charged through profit (p. 86)",
+   "Cash conversion: cumulative operating cash flow is 118% of PAT FY24-26 (p. 86)",
+   "Profit taxed in cash: current tax 24.7% of cumulative PBT (p. 85)",
+   "No exceptional items in FY24-26 (p. 85)",
+   "No change of auditor in three years (p. 94)"
+  ]
+ }
+}
