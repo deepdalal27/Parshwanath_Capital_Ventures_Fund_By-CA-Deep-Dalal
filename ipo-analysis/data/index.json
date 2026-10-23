@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T13:46Z",
+  "updated": "2026-10-23T13:48Z",
   "issuers": [
     {
       "slug": "bls-polymers-ltd",
@@ -269,6 +269,51 @@
         "blended": 111.2309,
         "upside_floor": -0.245,
         "upside_cap": -0.245
+      }
+    },
+    {
+      "slug": "sai-infinium-ltd",
+      "company": "Sai Infinium Limited",
+      "platform": "Mainboard",
+      "stage": "DRHP",
+      "filed_on": "2026-10-01",
+      "analysed_on": "2026-10-23",
+      "sector": "Steel (MS billets, TMT bars, structural steel), with ship recycling, scrap trading and real estate",
+      "brlm": "Fedex Securities",
+      "issue_size_cr": 280.0,
+      "price_band": "Not announced",
+      "open_date": null,
+      "close_date": null,
+      "depth": null,
+      "call": "Screen only",
+      "headline": "PAT rose from Rs 61.4 m to Rs 823.8 m and EBITDA margin from 5.9% to 18.6% over FY24-FY26, but manufactured-goods revenue grew only 4.7% in FY26 (the rest is scrap and raw-material sales), group entities are about a quarter of sales and over a third of purchases, and the Rs 90 reference is 32x FY26 EPS against a steel-peer median of 13.9x, so the RHP price band and an explanation of FY26's margin decide the case.",
+      "red_flags": [
+        "PAT Rs 61.4 m / 437.5 m / 823.8 m FY24-FY26; EBITDA margin 5.9% / 10.2% / 18.6%; ROE 21.0% on book equity; Reg 6(1) average operating profit Rs 576.6 m (pp. 179, 410, 571)",
+        "FY26 revenue +30.4%, but manufactured goods +4.7% (TMT volume -1.8%, realisation -4.0%); other operating income +Rs 1,654.3 m, mostly non-ferrous scrap Rs 1,520.6 m with no disclosed margin (pp. 290, 529)",
+        "Capacity build ahead of revenue: Rolling Mill 2 at 5.5% use, Rolling Mill 3 due 31-Dec-2026, Rs 4,043 m power plant, Rs 2,244 m melting shop; borrowings Rs 3,575.7 m to Rs 5,024.1 m by 30-Jun-2026 (pp. 50, 152, 299)",
+        "Group trading: related-party sales 23.1% of revenue (59.1% in FY25), purchases 35.7%, guarantees Rs 782.3 m; five of the top-10 customers (49.0% of revenue) are or were related (pp. 31, 38, 48)",
+        "Cash: CFO Rs -165.5 / -276.8 / +825.3 m (29.0% of cumulative PAT); FY26 includes a Rs 1,182 m inventory release, Rs 1,190 m of advances inside CFO and Rs 249.3 m unpaid tax (pp. 107, 440, 447)",
+        "Three statutory-audit changes in FY26 and three CFOs since Oct-2024; Rs 844.1 m FY21 transactions of a merged company noted by the tax department; Rs 90 reference = 32.1x FY26 EPS vs peer P/E 11.1x-27.2x (pp. 117, 177-178, 386, 543)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sai-infinium-limited-drhp_104850.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 12,
+        "pass": 3,
+        "open": 0
+      },
+      "focus_top": [
+        "Bonus issue / share-count consistency",
+        "Cash flow vs profit",
+        "Current vs deferred tax"
+      ],
+      "neutral": {
+        "dcf": 3.122,
+        "relative": 31.4065,
+        "blended": 17.2642,
+        "upside_floor": -0.8082,
+        "upside_cap": -0.8082
       }
     },
     {

@@ -99,3 +99,10 @@ with their standalone effect but stay out of the adjusted P/E.
 
 `build_issuer.py` adds `files`, `analysed_on` and `model` (DCF / relative / blended per scenario, guard flags,
 objects floor and reverse-DCF sentence) and then rewrites `data/index.json`.
+
+## facts.valuation.inputs.k (optional)
+
+`k` (growth capex per rupee of incremental revenue) is implied from the latest actual year: `(capex0 - da0) / (rev0 - rev_prev)`.
+Where the issuer's capex ran well ahead of the revenue it supports (plant under construction, advances for capital goods),
+that ratio overstates the capital needed per rupee of future revenue. In that case the analyst may supply `inputs.k`; it replaces
+the formula as a blue input, and `rationale.capex` must show the arithmetic and the page cites. Absent, the formula applies.

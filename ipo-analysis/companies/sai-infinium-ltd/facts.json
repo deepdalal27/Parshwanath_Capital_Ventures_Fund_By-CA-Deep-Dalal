@@ -1,0 +1,569 @@
+{
+ "_source": "Sai Infinium Limited DRHP dated 24-Sep-2026 (SEBI filing 07-Oct-2026 listing date; filing page oct-2026/sai-infinium-limited-drhp_104850). Rs crore = Rs million / 10. Page cites are printed DRHP page numbers (PDF page minus 5). Restated standalone Ind AS financials FY24-FY26; FY25 and FY24 are audited special-purpose Ind AS statements converted from Indian GAAP (p. 404). No subsidiary, no stub period. Net worth is book equity (balance sheet); the DRHP's own net worth adds back Rs 670.88 m debit capital reserve (p. 506).",
+ "screening": {
+  "basis": {
+   "name": "Sai Infinium Limited",
+   "platform": "Mainboard",
+   "stage": "DRHP",
+   "doc_date": "2026-09-24",
+   "aud_to": "2026-03-31",
+   "band": "No",
+   "brlm": "Fedex Securities Private Limited; Neomile Capital Advisors Private Limited (marketing only)",
+   "outside": "merchant-banker section only (named secondary sources, unverified); issuer analysis is from the DRHP",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    468.207,
+    528.674,
+    689.162,
+    null
+   ],
+   "oth": [
+    10.701,
+    21.25,
+    7.271,
+    null
+   ],
+   "pbt": [
+    8.239,
+    58.778,
+    112.848,
+    null
+   ],
+   "ctax": [
+    3.062,
+    9.52,
+    26.265,
+    null
+   ],
+   "dtax": [
+    -0.961,
+    5.51,
+    4.204,
+    null
+   ],
+   "pat": [
+    6.138,
+    43.748,
+    82.379,
+    null
+   ],
+   "cfo": [
+    -16.548,
+    -27.677,
+    82.525,
+    null
+   ],
+   "rpt_s": [
+    13.291,
+    312.598,
+    159.347,
+    null
+   ],
+   "rpt_p": [
+    5.446,
+    205.91,
+    125.388,
+    null
+   ],
+   "nw": [
+    126.85,
+    258.666,
+    392.31,
+    null
+   ],
+   "recv": [
+    43.635,
+    43.688,
+    23.258,
+    null
+   ],
+   "inv": [
+    107.894,
+    197.187,
+    78.94,
+    null
+   ],
+   "pay": [
+    25.913,
+    123.301,
+    49.281,
+    null
+   ],
+   "cl": [
+    null,
+    null,
+    88.969,
+    null
+   ],
+   "gw": [
+    67.088,
+    67.088,
+    67.088,
+    null
+   ],
+   "reval": [
+    0,
+    0,
+    0,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "p. 410 (Annexure II)",
+   "oth": "p. 448 (Note 26)",
+   "pbt": "p. 410",
+   "ctax": "p. 410 (current tax plus previous-year tax: 30.62 / 95.20 / 262.65 Rs m)",
+   "dtax": "p. 410 (FY24 is a credit)",
+   "pat": "p. 410",
+   "cfo": "p. 411 (Annexure III)",
+   "rpt_s": "p. 31 (sale of goods to related parties, Rs m 132.91 / 3,125.98 / 1,593.47)",
+   "rpt_p": "p. 31 (purchases from related parties, Rs m 54.46 / 2,059.10 / 1,253.88; excludes fixed-asset purchases)",
+   "nw": "p. 409 (total equity; the DRHP's net worth adds back Rs 670.88 m, p. 506)",
+   "recv": "p. 441 (Note 10, net of allowance)",
+   "inv": "p. 440 (Note 8)",
+   "pay": "p. 446 (Note 21)",
+   "cl": "p. 109 (claims 53.52 + bank guarantees 53.87 + corporate guarantees 782.30 Rs m; commitments of Rs 2,370.81 m are separate)",
+   "gw": "p. 485-486, 498 (debit balance of capital reserve on the 2024 merger, the economic equivalent of goodwill; no goodwill line)",
+   "reval": "p. 444 (no revaluation reserve)"
+  },
+  "single": {
+   "top1c": 0.1859,
+   "top10c": 0.6383,
+   "top1s": 0.1298,
+   "geo": 0.9974,
+   "offer": 90.0
+  },
+  "checks": {
+   "1": {
+    "status": "WATCH",
+    "page": "pp. 106, 177, 410, 506",
+    "finding": "No bonus issue. The 5-for-1 split (Rs 10 to Rs 2, approved 29-Nov-2025) is applied to all years: EPS Rs 2.80 / 1.59 / 0.43 on 298,327,183 shares at year end. The summary P&L on p. 106 prints the FY26 and FY25 EPS columns the wrong way round (1.59 for FY26, 2.80 for FY25); pp. 177 and 410 carry the correct order and PAT / shares reproduces 2.80 for FY26. A document error, corrected elsewhere in the same document."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "pp. 107-108, 411",
+    "finding": "Operating cash flow Rs -165.48 / -276.77 / +825.25 m against PAT 61.38 / 437.48 / 823.79 m; cumulative CFO/PAT 29.0% (383.00 / 1,322.65). Two classification facts cut both ways: (i) the working-capital block includes a Rs 1,189.76 m rise in other non-current assets, mainly capital-goods advances of Rs 1,294.25 m (Note 7, p. 440), so on an investing-activity basis FY26 CFO would be about Rs 2,015 m; (ii) FY26 CFO also includes a Rs 1,182.47 m inventory release, a Rs 740.20 m fall in payables and no cash tax outflow (tax line is a Rs 19.46 m inflow), with Rs 249.29 m of current tax payable at year end. Business reason is documented; read together the FY26 cash figure is not a clean run-rate in either direction."
+   },
+   "3": {
+    "status": "WATCH",
+    "page": "pp. 447, 411",
+    "finding": "Total tax charge 26.5% of cumulative PBT (476.00 / 1,798.65 Rs m) and 18% of it deferred (87.53 Rs m); effective rate 27.0% in FY26. Tax actually paid was Rs 148.65 m in FY25 and Rs 2.27 m in FY24, with a Rs 19.46 m net inflow in FY26 (cumulative Rs 131.46 m, 7.3% of PBT); Rs 249.29 m was payable at 31-Mar-2026 and Rs 21.81 m of interest was provided for short payment of advance tax in FY26 (Note 22, p. 447)."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "pp. 31-34, 110-112, 470-473",
+    "finding": "Related-party sales Rs 1,593.47 m (23.1% of FY26 revenue; 59.1% in FY25) and purchases Rs 1,253.88 m (35.7% of purchases; 44.9% in FY25), plus fixed-asset purchases of Rs 537.68 m in FY26 (13.7% of cash capex) and Rs 282.90 m in FY25 (52.4%). Devansh Infinium Private Limited (a corporate promoter, 13.12% holder) is customer (Rs 1,086.91 m), supplier (Rs 456.48 m) and capex vendor (Rs 353.55 m). Payables to related parties Rs 414.42 m = 84% of trade payables (Note 21). The DRHP states all dealings are at arm's length with Audit Committee approval (p. 34) but gives no price benchmark. Proceeds go to the company's own melting shop, not to a related party."
+   },
+   "5": {
+    "status": "N.A.",
+    "page": "pp. 150-151",
+    "finding": "Amount-based fresh issue (Rs 2,800 m) with no fixed share count, so no price floor can be set. The specific object is the melting shop at Rs 2,100 m of net proceeds (75.0% of gross) against a Rs 2,244.20 m project cost, the rest from internal accruals (Rs 30.00 m in FY27, Rs 114.20 m in FY28). General corporate purposes are capped at 25% of gross proceeds (Rs 700 m); offer expenses are [blank] in the DRHP."
+   },
+   "6": {
+    "status": "PASS",
+    "page": "p. 444",
+    "finding": "No revaluation reserve; other equity is retained earnings Rs 2,150.76 m, securities premium Rs 1,846.57 m and a debit capital reserve of Rs 670.88 m."
+   },
+   "7": {
+    "status": "WATCH",
+    "page": "pp. 485-486, 498, 506",
+    "finding": "No goodwill on the balance sheet, but the 2024 merger of two promoter-group companies (pooling of interests, effective 30-Mar-2024) left a Rs 670.88 m debit balance in capital reserve, 17.1% of book equity of Rs 3,923.10 m (Rs 237.85 m of it is goodwill derecognised on Ind AS transition, p. 498). The DRHP's net worth (Rs 4,593.98 m), NAV per share (Rs 15.40) and RoNW (17.93%) add the Rs 670.88 m back; on book equity NAV is Rs 13.15 and ROE 21.0%. Stated on both bases in this note."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 29-30, 37-39, 313-315",
+    "finding": "Demand: top-10 customers 63.83% / 84.31% / 38.05% of revenue (FY26 / FY25 / FY24); top customer Metarex Global 18.59% (FY25: Devansh Infinium 54.27%). Five of the FY26 top ten (Metarex, Devansh, Falvi Infinium, Sai Endeavours, Axat Impex; Rs 3,375.74 m, 49.0% of revenue) are, or were during part of FY26, on the related-party list. Supply: top-10 suppliers 63.98% of purchases; five of them are related or former related parties. Gujarat is 99.74% of revenue. No long-term contracts with dealers, distributors or suppliers (pp. 29, 315). Reported once, in proportion, as concentration typical of a regional rebar maker plus a group-trading overlay."
+   },
+   "9": {
+    "status": "WATCH",
+    "page": "pp. 109, 48, 543",
+    "finding": "Contingent liabilities Rs 889.69 m = 22.7% of book equity, of which Rs 782.30 m are corporate guarantees for borrowings of Devansh Infinium (Rs 450 m), Axat Impex LLP (Rs 332.30 m) and Sai Endeavours (Rs 200 m, p. 48); the three borrowers are also customers. Commitments for capital goods Rs 2,370.81 m (p. 440). The Income Tax Department noted in the NCLT order (7-Aug-2024) Rs 844.10 m of FY21 transactions of a merged company with EP Tradelink as unexplained and contemplated reassessment for AY 2021-22; no notice has been received (p. 543). Materiality threshold is the lower of 2% of turnover, 2% of net worth and 5% of average PAT (p. 541)."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "WATCH",
+    "page": "pp. 117-118, 405, 386",
+    "finding": "Three statutory-audit changes in FY26: Parshva Shah & Co and Deepak Goyal & Co (joint auditors since 30-Sep-2024) both resigned on 20-Nov-2025 (stated reasons: pre-occupation and increasing commitments); Lahoti & Lahoti were appointed on 24-Nov-2025 and resigned on 14-Mar-2026 before the audit started (pre-occupancy); ANR & Associates were appointed on 16-Mar-2026 and audited FY26. FY25 and FY24 are special-purpose Ind AS statements converted from Indian GAAP accounts audited by Parshva Shah & Co (unmodified, 5-Sep-2025 and 6-Sep-2024). Three CFOs in 9 months (Oct-2024 to Jun-2026). No qualification; reasons for resignation are not company-specific, which the RHP should address."
+   },
+   "R2": {
+    "status": "WATCH",
+    "page": "pp. 407, 499-502",
+    "finding": "The examination report notes CARO 2020 remarks and 'certain instances' on the audit-trail (edit-log) feature for FY26, shown in Part B of Annexure VI (p. 407). The CARO list for FY26 shows quarterly returns filed with Bank of India that differ from the books: stock Rs 1,150.03 m vs Rs 938.11 m in Q1, Rs 789.40 m vs Rs 687.39 m in Q4 (differences Rs 66.43 m to Rs 211.92 m, explained as divisions excluded from the hypothecated stock) and book debts by Rs -80.63 m to +13.28 m (explained as provisional figures submitted before reconciling customer accounts) (p. 499). The FY25 CARO records a customs dispute on a Jan-2022 import of heavy melting scrap, one container still under seizure for used cartridges (p. 501). An earlier DRHP for 19.6 m Rs 10 shares was filed on 2-Apr-2025 and withdrawn before the FY25 audit report was signed (pp. 406, 499)."
+   },
+   "R3": {
+    "status": "PASS",
+    "page": "p. 173",
+    "finding": "Monitoring agency to be appointed (fresh issue above Rs 1,000 m). No debt-repayment object. The melting shop is on owned land (Rs 44.15 m, fully paid, p. 154)."
+   },
+   "R4": {
+    "status": "PASS",
+    "page": "p. 571",
+    "finding": "Reg 6(1) re-performed: operating profit 1,181.72 / 470.82 / 77.26 Rs m reproduces from PBT less other income plus finance cost (1,128.48 - 72.71 + 125.95 = 1,181.72); three-year average Rs 576.60 m against the Rs 150 m test and positive in each year; net worth above Rs 10 m; monetary assets 7.02% of NTA. The name was last changed on 22-Nov-2024, more than a year before filing. Restated NTA of Rs 3,838.83 m does not equal total equity of Rs 3,923.10 m (difference Rs 84.27 m, unexplained); the test passes on either figure."
+   },
+   "R5": {
+    "status": "WATCH",
+    "page": "pp. 1, 101",
+    "finding": "OFS of 12,000,000 shares by Ishu Bansal, about 5.1% of her 235,354,800 shares (below half of her holding). If the 20% OFS ceiling applies, the OFS is within it only at a price of Rs 58.33 or less (12.0 m x P <= 20% x (Rs 2,800 m + 12.0 m x P)); at the Rs 90 reference it would be Rs 1,080 m, 27.8% of a Rs 3,880 m offer. Her weighted average cost of acquisition is below Rs 0.01 and 19,460,000 shares reached her by gift on 6-Mar-2026 (p. 189). Re-test at the RHP price."
+   },
+   "R6": {
+    "status": "WATCH",
+    "page": "pp. 577-579",
+    "finding": "Fedex Securities is the BRLM; Neomile Capital is a marketing-only BRLM and is handling its first public issue. Fedex lists 3 mainboard IPOs in the table: Mukka Proteins (+35.5% at day 30, +65.3% at day 180), Deepak Builders (-23.2%, -30.9%) and Patel Retail (-7.2%, -28.7%), plus 8 SME issues; its full track record is at a website link only (p. 579). Recorded in data/merchant_bankers.json."
+   },
+   "R7": {
+    "status": "WATCH",
+    "page": "pp. 150-153, 299, 440, 464",
+    "finding": "Project cost of the melting shop is Rs 2,244.20 m (cost report of 17-Aug-2026); quotations are valid for about 12 months from April to July 2026. This object sits beside a larger programme already under way: Rolling Mill 3 (Rs 1,719.51 m incurred, production by 31-Dec-2026), a captive wind-solar plant costing about Rs 4,043 m (Rs 1,747.82 m paid to Opera Energy, completion by 31-Oct-2026) and a Rs 500 m copper smelting plan. Borrowings were Rs 5,024.07 m at 30-Jun-2026 against Rs 3,575.72 m at 31-Mar-2026. The IREDA pledge over promoter shares is not yet created (Rs 5.11 m penalty paid, waived to an extended date, p. 50)."
+   }
+  },
+  "gaps": [
+   {
+    "item": "Price band, offer expenses, GCP amount, anchor details and post-issue share count (all [blank])",
+    "severity": "High",
+    "source": "RHP"
+   },
+   {
+    "item": "Audited record ends 31-Mar-2026 (206 days old at 23-Oct-2026); borrowings rose from Rs 3,575.72 m to Rs 5,024.07 m by 30-Jun-2026 and no interim results are given",
+    "severity": "High",
+    "source": "RHP"
+   },
+   {
+    "item": "Economics of non-ferrous scrap sales: Rs 1,519.78 m on 721.46 MT in FY26 (Rs 2.11 m a tonne) against Rs 65.12 m on 370.96 MT (Rs 0.18 m a tonne) in FY25 and Rs 163.79 m on 956.84 MT in FY24; purchase cost, margin and customers are not disclosed. Other operating income is 27.5% of FY26 revenue while manufactured-goods revenue rose 4.7%",
+    "severity": "High",
+    "source": "RHP / issuer"
+   },
+   {
+    "item": "Who controls Metarex Global (top customer, Rs 1,280.88 m), Falvi Infinium (Rs 464.86 m) and Sai Endeavours (Rs 303.28 m) now: all three left the related-party list in May-June 2025 and together bought Rs 1,824.80 m after that date (26.5% of FY26 revenue); identity of Deep Enterprise (Rs 505.72 m, third-largest customer) is not given",
+    "severity": "High",
+    "source": "RHP / MCA / issuer"
+   },
+   {
+    "item": "Arm's-length evidence for dealings with Devansh Infinium, Axat Impex, Honey Ship Breaking and Pratyaksh Ship Breaking (sales, purchases, fixed-asset purchases, loans, guarantees)",
+    "severity": "High",
+    "source": "RHP / issuer"
+   },
+   {
+    "item": "Reasons for the three FY26 auditor resignations and the ADT-3 statements; auditor change timing against the offer",
+    "severity": "High",
+    "source": "MCA / issuer"
+   },
+   {
+    "item": "Income Tax Department observation of Rs 844.10 m of FY21 transactions with EP Tradelink in a merged company: reassessment status and any exposure",
+    "severity": "Medium",
+    "source": "RHP / issuer"
+   },
+   {
+    "item": "Cost, funding and completion of the captive power plant (about Rs 4,043 m; commitments Rs 2,370.81 m) and of Rolling Mill 3; capital-goods advances of Rs 1,294.25 m by vendor",
+    "severity": "Medium",
+    "source": "RHP / issuer"
+   },
+   {
+    "item": "Restated CFO classification: capital advances of Rs 1,180.76 m sit in operating cash flow; tax paid line is a net inflow of Rs 19.46 m in FY26",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "Summary P&L EPS columns for FY26 and FY25 are transposed on p. 106; ROCE is 16.73% (p. 179) in the KPI table and 15.85% in the ratio note (p. 505); NTA Rs 3,838.83 m (p. 571) does not equal total equity",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "Peer set: issuer's six peers include two with ROE below 4% and one at 16.5x net debt/EBITDA; no peer sells structural steel and ship-recycling output together",
+    "severity": "Medium",
+    "source": "RHP / exchange filings"
+   },
+   {
+    "item": "Pending approvals: GPCB consent merger for the two plant plots, factory plan revision, GMB consent for the offer; ship recycling yard permission runs to 18-Oct-2026 (p. 46-48)",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "Civil suit (RCS 154/2025) seeking cancellation of the sale deed for Survey 1027 paiki 3, on which Rolling Mill 2 stands",
+    "severity": "Medium",
+    "source": "RHP / court records"
+   },
+   {
+    "item": "Insurance covers 51.2% of insured assets (65.5% in FY25, 91.3% in FY24) as assets grew (p. 317)",
+    "severity": "Low",
+    "source": "RHP"
+   },
+   {
+    "item": "Current price and 3-year financials of the lead manager's recent issues (merchant banker table)",
+    "severity": "Medium",
+    "source": "BSE / NSE"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Sai Infinium Limited",
+   "board": "Mainboard",
+   "issue": 388.0,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667
+  },
+  "overhang": [
+   [
+    "Promoter minimum contribution (20% of post-offer capital at the Rs 90 reference)",
+    658.9,
+    1095,
+    "p. 145; 3 years"
+   ],
+   [
+    "Promoter holding above the minimum contribution, after the OFS",
+    2015.9,
+    365,
+    "p. 145; 1 year; confirm in RHP"
+   ],
+   [
+    "Pre-issue holders other than promoters (50 holders, mostly the Dec-2025 and Mar-2026 placements at Rs 90)",
+    188.5,
+    180,
+    "pp. 135, 146; 6 months"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Sai Infinium Limited",
+   "basis": "Standalone",
+   "pre_sh": 29.8327183,
+   "esop": 0,
+   "fresh": 280,
+   "fresh_sh_fixed": 0,
+   "ofs_sh": 1.2,
+   "floor": 90.0,
+   "cap": 90.0,
+   "obj_net": 210.0,
+   "exp_pct": 0.05,
+   "gcp_pct": 0.2,
+   "ipo_capex": 210.0,
+   "capex_y1": 0.2,
+   "rev0": 689.162,
+   "rev_prev": 528.674,
+   "ebitda0": 128.188,
+   "da0": 10.016,
+   "pat0": 82.379,
+   "nw0": 392.31,
+   "nd0": 330.625,
+   "nwc0": 52.917,
+   "nwc_prev": 117.574,
+   "capex0": 391.978,
+   "k": 0.49
+  },
+  "drivers": {
+   "g1": [
+    -0.05,
+    0.15,
+    0.3
+   ],
+   "g2": [
+    0.08,
+    0.2,
+    0.3
+   ],
+   "g3": [
+    0.08,
+    0.15,
+    0.2
+   ],
+   "g4": [
+    0.06,
+    0.1,
+    0.12
+   ],
+   "g5": [
+    0.05,
+    0.08,
+    0.1
+   ],
+   "m": [
+    0.08,
+    0.124,
+    0.16
+   ],
+   "nwc": [
+    0.22,
+    0.19,
+    0.12
+   ],
+   "roic": [
+    0.11,
+    0.15,
+    0.18
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue Rs 4,682.07 m / 5,286.74 m / 6,891.62 m FY24-FY26 (+12.9%, +30.4%). Manufactured-goods revenue rose only 4.7% in FY26 (Rs 4,372.39 m to Rs 4,578.76 m; TMT volume 85,093 t, -1.8%, realisation -4.0%); the rest of the growth is other operating income, up Rs 1,654.31 m to Rs 1,894.65 m, of which non-ferrous scrap Rs 1,520.64 m (pp. 290, 529-530). Structural steel began in Feb-2026 (5,978 t, Rs 359.63 m, 5.5% of 108,000 t capacity, p. 292); Rolling Mill 3 would double that capacity by 31-Dec-2026 (p. 298), and CARE (commissioned by the issuer) projects TMT demand at 8% a year to FY30 (p. 236). Bear assumes scrap and trading revenue normalises (-5% in Y1), the new mills ramp slowly and the IPO-funded melting shop is not built; Neutral assumes structural steel reaches about 33% of Rolling Mill 2's 108,000 t in Y1 (about 36,000 t, roughly Rs 217 cr) net of lower scrap sales, then both mills are in use from Y2 (Rolling Mill 3 from 31-Dec-2026) to about 45-50% of 216,000 t by Y5 at Rs 60,000 a tonne; Bull assumes 65-70% use of the new mills and billet self-sufficiency after the melting shop.",
+   "m": "EBITDA margin 5.91% / 10.17% / 18.60% FY24-FY26 (p. 179); gross margin 25.2% / 30.2% / 31.8% and other expenses 17.8% / 18.1% / 11.2% of revenue (p. 450). The FY26 step-up coincides with a 22.1% revenue share from non-ferrous scrap whose margin is not disclosed, and FY25 included Rs 147.09 m of commission that fell to Rs 12.51 m. Neutral uses the three-year weighted margin of 12.4% (EBITDA Rs 2,096.47 m on revenue Rs 16,860.43 m); Bear 8% sits between the FY24 and FY25 margins; Bull 16% is below FY26 because the scrap margin is unconfirmed.",
+   "nwc": "Net working capital (inventory + trade receivables - trade payables) was 26.8% / 22.2% / 7.7% of revenue FY24-FY26 (98 / 81 / 28 days, p. 505; reproduces from pp. 409, 440-441, 446). FY26 is low because inventory fell from Rs 1,971.87 m to Rs 789.40 m and payables rose by Rs 740 m less than FY25; the three-year average is 18.9%. Neutral uses 19%; Bear holds 22% (the FY25 level); Bull assumes 12%, a rebuild to about 40 inventory days plus normal payables.",
+   "roic": "ROCE per the DRHP 8.47% / 20.88% / 16.73% (p. 179), on a capital base that grew from Rs 2.9 bn to Rs 7.5 bn in FY26 with Rolling Mill 2 only just in production and the captive power plant not yet complete. Neutral terminal ROIC of 15% is the three-year average and sits just above the 14.5% WACC; Bear 11% is below WACC (a stress case: capex built ahead of demand); Bull 18% is the FY26 level.",
+   "capex": "Growth capex per rupee of added revenue is set at k = 0.49, not at the 2.38 that FY26 alone implies (capex Rs 391.98 cr, p. 411, over revenue added of Rs 160.49 cr), because FY26 spending is on capacity that is not yet producing: Rolling Mill 3 (Rs 1,719.51 m in CWIP, production by 31-Dec-2026), the captive wind-solar plant (Rs 1,747.82 m paid, completion by 31-Oct-2026) and Rs 1,294.25 m of capital advances (pp. 298-299, 440). k is the remaining committed non-IPO programme over the revenue it supports: Rolling Mill 3 balance Rs 791.11 m (Rs 4,600 m budget less Rs 2,089.38 m capitalised and Rs 1,719.51 m incurred, p. 152) plus wind-solar commitments Rs 2,370.81 m (Note 7, p. 440) = Rs 3,161.92 m, divided by Rs 6,497.5 m (108,000 t of structural steel at Rs 60,162 a tonne, pp. 153, 292) = 0.49. It is above the 0.32 that Rolling Mill 2 cost per rupee of full-capacity revenue (Rs 2,089.38 m over the same Rs 6,497.5 m) and the 0.30 of FY25 (PPE, CWIP and investment property Rs 1,571.05 m over revenue Rs 5,286.74 m, p. 409), so it errs on the cautious side. The melting shop (Rs 2,100 m of net proceeds) is modelled separately as the IPO-funded capex and is excluded in the Bear case."
+  },
+  "peers": [
+   [
+    "Vraj Iron and Steel Ltd",
+    "Y",
+    "Semi-integrated sponge iron, billets and TMT; named by the issuer (p. 178)",
+    "Consolidated (standalone where stated)",
+    125.88,
+    3.2983,
+    36.873,
+    587.924,
+    56.728,
+    32.005,
+    429.795,
+    -0.4538
+   ],
+   [
+    "Rudra Global Infra Products Ltd",
+    "Y",
+    "TMT bars and long steel; named by the issuer (p. 178)",
+    "Consolidated (standalone where stated)",
+    20.1,
+    10.038,
+    134.005,
+    622.829,
+    36.916,
+    13.519,
+    138.725,
+    0.3111
+   ],
+   [
+    "VMS TMT Ltd (standalone)",
+    "Y",
+    "Gujarat TMT maker; closest regional peer (p. 178)",
+    "Consolidated (standalone where stated)",
+    47.23,
+    4.9626,
+    220.861,
+    838.557,
+    60.676,
+    21.034,
+    228.133,
+    0.4953
+   ],
+   [
+    "Gallantt Ispat Ltd",
+    "Y",
+    "Integrated sponge iron, billets, TMT and power; much larger (p. 178)",
+    "Consolidated (standalone where stated)",
+    545.7,
+    24.1286,
+    42.987,
+    4418.922,
+    716.444,
+    484.268,
+    3316.235,
+    0.0294
+   ],
+   [
+    "MSP Steel Power Ltd",
+    "N",
+    "Integrated steel; P/E 59.12x on ROE 3.28% and net debt 16.5x EBITDA, not meaningful (pp. 178, 183)",
+    "Consolidated (standalone where stated)",
+    33.39,
+    56.683,
+    2924.119,
+    2842.964,
+    177.65,
+    33.771,
+    1030.497,
+    -0.0214
+   ],
+   [
+    "VMS Industries Ltd (standalone)",
+    "N",
+    "Small, EBITDA margin 4.3% and ROE 1.5%; P/E 30x on thin earnings (pp. 178, 183)",
+    "Consolidated (standalone where stated)",
+    18.02,
+    2.4473,
+    13.496,
+    157.431,
+    6.748,
+    1.463,
+    97.158,
+    -0.4544
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   27.67,
+   53.789,
+   128.188
+  ],
+  "volume": [
+   57944,
+   86651.76,
+   85093.17
+  ],
+  "volume_unit": "t TMT bars sold",
+  "_cite": "Reported EBITDA p. 179; TMT sales volume p. 291"
+ },
+ "earnings_quality": {
+  "adjustments": [
+   {
+    "item": "Profit on sale of investment property credited to other income",
+    "short": "property sale gains",
+    "pre_tax": [
+     -0.364,
+     -15.849,
+     -0.247
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "p. 448 (Note 26)",
+    "reason": "A Rs 158.49 m gain (27% of FY25 PBT) came from selling investment property of the real estate book (Rs 96.35 m of cost disposed, Note 5), Rs 3.64 m in FY24 and Rs 2.47 m in FY26. It is not part of manufacturing earnings and will not recur at that size."
+   },
+   {
+    "item": "Expected credit loss allowance reversed to other income",
+    "short": "ECL reversal",
+    "pre_tax": [
+     0,
+     0,
+     -0.314
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 441, 448",
+    "reason": "A Rs 3.14 m release in FY26 after charges of Rs 10.77 m (FY24) and Rs 10.80 m (FY25); 0.3% of FY26 PBT."
+   },
+   {
+    "item": "Foreign-exchange gains in other income",
+    "short": "FX gains",
+    "pre_tax": [
+     -1.828,
+     -0.618,
+     -0.161
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 448 (Note 26)",
+    "reason": "Gains of Rs 18.28 m, Rs 6.18 m and Rs 1.61 m depend on import-heavy raw material buying (29.99% of FY26 raw material by quantity, p. 311) and recur in both directions; shown for information."
+   }
+  ],
+  "checked": [
+   "Borrowing cost: Note 3.1 says costs are capitalised on specific PPE-related borrowings 'wherever applicable' (p. 437) but no amount is disclosed against CWIP additions of Rs 3,773.42 m in FY26 (Note 4, p. 439); FY26 finance cost of Rs 125.95 m shows no capitalised offset, so the capitalised amount is a request for the RHP",
+   "Receivables are 96.8% within six months of due date at 31-Mar-2026 (Rs 229.89 m of Rs 237.45 m); allowance Rs 4.87 m (2.1%); bad debts written off Rs 1.61 m (Note 10, p. 441)",
+   "Depreciation lives and revenue recognition: revenue is recognised on delivery, no long-term contracts (Note 25, p. 448); depreciation rose with the Rs 2,089.38 m capitalisation of Rolling Mill 2 in FY26",
+   "Directors' pay Rs 8.98 m in FY26 (1.1% of PAT), fully charged; no contracted-but-undrawn pay disclosed (pp. 367-368)",
+   "Unsecured loans of about Rs 1,090 m were received in Feb-Mar 2026 so FY26 interest on them was low (p. 531); a full year at the FY25 average cost would add finance cost (not quantified in the DRHP)",
+   "Finance cost includes Rs 21.81 m of interest on short-paid advance tax and Rs 15.64 m of MSME interest in FY26 (pp. 449, 447); both are real costs and are not adjusted",
+   "Cost of materials includes scrap and sponge iron bought from related parties (35.7% of purchases in FY26); no price benchmark is given, so no adjustment is made"
+  ]
+ }
+}

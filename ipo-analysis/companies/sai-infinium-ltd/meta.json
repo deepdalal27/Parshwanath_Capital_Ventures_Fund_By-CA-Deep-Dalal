@@ -1,0 +1,103 @@
+{
+  "slug": "sai-infinium-ltd",
+  "company": "Sai Infinium Limited",
+  "platform": "Mainboard",
+  "stage": "DRHP",
+  "filed_on": "2026-10-01",
+  "doc_date": "2026-09-24",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sai-infinium-limited-drhp_104850.html",
+  "sector": "Steel (MS billets, TMT bars, structural steel), with ship recycling, scrap trading and real estate",
+  "brlm": "Fedex Securities",
+  "issue_size_cr": 280.0,
+  "price_band": "Not announced",
+  "call": "Screen only",
+  "exit_route": "2-3 year hold (assumed)",
+  "headline": "PAT rose from Rs 61.4 m to Rs 823.8 m and EBITDA margin from 5.9% to 18.6% over FY24-FY26, but manufactured-goods revenue grew only 4.7% in FY26 (the rest is scrap and raw-material sales), group entities are about a quarter of sales and over a third of purchases, and the Rs 90 reference is 32x FY26 EPS against a steel-peer median of 13.9x, so the RHP price band and an explanation of FY26's margin decide the case.",
+  "red_flags": [
+    "PAT Rs 61.4 m / 437.5 m / 823.8 m FY24-FY26; EBITDA margin 5.9% / 10.2% / 18.6%; ROE 21.0% on book equity; Reg 6(1) average operating profit Rs 576.6 m (pp. 179, 410, 571)",
+    "FY26 revenue +30.4%, but manufactured goods +4.7% (TMT volume -1.8%, realisation -4.0%); other operating income +Rs 1,654.3 m, mostly non-ferrous scrap Rs 1,520.6 m with no disclosed margin (pp. 290, 529)",
+    "Capacity build ahead of revenue: Rolling Mill 2 at 5.5% use, Rolling Mill 3 due 31-Dec-2026, Rs 4,043 m power plant, Rs 2,244 m melting shop; borrowings Rs 3,575.7 m to Rs 5,024.1 m by 30-Jun-2026 (pp. 50, 152, 299)",
+    "Group trading: related-party sales 23.1% of revenue (59.1% in FY25), purchases 35.7%, guarantees Rs 782.3 m; five of the top-10 customers (49.0% of revenue) are or were related (pp. 31, 38, 48)",
+    "Cash: CFO Rs -165.5 / -276.8 / +825.3 m (29.0% of cumulative PAT); FY26 includes a Rs 1,182 m inventory release, Rs 1,190 m of advances inside CFO and Rs 249.3 m unpaid tax (pp. 107, 440, 447)",
+    "Three statutory-audit changes in FY26 and three CFOs since Oct-2024; Rs 844.1 m FY21 transactions of a merged company noted by the tax department; Rs 90 reference = 32.1x FY26 EPS vs peer P/E 11.1x-27.2x (pp. 117, 177-178, 386, 543)"
+  ],
+  "status": "analysed",
+  "reference_note": "Rs 90 = the issue price of the five cash private placements of 17-Dec-2025 to 23-Mar-2026 (Rs 2 shares), the DRHP's weighted average cost of its latest primary issues (pp. 186-189). It is a reference to size the model, not a price band and not a view of the right price. Secondary transfers in the same window were at Rs 15 to Rs 30 and 19.46 m shares moved by gift at nil; the Sep-Dec 2024 rounds were at Rs 30 per Rs 2 share (p. 443).",
+  "files": {
+    "screening": "SAI_INFINIUM_LTD_01_Screening.xlsx",
+    "anchor": "SAI_INFINIUM_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "SAI_INFINIUM_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "SAI_INFINIUM_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": -5.2532,
+      "relative": 31.4065,
+      "blended": 13.0766,
+      "upside_floor": -0.8547,
+      "upside_cap": -0.8547
+    },
+    "neutral": {
+      "dcf": 3.122,
+      "relative": 31.4065,
+      "blended": 17.2642,
+      "upside_floor": -0.8082,
+      "upside_cap": -0.8082
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -90.1% - the divergence is the finding; name its cause",
+      "DEGENERATE: TV above 100% of EV - fix assumptions, do not report"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 16.2502,
+      "relative": 31.4065,
+      "blended": 23.8283,
+      "upside_floor": -0.7352,
+      "upside_cap": -0.7352
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 12,
+    "pass": 3,
+    "open": 0
+  },
+  "focus_top": [
+    "Bonus issue / share-count consistency",
+    "Cash flow vs profit",
+    "Current vs deferred tax"
+  ],
+  "analysed_on": "2026-10-23",
+  "swot": {
+    "strengths": [
+      "PAT Rs 61.4 m to Rs 823.8 m, EBITDA margin 5.9% to 18.6%, ROE 21.0% on book equity (pp. 179, 410)",
+      "Semi-integrated site: billets 108,000 t (88.3% used), TMT 108,000 t (76.8%), structural steel 108,000 t from Feb-2026 (p. 303)",
+      "226 dealers and 5 distributors; TMT sold to 227 customers in FY26 (pp. 296, 314)",
+      "Reg 6(1) average operating profit Rs 576.6 m against the Rs 150 m test (p. 571)",
+      "No criminal or regulatory action against the company; 3 of 6 directors independent (pp. 365, 542)"
+    ],
+    "weaknesses": [
+      "Manufactured-goods revenue +4.7% in FY26; TMT volume -1.8%, realisation -4.0% (p. 529)",
+      "Related-party sales 23.1% and purchases 35.7% in FY26; top-10 customers 63.8%; Gujarat 99.7% (pp. 31, 37, 314)",
+      "Cumulative CFO 29.0% of PAT; borrowings Rs 5,024.1 m at 30-Jun-2026 (pp. 50, 107)",
+      "Three statutory-audit changes in FY26; FY24-FY25 are converted special-purpose accounts (pp. 117, 404)",
+      "Rs 670.88 m debit capital reserve added back to DRHP net worth (p. 506)"
+    ],
+    "opportunities": [
+      "TMT consumption 49.2 mt (FY25) to 72.6 mt (FY30), 8% a year, issuer-commissioned (p. 236)",
+      "Structural steel capacity 108,000 t to 216,000 t by 31-Dec-2026 at Rs 60,162 a tonne vs TMT Rs 44,982 (pp. 292, 298)",
+      "Melting shop doubles billets to 216,000 t, reducing bought-in billets (pp. 153, 298)",
+      "Captive wind-solar plant (39 MWp solar, 26.4 MW wind) against power and fuel cost of Rs 400.33 m (p. 299)",
+      "New dealers in Rajasthan and Punjab; Maharashtra needs CRS certification (p. 300)"
+    ],
+    "threats": [
+      "Civil suit RCS 154/2025 seeks cancellation of the sale deed for the land under Rolling Mill 2 (p. 46)",
+      "Guarantees of Rs 782.30 m for group borrowers; IREDA pledge over promoter shares not yet created (pp. 48, 50)",
+      "Ship yard permission runs to 18-Oct-2026; consent for the offer not yet obtained (p. 47)",
+      "Regional competition limits pricing power (p. 282); 30% of raw material by volume imported (p. 311)"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-22T13:40Z",
+  "last_scan": "2026-10-23T13:40Z",
   "pending": [
     {
       "company": "Arohan Financial Services Limited",
@@ -9,15 +9,6 @@
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/arohan-financial-services-limited-addendum-to-drhp_104860.html",
       "source": "SEBI",
       "note": ""
-    },
-    {
-      "company": "Sai Infinium Limited",
-      "platform": "Mainboard",
-      "stage": "DRHP",
-      "filed_on": "2026-10-01",
-      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sai-infinium-limited_104850.html",
-      "source": "SEBI",
-      "note": "Stage as labelled on SEBI's listing page; confirm on the document cover"
     },
     {
       "company": "J Infratech Limited",
@@ -558,6 +549,24 @@
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/hd-fire-protect-limited-prospectus_105337.html",
       "source": "SEBI",
       "note": ""
+    },
+    {
+      "company": "Tonbo Imaging India Limited",
+      "platform": "Mainboard",
+      "stage": "Prospectus",
+      "filed_on": "2026-10-22",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/tonbo-imaging-india-limited-prospectus_105341.html",
+      "source": "SEBI",
+      "note": "Existing issuer in companies/ (analysed at RHP stage); prospectus supersedes if the issue has opened - check opening_calendar"
+    },
+    {
+      "company": "SFC Environmental Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-22",
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html",
+      "source": "SEBI",
+      "note": "Existing issuer in companies/; abridged prospectus listing dated 22-Oct-2026 - confirm whether it differs from the RHP already analysed"
     }
   ]
 }

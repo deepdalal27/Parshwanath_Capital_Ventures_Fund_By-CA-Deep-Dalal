@@ -220,6 +220,43 @@
    },
    "summary_source": "Ekkaa Electronics DRHP p. 458",
    "as_of": "2026-09-24"
+  },
+  "Fedex Securities Private Limited": {
+   "short": "Fedex",
+   "sebi_role": "Merchant banker (lead BRLM)",
+   "listed": null,
+   "owner": null,
+   "owner_source": "not sourced in the 23-Oct-2026 run; verify from BSE / MCA",
+   "summary": {
+    "FY2026-27": {
+     "ipos": 1,
+     "amount_rs_m": 349.8
+    },
+    "FY2025-26": {
+     "ipos": 2,
+     "amount_rs_m": 2661.8
+    },
+    "FY2024-25": {
+     "ipos": 10,
+     "amount_rs_m": 3799.1
+    },
+    "FY2023-24": {
+     "ipos": 14,
+     "amount_rs_m": 5415.2
+    }
+   },
+   "summary_source": "Sai Infinium DRHP p. 579 (IPO counts and sizes; the premium / discount distribution is in the DRHP table). Mainboard 1 / 1 / 1 and SME 13 / 9 / 1 / 1 for FY24 to FY27",
+   "as_of": "2026-09-24"
+  },
+  "Neomile Capital Advisors Private Limited": {
+   "short": "Neomile",
+   "sebi_role": "Merchant banker (BRLM, marketing only under Reg 21C)",
+   "listed": null,
+   "owner": null,
+   "owner_source": "not sourced in the 23-Oct-2026 run",
+   "summary": {},
+   "summary_source": "Sai Infinium DRHP p. 578: first public issue handled",
+   "as_of": "2026-09-24"
   }
  },
  "issues": [
@@ -1031,6 +1068,204 @@
     "SA"
    ],
    "listing_source": "Ekkaa Electronics DRHP pp. 456-458 (exchange data per the offer document)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Mukka Proteins Limited",
+   "sector": null,
+   "issue_size_rs_m": 2240.0,
+   "issue_price": 28,
+   "listing_date": "2024-03-07",
+   "listing_open": 40.0,
+   "listing_gain_pct": 0.4286,
+   "d30_pct": 0.3554,
+   "d90_pct": 0.1107,
+   "d180_pct": 0.6525,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Deepak Builders & Engineers India Limited",
+   "sector": null,
+   "issue_size_rs_m": 2600.4,
+   "issue_price": 203,
+   "listing_date": "2024-10-28",
+   "listing_open": 200.0,
+   "listing_gain_pct": -0.0148,
+   "d30_pct": -0.2319,
+   "d90_pct": -0.1883,
+   "d180_pct": -0.3089,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Patel Retail Limited",
+   "sector": null,
+   "issue_size_rs_m": 2426.6,
+   "issue_price": 255,
+   "listing_date": "2025-08-26",
+   "listing_open": 300.0,
+   "listing_gain_pct": 0.1765,
+   "d30_pct": -0.0716,
+   "d90_pct": -0.0508,
+   "d180_pct": -0.2868,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Magenta Lifecare Limited",
+   "sector": null,
+   "issue_size_rs_m": 70.0,
+   "issue_price": 35,
+   "listing_date": "2024-06-12",
+   "listing_open": 45.0,
+   "listing_gain_pct": 0.2857,
+   "d30_pct": 0.1526,
+   "d90_pct": -0.1429,
+   "d180_pct": -0.2411,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Broach Lifecare Hospital Limited",
+   "sector": null,
+   "issue_size_rs_m": 40.2,
+   "issue_price": 25,
+   "listing_date": "2024-08-21",
+   "listing_open": 47.5,
+   "listing_gain_pct": 0.9,
+   "d30_pct": 0.1204,
+   "d90_pct": 0.1564,
+   "d180_pct": -0.0864,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Boss Packaging Solutions Limited",
+   "sector": null,
+   "issue_size_rs_m": 84.0,
+   "issue_price": 66,
+   "listing_date": "2024-09-06",
+   "listing_open": 82.5,
+   "listing_gain_pct": 0.25,
+   "d30_pct": -0.0288,
+   "d90_pct": -0.1773,
+   "d180_pct": -0.4189,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Naturewings Holidays Limited",
+   "sector": null,
+   "issue_size_rs_m": 70.3,
+   "issue_price": 74,
+   "listing_date": "2024-09-10",
+   "listing_open": 95.0,
+   "listing_gain_pct": 0.2838,
+   "d30_pct": -0.2804,
+   "d90_pct": 0.2959,
+   "d180_pct": -0.2838,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Hvax Technologies Limited",
+   "sector": null,
+   "issue_size_rs_m": 335.2,
+   "issue_price": 458,
+   "listing_date": "2024-10-07",
+   "listing_open": 486.0,
+   "listing_gain_pct": 0.0611,
+   "d30_pct": 0.3396,
+   "d90_pct": 0.8841,
+   "d180_pct": 0.321,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Royal Arc Electrodes Limited",
+   "sector": null,
+   "issue_size_rs_m": 360.0,
+   "issue_price": 120,
+   "listing_date": "2025-02-24",
+   "listing_open": 120.0,
+   "listing_gain_pct": 0.0,
+   "d30_pct": 0.0662,
+   "d90_pct": 0.3721,
+   "d180_pct": 0.3083,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "Rukmani Devi Garg Agro Impex Limited",
+   "sector": null,
+   "issue_size_rs_m": 235.2,
+   "issue_price": 99,
+   "listing_date": "2025-10-06",
+   "listing_open": 79.2,
+   "listing_gain_pct": -0.2,
+   "d30_pct": -0.4315,
+   "d90_pct": -0.2071,
+   "d180_pct": 0.1364,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
+   "financials_rs_cr": null,
+   "current": null
+  },
+  {
+   "issuer": "ABH Healthcare Limited",
+   "sector": null,
+   "issue_size_rs_m": 349.8,
+   "issue_price": 102,
+   "listing_date": "2026-09-01",
+   "listing_open": 99.0,
+   "listing_gain_pct": -0.0294,
+   "d30_pct": null,
+   "d90_pct": null,
+   "d180_pct": null,
+   "handled_by": [
+    "Fedex"
+   ],
+   "listing_source": "Sai Infinium DRHP pp. 577-578 (exchange data; day 30/90/180 change in closing price over issue price)",
    "financials_rs_cr": null,
    "current": null
   }

@@ -112,9 +112,12 @@ def build(path, scenario=2, facts=None):
     b.add("ke", "Cost of equity", f"={A['rf']}+{A['beta']}*{A['erp']}+{A['size']}+{A['csp']}", PCT, "calc")
     b.add("wacc", "WACC", f"=(1-{A['dw']})*{A['ke']}+{A['dw']}*{A['kd']}*(1-{A['tax']})", PCT, "calc", key_cell=True)
     b.add("da_pct", "D&A % of revenue (latest actual)", f"={A['da0']}/{A['rev0']}", PCT, "calc")
+    # k is implied from the latest actual year unless the issuer's capex ran ahead of revenue (assets under
+    # construction); then facts.valuation.inputs.k may carry a documented override (blue input cell).
+    k_set = facts is not None and facts.get("inputs", {}).get("k") is not None
     b.add("k", "Growth capex per Rs of incremental revenue (k)",
-          f"=MAX(0,({A['capex0']}-{A['da0']})/({A['rev0']}-{A['rev_prev']}))", "0.000", "calc",
-          hint="Implied from latest actual year")
+          f"=MAX(0,({A['capex0']}-{A['da0']})/({A['rev0']}-{A['rev_prev']}))", "0.000", "input" if k_set else "calc",
+          hint="Override from facts (see rationale)" if k_set else "Implied from latest actual year")
     b.add("obj_floor", "Objects floor price",
           f'=IF({A["fresh_sh_fixed"]}>0,{A["obj_net"]}/(1-{A["exp_pct"]}-{A["gcp_pct"]})/{A["fresh_sh_fixed"]},"n.a.")',
           CR, "calc", "Rs", hint="Funding need / fixed fresh shares (forensic check 5)")
