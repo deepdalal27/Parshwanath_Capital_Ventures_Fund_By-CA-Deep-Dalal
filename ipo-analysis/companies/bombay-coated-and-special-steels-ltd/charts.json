@@ -1,0 +1,833 @@
+{
+ "slug": "bombay-coated-and-special-steels-ltd",
+ "company": "Bombay Coated and Special Steels Limited",
+ "generated": "2026-10-23T09:55Z",
+ "kpis": [
+  {
+   "label": "Revenue FY25",
+   "value": 1055.707,
+   "fmt": "cr",
+   "sub": "CAGR FY23-FY25",
+   "subval": 0.3367,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY25",
+   "value": 28.672,
+   "fmt": "cr",
+   "sub": "CAGR FY23-FY25",
+   "subval": 0.3529,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.0702,
+   "fmt": "pct",
+   "sub": "FY23",
+   "subval": 0.0637,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 0.686,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2002,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 19.09,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 41.8143,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 19.9,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 19.09,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 118.1302,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": 0.3424,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 88.0,
+   "fmt": "rs",
+   "sub": "Reference Rs 88 = price of the 28-Oct-2025 private placement of 9,00,091 shares (originally approved as a pre-IPO placement) (p. 94). It is not a price band. Promoters' average cost is Rs 1.25-12.50 a share (p. 35)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Cash flow vs profit",
+   "detail": "Operating cash flow Rs 1.34 / 11.49 / 32.09 cr FY23-25 against PAT Rs 15.67 / 21.14 / 28.67 cr: cumulative CFO/PAT 68.6% while revenue grew 34% a year. H1 FY26 CFO Rs 62.51 cr (PAT Rs 11.01 cr) as inventory and receivables were released; including H1, CFO exceeds PAT.",
+   "page": "p. 280"
+  },
+  {
+   "level": "WATCH",
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Promoters and relatives lend the company Rs 25.75 cr (Sep-2025) at interest (Rs 2.52 cr of interest in FY25) and rent it two properties; managerial pay is modest (Rs 0.66 cr to three promoter directors in FY25). Related-party transactions 3.14% of FY25 revenue. Disclosed and typical of a promoter-funded company.",
+   "page": "pp. 32-33"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "JSW Steel Coated Products supplied 90.61% of FY25 steel coils (authorised service partner since 2021); appliances 81.80% of FY25 product revenue; top customer (Amber Enterprises) 15.53% and top-10 67.44%. Typical of a service centre tied to one mill and the appliance PLI ecosystem.",
+   "page": "pp. 30-31, 37"
+  },
+  {
+   "level": "WATCH",
+   "title": "CARO / audit trail",
+   "detail": "25 delayed RoC filings over five years and a 2021 allotment to a promoter (for the Bombay Steels business transfer) filed with the wrong form and without MGT-14; compounding / adjudication application pending before the RoC. Procedural, rectified with additional fees; no penalty yet.",
+   "page": "pp. 44-46"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -71.2% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "No price band, dates or RHP yet (SEBI observation 12-Jun-2026)",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Audited numbers end 30-Sep-2025 (388 days old); FY26 full-year results not in the document",
+   "page": "RHP"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Nature, scheme and remaining tenure of the state subsidy (Rs 6.39 cr in FY24) and Continuous Production Scheme benefit",
+   "page": "RHP / issuer"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Terms of the JSW Steel Coated Products service-partner agreement (tenure, exclusivity, pricing)",
+   "page": "RHP material contracts"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "3:1 bonus (08-Jul-2025) is reflected: EPS 4.47 / 5.34 / 7.24 FY23-25 are on the post-bonus count of 3.96 crore shares. A further 9,00,091 shares were placed at Rs 88 on 28-Oct-2025 (4.05 crore shares now).",
+   "page": "pp. 29, 94"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax 20.0% of cumulative FY23-25 PBT plus deferred tax (accelerated depreciation on new plants) 4.1%; income tax paid Rs 18.88 cr over three years.",
+   "page": "p. 279"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill or intangibles.",
+   "page": "p. 278"
+  },
+  {
+   "title": "Contingent liabilities",
+   "detail": "No contingent liabilities; capital commitments Rs 3.34 cr (Sep-2025).",
+   "page": "p. 31"
+  },
+  {
+   "title": "Auditor qualifications / changes",
+   "detail": "Shah Shah & Shah (peer-reviewed); no qualifications. A previous auditor resigned in Aug-2021, before the current growth phase.",
+   "page": "pp. 29, 88"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Fresh issue Rs 191 cr: monitoring agency mandatory; to be named in the RHP.",
+   "page": "p. 108"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 29, 94",
+   "finding": "3:1 bonus (08-Jul-2025) is reflected: EPS 4.47 / 5.34 / 7.24 FY23-25 are on the post-bonus count of 3.96 crore shares. A further 9,00,091 shares were placed at Rs 88 on 28-Oct-2025 (4.05 crore shares now)."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "WATCH",
+   "page": "p. 280",
+   "finding": "Operating cash flow Rs 1.34 / 11.49 / 32.09 cr FY23-25 against PAT Rs 15.67 / 21.14 / 28.67 cr: cumulative CFO/PAT 68.6% while revenue grew 34% a year. H1 FY26 CFO Rs 62.51 cr (PAT Rs 11.01 cr) as inventory and receivables were released; including H1, CFO exceeds PAT."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 279",
+   "finding": "Current tax 20.0% of cumulative FY23-25 PBT plus deferred tax (accelerated depreciation on new plants) 4.1%; income tax paid Rs 18.88 cr over three years."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "WATCH",
+   "page": "pp. 32-33",
+   "finding": "Promoters and relatives lend the company Rs 25.75 cr (Sep-2025) at interest (Rs 2.52 cr of interest in FY25) and rent it two properties; managerial pay is modest (Rs 0.66 cr to three promoter directors in FY25). Related-party transactions 3.14% of FY25 revenue. Disclosed and typical of a promoter-funded company."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 27, 108",
+   "finding": "Amount-based fresh issue (Rs 191 cr): Rs 125 cr repays borrowings, Rs 18 cr buys out Siemens equipment leases, balance GCP (cap 25%). No fixed share count, so no objects floor."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "p. 278",
+   "finding": "No goodwill or intangibles."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 30-31, 37",
+   "finding": "JSW Steel Coated Products supplied 90.61% of FY25 steel coils (authorised service partner since 2021); appliances 81.80% of FY25 product revenue; top customer (Amber Enterprises) 15.53% and top-10 67.44%. Typical of a service centre tied to one mill and the appliance PLI ecosystem."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "PASS",
+   "page": "p. 31",
+   "finding": "No contingent liabilities; capital commitments Rs 3.34 cr (Sep-2025)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "PASS",
+   "page": "pp. 29, 88",
+   "finding": "Shah Shah & Shah (peer-reviewed); no qualifications. A previous auditor resigned in Aug-2021, before the current growth phase."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "WATCH",
+   "page": "pp. 44-46",
+   "finding": "25 delayed RoC filings over five years and a 2021 allotment to a promoter (for the Bombay Steels business transfer) filed with the wrong form and without MGT-14; compounding / adjudication application pending before the RoC. Procedural, rectified with additional fees; no penalty yet."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "p. 108",
+   "finding": "Fresh issue Rs 191 cr: monitoring agency mandatory; to be named in the RHP."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "N.A.",
+   "page": "cover",
+   "finding": "Mainboard issue under Reg 6(1)."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "p. 434",
+   "finding": "Smart Horizon Capital Advisors: past-issue track record is referenced to its website and not compiled in this run."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "revenue": [
+   590.875,
+   755.259,
+   1055.707
+  ],
+  "ebitda": [
+   37.65,
+   49.165,
+   74.092
+  ],
+  "pat": [
+   15.666,
+   21.138,
+   28.672
+  ],
+  "cfo": [
+   1.34,
+   11.487,
+   32.09
+  ],
+  "ebitda_margin": [
+   0.0637,
+   0.0651,
+   0.0702
+  ],
+  "pat_margin": [
+   0.0265,
+   0.028,
+   0.0272
+  ],
+  "inventory": [
+   86.996,
+   84.32,
+   115.727
+  ],
+  "receivables": [
+   80.334,
+   106.151,
+   136.729
+  ],
+  "payables": [
+   65.727,
+   56.065,
+   72.965
+  ],
+  "nwc": [
+   101.6,
+   134.41,
+   179.49
+  ],
+  "nwc_pct": [
+   0.1719,
+   0.178,
+   0.17
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 88.0,
+  "floor": 88.0,
+  "cap": 88.0,
+  "reference_note": "Reference Rs 88 = price of the 28-Oct-2025 private placement of 9,00,091 shares (originally approved as a pre-IPO placement) (p. 94). It is not a price band. Promoters' average cost is Rs 1.25-12.50 a share (p. 35).",
+  "scenarios": {
+   "bear": {
+    "dcf": 37.839,
+    "relative": 183.411,
+    "blended": 110.625,
+    "upside_floor": 0.2571,
+    "upside_cap": 0.2571
+   },
+   "neutral": {
+    "dcf": 52.8494,
+    "relative": 183.411,
+    "blended": 118.1302,
+    "upside_floor": 0.3424,
+    "upside_cap": 0.3424
+   },
+   "bull": {
+    "dcf": 74.8594,
+    "relative": 183.411,
+    "blended": 129.1352,
+    "upside_floor": 0.4674,
+    "upside_cap": 0.4674
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1431,
+  "tv_share": 0.6873,
+  "reverse": {
+   "sentence": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1431
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.10180118916449771,
+     "actual": 0.062
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.17
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   1055.707,
+   1055.707,
+   1161.2777,
+   1277.4055,
+   1392.372,
+   1503.7617
+  ],
+  "ebitda": [
+   74.092,
+   73.8995,
+   81.2894,
+   89.4184,
+   97.466,
+   105.2633
+  ],
+  "nopat": [
+   48.986,
+   48.8419,
+   53.7261,
+   59.0987,
+   64.4176,
+   69.571
+  ],
+  "fcff": [
+   -22.084,
+   48.8627,
+   26.6485,
+   29.3134,
+   34.9301,
+   41.0009
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1231,
+    0.1331,
+    0.1431,
+    0.1531,
+    0.1631
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     67.3946,
+     68.6992,
+     70.146,
+     71.7639,
+     73.5908
+    ],
+    [
+     58.8045,
+     59.6173,
+     60.5011,
+     61.4689,
+     62.5365
+    ],
+    [
+     51.8372,
+     52.3274,
+     52.8494,
+     53.4083,
+     54.0103
+    ],
+    [
+     46.0784,
+     46.3525,
+     46.6361,
+     46.9306,
+     47.2376
+    ],
+    [
+     41.2436,
+     41.3706,
+     41.4945,
+     41.6148,
+     41.731
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.11,
+    0.14,
+    0.17,
+    0.2,
+    0.23
+   ],
+   "cols": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09
+   ],
+   "values": [
+    [
+     40.0539,
+     52.2706,
+     64.4873,
+     76.7039,
+     88.9206
+    ],
+    [
+     34.235,
+     46.4517,
+     58.6684,
+     70.885,
+     83.1017
+    ],
+    [
+     28.4161,
+     40.6328,
+     52.8494,
+     65.0661,
+     77.2828
+    ],
+    [
+     22.5972,
+     34.8139,
+     47.0305,
+     59.2472,
+     71.4639
+    ],
+    [
+     16.7783,
+     28.9949,
+     41.2116,
+     53.4283,
+     65.645
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "BMW Industries Ltd",
+   "pe": 13.3428,
+   "pb": 1.2244,
+   "issuer": false
+  },
+  {
+   "name": "Manaksia Coated Metals & Industries Ltd",
+   "pe": 60.3952,
+   "pb": 4.528,
+   "issuer": false
+  },
+  {
+   "name": "Shiv Aum Steels Ltd",
+   "pe": 41.8143,
+   "pb": 3.4981,
+   "issuer": false
+  },
+  {
+   "name": "Bombay Coated and Special Steels Limited at reference",
+   "pe": 19.0918,
+   "pb": 1.8683,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 19.0981
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 3.8219
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 34.38
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 38.2
+   },
+   {
+    "label": "Non-institutional",
+    "value": 28.65
+   },
+   {
+    "label": "Retail",
+    "value": 66.85
+   }
+  ],
+  "issue_cr": 191.0,
+  "overhang": [
+   {
+    "label": "Pre-issue non-promoter shareholders (incl. Oct-2025 placement at Rs 88)",
+    "shares_lakh": 9.0,
+    "days": 180,
+    "pct_float": null
+   },
+   {
+    "label": "Promoter holding above 20% of post-issue capital",
+    "shares_lakh": 271.59,
+    "days": 365,
+    "pct_float": null
+   },
+   {
+    "label": "Promoters' minimum contribution (20% of post-issue capital)",
+    "shares_lakh": 124.41,
+    "days": 1095,
+    "pct_float": null
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [],
+  "issues": []
+ },
+ "swot": {
+  "strengths": [
+   "Plants inside appliance clusters in the West, North and South (p. 208)",
+   "Authorised service partner of JSW Steel Coated Products (p. 208)",
+   "Revenue up from Rs 590.88 cr to Rs 1,055.71 cr in two years (p. 279)",
+   "ROCE about 18.8% (p. 123)",
+   "Adjusted EBITDA margin 7.84% in H1 FY26 (p. 122)"
+  ],
+  "weaknesses": [
+   "PAT margin 2.72% in FY25 (p. 122)",
+   "Debt/equity 3.33x; interest cover 2.4x on EBITDA (pp. 123, 279)",
+   "90.61% of coils from one supplier (p. 31)",
+   "Appliances 81.80% of product revenue (p. 30)",
+   "25 delayed statutory filings (pp. 44-46)"
+  ],
+  "opportunities": [
+   "Utilisation 46-66% leaves room to grow (p. 123)",
+   "Appliance manufacturing growth under the PLI scheme (pp. 143, 178-187)",
+   "Lower interest after Rs 125 cr debt repayment (p. 108)",
+   "Engineering-sector blanks (p. 207)"
+  ],
+  "threats": [
+   "Steel price volatility (p. 30)",
+   "Appliance-sector slowdown (p. 30)",
+   "Change in the JSW relationship (p. 31)",
+   "Customers buying from mill service centres (part 2)"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY23",
+   "FY24",
+   "FY25"
+  ],
+  "price": 88.0,
+  "shares": 6.2205,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY25",
+    "pat": 28.672,
+    "eps": 4.6093,
+    "pe": 19.09
+   },
+   {
+    "basis": "FY25 after: state subsidy",
+    "pat": 27.9252,
+    "eps": 4.4892,
+    "pe": 19.6
+   },
+   {
+    "basis": "FY25 after: CPS benefit",
+    "pat": 27.9252,
+    "eps": 4.4892,
+    "pe": 19.6
+   },
+   {
+    "basis": "FY25 after: insurance claims",
+    "pat": 27.5114,
+    "eps": 4.4227,
+    "pe": 19.9
+   },
+   {
+    "basis": "FY23-FY25 average, reported",
+    "pat": 21.8253,
+    "eps": 3.5086,
+    "pe": 25.08
+   },
+   {
+    "basis": "FY23-FY25 average, adjusted",
+    "pat": 19.3253,
+    "eps": 3.1067,
+    "pe": 28.33
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Government subsidy received (in other income)",
+    "short": "state subsidy",
+    "pre_tax": [
+     0.0,
+     -6.394,
+     -0.998
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 329, 396",
+    "reason": "Subsidy of Rs 6.39 cr in FY24 (23% of PBT) and Rs 1.00 cr in FY25 (Rs 0.58 cr in H1 FY26). Real cash, but scheme-based and time-bound; the scheme and its remaining tenure are not stated.",
+    "post_tax": [
+     0.0,
+     -4.7846,
+     -0.7468
+    ],
+    "pe_if_applied": 19.6
+   },
+   {
+    "item": "Continuous Production Scheme benefit and other income",
+    "short": "CPS benefit",
+    "pre_tax": [
+     -0.018,
+     -1.952,
+     0.0
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 329, 396",
+    "reason": "One-off Continuous Production Scheme benefit of Rs 1.95 cr in FY24.",
+    "post_tax": [
+     -0.0135,
+     -1.4607,
+     0.0
+    ],
+    "pe_if_applied": 19.09
+   },
+   {
+    "item": "Insurance claims received (in other income)",
+    "short": "insurance claims",
+    "pre_tax": [
+     0.0,
+     -0.108,
+     -0.553
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "p. 329",
+    "reason": "Insurance claims of Rs 0.11 cr (FY24) and Rs 0.55 cr (FY25); non-recurring.",
+    "post_tax": [
+     0.0,
+     -0.0808,
+     -0.4138
+    ],
+    "pe_if_applied": 19.37
+   },
+   {
+    "item": "Interest on bank deposits",
+    "short": "deposit interest",
+    "pre_tax": [
+     -0.883,
+     -1.678,
+     -1.343
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 329",
+    "reason": "Mostly on margin-money deposits backing letters of credit for coil purchases, so tied to operations. Shown for information.",
+    "post_tax": [
+     -0.6607,
+     -1.2556,
+     -1.005
+    ],
+    "pe_if_applied": 19.79
+   },
+   {
+    "item": "Pro-forma interest saving on Rs 125 cr of debt repaid from the issue (at about 9%)",
+    "short": "interest saving (pro-forma)",
+    "pre_tax": [
+     0.0,
+     0.0,
+     11.25
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "pp. 108-112",
+    "reason": "Not an accounting adjustment: shows the earnings the business would report after the issue repays Rs 125 cr of borrowings carrying 8.15-9.25% (p. 110). For information.",
+    "post_tax": [
+     0.0,
+     0.0,
+     8.4184
+    ],
+    "pe_if_applied": 14.76
+   }
+  ],
+  "adjusted_pat": [
+   15.6525,
+   14.8119,
+   27.5114
+  ],
+  "pe_reported": 19.09,
+  "pe_adjusted": 19.9,
+  "pat_change": -0.0405,
+  "material": false,
+  "verdict": "Reported P/E is a fair measure: the adjustments found move FY25 PAT by -4.0%, within the 10% threshold. On the FY23-FY25 average, which smooths one-year items, the P/E is 25.1x reported and 28.3x adjusted.",
+  "flags": [
+   "Subsidy of Rs 6.39 cr in FY24 (23% of PBT) and Rs 1.00 cr in FY25 (Rs 0.58 cr in H1 FY26). Real cash, but scheme-based and time-bound; the scheme and its remaining tenure are not stated.",
+   "One-off Continuous Production Scheme benefit of Rs 1.95 cr in FY24.",
+   "Insurance claims of Rs 0.11 cr (FY24) and Rs 0.55 cr (FY25); non-recurring."
+  ],
+  "checked": [
+   "No capital work in progress at Sep-2025 (Rs 5.47 cr at FY25 was capitalised); no capitalised borrowing or development costs disclosed (p. 278)",
+   "No intangibles or goodwill on the balance sheet (p. 278)",
+   "Expected-credit-loss charge is small (Rs 0.12 cr FY24); no large write-backs in other income (pp. 280, 329)",
+   "No exceptional items in FY23-25 or H1 FY26 (p. 279)",
+   "Profit taxed in cash: current tax 20.0% of cumulative PBT, deferred tax from accelerated depreciation (p. 279)",
+   "Cash flow: H1 FY26 operating cash flow Rs 62.51 cr shows working capital is released when growth pauses (p. 280)"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 4,
+  "pass": 6,
+  "open": 4
+ }
+}
