@@ -1,0 +1,555 @@
+{
+ "_source": "EAAA India Alternatives Limited: DRHP dated 19-Jan-2026 (SEBI filing 99257; printed page = PDF page - 3) and Addendum (SEBI filing 104397, Sept-2026) carrying restated consolidated financials to 30-Jun-2026 ('Add. p.' = addendum PDF page). Price band Rs 1,585-1,665, lot 9, issue Rs 1,200 cr OFS and dates from the NSE issue page (read 24-Oct-2026). The RHP itself and the anchor allocation report are on nsearchives.nseindia.com, which this environment cannot reach.",
+ "screening": {
+  "basis": {
+   "name": "EAAA India Alternatives Limited",
+   "platform": "Mainboard",
+   "stage": "RHP",
+   "doc_date": "2026-09-01",
+   "aud_to": "2026-06-30",
+   "band": "Yes",
+   "brlm": "Axis Capital; Jefferies India; Motilal Oswal Investment Advisors; Nuvama Wealth Management",
+   "outside": "Price band, lot, issue size and dates from the NSE issue page; financials from the SEBI addendum (RHP not reachable)",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    492.579,
+    670.259,
+    869.54,
+    275.529
+   ],
+   "oth": [
+    91.673,
+    116.284,
+    94.219,
+    60.601
+   ],
+   "pbt": [
+    212.69,
+    284.307,
+    338.636,
+    105.798
+   ],
+   "ctax": [
+    -12.785,
+    0.876,
+    3.94,
+    56.405
+   ],
+   "dtax": [
+    50.315,
+    53.652,
+    69.499,
+    -31.313
+   ],
+   "pat": [
+    175.16,
+    229.779,
+    265.197,
+    80.706
+   ],
+   "cfo": [
+    -13.27,
+    -120.169,
+    235.244,
+    130.384
+   ],
+   "rpt_s": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rpt_p": [
+    0.0,
+    29.54,
+    0.0,
+    0.0
+   ],
+   "nw": [
+    729.481,
+    966.452,
+    1075.536,
+    1160.384
+   ],
+   "recv": [
+    82.334,
+    120.172,
+    166.9,
+    154.456
+   ],
+   "inv": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "pay": [
+    188.386,
+    141.605,
+    114.99,
+    117.711
+   ],
+   "cl": [
+    0.225,
+    0.225,
+    0.225,
+    0.225
+   ],
+   "gw": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "cites": {
+   "rev": "Add. p. 107",
+   "oth": "Add. p. 107",
+   "pbt": "Add. p. 107 (FY26 after a Rs 9.88 cr labour-code charge)",
+   "ctax": "Add. p. 107 (current tax plus earlier-year adjustments)",
+   "dtax": "Add. p. 107",
+   "pat": "Add. p. 107",
+   "cfo": "Add. p. 108",
+   "rpt_s": "DRHP pp. 22-24",
+   "rpt_p": "DRHP pp. 22-23 (FY25 purchase of asset-management rights, sponsor units and carry rights from Edelweiss group)",
+   "nw": "Add. p. 106",
+   "recv": "Add. p. 106",
+   "inv": "n.a. (asset manager)",
+   "pay": "Add. p. 106",
+   "cl": "DRHP p. 21 (civil claim Rs 0.23 cr)",
+   "gw": "Add. p. 106 (no goodwill; acquired asset-management rights in intangibles)"
+  },
+  "single": {
+   "top1c": 0.0,
+   "top10c": 0.0,
+   "top1s": 0.0,
+   "geo": 0.9,
+   "offer": 1200.0
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "Add. pp. 5, 7",
+    "finding": "6,42,80,246 shares of Rs 5 plus 6.75 lakh vested options (diluted 6,49,55,246). FY26 EPS 41.26 basic / 40.36 diluted; FY23 EPS 84.99 was on fewer shares before CCD conversion in FY24-25 (DRHP p. 19)."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "Add. pp. 107-108",
+    "finding": "Operating cash flow Rs -13.27 / -120.17 / +235.24 cr FY24-26 against PAT Rs 175.16 / 229.78 / 265.20 cr (cumulative 15%). Carry ('Variable Additional Return') is booked at fair value before it is received: unrealised carry Rs 94.57 / 190.73 / 290.47 cr was recognised, while realised carry of Rs 430.69 cr (FY26) and Rs 338.10 cr (Q1 FY27) came in as cash. FY26-Q1 FY27 operating cash flow Rs 365.6 cr against PAT Rs 345.9 cr."
+   },
+   "3": {
+    "status": "WATCH",
+    "page": "Add. p. 107",
+    "finding": "Current tax only Rs 3.94 cr on FY26 PBT Rs 338.64 cr, deferred tax Rs 69.50 cr: tax on unrealised carry and fair-value gains is deferred until realisation (deferred tax liability Rs 145.06 cr at Jun-26). In Q1 FY27, as carry was realised, current tax was Rs 56.41 cr with a Rs 31.31 cr deferred-tax reversal. Tax follows cash, as expected."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "DRHP pp. 22-24; Add. p. 108",
+    "finding": "Part of the Edelweiss group: in FY25 it bought asset-management rights (Rs 21.32 cr), sponsor units and carry rights from group companies; group term loans have been repaid; a dividend of Rs 205.70 cr (78% of FY26 PAT) was paid to the group in FY26 before the IPO. Executive Chairman Rashesh Shah also chairs EFSL."
+   },
+   "5": {
+    "status": "N.A.",
+    "page": "DRHP p. 133",
+    "finding": "Pure offer for sale by Edelweiss Securities and Investments; the company receives nothing."
+   },
+   "7": {
+    "status": "PASS",
+    "page": "Add. p. 106",
+    "finding": "No goodwill; intangibles Rs 14.14 cr are asset-management rights bought from a group company in FY25, being amortised."
+   },
+   "8": {
+    "status": "PASS",
+    "page": "DRHP p. 222",
+    "finding": "5,398 client relationships; 51.67% of AUM from institutions; 73% of AUM from repeat clients. No single-client dependence disclosed."
+   },
+   "9": {
+    "status": "PASS",
+    "page": "DRHP pp. 19-21",
+    "finding": "Company contingent liability Rs 0.23 cr. Claims against the promoters (mainly tax, Rs 214.93 cr) sit at the Edelweiss group level."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "6": {
+    "status": "WATCH",
+    "page": "Add. pp. 119, 133, 138",
+    "finding": "Distribution costs of raising funds are capitalised and amortised over fund tenure; unamortised balance Rs 667.94 cr at Jun-26 (58% of net worth), up Rs 167.03 cr in FY26. Permitted by Ind AS and matched to fees, but reported profit is higher than on a pay-as-you-go basis while fund-raising grows (adjusted P/E in part 5)."
+   },
+   "R1": {
+    "status": "PASS",
+    "page": "DRHP p. 19",
+    "finding": "No auditor qualifications requiring adjustment."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "DRHP p. 133",
+    "finding": "No fresh issue, so no monitoring agency."
+   },
+   "R5": {
+    "status": "N.A.",
+    "page": "cover",
+    "finding": "Mainboard issue."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Four BRLMs (Axis, Jefferies, Motilal Oswal, Nuvama); Motilal Oswal is in the desk database, others not compiled. Nuvama is also a listed peer."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not downloadable (nsearchives.nseindia.com blocked); offer terms taken from the NSE issue page and the SEBI addendum",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "Anchor allocation (anchor portion 21,62,161 shares, about Rs 360 cr at Rs 1,665; bidding 23-Oct-2026) not readable",
+    "severity": "Medium",
+    "source": "NSE / BSE anchor report"
+   },
+   {
+    "item": "Nature of 'other non-current assets' (Rs 564.90 cr at Jun-26; mostly accrued carry and fund-linked receivables) and its realisation schedule",
+    "severity": "Medium",
+    "source": "RHP notes"
+   },
+   {
+    "item": "Fund-wise carry position (unrealised carry still to be realised) and fee rates by vertical",
+    "severity": "Medium",
+    "source": "RHP / management"
+   },
+   {
+    "item": "Price of the Mar-2026 secondary sale of 28.40 lakh shares by Edelweiss Investment Adviser",
+    "severity": "Low",
+    "source": "RHP capital structure"
+   },
+   {
+    "item": "Q1 FY27 employee cost Rs 137.12 cr (vs Rs 69.97 cr in Q1 FY26) - split between carry-linked pay and fixed cost",
+    "severity": "Low",
+    "source": "RHP / management"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "EAAA India Alternatives Limited",
+   "board": "Mainboard",
+   "offer": 1665,
+   "anchor_px": 1665,
+   "issue": 1200.0,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-23",
+   "allot_date": "2026-10-29",
+   "list_date": "2026-11-02"
+  },
+  "total_shares_lakh": 649.55246,
+  "overhang": [
+   [
+    "Promoter-group shareholders above the 20% minimum contribution (post-OFS)",
+    412.42,
+    180,
+    "six months (no capex object) - confirm in RHP"
+   ],
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    129.91,
+    540,
+    "18 months - confirm in RHP"
+   ],
+   [
+    "Public shareholders from the Mar-2026 secondary purchase (28.40 lakh shares)",
+    28.4,
+    180,
+    "Add. p. 6; six months - confirm in RHP"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "EAAA India Alternatives Limited",
+   "basis": "Consolidated",
+   "pre_sh": 6.4280246,
+   "esop": 0.0675,
+   "fresh": 0,
+   "fresh_sh_fixed": 0,
+   "ofs_sh": 0.72072,
+   "floor": 1585,
+   "cap": 1665,
+   "obj_net": 0,
+   "exp_pct": 0,
+   "gcp_pct": 0,
+   "ipo_capex": 0,
+   "rev0": 869.54,
+   "rev_prev": 670.259,
+   "ebitda0": 323.27,
+   "da0": 13.015,
+   "pat0": 265.197,
+   "nw0": 1160.384,
+   "nd0": -752.577,
+   "nwc0": 51.91,
+   "nwc_prev": -21.433,
+   "capex0": 1.128,
+   "kd": 0.09
+  },
+  "drivers": {
+   "g1": [
+    0.08,
+    0.2,
+    0.28
+   ],
+   "g2": [
+    0.08,
+    0.16,
+    0.22
+   ],
+   "g3": [
+    0.08,
+    0.15,
+    0.2
+   ],
+   "g4": [
+    0.07,
+    0.13,
+    0.16
+   ],
+   "g5": [
+    0.07,
+    0.12,
+    0.14
+   ],
+   "m": [
+    0.3,
+    0.35,
+    0.38
+   ],
+   "nwc": [
+    0.06,
+    0.05,
+    0.04
+   ],
+   "roic": [
+    0.3,
+    0.4,
+    0.5
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue from operations Rs 492.58 / 670.26 / 869.54 cr FY24-26 (+36%, +30%); Q1 FY27 Rs 275.53 cr vs Rs 190.81 cr (+44%) (Add. p. 107). Fee-paying AUM Rs 30,398 -> 33,833 -> 44,710 cr, Rs 48,623 cr at Jun-26 (Add. p. 7). Management fees grew 20% and 21% in FY25-26; carry is lumpier. Neutral 20% then easing to 12% (fees plus a normal level of carry); Bear 7-8% (fees only, weak carry); Bull 28% then 14%.",
+   "m": "Operating EBITDA (PBT + finance cost + D&A - other income, before the Rs 9.88 cr labour-code charge) Rs 162.85 / 228.37 / 323.27 cr = 33.1% / 34.1% / 37.2% of revenue from operations FY24-26; Q1 FY27 21.6% as employee cost doubled (Add. p. 107). Neutral 35%; Bear 30%; Bull 38%.",
+   "nwc": "Trade receivables less payables 6.0% of FY26 revenue (Add. p. 106); asset-light. Neutral 5%.",
+   "roic": "Asset-light fee business: ROE 25.97% on a book that includes Rs 928 cr of fund investments. Terminal ROIC on operating capital 40% (Neutral).",
+   "capex": "Prepaid distribution costs are kept out of working capital because their amortisation is already in operating costs; with them in working capital (cash basis), the Neutral DCF is about Rs 550 instead of Rs 619. Capex is minimal (Rs 1.13 cr in FY26). Net debt is negative: borrowings Rs 399.20 cr + leases Rs 23.32 cr - cash and bank Rs 247.32 cr - investments Rs 927.77 cr (sponsor and GP commitments, current and non-current) at Jun-26 = Rs -752.58 cr. Investment income is excluded from EBITDA, so the investments are added at book value. Accrued carry in other non-current assets (Rs 564.90 cr) is not added: a conservative choice."
+  },
+  "peers": [
+   [
+    "360 ONE WAM Ltd (per share)",
+    "Y",
+    "Wealth and alternatives manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    1142.1,
+    1,
+    null,
+    null,
+    null,
+    29.19,
+    242.17,
+    null
+   ],
+   [
+    "Aditya Birla Sun Life AMC Ltd (per share)",
+    "Y",
+    "Asset manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    1008.9,
+    1,
+    null,
+    null,
+    null,
+    33.68,
+    139.94,
+    null
+   ],
+   [
+    "Anand Rathi Wealth Ltd (per share)",
+    "Y",
+    "Wealth manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    2038.2,
+    1,
+    null,
+    null,
+    null,
+    47.17,
+    120.23,
+    null
+   ],
+   [
+    "HDFC Asset Management Co Ltd (per share)",
+    "Y",
+    "Asset manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    2546.25,
+    1,
+    null,
+    null,
+    null,
+    66.5,
+    215.42,
+    null
+   ],
+   [
+    "Nippon Life India Asset Management Ltd (per share)",
+    "Y",
+    "Asset manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    1148.15,
+    1,
+    null,
+    null,
+    null,
+    23.63,
+    73.01,
+    null
+   ],
+   [
+    "Nuvama Wealth Management Ltd (per share)",
+    "Y",
+    "Wealth and alternatives - issuer's peer, Add. p. 9",
+    "Consolidated",
+    1795.2,
+    1,
+    null,
+    null,
+    null,
+    56.06,
+    226.37,
+    null
+   ],
+   [
+    "UTI Asset Management Co Ltd (per share)",
+    "Y",
+    "Asset manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    909.1,
+    1,
+    null,
+    null,
+    null,
+    31.41,
+    350.5,
+    null
+   ],
+   [
+    "ICICI Prudential Asset Management Co Ltd (per share)",
+    "Y",
+    "Asset manager - issuer's peer, Add. p. 9",
+    "Consolidated",
+    3050.7,
+    1,
+    null,
+    null,
+    null,
+    66.73,
+    84.39,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   162.848,
+   228.374,
+   323.27
+  ],
+  "_cite": "Operating EBITDA, our computation from the restated P&L (Add. p. 107): PBT + finance cost + D&A - other income, FY26 before the Rs 9.88 cr statutory labour-code charge. The issuer reports no EBITDA KPI."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]; negative reduces profit, positive raises it.",
+  "adjustments": [
+   {
+    "item": "Upfront selling and distribution costs of fund-raising capitalised as prepaid expenses (net increase in the year)",
+    "short": "capitalised distribution cost",
+    "pre_tax": [
+     -129.56,
+     -86.95,
+     -167.03
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "Add. pp. 119, 133, 138; DRHP pp. 329, 333",
+    "reason": "Upfront and trail fees paid to distributors for raising funds are amortised over each fund's tenure; the unamortised balance (prepaid expenses, current + non-current) rose from Rs 255.01 cr (FY23) to Rs 384.57 / 471.52 / 638.55 cr (FY24-26) and Rs 667.94 cr at Jun-26. Ind AS permits capitalising incremental costs of obtaining a contract and this matches the fee stream, but expensing them as paid would cut FY26 pre-tax profit by Rs 167.03 cr. Flag: timing, not a cash leak - the cost is real and is being recognised over time."
+   },
+   {
+    "item": "One-off charge for the new Labour Codes (exceptional item)",
+    "short": "labour-code charge",
+    "pre_tax": [
+     0,
+     0,
+     9.88
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "Add. p. 107",
+    "reason": "Statutory impact of the new Labour Codes, Rs 9.88 cr, shown as an exceptional item in FY26; one-off, so added back."
+   },
+   {
+    "item": "Tax credit for earlier years (grossed up to pre-tax)",
+    "short": "prior-year tax credit",
+    "pre_tax": [
+     -18.31,
+     -0.7,
+     -0.85
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "Add. p. 107",
+    "reason": "Excess tax of earlier years written back: Rs 13.70 cr in FY24, Rs 0.53 cr in FY25, Rs 0.64 cr in FY26 (post-tax). Shown grossed up so the post-tax effect matches."
+   },
+   {
+    "item": "Unrealised carry (Variable Additional Return booked at fair value)",
+    "short": "unrealised carry",
+    "pre_tax": [
+     -94.566,
+     -190.729,
+     -290.472
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "Add. pp. 7, 108",
+    "reason": "Carry is recognised as the fund NAV crosses its hurdle, before it is paid; it is a normal accounting policy and was realised in cash at Rs 430.69 cr in FY26. Excluding it gives a fee-plus-investment-income view of the P/E. For information."
+   },
+   {
+    "item": "GP income: interest and fair-value gains on the company's own fund investments",
+    "short": "GP income",
+    "pre_tax": [
+     -78.679,
+     -102.138,
+     -79.954
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "Add. p. 7",
+    "reason": "Returns on the company's sponsor and co-investment commitments, reported in other income. Recurring for an alternatives manager but market-linked. For information."
+   }
+  ],
+  "checked": [
+   "Carry recognised is backed by realisation: FY26 realised carry Rs 430.69 cr exceeded the Rs 290.47 cr recognised; Q1 FY27 realised Rs 338.10 cr (Add. pp. 7, 108)",
+   "ESOP cost (Rs 30.51 cr in FY26, Rs 5.34 cr in Q1 FY27) is expensed through profit (Add. p. 108)",
+   "Capital work in progress is small (Rs 1.56 cr); no capitalised development cost; the one capitalised cost is distribution fees, shown as an adjustment above (Add. p. 106)",
+   "Intangibles are acquired asset-management rights, amortised (Add. p. 106)",
+   "Credit-loss provisions small (Rs 0.07 cr FY26) (Add. p. 107)",
+   "Deferred tax reverses into current tax as carry is realised (Q1 FY27) (Add. p. 107)"
+  ]
+ }
+}
