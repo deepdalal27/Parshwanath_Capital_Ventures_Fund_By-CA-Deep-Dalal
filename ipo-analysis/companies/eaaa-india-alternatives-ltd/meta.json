@@ -1,0 +1,115 @@
+{
+  "slug": "eaaa-india-alternatives-ltd",
+  "company": "EAAA India Alternatives Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "filed_on": "2026-01-22",
+  "doc_date": "2026-09-01",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/aug-2026/eaaa-india-alternatives-limited_104397.html",
+  "sector": "Alternative asset management (real assets, private credit)",
+  "brlm": "Axis Capital; Jefferies India; Motilal Oswal Investment Advisors; Nuvama Wealth Management",
+  "issue_size_cr": 1200.0,
+  "price_band": "Rs 1,585-1,665",
+  "open_date": "2026-10-26",
+  "close_date": "2026-10-28",
+  "allotment_date": "2026-10-29",
+  "listing_date": "2026-11-02",
+  "lot_size": 9,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "call": "Avoid",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "analysed_on": "2026-10-24",
+  "business_stage": "Established and scaling (fee-paying AUM growing 30%+)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor portion 21,62,161 shares (about Rs 360 cr at Rs 1,665), bid 23-Oct-2026; allocation report on nsearchives.nseindia.com not reachable"
+  },
+  "reference_note": "Upper band Rs 1,665 (NSE issue page). At Rs 1,665: market cap Rs 10,702.7 cr (Rs 10,815.1 cr fully diluted); P/E 41.3x FY26 diluted EPS (40.8x on diluted shares, 33.5x on annualised Q1 FY27); P/B 9.3x Jun-26 diluted book. Pure OFS: no new money for the company.",
+  "files": {
+    "screening": "EAAA_INDIA_ALTERNATIVES__01_Screening.xlsx",
+    "anchor": "EAAA_INDIA_ALTERNATIVES__02_Anchor_QIB.xlsx",
+    "valuation": "EAAA_INDIA_ALTERNATIVES__03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "EAAA_INDIA_ALTERNATIVES__Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 424.7475,
+      "relative": 1641.6141,
+      "blended": 1033.1808,
+      "upside_floor": -0.3482,
+      "upside_cap": -0.3795
+    },
+    "neutral": {
+      "dcf": 619.2101,
+      "relative": 1641.6141,
+      "blended": 1130.4121,
+      "upside_floor": -0.2868,
+      "upside_cap": -0.3211
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -62.3% - the divergence is the finding; name its cause"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 58.9 times its current free cash flow, in perpetuity.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 786.5817,
+      "relative": 1641.6141,
+      "blended": 1214.0979,
+      "upside_floor": -0.234,
+      "upside_cap": -0.2708
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 4,
+    "pass": 5,
+    "open": 4
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Current vs deferred tax",
+    "Related-party capex & subsidiaries"
+  ],
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 1,665 upper band: Neutral value Rs 1,130 is 32.1% below and Bull value Rs 1,214 is 27.1% below, so the Avoid limb applies on valuation, narrowly. At the Rs 1,585 floor the Neutral gap is 28.7%, which would read Neutral; the rule turns Neutral at or below about Rs 1,615. No material issue was found.",
+  "headline": "A scaled alternatives manager (fee-paying AUM Rs 48,623 cr, +27% a year) priced at 41x FY26 earnings, in line with listed asset managers (median 38.7x); our fair value is Rs 1,130 (Neutral) because the DCF does not support peer multiples and profit benefits from capitalised distribution costs. Avoid at Rs 1,665, narrowly; it would be Neutral at about Rs 1,615 or below.",
+  "red_flags": [
+    "Revenue from operations Rs 492.58 cr -> Rs 869.54 cr FY24-26 (+33% a year); Q1 FY27 +44%; fee-paying AUM Rs 48,623 cr at Jun-26 (Add. pp. 7, 107)",
+    "Carry (Variable Additional Return) Rs 290.47 cr = 33% of FY26 revenue, booked at fair value; realised carry Rs 430.69 cr in FY26 and Rs 338.10 cr in Q1 FY27 (Add. pp. 7, 108)",
+    "Distribution costs capitalised: prepaid balance Rs 667.94 cr at Jun-26; expensing the FY26 increase would cut pre-tax profit by Rs 167.03 cr - adjusted P/E 73.6x vs 40.8x reported (part 5)",
+    "Pure OFS of Rs 1,200 cr by Edelweiss Securities and Investments; Rs 205.70 cr dividend paid to the group in FY26; MD & CEO resigned Sep-2025 (DRHP p. 272; Add. p. 108)",
+    "At Rs 1,665: P/E 40.8x on diluted shares (peer median 38.7x), P/B 9.3x; fair value Rs 1,033 / 1,130 / 1,214 (Bear / Neutral / Bull)"
+  ],
+  "swot": {
+    "strengths": [
+      "One of India's larger alternatives platforms: AUM Rs 65,504 cr (Sep-25), fee-paying AUM Rs 48,623 cr (Jun-26) (DRHP p. 222; Add. p. 7)",
+      "Funds in third and fourth series; 73% of AUM from repeat clients (DRHP p. 222)",
+      "ROE 25.97% in FY26 with modest capex (Add. p. 7)",
+      "Management fees up 20-21% a year FY25-26 (Add. p. 7)",
+      "Asset operating platform (Sekura) for infrastructure portfolios (DRHP p. 222)"
+    ],
+    "weaknesses": [
+      "Carry is a third of revenue and lumpy; FY23 PAT (Rs 322.19 cr) was higher than FY25 (DRHP p. 19)",
+      "Capitalised distribution costs flatter reported profit while fund-raising grows (Add. p. 119)",
+      "Cost-to-income 63.8% (FY26), 68.5% in Q1 FY27, well above AMC peers (Add. p. 7)",
+      "MD & CEO resigned in Sep-2025; now led by two CEOs (DRHP p. 272)",
+      "Group linkages: brand, past rights purchases, dividend to promoter (DRHP pp. 22-24)"
+    ],
+    "opportunities": [
+      "Indian alternatives industry growth (issuer-paid CARE report, DRHP p. 158)",
+      "Infrastructure yield, InvIT and energy-transition funds (DRHP p. 223)",
+      "Global and GIFT City fund-raising (DRHP p. 223)",
+      "Realisation of accrued carry in maturing funds (Add. p. 108)"
+    ],
+    "threats": [
+      "Fund underperformance reducing carry and fund-raising (DRHP p. 20)",
+      "Valuation subjectivity in unlisted fund assets (DRHP p. 20)",
+      "Tax and regulatory changes for AIFs (DRHP p. 20)",
+      "Overhang: promoter group holds about 84% after the OFS"
+    ]
+  }
+}
