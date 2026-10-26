@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T06:46Z",
+  "updated": "2026-10-26T06:51Z",
   "issuers": [
     {
       "slug": "m-k-sons-fine-jewels-ltd",
@@ -112,6 +112,62 @@
       "pdf": "BLS_POLYMERS_LTD_Report.pdf",
       "pe_reported": 34.45,
       "pe_adjusted": 35.43,
+      "eq_material": false
+    },
+    {
+      "slug": "sfc-environmental-technologies-ltd",
+      "company": "SFC Environmental Technologies Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-10-19",
+      "analysed_on": "2026-10-26",
+      "sector": "Wastewater and solid-waste treatment technology",
+      "brlm": "IIFL Capital Services Limited; JM Financial Limited; Nuvama Wealth Management Limited",
+      "issue_size_cr": 667.53,
+      "price_band": "Rs 313-330",
+      "open_date": "2026-10-27",
+      "close_date": "2026-10-29",
+      "allotment_date": "2026-10-30",
+      "listing_date": "2026-11-03",
+      "lot_size": 45,
+      "exchange": "NSE, BSE",
+      "depth": "Full",
+      "rhp_read": true,
+      "call": "Subscribe",
+      "business_stage": "Established leader in its core, scaling into new segments",
+      "headline": "India's dominant SBR sewage-treatment technology supplier (705 plants, 29.3% operating margin) priced at 20.9x FY26 earnings at Rs 330, against 31-52x for listed peers; our fair value is Rs 392 (Neutral), so Subscribe. Watch cash conversion (FY26 operating cash flow negative) and the Goa plant notices.",
+      "red_flags": [
+        "Revenue Rs 657.50 -> 697.86 -> 803.63 cr FY24-26 (+15.2% in FY26); operating EBITDA margin about 29%; order book Rs 1,574.52 cr (2.0x revenue) (RHP pp. 188, 412)",
+        "Operating cash flow -Rs 25.80 cr in FY26 and -Rs 21.34 cr in Q1 FY27; cumulative FY24-26 CFO 6% of PAT; working capital 76.5% of revenue (pp. 411, 417)",
+        "Ten show-cause notices from the Goa pollution board and GWMC to the SWT subsidiaries since Jul-2025, plus an FIR; EUR 5.60 m Portugal claim pending (pp. 554-557)",
+        "Offer Rs 667.5 cr at Rs 330: fresh Rs 150 cr + OFS 1.57 crore shares (78%) by sellers with an average cost of Rs 36.72; Rs 28.02 cr interim dividend declared Sep-2026 (cover; p. 510)",
+        "At Rs 330: P/E 20.9x post-issue (Ion Exchange 31.3x, Thermax 52.0x); fair value Rs 358 / 392 / 423; reported P/E a fair measure (adjustments -1.0%)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 4,
+        "pass": 6,
+        "open": 4
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Goodwill vs tangible equity",
+        "Contingent liabilities"
+      ],
+      "neutral": {
+        "dcf": 174.2659,
+        "relative": 609.6537,
+        "blended": 391.9598,
+        "upside_floor": 0.2523,
+        "upside_cap": 0.1878
+      },
+      "bear": 357.8595,
+      "bull": 422.5224,
+      "pdf": "SFC_ENVIRONMENTAL_TECHNO_Report.pdf",
+      "pe_reported": 20.94,
+      "pe_adjusted": 21.16,
       "eq_material": false
     },
     {
