@@ -1,4 +1,4 @@
-/* IPO Analysis desk - renders data/index.json, data/queue.json and per-issuer pages. No framework. */
+/* IPO Desk - renders data/calendar.json + data/index.json (RHP-stage reports) and per-issuer pages. No framework. */
 (function () {
   "use strict";
 
@@ -27,98 +27,111 @@
   var $ = function (id) { return document.getElementById(id); };
   var safeUrl = function (u) { return /^https?:\/\//i.test(String(u || "")) ? esc(u) : ""; };
 
-  function checks(c) {
-    if (!c || !window.IPODashboard) return "-";
-    var ch = window.IPODashboard.chip;
-    return ch("FAIL") + " " + (c.fail || 0) + " " + ch("WATCH") + " " + (c.watch || 0) + " " + ch("PASS") + " " + (c.pass || 0);
-  }
-  function portfolioCharts(rows) {
-    if (!window.IPOCharts || !rows.length) {
-      ["chart-upside", "chart-checks"].forEach(function (id) { if ($(id)) $(id).style.display = "none"; });
-      return;
+  var istToday = function () {
+    var d = new Date(Date.now() + (330 + new Date().getTimezoneOffset()) * 60000);
+    return d.toISOString().slice(0, 10);
+  };
+  var short = function (s) {
+    if (!s) return "-";
+    var d = new Date(s + "T00:00:00");
+    return isNaN(d) ? esc(s) : d.toLocaleDateString("en-IN", { day: "2-digit", month: "short" });
+  };
+  var upperBand = function (band) {
+    var n = String(band || "").match(/\d[\d,]*(?:\.\d+)?/g);
+    return n ? parseFloat(n[n.length - 1].replace(/,/g, "")) : null;
+  };
+  var inr = function (v, d) { return typeof v === "number" ? "Rs " + v.toLocaleString("en-IN", { maximumFractionDigits: d == null ? 0 : d }) : "-"; };
+  var signed = function (v) { return typeof v === "number" ? (v > 0 ? "+" : "") + (v * 100).toFixed(1) + "%" : "-"; };
+  var phase = function (i, today) {
+    if (i.open_date && today < i.open_date) return "Upcoming";
+    if (i.close_date && today > i.close_date) return "Closed";
+    return i.open_date ? "Open" : "Upcoming";
+  };
+  var bandText = function (b) {
+    if (!b) return "-";
+    var t = String(b).replace(/\s*\(.*\)$/, "").replace(/\d[\d,]*(?:\.\d+)?/g, function (n) {
+      return parseFloat(n.replace(/,/g, "")).toLocaleString("en-IN");
+    });
+    return esc(t);
+  };
+
+  function issueCard(i, r, today) {
+    var ph = phase(i, today), ub = upperBand(i.price_band || (r && r.price_band));
+    var lot = i.lot_size || (r && r.lot_size);
+    var minInv = lot && ub ? lot * ub : null;
+    var status = ph === "Open" ? '<span class="chip chip--live">Open &middot; closes ' + short(i.close_date) + "</span>"
+      : '<span class="chip">Opens ' + short(i.open_date) + "</span>";
+    var head = '<div class="ic__top"><span class="chip chip--plain">' + esc(i.platform || (r && r.platform) || "Mainboard") + "</span>" + status +
+      (r ? '<span class="ic__call">' + callBadge(r.call) + "</span>" : '<span class="ic__call"><span class="badge b-plain">In preparation</span></span>') + "</div>";
+    var name = r ? '<a class="ic__name" href="view.html?c=' + encodeURIComponent(r.slug) + '">' + esc(i.company) + "</a>"
+      : '<span class="ic__name">' + esc(i.company) + "</span>";
+    var kv = '<dl class="ic__kv">' +
+      "<div><dt>Price band</dt><dd>" + bandText(i.price_band || (r && r.price_band)) + "</dd></div>" +
+      "<div><dt>Lot / min. bid</dt><dd>" + (lot ? lot + " sh" + (minInv ? " &middot; " + inr(minInv) : "") : "-") + "</dd></div>" +
+      "<div><dt>Issue size</dt><dd>" + (r && r.issue_size_cr ? inr(r.issue_size_cr) + " cr" : "-") + "</dd></div>" +
+      "<div><dt>Listing</dt><dd>" + short((r && r.listing_date) || i.listing_date) + "</dd></div></dl>";
+    var val = "";
+    if (r && r.neutral) {
+      var up = ub && r.neutral.blended ? r.neutral.blended / ub - 1 : r.neutral.upside_cap;
+      val = '<div class="ic__val">' +
+        '<div><span class="ic__lbl">Fair value (Neutral)</span><b>' + inr(r.neutral.blended) + "</b></div>" +
+        '<div><span class="ic__lbl">vs upper band</span><b class="' + (up >= -0.1 ? "pos" : up < -0.3 ? "neg" : "mid") + '">' + signed(up) + "</b></div>" +
+        '<div><span class="ic__lbl">Bear - Bull</span><b>' + inr(r.bear) + " - " + inr(r.bull) + "</b></div>" +
+        '<div><span class="ic__lbl">P/E reported / adjusted</span><b>' + (r.pe_reported ? r.pe_reported.toFixed(1) + "x" : "-") + " / " +
+        (r.pe_adjusted ? r.pe_adjusted.toFixed(1) + "x" : "-") + (r.eq_material ? ' <span class="flag-amber" title="Earnings-quality adjustments above 10%">&#9679;</span>' : "") + "</b></div></div>";
     }
-    var nm = function (r) { return String(r.company || r.slug).replace(/ (Limited|Ltd)$/, ""); };
-    var up = rows.filter(function (r) { return r.neutral && r.neutral.upside_cap != null; })
-      .sort(function (a, b) { return b.neutral.upside_cap - a.neutral.upside_cap; });
-    window.IPOCharts.hbars($("chart-upside"), { title: "Neutral blended value vs reference price", subtitle: "Upside / (downside) by issuer. Positive values are above the reference price.",
-      items: up.map(function (r) { return { label: nm(r), value: r.neutral.upside_cap, note: (r.call || "") + " · " + (r.stage || "") }; }), fmt: "pct", axisFmt: "pct0", diverging: true, labelWidth: 180 });
-    var withC = rows.filter(function (r) { return r.counts; });
-    window.IPOCharts.hbars($("chart-checks"), { title: "Where diligence is needed", subtitle: "Failed plus watch-list forensic checks per issuer. More items mean more work before a decision.",
-      items: withC.map(function (r) { return { label: nm(r), value: (r.counts.fail || 0) + (r.counts.watch || 0), note: (r.counts.fail || 0) + " fail, " + (r.counts.watch || 0) + " watch" }; })
-        .sort(function (a, b) { return b.value - a.value; }), fmt: "int", labelWidth: 180 });
+    var prov = r && r.rhp_read === false ? '<p class="ic__prov">Provisional: built from the latest SEBI-filed offer document and the exchange issue page while the RHP was not retrievable. It is refreshed automatically once the RHP is available.</p>' : "";
+    var body = r ? prov + '<p class="ic__hl">' + esc(r.headline || "") + "</p>"
+      : '<p class="ic__hl muted">The RHP is being analysed. The report is published here before the issue opens.</p>';
+    var foot = r ? '<div class="ic__foot"><a class="btn" href="view.html?c=' + encodeURIComponent(r.slug) + '">Read the report</a>' +
+      (r.pdf ? '<a class="btn btn--ghost" href="companies/' + encodeURIComponent(r.slug) + "/" + encodeURIComponent(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") +
+      '<span class="small muted">' + esc(r.sector || "") + "</span></div>" : "";
+    return '<article class="ic' + (ph === "Open" ? " ic--live" : "") + '">' + head + name + kv + val + body + foot + "</article>";
   }
 
   /* ---------------------------------------------------------------- list page */
   function initList() {
-    var rows = [], sortKey = "filed_on", sortDir = -1;
-
-    function render() {
-      var q = $("q").value.trim().toLowerCase(), pf = $("f-platform").value, st = $("f-stage").value, cl = $("f-call").value;
-      var list = rows.filter(function (r) {
-        var hay = [r.company, r.sector, r.brlm, r.headline].join(" ").toLowerCase();
-        return (!q || hay.indexOf(q) >= 0) && (!pf || r.platform === pf) && (!st || r.stage === st) &&
-          (!cl || String(r.call || "Pending") === cl);
-      }).sort(function (a, b) {
-        var x = a[sortKey], y = b[sortKey];
-        if (sortKey === "upside") { x = a.neutral && a.neutral.upside_cap; y = b.neutral && b.neutral.upside_cap; }
-        x = x == null ? "" : x; y = y == null ? "" : y;
-        return (x > y ? 1 : x < y ? -1 : 0) * sortDir;
+    var today = istToday();
+    Promise.all([getJSON("data/index.json").catch(function () { return { issuers: [] }; }),
+                 getJSON("data/calendar.json").catch(function () { return { issues: [] }; })]).then(function (res) {
+      var rows = res[0].issuers || [], cal = res[1] || {}, bySlug = {};
+      rows.forEach(function (r) { bySlug[r.slug] = r; });
+      var issues = (cal.issues || []).slice(), seen = {};
+      issues.forEach(function (i) { seen[i.slug] = 1; });
+      rows.forEach(function (r) {   // reports whose issue has dropped off the exchange calendar
+        if (!seen[r.slug]) issues.push({ company: r.company, slug: r.slug, platform: r.platform, price_band: r.price_band,
+          open_date: r.open_date, close_date: r.close_date, lot_size: r.lot_size, listing_date: r.listing_date });
       });
-      $("count").textContent = list.length + " of " + rows.length;
-      if (!rows.length) {
-        $("tbody").innerHTML = '<tr><td colspan="8"><div class="empty">No offer documents analysed yet. ' +
-          "New DRHP / RHP filings are picked up automatically by the scheduled analysis routine and appear here.</div></td></tr>";
-        return;
-      }
-      $("tbody").innerHTML = list.map(function (r) {
-        var n = r.neutral || {};
-        var flags = (r.red_flags || []).slice(0, 3).map(function (f) { return "<li>" + esc(f) + "</li>"; }).join("");
-        return "<tr>" +
-          '<td><a class="co" href="view.html?c=' + encodeURIComponent(r.slug) + '">' + esc(r.company || r.slug) + "</a>" +
-          '<div class="small muted">' + esc(r.sector || "") + "</div>" +
-          (r.headline ? '<div class="small">' + esc(r.headline) + "</div>" : "") +
-          (flags ? '<ul class="flags">' + flags + "</ul>" : "") + "</td>" +
-          "<td>" + esc(r.platform || "-") + '<div class="small muted">' + esc(r.stage || "") + (r.depth === "Snapshot" ? " · snapshot" : "") + "</div>" +
-          (r.open_date ? '<div class="small muted">Open ' + date(r.open_date) + (r.close_date ? " - " + date(r.close_date) : "") + "</div>" : "") + "</td>" +
-          '<td class="num">' + date(r.filed_on) + "</td>" +
-          '<td class="num hide-sm">' + rs(r.issue_size_cr) + "</td>" +
-          '<td class="hide-sm">' + checks(r.counts) + (r.focus_top && r.focus_top.length ? '<div class="small muted">Focus: ' + esc(r.focus_top.join("; ")) + "</div>" : "") + "</td>" +
-          '<td class="num">' + rs(n.blended) + "</td>" +
-          '<td class="num">' + pct(n.upside_cap) + "</td>" +
-          "<td>" + callBadge(r.call) + "</td></tr>";
-      }).join("");
-    }
-
-    ["q", "f-platform", "f-stage", "f-call"].forEach(function (id) { $(id).addEventListener("input", render); });
-    Array.prototype.forEach.call(document.querySelectorAll("th[data-k]"), function (th) {
-      th.addEventListener("click", function () {
-        var k = th.getAttribute("data-k");
-        sortDir = sortKey === k ? -sortDir : -1; sortKey = k; render();
+      var open = [], soon = [], closed = [];
+      issues.forEach(function (i) {
+        var ph = phase(i, today);
+        (ph === "Open" ? open : ph === "Upcoming" ? soon : closed).push(i);
       });
-    });
-
-    getJSON("data/index.json").then(function (d) {
-      rows = d.issuers || [];
+      var byOpen = function (a, b) { return (a.open_date || "") < (b.open_date || "") ? -1 : 1; };
+      open.sort(byOpen); soon.sort(byOpen); closed.sort(function (a, b) { return byOpen(b, a); });
+      $("s-open").textContent = open.length;
+      $("s-soon").textContent = soon.length;
       $("s-count").textContent = rows.length;
-      $("s-updated").textContent = d.updated ? d.updated.replace("T", " ").replace("Z", " UTC") : "-";
-      $("s-sub").textContent = rows.filter(function (r) { return r.call === "Subscribe"; }).length;
-      render();
-      portfolioCharts(rows);
-    }).catch(function (e) {
-      $("tbody").innerHTML = '<tr><td colspan="8"><div class="empty">Could not load data/index.json (' + esc(e.message) +
-        "). Open this page through the website, not as a local file.</div></td></tr>";
+      $("s-scan").textContent = cal.last_scan ? new Date(cal.last_scan.replace("Z", ":00Z")).toLocaleString("en-IN",
+        { timeZone: "Asia/Kolkata", day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }) + " IST" : "-";
+      $("open-meta").textContent = "As of " + short(today) + " (IST)";
+      $("g-open").innerHTML = open.length ? open.map(function (i) { return issueCard(i, bySlug[i.slug], today); }).join("")
+        : '<div class="empty">No issue is open for subscription today.</div>';
+      $("g-soon").innerHTML = soon.length ? soon.map(function (i) { return issueCard(i, bySlug[i.slug], today); }).join("")
+        : '<div class="empty">No price band has been announced for an upcoming issue yet. New issues appear here as soon as the band is out.</div>';
+      $("t-closed").innerHTML = closed.length ? closed.map(function (i) {
+        var r = bySlug[i.slug], ub = upperBand(i.price_band || (r && r.price_band));
+        var up = r && r.neutral && ub ? r.neutral.blended / ub - 1 : null;
+        return "<tr><td>" + (r ? '<a class="co" href="view.html?c=' + encodeURIComponent(r.slug) + '">' + esc(i.company) + "</a>" : esc(i.company)) +
+          '<div class="small muted">' + esc((r && r.sector) || i.platform || "") + "</div></td>" +
+          '<td class="hide-sm">' + short(i.open_date) + " - " + short(i.close_date) + "</td>" +
+          "<td>" + bandText(i.price_band || (r && r.price_band)) + "</td>" +
+          '<td class="num">' + (r && r.neutral ? inr(r.neutral.blended) : "-") + "</td>" +
+          '<td class="num">' + signed(up) + "</td>" +
+          "<td>" + (r ? callBadge(r.call) : '<span class="badge b-plain">Not covered</span>') + "</td>" +
+          '<td class="hide-sm">' + (r && r.pdf ? '<a href="companies/' + encodeURIComponent(r.slug) + "/" + encodeURIComponent(r.pdf) + '" target="_blank" rel="noopener">PDF</a>' : "") + "</td></tr>";
+      }).join("") : '<tr><td colspan="7"><div class="empty">No closed issues in the last 30 days.</div></td></tr>';
     });
-
-    getJSON("data/queue.json").then(function (d) {
-      var p = d.pending || [];
-      $("s-queue").textContent = p.length;
-      $("queue").innerHTML = p.length ? p.map(function (f) {
-        return '<div class="card"><h3>' + esc(f.company) + "</h3><p>" + esc(f.platform || "") + " &middot; " + esc(f.stage || "DRHP") +
-          " &middot; filed " + date(f.filed_on) + (f.note ? "<br>" + esc(f.note) : "") + "</p>" +
-          (safeUrl(f.doc_url) ? '<a class="btn btn--ghost" href="' + safeUrl(f.doc_url) + '" target="_blank" rel="noopener">Offer document</a>' : "") + "</div>";
-      }).join("") : '<div class="empty">Nothing waiting. ' + (d.last_scan ? "Last scan: " + esc(d.last_scan) + "." : "") + "</div>";
-      if (d.last_scan) $("s-scan").textContent = d.last_scan.replace("T", " ").replace("Z", " UTC");
-    }).catch(function () { $("queue").innerHTML = '<div class="empty">Queue not available yet.</div>'; });
   }
 
   /* -------------------------------------------------------------- detail page */
