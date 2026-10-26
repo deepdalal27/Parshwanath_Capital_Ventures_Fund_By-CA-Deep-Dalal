@@ -1,6 +1,63 @@
 {
-  "updated": "2026-10-26T06:51Z",
+  "updated": "2026-10-26T13:37Z",
   "issuers": [
+    {
+      "slug": "bombay-coated-and-special-steels-ltd",
+      "company": "Bombay Coated and Special Steels Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-01-30",
+      "analysed_on": "2026-10-26",
+      "sector": "Steel processing centre (coated steel for appliances)",
+      "brlm": "Smart Horizon Capital Advisors Private Limited",
+      "issue_size_cr": 183.06,
+      "price_band": "Rs 78-82",
+      "open_date": "2026-10-29",
+      "close_date": "2026-11-02",
+      "allotment_date": null,
+      "listing_date": null,
+      "lot_size": 182,
+      "exchange": "NSE, BSE",
+      "depth": "Full",
+      "rhp_read": false,
+      "call": "Subscribe",
+      "business_stage": "Scaling (new plants built; filling capacity)",
+      "headline": "A four-plant steel processor feeding India's AC and refrigerator makers (revenue Rs 1,056 cr, up 34% a year FY23-25), raising Rs 183 cr of fresh money mainly to repay debt, priced at 18x FY25 earnings after the issue (14x pro forma for lower interest), below the Rs 88 paid by investors in Oct-2025; fair value Rs 116 (Neutral) against Rs 82.",
+      "red_flags": [
+        "Revenue Rs 590.88 cr -> Rs 1,055.71 cr FY23-25 (33.7% CAGR); H1 FY26 Rs 491.51 cr, below the FY25 run-rate; adjusted EBITDA margin 6.4% -> 7.0% (H1 FY26 7.8%) (pp. 122, 279)",
+        "Debt/equity 3.33x (FY25), 2.88x (Sep-25); finance cost 42% of EBITDA; Rs 125 cr of the issue repays debt (pp. 108, 123, 279)",
+        "JSW Steel Coated Products 90.61% of coil supply; appliances 81.80% of product revenue; top-10 customers 67.44% (pp. 30-31, 37)",
+        "Promoters hold 97.78% at an average cost of Rs 1.25-12.50; Oct-2025 placement at Rs 88, above the Rs 78-82 band (pp. 27, 35, 94)",
+        "25 delayed RoC filings and a 2021 allotment-filing error under adjudication; board independent directors appointed Mar-2025 (pp. 44-46, 248)",
+        "Fair value Rs 108 / 116 / 126 at Rs 82 (Bear / Neutral / Bull); reported P/E a fair measure (adjustments -4.0%); provisional: figures to Sep-2025 from the DRHP"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/jan-2026/bombay-coated-and-special-steels-limited_99471.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 4,
+        "pass": 6,
+        "open": 4
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 51.064,
+        "relative": 180.1283,
+        "blended": 115.5961,
+        "upside_floor": 0.482,
+        "upside_cap": 0.4097
+      },
+      "bear": 108.1649,
+      "bull": 126.4926,
+      "pdf": "BOMBAY_COATED_AND_SPECIA_Report.pdf",
+      "pe_reported": 17.97,
+      "pe_adjusted": 18.73,
+      "eq_material": false
+    },
     {
       "slug": "m-k-sons-fine-jewels-ltd",
       "company": "M. K. Sons Fine Jewels Limited",

@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-26T06:52Z",
+  "last_scan": "2026-10-26T13:37Z",
   "today_ist": "2026-10-26",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [],
@@ -31,10 +31,10 @@
       "open_date": "2026-10-27",
       "close_date": "2026-10-29",
       "price_band": "Rs 142-150",
-      "issue_size_shares": 17000000,
+      "issue_size_shares": 11900000,
       "source": "NSE",
       "lot_size": 100,
-      "issue_size_text": "Initial Public Offer comprising of Fresh Issue aggregating upto 1,70,00,000 Equity Shares",
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue aggregating upto 1,70,00,000 Equity Shares (including Anchor reservation portion of 51,00,000 Equity Shares)",
       "brlm": "Unistone Capital Private Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
@@ -51,16 +51,9 @@
         {
           "date": "2026-10-19",
           "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html"
-        },
-        {
-          "date": "2026-10-26",
-          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-addendum-to-rhp-and-price-band_105419.html"
-        },
-        {
-          "date": "2026-10-19",
-          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html"
         }
-      ]
+      ],
+      "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_BLSPOLY.zip"
     },
     {
       "company": "SFC Environmental Technologies Limited",
@@ -81,7 +74,25 @@
       "status": "Upcoming",
       "slug": "sfc-environmental-technologies-ltd",
       "report": "published",
-      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792670149542.PDF"
+      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792670149542.PDF",
+      "sebi_filings": [
+        {
+          "date": "2026-10-26",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-addendum-to-rhp_105430.html"
+        },
+        {
+          "date": "2026-10-22",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html"
+        },
+        {
+          "date": "2026-10-26",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-addendum-to-rhp_105430.html"
+        },
+        {
+          "date": "2026-10-22",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html"
+        }
+      ]
     },
     {
       "company": "M. K. Sons Fine Jewels Limited",
@@ -99,6 +110,24 @@
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
       "status": "Upcoming",
       "slug": "m-k-sons-fine-jewels-ltd",
+      "report": "provisional"
+    },
+    {
+      "company": "Bombay Coated and Special Steels Limited",
+      "symbol": "BCSSL",
+      "platform": "Mainboard",
+      "series": "EQ",
+      "open_date": "2026-10-29",
+      "close_date": "2026-11-02",
+      "price_band": "Rs 78-82",
+      "issue_size_shares": 23468846,
+      "source": "NSE",
+      "lot_size": 182,
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue aggregating upto Rs. 1,830.57 million",
+      "brlm": "Smart Horizon Capital Advisors Private Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
+      "status": "Upcoming",
+      "slug": "bombay-coated-and-special-steels-ltd",
       "report": "provisional"
     }
   ]

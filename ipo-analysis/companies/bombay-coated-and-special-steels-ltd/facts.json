@@ -1,15 +1,15 @@
 {
- "_source": "Bombay Coated and Special Steels Limited DRHP dated 28-Jan-2026 (SEBI filing 99471, refiled; observation 12-Jun-2026); restated standalone, Rs million converted to Rs crore. Printed page = PDF page - 6. No price band: reference is the 28-Oct-2025 private placement at Rs 88 per share (p. 94).",
+ "_source": "Bombay Coated and Special Steels Limited DRHP dated 28-Jan-2026 (SEBI filing 99471, refiled; observation 12-Jun-2026); restated standalone, Rs million converted to Rs crore. Printed page = PDF page - 6. Price band Rs 78-82, lot 182, fresh issue Rs 183.06 cr and dates from the NSE issue page (read 26-Oct-2026); the RHP itself (nsearchives.nseindia.com) was not retrievable, so company figures are from the DRHP.",
  "screening": {
   "basis": {
    "name": "Bombay Coated and Special Steels Limited",
    "platform": "Mainboard",
-   "stage": "DRHP",
+   "stage": "RHP",
    "doc_date": "2026-01-28",
    "aud_to": "2025-09-30",
-   "band": "No",
+   "band": "Yes",
    "brlm": "Smart Horizon Capital Advisors Private Limited",
-   "outside": "none (all figures from the DRHP)",
+   "outside": "Price band, lot, issue size and dates from the NSE issue page (26-Oct-2026); financials from the DRHP dated 28-Jan-2026 because the RHP was not retrievable",
    "bid_cat": "Anchor",
    "exit": "2-3 year hold (assumed)"
   },
@@ -127,7 +127,7 @@
    "top10c": 0.6744,
    "top1s": 0.9061,
    "geo": 1.0,
-   "offer": 191.0
+   "offer": 183.057
   },
   "checks": {
    "1": {
@@ -203,7 +203,7 @@
   },
   "gaps": [
    {
-    "item": "No price band, dates or RHP yet (SEBI observation 12-Jun-2026)",
+    "item": "RHP not retrievable (not yet on SEBI; NSE copy on a blocked host): FY26 full-year figures and any RHP changes are not reflected",
     "severity": "High",
     "source": "RHP"
    },
@@ -238,7 +238,7 @@
   "inputs": {
    "name": "Bombay Coated and Special Steels Limited",
    "board": "Mainboard",
-   "issue": 191.0,
+   "issue": 183.057,
    "emp": 0,
    "shr": 0,
    "qib_pct": 0.5,
@@ -246,7 +246,10 @@
    "rii_pct": 0.35,
    "anc_pct": 0.6,
    "mf_anc": 0.3333,
-   "ins_anc": 0.0667
+   "ins_anc": 0.0667,
+   "offer": 82,
+   "anchor_px": 82,
+   "bid_date": "2026-10-28"
   },
   "overhang": [
    [
@@ -267,7 +270,8 @@
     1095,
     "three years if capex, else 18 months - confirm in RHP"
    ]
-  ]
+  ],
+  "total_shares_lakh": 628.2412
  },
  "valuation": {
   "inputs": {
@@ -275,11 +279,11 @@
    "basis": "Standalone",
    "pre_sh": 4.0500091,
    "esop": 0,
-   "fresh": 191.0,
+   "fresh": 183.057,
    "fresh_sh_fixed": 0,
    "ofs_sh": 0,
-   "floor": 88,
-   "cap": 88,
+   "floor": 78,
+   "cap": 82,
    "obj_net": 143.0,
    "exp_pct": 0,
    "gcp_pct": 0,
