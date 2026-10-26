@@ -1,0 +1,114 @@
+{
+  "slug": "m-k-sons-fine-jewels-ltd",
+  "company": "M. K. Sons Fine Jewels Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "filed_on": "2026-05-20",
+  "doc_date": "2026-05-11",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/may-2026/m-k-sons-fine-jewels-limited_101528.html",
+  "sector": "Jewellery retail (Mumbai and Ahmedabad)",
+  "brlm": "Aryaman Financial Services Limited",
+  "issue_size_cr": 275.4,
+  "price_band": "Rs 153-162",
+  "open_date": "2026-10-28",
+  "close_date": "2026-10-30",
+  "allotment_date": null,
+  "listing_date": null,
+  "lot_size": 91,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "call": "Neutral",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "analysed_on": "2026-10-26",
+  "business_stage": "Early scaling (5 showrooms, expanding with issue-funded inventory)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 27-Oct-2026 (one working day before opening); allocation report not reachable"
+  },
+  "files": {
+    "screening": "M_K_SONS_FINE_JEWELS_LTD_01_Screening.xlsx",
+    "anchor": "M_K_SONS_FINE_JEWELS_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "M_K_SONS_FINE_JEWELS_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "M_K_SONS_FINE_JEWELS_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 55.6298,
+      "relative": 150.4771,
+      "blended": 103.0534,
+      "upside_floor": -0.3264,
+      "upside_cap": -0.3639
+    },
+    "neutral": {
+      "dcf": 88.6145,
+      "relative": 150.4771,
+      "blended": 119.5458,
+      "upside_floor": -0.2187,
+      "upside_cap": -0.2621
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -41.1% - the divergence is the finding; name its cause",
+      "RED: objects floor sits above blended fair value",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 47.2 times its current free cash flow, in perpetuity.",
+    "objects_floor": 133.4603,
+    "bull": {
+      "dcf": 131.2878,
+      "relative": 150.4771,
+      "blended": 140.8824,
+      "upside_floor": -0.0792,
+      "upside_cap": -0.1304
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 3,
+    "pass": 7,
+    "open": 5
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 162 upper band: Neutral value Rs 120 is 26.2% below (within 10-30%), so the call is Neutral. No material issue was found. Figures are from the DRHP because the RHP was not reachable.",
+  "reference_note": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 23.4x on 9M FY26 PAT annualised (39.2x on FY25, before a full year of the merged business); P/B 2.49x post-issue; EV/EBITDA 11.8x annualised. Objects floor Rs 133.46.",
+  "headline": "A fast-growing Mumbai-Ahmedabad jewellery retailer (5 showrooms, 13% EBITDA margin) raising Rs 220 cr of fresh money to stock new showrooms, priced at 23x annualised earnings against a 22x peer median; our fair value is Rs 120 (Neutral) because inventory-heavy growth leaves little free cash flow.",
+  "red_flags": [
+    "Revenue Rs 217.32 cr (FY24) -> Rs 351.28 cr (FY25) -> Rs 360.82 cr in 9M FY26; EBITDA margin 5.9% -> 11.0% -> 13.4%, helped by rising gold prices (pp. 101, 227)",
+    "Inventory Rs 240.59 cr (205 days); operating cash flow negative FY23-25, +Rs 18.01 cr in 9M FY26; no gold hedging disclosed (pp. 101, 226, 228)",
+    "Promoter's proprietorship merged in Mar-2025 for 40.38 lakh shares (Rs 71.07 cr); Rs 21.52 cr of FY25 purchases from it before the merger (pp. 64, 189)",
+    "Ahmedabad showrooms 62.40% of 9M FY26 revenue; five showrooms in two cities (pp. 23, 91)",
+    "RHP not reachable: DRHP (May-2026) figures used; fair value Rs 103 / 120 / 141 vs Rs 162"
+  ],
+  "swot": {
+    "strengths": [
+      "Revenue up from Rs 24.91 cr to Rs 351.28 cr in two years (p. 227)",
+      "EBITDA margin 13.36% and ROCE 26.84% in 9M FY26 (p. 101)",
+      "17,452-SKU hallmarked range (p. 157)",
+      "Debt/equity 0.50x before the issue (p. 101)"
+    ],
+    "weaknesses": [
+      "Five showrooms; Ahmedabad 62.40% of revenue (p. 23)",
+      "Inventory days 205; negative CFO FY23-25 (pp. 101, 228)",
+      "Short history as a combined entity (p. 189)",
+      "Young board; promoter family about 100% pre-issue (pp. 65-66, 78)"
+    ],
+    "opportunities": [
+      "New Maharashtra and expanded Ahmedabad showrooms in FY27 (p. 91)",
+      "Shift to organised hallmarked jewellery (p. 111 onwards)",
+      "Higher-margin diamond jewellery (p. 157)"
+    ],
+    "threats": [
+      "Gold price falls (p. 143 onwards)",
+      "National chains in Mumbai and Ahmedabad (p. 100)",
+      "Seasonal demand (p. 22)"
+    ]
+  },
+  "rhp_read": false
+}

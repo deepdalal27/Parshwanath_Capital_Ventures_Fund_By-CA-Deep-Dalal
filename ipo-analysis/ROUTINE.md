@@ -1,7 +1,20 @@
-# Scheduled IPO analysis routine - standing instructions
+# IPO Desk - standing instructions (RHP-stage research, fully automatic)
 
-The scheduled Claude routine reads this file on every run. Edit it on GitHub to change what the routine does;
-the next run picks up the change. Settings that change often live in `data/sources.json`.
+This file is the single SOP for the IPO Desk. A scheduled run reads it twice a day and follows it without being asked.
+Edit it on GitHub to change what the desk does; the next run picks up the change.
+
+**What the desk delivers.** For every Indian IPO (Mainboard and SME) whose **Red Herring Prospectus is filed and whose
+price band is announced**, a full report goes live on the website - before the issue opens - with no request from the
+fund manager. DRHPs are not covered.
+
+| | |
+|---|---|
+| Trigger | Price band announced for an issue with a filed RHP (NSE issue calendar), or a new RHP on SEBI |
+| Schedule | Every day at 07:43 and 18:43 IST (scheduled task "IPO Desk - RHP reports (auto)"; two runs, so a band announced in the evening is covered by next morning) |
+| Worklist | `data/calendar.json`, written by `toolkit/scan_rhp.py` |
+| Depth | Mainboard: full nine-part report. SME: the same nine parts, shorter (`meta.depth` = `"Snapshot"`) |
+| Publish | Automatic: the run merges its own pull request into `main`; GitHub Pages redeploys |
+| Deadline | Live before the issue opens; if the band is announced the evening before, by 09:30 IST on opening day |
 
 ## Hard rules (override everything below)
 
@@ -11,8 +24,9 @@ the next run picks up the change. Settings that change often live in `data/sourc
    every Excel workbook and every PDF read it automatically. End each `note.md` with the heading
    `## Disclaimer and disclosures` followed by the `short` text from that file. To change the wording, edit `disclaimer.json` only.
 3. **Never commit offer-document PDFs** (size and copyright). Link to the source URL in `meta.json.doc_url`.
-4. If a source cannot be reached or a PDF cannot be read, **leave the filing in the queue with a note**. The issuer analysis comes
-   only from the offer document; never from memory, news articles or aggregator summaries. The single exception is the
+4. **Offer document only.** The issuer analysis comes only from the RHP (or, while the RHP cannot be fetched, the latest
+   SEBI-filed offer document plus the exchange's issue page, marked provisional - see step 3); never from memory, news
+   articles or aggregator summaries. The single exception is the
    merchant-banker section (current prices, issuer financials, ownership), which may use secondary sources only if each one is
    named and marked unverified.
 5. **Neutral stance, always.** Everything published here is public and is the Fund's own analytical view, not advocacy.
@@ -48,94 +62,86 @@ the next run picks up the change. Settings that change often live in `data/sourc
 7. Grey market premium is never used and never moves fair value.
 8. **Branding:** every output carries the fund logo, the fund name and registration, "Fund Manager: CA Deep Dalal" and
    "Sponsor: Jignesh Shah". The toolkit adds these to Excel and PDF automatically; never strip them.
-9. **One offer document per day.** `max_per_run` in `data/sources.json` is 1. Do not raise it without the fund manager's instruction.
+9. **Coverage: RHP with a price band, nothing else** (fund manager's instruction, 26-Oct-2026). Every Mainboard and SME IPO
+   whose RHP is filed and whose price band is announced gets a report. DRHPs are never analysed or listed on the site.
+   Old DRHP screens live in `archive/drhp/` and are not linked.
 
 ## Each run
 
 ### 0. Setup
 ```bash
 pip install -q -r ipo-analysis/toolkit/requirements.txt pypdf
-(apt-get install -y -q poppler-utils || true)   # pdftotext / pdftoppm if available
+(apt-get install -y -q poppler-utils || true)
+git fetch origin main
 ```
+Work on the session's designated development branch if it has one (the scheduled run lives in a session whose branch is
+`claude/hopeful-knuth-8hoypv`), otherwise on `ipo-desk/<YYYYMMDD-HHMM>`. Restart that branch from `origin/main` each run
+(`git checkout -B <branch> origin/main`); if the remote branch still carries already-merged history, keep the push a
+fast-forward with `git merge -s ours origin/<branch>` before pushing (never force-push).
 
-### 1. Scan for new filings
-Read `data/sources.json`. For each source with `"enabled": true`, list the offer documents filed
-since `scan_from` (DRHP, RHP, addendum, prospectus; mainboard and SME). For each filing record:
-`company`, `platform` (Mainboard/SME), `stage`, `filed_on` (YYYY-MM-DD), `doc_url` (direct PDF if possible) and `source`.
-If a listing URL in `sources.json` has moved, find the current one on the same official site, update `sources.json`, and
-set `"verified": true` with the date.
+### 1. Scan
+```bash
+python3 ipo-analysis/toolkit/scan_rhp.py --todo
+```
+It reads the NSE current and upcoming issue feeds (Mainboard and SME), the issue detail pages (lot size, issue size,
+BRLMs, RHP and anchor links) and SEBI's register of red herring prospectuses (with the RHP PDF link), and writes
+`data/calendar.json`. Each issue is `Open`, `Upcoming` or `Closed` (kept 30 days) and its report is `published`,
+`provisional` (built without the RHP) or `to_do`. The `TODO` lines are this run's work; also refresh every
+`provisional` report whose `rhp_pdf` has now appeared. Errors (a blocked host) are listed at the end; record them in
+the run summary, never work around a block.
 
-A filing is new if its `doc_url` is not in `data/seen.json` and not already in `data/queue.json`. Append new filings to
-`queue.json.pending`. Set `queue.json.last_scan` to the current UTC time (`YYYY-MM-DDTHH:MMZ`).
+### 2. Get the RHP
+In order: `rhp_pdf` from the calendar (SEBI attachdocs PDF; extension may be `.PDF`); the SEBI filing page
+`rhp_filing`; the NSE `rhp_zip` (nsearchives.nseindia.com - may be blocked); the company's investor page; the BRLMs'
+sites. Download to `/tmp/ipo/<slug>/` (never into the repo), resuming with `curl -C -` until the size matches
+Content-Length. The NSE issue page is the source for price band, lot, dates, issue size and BRLMs.
+If no RHP can be fetched, build from the latest SEBI-filed offer document plus the NSE issue page, set
+`meta.rhp_read` to `false`, say so in the basis banner and data gaps, and refresh the report on a later run once the RHP
+is reachable. With the RHP, set `meta.rhp_read` to `true`.
 
-### 2. Pick what to analyse
-Take at most `max_per_run` filings (currently **1**) from `pending`, in this priority:
-1. An RHP / addendum for an issuer already in `companies/` (the decision stage; supersedes the DRHP note),
-   **unless its issue opens within the next 5 working days**: those are covered by the opening-day routine
-   (`OPENING_DAY.md`, see `data/opening_calendar.json`), so leave them in the queue for it,
-2. Mainboard DRHPs, oldest first,
-3. SME DRHPs, oldest first.
-
-### 3. Analyse each filing
-- Download the PDF to `/tmp` (not the repo). Extract the text with `pdftotext -layout`, or `pypdf` if that is unavailable.
-  Build a page map: prospectuses commonly carry three numbering blocks. If the restated-financials annexure is image-only,
-  render it and read the images before citing any number from it.
-- If the `drhp-due-diligence` skill is available in the session, **load it and follow it**. It is the full standing SOP.
-  Otherwise, follow the condensed version below.
-- Slug: company name in lower case with hyphens, legal suffix kept (`abc-industries-ltd`). An RHP for an existing slug
-  updates that folder: the RHP note supersedes the DRHP note and opens with the DRHP-to-RHP delta register.
-- Write into `ipo-analysis/companies/<slug>/`:
-  - `facts.json`: figures exactly as restated, with page cites. Schema: `toolkit/FACTS_SCHEMA.md`.
-  - `meta.json`: company, platform, stage, filed_on, doc_url, sector, brlm, issue_size_cr, price_band, `call`
-    (`Subscribe` / `Avoid` / `Neutral`, or `Screen only` at DRHP stage when there is no price band),
-    exit_route, `reference_note` (the price used for upside when no band exists, with its basis), a one-sentence neutral `headline`, and `red_flags`. Despite its name, `red_flags` is the list of **key
-    observations**: at most six, balanced between strengths and concerns, each carrying its number.
-  - `note.md`: the report, in the nine-part **Report structure** below. It applies whether or not the skill is loaded and overrides the skill's own spine.
-  - **Merchant banker work:** before writing the merchant-banker section, open `data/merchant_bankers.json`.
-    - If a lead manager is not there, add it: `owner` (promoters / key shareholders, with source), `listed` status,
-      and the year-wise summary table from the offer document's "Price information of past issues handled by the BRLMs".
-    - For every issue in that table, record in `issues[]` its name, sector, issue size and price, listing date,
-      listing-day open and the 30/90/180-day changes. Take these **from the offer document**: it is exchange-sourced
-      and outranks any website.
-    - Then add for each issuer: **current share price with its date**, and **revenue and PAT for the last 3 financial
-      years** (or since inception if listed less than 3 years ago), as amounts and % change. Prefer exchange filings;
-      otherwise use secondary web sources, mark `"verified": false`, and name the source. Never fill a number you could not source.
-    - Reuse existing entries; refresh current prices on each run that cites them.
-- Build and verify:
+### 3. Analyse - every issue, in parallel
+- Spawn one subagent per issue (Mainboard first). Each writes only its own `companies/<slug>/` folder, never
+  `data/*.json`, and never commits; if `build_issuer.py` rewrites `data/index.json` it reverts that file. The main
+  session collects the results and publishes once.
+- Load the `drhp-due-diligence` skill if available; hard rule 6 and the **Report structure** below override it.
+- Extract with `pdftotext -layout`; build the page map (printed page vs PDF page).
+- Write `facts.json` (Rs crore, page cites; schema `toolkit/FACTS_SCHEMA.md`), `meta.json` and `note.md`.
+  `meta.json` carries: company, platform, `stage` = `"RHP"`, filed_on, doc_date, doc_url (SEBI filing page), sector, brlm,
+  issue_size_cr, price_band (e.g. `"Rs 313-330"`), open_date, close_date, allotment_date, listing_date, lot_size,
+  exchange, depth, `rhp_read`, business_stage, call (judged at the upper band; `Screen only` is never used), call_basis,
+  headline (one neutral sentence), red_flags (at most six balanced key observations with numbers), swot, anchor
+  (`{amount_cr, investors, mf_share, source}`; "not readable" if the anchor report is blocked), reference_note.
+- Valuation inputs: floor and cap = the band; fresh issue amount (or fixed shares) and OFS shares from the RHP.
+- Merchant bankers: update `data/merchant_bankers.json` from the RHP's past-issue table (main session only).
+- Build and check each issue:
   ```bash
   python3 ipo-analysis/toolkit/build_issuer.py <slug>
-  python3 ipo-analysis/toolkit/verify.py
+  python3 ipo-analysis/toolkit/verify.py          # must end with every check passed
   ```
-  `build_issuer.py` also writes `charts.json` (the data behind every chart on the website dashboard and in the PDF) and the
-  branded PDF report (`<SLUG>_Report.pdf`), printed from `report.html` with Chromium (`/opt/pw-browsers/chromium` in the
-  cloud container). Charts are generated automatically for every issue; **the inputs below must be present for them to fill:**
-  - `facts.json` → `kpi.ebitda` (3 years, Rs crore, as the issuer's KPI table) and, where disclosed, `kpi.volume` with
-    `kpi.volume_unit` (production or sales volume). Cite the page in `kpi._cite`.
-  - `meta.json` → `swot` with four lists (`strengths`, `weaknesses`, `opportunities`, `threats`); each item carries a figure
-    and a page reference. `reference_note` when there is no price band.
-  - `facts.screening.checks` filled for every check worked (PASS / WATCH / FAIL / N.A., with page and finding). The
-    "Where to focus" panel ranks FAIL, then WATCH, then model guards, then High/Medium data gaps.
-  - `data/merchant_bankers.json` updated for this offer's lead managers (see above).
-- Before publishing, open `ipo-analysis/view.html?c=<slug>` through a local server
-  (`python3 -m http.server` from the repo root) and check that every chart has data and nothing overlaps. Then open the PDF.
-  `verify.py` must end with every check passed. If the issuer's own totals fail to reproduce (expenses do not sum,
-  the balance sheet does not balance), say in the note whether the error is in the document or in your extraction.
-- Move the filing from `queue.json.pending` to `seen.json.filings` (store its `doc_url`).
+  Open `view.html?c=<slug>` through `python3 -m http.server` (repo root) with Playwright
+  (`executable_path="/opt/pw-browsers/chromium"`): all nine part headings present, charts filled, no console errors;
+  open the PDF.
 
-### 4. Publish
-- Rebuild the index: `python3 ipo-analysis/toolkit/build_issuer.py --index`.
-- Commit on a new branch, push, and open a pull request into `main` titled `IPO analysis: <company names>`.
-  **Do not merge it.** The fund manager reviews the PR and clicks Merge; GitHub Pages then redeploys the site from `main`.
-  The PR description lists each issuer with its call, headline and red flags, so it can be reviewed from a phone.
-- If an earlier routine PR is still open and unmerged, push to that same branch instead of opening a second PR.
-- If nothing new was analysed but the queue or `last_scan` changed, publish that the same way so the pipeline stays current.
-- End the run with a short summary: filings found, analysed, still queued, and any source that failed.
+### 4. Publish (automatic)
+```bash
+python3 ipo-analysis/toolkit/scan_rhp.py          # refresh report statuses after the builds
+python3 ipo-analysis/toolkit/build_issuer.py --index
+```
+Commit on the run's branch, push, open a pull request into `main` titled `IPO Desk: <date> - <company names>` (call and
+upper-band upside for each in the description) and **merge it yourself (squash)**: the fund manager has authorised
+auto-publishing for the IPO Desk. Never change files outside `ipo-analysis/`, never force-push, never push to `main`
+directly. If the merge is refused, leave the PR open and say why. If only `data/calendar.json` changed, publish that the
+same way so the site's calendar stays current.
+
+### 5. Report
+End with a short summary (it becomes a phone notification): issues open today and opening next, each with its call
+and upper-band upside; reports published or refreshed this run, with the merged PR link; provisional reports still
+waiting for an RHP; and any blocked host.
 
 ## Condensed SOP (when the skill is not available)
 
-**Stage**: a DRHP is a *screen*, an RHP is a *decision*. State the stage, the document date, the audited-to date and the
-staleness in days in the opening banner. Where the audited record is more than a year old, say that no capital should be
-committed until the RHP is read.
+**Stage**: every report is an RHP-stage decision, judged at the upper band. State the document and its date, the
+audited-to date and the staleness in days in the opening banner.
 
 **Exit route**: default to a 2-3 year hold and say it is assumed. Anchor allotments are discretionary and locked in
 (50% for 30 days, 50% for 90 days), so they cannot be sold on listing day.

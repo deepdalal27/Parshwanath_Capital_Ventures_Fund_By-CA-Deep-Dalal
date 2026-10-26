@@ -1,0 +1,460 @@
+{
+ "_source": "M. K. Sons Fine Jewels Limited: DRHP dated 11-May-2026 (SEBI filing 101528; printed page = PDF page - 5), restated financials to 31-Dec-2025, Rs million converted to Rs crore. The RHP is on nsearchives.nseindia.com (not reachable here) and was not posted on SEBI by 26-Oct-2026, so price band (Rs 153-162), lot (91), issue split (fresh 1.36 crore + OFS 0.34 crore shares) and dates come from the NSE issue page (read 26-Oct-2026). Valuation base = 9M FY26 annualised (x4/3) because the promoter's proprietorship was merged in only on 29-Mar-2025.",
+ "screening": {
+  "basis": {
+   "name": "M. K. Sons Fine Jewels Limited",
+   "platform": "Mainboard",
+   "stage": "RHP",
+   "doc_date": "2026-05-11",
+   "aud_to": "2025-12-31",
+   "band": "Yes",
+   "brlm": "Aryaman Financial Services Limited",
+   "outside": "Price band, lot, issue split and dates from the NSE issue page; RHP not reachable, so DRHP (May-2026) figures are used",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    24.912,
+    217.323,
+    351.28,
+    360.821
+   ],
+   "oth": [
+    0.018,
+    0.072,
+    0.036,
+    0.024
+   ],
+   "pbt": [
+    1.725,
+    10.832,
+    32.026,
+    39.946
+   ],
+   "ctax": [
+    0.483,
+    2.789,
+    8.55,
+    11.0
+   ],
+   "dtax": [
+    -0.097,
+    -0.122,
+    0.213,
+    -0.219
+   ],
+   "pat": [
+    1.339,
+    8.165,
+    23.262,
+    29.165
+   ],
+   "cfo": [
+    -4.947,
+    -23.557,
+    -9.531,
+    18.006
+   ],
+   "rpt_s": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rpt_p": [
+    0.459,
+    3.849,
+    21.715,
+    1.228
+   ],
+   "nw": [
+    14.149,
+    22.29,
+    116.235,
+    145.418
+   ],
+   "recv": [
+    0.13,
+    0.589,
+    1.21,
+    3.422
+   ],
+   "inv": [
+    44.812,
+    87.481,
+    205.696,
+    240.592
+   ],
+   "pay": [
+    21.644,
+    26.055,
+    21.569,
+    28.609
+   ],
+   "cl": [
+    4.995,
+    4.995,
+    4.995,
+    4.995
+   ],
+   "gw": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "cites": {
+   "rev": "p. 227",
+   "oth": "p. 227",
+   "pbt": "p. 227",
+   "ctax": "p. 227",
+   "dtax": "p. 227",
+   "pat": "p. 227",
+   "cfo": "p. 228",
+   "rpt_s": "p. 64",
+   "rpt_p": "p. 64 (purchases from the promoter's proprietorship before its merger, a promoter-group hotel, and rent to the promoter)",
+   "nw": "p. 226",
+   "recv": "p. 226",
+   "inv": "p. 226",
+   "pay": "p. 226",
+   "cl": "p. 63 (income-tax demands AY 2012-13 and 2017-18)",
+   "gw": "p. 226"
+  },
+  "single": {
+   "top1c": 0.0,
+   "top10c": 0.0,
+   "top1s": 0.0,
+   "geo": 1.0,
+   "offer": 275.4
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "pp. 73-76, 98",
+    "finding": "Bonus issues of 2:1 (16-May-2025) and 2:3 (Dec-2025) are reflected: EPS 0.60 / 3.63 / 10.26 FY23-25 and 6.83 for 9M FY26 are on the 4,26,90,760 post-bonus shares."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "p. 228",
+    "finding": "Operating cash flow Rs -4.95 / -23.56 / -9.53 cr FY23-25 against PAT Rs 1.34 / 8.17 / 23.26 cr as inventory rose from Rs 44.81 cr to Rs 205.70 cr; 9M FY26 CFO +Rs 18.01 cr against PAT Rs 29.17 cr. Typical for a jewellery retailer stocking new showrooms; inventory days 122 -> 178 -> 205 (p. 101)."
+   },
+   "3": {
+    "status": "PASS",
+    "page": "p. 227",
+    "finding": "Current tax about 27% of PBT each year; income tax paid Rs 12.46 cr over FY23-9M FY26."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "pp. 64, 189",
+    "finding": "Until 29-Mar-2025 the promoter ran a parallel proprietorship (M. K. Sons Jewellers), from which the company bought Rs 21.52 cr of goods in FY25; it was then merged in for 40,38,152 shares at Rs 176 (Rs 71.07 cr). Promoter loans (Rs 1.52 cr outstanding Dec-25) and showroom rent to the promoter (Rs 1.23 cr in 9M FY26) continue. Disclosed; the merger removes the overlap."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "pp. 89-91",
+    "finding": "Objects Rs 181.51 cr (showroom inventory Rs 151.51 cr + debt repayment Rs 30.00 cr) over 1.36 crore fresh shares = Rs 133.46 a share before GCP and expenses, below the Rs 153 floor."
+   },
+   "7": {
+    "status": "PASS",
+    "page": "p. 226",
+    "finding": "No goodwill; intangibles negligible (Rs 0.05 cr)."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 21, 23, 91",
+    "finding": "Five leased showrooms (3 Mumbai, 2 Ahmedabad; 6,513 sq ft); the two Ahmedabad showrooms gave 62.40% of 9M FY26 revenue. Finished jewellery is bought from third-party vendors in Maharashtra and Gujarat without long-term contracts."
+   },
+   "9": {
+    "status": "PASS",
+    "page": "p. 63",
+    "finding": "Contingent liabilities Rs 4.995 cr of income-tax demands (3.4% of Dec-25 net worth); no criminal or regulatory cases."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "PASS",
+    "page": "p. 18",
+    "finding": "Paresh Rakesh & Associates LLP; FY23-25 restated from special-purpose Ind AS statements prepared from Indian GAAP books."
+   },
+   "R3": {
+    "status": "PASS",
+    "page": "p. 89",
+    "finding": "Fresh issue about Rs 220 cr at the upper band: monitoring agency mandatory; to be named in the RHP."
+   },
+   "R5": {
+    "status": "N.A.",
+    "page": "cover",
+    "finding": "Mainboard issue under Reg 6(1)."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Aryaman Financial Services (sole BRLM): track record not compiled in this run."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not obtainable (nsearchives.nseindia.com blocked; not posted on SEBI); DRHP figures used - RHP may add or restate numbers",
+    "severity": "High",
+    "source": "RHP"
+   },
+   {
+    "item": "Whether the optional pre-IPO placement of up to 20 lakh shares was made, and at what price",
+    "severity": "Medium",
+    "source": "RHP capital structure"
+   },
+   {
+    "item": "Allotment and listing dates, anchor date and anchor book",
+    "severity": "Medium",
+    "source": "RHP / exchange filing"
+   },
+   {
+    "item": "Gold-price gains in gross margin (inventory held while gold rose); no hedging policy disclosed",
+    "severity": "Medium",
+    "source": "RHP MD&A / management"
+   },
+   {
+    "item": "Audited numbers end 31-Dec-2025 (299 days old); Q4 FY26 and FY26 full-year not in the DRHP",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "Aryaman Financial Services' track record of past issues",
+    "severity": "Low",
+    "source": "RHP / BRLM website"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "M. K. Sons Fine Jewels Limited",
+   "board": "Mainboard",
+   "offer": 162,
+   "anchor_px": 162,
+   "issue": 275.4,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-27"
+  },
+  "total_shares_lakh": 562.9076,
+  "overhang": [
+   [
+    "Promoter holding above 20% of post-issue capital (after OFS)",
+    280.33,
+    180,
+    "p. 84; six months"
+   ],
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    112.58,
+    540,
+    "p. 84; 18 months"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "M. K. Sons Fine Jewels Limited",
+   "basis": "Standalone",
+   "pre_sh": 4.269076,
+   "esop": 0,
+   "fresh": 220.32,
+   "fresh_sh_fixed": 1.36,
+   "ofs_sh": 0.34,
+   "floor": 153,
+   "cap": 162,
+   "obj_net": 181.506,
+   "exp_pct": 0,
+   "gcp_pct": 0,
+   "ipo_capex": 0,
+   "rev0": 481.095,
+   "rev_prev": 351.28,
+   "ebitda0": 64.257,
+   "da0": 3.42,
+   "pat0": 38.887,
+   "nw0": 145.418,
+   "nd0": 64.604,
+   "nwc0": 215.405,
+   "nwc_prev": 185.337,
+   "capex0": 2.847,
+   "kd": 0.1
+  },
+  "drivers": {
+   "g1": [
+    0.08,
+    0.2,
+    0.3
+   ],
+   "g2": [
+    0.12,
+    0.25,
+    0.32
+   ],
+   "g3": [
+    0.1,
+    0.18,
+    0.22
+   ],
+   "g4": [
+    0.08,
+    0.12,
+    0.15
+   ],
+   "g5": [
+    0.07,
+    0.1,
+    0.12
+   ],
+   "m": [
+    0.085,
+    0.11,
+    0.13
+   ],
+   "nwc": [
+    0.5,
+    0.45,
+    0.4
+   ],
+   "roic": [
+    0.12,
+    0.16,
+    0.2
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue Rs 24.91 / 217.32 / 351.28 cr FY23-25 and Rs 360.82 cr in 9M FY26 (Rs 481.10 cr annualised, the base year here) (p. 227); part of the growth is gold-price inflation and the merged proprietorship (p. 64 of MD&A, p. 189). The issue funds Rs 151.51 cr of inventory for a new Maharashtra showroom and an expanded Ahmedabad showroom in FY27 (p. 91). Neutral 20-25% in the first two years as the showrooms open, then 10-18%; Bear 7-12%; Bull 30%+.",
+   "m": "EBITDA (issuer KPI: PBT + finance cost + D&A - other income) 9.11% / 5.92% / 10.98% FY23-25 and 13.36% in 9M FY26 (p. 101), helped by gold-price gains on inventory. Neutral 11% (FY25 level); Bear 8.5%; Bull 13%.",
+   "nwc": "Inventory + receivables - payables = 44.8% of annualised 9M FY26 revenue (p. 226); inventory days 205 (p. 101). Neutral 45%.",
+   "roic": "ROCE 27.24% (FY25) and 26.84% (9M FY26, not annualised) (p. 101). Terminal ROIC 16% (Neutral) given the inventory intensity.",
+   "capex": "Showroom fit-outs are small and funded from accruals (p. 91); base capex Rs 2.85 cr (9M FY26 annualised). Net debt Rs 64.60 cr = borrowings Rs 72.11 cr + leases Rs 6.30 cr - cash Rs 13.81 cr (Dec-25). Fresh issue of 1.36 crore shares = Rs 220.32 cr at Rs 162."
+  },
+  "peers": [
+   [
+    "Motisons Jewellers Ltd (per share)",
+    "Y",
+    "Jewellery retailer - issuer's peer, p. 100",
+    "Consolidated",
+    13.8,
+    1,
+    null,
+    null,
+    null,
+    0.42,
+    4.2,
+    null
+   ],
+   [
+    "Tribhovandas Bhimji Zaveri Ltd (per share)",
+    "Y",
+    "Jewellery retailer (Mumbai) - issuer's peer, p. 100",
+    "Consolidated",
+    146.18,
+    1,
+    null,
+    null,
+    null,
+    10.84,
+    98.49,
+    null
+   ],
+   [
+    "Senco Gold Ltd (per share)",
+    "Y",
+    "Jewellery retailer - issuer's peer, p. 100",
+    "Consolidated",
+    318.1,
+    1,
+    null,
+    null,
+    null,
+    10.47,
+    120.37,
+    null
+   ],
+   [
+    "PNGS Reva Diamond Jewellery Ltd (per share)",
+    "Y",
+    "Diamond jewellery retailer - issuer's peer, p. 100",
+    "Consolidated",
+    396.9,
+    1,
+    null,
+    null,
+    null,
+    35.21,
+    206.19,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   2.269,
+   12.871,
+   38.568
+  ],
+  "_cite": "EBITDA from the issuer's KPI table (p. 101): PBT + finance cost + D&A - other income; reproduces from the P&L (p. 227). 9M FY26 Rs 48.19 cr."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY23, FY24, FY25]; negative reduces profit.",
+  "adjustments": [
+   {
+    "item": "Interest on security deposits (Ind AS 116 unwinding, in other income)",
+    "short": "deposit interest",
+    "pre_tax": [
+     -0.018,
+     -0.029,
+     -0.031
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "p. 228",
+    "reason": "Notional interest on lease deposits; non-operating and immaterial."
+   },
+   {
+    "item": "Promoter directors' pay at the FY26 run-rate",
+    "short": "promoter pay",
+    "pre_tax": [
+     -1.65,
+     -1.65,
+     -1.05
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "pp. 64, 195",
+    "reason": "No remuneration was paid to the three promoter directors before FY25 (Rs 0.60 cr in FY25); the FY26 rate is Rs 1.65 cr a year. Normalising FY23-25 for it lowers profit; a choice, not an accounting entry. For information."
+   },
+   {
+    "item": "Purchases from the promoter's proprietorship before its merger",
+    "short": "related-party purchases",
+    "pre_tax": [
+     0,
+     0,
+     0
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 64",
+    "reason": "Rs 21.52 cr of FY25 purchases came from M. K. Sons Jewellers (promoter's proprietorship) before it was merged in on 29-Mar-2025; pricing is not disclosed, so any effect on margin cannot be quantified. For information."
+   }
+  ],
+  "checked": [
+   "No capitalised costs: no capital work in progress, intangibles negligible (p. 226)",
+   "Ind AS processing-fee amortisation (Rs 0.93 cr in 9M FY26) is charged in finance cost (p. 228)",
+   "No exceptional items FY23 to 9M FY26 (p. 227)",
+   "Profit taxed in cash: current tax about 27% of PBT (p. 227)",
+   "Gross margin rose from 9.19% (FY24) to 14.51% (FY25) and 17.15% (9M FY26) while gold prices rose; inventory gains cannot be separated from the disclosures (p. 101)",
+   "Inventory is not hedged against gold prices (no hedging policy disclosed)"
+  ]
+ }
+}

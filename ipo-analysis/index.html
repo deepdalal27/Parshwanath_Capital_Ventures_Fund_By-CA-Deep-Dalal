@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IPO Analysis Desk - Parshwanath Capital Ventures Fund</title>
-<meta name="description" content="DRHP and RHP due-diligence screens, anchor economics and valuation models.">
+<title>IPO Desk - Parshwanath Capital Ventures Fund</title>
+<meta name="description" content="Institutional research on every Indian IPO once its Red Herring Prospectus and price band are out.">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#0b0f16">
 <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
@@ -18,28 +18,29 @@
   <div class="wrap">
     <a class="bar__brand" href="index.html">
       <img class="bar__logo" src="assets/logo-128.png" width="44" height="44" alt="Parshwanath Capital Ventures Fund logo">
-      <span><span class="bar__name">IPO Analysis Desk</span><span class="bar__sub">Parshwanath Capital Ventures Fund &middot; SEBI Reg. CAT III AIF</span></span>
+      <span><span class="bar__name">IPO Desk</span><span class="bar__sub">Parshwanath Capital Ventures Fund &middot; SEBI Reg. CAT III AIF</span></span>
     </a>
     <nav class="bar__links" aria-label="Sections">
-      <a href="index.html#analyses" aria-current="page">Analyses</a>
-      <a href="index.html#pipeline">Pipeline</a>
-      <a href="index.html#templates">Templates</a>
+      <a href="#open" aria-current="page">Open now</a>
+      <a href="#upcoming">Opening soon</a>
+      <a href="#closed">Closed</a>
+      <a href="#method">Method</a>
       <a href="../index.html">Fund website</a>
     </nav>
   </div>
 </header>
+
 <section class="head">
   <div class="wrap">
-    <p class="eyebrow">Primary markets &middot; DRHP / RHP</p>
-    <h1>IPO analysis desk</h1>
+    <p class="eyebrow">Primary markets &middot; RHP-stage research</p>
+    <h1>IPO Desk</h1>
     <p class="people">Fund Manager: <strong>CA Deep Dalal</strong> &middot; Sponsor: <strong>Jignesh Shah</strong> &middot; Parshwanath Capital Ventures Fund</p>
-    <p class="lead">Each new offer document is screened against ten forensic checks and twelve analyst work blocks, then valued on a DCF and on peer multiples, with anchor lock-in economics. Every model can be downloaded and edited.</p>
+    <p class="lead">Research on every Indian IPO as soon as its Red Herring Prospectus and price band are out, published before the issue opens. Each report values the issue on cash flows and peer multiples, tests whether the reported P/E is right, and gives a call at the upper band.</p>
     <div class="stats">
-      <div class="stat"><b id="s-count">-</b><span>Issuers analysed</span></div>
-      <div class="stat"><b id="s-sub">-</b><span>Subscribe calls</span></div>
-      <div class="stat"><b id="s-queue">-</b><span>Filings in pipeline</span></div>
-      <div class="stat"><b id="s-updated" style="font-size:16px">-</b><span>Last analysis</span></div>
-      <div class="stat"><b id="s-scan" style="font-size:16px">-</b><span>Last filing scan</span></div>
+      <div class="stat"><b id="s-open">-</b><span>Open for subscription</span></div>
+      <div class="stat"><b id="s-soon">-</b><span>Opening soon</span></div>
+      <div class="stat"><b id="s-count">-</b><span>Reports published</span></div>
+      <div class="stat"><b id="s-scan" class="stat--small">-</b><span>Last exchange scan</span></div>
     </div>
   </div>
 </section>
@@ -47,47 +48,52 @@
 <main class="wrap">
   <p class="disclaimer" data-disc-short>Investments in securities market are subject to market risks. Read all the related documents carefully before investing.</p>
 
-  <section class="block" id="analyses">
-    <h2>Analyses</h2>
-    <p class="sub">Newest filing first. Click a column to sort; click a company for the full note and downloads. <span id="count"></span></p>
-    <div class="dash-grid" style="margin-bottom:16px">
-      <div class="viz-card" id="chart-upside"></div>
-      <div class="viz-card" id="chart-checks"></div>
-    </div>
-    <div class="filters">
-      <input id="q" type="search" placeholder="Search company, sector, lead manager..." aria-label="Search">
-      <select id="f-platform" aria-label="Platform"><option value="">All platforms</option><option>Mainboard</option><option>SME</option></select>
-      <select id="f-stage" aria-label="Stage"><option value="">All stages</option><option>DRHP</option><option>RHP</option><option>Addendum</option><option>Prospectus</option></select>
-      <select id="f-call" aria-label="Call"><option value="">All calls</option><option>Subscribe</option><option>Neutral</option><option>Avoid</option><option>Screen only</option><option>Pending</option></select>
-    </div>
+  <section class="block" id="open">
+    <div class="block__head"><h2>Open for subscription</h2><span class="block__meta" id="open-meta"></span></div>
+    <div class="issue-grid" id="g-open"><div class="empty">Loading...</div></div>
+  </section>
+
+  <section class="block" id="upcoming">
+    <div class="block__head"><h2>Opening soon</h2><span class="block__meta">Price band announced &middot; report published before the issue opens</span></div>
+    <div class="issue-grid" id="g-soon"><div class="empty">Loading...</div></div>
+  </section>
+
+  <section class="block" id="closed">
+    <div class="block__head"><h2>Recently closed</h2><span class="block__meta">Calls as published before the issue opened</span></div>
     <div class="tbl-wrap">
-      <table>
+      <table class="tbl-closed">
         <thead><tr>
-          <th data-k="company">Issuer</th><th data-k="platform">Platform</th><th data-k="filed_on">Filed</th>
-          <th data-k="issue_size_cr" class="hide-sm">Issue (Rs cr)</th><th class="hide-sm">Checks</th>
-          <th>Blended value (Neutral)</th><th data-k="upside">Upside vs cap</th><th data-k="call">Call</th>
+          <th>Issuer</th><th class="hide-sm">Issue period</th><th>Price band</th>
+          <th class="num">Fair value (Neutral)</th><th class="num">vs upper band</th><th>Call</th><th class="hide-sm"></th>
         </tr></thead>
-        <tbody id="tbody"><tr><td colspan="8" class="muted">Loading...</td></tr></tbody>
+        <tbody id="t-closed"><tr><td colspan="7" class="muted">Loading...</td></tr></tbody>
       </table>
     </div>
   </section>
 
-  <section class="block" id="pipeline">
-    <h2>Pipeline</h2>
-    <p class="sub">Filings detected on SEBI, BSE SME and NSE Emerge that are queued for analysis.</p>
-    <div class="cards" id="queue"><div class="empty">Loading...</div></div>
-  </section>
-
-  <section class="block" id="templates">
-    <h2>Blank templates</h2>
-    <p class="sub">Formula-driven Excel models with illustrative sample numbers. Download, replace the blue cells, and use offline.</p>
-    <div class="cards">
-      <div class="card"><h3>DRHP / RHP screening checklist</h3><p>Basis and staleness banner, 21 auto-flagged forensic metrics, ten forensic checks, seven regulatory checks, twelve work blocks, data gaps and scorecard.</p><a class="btn" href="templates/01_DRHP_Screening_Checklist.xlsx" download>Download .xlsx</a></div>
-      <div class="card"><h3>Anchor &amp; QIB economics</h3><p>Anchor pool after reservations, discretionary allotment, 30/90-day lock-in exits by scenario against a listing-day QIB bid, and the supply-overhang calendar.</p><a class="btn" href="templates/02_Anchor_QIB_Economics.xlsx" download>Download .xlsx</a></div>
-      <div class="card"><h3>Peer comps &amp; valuation</h3><p>Peer multiples, CAPM-based DCF with three scenarios, relative value, a 60:40 blend, a four-lever reverse DCF, sensitivity grids and degeneracy guards.</p><a class="btn" href="templates/03_Peer_Comps_Valuation.xlsx" download>Download .xlsx</a></div>
+  <section class="block" id="method">
+    <div class="block__head"><h2>How the desk works</h2></div>
+    <ol class="steps">
+      <li><b>Detect</b><span>Twice a day the desk scans the NSE issue calendar and SEBI's register of red herring prospectuses. An issue enters coverage when its RHP is filed and its price band is announced. Draft prospectuses are not covered.</span></li>
+      <li><b>Analyse</b><span>The RHP is read end to end: business, industry, moat and SWOT, management and governance, three years of financials, an earnings-quality test, projections, a DCF and peer comparison, and the anchor book.</span></li>
+      <li><b>Verify</b><span>Every model is rebuilt from the offer document and checked by an automated gate (49 tests) before anything is published. Every number carries a page reference.</span></li>
+      <li><b>Publish</b><span>The report, PDF and editable Excel models go live here automatically, before the issue opens for subscription.</span></li>
+    </ol>
+    <div class="callrule">
+      <h3>The call, judged at the upper band of the price band</h3>
+      <div class="callrule__row"><span class="badge b-subscribe">Subscribe</span><span>Neutral fair value within 10% of the price, or above it.</span></div>
+      <div class="callrule__row"><span class="badge b-neutral">Neutral</span><span>Neutral fair value 10-30% below the price, or the Bull case at or above the price.</span></div>
+      <div class="callrule__row"><span class="badge b-avoid">Avoid</span><span>Neutral fair value more than 30% below the price and the Bull case also below it, or a material governance or accounting issue.</span></div>
+      <p class="small muted">Fair value blends a DCF (house cost of capital, three scenarios) with peer-median multiples 50:50. Normal features of a business are context, not deductions. Grey-market premium is never used.</p>
+    </div>
+    <div class="cards cards--models">
+      <div class="card"><h3>Screening checklist</h3><p>Basis banner, forensic metrics, regulatory checks, work blocks and data gaps.</p><a class="btn btn--ghost" href="templates/01_DRHP_Screening_Checklist.xlsx" download>Excel model</a></div>
+      <div class="card"><h3>Anchor &amp; QIB economics</h3><p>Anchor pool, lock-in exits and the supply-overhang calendar.</p><a class="btn btn--ghost" href="templates/02_Anchor_QIB_Economics.xlsx" download>Excel model</a></div>
+      <div class="card"><h3>Peer comps &amp; valuation</h3><p>Peer multiples, CAPM-based DCF in three scenarios, reverse DCF and sensitivities.</p><a class="btn btn--ghost" href="templates/03_Peer_Comps_Valuation.xlsx" download>Excel model</a></div>
     </div>
   </section>
 </main>
+
 <footer class="foot">
   <div class="wrap">
     <div class="foot__brand">

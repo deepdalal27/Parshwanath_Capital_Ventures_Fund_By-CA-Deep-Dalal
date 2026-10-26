@@ -30,7 +30,11 @@ import build_valuation   # noqa: E402
 from calc import recalc  # noqa: E402
 
 INDEX_FIELDS = ["slug", "company", "platform", "stage", "filed_on", "analysed_on", "sector", "brlm",
-                "issue_size_cr", "price_band", "open_date", "close_date", "depth", "call", "headline", "red_flags", "doc_url", "status", "counts", "focus_top"]
+                "issue_size_cr", "price_band", "open_date", "close_date", "allotment_date", "listing_date", "lot_size",
+                "exchange", "depth", "rhp_read", "call", "business_stage", "headline", "red_flags", "doc_url", "status", "counts",
+                "focus_top"]
+# The desk covers RHP-stage issues only (price band known). DRHP reports are not listed on the site.
+LISTED_STAGES = ("RHP", "PROSPECTUS")
 
 
 def num(v):
@@ -90,11 +94,22 @@ def rebuild_index():
     rows = []
     for mp in sorted(glob.glob(os.path.join(ROOT, "companies", "*", "meta.json"))):
         m = json.load(open(mp))
+        if str(m.get("stage", "")).upper() not in LISTED_STAGES:
+            continue
         row = {k: m.get(k) for k in INDEX_FIELDS}
         row["slug"] = row["slug"] or os.path.basename(os.path.dirname(mp))
-        row["neutral"] = (m.get("model") or {}).get("neutral")
+        model = m.get("model") or {}
+        row["neutral"] = model.get("neutral")
+        row["bear"] = (model.get("bear") or {}).get("blended")
+        row["bull"] = (model.get("bull") or {}).get("blended")
+        row["pdf"] = (m.get("files") or {}).get("pdf")
+        cp = os.path.join(os.path.dirname(mp), "charts.json")
+        if os.path.exists(cp):
+            eq = json.load(open(cp)).get("earnings_quality") or {}
+            row["pe_reported"], row["pe_adjusted"] = eq.get("pe_reported"), eq.get("pe_adjusted")
+            row["eq_material"] = eq.get("material")
         rows.append(row)
-    rows.sort(key=lambda r: (r.get("filed_on") or ""), reverse=True)
+    rows.sort(key=lambda r: (r.get("open_date") or r.get("filed_on") or ""), reverse=True)
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     out = {"updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"), "issuers": rows}
     json.dump(out, open(os.path.join(ROOT, "data", "index.json"), "w"), indent=2, ensure_ascii=False)

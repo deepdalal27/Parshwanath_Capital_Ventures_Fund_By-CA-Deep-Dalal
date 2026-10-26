@@ -1,0 +1,105 @@
+{
+  "last_scan": "2026-10-26T06:47Z",
+  "today_ist": "2026-10-26",
+  "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
+  "errors": [],
+  "issues": [
+    {
+      "company": "EAAA India Alternatives Limited",
+      "symbol": "EDELALTS",
+      "platform": "Mainboard",
+      "series": "EQ",
+      "open_date": "2026-10-26",
+      "close_date": "2026-10-28",
+      "price_band": "Rs 1585-1665",
+      "issue_size_shares": 5299684,
+      "source": "NSE",
+      "lot_size": 9,
+      "issue_size_text": "Initial Public Offer comprising of Offer for Sale aggregating upto Rs. 12,000 million (including Anchor reservation portion of 21,62,161 Equity Shares)",
+      "brlm": "Axis Capital Limited, Jefferies India Private Limited, Motilal Oswal Investment Advisors Limited, Nuvama Wealth Management Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
+      "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_EDELALTS.zip",
+      "status": "Open",
+      "slug": "eaaa-india-alternatives-ltd",
+      "report": "provisional"
+    },
+    {
+      "company": "BLS Polymers Limited",
+      "symbol": "BLSPOLY",
+      "platform": "Mainboard",
+      "series": "EQ",
+      "open_date": "2026-10-27",
+      "close_date": "2026-10-29",
+      "price_band": "Rs 142-150",
+      "issue_size_shares": 17000000,
+      "source": "NSE",
+      "lot_size": 100,
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue aggregating upto 1,70,00,000 Equity Shares",
+      "brlm": "Unistone Capital Private Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
+      "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
+      "rhp_filed_on": "2026-10-19",
+      "status": "Upcoming",
+      "slug": "bls-polymers-ltd",
+      "report": "published",
+      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792388466880.pdf",
+      "sebi_filings": [
+        {
+          "date": "2026-10-26",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-addendum-to-rhp-and-price-band_105419.html"
+        },
+        {
+          "date": "2026-10-19",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html"
+        },
+        {
+          "date": "2026-10-26",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-addendum-to-rhp-and-price-band_105419.html"
+        },
+        {
+          "date": "2026-10-19",
+          "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html"
+        }
+      ]
+    },
+    {
+      "company": "SFC Environmental Technologies Limited",
+      "symbol": "SFCTECH",
+      "platform": "Mainboard",
+      "series": "EQ",
+      "open_date": "2026-10-27",
+      "close_date": "2026-10-29",
+      "price_band": "Rs 313-330",
+      "issue_size_shares": 20475082,
+      "source": "NSE",
+      "lot_size": 45,
+      "issue_size_text": "Initial Public offering comprising Fresh issue of aggregating up to Rs. 1500 million and offer for sale up to 1,56,82,750 Equity Shares",
+      "brlm": "IIFL Capital Services Limited, JM Financial Limited and Nuvama Wealth Management Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
+      "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html",
+      "rhp_filed_on": "2026-10-22",
+      "status": "Upcoming",
+      "slug": "sfc-environmental-technologies-ltd",
+      "report": "to_do",
+      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792670149542.PDF"
+    },
+    {
+      "company": "M. K. Sons Fine Jewels Limited",
+      "symbol": "MKSONS",
+      "platform": "Mainboard",
+      "series": "EQ",
+      "open_date": "2026-10-28",
+      "close_date": "2026-10-30",
+      "price_band": "Rs 153-162",
+      "issue_size_shares": 17000000,
+      "source": "NSE",
+      "lot_size": 91,
+      "issue_size_text": "Initial Public offering comprising of Fresh issue up to 1,36,00,000 Equity Shares and offer for sale up to 34,00,000 Equity shares",
+      "brlm": "Aryaman Financial Services Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
+      "status": "Upcoming",
+      "slug": "m-k-sons-fine-jewels-ltd",
+      "report": "provisional"
+    }
+  ]
+}

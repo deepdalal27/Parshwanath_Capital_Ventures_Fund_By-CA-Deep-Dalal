@@ -123,5 +123,6 @@
       "Lock-in expiries: 287 lakh pre-issue shares (50% of capital) free after six months (p. 121)"
     ]
   },
-  "call_basis": "Call rule (ROUTINE.md hard rule 6): Neutral value -26.4% vs the upper band lies between -10% and -30%, so the call is Neutral. No material issue was found."
+  "call_basis": "Call rule (ROUTINE.md hard rule 6): Neutral value -26.4% vs the upper band lies between -10% and -30%, so the call is Neutral. No material issue was found.",
+  "rhp_read": true
 }

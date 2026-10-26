@@ -204,3 +204,57 @@ table.mini td { padding: 6px 8px; font-variant-numeric: tabular-nums; }
 }
 .viz-card { overflow-x: auto; }
 .focus-list li, .note-s { overflow-wrap: anywhere; }
+
+/* ---------------------------------------------------------------- IPO Desk home (RHP calendar) */
+.stat--small { font-size: 16px !important; }
+.block__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  border-bottom: 1px solid var(--rule-strong); padding-bottom: 8px; margin-bottom: 16px; }
+.block__head h2 { margin: 0; }
+.block__meta { font: 500 11px/1.4 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-muted); }
+.issue-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; }
+.issue-grid .empty { grid-column: 1 / -1; }
+.ic { background: #fff; border: 1px solid var(--rule); border-top: 3px solid var(--ink-500); padding: 16px 18px 14px;
+  display: flex; flex-direction: column; gap: 12px; }
+.ic--live { border-top-color: var(--brass-400); }
+.ic__top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ic__call { margin-left: auto; }
+.ic__call .badge { font-size: 12px; padding: 5px 9px; }
+.ic__name { font: 400 22px/1.2 var(--font-display); color: var(--ink-800); text-decoration: none; }
+a.ic__name:hover { text-decoration: underline; }
+.chip { font: 500 11px/1 var(--font-mono); letter-spacing: .05em; text-transform: uppercase; padding: 5px 8px; border-radius: 3px;
+  background: var(--paper-200); color: var(--fg-muted); }
+.chip--live { background: var(--ink-800); color: var(--brass-200); }
+.chip--plain { background: transparent; border: 1px solid var(--rule-strong); }
+.ic__kv { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 0; border: 1px solid var(--rule); }
+.ic__kv div { padding: 8px 10px; }
+.ic__kv div:nth-child(odd) { border-right: 1px solid var(--rule); }
+.ic__kv div:nth-child(-n+2) { border-bottom: 1px solid var(--rule); }
+.ic__kv dt { font: 500 10px/1.3 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-faint); }
+.ic__kv dd { margin: 3px 0 0; font: 500 13px/1.3 var(--font-mono); color: var(--fg); }
+.ic__val { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; background: var(--paper-100);
+  border: 1px solid var(--rule); padding: 10px 12px; }
+.ic__lbl { display: block; font-size: 11px; color: var(--fg-muted); }
+.ic__val b { font: 500 16px/1.3 var(--font-mono); }
+.ic__val b.pos { color: var(--green); } .ic__val b.neg { color: var(--red); } .ic__val b.mid { color: var(--amber); }
+.ic__hl { margin: 0; font-size: 14px; color: var(--fg); }
+.ic__foot { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 12px; }
+.ic__foot .small { margin-left: auto; }
+.tbl-closed td, .tbl-closed th { white-space: nowrap; }
+.tbl-closed td:first-child { white-space: normal; }
+th.num { text-align: right; }
+.steps { list-style: none; counter-reset: s; padding: 0; margin: 0 0 20px; display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.steps li { counter-increment: s; background: #fff; padding: 16px; display: flex; flex-direction: column; gap: 6px; font-size: 13.5px; color: var(--fg-muted); }
+.steps li b { font: 400 18px/1.2 var(--font-display); color: var(--ink-800); }
+.steps li b::before { content: counter(s, decimal-leading-zero) "  "; font: 500 12px var(--font-mono); color: var(--brass-500); }
+.callrule { background: #fff; border: 1px solid var(--rule); padding: 16px 18px; margin-bottom: 20px; }
+.callrule h3 { margin: 0 0 10px; font: 500 11px/1.3 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--fg-muted); }
+.callrule__row { display: grid; grid-template-columns: 110px 1fr; gap: 12px; align-items: center; padding: 6px 0; font-size: 14px;
+  border-bottom: 1px solid var(--rule); }
+.callrule__row .badge { justify-self: start; }
+.callrule p { margin: 10px 0 0; }
+@media (max-width: 820px) {
+  .issue-grid { grid-template-columns: 1fr; }
+  .callrule__row { grid-template-columns: 1fr; gap: 4px; }
+}
+.ic__prov { margin: 0; font-size: 12px; color: var(--amber); background: var(--amber-bg); padding: 6px 10px; }
