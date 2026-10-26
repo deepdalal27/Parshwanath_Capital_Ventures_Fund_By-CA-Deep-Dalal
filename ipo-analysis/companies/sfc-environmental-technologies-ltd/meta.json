@@ -2,21 +2,21 @@
   "slug": "sfc-environmental-technologies-ltd",
   "company": "SFC Environmental Technologies Limited",
   "platform": "Mainboard",
-  "stage": "DRHP",
-  "filed_on": "2025-08-25",
-  "doc_date": "2025-08-25",
-  "doc_url": "https://www.sebi.gov.in/filings/public-issues/aug-2025/sfc-environmental-technologies-limited-drhp_96473.html",
+  "stage": "RHP",
+  "filed_on": "2026-10-19",
+  "doc_date": "2026-10-19",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html",
   "sector": "Wastewater and solid-waste treatment technology",
   "brlm": "IIFL Capital Services Limited; JM Financial Limited; Nuvama Wealth Management Limited",
-  "issue_size_cr": 150.0,
-  "price_band": "Not set (DRHP stage)",
+  "issue_size_cr": 667.53,
+  "price_band": "Rs 313-330",
   "depth": "Full",
-  "call": "Screen only",
+  "call": "Subscribe",
   "exit_route": "2-3 year hold (assumed)",
   "status": "analysed",
-  "analysed_on": "2026-10-22",
+  "analysed_on": "2026-10-26",
   "business_stage": "Established leader in its core, scaling into new segments",
-  "reference_note": "Illustrative reference Rs 533 = the DRHP's own peer-median P/E (34.57x, Praj Industries, 14-Aug-2025 prices) x FY25 EPS Rs 15.42 (p. 168). It is not a price band. The last private price was Rs 225 per share in Apr-2024 secondary transfers, Rs 75 after the 2:1 bonus (p. 173); selling shareholders' average cost is mostly Rs 36.72 (p. 45).",
+  "reference_note": "Upper band Rs 330 (RHP / NSE). At Rs 330: market cap Rs 3,232.6 cr post-issue; P/E 20.9x FY26 EPS on post-issue shares (20.0x pre-issue); P/B 3.5x post-issue; EV/EBITDA 13.5x FY26.",
   "files": {
     "screening": "SFC_ENVIRONMENTAL_TECHNO_01_Screening.xlsx",
     "anchor": "SFC_ENVIRONMENTAL_TECHNO_02_Anchor_QIB.xlsx",
@@ -26,79 +26,91 @@
   },
   "model": {
     "bear": {
-      "dcf": 110.9673,
-      "relative": 496.5394,
-      "blended": 303.7534,
-      "upside_floor": -0.4301,
-      "upside_cap": -0.4301
+      "dcf": 106.0653,
+      "relative": 609.6537,
+      "blended": 357.8595,
+      "upside_floor": 0.1433,
+      "upside_cap": 0.0844
     },
     "neutral": {
-      "dcf": 164.4399,
-      "relative": 496.5394,
-      "blended": 330.4897,
-      "upside_floor": -0.3799,
-      "upside_cap": -0.3799
+      "dcf": 174.2659,
+      "relative": 609.6537,
+      "blended": 391.9598,
+      "upside_floor": 0.2523,
+      "upside_cap": 0.1878
     },
     "flags": [
-      "AMBER: DCF and relative diverge by -66.9% - the divergence is the finding; name its cause"
+      "AMBER: DCF and relative diverge by -71.4% - the divergence is the finding; name its cause"
     ],
-    "reverse_dcf": "The price asks the business to deliver 168.6 times its current free cash flow, in perpetuity.",
+    "reverse_dcf": "The price asks the business to deliver 72.3 times its current free cash flow, in perpetuity.",
     "objects_floor": null,
     "bull": {
-      "dcf": 219.6349,
-      "relative": 496.5394,
-      "blended": 358.0872,
-      "upside_floor": -0.3282,
-      "upside_cap": -0.3282
+      "dcf": 235.3911,
+      "relative": 609.6537,
+      "blended": 422.5224,
+      "upside_floor": 0.3499,
+      "upside_cap": 0.2804
     }
   },
   "counts": {
     "fail": 0,
-    "watch": 3,
+    "watch": 4,
     "pass": 6,
     "open": 4
   },
   "focus_top": [
     "Cash flow vs profit",
-    "Contingent liabilities",
-    "Auditor qualifications / changes"
+    "Goodwill vs tangible equity",
+    "Contingent liabilities"
   ],
-  "call_basis": "DRHP stage with no price band, so the call is Screen only (no capital before the RHP). Under the call rule (ROUTINE.md hard rule 6) the Neutral fair value of Rs 330 would read Subscribe up to about Rs 367, Neutral from about Rs 367 to Rs 472, and Avoid above about Rs 472. No material issue was found.",
-  "headline": "India's dominant SBR sewage-treatment technology supplier (639 plants, 29.7% operating margin, net cash), moving into biogas and water reuse; our fair value is Rs 330 (Neutral), about 21x FY25 EPS, because rising working capital has kept cash conversion at about 22% of profit. Screen only until the RHP: Subscribe up to about Rs 367, Neutral to about Rs 472.",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 330 upper band: Neutral value Rs 392 is 18.8% above the price, so Subscribe (Bear Rs 358 is also above). No material issue was found; the Goa pollution notices and weak cash conversion are points to monitor.",
+  "headline": "India's dominant SBR sewage-treatment technology supplier (705 plants, 29.3% operating margin) priced at 20.9x FY26 earnings at Rs 330, against 31-52x for listed peers; our fair value is Rs 392 (Neutral), so Subscribe. Watch cash conversion (FY26 operating cash flow negative) and the Goa plant notices.",
   "red_flags": [
-    "Revenue Rs 519.45 cr -> Rs 697.86 cr FY23-25 (15.9% CAGR, +6.1% in FY25); operating EBITDA margin 23.9% -> 29.7%; ROCE about 29% (pp. 170, 364)",
-    "Working capital 27.8% -> 63.5% of revenue; receivable days 158 -> 262; cumulative CFO about 22% of PAT FY23-25 (pp. 34, 368)",
-    "Order book Rs 1,267.50 cr at 15-Aug-2025 (1.8x FY25 revenue) after Rs 501.70 cr of CBG plant orders; WWT order book down 30% in FY25 (pp. 49, 262)",
-    "Offer mostly OFS (1.23 crore shares; average cost Rs 36.72); last private price Rs 75 bonus-adjusted (Apr-2024) (pp. 45, 173)",
-    "Goa SPCB show-cause notice and FIR against subsidiary HWTPL over effluent; EUR 5.60 m claim against SFC Umwelttechnik GmbH in Portugal (pp. 507-508; corrigendum)",
-    "Fair value Rs 304 / 330 / 358 (Bear / Neutral / Bull); reported P/E a fair measure (adjustments -5.2%); audited data 570 days old"
+    "Revenue Rs 657.50 -> 697.86 -> 803.63 cr FY24-26 (+15.2% in FY26); operating EBITDA margin about 29%; order book Rs 1,574.52 cr (2.0x revenue) (RHP pp. 188, 412)",
+    "Operating cash flow -Rs 25.80 cr in FY26 and -Rs 21.34 cr in Q1 FY27; cumulative FY24-26 CFO 6% of PAT; working capital 76.5% of revenue (pp. 411, 417)",
+    "Ten show-cause notices from the Goa pollution board and GWMC to the SWT subsidiaries since Jul-2025, plus an FIR; EUR 5.60 m Portugal claim pending (pp. 554-557)",
+    "Offer Rs 667.5 cr at Rs 330: fresh Rs 150 cr + OFS 1.57 crore shares (78%) by sellers with an average cost of Rs 36.72; Rs 28.02 cr interim dividend declared Sep-2026 (cover; p. 510)",
+    "At Rs 330: P/E 20.9x post-issue (Ion Exchange 31.3x, Thermax 52.0x); fair value Rs 358 / 392 / 423; reported P/E a fair measure (adjustments -1.0%)"
   ],
   "swot": {
     "strengths": [
-      "Over 80% share of India's SBR STP installations; 639 plants, 15,209 MLD (issuer-paid F&S, p. 261)",
-      "Operating EBITDA margin 29.7% and ROCE 29.3% in FY25 (p. 170)",
-      "Net cash Rs 52.35 cr at FY25 (p. 170)",
-      "Proprietary C-Tech and OREX processes with in-house key equipment (pp. 261-262)",
-      "Current tax 26.1% of cumulative PBT (p. 364)"
+      "Over 80% share of India's SBR STP installations; 705 plants, 17,144 MLD at Mar-26 (issuer-paid F&S; RHP pp. 188, 299)",
+      "Operating EBITDA margin 29.3% in FY26 (p. 188)",
+      "Order book Rs 1,574.52 cr, 2.0x FY26 revenue (p. 188)",
+      "WWT revenue back to growth: +15.7% in FY26 (p. 501)",
+      "Profit taxed in cash: current tax 27% of PBT (p. 412)"
     ],
     "weaknesses": [
-      "Working capital 63.5% of revenue; receivable days 262 (p. 34)",
-      "Cumulative CFO about 22% of PAT FY23-25 (p. 368)",
-      "WWT revenue -10.5% and WWT order book -30% in FY25 (pp. 49, 450)",
-      "Top-10 customers 61.37% of revenue; purchase-order contracts (pp. 48-49)",
-      "Two overseas subsidiaries on unaudited accounts (p. 357)"
+      "Operating cash flow negative in FY26 and Q1 FY27 (p. 417)",
+      "Working capital 76.5% of revenue; cash conversion cycle 242 days (pp. 188, 411)",
+      "Net debt Rs 38.82 cr at Mar-26 after net cash a year earlier (p. 188)",
+      "Top-10 customers 64.44% of revenue (p. 307)",
+      "Q1 is seasonally weak: Q1 FY27 PAT Rs 1.48 cr (p. 412)"
     ],
     "opportunities": [
-      "Tertiary treatment market 30.3% CAGR to FY30 (issuer-paid F&S, p. 29)",
-      "Rs 501.70 cr CBG plant orders with 10-year O&M (p. 262)",
-      "Exclusive DuPont membranes for municipal water reuse (p. 261)",
-      "Agri-residue biogas projects (p. 262)"
+      "Tertiary treatment market projected at 30.3% CAGR FY26-31 (issuer-paid F&S, p. 173)",
+      "CBG plant orders of Rs 501.70 cr with 10-year O&M (p. 300)",
+      "DuPont membranes for municipal water reuse (p. 299)",
+      "Solar sludge dryers via the IST-Anlagenbau acquisition (p. 312)"
     ],
     "threats": [
-      "Goa effluent show-cause notice and FIR against HWTPL (p. 507; corrigendum)",
-      "EUR 5.60 m damages claim in Portugal (p. 508)",
-      "Municipal payment delays via EPC contractors (p. 34)",
-      "Technology displacement (p. 33)"
+      "Ten pending Goa pollution-board / GWMC notices and an FIR at the SWT plants (pp. 554-556)",
+      "EUR 5.60 m (Rs 59.75 cr) claim in Portugal (p. 556)",
+      "Municipal payment delays via EPC contractors (p. 31)",
+      "Technology displacement (p. 28)"
     ]
-  }
+  },
+  "open_date": "2026-10-27",
+  "close_date": "2026-10-29",
+  "allotment_date": "2026-10-30",
+  "listing_date": "2026-11-03",
+  "lot_size": 45,
+  "exchange": "NSE, BSE",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 26-Oct-2026 (RHP cover); allocation report on nsearchives.nseindia.com, not reachable from this environment"
+  },
+  "rhp_read": true
 }
