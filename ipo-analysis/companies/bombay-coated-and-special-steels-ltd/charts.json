@@ -1,7 +1,7 @@
 {
  "slug": "bombay-coated-and-special-steels-ltd",
  "company": "Bombay Coated and Special Steels Limited",
- "generated": "2026-10-23T09:55Z",
+ "generated": "2026-10-26T13:36Z",
  "kpis": [
   {
    "label": "Revenue FY25",
@@ -41,7 +41,7 @@
   },
   {
    "label": "P/E at reference (post-issue)",
-   "value": 19.09,
+   "value": 17.97,
    "fmt": "x",
    "sub": "peer median",
    "subval": 41.8143,
@@ -49,25 +49,25 @@
   },
   {
    "label": "Adjusted P/E (earnings quality)",
-   "value": 19.9,
+   "value": 18.73,
    "fmt": "x",
    "sub": "reported",
-   "subval": 19.09,
+   "subval": 17.97,
    "subfmt": "x"
   },
   {
    "label": "Blended value (Neutral)",
-   "value": 118.1302,
+   "value": 115.5961,
    "fmt": "rs",
    "sub": "vs reference",
-   "subval": 0.3424,
+   "subval": 0.4097,
    "subfmt": "pct"
   },
   {
    "label": "Reference price",
-   "value": 88.0,
+   "value": 82.0,
    "fmt": "rs",
-   "sub": "Reference Rs 88 = price of the 28-Oct-2025 private placement of 9,00,091 shares (originally approved as a pre-IPO placement) (p. 94). It is not a price band. Promoters' average cost is Rs 1.25-12.50 a share (p. 35)."
+   "sub": "Upper band Rs 82 (NSE issue page). At Rs 82: market cap Rs 515.2 cr post-issue; P/E 18.0x FY25 EPS post-issue (11.6x pre-issue, 13.9x pro forma for interest saved); P/B 1.81x; EV/EBITDA 8.0x. Oct-2025 private placement was at Rs 88."
   }
  ],
  "focus": [
@@ -98,13 +98,13 @@
   {
    "level": "GUARD",
    "title": "Valuation model guard",
-   "detail": "AMBER: DCF and relative diverge by -71.2% - the divergence is the finding; name its cause",
+   "detail": "AMBER: DCF and relative diverge by -71.7% - the divergence is the finding; name its cause",
    "page": ""
   },
   {
    "level": "GAP",
    "title": "Data gap (high)",
-   "detail": "No price band, dates or RHP yet (SEBI observation 12-Jun-2026)",
+   "detail": "RHP not retrievable (not yet on SEBI; NSE copy on a blocked host): FY26 full-year figures and any RHP changes are not reflected",
    "page": "RHP"
   },
   {
@@ -343,31 +343,31 @@
   "unit": "Rs crore"
  },
  "valuation": {
-  "reference": 88.0,
-  "floor": 88.0,
-  "cap": 88.0,
-  "reference_note": "Reference Rs 88 = price of the 28-Oct-2025 private placement of 9,00,091 shares (originally approved as a pre-IPO placement) (p. 94). It is not a price band. Promoters' average cost is Rs 1.25-12.50 a share (p. 35).",
+  "reference": 82.0,
+  "floor": 78.0,
+  "cap": 82.0,
+  "reference_note": "Upper band Rs 82 (NSE issue page). At Rs 82: market cap Rs 515.2 cr post-issue; P/E 18.0x FY25 EPS post-issue (11.6x pre-issue, 13.9x pro forma for interest saved); P/B 1.81x; EV/EBITDA 8.0x. Oct-2025 private placement was at Rs 88.",
   "scenarios": {
    "bear": {
-    "dcf": 37.839,
-    "relative": 183.411,
-    "blended": 110.625,
-    "upside_floor": 0.2571,
-    "upside_cap": 0.2571
+    "dcf": 36.2016,
+    "relative": 180.1283,
+    "blended": 108.1649,
+    "upside_floor": 0.3867,
+    "upside_cap": 0.3191
    },
    "neutral": {
-    "dcf": 52.8494,
-    "relative": 183.411,
-    "blended": 118.1302,
-    "upside_floor": 0.3424,
-    "upside_cap": 0.3424
+    "dcf": 51.064,
+    "relative": 180.1283,
+    "blended": 115.5961,
+    "upside_floor": 0.482,
+    "upside_cap": 0.4097
    },
    "bull": {
-    "dcf": 74.8594,
-    "relative": 183.411,
-    "blended": 129.1352,
-    "upside_floor": 0.4674,
-    "upside_cap": 0.4674
+    "dcf": 72.8569,
+    "relative": 180.1283,
+    "blended": 126.4926,
+    "upside_floor": 0.6217,
+    "upside_cap": 0.5426
    }
   },
   "objects_floor": null,
@@ -388,7 +388,7 @@
     },
     {
      "label": "Lever 3 - required EBIT margin (steady state)",
-     "required": 0.10180118916449771,
+     "required": 0.09778487688474663,
      "actual": 0.062
     },
     {
@@ -459,39 +459,39 @@
    ],
    "values": [
     [
-     67.3946,
-     68.6992,
-     70.146,
-     71.7639,
-     73.5908
+     65.4657,
+     66.7575,
+     68.19,
+     69.792,
+     71.6008
     ],
     [
-     58.8045,
-     59.6173,
-     60.5011,
-     61.4689,
-     62.5365
+     56.9603,
+     57.7651,
+     58.6403,
+     59.5984,
+     60.6556
     ],
     [
-     51.8372,
-     52.3274,
-     52.8494,
-     53.4083,
-     54.0103
+     50.0617,
+     50.5471,
+     51.064,
+     51.6173,
+     52.2134
     ],
     [
-     46.0784,
-     46.3525,
-     46.6361,
-     46.9306,
-     47.2376
+     44.3597,
+     44.6311,
+     44.9119,
+     45.2035,
+     45.5075
     ],
     [
-     41.2436,
-     41.3706,
-     41.4945,
-     41.6148,
-     41.731
+     39.5726,
+     39.6983,
+     39.821,
+     39.9401,
+     40.0552
     ]
    ]
   },
@@ -512,39 +512,39 @@
    ],
    "values": [
     [
-     40.0539,
-     52.2706,
-     64.4873,
-     76.7039,
-     88.9206
+     38.3946,
+     50.4908,
+     62.5871,
+     74.6833,
+     86.7795
     ],
     [
-     34.235,
-     46.4517,
-     58.6684,
-     70.885,
-     83.1017
+     32.6331,
+     44.7293,
+     56.8255,
+     68.9218,
+     81.018
     ],
     [
-     28.4161,
-     40.6328,
-     52.8494,
-     65.0661,
-     77.2828
+     26.8716,
+     38.9678,
+     51.064,
+     63.1602,
+     75.2564
     ],
     [
-     22.5972,
-     34.8139,
-     47.0305,
-     59.2472,
-     71.4639
+     21.11,
+     33.2062,
+     45.3025,
+     57.3987,
+     69.4949
     ],
     [
-     16.7783,
-     28.9949,
-     41.2116,
-     53.4283,
-     65.645
+     15.3485,
+     27.4447,
+     39.5409,
+     51.6372,
+     63.7334
     ]
    ]
   }
@@ -570,8 +570,8 @@
   },
   {
    "name": "Bombay Coated and Special Steels Limited at reference",
-   "pe": 19.0918,
-   "pb": 1.8683,
+   "pe": 17.9673,
+   "pb": 1.8073,
    "issuer": true
   }
  ],
@@ -579,48 +579,60 @@
   "structure": [
    {
     "label": "Anchor: MF reserved",
-    "value": 19.0981
+    "value": 18.3039
    },
    {
     "label": "Anchor: insurers & pension",
-    "value": 3.8219
+    "value": 3.663
    },
    {
     "label": "Anchor: open pool",
-    "value": 34.38
+    "value": 32.9503
    },
    {
     "label": "QIB (non-anchor)",
-    "value": 38.2
+    "value": 36.6114
    },
    {
     "label": "Non-institutional",
-    "value": 28.65
+    "value": 27.4585
    },
    {
     "label": "Retail",
-    "value": 66.85
+    "value": 64.0699
    }
   ],
-  "issue_cr": 191.0,
+  "issue_cr": 183.057,
   "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 33.486,
+    "days": 30,
+    "pct_float": 0.2143
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 33.486,
+    "days": 90,
+    "pct_float": 0.1765
+   },
    {
     "label": "Pre-issue non-promoter shareholders (incl. Oct-2025 placement at Rs 88)",
     "shares_lakh": 9.0,
     "days": 180,
-    "pct_float": null
+    "pct_float": 0.0403
    },
    {
     "label": "Promoter holding above 20% of post-issue capital",
     "shares_lakh": 271.59,
     "days": 365,
-    "pct_float": null
+    "pct_float": 1.1694
    },
    {
     "label": "Promoters' minimum contribution (20% of post-issue capital)",
     "shares_lakh": 124.41,
     "days": 1095,
-    "pct_float": null
+    "pct_float": 0.2469
    }
   ]
  },
@@ -662,45 +674,45 @@
    "FY24",
    "FY25"
   ],
-  "price": 88.0,
-  "shares": 6.2205,
+  "price": 82.0,
+  "shares": 6.2824,
   "tax": 0.2517,
   "rows": [
    {
     "basis": "Reported FY25",
     "pat": 28.672,
-    "eps": 4.6093,
-    "pe": 19.09
+    "eps": 4.5639,
+    "pe": 17.97
    },
    {
     "basis": "FY25 after: state subsidy",
     "pat": 27.9252,
-    "eps": 4.4892,
-    "pe": 19.6
+    "eps": 4.445,
+    "pe": 18.45
    },
    {
     "basis": "FY25 after: CPS benefit",
     "pat": 27.9252,
-    "eps": 4.4892,
-    "pe": 19.6
+    "eps": 4.445,
+    "pe": 18.45
    },
    {
     "basis": "FY25 after: insurance claims",
     "pat": 27.5114,
-    "eps": 4.4227,
-    "pe": 19.9
+    "eps": 4.3791,
+    "pe": 18.73
    },
    {
     "basis": "FY23-FY25 average, reported",
     "pat": 21.8253,
-    "eps": 3.5086,
-    "pe": 25.08
+    "eps": 3.474,
+    "pe": 23.6
    },
    {
     "basis": "FY23-FY25 average, adjusted",
     "pat": 19.3253,
-    "eps": 3.1067,
-    "pe": 28.33
+    "eps": 3.0761,
+    "pe": 26.66
    }
   ],
   "adjustments": [
@@ -721,7 +733,7 @@
      -4.7846,
      -0.7468
     ],
-    "pe_if_applied": 19.6
+    "pe_if_applied": 18.45
    },
    {
     "item": "Continuous Production Scheme benefit and other income",
@@ -740,7 +752,7 @@
      -1.4607,
      0.0
     ],
-    "pe_if_applied": 19.09
+    "pe_if_applied": 17.97
    },
    {
     "item": "Insurance claims received (in other income)",
@@ -759,7 +771,7 @@
      -0.0808,
      -0.4138
     ],
-    "pe_if_applied": 19.37
+    "pe_if_applied": 18.23
    },
    {
     "item": "Interest on bank deposits",
@@ -778,7 +790,7 @@
      -1.2556,
      -1.005
     ],
-    "pe_if_applied": 19.79
+    "pe_if_applied": 18.62
    },
    {
     "item": "Pro-forma interest saving on Rs 125 cr of debt repaid from the issue (at about 9%)",
@@ -797,7 +809,7 @@
      0.0,
      8.4184
     ],
-    "pe_if_applied": 14.76
+    "pe_if_applied": 13.89
    }
   ],
   "adjusted_pat": [
@@ -805,11 +817,11 @@
    14.8119,
    27.5114
   ],
-  "pe_reported": 19.09,
-  "pe_adjusted": 19.9,
+  "pe_reported": 17.97,
+  "pe_adjusted": 18.73,
   "pat_change": -0.0405,
   "material": false,
-  "verdict": "Reported P/E is a fair measure: the adjustments found move FY25 PAT by -4.0%, within the 10% threshold. On the FY23-FY25 average, which smooths one-year items, the P/E is 25.1x reported and 28.3x adjusted.",
+  "verdict": "Reported P/E is a fair measure: the adjustments found move FY25 PAT by -4.0%, within the 10% threshold. On the FY23-FY25 average, which smooths one-year items, the P/E is 23.6x reported and 26.7x adjusted.",
   "flags": [
    "Subsidy of Rs 6.39 cr in FY24 (23% of PBT) and Rs 1.00 cr in FY25 (Rs 0.58 cr in H1 FY26). Real cash, but scheme-based and time-bound; the scheme and its remaining tenure are not stated.",
    "One-off Continuous Production Scheme benefit of Rs 1.95 cr in FY24.",

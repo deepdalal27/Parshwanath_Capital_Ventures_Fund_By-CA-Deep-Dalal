@@ -2,21 +2,21 @@
   "slug": "bombay-coated-and-special-steels-ltd",
   "company": "Bombay Coated and Special Steels Limited",
   "platform": "Mainboard",
-  "stage": "DRHP",
+  "stage": "RHP",
   "filed_on": "2026-01-30",
   "doc_date": "2026-01-28",
   "doc_url": "https://www.sebi.gov.in/filings/public-issues/jan-2026/bombay-coated-and-special-steels-limited_99471.html",
   "sector": "Steel processing centre (coated steel for appliances)",
   "brlm": "Smart Horizon Capital Advisors Private Limited",
-  "issue_size_cr": 191.0,
-  "price_band": "Not set (DRHP stage)",
+  "issue_size_cr": 183.06,
+  "price_band": "Rs 78-82",
   "depth": "Full",
-  "call": "Screen only",
+  "call": "Subscribe",
   "exit_route": "2-3 year hold (assumed)",
   "status": "analysed",
-  "analysed_on": "2026-10-23",
+  "analysed_on": "2026-10-26",
   "business_stage": "Scaling (new plants built; filling capacity)",
-  "reference_note": "Reference Rs 88 = price of the 28-Oct-2025 private placement of 9,00,091 shares (originally approved as a pre-IPO placement) (p. 94). It is not a price band. Promoters' average cost is Rs 1.25-12.50 a share (p. 35).",
+  "reference_note": "Upper band Rs 82 (NSE issue page). At Rs 82: market cap Rs 515.2 cr post-issue; P/E 18.0x FY25 EPS post-issue (11.6x pre-issue, 13.9x pro forma for interest saved); P/B 1.81x; EV/EBITDA 8.0x. Oct-2025 private placement was at Rs 88.",
   "files": {
     "screening": "BOMBAY_COATED_AND_SPECIA_01_Screening.xlsx",
     "anchor": "BOMBAY_COATED_AND_SPECIA_02_Anchor_QIB.xlsx",
@@ -26,30 +26,30 @@
   },
   "model": {
     "bear": {
-      "dcf": 37.839,
-      "relative": 183.411,
-      "blended": 110.625,
-      "upside_floor": 0.2571,
-      "upside_cap": 0.2571
+      "dcf": 36.2016,
+      "relative": 180.1283,
+      "blended": 108.1649,
+      "upside_floor": 0.3867,
+      "upside_cap": 0.3191
     },
     "neutral": {
-      "dcf": 52.8494,
-      "relative": 183.411,
-      "blended": 118.1302,
-      "upside_floor": 0.3424,
-      "upside_cap": 0.3424
+      "dcf": 51.064,
+      "relative": 180.1283,
+      "blended": 115.5961,
+      "upside_floor": 0.482,
+      "upside_cap": 0.4097
     },
     "flags": [
-      "AMBER: DCF and relative diverge by -71.2% - the divergence is the finding; name its cause"
+      "AMBER: DCF and relative diverge by -71.7% - the divergence is the finding; name its cause"
     ],
     "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
     "objects_floor": null,
     "bull": {
-      "dcf": 74.8594,
-      "relative": 183.411,
-      "blended": 129.1352,
-      "upside_floor": 0.4674,
-      "upside_cap": 0.4674
+      "dcf": 72.8569,
+      "relative": 180.1283,
+      "blended": 126.4926,
+      "upside_floor": 0.6217,
+      "upside_cap": 0.5426
     }
   },
   "counts": {
@@ -63,15 +63,15 @@
     "Related-party capex & subsidiaries",
     "Customer / supplier / geographic concentration"
   ],
-  "call_basis": "DRHP stage with no price band, so the call is Screen only (no capital before the RHP). Because the Rs 191 cr fresh issue is fixed, value per share rises with the issue price; solving the call rule (ROUTINE.md hard rule 6) gives Subscribe up to about Rs 154, Neutral from about Rs 154 to Rs 212, and Avoid above about Rs 212. No material issue was found.",
-  "headline": "A four-plant steel processor feeding India's AC and refrigerator makers (revenue Rs 1,056 cr, up 34% a year FY23-25) that is using an all-fresh Rs 191 cr issue mainly to repay debt; fair value Rs 118 (Neutral) at the Rs 88 pre-IPO placement price. Screen only until the RHP: Subscribe up to about Rs 154, Neutral to about Rs 212.",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 82 upper band: Neutral fair value Rs 116 is 41.0% above the price, so the Subscribe limb applies. Provisional: company figures are from the DRHP (to Sep-2025) because the RHP was not retrievable. No material issue was found.",
+  "headline": "A four-plant steel processor feeding India's AC and refrigerator makers (revenue Rs 1,056 cr, up 34% a year FY23-25), raising Rs 183 cr of fresh money mainly to repay debt, priced at 18x FY25 earnings after the issue (14x pro forma for lower interest), below the Rs 88 paid by investors in Oct-2025; fair value Rs 116 (Neutral) against Rs 82.",
   "red_flags": [
     "Revenue Rs 590.88 cr -> Rs 1,055.71 cr FY23-25 (33.7% CAGR); H1 FY26 Rs 491.51 cr, below the FY25 run-rate; adjusted EBITDA margin 6.4% -> 7.0% (H1 FY26 7.8%) (pp. 122, 279)",
     "Debt/equity 3.33x (FY25), 2.88x (Sep-25); finance cost 42% of EBITDA; Rs 125 cr of the issue repays debt (pp. 108, 123, 279)",
     "JSW Steel Coated Products 90.61% of coil supply; appliances 81.80% of product revenue; top-10 customers 67.44% (pp. 30-31, 37)",
-    "Promoters hold 97.78% at an average cost of Rs 1.25-12.50; Oct-2025 placement at Rs 88 (pp. 27, 35, 94)",
+    "Promoters hold 97.78% at an average cost of Rs 1.25-12.50; Oct-2025 placement at Rs 88, above the Rs 78-82 band (pp. 27, 35, 94)",
     "25 delayed RoC filings and a 2021 allotment-filing error under adjudication; board independent directors appointed Mar-2025 (pp. 44-46, 248)",
-    "Fair value Rs 111 / 118 / 129 at Rs 88; reported P/E a fair measure (adjustments -4.0%); audited data 388 days old"
+    "Fair value Rs 108 / 116 / 126 at Rs 82 (Bear / Neutral / Bull); reported P/E a fair measure (adjustments -4.0%); provisional: figures to Sep-2025 from the DRHP"
   ],
   "swot": {
     "strengths": [
@@ -100,5 +100,18 @@
       "Change in the JSW relationship (p. 31)",
       "Customers buying from mill service centres (part 2)"
     ]
+  },
+  "open_date": "2026-10-29",
+  "close_date": "2026-11-02",
+  "allotment_date": null,
+  "listing_date": null,
+  "lot_size": 182,
+  "exchange": "NSE, BSE",
+  "rhp_read": false,
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 28-Oct-2026; allocation report on nsearchives.nseindia.com (blocked)"
   }
 }

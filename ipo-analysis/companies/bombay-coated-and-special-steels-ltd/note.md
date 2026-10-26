@@ -1,8 +1,8 @@
-# Bombay Coated and Special Steels Limited: DRHP screen (pre-RHP)
+# Bombay Coated and Special Steels Limited: RHP-stage report (provisional)
 
-> **Basis.** Draft Red Herring Prospectus dated 28-Jan-2026 (SEBI filing 99471, a refiling of the Sept-2025 DRHP; SEBI observation 12-Jun-2026). A 100% book-built **fresh issue of up to Rs 191 cr** of Rs 10 shares; no offer for sale; optional pre-IPO placement. Sole BRLM Smart Horizon Capital Advisors; registrar KFin Technologies. Mainboard, Reg 6(1). **No price band, dates or RHP yet**: none on SEBI or NSE on 23-Oct-2026. Restated standalone financials run to **30-Sep-2025** (H1 FY26) and are **388 days old**. All figures are from the DRHP (Rs million converted to Rs crore); printed page numbers are cited (printed page = PDF page - 6).
+> **Basis.** Book-built **fresh issue of Rs 183.06 cr** of Rs 10 shares (Rs 191 cr in the DRHP, less the Rs 7.92 cr raised in the Oct-2025 placement); no offer for sale. Price band **Rs 78-82**, lot 182 shares (Rs 14,924 at the upper band); anchor bidding 28-Oct-2026; bid/issue **29-Oct to 2-Nov-2026**; NSE and BSE. Sole BRLM Smart Horizon Capital Advisors; registrar KFin Technologies (NSE issue page, read 26-Oct-2026). **Provisional:** the RHP is not yet on SEBI and NSE's copy sits on a host this environment cannot reach, so company figures come from the DRHP dated 28-Jan-2026 (SEBI filing 99471; observation 12-Jun-2026), with restated standalone financials to **30-Sep-2025** (H1 FY26, 391 days old). FY26 full-year figures and any RHP changes are not reflected; the report is rebuilt automatically once the RHP is retrievable. Printed page numbers are DRHP pages (printed page = PDF page - 6).
 >
-> **Call: Screen only.** No capital is committed before the RHP. Values are shown against a **reference of Rs 88**, the price at which 9,00,091 shares were placed with outside investors on 28-Oct-2025 (p. 94). It is not a price band. Because the fresh issue is a fixed amount, the share count (and so the value per share) depends on the final price; Part 9 gives the price levels at which the call rule would read Subscribe, Neutral or Avoid. Holding period assumed: 2-3 years. Grey market premium is not used. Written from an investor's point of view under the Fund's standing rules.
+> Judged at the **upper band, Rs 82**. Because the fresh issue is a fixed amount, the share count depends on the price; values below are at Rs 82 (2.23 crore new shares). Holding period assumed: 2-3 years. Grey market premium is not used. Written from an investor's point of view under the Fund's standing rules.
 
 ## 1. Business of the company
 
@@ -107,16 +107,16 @@ Industry figures are from the CareEdge report commissioned and paid for by the i
 
 Sources: pp. 122-123, 278-280, 329. Adjusted EBITDA reproduces from the P&L: FY25 PBT 37.17 + finance cost 31.24 + D&A 8.63 - other income 2.94 = Rs 74.09 cr.
 
-**At the reference Rs 88:** fresh issue about 2.17 crore shares; post-issue shares 6.2205 crore; market cap Rs 547.4 cr; P/E 19.1x FY25 EPS on post-issue shares (12.4x pre-issue); post-issue net worth about Rs 293 cr, P/B 1.87x; EV Rs 615.9 cr (market cap + net debt Rs 259.53 cr including leases - Rs 191 cr proceeds), EV/EBITDA 8.3x. **Pro forma**, repaying Rs 125 cr of debt at about 9% would add roughly Rs 8.4 cr to annual PAT (FY25 pro-forma PAT about Rs 37.1 cr; P/E 14.8x at Rs 88). Debt/equity would fall to about 0.5x.
+**At the upper band (Rs 82):** fresh issue about 2.23 crore shares; post-issue shares 6.2824 crore; market cap Rs 515.2 cr; P/E 18.0x FY25 EPS on post-issue shares (11.6x pre-issue); post-issue net worth about Rs 285 cr, P/B 1.81x; EV Rs 591.7 cr (market cap + net debt Rs 259.53 cr including leases - Rs 183.06 cr proceeds), EV/EBITDA 8.0x. **Pro forma**, repaying Rs 125 cr of debt at about 9% would add roughly Rs 8.4 cr to annual PAT (FY25 pro-forma PAT about Rs 37.1 cr; P/E 13.9x at Rs 82). Debt/equity would fall to about 0.5x. The Oct-2025 placement was at Rs 88, above the band.
 
 ### Is the reported P/E right?
 
-**Verdict: the reported P/E is a fair measure.** The adjustments found move FY25 profit by -4.0%: at Rs 88 the reported P/E is 19.1x and the adjusted P/E 19.9x. On the FY23-25 average the P/E is 25.1x reported and 28.3x adjusted, because FY24 profit included a large subsidy.
+**Verdict: the reported P/E is a fair measure.** The adjustments found move FY25 profit by -4.0%: at Rs 82 the reported P/E is 18.0x and the adjusted P/E 18.7x. On the FY23-25 average the P/E is 23.6x reported and 26.7x adjusted, because FY24 profit included a large subsidy.
 
 - **State subsidy (in the adjusted P/E, Medium confidence):** Rs 6.39 cr in FY24 (23% of PBT), Rs 1.00 cr in FY25, Rs 0.58 cr in H1 FY26 (pp. 329, 396). Real cash, but scheme-based and time-bound; the scheme and its remaining tenure are not stated.
 - **Continuous Production Scheme benefit (in the adjusted P/E, Medium):** Rs 1.95 cr in FY24 (p. 396).
 - **Insurance claims (in the adjusted P/E, High):** Rs 0.55 cr in FY25 (p. 329).
-- **For information:** deposit interest Rs 1.34 cr in FY25 (mostly margin money behind letters of credit, so tied to operations); and the pro-forma interest saving from the debt repayment, which would lower the P/E to about 14.8x at Rs 88.
+- **For information:** deposit interest Rs 1.34 cr in FY25 (mostly margin money behind letters of credit, so tied to operations); and the pro-forma interest saving from the debt repayment, which would lower the P/E to about 13.9x at Rs 82.
 - **Checked, no adjustment:** no capital work in progress at Sep-2025 and no capitalised borrowing or development cost; no intangibles; credit-loss charges small, no large write-backs; no exceptional items; profit taxed in cash (current tax 20.0% of PBT, deferred tax from accelerated depreciation); H1 FY26 cash flow shows working capital comes back when growth pauses (pp. 278-280, 329).
 
 ### Positives and points to monitor
@@ -156,27 +156,28 @@ Peers are those in the DRHP's "Basis for Issue Price" (p. 121): prices are close
 | BMW Industries | 37.76 | 557.08 | 2.83 | 30.84 | 9.16% | 13.3x | 1.2x |
 | Manaksia Coated Metals & Industries | 126.83 | 781.63 | 2.10 | 28.01 | 7.03% | 60.4x | 4.5x |
 | Shiv Aum Steels | 297.30 | 548.20 | 7.11 | 84.99 | 8.36% | 41.8x | 3.5x |
-| **Bombay Coated at Rs 88 (post-issue)** | 88 | 1,055.71 | 7.24 | 20.97 | 34.54% | **19.1x** | **1.9x** |
+| **Bombay Coated at Rs 82 (post-issue)** | 82 | 1,055.71 | 7.24 | 20.97 | 34.54% | **18.0x** | **1.8x** |
 | Peer median | | | | | 8.36% | 41.8x | 3.5x |
 
 **Read:** Bombay Coated is the largest of the four by revenue and earns a much higher return on net worth (34.54% against an 8.36% median), helped by leverage. BMW Industries, the closest pure processor, trades at 13.3x; the median is lifted by Manaksia Coated (60.4x), a coated-steel maker, and Shiv Aum (41.8x). The peer set is small and wide, so the relative value should be read with care.
 
 ### DCF and fair value
 
-**Inputs (FY25 P&L; Sep-2025 balance sheet adjusted for the Oct-2025 placement; Rs crore):** revenue 1,055.71; adjusted EBITDA 74.09; D&A 8.63; PAT 28.67; net worth 101.99; net debt 259.53 (borrowings 270.94 + leases 15.99 - cash 19.48 - placement proceeds 7.92); trade working capital 179.49 (FY24 134.41); capex 34.61. Fresh issue Rs 191 cr credited in the equity bridge; no IPO capex.
+**Inputs (FY25 P&L; Sep-2025 balance sheet adjusted for the Oct-2025 placement; Rs crore):** revenue 1,055.71; adjusted EBITDA 74.09; D&A 8.63; PAT 28.67; net worth 101.99; net debt 259.53 (borrowings 270.94 + leases 15.99 - cash 19.48 - placement proceeds 7.92); trade working capital 179.49 (FY24 134.41); capex 34.61. Fresh issue Rs 183.06 cr credited in the equity bridge; no IPO capex.
 
 **Cost of capital (house CAPM, editable):** risk-free 6.5%, beta 1.10, ERP 7.0%, size premium 2.0%, no company-specific premium; cost of equity 16.2%; pre-tax cost of debt 9.0% (DRHP loan rates 8.15-9.25%, p. 110); debt weight 20%; **WACC 14.31%**; terminal growth 4.50%. Terminal value is 68.7% of enterprise value in the Neutral case.
 
-| Rs per share (at Rs 88, 6.2205 crore shares) | Bear | Neutral | Bull |
+| Rs per share (at Rs 82, 6.2824 crore shares) | Bear | Neutral | Bull |
 |---|---:|---:|---:|
-| DCF | 37.84 | 52.85 | 74.86 |
-| Relative (peer-median P/E and P/B) | 183.41 | 183.41 | 183.41 |
-| **Fair value (50:50 blend)** | **110.63** | **118.13** | **129.14** |
-| Against Rs 88 (Oct-2025 placement) | +25.7% | +34.2% | +46.7% |
+| DCF | 36.20 | 51.06 | 72.86 |
+| Relative (peer-median P/E and P/B) | 180.13 | 180.13 | 180.13 |
+| **Fair value (50:50 blend)** | **108.16** | **115.60** | **126.49** |
+| Against Rs 82 (upper band) | +31.9% | +41.0% | +54.3% |
+| Against Rs 78 (floor) | +38.7% | +48.2% | +62.2% |
 
 - **Scenario drivers:** FY26 growth -5% / 0% / +6%, then 4-5% / 8-10% / 10-15% a year; adjusted EBITDA margin 6.4% / 7.0% / 7.8%; working capital 18% / 17% / 16% of revenue; terminal ROIC 13% / 16% / 19%. Rationale and page cites are in the valuation workbook.
 - **Why DCF and peers diverge (-71%):** the DCF values a 7%-margin business carrying Rs 260 cr of net debt at a 14.3% discount rate; equity is a thin slice of enterprise value, so it is very sensitive. Listed peers trade at 13-60x earnings. The divergence is the finding: on cash flows alone the business is worth far less than the market pays for listed steel processors.
-- **Sensitivity (Neutral DCF, at Rs 88):** WACC 12.3-16.3% gives Rs 70-42; margin 6.4-7.8% gives Rs 46-63. Margin and the discount rate matter equally because of the leverage.
+- **Sensitivity (Neutral DCF, at Rs 82):** WACC 12.3-16.3% gives Rs 68-40; margin 6.4-7.8% gives Rs 44-61. Margin and the discount rate matter equally because of the leverage.
 - **Earnings quality and the relative value:** the reported P/E is a fair measure (part 5), so the relative value needs no adjustment. The pro-forma interest saving is not added to the model's earnings.
 - **Reverse DCF:** FY25 free cash flow was negative (capex Rs 34.61 cr against operating cash flow Rs 32.09 cr), so no multiple can be stated; any price assumes cash generation improves, which H1 FY26 (CFO Rs 62.51 cr) suggests is starting as capex slows.
 
@@ -203,8 +204,9 @@ Peers are those in the DRHP's "Basis for Issue Price" (p. 121): prices are close
 
 ### What would change our view
 
-- **Towards Subscribe or Neutral:** a price band within the guide in Part 9, or FY26 numbers showing growth back with margins near 8% and operating cash flow above PAT.
-- **Towards Avoid:** a band above about Rs 212; a further fall in revenue in FY26; any change in the JSW Steel Coated Products arrangement.
+- **Firmer:** RHP FY26 numbers showing growth back with margins near 8% and operating cash flow above PAT.
+- **Weaker:** a further fall in revenue in the RHP's FY26 figures; any change in the JSW Steel Coated Products arrangement; a relative value on the closest peer (BMW Industries, 13.3x) alone, which would bring the blend close to the band.
+- **Price:** the rule reads Subscribe up to about Rs 154 and Neutral up to about Rs 211, so the whole band is well inside Subscribe.
 
 ### Risks
 
@@ -216,20 +218,20 @@ Peers are those in the DRHP's "Basis for Issue Price" (p. 121): prices are close
 
 ## 9. Conclusion
 
-**Screen only (DRHP stage; no price band).**
+**Subscribe at Rs 82 (upper band) - provisional, on DRHP figures.**
 
 **The investment case.** Bombay Coated is a four-plant steel processor embedded in India's air-conditioner and refrigerator supply chain, with JSW Steel Coated Products as its coil partner and Amber, Western Refrigeration, Haier, PG Technoplast and Dixon as customers. Revenue almost doubled in two years, margins are inching up, and plants run at only about half their capacity, so volume can grow without heavy capex. The issue is all fresh money and mostly repays debt, which should lift reported profit by about 30% through lower interest. The reported P/E is a fair measure of its earnings.
 
 **What holds the value down.** Thin margins (2.7% PAT), high leverage before the issue (3.3x debt/equity), dependence on one supplier and one end-market, and a softer H1 FY26. The filing lapses and a newly constituted board are governance points to follow, not material issues.
 
-**Valuation.** At the Oct-2025 placement price of Rs 88, fair value is Rs 111 / **Rs 118** / Rs 129 (Bear / Neutral / Bull). Because the fresh issue is a fixed Rs 191 cr, a higher issue price means fewer new shares and a higher value per share. Solving for that, **the call rule would read Subscribe up to about Rs 154** (28x FY25 EPS on post-issue shares), **Neutral from about Rs 154 to Rs 212** (up to 37x), **and Avoid above about Rs 212**. The relative value leans on a wide peer set (13-60x); against BMW Industries alone (13.3x) the case would be more modest. We will re-run the screen on the RHP's FY26 numbers and the actual band.
+**Valuation.** At Rs 82, fair value is Rs 108 / **Rs 116** / Rs 126 (Bear / Neutral / Bull), +41.0% in the Neutral case. **Call rule:** the Neutral value is above the price, so the call is **Subscribe**. The band is below the Rs 88 at which outside investors bought in Oct-2025, and values the company at 18.0x FY25 earnings after the issue (13.9x pro forma for lower interest). Two cautions: the relative value leans on a wide peer set (13-60x) while the DCF alone (Rs 51) is well below the price, and the figures stop at Sep-2025. The report is refreshed automatically when the RHP becomes readable.
 
 ## Appendix A: Offer, anchor book and lock-ins
 
-- **Structure:** fresh issue up to Rs 191 cr; no OFS; QIB up to 50% (anchor up to 60% of that), NII at least 15%, retail at least 35% (cover, p. 26).
+- **Structure:** fresh issue Rs 183.06 cr (about 2.23 crore shares at Rs 82; NSE issue page); no OFS; QIB up to 50% (anchor up to 60% of that), NII at least 15%, retail at least 35% (cover, p. 26).
 - **Objects:** repayment of borrowings Rs 125 cr; acquisition of equipment under Siemens Financial Services leases Rs 18 cr; GCP up to 25% of gross proceeds (pp. 27, 108).
 - **Share history:** incorporated 2019; 2021 allotment to the founder for the Bombay Steels business (Rs 8.76 cr consideration); rights issues at Rs 10 (2021, 2023); 3:1 bonus on 08-Jul-2025; private placement of 9,00,091 shares at Rs 88 on 28-Oct-2025, originally approved as a pre-IPO placement; 4,05,00,091 shares now (pp. 93-95). Weighted average cost of shares acquired in the last three years Rs 3.61 (p. 34).
-- **Anchor book:** not applicable until the RHP.
+- **Anchor book:** anchor bidding on 28-Oct-2026; the allocation report is on nsearchives.nseindia.com, which is not reachable from this environment.
 - **Lock-ins (to be confirmed in the RHP):** promoters' minimum contribution (20% of post-issue capital) for three years if the lease buy-out counts as capex, otherwise 18 months; excess promoter holding one year or six months accordingly; other pre-issue holders six months; anchor shares 50% for 30 days and 50% for 90 days.
 
 ## Appendix B: Merchant bankers
@@ -261,7 +263,7 @@ No check met the Fund's test for a material issue.
 
 | Item | Severity | Where to source |
 |---|---|---|
-| Price band, dates and RHP | High | RHP / exchange notice |
+| RHP (FY26 figures, final objects, dates) not retrievable | High | RHP on SEBI / NSE |
 | FY26 full-year results (numbers end 30-Sep-2025) | High | RHP |
 | Subsidy scheme and remaining tenure | Medium | RHP / issuer |
 | JSW Steel Coated Products agreement terms | Medium | RHP material contracts |
