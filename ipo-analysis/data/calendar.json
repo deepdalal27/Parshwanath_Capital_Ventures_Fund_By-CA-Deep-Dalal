@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-10-26T13:37Z",
-  "today_ist": "2026-10-26",
+  "last_scan": "2026-10-27T02:15Z",
+  "today_ist": "2026-10-27",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [],
   "issues": [
@@ -39,7 +39,7 @@
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
       "rhp_filed_on": "2026-10-19",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "bls-polymers-ltd",
       "report": "published",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792388466880.pdf",
@@ -63,15 +63,15 @@
       "open_date": "2026-10-27",
       "close_date": "2026-10-29",
       "price_band": "Rs 313-330",
-      "issue_size_shares": 20475082,
+      "issue_size_shares": 14159744,
       "source": "NSE",
       "lot_size": 45,
-      "issue_size_text": "Initial Public offering comprising Fresh issue of aggregating up to Rs. 1500 million and offer for sale up to 1,56,82,750 Equity Shares",
+      "issue_size_text": "Initial Public offering comprising Fresh issue of aggregating up to Rs.1500 million and offer for sale up to 1,56,82,750 Equity Shares (Including Anchor portion 60,68,460 Equity Shares)",
       "brlm": "IIFL Capital Services Limited, JM Financial Limited and Nuvama Wealth Management Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html",
       "rhp_filed_on": "2026-10-22",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "sfc-environmental-technologies-ltd",
       "report": "published",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792670149542.PDF",
@@ -92,7 +92,8 @@
           "date": "2026-10-22",
           "url": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html"
         }
-      ]
+      ],
+      "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_SFCTECH.zip"
     },
     {
       "company": "M. K. Sons Fine Jewels Limited",
