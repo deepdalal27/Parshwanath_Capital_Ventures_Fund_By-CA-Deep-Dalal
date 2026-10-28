@@ -1,0 +1,112 @@
+{
+  "slug": "johnsoncab-electricals-ltd",
+  "company": "Johnsoncab Electricals Limited",
+  "platform": "SME",
+  "stage": "RHP",
+  "rhp_read": false,
+  "filed_on": null,
+  "sector": "Low-voltage wires and cables (Mehsana, Gujarat)",
+  "brlm": "ISK Advisors Private Limited",
+  "issue_size_cr": 56.02,
+  "price_band": "Rs 190-200",
+  "open_date": "2026-10-30",
+  "close_date": "2026-11-03",
+  "allotment_date": "2026-11-04",
+  "listing_date": "2026-11-06",
+  "lot_size": 600,
+  "exchange": "BSE SME",
+  "depth": "Snapshot",
+  "status": "analysed",
+  "exit_route": "2-3 year hold (assumed)",
+  "files": {
+    "screening": "JOHNSONCAB_ELECTRICALS_L_01_Screening.xlsx",
+    "anchor": "JOHNSONCAB_ELECTRICALS_L_02_Anchor_QIB.xlsx",
+    "valuation": "JOHNSONCAB_ELECTRICALS_L_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "JOHNSONCAB_ELECTRICALS_L_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 25.9128,
+      "relative": 256.3408,
+      "blended": 141.1268,
+      "upside_floor": -0.2572,
+      "upside_cap": -0.2944
+    },
+    "neutral": {
+      "dcf": 96.642,
+      "relative": 256.3408,
+      "blended": 176.4914,
+      "upside_floor": -0.0711,
+      "upside_cap": -0.1175
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -62.3% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": 159.187,
+    "bull": {
+      "dcf": 174.6091,
+      "relative": 256.3408,
+      "blended": 215.475,
+      "upside_floor": 0.1341,
+      "upside_cap": 0.0774
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 0,
+    "pass": 2,
+    "open": 13
+  },
+  "focus_top": [
+    "Valuation model guard",
+    "Valuation model guard",
+    "Data gap (high)"
+  ],
+  "analysed_on": "2026-10-28",
+  "doc_url": "https://www.bseindia.com/markets/publicIssues/BSESMEIPO.aspx",
+  "call": "Neutral",
+  "business_stage": "Early scaling (revenue up 2.4x in two years; issue funds new capacity and working capital)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor portion, if any, bids 29-Oct-2026; BSE SME allocation not reachable"
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 200 upper band: Neutral value Rs 176 is 11.7% below (within 10-30%) and the Bull value Rs 215 is above the price, so the call is Neutral. At the Rs 190 floor the Neutral value is 7.1% below, which would read Subscribe. No material issue was found in the data available. Figures come from public trackers because the RHP was not reachable.",
+  "reference_note": "Upper band Rs 200 (28,00,800 fresh shares, Rs 56.02 cr). At Rs 200: market cap Rs 211.4 cr post-issue; P/E 15.75x on FY26 PAT (11.58x pre-issue); P/B 2.51x post-issue; EV/EBITDA about 9.9x. Peer median P/E 20.2x. Objects floor Rs 159.",
+  "headline": "A Gujarat low-voltage cable maker that has grown revenue 2.4x in two years to Rs 210 cr and lifted EBITDA margin to 11.4%, priced at 15.8x FY26 earnings against a 20x SME-cable peer median; our fair value is Rs 176 (Neutral) because growth has been funded by debt and working capital, leaving little free cash flow.",
+  "red_flags": [
+    "Revenue Rs 88.95 cr (FY24) -> Rs 140.00 cr -> Rs 210.47 cr (FY26); PAT Rs 2.52 cr -> Rs 5.46 cr -> Rs 13.42 cr; EBITDA margin 6.1% -> 8.7% -> 11.4%",
+    "Borrowings Rs 79.88 cr against net worth Rs 31.44 cr (2.54x) in FY26, up 91% in a year; total assets almost doubled to Rs 126.64 cr",
+    "FY26 margin is the first year at this level; copper-price moves and a fragmented LV cable market can compress it",
+    "Fresh issue only (Rs 56.02 cr): new shed, plant, conductor machinery, rooftop solar and Rs 14 cr working capital",
+    "RHP not reachable: figures from public trackers, no page cites; fair value Rs 141 / 176 / 215 vs Rs 200"
+  ],
+  "swot": {
+    "strengths": [
+      "Revenue CAGR 54% FY24-26 to Rs 210.47 cr",
+      "ROE 42.7% and ROCE 39.7% in FY26",
+      "Wide LV range: power, control, building, solar, submersible and welding cables",
+      "Two plants in Mehsana, 79,950 km a year installed"
+    ],
+    "weaknesses": [
+      "Debt/equity 2.54x before the issue",
+      "Thin cash generation: working capital absorbs profit",
+      "Small scale against national cable brands",
+      "Single-region manufacturing"
+    ],
+    "opportunities": [
+      "Housing, infrastructure and solar demand for LV cables",
+      "Paper-insulated conductors for transformer makers (new line)",
+      "Rooftop solar lowers power cost"
+    ],
+    "threats": [
+      "Copper and aluminium price swings",
+      "Price competition from organised and unorganised makers",
+      "Delayed payments from government customers"
+    ]
+  }
+}

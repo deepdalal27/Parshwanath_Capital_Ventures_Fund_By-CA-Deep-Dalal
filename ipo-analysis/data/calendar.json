@@ -138,6 +138,24 @@
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bombay-coated-and-special-steels-limited-rhp_105447.html",
       "rhp_filed_on": "2026-10-21",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793079406414.PDF"
+    },
+    {
+      "company": "Johnsoncab Electricals Limited",
+      "symbol": null,
+      "platform": "SME",
+      "series": "SME",
+      "open_date": "2026-10-30",
+      "close_date": "2026-11-03",
+      "price_band": "Rs 190-200",
+      "issue_size_shares": 2800800,
+      "source": "BSE SME (added manually; BSE feed not reachable)",
+      "lot_size": 600,
+      "issue_size_text": "28,00,800 shares (Rs 56.02 cr at upper band)",
+      "brlm": "ISK Advisors Private Limited",
+      "exchange": "BSE SME",
+      "status": "Upcoming",
+      "slug": "johnsoncab-electricals-ltd",
+      "report": "provisional"
     }
   ]
 }

@@ -1,0 +1,408 @@
+{
+ "_source": "Johnsoncab Electricals Limited (BSE SME). The RHP and DRHP sit on www.bsesme.com / api.bseindia.com, which this environment cannot reach, and SME offer documents are not posted on SEBI. Figures are restated standalone financials to 31-Mar-2026 as reproduced from the offer document by public IPO trackers (IPO Platform, IPO Central, HDFC Sky, Chittorgarh, unp.me, read 28-Oct-2026), cross-checked against each other. Where trackers give only total income (FY24, FY25), it is used as revenue. Items marked 'estimate' are analyst estimates derived from reported totals (see rationale), not reported figures. No page cites are possible until the RHP is read.",
+ "screening": {
+  "basis": {
+   "name": "Johnsoncab Electricals Limited",
+   "platform": "SME",
+   "stage": "RHP",
+   "doc_date": null,
+   "aud_to": "2026-03-31",
+   "band": "Yes",
+   "brlm": "ISK Advisors Private Limited",
+   "outside": "RHP not reachable (BSE SME hosts blocked); figures from public trackers reproducing the offer document",
+   "bid_cat": "NII / Retail",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    88.95,
+    140.0,
+    210.47,
+    null
+   ],
+   "oth": [
+    null,
+    null,
+    0.87,
+    null
+   ],
+   "pbt": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "ctax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "dtax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pat": [
+    2.52,
+    5.46,
+    13.42,
+    null
+   ],
+   "cfo": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_s": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_p": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "nw": [
+    8.88,
+    14.24,
+    31.44,
+    null
+   ],
+   "recv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "inv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pay": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "gw": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "Restated standalone; FY24-25 total income, FY26 revenue from operations (IPO Platform, IPO Central, Chittorgarh)",
+   "oth": "FY26 total income 211.34 less revenue 210.47",
+   "pat": "Restated standalone (IPO Central, unp.me, Chittorgarh)",
+   "nw": "Restated standalone (unp.me, HDFC Sky)"
+  },
+  "single": {
+   "top1c": null,
+   "top10c": null,
+   "top1s": null,
+   "geo": null,
+   "offer": 56.02
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "trackers",
+    "finding": "NAV Rs 40.47 on net worth Rs 31.44 cr implies about 77.7 lakh pre-issue shares; EPS Rs 17.81 on PAT Rs 13.42 cr implies a weighted 75.4 lakh, consistent with a small FY26 share issue (net worth rose Rs 17.20 cr against PAT Rs 13.42 cr)."
+   },
+   "2": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Operating cash flow not available without the RHP. Borrowings rose from Rs 41.79 cr to Rs 79.88 cr in FY26 while total assets nearly doubled (Rs 64.28 cr to Rs 126.64 cr), so growth was largely funded by debt and working capital absorbed most of the profit."
+   },
+   "3": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Current vs deferred tax split not available."
+   },
+   "4": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Related-party transactions not available without the RHP."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "objects (trackers)",
+    "finding": "Objects excluding GCP Rs 41.91 cr (shed 7.89 + plant 9.90 + conductor machinery 6.89 + rooftop solar 3.23 + working capital 14.00) over 28.008 lakh fresh shares = Rs 159 a share after 6% assumed expenses, below the Rs 190 floor."
+   },
+   "7": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Goodwill and intangibles not available; none reported by trackers."
+   },
+   "8": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Customer concentration not available. Two plants, both in Mehsana, Gujarat (79,950 km a year installed)."
+   },
+   "9": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Contingent liabilities and litigation not available."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Auditor and any qualifications not available."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Fresh issue Rs 56.02 cr: monitoring agency is mandatory above Rs 50 cr; to be named in the RHP."
+   },
+   "R5": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "SME eligibility (operating profit track record, net worth) appears met on the reported numbers; not re-computed from the RHP."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "ISK Advisors (sole BRLM, Ahmedabad): track record not compiled in this run."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not obtainable (www.bsesme.com, api.bseindia.com and nsearchives.nseindia.com blocked); figures from public trackers, no page cites",
+    "severity": "High",
+    "source": "RHP (BSE SME)"
+   },
+   {
+    "item": "Cash flow statement (CFO, capex), receivables, inventory and payables; working capital is estimated from total assets",
+    "severity": "High",
+    "source": "RHP restated financials"
+   },
+   {
+    "item": "Customer concentration and the government / private / dealer mix",
+    "severity": "Medium",
+    "source": "RHP business section"
+   },
+   {
+    "item": "Capacity utilisation of the 79,950 km installed capacity",
+    "severity": "Medium",
+    "source": "RHP business section"
+   },
+   {
+    "item": "Promoter holding pre- and post-issue; related-party transactions; litigation",
+    "severity": "Medium",
+    "source": "RHP capital structure / RPT / litigation"
+   },
+   {
+    "item": "Anchor book (if any) and allocation",
+    "severity": "Low",
+    "source": "BSE SME"
+   },
+   {
+    "item": "ISK Advisors' track record of past issues",
+    "severity": "Low",
+    "source": "RHP / BRLM website"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Johnsoncab Electricals Limited",
+   "board": "SME",
+   "offer": 200,
+   "anchor_px": 200,
+   "issue": 56.02,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-29",
+   "allot_date": "2026-11-04",
+   "list_date": "2026-11-06"
+  },
+  "total_shares_lakh": 105.69,
+  "overhang": [
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    21.14,
+    1095,
+    "SEBI ICDR (SME): three years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Johnsoncab Electricals Limited",
+   "basis": "Standalone",
+   "pre_sh": 0.7769,
+   "esop": 0,
+   "fresh": 56.016,
+   "fresh_sh_fixed": 0.28008,
+   "ofs_sh": 0,
+   "floor": 190,
+   "cap": 200,
+   "obj_net": 41.91,
+   "exp_pct": 0.06,
+   "gcp_pct": 0,
+   "ipo_capex": 27.91,
+   "rev0": 210.47,
+   "rev_prev": 140.0,
+   "ebitda0": 24.06,
+   "da0": 1.2,
+   "pat0": 13.42,
+   "nw0": 31.44,
+   "nd0": 79.88,
+   "nwc0": 95.0,
+   "nwc_prev": 43.0,
+   "capex0": 4.2,
+   "kd": 0.095,
+   "w_pb": 0
+  },
+  "drivers": {
+   "g1": [
+    0.12,
+    0.2,
+    0.3
+   ],
+   "g2": [
+    0.1,
+    0.16,
+    0.24
+   ],
+   "g3": [
+    0.08,
+    0.13,
+    0.18
+   ],
+   "g4": [
+    0.07,
+    0.11,
+    0.14
+   ],
+   "g5": [
+    0.06,
+    0.09,
+    0.11
+   ],
+   "m": [
+    0.085,
+    0.105,
+    0.12
+   ],
+   "nwc": [
+    0.47,
+    0.4,
+    0.35
+   ],
+   "roic": [
+    0.14,
+    0.18,
+    0.22
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue Rs 88.95 / 140.00 / 210.47 cr FY24-26 (+57%, +50%). The issue funds a new shed and plant (Rs 17.79 cr), paper-insulated conductor machinery (Rs 6.89 cr) and Rs 14 cr of working capital, so capacity rises from FY27-28. Neutral 20% then 16% / 13% / 11% / 9% (well below the last two years, as working capital, not demand, is the constraint); Bear 6-12%; Bull 30% fading to 11%. Utilisation is not known without the RHP.",
+   "m": "EBITDA margin 6.14% / 8.68% / 11.43% FY24-26 (EBITDA Rs 5.42 / 12.14 / 24.06 cr). FY26 is the first year at this level and is high for low-voltage cables, where copper is pass-through and margins are usually 8-12%. Neutral 10.5%; Bear 8.5% (FY25 level); Bull 12%.",
+   "nwc": "Estimate: not reported by trackers. Total assets Rs 126.64 cr less estimated fixed assets (~Rs 15 cr) and cash (~Rs 1 cr) less non-debt liabilities (Rs 15.32 cr = total assets - net worth - borrowings) gives about Rs 95 cr (45% of revenue); FY25 about Rs 43 cr (31%). The FY26 sources and uses reconcile on this basis (PAT 13.4 + D&A 1.2 + new debt 38.1 + new equity 3.8 = working capital build 52 + capex 4). FY26 is likely inflated by year-end government receivables; Neutral 40% (between FY25 and FY26); Bear 47%; Bull 35%.",
+   "roic": "ROCE 39.68% and ROE 42.68% in FY26 on a thin equity base; terminal ROIC 18% (Neutral) after the issue adds equity and capacity.",
+   "capex": "D&A Rs 1.2 cr and base capex Rs 4.2 cr are estimates (EBITDA 24.06 + other income 0.87 - PBT ~17.9 implied by PAT at 25% tax leaves ~Rs 7 cr for interest and D&A; interest on ~Rs 61 cr average debt at 9.5% is ~Rs 5.8 cr). Net debt taken as gross borrowings Rs 79.88 cr (cash not disclosed by trackers, so none is credited). IPO capex Rs 27.91 cr (shed, plant, conductor machinery, rooftop solar). Fresh issue 28,00,800 shares = Rs 56.02 cr at Rs 200.",
+   "relative": "Relative value uses peer-median P/E only (w_pb set to 0, an issuer-specific override). Peer P/B of 3.2x-9.8x reflects 20-47% ROEs on thin SME books; applying 5.5x to Johnsoncab's post-issue book, about 60% of which is fresh issue cash, would value cash at 5.5 times its face. Peers' EBITDA is not available, so EV/EBITDA is not used either."
+  },
+  "peers": [
+   [
+    "Prime Cable Industries Ltd (per share)",
+    "Y",
+    "LV cables, SME-listed - issuer's peer",
+    "Standalone",
+    182.43,
+    1,
+    null,
+    null,
+    null,
+    6.68,
+    33.17,
+    null
+   ],
+   [
+    "JD Cables Ltd (per share)",
+    "Y",
+    "Power and control cables, SME-listed - issuer's peer",
+    "Standalone",
+    207.95,
+    1,
+    null,
+    null,
+    null,
+    14.07,
+    64.82,
+    null
+   ],
+   [
+    "Susan Electricals India Ltd (per share)",
+    "Y",
+    "Wires and cables, SME-listed - issuer's peer",
+    "Standalone",
+    241.47,
+    1,
+    null,
+    null,
+    null,
+    11.96,
+    24.68,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   5.42,
+   12.14,
+   24.06
+  ],
+  "_cite": "EBITDA and margin from the issuer's KPI table as reproduced by HDFC Sky / unp.me (6.14% / 8.68% / 11.43%)."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]. The RHP's notes are needed to test capitalised costs, other income and one-offs.",
+  "adjustments": [
+   {
+    "item": "Other income in FY26 profit",
+    "short": "other income",
+    "pre_tax": [
+     0,
+     0,
+     -0.87
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "trackers (total income 211.34 vs revenue 210.47)",
+    "reason": "Rs 0.87 cr of other income (6% of PBT); its nature (interest, scrap, export incentives) is not known without the RHP. Shown for information."
+   }
+  ],
+  "checked": [
+   "PAT growth (146%) ahead of revenue growth (50%) is explained by the EBITDA margin rising from 8.68% to 11.43% on a small base; not tested against the notes",
+   "Cash tax, capitalised costs, exceptional items and related-party pricing could not be tested without the RHP"
+  ]
+ }
+}

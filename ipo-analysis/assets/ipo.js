@@ -80,7 +80,7 @@
         '<div><span class="ic__lbl">P/E reported / adjusted</span><b>' + (r.pe_reported ? r.pe_reported.toFixed(1) + "x" : "-") + " / " +
         (r.pe_adjusted ? r.pe_adjusted.toFixed(1) + "x" : "-") + (r.eq_material ? ' <span class="flag-amber" title="Earnings-quality adjustments above 10%">&#9679;</span>' : "") + "</b></div></div>";
     }
-    var prov = r && r.rhp_read === false ? '<p class="ic__prov">Provisional: built from the latest SEBI-filed offer document and the exchange issue page while the RHP was not retrievable. It is refreshed automatically once the RHP is available.</p>' : "";
+    var prov = r && r.rhp_read === false ? '<p class="ic__prov">Provisional: built without the RHP, which was not retrievable (sources are stated in the report basis). It is refreshed automatically once the RHP is available.</p>' : "";
     var body = r ? prov + '<p class="ic__hl">' + esc(r.headline || "") + "</p>"
       : '<p class="ic__hl muted">The RHP is being analysed. The report is published here before the issue opens.</p>';
     var foot = r ? '<div class="ic__foot"><a class="btn" href="view.html?c=' + encodeURIComponent(r.slug) + '">Read the report</a>' +
