@@ -1,6 +1,62 @@
 {
-  "updated": "2026-10-27T14:06Z",
+  "updated": "2026-10-28T12:15Z",
   "issuers": [
+    {
+      "slug": "johnsoncab-electricals-ltd",
+      "company": "Johnsoncab Electricals Limited",
+      "platform": "SME",
+      "stage": "RHP",
+      "filed_on": null,
+      "analysed_on": "2026-10-28",
+      "sector": "Low-voltage wires and cables (Mehsana, Gujarat)",
+      "brlm": "ISK Advisors Private Limited",
+      "issue_size_cr": 56.02,
+      "price_band": "Rs 190-200",
+      "open_date": "2026-10-30",
+      "close_date": "2026-11-03",
+      "allotment_date": "2026-11-04",
+      "listing_date": "2026-11-06",
+      "lot_size": 600,
+      "exchange": "BSE SME",
+      "depth": "Snapshot",
+      "rhp_read": false,
+      "call": "Neutral",
+      "business_stage": "Early scaling (revenue up 2.4x in two years; issue funds new capacity and working capital)",
+      "headline": "A Gujarat low-voltage cable maker that has grown revenue 2.4x in two years to Rs 210 cr and lifted EBITDA margin to 11.4%, priced at 15.8x FY26 earnings against a 20x SME-cable peer median; our fair value is Rs 176 (Neutral) because growth has been funded by debt and working capital, leaving little free cash flow.",
+      "red_flags": [
+        "Revenue Rs 88.95 cr (FY24) -> Rs 140.00 cr -> Rs 210.47 cr (FY26); PAT Rs 2.52 cr -> Rs 5.46 cr -> Rs 13.42 cr; EBITDA margin 6.1% -> 8.7% -> 11.4%",
+        "Borrowings Rs 79.88 cr against net worth Rs 31.44 cr (2.54x) in FY26, up 91% in a year; total assets almost doubled to Rs 126.64 cr",
+        "FY26 margin is the first year at this level; copper-price moves and a fragmented LV cable market can compress it",
+        "Fresh issue only (Rs 56.02 cr): new shed, plant, conductor machinery, rooftop solar and Rs 14 cr working capital",
+        "RHP not reachable: figures from public trackers, no page cites; fair value Rs 141 / 176 / 215 vs Rs 200"
+      ],
+      "doc_url": "https://www.bseindia.com/markets/publicIssues/BSESMEIPO.aspx",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 0,
+        "pass": 2,
+        "open": 13
+      },
+      "focus_top": [
+        "Valuation model guard",
+        "Valuation model guard",
+        "Data gap (high)"
+      ],
+      "neutral": {
+        "dcf": 96.642,
+        "relative": 256.3408,
+        "blended": 176.4914,
+        "upside_floor": -0.0711,
+        "upside_cap": -0.1175
+      },
+      "bear": 141.1268,
+      "bull": 215.475,
+      "pdf": "JOHNSONCAB_ELECTRICALS_L_Report.pdf",
+      "pe_reported": 15.75,
+      "pe_adjusted": 15.75,
+      "eq_material": false
+    },
     {
       "slug": "bombay-coated-and-special-steels-ltd",
       "company": "Bombay Coated and Special Steels Limited",
