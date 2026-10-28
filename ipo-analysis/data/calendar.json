@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-10-27T14:06Z",
-  "today_ist": "2026-10-27",
+  "last_scan": "2026-10-28T02:14Z",
+  "today_ist": "2026-10-28",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [],
   "issues": [
@@ -113,7 +113,7 @@
       "issue_size_text": "Initial Public offering comprising of Fresh issue up to 1,36,00,000 Equity Shares and offer for sale up to 34,00,000 Equity shares (Including Anchor portion 51,00,000 Equity Shares)",
       "brlm": "Aryaman Financial Services Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_MKSONS.zip",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "m-k-sons-fine-jewels-ltd",
       "report": "provisional",
       "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_MKSONS.zip"
