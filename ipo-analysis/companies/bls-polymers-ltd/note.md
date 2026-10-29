@@ -1,6 +1,6 @@
 # BLS Polymers Limited: RHP note (pre-opening report)
 
-> **Basis.** Red Herring Prospectus dated 17-Oct-2026: a 100% book-built **fresh issue** of up to 1,70,00,000 equity shares of Rs 10, with Unistone Capital as sole BRLM and KFin Technologies as registrar. Anchor bidding 26-Oct-2026; bid/issue **27-Oct to 29-Oct-2026**; allotment on or about 30-Oct; listing on NSE and BSE on or about 3-Nov-2026. The RHP leaves the price band blank; **press reports give Rs 142-150 and a lot of 100 shares**, but no exchange or SEBI notice had been published when this note was written (22-Oct-2026), so the band is **unconfirmed**. At Rs 150 the issue is Rs 255 cr. Restated standalone financials run to **30-Jun-2026** and are **114 days old**. All figures are from the RHP (Rs lakhs converted to Rs crore); printed page numbers are cited (printed page = PDF page - 4).
+> **Basis.** Red Herring Prospectus dated 17-Oct-2026: a 100% book-built **fresh issue** of up to 1,70,00,000 equity shares of Rs 10, with Unistone Capital as sole BRLM and KFin Technologies as registrar. Anchor bidding 26-Oct-2026; bid/issue **27-Oct to 29-Oct-2026**; allotment on or about 30-Oct; listing on NSE and BSE on or about 3-Nov-2026. The RHP leaves the price band blank; **the band is Rs 142-150 with a lot of 100 shares**: first from press reports (22-Oct-2026), since **confirmed by the NSE issue page** (29-Oct-2026). At Rs 150 the issue is Rs 255 cr. Restated standalone financials run to **30-Jun-2026** and are **114 days old**. All figures are from the RHP (Rs lakhs converted to Rs crore); printed page numbers are cited (printed page = PDF page - 4).
 >
 > Judged at the reported **upper band, Rs 150**. Holding period assumed: 2-3 years. Grey market premium is not used. Written from an investor's point of view under the Fund's standing rules.
 
@@ -290,7 +290,6 @@ No check met the Fund's test for a material issue.
 
 | Item | Severity | Where to source |
 |---|---|---|
-| Price band and lot size: press reports only at writing | Medium | NSE / BSE price-band notice |
 | Issue expenses and GCP amount blank | Medium | Prospectus |
 | Names of the top customer and top supplier | Medium | Issuer |
 | Insurance-claim and miscellaneous income amounts | Low | RHP other income note |

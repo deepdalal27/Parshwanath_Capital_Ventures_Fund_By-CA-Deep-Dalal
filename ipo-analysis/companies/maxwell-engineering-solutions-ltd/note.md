@@ -140,10 +140,10 @@ On that run-rate the P/E is 23.65x.
 
 | | FY26 (actual) | Y1 | Y2 | Y3 | Y4 | Y5 |
 |---|---:|---:|---:|---:|---:|---:|
-| Revenue growth | 36% | 20% | 18% | 15% | 12% | 10% |
-| Revenue | 30.76 | 36.91 | 43.56 | 50.09 | 56.10 | 61.71 |
-| EBITDA (38%) | 15.19 | 14.03 | 16.55 | 19.03 | 21.32 | 23.45 |
-| Free cash flow to firm | 5.6 | -7.9 | -1.8 | 9.8 | 11.7 | 13.4 |
+| Revenue growth | 30% | 20% | 18% | 15% | 12% | 10% |
+| Revenue from operations | 29.45 | 35.34 | 41.70 | 47.96 | 53.71 | 59.08 |
+| EBITDA (38%) | 15.19 | 13.43 | 15.85 | 18.22 | 20.41 | 22.45 |
+| Free cash flow to firm | 5.6 | -7.8 | -2.3 | 9.2 | 11.0 | 12.6 |
 
 Y1 is close to the 4M FY27 run-rate (Rs 36.75 cr of income and Rs 12.87 cr of EBITDA annualised). Free cash flow is negative in Y1-Y2 while the issue-funded machinery and building are built.
 
@@ -164,7 +164,7 @@ The trackers cite two listed engineering companies. Their CMPs are derived from 
 ### DCF and fair value
 
 **Inputs (FY26; Rs crore):**
-- Reported: total income 30.76; EBITDA 15.19; PAT 11.86; net worth 24.87; net debt taken as gross borrowings 16.73 (cash not disclosed, none credited).
+- Reported: revenue from operations 29.45 (total income 30.76 less other income 1.31; corrected 29-Oct-2026 from total income, which the first version used as the base); EBITDA 15.19 (51.6% of revenue); PAT 11.86; net worth 24.87; net debt taken as gross borrowings 16.73 (cash not disclosed, none credited).
 - **Estimates, not reported:**
   - D&A Rs 0.8 cr and organic capex Rs 2.0 cr. Capacity growth is funded by the IPO capex object, so it is not counted twice.
   - Working capital Rs 12 cr (39% of revenue; FY25 Rs 8 cr).
@@ -178,11 +178,11 @@ The trackers cite two listed engineering companies. Their CMPs are derived from 
 
 | Rs per share | Bear | Neutral | Bull |
 |---|---:|---:|---:|
-| DCF | 50.67 | 87.39 | 127.97 |
+| DCF | 48.89 | 83.85 | 122.42 |
 | Relative | n.a. | n.a. | n.a. |
-| **Fair value (DCF only)** | **50.67** | **87.39** | **127.97** |
-| Against Rs 158 (upper band) | -67.9% | -44.7% | -19.0% |
-| Against Rs 150 (floor) | -66.2% | -41.7% | -14.7% |
+| **Fair value (DCF only)** | **48.89** | **83.85** | **122.42** |
+| Against Rs 158 (upper band) | -69.1% | -46.9% | -22.5% |
+| Against Rs 150 (floor) | -67.4% | -44.1% | -18.4% |
 
 - **Scenario drivers:**
   - Growth 6-8% / 10-20% / 12-30% a year.
@@ -190,8 +190,8 @@ The trackers cite two listed engineering companies. Their CMPs are derived from 
   - Working capital 42% / 38% / 34% of revenue.
   - Terminal ROIC 18% / 22% / 28%.
 - **Sensitivity (Neutral DCF):**
-  - WACC 12.4-16.4% gives Rs 107-74.
-  - At 38% working capital, margin 36-40% gives Rs 83-92.
+  - WACC 12.4-16.4% gives Rs 103-71.
+  - At 38% working capital, margin 36-40% gives Rs 79-88.
   - The discount rate and the margin path matter more than working capital.
 - **Objects floor:** Rs 125 a share (Rs 42.80 cr of objects over 36.48 lakh shares, after expenses). It sits above the DCF value but below the band. The objects are mostly machinery and working capital, which keep their value.
 - **Reverse DCF at Rs 158:** the price asks the business to deliver 32.1 times its current free cash flow, in perpetuity. **In plain words: the price assumes margins hold well above 40% and growth stays above 20% for several years.**
@@ -217,7 +217,7 @@ The trackers cite two listed engineering companies. Their CMPs are derived from 
 
 ### What would change our view
 
-- **Towards Neutral:** a price at or below about Rs 128 (the Bull value), or RHP figures showing the margin dip is seasonal and cash flow tracks profit.
+- **Towards Neutral:** a price at or below about Rs 122 (the Bull value), or RHP figures showing the margin dip is seasonal and cash flow tracks profit.
 - **Towards Subscribe:** a credible listed peer set supporting a multiple near 20x, together with stable margins.
 - **Further towards Avoid:** related-party dependence or customer concentration revealed in the RHP.
 
@@ -239,9 +239,9 @@ The trackers cite two listed engineering companies. Their CMPs are derived from 
 - Its 52% FY26 margin has already fallen to 36% in the latest four months, which lifts the P/E from 18x to about 24x.
 - There is no usable listed peer, so the value rests on cash flows, and those stay thin while the expansion is funded.
 
-**Valuation.** Fair value Rs 51 / **Rs 87** / Rs 128 (Bear / Neutral / Bull), DCF only.
+**Valuation.** Fair value Rs 49 / **Rs 84** / Rs 122 (Bear / Neutral / Bull), DCF only.
 
-**Call rule.** The Neutral value is 44.7% below the upper band and the Bull value is also below it, so the call is **Avoid**. This is a valuation call. No governance or accounting issue was found in the data available.
+**Call rule.** The Neutral value is 46.9% below the upper band and the Bull value is also below it, so the call is **Avoid**. This is a valuation call. No governance or accounting issue was found in the data available.
 
 This is a **provisional** report built without the RHP. A better peer set or RHP detail on margins could move it to Neutral.
 

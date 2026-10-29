@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T10:02Z",
+  "updated": "2026-10-29T10:04Z",
   "issuers": [
     {
       "slug": "hgs-india-ltd",
@@ -176,13 +176,13 @@
       },
       "call": "Avoid",
       "business_stage": "Early scaling (incorporated Sep-2022; revenue Rs 31 cr; issue funds new machinery and building)",
-      "headline": "A two-year-old Vadodara maker of aftermarket parts for polymer pelletizers with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 87 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
+      "headline": "A Vadodara maker of aftermarket parts for polymer pelletizers, incorporated in 2022, with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 84 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
       "red_flags": [
-        "Total income Rs 10.87 cr (FY24) -> Rs 22.59 cr -> Rs 30.76 cr (FY26); Rs 12.25 cr in 4M FY27",
+        "Revenue from operations Rs 29.45 cr in FY26 (total income Rs 10.87 cr FY24 -> Rs 22.59 cr FY25 -> Rs 30.76 cr FY26); Rs 12.25 cr total income in 4M FY27",
         "EBITDA margin 51.58% (FY26) fell to 36.11% in 4M FY27; PAT margin 40.28% -> 25.70%",
         "Incorporated Sep-2022: short track record; history and any business transfer from promoters not yet read",
         "Borrowings Rs 16.73 cr (Mar-26) against net worth Rs 24.87 cr; fresh issue repays Rs 4.30 cr",
-        "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 51 / 87 / 128 vs Rs 158"
+        "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 49 / 84 / 122 vs Rs 158"
       ],
       "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
       "status": "analysed",
@@ -198,14 +198,14 @@
         "Data gap (high)"
       ],
       "neutral": {
-        "dcf": 87.3902,
+        "dcf": 83.8517,
         "relative": null,
-        "blended": 87.3902,
-        "upside_floor": -0.4174,
-        "upside_cap": -0.4469
+        "blended": 83.8517,
+        "upside_floor": -0.441,
+        "upside_cap": -0.4693
       },
-      "bear": 50.6706,
-      "bull": 127.9667,
+      "bear": 48.8926,
+      "bull": 122.4214,
       "pdf": "MAXWELL_ENGINEERING_SOLU_Report.pdf",
       "pe_reported": 18.25,
       "pe_adjusted": 18.25,
@@ -366,7 +366,7 @@
       "sector": "Polymer compounds for wires, cables and pipe coating",
       "brlm": "Unistone Capital Private Limited",
       "issue_size_cr": 255.0,
-      "price_band": "Rs 142-150 (press reports; exchange notice pending)",
+      "price_band": "Rs 142-150",
       "open_date": "2026-10-27",
       "close_date": "2026-10-29",
       "allotment_date": "2026-10-30",

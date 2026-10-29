@@ -17,13 +17,13 @@
    "rev": [
     10.87,
     22.59,
-    30.76,
+    29.45,
     12.25
    ],
    "oth": [
     null,
     null,
-    null,
+    1.31,
     null
    ],
    "pbt": [
@@ -106,7 +106,7 @@
    ]
   },
   "cites": {
-   "rev": "Restated total income FY24-26 and 4M to Jul-2026 (HDFC Sky, Chittorgarh, unp.me)",
+   "rev": "Restated total income FY24-26 and 4M to Jul-2026 (HDFC Sky, Chittorgarh, unp.me); FY26 revenue from operations Rs 29.45 cr (total income Rs 30.76 cr less other income Rs 1.31 cr), corrected 29-Oct-2026",
    "pat": "Restated (HDFC Sky, Chittorgarh)",
    "nw": "Restated (Chanakya Niti FY24-26; Chittorgarh Jul-2026)"
   },
@@ -261,7 +261,7 @@
    "exp_pct": 0.06,
    "gcp_pct": 0,
    "ipo_capex": 24.5,
-   "rev0": 30.76,
+   "rev0": 29.45,
    "rev_prev": 22.59,
    "ebitda0": 15.19,
    "da0": 0.8,
