@@ -1,0 +1,112 @@
+{
+  "slug": "maxwell-engineering-solutions-ltd",
+  "company": "Maxwell Engineering Solutions Limited",
+  "platform": "SME",
+  "stage": "RHP",
+  "rhp_read": false,
+  "filed_on": null,
+  "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+  "sector": "Aftermarket components for polymer pelletizing and extrusion systems (Vadodara)",
+  "brlm": "JDA Capital Services Limited",
+  "issue_size_cr": 57.64,
+  "price_band": "Rs 150-158",
+  "open_date": "2026-10-30",
+  "close_date": "2026-11-03",
+  "allotment_date": "2026-11-04",
+  "listing_date": "2026-11-06",
+  "lot_size": 800,
+  "exchange": "NSE Emerge",
+  "depth": "Snapshot",
+  "status": "analysed",
+  "exit_route": "2-3 year hold (assumed)",
+  "files": {
+    "screening": "MAXWELL_ENGINEERING_SOLU_01_Screening.xlsx",
+    "anchor": "MAXWELL_ENGINEERING_SOLU_02_Anchor_QIB.xlsx",
+    "valuation": "MAXWELL_ENGINEERING_SOLU_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "MAXWELL_ENGINEERING_SOLU_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 50.6706,
+      "relative": null,
+      "blended": 50.6706,
+      "upside_floor": -0.6622,
+      "upside_cap": -0.6793
+    },
+    "neutral": {
+      "dcf": 87.3902,
+      "relative": null,
+      "blended": 87.3902,
+      "upside_floor": -0.4174,
+      "upside_cap": -0.4469
+    },
+    "flags": [
+      "RED: objects floor sits above blended fair value",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 32.1 times its current free cash flow, in perpetuity.",
+    "objects_floor": 124.8134,
+    "bull": {
+      "dcf": 127.9667,
+      "relative": null,
+      "blended": 127.9667,
+      "upside_floor": -0.1469,
+      "upside_cap": -0.1901
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 0,
+    "pass": 2,
+    "open": 13
+  },
+  "focus_top": [
+    "Valuation model guard",
+    "Valuation model guard",
+    "Data gap (high)"
+  ],
+  "analysed_on": "2026-10-29",
+  "call": "Avoid",
+  "business_stage": "Early scaling (incorporated Sep-2022; revenue Rs 31 cr; issue funds new machinery and building)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor portion, if any, bids 29-Oct-2026; NSE allocation report not reachable"
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 158 upper band: Neutral value Rs 87 is 44.7% below and the Bull value Rs 128 is also below the price, so the call is Avoid. The value rests on the DCF alone because no usable listed peer was available (the two cited trade near 100x earnings). No governance or accounting issue was found in the data available. Figures come from public trackers because the RHP was not reachable.",
+  "reference_note": "Upper band Rs 158 (36,48,000 fresh shares, Rs 57.64 cr). At Rs 158: market cap Rs 216.4 cr post-issue; P/E 18.25x on FY26 PAT (13.39x pre-issue; 23.65x on 4M FY27 annualised); P/B 2.74x post-issue; EV/EBITDA 11.8x FY26, 13.9x on 4M FY27 annualised. Objects floor Rs 125.",
+  "headline": "A two-year-old Vadodara maker of aftermarket parts for polymer pelletizers with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 87 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
+  "red_flags": [
+    "Total income Rs 10.87 cr (FY24) -> Rs 22.59 cr -> Rs 30.76 cr (FY26); Rs 12.25 cr in 4M FY27",
+    "EBITDA margin 51.58% (FY26) fell to 36.11% in 4M FY27; PAT margin 40.28% -> 25.70%",
+    "Incorporated Sep-2022: short track record; history and any business transfer from promoters not yet read",
+    "Borrowings Rs 16.73 cr (Mar-26) against net worth Rs 24.87 cr; fresh issue repays Rs 4.30 cr",
+    "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 51 / 87 / 128 vs Rs 158"
+  ],
+  "swot": {
+    "strengths": [
+      "Niche aftermarket parts (die plates, blades, holders) for underwater pelletizers",
+      "FY26 RoNW 47.7%, ROCE 38.5%",
+      "Exports to 50+ countries (company)",
+      "In-house CNC, VMC, EDM, wire-cut and furnace capability"
+    ],
+    "weaknesses": [
+      "Short history (incorporated 2022)",
+      "Revenue only Rs 31 cr",
+      "Margins volatile: 52% to 36%",
+      "Single plant at Waghodia GIDC"
+    ],
+    "opportunities": [
+      "Installed base of pelletizing lines in polymer plants worldwide",
+      "Refurbishment and re-engineering services",
+      "New machinery and lab funded by the issue"
+    ],
+    "threats": [
+      "OEMs defending their spare-parts business",
+      "Polymer capex cycle",
+      "Customer concentration (not disclosed)"
+    ]
+  }
+}
