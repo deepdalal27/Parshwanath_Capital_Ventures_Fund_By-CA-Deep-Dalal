@@ -98,6 +98,20 @@ Q1 is seasonally the smallest quarter: revenue recognition is concentrated in th
 
 **At the upper band (shares unchanged at 5,72,82,100):** market cap Rs 4,009.75 cr; P/E 78.8x FY26 diluted EPS (Rs 8.88), 76.2x basic (Rs 9.19); P/B 7.25x (NAV Rs 96.57); EV Rs 4,087.18 cr using FY26 net debt of Rs 77.43 cr; EV/EBITDA 39.1x FY26. On the FY24-26 average PAT of Rs 64.06 cr, the P/E is 62.6x. Sources: pp. 87-90, 139-141, 144; price ratios are our computation.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 | Rs 50.88 cr |
+| EPS, FY26 (basic / diluted) | Rs 9.19 / Rs 8.88 |
+| P/E at floor price Rs 665 (basic / diluted) | 72.36x / 74.89x |
+| P/E at cap price Rs 700 (basic / diluted) | 76.17x / 78.83x |
+| Industry peer P/E (highest / lowest / average) | 117.74x / 45.70x / 81.62x |
+
+Source: RHP pp. 139-140 (Basis for Offer Price); PAT p. 89. The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported FY26 P/E of 78.8x is flattered by two items; on the three-year average, which smooths one-year items, the P/E is 62.6x reported and 75.6x adjusted.**

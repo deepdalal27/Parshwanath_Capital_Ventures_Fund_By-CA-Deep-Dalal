@@ -114,5 +114,23 @@
     "investors": null,
     "mf_share": null,
     "source": "Anchor bidding 28-Oct-2026; up to Rs 54.9 cr (60% of the QIB portion). The allocation report is on nsearchives.nseindia.com, which is not reachable from this environment."
+  },
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 30.54,
+    "eps_basic": 7.64,
+    "eps_diluted": 7.64,
+    "industry_pe": {
+      "high": 98.54,
+      "low": 14.98,
+      "avg": 48.18
+    },
+    "source": "RHP pp. 128-129 (Basis for Offer Price); PAT p. 85; industry P/E is the RHP's 'industry composite'",
+    "pe_floor_basic": 10.21,
+    "pe_cap_basic": 10.73,
+    "pe_floor_diluted": 10.21,
+    "pe_cap_diluted": 10.73,
+    "floor": 78.0,
+    "cap": 82.0
   }
 }

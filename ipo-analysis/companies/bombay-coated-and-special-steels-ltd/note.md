@@ -108,6 +108,20 @@ Sources: pp. 84-86, 131-132. Adjusted EBITDA reproduces from the P&L: FY26 PBT 4
 
 **At the upper band (Rs 82):** fresh issue about 2.23 crore shares; post-issue shares 6.2824 crore; market cap Rs 515.2 cr; P/E **16.9x** FY26 EPS on post-issue shares (10.7x pre-issue); post-issue net worth about Rs 320 cr (Jun-26 Rs 136.62 cr + proceeds), P/B 1.61x; EV Rs 606.7 cr (market cap + Jun-26 net debt Rs 274.64 cr including leases - Rs 183.06 cr proceeds), EV/EBITDA 7.0x. **Pro forma**, repaying Rs 125 cr of debt at about 9% would add roughly Rs 8.4 cr to annual PAT (FY26 pro-forma PAT about Rs 39.0 cr; P/E 13.2x at Rs 82). Debt/equity would fall to about 0.5x. The Oct-2025 placement was at Rs 88, above the band.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 | Rs 30.54 cr |
+| EPS, FY26 (basic / diluted) | Rs 7.64 / Rs 7.64 |
+| P/E at floor price Rs 78 (basic / diluted) | 10.21x / 10.21x |
+| P/E at cap price Rs 82 (basic / diluted) | 10.73x / 10.73x |
+| Industry peer P/E (highest / lowest / average) | 98.54x / 14.98x / 48.18x |
+
+Source: RHP pp. 128-129 (Basis for Offer Price); PAT p. 85; industry P/E is the RHP's 'industry composite'. The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported P/E is a fair measure.** The adjustments found move FY26 profit by -3.1%: at Rs 82 the reported P/E is 16.9x and the adjusted P/E 17.4x. On the FY24-26 average the P/E is 19.2x reported and 21.5x adjusted, because FY24 profit included a large subsidy.

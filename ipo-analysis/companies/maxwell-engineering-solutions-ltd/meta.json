@@ -108,5 +108,19 @@
       "Polymer capex cycle",
       "Customer concentration (not disclosed)"
     ]
+  },
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 11.86,
+    "eps_basic": 11.8,
+    "eps_diluted": 11.8,
+    "source": "Public IPO trackers reproducing the offer document (RHP not reachable; provisional)",
+    "note": "Industry P/E not reported by the trackers.",
+    "pe_floor_basic": 12.71,
+    "pe_cap_basic": 13.39,
+    "pe_floor_diluted": 12.71,
+    "pe_cap_diluted": 13.39,
+    "floor": 150.0,
+    "cap": 158.0
   }
 }

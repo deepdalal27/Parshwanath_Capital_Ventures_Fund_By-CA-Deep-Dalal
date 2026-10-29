@@ -91,6 +91,19 @@ Source: restated standalone financials as reproduced by IPO Central, unp.me, HDF
 
 **At the upper band (Rs 200):** post-issue shares 1.0570 crore; market cap **Rs 211.4 cr**. P/E **15.75x** on FY26 PAT (11.58x on pre-issue shares). Post-issue net worth about Rs 84.10 cr, P/B 2.51x; EV/EBITDA about 9.9x. At Rs 190: market cap Rs 200.8 cr, P/E 14.96x.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 | Rs 13.42 cr |
+| EPS, FY26 (basic / diluted) | Rs 17.81 / Rs 17.81 |
+| P/E at floor price Rs 190 (basic / diluted) | 10.67x / 10.67x |
+| P/E at cap price Rs 200 (basic / diluted) | 11.23x / 11.23x |
+
+Source: Public IPO trackers reproducing the offer document (RHP not reachable; provisional). The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares. EPS Rs 17.81 as reproduced by IPO Platform; it gives 10.67x-11.23x across the band, matching IPO Central. Industry P/E not reported by the trackers.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported P/E is a fair measure on the data available.** No adjustment could be quantified: 15.75x reported and 15.75x adjusted on FY26. On the FY24-26 average PAT the P/E is 29.6x, because FY26 profit is 2.5 times FY25.

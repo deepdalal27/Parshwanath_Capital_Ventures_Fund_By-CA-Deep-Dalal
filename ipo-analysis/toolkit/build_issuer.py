@@ -15,6 +15,7 @@ import datetime as dt
 import glob
 import json
 import os
+import re
 import sys
 import tempfile
 
@@ -31,10 +32,73 @@ from calc import recalc  # noqa: E402
 
 INDEX_FIELDS = ["slug", "company", "platform", "stage", "filed_on", "analysed_on", "sector", "brlm",
                 "issue_size_cr", "price_band", "open_date", "close_date", "allotment_date", "listing_date", "lot_size",
-                "exchange", "depth", "rhp_read", "call", "business_stage", "headline", "red_flags", "doc_url", "status", "counts",
+                "exchange", "depth", "rhp_read", "company_pe", "call", "business_stage", "headline", "red_flags", "doc_url", "status", "counts",
                 "focus_top"]
 # The desk covers RHP-stage issues only (price band known). DRHP reports are not listed on the site.
 LISTED_STAGES = ("RHP", "PROSPECTUS")
+
+
+CPE_START, CPE_END = "<!-- company-disclosed:start -->", "<!-- company-disclosed:end -->"
+
+
+def band_ends(band):
+    n = [float(x.replace(",", "")) for x in re.findall(r"\d[\d,]*(?:\.\d+)?", band or "")]
+    return (n[0], n[-1]) if n else (None, None)
+
+
+def company_pe(meta):
+    """Fill the P/E the company's own EPS gives at the price band (fund manager's instruction, 29-Oct-2026).
+
+    The RHP prints the issuer's P/E as [●] until the band is fixed; the price-band advertisement then divides the band
+    by the RHP's latest-full-year basic and diluted EPS. We do the same, from meta["company_pe"] (PAT and EPS as stated)."""
+    c = meta.get("company_pe")
+    if not c:
+        if str(meta.get("stage", "")).upper() in LISTED_STAGES:
+            print(f"WARNING {meta.get('slug')}: meta.company_pe missing - every report must show the company's PAT and P/E")
+        return None
+    lo, hi = band_ends(meta.get("price_band"))
+    for kind in ("basic", "diluted"):
+        eps = c.get(f"eps_{kind}")
+        c[f"pe_floor_{kind}"] = round(lo / eps, 2) if lo and eps and eps > 0 else None
+        c[f"pe_cap_{kind}"] = round(hi / eps, 2) if hi and eps and eps > 0 else None
+    c["floor"], c["cap"] = lo, hi
+    return c
+
+
+def company_pe_block(meta):
+    c = meta.get("company_pe")
+    if not c:
+        return ""
+    f = lambda v, d=2: "-" if v is None else f"{v:,.{d}f}"
+    x = lambda v: "-" if v is None else f"{v:.2f}x"
+    per = c.get("period", "latest year")
+    rows = [("Restated PAT, " + per + (" (" + c["pat_basis"] + ")" if c.get("pat_basis") else ""), "Rs " + f(c.get("pat_cr")) + " cr"),
+            (f"EPS, {per} (basic / diluted)", f"Rs {f(c.get('eps_basic'))} / Rs {f(c.get('eps_diluted'))}"),
+            (f"P/E at floor price Rs {f(c.get('floor'), 0)} (basic / diluted)", f"{x(c.get('pe_floor_basic'))} / {x(c.get('pe_floor_diluted'))}"),
+            (f"P/E at cap price Rs {f(c.get('cap'), 0)} (basic / diluted)", f"{x(c.get('pe_cap_basic'))} / {x(c.get('pe_cap_diluted'))}")]
+    ind = c.get("industry_pe") or {}
+    if ind:
+        rows.append(("Industry peer P/E (highest / lowest / average)",
+                     " / ".join(x(ind.get(k)) for k in ("high", "low", "avg"))))
+    out = [CPE_START, "### As disclosed by the company (Basis for Offer Price)", "", "| Item | As disclosed |", "|---|---|"]
+    out += [f"| {a} | {b} |" for a, b in rows]
+    out += ["", "Source: " + c.get("source", "RHP, Basis for Offer Price") + ". The RHP prints the issuer's P/E as [●] until the "
+            "price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band "
+            "advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on "
+            "post-issue shares." + (" " + c["note"] if c.get("note") else ""), CPE_END, ""]
+    return "\n".join(out)
+
+
+def inject_company_pe(note_p, meta):
+    if not os.path.exists(note_p):
+        return
+    t = open(note_p).read()
+    t = re.sub(re.escape(CPE_START) + ".*?" + re.escape(CPE_END) + "\n*", "", t, flags=re.S)
+    block = company_pe_block(meta)
+    if block:
+        anchor = "### Is the reported P/E right?"
+        t = t.replace(anchor, block + "\n" + anchor, 1) if anchor in t else t.replace("## 6.", block + "\n## 6.", 1)
+    open(note_p, "w").write(t)
 
 
 def num(v):
@@ -77,6 +141,8 @@ def build(slug):
     if os.path.exists(os.path.join(d, "note.md")):
         meta["files"]["note"] = "note.md"
     meta["model"] = model_outputs(facts)
+    company_pe(meta)
+    inject_company_pe(os.path.join(d, "note.md"), meta)
     json.dump(meta, open(meta_p, "w"), indent=2, ensure_ascii=False)   # charts and PDF read meta.json
     charts = build_charts.build(slug)
     meta["counts"] = charts["counts"]

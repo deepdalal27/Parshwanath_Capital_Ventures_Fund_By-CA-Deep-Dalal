@@ -108,5 +108,23 @@
       "Larger, better-capitalised compounders (Kingfa, DDev) (p. 141)"
     ]
   },
-  "rhp_read": true
+  "rhp_read": true,
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 27.01,
+    "eps_basic": 5.99,
+    "eps_diluted": 5.99,
+    "industry_pe": {
+      "high": 46.25,
+      "low": 12.97,
+      "avg": 24.59
+    },
+    "source": "RHP pp. 140-141 (Basis for Offer Price); PAT p. 85",
+    "pe_floor_basic": 23.71,
+    "pe_cap_basic": 25.04,
+    "pe_floor_diluted": 23.71,
+    "pe_cap_diluted": 25.04,
+    "floor": 142.0,
+    "cap": 150.0
+  }
 }

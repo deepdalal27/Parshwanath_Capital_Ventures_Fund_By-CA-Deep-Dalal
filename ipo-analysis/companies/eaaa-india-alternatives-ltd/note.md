@@ -117,6 +117,20 @@ Sources: Add. pp. 7, 106-108; DRHP p. 19. FY23 (old basis): revenue Rs 652.59 cr
 
 **At the upper band (Rs 1,665):** 6.4280 crore shares (6.4955 crore with vested options); market cap Rs 10,702.7 cr (Rs 10,815.0 cr diluted); P/E 40.8x FY26 PAT on diluted shares (41.3x on diluted EPS; 33.5x on annualised Q1 FY27); P/B 9.3x Jun-26 book; EV about Rs 10,062 cr after net cash and investments of Rs 752.58 cr, 31.1x FY26 operating EBITDA. At Rs 1,585: P/E 38.8x. The OFS is 72.07 lakh shares, 11.1% of diluted capital.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 (attributable to owners) | Rs 265.20 cr |
+| EPS, FY26 (basic / diluted) | Rs 41.26 / Rs 40.36 |
+| P/E at floor price Rs 1,585 (basic / diluted) | 38.41x / 39.27x |
+| P/E at cap price Rs 1,665 (basic / diluted) | 40.35x / 41.25x |
+| Industry peer P/E (highest / lowest / average) | 48.59x / 28.94x / 38.23x |
+
+Source: SEBI Addendum (Sept-2026) pp. 8-9, Basis for Offer Price; PAT Add. p. 107 (RHP not reachable; provisional). The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported P/E flatters current earnings because distribution costs are capitalised. Adjusted P/E 73.6x against 40.8x reported (PAT -44.6%).** On the FY24-26 average the P/E is 48.4x reported and 86.4x adjusted. The policy is permitted and the cost is real, so read this as a timing flag, not a cash leak.

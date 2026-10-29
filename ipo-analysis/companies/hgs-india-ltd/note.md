@@ -90,6 +90,19 @@ Sources: Multibagg RHP analysis, Chanakya, ScanX, Chittorgarh, HDFC Sky. One tra
 
 **At the upper band (Rs 120):** post-issue shares 1.0859 crore; market cap **Rs 130.3 cr**. P/E **11.2x** on FY26 PAT (8.8x on pre-issue shares). Post-issue net worth about Rs 115.5 cr, P/B about 1.1x. At Rs 114: P/E 10.6x.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 | Rs 11.64 cr |
+| EPS, FY26 (basic / diluted) | Rs 13.64 / Rs 13.64 |
+| P/E at floor price Rs 114 (basic / diluted) | 8.36x / 8.36x |
+| P/E at cap price Rs 120 (basic / diluted) | 8.80x / 8.80x |
+
+Source: Public IPO trackers reproducing the offer document (RHP not reachable; provisional). The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares. EPS is PAT over the 85.33 lakh pre-issue shares implied by the trackers' pre-issue P/E of 8.80x at Rs 120; the RHP's weighted-average EPS may differ slightly. Industry P/E not reported by the trackers.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported P/E is a fair measure on the data available**, with one caveat. No adjustment could be quantified: 11.2x reported and 11.2x adjusted on FY26. On the FY24-26 average PAT the P/E is 15.0x.

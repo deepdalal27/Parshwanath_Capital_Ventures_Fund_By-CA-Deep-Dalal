@@ -55,6 +55,25 @@
     return esc(t);
   };
 
+  // PAT and P/E as the company discloses them (RHP Basis for Offer Price, at the price band)
+  function xx(v) { return v == null ? "-" : v.toFixed(2) + "x"; }
+  function companyPe(c) {
+    if (!c) return "";
+    return "<div><dt>PAT " + esc(c.period || "") + " (company)</dt><dd>" + (c.pat_cr != null ? "Rs " + c.pat_cr.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " cr" : "-") + "</dd></div>" +
+      '<div><dt>Company P/E at band</dt><dd title="Price band divided by the company\'s own EPS (RHP Basis for Offer Price)">' +
+      (c.pe_floor_basic != null ? c.pe_floor_basic.toFixed(1) + "x - " + c.pe_cap_basic.toFixed(1) + "x" : "-") + "</dd></div>";
+  }
+  function companyPeRows(c) {
+    if (!c) return [["Company PAT and P/E (RHP)", "Not yet recorded"]];
+    var ind = c.industry_pe || {};
+    return [["PAT " + (c.period || "") + " (as disclosed)", c.pat_cr != null ? "Rs " + c.pat_cr.toLocaleString("en-IN") + " cr" + (c.pat_basis ? " (" + c.pat_basis + ")" : "") : null],
+      ["EPS " + (c.period || "") + " (basic / diluted)", c.eps_basic != null ? "Rs " + c.eps_basic + " / Rs " + c.eps_diluted : null],
+      ["Company P/E at floor (basic / diluted)", xx(c.pe_floor_basic) + " / " + xx(c.pe_floor_diluted)],
+      ["Company P/E at cap (basic / diluted)", xx(c.pe_cap_basic) + " / " + xx(c.pe_cap_diluted)],
+      ["Industry peer P/E (high / low / avg, RHP)", ind.high != null ? ind.high + "x / " + ind.low + "x / " + ind.avg + "x" : null],
+      ["Source of company figures", c.source]];
+  }
+
   function issueCard(i, r, today) {
     var ph = phase(i, today), ub = upperBand(i.price_band || (r && r.price_band));
     var lot = i.lot_size || (r && r.lot_size);
@@ -69,7 +88,7 @@
       "<div><dt>Price band</dt><dd>" + bandText(i.price_band || (r && r.price_band)) + "</dd></div>" +
       "<div><dt>Lot / min. bid</dt><dd>" + (lot ? lot + " sh" + (minInv ? " &middot; " + inr(minInv) : "") : "-") + "</dd></div>" +
       "<div><dt>Issue size</dt><dd>" + (r && r.issue_size_cr ? inr(r.issue_size_cr) + " cr" : "-") + "</dd></div>" +
-      "<div><dt>Listing</dt><dd>" + short((r && r.listing_date) || i.listing_date) + "</dd></div></dl>";
+      "<div><dt>Listing</dt><dd>" + short((r && r.listing_date) || i.listing_date) + "</dd></div>" + companyPe(r && r.company_pe) + "</dl>";
     var val = "";
     if (r && r.neutral) {
       var up = ub && r.neutral.blended ? r.neutral.blended / ub - 1 : r.neutral.upside_cap;
@@ -77,7 +96,7 @@
         '<div><span class="ic__lbl">Fair value (Neutral)</span><b>' + inr(r.neutral.blended) + "</b></div>" +
         '<div><span class="ic__lbl">vs upper band</span><b class="' + (up >= -0.1 ? "pos" : up < -0.3 ? "neg" : "mid") + '">' + signed(up) + "</b></div>" +
         '<div><span class="ic__lbl">Bear - Bull</span><b>' + inr(r.bear) + " - " + inr(r.bull) + "</b></div>" +
-        '<div><span class="ic__lbl">P/E reported / adjusted</span><b>' + (r.pe_reported ? r.pe_reported.toFixed(1) + "x" : "-") + " / " +
+        '<div><span class="ic__lbl">Our P/E post-issue / adjusted</span><b>' + (r.pe_reported ? r.pe_reported.toFixed(1) + "x" : "-") + " / " +
         (r.pe_adjusted ? r.pe_adjusted.toFixed(1) + "x" : "-") + (r.eq_material ? ' <span class="flag-amber" title="Earnings-quality adjustments above 10%">&#9679;</span>' : "") + "</b></div></div>";
     }
     var prov = r && r.rhp_read === false ? '<p class="ic__prov">Provisional: built without the RHP, which was not retrievable (sources are stated in the report basis). It is refreshed automatically once the RHP is available.</p>' : "";
@@ -149,7 +168,7 @@
         ["Sector", m.sector], ["Lead manager(s)", m.brlm], ["Issue size (Rs cr)", rs(m.issue_size_cr)],
         ["Price band", m.price_band || "Not announced"], ["Lot size", m.lot_size], ["Subscription opens", m.open_date && date(m.open_date)],
         ["Subscription closes", m.close_date && date(m.close_date)], ["Listing", m.listing_date && date(m.listing_date)],
-        ["Stage of business", m.business_stage], ["Report depth", m.depth], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]];
+        ["Stage of business", m.business_stage]].concat(companyPeRows(m.company_pe)).concat([ ["Report depth", m.depth], ["Valuation reference", m.reference_note], ["Exit route underwritten", m.exit_route]]);
       $("facts").innerHTML = kv.map(function (p) { return "<dt>" + esc(p[0]) + "</dt><dd>" + (p[1] == null || p[1] === "" ? "-" : esc(p[1])) + "</dd>"; }).join("");
       var files = m.files || {}, dl = [];
       [["pdf", "Full report (.pdf)"], ["screening", "Screening checklist (.xlsx)"], ["anchor", "Anchor & QIB economics (.xlsx)"], ["valuation", "Comps & valuation model (.xlsx)"],
