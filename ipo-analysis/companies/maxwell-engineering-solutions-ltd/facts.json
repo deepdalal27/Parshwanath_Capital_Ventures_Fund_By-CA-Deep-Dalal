@@ -1,0 +1,374 @@
+{
+ "_source": "Maxwell Engineering Solutions Limited (NSE Emerge, symbol MAXENGS). The RHP sits on nsearchives.nseindia.com, which this environment cannot reach, and SME offer documents are not posted on SEBI. Figures are restated financials (FY24-FY26 and four months to 31-Jul-2026) as reproduced from the offer document by public IPO trackers (HDFC Sky, Chittorgarh, Chanakya Niti, IPO Central, unp.me), cross-checked against each other on 29-Oct-2026. Revenue is total income (the trackers do not split other income). Items marked 'estimate' are analyst estimates, not reported figures. No page cites are possible until the RHP is read. Price band, issue size and dates are from the NSE issue page.",
+ "screening": {
+  "basis": {
+   "name": "Maxwell Engineering Solutions Limited",
+   "platform": "SME",
+   "stage": "RHP",
+   "doc_date": null,
+   "aud_to": "2026-07-31",
+   "band": "Yes",
+   "brlm": "JDA Capital Services Limited",
+   "outside": "RHP not reachable (NSE archive host blocked); figures from public trackers reproducing the offer document",
+   "bid_cat": "NII / Retail",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    10.87,
+    22.59,
+    30.76,
+    12.25
+   ],
+   "oth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pbt": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "ctax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "dtax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pat": [
+    3.16,
+    9.18,
+    11.86,
+    3.05
+   ],
+   "cfo": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_s": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_p": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "nw": [
+    3.33,
+    13.01,
+    24.87,
+    27.92
+   ],
+   "recv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "inv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pay": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "gw": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "Restated total income FY24-26 and 4M to Jul-2026 (HDFC Sky, Chittorgarh, unp.me)",
+   "pat": "Restated (HDFC Sky, Chittorgarh)",
+   "nw": "Restated (Chanakya Niti FY24-26; Chittorgarh Jul-2026)"
+  },
+  "single": {
+   "top1c": null,
+   "top10c": null,
+   "top1s": null,
+   "geo": null,
+   "offer": 57.64
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "trackers",
+    "finding": "EPS Rs 11.80 on PAT Rs 11.86 cr and NAV Rs 24.74 on net worth Rs 24.87 cr both imply about 1.005 crore pre-issue shares; post-issue P/E 18.25x at Rs 158 reconciles on 1.370 crore shares."
+   },
+   "2": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Operating cash flow not available. Total assets rose to Rs 47.55 cr (Mar-26) and borrowings to Rs 16.73 cr while PAT was Rs 11.86 cr, so part of profit is being reinvested in plant and working capital."
+   },
+   "3": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Tax split not available; PAT is 78% of EBITDA, which suggests a concessional tax rate or material other income - to be checked in the RHP."
+   },
+   "4": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Related-party transactions not available. The company was incorporated in Sep-2022; whether it took over an earlier promoter business (and on what terms) is not known without the RHP."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "objects (trackers)",
+    "finding": "Objects Rs 42.80 cr (machinery and lab equipment 18.00 + building 6.50 + debt repayment 4.30 + working capital 14.00) over 36.48 lakh fresh shares = Rs 125 a share after 6% assumed expenses, below the Rs 150 floor."
+   },
+   "7": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Goodwill and intangibles not available."
+   },
+   "8": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Customer and geographic concentration not available; the company says it exports to 50+ countries. A single plant at Waghodia GIDC, Vadodara."
+   },
+   "9": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Contingent liabilities and litigation not available."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Auditor and any qualifications not available."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Fresh issue Rs 57.64 cr: monitoring agency mandatory above Rs 50 cr; to be named in the RHP."
+   },
+   "R5": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "SME eligibility: incorporated Sep-2022, so the operating track record is short; not re-computed from the RHP."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "JDA Capital Services (sole BRLM): track record not compiled. One tracker names Religo Capital Advisors (DRHP stage)."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not obtainable (nsearchives.nseindia.com blocked); tracker figures, no page cites",
+    "severity": "High",
+    "source": "RHP (NSE Emerge)"
+   },
+   {
+    "item": "Cash flow, fixed assets, receivables and inventory; D&A, capex and working capital are estimated",
+    "severity": "High",
+    "source": "RHP restated financials"
+   },
+   {
+    "item": "Why EBITDA margin is 52% (FY26) and 36% (4M FY27): pricing, mix, related-party sourcing or one-offs",
+    "severity": "High",
+    "source": "RHP MD&A / related-party note"
+   },
+   {
+    "item": "Customer concentration and export share; history before incorporation in Sep-2022",
+    "severity": "Medium",
+    "source": "RHP business / history sections"
+   },
+   {
+    "item": "Promoter names and holding, related-party transactions, litigation",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "JDA Capital Services track record",
+    "severity": "Low",
+    "source": "RHP / BRLM website"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Maxwell Engineering Solutions Limited",
+   "board": "SME",
+   "offer": 158,
+   "anchor_px": 158,
+   "issue": 57.64,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-29",
+   "allot_date": "2026-11-04",
+   "list_date": "2026-11-06"
+  },
+  "total_shares_lakh": 137.0,
+  "overhang": [
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    27.4,
+    1095,
+    "SEBI ICDR (SME): three years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Maxwell Engineering Solutions Limited",
+   "basis": "Standalone",
+   "pre_sh": 1.005,
+   "esop": 0,
+   "fresh": 57.638,
+   "fresh_sh_fixed": 0.3648,
+   "ofs_sh": 0,
+   "floor": 150,
+   "cap": 158,
+   "obj_net": 42.8,
+   "exp_pct": 0.06,
+   "gcp_pct": 0,
+   "ipo_capex": 24.5,
+   "rev0": 30.76,
+   "rev_prev": 22.59,
+   "ebitda0": 15.19,
+   "da0": 0.8,
+   "pat0": 11.86,
+   "nw0": 24.87,
+   "nd0": 16.73,
+   "nwc0": 12.0,
+   "nwc_prev": 8.0,
+   "capex0": 2.0,
+   "kd": 0.095
+  },
+  "drivers": {
+   "g1": [
+    0.08,
+    0.2,
+    0.3
+   ],
+   "g2": [
+    0.08,
+    0.18,
+    0.25
+   ],
+   "g3": [
+    0.07,
+    0.15,
+    0.2
+   ],
+   "g4": [
+    0.06,
+    0.12,
+    0.15
+   ],
+   "g5": [
+    0.06,
+    0.1,
+    0.12
+   ],
+   "m": [
+    0.3,
+    0.38,
+    0.45
+   ],
+   "nwc": [
+    0.42,
+    0.38,
+    0.34
+   ],
+   "roic": [
+    0.18,
+    0.22,
+    0.28
+   ]
+  },
+  "rationale": {
+   "g1": "Total income Rs 10.87 / 22.59 / 30.76 cr FY24-26 (+108%, +36%); Rs 12.25 cr in 4M FY27 (Rs 36.75 cr annualised, +19%). The issue funds Rs 18 cr of machinery and lab equipment and a new building, adding capacity from FY28. Neutral 20% then 18 / 15 / 12 / 10%; Bear 6-8%; Bull 30% fading to 12%.",
+   "m": "EBITDA margin 51.58% in FY26 (EBITDA Rs 15.19 cr) but 36.11% in 4M FY27 (Rs 4.29 cr). Aftermarket parts for underwater pelletizers are niche and high-value, but a 50% margin is unusual and has already come down. Neutral 38% (near the latest period); Bear 30%; Bull 45%.",
+   "nwc": "Estimate: not reported by trackers. An exporter of machined components carries receivables and inventory; assumed Rs 12 cr (39% of revenue) for FY26 and Rs 8 cr for FY25. Neutral 38%; Bear 42%; Bull 34%.",
+   "roic": "RoNW 47.70% and ROCE 38.46% in FY26 (10.93% and 9.87% for 4M FY27, not annualised). Terminal ROIC 22% (Neutral) for a niche engineering business after the issue doubles the capital base.",
+   "capex": "Estimates: D&A Rs 0.8 cr and maintenance-plus-organic capex Rs 2.0 cr a year (fixed assets are not disclosed by trackers). Capacity expansion is funded separately by the IPO capex object, Rs 24.50 cr (machinery and lab equipment Rs 18.00 cr + building Rs 6.50 cr), modelled 60% in Y1 and 40% in Y2, so organic capex is kept modest to avoid counting the same expansion twice. Net debt taken as gross borrowings Rs 16.73 cr (cash not disclosed). Fresh issue 36,48,000 shares = Rs 57.64 cr at Rs 158.",
+   "relative": "No usable peer: the two listed engineering names cited by trackers (Omnitech Engineering, Sunita Tools) trade near 100x earnings on RoNW of about 11%, a valuation driven by listing premia rather than earnings, and their figures come from a single unchecked table. They are shown but excluded, so fair value rests on the DCF alone (the model's rule when no peer is included)."
+  },
+  "peers": [
+   [
+    "Omnitech Engineering Ltd (per share)",
+    "N",
+    "Precision engineered components - tracker's peer; P/E ~99x, excluded",
+    "Standalone",
+    635.58,
+    1,
+    null,
+    null,
+    null,
+    6.42,
+    null,
+    null
+   ],
+   [
+    "Sunita Tools Ltd (per share)",
+    "N",
+    "Tooling and machined parts - tracker's peer; P/E ~101x, excluded",
+    "Standalone",
+    1059.84,
+    1,
+    null,
+    null,
+    null,
+    10.53,
+    null,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   null,
+   null,
+   15.19
+  ],
+  "_cite": "FY26 EBITDA Rs 15.19 cr and margin 51.58% (HDFC Sky, Chittorgarh); 4M FY27 EBITDA Rs 4.29 cr, margin 36.11%."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]. The RHP's notes are needed to test other income, tax and one-offs.",
+  "adjustments": [],
+  "checked": [
+   "PAT is 78% of EBITDA in FY26, high for a 25% tax rate: either a concessional tax regime or material other income - not testable without the RHP",
+   "4M FY27 margins (EBITDA 36.11%, PAT 25.70%) are well below FY26 (51.58%, 40.28%); the FY26 P/E may flatter recurring earnings",
+   "Cash tax, capitalised costs, exceptional items and related-party pricing could not be tested"
+  ]
+ }
+}

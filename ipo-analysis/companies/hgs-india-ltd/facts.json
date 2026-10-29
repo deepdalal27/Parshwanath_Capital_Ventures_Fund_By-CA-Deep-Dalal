@@ -1,0 +1,366 @@
+{
+ "_source": "HGS (India) Limited (NSE Emerge SME). The RHP is on nsearchives.nseindia.com, which this environment cannot reach, and SME offer documents are not posted on SEBI. Figures are restated financials to 31-Mar-2026 as reproduced from the offer document by public trackers (Multibagg RHP analysis, ScanX, Chanakya, Chittorgarh, HDFC Sky, IPO Watch, IPO Premium; read 29-Oct-2026), cross-checked against each other and against the NSE issue page (price band, issue split, BRLM). FY24 revenue from operations is not available; total income is shown. Items marked 'estimate' are analyst estimates, not reported figures. No page cites are possible until the RHP is read.",
+ "screening": {
+  "basis": {
+   "name": "HGS (India) Limited",
+   "platform": "SME",
+   "stage": "RHP",
+   "doc_date": null,
+   "aud_to": "2026-03-31",
+   "band": "Yes",
+   "brlm": "Hem Securities Limited",
+   "outside": "RHP not reachable (nsearchives.nseindia.com blocked); figures from public trackers reproducing the offer document; price band and issue split from the NSE issue page",
+   "bid_cat": "NII / Retail",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    37.93,
+    49.08,
+    45.16,
+    null
+   ],
+   "oth": [
+    null,
+    4.37,
+    3.75,
+    null
+   ],
+   "pbt": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "ctax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "dtax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pat": [
+    4.0,
+    10.51,
+    11.64,
+    null
+   ],
+   "cfo": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_s": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_p": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "nw": [
+    95.04,
+    85.16,
+    89.27,
+    null
+   ],
+   "recv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "inv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pay": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "gw": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "FY25-26 revenue from operations (Multibagg RHP analysis); FY24 total income (Chanakya, Multibagg)",
+   "oth": "Total income 53.45 / 48.91 less revenue from operations 49.08 / 45.16",
+   "pat": "Restated (Multibagg, Chanakya); FY26 PAT margin 25.77% on revenue (ScanX, HDFC Sky)",
+   "nw": "Restated (Chanakya); FY24 figure looks high against FY25 and needs the RHP"
+  },
+  "single": {
+   "top1c": null,
+   "top10c": 0.7258,
+   "top1s": null,
+   "geo": 0.8422,
+   "offer": 34.56
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "trackers",
+    "finding": "Pre-issue market cap Rs 102.39 cr at Rs 120 implies 85.33 lakh pre-issue shares; plus 23.26 lakh fresh = 108.59 lakh, matching the Rs 130.30 cr post-issue market cap. Pre-issue P/E 8.80x x PAT Rs 11.64 cr reconciles."
+   },
+   "2": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Operating cash flow not available without the RHP."
+   },
+   "3": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Current vs deferred tax split not available."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "FY25 buyback followed by a Rs 7.68 cr dividend before the IPO (explains net worth falling from Rs 95.04 cr to Rs 85.16 cr). Cash returned to existing holders shortly before raising fresh money; related-party transactions otherwise not available. One promoter is a company (Sowar Private Limited)."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "objects (trackers)",
+    "finding": "Specific objects Rs 19.36 cr (replacement plant and machinery Rs 15.05 cr, second-floor building at Manesar Rs 3.26 cr, gold-plating facility Rs 1.05 cr) over 23.26 lakh fresh shares = Rs 89 a share after 6% assumed expenses, below the Rs 114 floor. The balance of the Rs 27.91 cr fresh issue is for unidentified acquisitions and GCP."
+   },
+   "7": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Goodwill and intangibles not available."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "Top 10 customers 72.58% of FY26 revenue (90.05% in the stub to Apr-2026), no long-term contracts; exports 84.22% of FY26 revenue; geophone strings 66.29% of revenue; imports 73.65% of purchases. Normal for a niche seismic-equipment exporter, but concentration is high."
+   },
+   "9": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Contingent liabilities and litigation not available. Borrowings nil at 31-Mar-2026 and 30-Apr-2026 (bank debit balances Rs 0.46 cr not treated as borrowings)."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Auditor and any qualifications not available."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Fresh issue Rs 27.91 cr, below Rs 50 cr: monitoring agency not mandatory."
+   },
+   "R5": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "SME eligibility appears met (net worth Rs 89 cr, profitable); not re-computed from the RHP."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Hem Securities (sole BRLM): an active SME lead manager; track record not compiled in this run."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not obtainable (nsearchives.nseindia.com blocked); tracker figures, no page cites",
+    "severity": "High",
+    "source": "RHP (NSE Emerge)"
+   },
+   {
+    "item": "Source of other income (Rs 3.75 cr): treasury investments, forex gains or export incentives. Cash and bank are only Rs 5.83 cr, so if a larger treasury exists it is not credited in the model",
+    "severity": "High",
+    "source": "RHP restated balance sheet and notes"
+   },
+   {
+    "item": "Why revenue fell 8% in FY26 and the order position for FY27",
+    "severity": "Medium",
+    "source": "RHP MD&A"
+   },
+   {
+    "item": "Promoter holding (trackers give 67.53% or 87.3% pre-issue)",
+    "severity": "Medium",
+    "source": "RHP capital structure"
+   },
+   {
+    "item": "Listed peers named in the basis for offer price (none reported by trackers)",
+    "severity": "Medium",
+    "source": "RHP basis for offer price"
+   },
+   {
+    "item": "Lot size, allotment and listing dates",
+    "severity": "Low",
+    "source": "NSE issue page / RHP"
+   },
+   {
+    "item": "Related-party transactions and litigation",
+    "severity": "Medium",
+    "source": "RHP"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "HGS (India) Limited",
+   "board": "SME",
+   "offer": 120,
+   "anchor_px": 120,
+   "issue": 34.56,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-10-29",
+   "allot_date": null,
+   "list_date": null
+  },
+  "total_shares_lakh": 108.59,
+  "overhang": [
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    21.72,
+    1095,
+    "SEBI ICDR (SME): three years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "HGS (India) Limited",
+   "basis": "Standalone",
+   "pre_sh": 0.85325,
+   "esop": 0,
+   "fresh": 27.912,
+   "fresh_sh_fixed": 0.2326,
+   "ofs_sh": 0.0554,
+   "floor": 114,
+   "cap": 120,
+   "obj_net": 19.36,
+   "exp_pct": 0.06,
+   "gcp_pct": 0,
+   "ipo_capex": 19.36,
+   "rev0": 45.16,
+   "rev_prev": 49.08,
+   "ebitda0": 16.89,
+   "da0": 4.5,
+   "pat0": 11.64,
+   "nw0": 89.27,
+   "nd0": -5.83,
+   "nwc0": 16.0,
+   "nwc_prev": 17.0,
+   "capex0": 4.5,
+   "kd": 0.095,
+   "w_dcf": 1.0
+  },
+  "drivers": {
+   "g1": [
+    0.0,
+    0.08,
+    0.15
+   ],
+   "g2": [
+    0.03,
+    0.1,
+    0.15
+   ],
+   "g3": [
+    0.04,
+    0.09,
+    0.12
+   ],
+   "g4": [
+    0.04,
+    0.08,
+    0.1
+   ],
+   "g5": [
+    0.04,
+    0.07,
+    0.08
+   ],
+   "m": [
+    0.25,
+    0.32,
+    0.37
+   ],
+   "nwc": [
+    0.4,
+    0.35,
+    0.3
+   ],
+   "roic": [
+    0.14,
+    0.18,
+    0.24
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue from operations Rs 49.08 cr (FY25) -> Rs 45.16 cr (FY26), -8%; seismic-equipment demand follows oil, gas and mineral exploration budgets, so revenue is cyclical. The issue replaces old machinery (Rs 15.05 cr) and adds gold plating in-house, which supports capacity and margin rather than a step-up in volume. Neutral 8-10% then fading to 7%; Bear flat then 3-4%; Bull 15% fading to 8%.",
+   "m": "EBITDA margin 37.40% in FY26 (ScanX, Chittorgarh; another tracker gives 38.98%), high for a manufacturer and helped by an export-heavy niche mix. Neutral 32% (allowing for mean reversion as FY26 revenue fell while profit rose); Bear 25%; Bull 37% (FY26 level).",
+   "nwc": "Estimate: not reported by trackers. Taken as about 35% of revenue (Rs 16 cr) for an exporter with imported inputs; Neutral 35%, Bear 40%, Bull 30%.",
+   "roic": "ROCE 17.13% and RoNW 13.04% in FY26 on a large equity base; terminal ROIC 18% (Neutral).",
+   "capex": "D&A Rs 4.5 cr and base capex Rs 4.5 cr are estimates (EBITDA 16.89 + other income 3.75 - PBT ~15.6 implied by PAT at 25% tax leaves ~Rs 5 cr for D&A; the company reports nil borrowings, so interest is negligible). Net debt = nil borrowings less cash and bank balances Rs 5.83 cr (31-Mar-2026; Multibagg RHP analysis). No other investments are credited because none is reported, although Rs 3.75 cr of other income and a Rs 89 cr net worth against Rs 45 cr revenue suggest there may be treasury assets beyond the cash shown. IPO capex Rs 19.36 cr. Fresh issue 23.26 lakh shares = Rs 27.91 cr at Rs 120.",
+   "relative": "No listed Indian peer is reported from the offer document (the business is a niche seismic-equipment maker), so the relative method is not used and the fair value is the DCF alone (w_dcf = 1). For reference only, the post-issue P/E of 11.2x compares with about 15.5x for recent SME manufacturing IPOs (IPO Platform sector average), which is not a like-for-like peer set."
+  },
+  "peers": []
+ },
+ "kpi": {
+  "ebitda": [
+   null,
+   null,
+   16.89
+  ],
+  "_cite": "FY26 EBITDA = 37.40% margin x revenue Rs 45.16 cr (ScanX, Chittorgarh). FY24-25 EBITDA not available."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26].",
+  "adjustments": [
+   {
+    "item": "Other income in profit",
+    "short": "other income",
+    "pre_tax": [
+     0,
+     -4.37,
+     -3.75
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "trackers (total income less revenue from operations)",
+    "reason": "Other income Rs 4.37 cr (FY25) and Rs 3.75 cr (FY26), about 24% of FY26 pre-tax profit. Likely treasury income, forex and export incentives; it is real income if the treasury stays, but not operating. Shown for information; excluding it gives a higher P/E."
+   }
+  ],
+  "checked": [
+   "PAT rose 11% in FY26 while revenue from operations fell 8%: margin expansion (mix shift to geophone strings) explains it on the tracker data; not tested against the notes",
+   "FY24 net worth (Rs 95.04 cr) above FY25 (Rs 85.16 cr) implies a distribution or capital reduction in FY25; not explained by trackers",
+   "Cash tax, capitalised costs and exceptional items could not be tested without the RHP"
+  ]
+ }
+}

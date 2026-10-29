@@ -1,6 +1,62 @@
 {
-  "updated": "2026-10-28T12:15Z",
+  "updated": "2026-10-29T02:21Z",
   "issuers": [
+    {
+      "slug": "hgs-india-ltd",
+      "company": "HGS (India) Limited",
+      "platform": "SME",
+      "stage": "RHP",
+      "filed_on": null,
+      "analysed_on": "2026-10-29",
+      "sector": "Seismic equipment: geophones, geophone strings and cables (Manesar, Haryana)",
+      "brlm": "Hem Securities Limited",
+      "issue_size_cr": 34.56,
+      "price_band": "Rs 114-120",
+      "open_date": "2026-10-30",
+      "close_date": "2026-11-03",
+      "allotment_date": null,
+      "listing_date": null,
+      "lot_size": null,
+      "exchange": "NSE Emerge",
+      "depth": "Snapshot",
+      "rhp_read": false,
+      "call": "Avoid",
+      "business_stage": "Mature niche (40-year seismic-equipment maker; revenue cyclical, issue funds machinery replacement)",
+      "headline": "A 40-year-old Manesar maker of geophones and seismic cables that exports 84% of its sales, with a 37% EBITDA margin and no debt, priced at 11.2x FY26 earnings; but revenue fell 8% in FY26, ten customers give 73% of sales and cash flows from the operating business alone support about Rs 81 a share, so the call is Avoid at Rs 120 (Neutral at the Rs 114 floor).",
+      "red_flags": [
+        "Revenue from operations Rs 49.08 cr (FY25) -> Rs 45.16 cr (FY26), -8%; PAT Rs 10.51 cr -> Rs 11.64 cr as the margin rose; seismic demand is cyclical",
+        "Top 10 customers 72.58% of FY26 revenue (90.05% in the stub), no long-term contracts; exports 84.22%; geophone strings 66.29% of revenue",
+        "Other income Rs 3.75 cr (about 24% of pre-tax profit); its source is not disclosed by trackers",
+        "FY25 buyback and Rs 7.68 cr dividend before the IPO; OFS of 5.54 lakh shares alongside the fresh issue",
+        "RHP not reachable: figures from public trackers, no page cites; fair value Rs 45 / 81 / 116 vs Rs 120 (DCF only)"
+      ],
+      "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 2,
+        "pass": 2,
+        "open": 11
+      },
+      "focus_top": [
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration",
+        "Valuation model guard"
+      ],
+      "neutral": {
+        "dcf": 81.0677,
+        "relative": null,
+        "blended": 81.0677,
+        "upside_floor": -0.2889,
+        "upside_cap": -0.3244
+      },
+      "bear": 45.2153,
+      "bull": 116.0256,
+      "pdf": "HGS_INDIA_LTD_Report.pdf",
+      "pe_reported": 11.19,
+      "pe_adjusted": 11.19,
+      "eq_material": false
+    },
     {
       "slug": "johnsoncab-electricals-ltd",
       "company": "Johnsoncab Electricals Limited",
@@ -55,6 +111,62 @@
       "pdf": "JOHNSONCAB_ELECTRICALS_L_Report.pdf",
       "pe_reported": 15.75,
       "pe_adjusted": 15.75,
+      "eq_material": false
+    },
+    {
+      "slug": "maxwell-engineering-solutions-ltd",
+      "company": "Maxwell Engineering Solutions Limited",
+      "platform": "SME",
+      "stage": "RHP",
+      "filed_on": null,
+      "analysed_on": "2026-10-29",
+      "sector": "Aftermarket components for polymer pelletizing and extrusion systems (Vadodara)",
+      "brlm": "JDA Capital Services Limited",
+      "issue_size_cr": 57.64,
+      "price_band": "Rs 150-158",
+      "open_date": "2026-10-30",
+      "close_date": "2026-11-03",
+      "allotment_date": "2026-11-04",
+      "listing_date": "2026-11-06",
+      "lot_size": 800,
+      "exchange": "NSE Emerge",
+      "depth": "Snapshot",
+      "rhp_read": false,
+      "call": "Avoid",
+      "business_stage": "Early scaling (incorporated Sep-2022; revenue Rs 31 cr; issue funds new machinery and building)",
+      "headline": "A two-year-old Vadodara maker of aftermarket parts for polymer pelletizers with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 87 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
+      "red_flags": [
+        "Total income Rs 10.87 cr (FY24) -> Rs 22.59 cr -> Rs 30.76 cr (FY26); Rs 12.25 cr in 4M FY27",
+        "EBITDA margin 51.58% (FY26) fell to 36.11% in 4M FY27; PAT margin 40.28% -> 25.70%",
+        "Incorporated Sep-2022: short track record; history and any business transfer from promoters not yet read",
+        "Borrowings Rs 16.73 cr (Mar-26) against net worth Rs 24.87 cr; fresh issue repays Rs 4.30 cr",
+        "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 51 / 87 / 128 vs Rs 158"
+      ],
+      "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 0,
+        "pass": 2,
+        "open": 13
+      },
+      "focus_top": [
+        "Valuation model guard",
+        "Valuation model guard",
+        "Data gap (high)"
+      ],
+      "neutral": {
+        "dcf": 87.3902,
+        "relative": null,
+        "blended": 87.3902,
+        "upside_floor": -0.4174,
+        "upside_cap": -0.4469
+      },
+      "bear": 50.6706,
+      "bull": 127.9667,
+      "pdf": "MAXWELL_ENGINEERING_SOLU_Report.pdf",
+      "pe_reported": 18.25,
+      "pe_adjusted": 18.25,
       "eq_material": false
     },
     {
