@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-10-29T09:59Z",
+  "last_scan": "2026-10-29T13:31Z",
   "today_ist": "2026-10-29",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [],
@@ -166,14 +166,15 @@
       "open_date": "2026-10-30",
       "close_date": "2026-11-03",
       "price_band": "Rs 114-120",
-      "issue_size_shares": 2880000,
+      "issue_size_shares": 2066400,
       "source": "NSE",
-      "issue_size_text": "Initial Public Offer comprising of Fresh Issue of up to 23,26,000 equity shares and Offer for Sale of up to 5,54,000 Equity Shares (including Market Maker portion of 1,45,200 Equity Shares)",
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue of up to 23,26,000 equity shares and Offer for Sale of up to 5,54,000 Equity Shares (including Market Maker portion of 1,45,200 Equity Shares and Anchor Allocation of 8,13,600 Equity shares)",
       "brlm": "Hem Securities Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip",
       "status": "Upcoming",
       "slug": "hgs-india-ltd",
-      "report": "provisional"
+      "report": "provisional",
+      "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_HGSINDIALT.zip"
     },
     {
       "company": "Maxwell Engineering Solutions Limited",
@@ -183,14 +184,32 @@
       "open_date": "2026-10-30",
       "close_date": "2026-11-03",
       "price_band": "Rs 150-158",
-      "issue_size_shares": 3648000,
+      "issue_size_shares": 2624000,
       "source": "NSE",
       "status": "Upcoming",
       "slug": "maxwell-engineering-solutions-ltd",
       "report": "provisional",
-      "issue_size_text": "Initial Public Offer comprising of Fresh issue of up to 36,48,000 equity shares (including Market Maker portion of 2,22,400 Equity Shares)",
+      "issue_size_text": "Initial Public Offer comprising of Fresh issue of up to 36,48,000 equity shares (including Market Maker portion of 2,22,400 Equity Shares and Anchor Allocation 10,24,000 Equity Shares)",
       "brlm": "JDA CAPITAL SERVICES LIMITED (Formerly Known as Beeline Broking Limited)",
-      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_MAXENGS.zip"
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_MAXENGS.zip",
+      "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_MAXENGS.zip"
+    },
+    {
+      "company": "Vedant Poly Fabs Limited",
+      "symbol": "VPFL",
+      "platform": "SME",
+      "series": "SME",
+      "open_date": "2026-11-02",
+      "close_date": "2026-11-04",
+      "price_band": "Rs 88-94",
+      "issue_size_shares": 6030000,
+      "source": "NSE",
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue of up to 54,26,400 Equity Shares and Offer for sale of up to 6,03,600 Equity Shares (including market maker portion of 3,04,800 equity shares)",
+      "brlm": "Affinity Global Capital Market Private Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_VPFL.zip",
+      "status": "Upcoming",
+      "slug": "vedant-poly-fabs-ltd",
+      "report": "provisional"
     }
   ]
 }
