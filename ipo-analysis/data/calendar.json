@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-10-28T10:05Z",
-  "today_ist": "2026-10-28",
+  "last_scan": "2026-10-29T02:15Z",
+  "today_ist": "2026-10-29",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [],
   "issues": [
@@ -19,7 +19,7 @@
       "brlm": "Axis Capital Limited, Jefferies India Private Limited, Motilal Oswal Investment Advisors Limited, Nuvama Wealth Management Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_EDELALTS.zip",
       "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_EDELALTS.zip",
-      "status": "Open",
+      "status": "Closed",
       "slug": "eaaa-india-alternatives-ltd",
       "report": "provisional"
     },
@@ -126,18 +126,19 @@
       "open_date": "2026-10-29",
       "close_date": "2026-11-02",
       "price_band": "Rs 78-82",
-      "issue_size_shares": 23468846,
+      "issue_size_shares": 16533012,
       "source": "NSE",
       "lot_size": 182,
-      "issue_size_text": "Initial Public Offer comprising of Fresh Issue aggregating upto Rs. 1,830.57 million",
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue aggregating upto Rs. 1,830.57 million (including Anchor reservation portion of 65,97,500 Equity Shares)",
       "brlm": "Smart Horizon Capital Advisors Private Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_BCSSL.zip",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "bombay-coated-and-special-steels-ltd",
       "report": "published",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bombay-coated-and-special-steels-limited-rhp_105447.html",
       "rhp_filed_on": "2026-10-21",
-      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793079406414.PDF"
+      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1793079406414.PDF",
+      "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_BCSSL.zip"
     },
     {
       "company": "Johnsoncab Electricals Limited",
@@ -156,6 +157,37 @@
       "status": "Upcoming",
       "slug": "johnsoncab-electricals-ltd",
       "report": "provisional"
+    },
+    {
+      "company": "HGS (India) Limited",
+      "symbol": "HGSINDIALT",
+      "platform": "SME",
+      "series": "SME",
+      "open_date": "2026-10-30",
+      "close_date": "2026-11-03",
+      "price_band": "Rs 114-120",
+      "issue_size_shares": 2880000,
+      "source": "NSE",
+      "issue_size_text": "Initial Public Offer comprising of Fresh Issue of up to 23,26,000 equity shares and Offer for Sale of up to 5,54,000 Equity Shares (including Market Maker portion of 1,45,200 Equity Shares)",
+      "brlm": "Hem Securities Limited",
+      "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip",
+      "status": "Upcoming",
+      "slug": "hgs-india-ltd",
+      "report": "to_do"
+    },
+    {
+      "company": "Maxwell Engineering Solutions Limited",
+      "symbol": "MAXENGS",
+      "platform": "SME",
+      "series": "SME",
+      "open_date": "2026-10-30",
+      "close_date": "2026-11-03",
+      "price_band": "Rs 150-158",
+      "issue_size_shares": 3648000,
+      "source": "NSE",
+      "status": "Upcoming",
+      "slug": "maxwell-engineering-solutions-ltd",
+      "report": "to_do"
     }
   ]
 }
