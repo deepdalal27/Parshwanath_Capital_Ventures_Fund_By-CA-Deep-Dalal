@@ -1,14 +1,14 @@
 {
  "slug": "maxwell-engineering-solutions-ltd",
  "company": "Maxwell Engineering Solutions Limited",
- "generated": "2026-10-29T09:40Z",
+ "generated": "2026-10-29T10:04Z",
  "kpis": [
   {
    "label": "Revenue FY26",
-   "value": 30.76,
+   "value": 29.45,
    "fmt": "cr",
    "sub": "CAGR FY24-FY26",
-   "subval": 0.6822,
+   "subval": 0.646,
    "subfmt": "pct"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "label": "EBITDA margin",
-   "value": 0.4938,
+   "value": 0.5158,
    "fmt": "pct",
    "sub": "FY24",
    "subval": null,
@@ -57,10 +57,10 @@
   },
   {
    "label": "Blended value (Neutral)",
-   "value": 87.3902,
+   "value": 83.8517,
    "fmt": "rs",
    "sub": "vs reference",
-   "subval": -0.4469,
+   "subval": -0.4693,
    "subfmt": "pct"
   },
   {
@@ -256,7 +256,7 @@
   "revenue": [
    10.87,
    22.59,
-   30.76
+   29.45
   ],
   "ebitda": [
    null,
@@ -276,12 +276,12 @@
   "ebitda_margin": [
    null,
    null,
-   0.4938
+   0.5158
   ],
   "pat_margin": [
    0.2907,
    0.4064,
-   0.3856
+   0.4027
   ],
   "inventory": [
    null,
@@ -317,30 +317,30 @@
   "reference_note": "Upper band Rs 158 (36,48,000 fresh shares, Rs 57.64 cr). At Rs 158: market cap Rs 216.4 cr post-issue; P/E 18.25x on FY26 PAT (13.39x pre-issue; 23.65x on 4M FY27 annualised); P/B 2.74x post-issue; EV/EBITDA 11.8x FY26, 13.9x on 4M FY27 annualised. Objects floor Rs 125.",
   "scenarios": {
    "bear": {
-    "dcf": 50.6706,
+    "dcf": 48.8926,
     "relative": null,
-    "blended": 50.6706,
-    "upside_floor": -0.6622,
-    "upside_cap": -0.6793
+    "blended": 48.8926,
+    "upside_floor": -0.674,
+    "upside_cap": -0.6906
    },
    "neutral": {
-    "dcf": 87.3902,
+    "dcf": 83.8517,
     "relative": null,
-    "blended": 87.3902,
-    "upside_floor": -0.4174,
-    "upside_cap": -0.4469
+    "blended": 83.8517,
+    "upside_floor": -0.441,
+    "upside_cap": -0.4693
    },
    "bull": {
-    "dcf": 127.9667,
+    "dcf": 122.4214,
     "relative": null,
-    "blended": 127.9667,
-    "upside_floor": -0.1469,
-    "upside_cap": -0.1901
+    "blended": 122.4214,
+    "upside_floor": -0.1839,
+    "upside_cap": -0.2252
    }
   },
   "objects_floor": 124.8134,
   "wacc": 0.1438,
-  "tv_share": 0.8538,
+  "tv_share": 0.8658,
   "reverse": {
    "sentence": "The price asks the business to deliver 32.1 times its current free cash flow, in perpetuity.",
    "levers": [
@@ -356,13 +356,13 @@
     },
     {
      "label": "Lever 3 - required EBIT margin (steady state)",
-     "required": 0.9243624765720782,
-     "actual": 0.4678
+     "required": 0.9654801283313116,
+     "actual": 0.4886
     },
     {
      "label": "Lever 4 - required NWC % of revenue (steady state)",
      "required": "Unreachable: needs negative working capital",
-     "actual": 0.3901
+     "actual": 0.4075
     }
    ]
   }
@@ -377,36 +377,36 @@
    "Y5"
   ],
   "revenue": [
-   30.76,
-   36.912,
-   43.5562,
-   50.0896,
-   56.1003,
-   61.7104
+   29.45,
+   35.34,
+   41.7012,
+   47.9564,
+   53.7111,
+   59.0823
   ],
   "ebitda": [
    15.19,
-   14.0266,
-   16.5513,
-   19.034,
-   21.3181,
-   23.4499
+   13.4292,
+   15.8465,
+   18.2234,
+   20.4102,
+   22.4513
   ],
   "nopat": [
    10.768,
-   9.7777,
-   11.5377,
-   13.2683,
-   14.8605,
-   16.3466
+   9.3307,
+   11.0102,
+   12.6618,
+   14.1812,
+   15.5993
   ],
   "fcff": [
    5.568,
-   -7.8525,
-   -1.763,
-   9.826,
-   11.6936,
-   13.3908
+   -7.8288,
+   -2.3198,
+   9.1906,
+   10.9877,
+   12.6187
   ]
  },
  "sensitivity": {
@@ -427,39 +427,39 @@
    ],
    "values": [
     [
-     102.3139,
-     104.662,
-     107.2888,
-     110.251,
-     113.6217
+     98.0607,
+     100.3015,
+     102.8082,
+     105.635,
+     108.8516
     ],
     [
-     92.6796,
-     94.35,
-     96.1921,
-     98.2367,
-     100.5224
+     88.8833,
+     90.4773,
+     92.2352,
+     94.1864,
+     96.3676
     ],
     [
-     84.868,
-     86.0751,
-     87.3902,
-     88.8308,
-     90.4179
+     81.4448,
+     82.5966,
+     83.8517,
+     85.2264,
+     86.741
     ],
     [
-     78.4171,
-     79.2986,
-     80.249,
-     81.2781,
-     82.3979
+     75.3042,
+     76.1454,
+     77.0523,
+     78.0343,
+     79.103
     ],
     [
-     73.0084,
-     73.6561,
-     74.3477,
-     75.0889,
-     75.8866
+     70.1576,
+     70.7757,
+     71.4357,
+     72.143,
+     72.9042
     ]
    ]
   },
@@ -480,39 +480,39 @@
    ],
    "values": [
     [
-     84.8155,
-     87.1561,
-     89.4967,
-     91.8374,
-     94.178
+     81.3866,
+     83.6275,
+     85.8685,
+     88.1094,
+     90.3504
     ],
     [
-     83.7622,
-     86.1028,
-     88.4435,
-     90.7841,
-     93.1248
+     80.3782,
+     82.6191,
+     84.8601,
+     87.101,
+     89.342
     ],
     [
-     82.7089,
-     85.0496,
-     87.3902,
-     89.7308,
-     92.0715
+     79.3697,
+     81.6107,
+     83.8517,
+     86.0926,
+     88.3336
     ],
     [
-     81.6557,
-     83.9963,
-     86.3369,
-     88.6776,
-     91.0182
+     78.3613,
+     80.6023,
+     82.8432,
+     85.0842,
+     87.3252
     ],
     [
-     80.6024,
-     82.943,
-     85.2837,
-     87.6243,
-     89.965
+     77.3529,
+     79.5939,
+     81.8348,
+     84.0758,
+     86.3168
     ]
    ]
   }

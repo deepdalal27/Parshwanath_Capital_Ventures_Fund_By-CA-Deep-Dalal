@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T09:40Z",
+  "updated": "2026-10-29T10:05Z",
   "issuers": [
     {
       "slug": "hgs-india-ltd",
@@ -176,13 +176,13 @@
       },
       "call": "Avoid",
       "business_stage": "Early scaling (incorporated Sep-2022; revenue Rs 31 cr; issue funds new machinery and building)",
-      "headline": "A two-year-old Vadodara maker of aftermarket parts for polymer pelletizers with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 87 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
+      "headline": "A Vadodara maker of aftermarket parts for polymer pelletizers, incorporated in 2022, with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 84 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
       "red_flags": [
-        "Total income Rs 10.87 cr (FY24) -> Rs 22.59 cr -> Rs 30.76 cr (FY26); Rs 12.25 cr in 4M FY27",
+        "Revenue from operations Rs 29.45 cr in FY26 (total income Rs 10.87 cr FY24 -> Rs 22.59 cr FY25 -> Rs 30.76 cr FY26); Rs 12.25 cr total income in 4M FY27",
         "EBITDA margin 51.58% (FY26) fell to 36.11% in 4M FY27; PAT margin 40.28% -> 25.70%",
         "Incorporated Sep-2022: short track record; history and any business transfer from promoters not yet read",
         "Borrowings Rs 16.73 cr (Mar-26) against net worth Rs 24.87 cr; fresh issue repays Rs 4.30 cr",
-        "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 51 / 87 / 128 vs Rs 158"
+        "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 49 / 84 / 122 vs Rs 158"
       ],
       "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
       "status": "analysed",
@@ -198,14 +198,14 @@
         "Data gap (high)"
       ],
       "neutral": {
-        "dcf": 87.3902,
+        "dcf": 83.8517,
         "relative": null,
-        "blended": 87.3902,
-        "upside_floor": -0.4174,
-        "upside_cap": -0.4469
+        "blended": 83.8517,
+        "upside_floor": -0.441,
+        "upside_cap": -0.4693
       },
-      "bear": 50.6706,
-      "bull": 127.9667,
+      "bear": 48.8926,
+      "bull": 122.4214,
       "pdf": "MAXWELL_ENGINEERING_SOLU_Report.pdf",
       "pe_reported": 18.25,
       "pe_adjusted": 18.25,
@@ -292,47 +292,42 @@
       "platform": "Mainboard",
       "stage": "RHP",
       "filed_on": "2026-05-20",
-      "analysed_on": "2026-10-26",
+      "analysed_on": "2026-10-29",
       "sector": "Jewellery retail (Mumbai and Ahmedabad)",
       "brlm": "Aryaman Financial Services Limited",
       "issue_size_cr": 275.4,
       "price_band": "Rs 153-162",
       "open_date": "2026-10-28",
       "close_date": "2026-10-30",
-      "allotment_date": null,
-      "listing_date": null,
+      "allotment_date": "2026-11-02",
+      "listing_date": "2026-11-04",
       "lot_size": 91,
       "exchange": "NSE, BSE",
       "depth": "Full",
       "rhp_read": false,
       "company_pe": {
-        "period": "FY25",
-        "pat_cr": 23.26,
-        "eps_basic": 10.26,
-        "eps_diluted": 10.26,
-        "industry_pe": {
-          "high": 32.86,
-          "low": 11.27,
-          "avg": 22.07
-        },
-        "source": "DRHP dated 11-May-2026, Basis for Offer Price (p. 100); PAT p. 227 (RHP not reachable; provisional)",
-        "note": "The DRHP's latest full year is FY25; the RHP may base the P/E on FY26.",
-        "pe_floor_basic": 14.91,
-        "pe_cap_basic": 15.79,
-        "pe_floor_diluted": 14.91,
-        "pe_cap_diluted": 15.79,
+        "period": "FY26",
+        "pat_cr": 51.79,
+        "eps_basic": 12.13,
+        "eps_diluted": 12.13,
+        "source": "RHP Basis for Offer Price as reproduced by IPO trackers (Kotak Neo, Finology; RHP not reachable; provisional)",
+        "note": "Trackers report diluted EPS Rs 12.13; basic EPS assumed equal (no dilutive instruments in the DRHP). PAT / EPS = 4.27 crore shares, the full pre-issue count. The RHP's industry peer P/E was not reported by the trackers.",
+        "pe_floor_basic": 12.61,
+        "pe_cap_basic": 13.36,
+        "pe_floor_diluted": 12.61,
+        "pe_cap_diluted": 13.36,
         "floor": 153.0,
         "cap": 162.0
       },
-      "call": "Neutral",
+      "call": "Subscribe",
       "business_stage": "Early scaling (5 showrooms, expanding with issue-funded inventory)",
-      "headline": "A fast-growing Mumbai-Ahmedabad jewellery retailer (5 showrooms, 13% EBITDA margin) raising Rs 220 cr of fresh money to stock new showrooms, priced at 23x annualised earnings against a 22x peer median; our fair value is Rs 120 (Neutral) because inventory-heavy growth leaves little free cash flow.",
+      "headline": "A fast-growing Mumbai-Ahmedabad jewellery retailer (5 showrooms; FY26 revenue Rs 539 cr, PAT Rs 51.8 cr, 15% EBITDA margin) raising Rs 220 cr of fresh money to stock new showrooms, priced at 17.6x FY26 earnings against a 22x peer median; fair value Rs 149 (Subscribe, close to the line) because inventory-heavy growth still leaves thin free cash flow.",
       "red_flags": [
-        "Revenue Rs 217.32 cr (FY24) -> Rs 351.28 cr (FY25) -> Rs 360.82 cr in 9M FY26; EBITDA margin 5.9% -> 11.0% -> 13.4%, helped by rising gold prices (pp. 101, 227)",
-        "Inventory Rs 240.59 cr (205 days); operating cash flow negative FY23-25, +Rs 18.01 cr in 9M FY26; no gold hedging disclosed (pp. 101, 226, 228)",
+        "Revenue Rs 217.32 cr (FY24) -> Rs 351.28 cr (FY25) -> Rs 538.73 cr (FY26); EBITDA margin 5.9% -> 11.0% -> 15.4%, helped by rising gold prices (DRHP p. 101; FY26 RHP via trackers)",
+        "FY26 operating cash flow Rs 15.40 cr against PAT Rs 51.79 cr; inventory Rs 240.59 cr (205 days) at Dec-25; no gold hedging disclosed",
         "Promoter's proprietorship merged in Mar-2025 for 40.38 lakh shares (Rs 71.07 cr); Rs 21.52 cr of FY25 purchases from it before the merger (pp. 64, 189)",
         "Ahmedabad showrooms 62.40% of 9M FY26 revenue; five showrooms in two cities (pp. 23, 91)",
-        "RHP not reachable: DRHP (May-2026) figures used; fair value Rs 103 / 120 / 141 vs Rs 162"
+        "RHP not reachable: FY26 figures from trackers reproducing the RHP; fair value Rs 127 / 149 / 175 vs Rs 162 (was Rs 103 / 120 / 141 on DRHP figures)"
       ],
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/may-2026/m-k-sons-fine-jewels-limited_101528.html",
       "status": "analysed",
@@ -348,17 +343,17 @@
         "Customer / supplier / geographic concentration"
       ],
       "neutral": {
-        "dcf": 88.6145,
-        "relative": 150.4771,
-        "blended": 119.5458,
-        "upside_floor": -0.2187,
-        "upside_cap": -0.2621
+        "dcf": 110.5223,
+        "relative": 187.05,
+        "blended": 148.7861,
+        "upside_floor": -0.0275,
+        "upside_cap": -0.0816
       },
-      "bear": 103.0534,
-      "bull": 140.8824,
+      "bear": 126.7113,
+      "bull": 174.5953,
       "pdf": "M_K_SONS_FINE_JEWELS_LTD_Report.pdf",
-      "pe_reported": 39.2,
-      "pe_adjusted": 39.24,
+      "pe_reported": 17.61,
+      "pe_adjusted": 17.62,
       "eq_material": false
     },
     {
@@ -371,7 +366,7 @@
       "sector": "Polymer compounds for wires, cables and pipe coating",
       "brlm": "Unistone Capital Private Limited",
       "issue_size_cr": 255.0,
-      "price_band": "Rs 142-150 (press reports; exchange notice pending)",
+      "price_band": "Rs 142-150",
       "open_date": "2026-10-27",
       "close_date": "2026-10-29",
       "allotment_date": "2026-10-30",

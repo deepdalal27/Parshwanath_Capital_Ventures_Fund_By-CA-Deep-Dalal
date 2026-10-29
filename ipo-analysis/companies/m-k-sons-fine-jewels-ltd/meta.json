@@ -12,15 +12,15 @@
   "price_band": "Rs 153-162",
   "open_date": "2026-10-28",
   "close_date": "2026-10-30",
-  "allotment_date": null,
-  "listing_date": null,
+  "allotment_date": "2026-11-02",
+  "listing_date": "2026-11-04",
   "lot_size": 91,
   "exchange": "NSE, BSE",
   "depth": "Full",
-  "call": "Neutral",
+  "call": "Subscribe",
   "exit_route": "2-3 year hold (assumed)",
   "status": "analysed",
-  "analysed_on": "2026-10-26",
+  "analysed_on": "2026-10-29",
   "business_stage": "Early scaling (5 showrooms, expanding with issue-funded inventory)",
   "anchor": {
     "amount_cr": null,
@@ -37,32 +37,31 @@
   },
   "model": {
     "bear": {
-      "dcf": 55.6298,
-      "relative": 150.4771,
-      "blended": 103.0534,
-      "upside_floor": -0.3264,
-      "upside_cap": -0.3639
+      "dcf": 66.3725,
+      "relative": 187.05,
+      "blended": 126.7113,
+      "upside_floor": -0.1718,
+      "upside_cap": -0.2178
     },
     "neutral": {
-      "dcf": 88.6145,
-      "relative": 150.4771,
-      "blended": 119.5458,
-      "upside_floor": -0.2187,
-      "upside_cap": -0.2621
+      "dcf": 110.5223,
+      "relative": 187.05,
+      "blended": 148.7861,
+      "upside_floor": -0.0275,
+      "upside_cap": -0.0816
     },
     "flags": [
-      "AMBER: DCF and relative diverge by -41.1% - the divergence is the finding; name its cause",
-      "RED: objects floor sits above blended fair value",
+      "AMBER: DCF and relative diverge by -40.9% - the divergence is the finding; name its cause",
       "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
     ],
-    "reverse_dcf": "The price asks the business to deliver 47.2 times its current free cash flow, in perpetuity.",
+    "reverse_dcf": "The price asks the business to deliver 37.5 times its current free cash flow, in perpetuity.",
     "objects_floor": 133.4603,
     "bull": {
-      "dcf": 131.2878,
-      "relative": 150.4771,
-      "blended": 140.8824,
-      "upside_floor": -0.0792,
-      "upside_cap": -0.1304
+      "dcf": 162.1406,
+      "relative": 187.05,
+      "blended": 174.5953,
+      "upside_floor": 0.1411,
+      "upside_cap": 0.0777
     }
   },
   "counts": {
@@ -76,15 +75,15 @@
     "Related-party capex & subsidiaries",
     "Customer / supplier / geographic concentration"
   ],
-  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 162 upper band: Neutral value Rs 120 is 26.2% below (within 10-30%), so the call is Neutral. No material issue was found. Figures are from the DRHP because the RHP was not reachable.",
-  "reference_note": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 23.4x on 9M FY26 PAT annualised (39.2x on FY25, before a full year of the merged business); P/B 2.49x post-issue; EV/EBITDA 11.8x annualised. Objects floor Rs 133.46.",
-  "headline": "A fast-growing Mumbai-Ahmedabad jewellery retailer (5 showrooms, 13% EBITDA margin) raising Rs 220 cr of fresh money to stock new showrooms, priced at 23x annualised earnings against a 22x peer median; our fair value is Rs 120 (Neutral) because inventory-heavy growth leaves little free cash flow.",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 162 upper band: Neutral value Rs 149 is 8.2% below (within 10%), so the call is Subscribe. Updated 29-Oct-2026 from Neutral on FY26 results in the RHP (via trackers). Close to the line: Subscribe up to about Rs 165. No material issue was found.",
+  "reference_note": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 17.6x on FY26 PAT (13.4x pre-issue on the company's EPS of Rs 12.13); P/B 2.35x post-issue; EV/EBITDA 9.2x FY26. Objects floor Rs 133.46.",
+  "headline": "A fast-growing Mumbai-Ahmedabad jewellery retailer (5 showrooms; FY26 revenue Rs 539 cr, PAT Rs 51.8 cr, 15% EBITDA margin) raising Rs 220 cr of fresh money to stock new showrooms, priced at 17.6x FY26 earnings against a 22x peer median; fair value Rs 149 (Subscribe, close to the line) because inventory-heavy growth still leaves thin free cash flow.",
   "red_flags": [
-    "Revenue Rs 217.32 cr (FY24) -> Rs 351.28 cr (FY25) -> Rs 360.82 cr in 9M FY26; EBITDA margin 5.9% -> 11.0% -> 13.4%, helped by rising gold prices (pp. 101, 227)",
-    "Inventory Rs 240.59 cr (205 days); operating cash flow negative FY23-25, +Rs 18.01 cr in 9M FY26; no gold hedging disclosed (pp. 101, 226, 228)",
+    "Revenue Rs 217.32 cr (FY24) -> Rs 351.28 cr (FY25) -> Rs 538.73 cr (FY26); EBITDA margin 5.9% -> 11.0% -> 15.4%, helped by rising gold prices (DRHP p. 101; FY26 RHP via trackers)",
+    "FY26 operating cash flow Rs 15.40 cr against PAT Rs 51.79 cr; inventory Rs 240.59 cr (205 days) at Dec-25; no gold hedging disclosed",
     "Promoter's proprietorship merged in Mar-2025 for 40.38 lakh shares (Rs 71.07 cr); Rs 21.52 cr of FY25 purchases from it before the merger (pp. 64, 189)",
     "Ahmedabad showrooms 62.40% of 9M FY26 revenue; five showrooms in two cities (pp. 23, 91)",
-    "RHP not reachable: DRHP (May-2026) figures used; fair value Rs 103 / 120 / 141 vs Rs 162"
+    "RHP not reachable: FY26 figures from trackers reproducing the RHP; fair value Rs 127 / 149 / 175 vs Rs 162 (was Rs 103 / 120 / 141 on DRHP figures)"
   ],
   "swot": {
     "strengths": [
@@ -112,21 +111,16 @@
   },
   "rhp_read": false,
   "company_pe": {
-    "period": "FY25",
-    "pat_cr": 23.26,
-    "eps_basic": 10.26,
-    "eps_diluted": 10.26,
-    "industry_pe": {
-      "high": 32.86,
-      "low": 11.27,
-      "avg": 22.07
-    },
-    "source": "DRHP dated 11-May-2026, Basis for Offer Price (p. 100); PAT p. 227 (RHP not reachable; provisional)",
-    "note": "The DRHP's latest full year is FY25; the RHP may base the P/E on FY26.",
-    "pe_floor_basic": 14.91,
-    "pe_cap_basic": 15.79,
-    "pe_floor_diluted": 14.91,
-    "pe_cap_diluted": 15.79,
+    "period": "FY26",
+    "pat_cr": 51.79,
+    "eps_basic": 12.13,
+    "eps_diluted": 12.13,
+    "source": "RHP Basis for Offer Price as reproduced by IPO trackers (Kotak Neo, Finology; RHP not reachable; provisional)",
+    "note": "Trackers report diluted EPS Rs 12.13; basic EPS assumed equal (no dilutive instruments in the DRHP). PAT / EPS = 4.27 crore shares, the full pre-issue count. The RHP's industry peer P/E was not reported by the trackers.",
+    "pe_floor_basic": 12.61,
+    "pe_cap_basic": 13.36,
+    "pe_floor_diluted": 12.61,
+    "pe_cap_diluted": 13.36,
     "floor": 153.0,
     "cap": 162.0
   }

@@ -28,18 +28,18 @@
   },
   "model": {
     "bear": {
-      "dcf": 50.6706,
+      "dcf": 48.8926,
       "relative": null,
-      "blended": 50.6706,
-      "upside_floor": -0.6622,
-      "upside_cap": -0.6793
+      "blended": 48.8926,
+      "upside_floor": -0.674,
+      "upside_cap": -0.6906
     },
     "neutral": {
-      "dcf": 87.3902,
+      "dcf": 83.8517,
       "relative": null,
-      "blended": 87.3902,
-      "upside_floor": -0.4174,
-      "upside_cap": -0.4469
+      "blended": 83.8517,
+      "upside_floor": -0.441,
+      "upside_cap": -0.4693
     },
     "flags": [
       "RED: objects floor sits above blended fair value",
@@ -48,11 +48,11 @@
     "reverse_dcf": "The price asks the business to deliver 32.1 times its current free cash flow, in perpetuity.",
     "objects_floor": 124.8134,
     "bull": {
-      "dcf": 127.9667,
+      "dcf": 122.4214,
       "relative": null,
-      "blended": 127.9667,
-      "upside_floor": -0.1469,
-      "upside_cap": -0.1901
+      "blended": 122.4214,
+      "upside_floor": -0.1839,
+      "upside_cap": -0.2252
     }
   },
   "counts": {
@@ -75,15 +75,15 @@
     "mf_share": null,
     "source": "Anchor portion, if any, bids 29-Oct-2026; NSE allocation report not reachable"
   },
-  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 158 upper band: Neutral value Rs 87 is 44.7% below and the Bull value Rs 128 is also below the price, so the call is Avoid. The value rests on the DCF alone because no usable listed peer was available (the two cited trade near 100x earnings). No governance or accounting issue was found in the data available. Figures come from public trackers because the RHP was not reachable.",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 158 upper band: Neutral value Rs 84 is 46.9% below and the Bull value Rs 122 is also below the price, so the call is Avoid. The value rests on the DCF alone because no usable listed peer was available (the two cited trade near 100x earnings). No governance or accounting issue was found in the data available. Figures come from public trackers because the RHP was not reachable.",
   "reference_note": "Upper band Rs 158 (36,48,000 fresh shares, Rs 57.64 cr). At Rs 158: market cap Rs 216.4 cr post-issue; P/E 18.25x on FY26 PAT (13.39x pre-issue; 23.65x on 4M FY27 annualised); P/B 2.74x post-issue; EV/EBITDA 11.8x FY26, 13.9x on 4M FY27 annualised. Objects floor Rs 125.",
-  "headline": "A two-year-old Vadodara maker of aftermarket parts for polymer pelletizers with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 87 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
+  "headline": "A Vadodara maker of aftermarket parts for polymer pelletizers, incorporated in 2022, with a 52% FY26 EBITDA margin (36% in the latest four months), raising Rs 58 cr of fresh money at 18x FY26 and 24x annualised current earnings; our fair value is Rs 84 (Avoid) because the margin is already falling and there is no listed peer to support a higher multiple.",
   "red_flags": [
-    "Total income Rs 10.87 cr (FY24) -> Rs 22.59 cr -> Rs 30.76 cr (FY26); Rs 12.25 cr in 4M FY27",
+    "Revenue from operations Rs 29.45 cr in FY26 (total income Rs 10.87 cr FY24 -> Rs 22.59 cr FY25 -> Rs 30.76 cr FY26); Rs 12.25 cr total income in 4M FY27",
     "EBITDA margin 51.58% (FY26) fell to 36.11% in 4M FY27; PAT margin 40.28% -> 25.70%",
     "Incorporated Sep-2022: short track record; history and any business transfer from promoters not yet read",
     "Borrowings Rs 16.73 cr (Mar-26) against net worth Rs 24.87 cr; fresh issue repays Rs 4.30 cr",
-    "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 51 / 87 / 128 vs Rs 158"
+    "RHP not reachable: tracker figures, no page cites; DCF-only fair value Rs 49 / 84 / 122 vs Rs 158"
   ],
   "swot": {
     "strengths": [
