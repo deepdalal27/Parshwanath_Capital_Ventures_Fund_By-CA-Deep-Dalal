@@ -1,47 +1,47 @@
 {
  "slug": "m-k-sons-fine-jewels-ltd",
  "company": "M. K. Sons Fine Jewels Limited",
- "generated": "2026-10-29T09:39Z",
+ "generated": "2026-10-29T10:02Z",
  "kpis": [
   {
-   "label": "Revenue FY25",
-   "value": 351.28,
+   "label": "Revenue FY26",
+   "value": 538.73,
    "fmt": "cr",
-   "sub": "CAGR FY23-FY25",
-   "subval": 2.7551,
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.5745,
    "subfmt": "pct"
   },
   {
-   "label": "PAT FY25",
-   "value": 23.262,
+   "label": "PAT FY26",
+   "value": 51.79,
    "fmt": "cr",
-   "sub": "CAGR FY23-FY25",
-   "subval": 3.1681,
+   "sub": "CAGR FY24-FY26",
+   "subval": 1.5185,
    "subfmt": "pct"
   },
   {
    "label": "EBITDA margin",
-   "value": 0.1098,
+   "value": 0.1539,
    "fmt": "pct",
-   "sub": "FY23",
-   "subval": 0.0911,
+   "sub": "FY24",
+   "subval": 0.0592,
    "subfmt": "pct"
   },
   {
    "label": "Cash conversion (CFO / PAT, 3 yrs)",
-   "value": -1.1608,
+   "value": -0.2126,
    "fmt": "pct",
    "tone": "bad"
   },
   {
    "label": "Cash tax rate (3 yrs)",
-   "value": 0.2652,
+   "value": null,
    "fmt": "pct",
-   "tone": "good"
+   "tone": "warn"
   },
   {
    "label": "P/E at reference (post-issue)",
-   "value": 23.45,
+   "value": 17.61,
    "fmt": "x",
    "sub": "peer median",
    "subval": 21.9336,
@@ -49,32 +49,32 @@
   },
   {
    "label": "Adjusted P/E (earnings quality)",
-   "value": 39.24,
+   "value": 17.62,
    "fmt": "x",
    "sub": "reported",
-   "subval": 39.2,
+   "subval": 17.61,
    "subfmt": "x"
   },
   {
    "label": "Blended value (Neutral)",
-   "value": 119.5458,
+   "value": 148.7861,
    "fmt": "rs",
    "sub": "vs reference",
-   "subval": -0.2621,
+   "subval": -0.0816,
    "subfmt": "pct"
   },
   {
    "label": "Reference price",
    "value": 162.0,
    "fmt": "rs",
-   "sub": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 23.4x on 9M FY26 PAT annualised (39.2x on FY25, before a full year of the merged business); P/B 2.49x post-issue; EV/EBITDA 11.8x annualised. Objects floor Rs 133.46."
+   "sub": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 17.6x on FY26 PAT (13.4x pre-issue on the company's EPS of Rs 12.13); P/B 2.35x post-issue; EV/EBITDA 9.2x FY26. Objects floor Rs 133.46."
   }
  ],
  "focus": [
   {
    "level": "WATCH",
    "title": "Cash flow vs profit",
-   "detail": "Operating cash flow Rs -4.95 / -23.56 / -9.53 cr FY23-25 against PAT Rs 1.34 / 8.17 / 23.26 cr as inventory rose from Rs 44.81 cr to Rs 205.70 cr; 9M FY26 CFO +Rs 18.01 cr against PAT Rs 29.17 cr. Typical for a jewellery retailer stocking new showrooms; inventory days 122 -> 178 -> 205 (p. 101).",
+   "detail": "Operating cash flow Rs -23.56 / -9.53 cr FY24-25 (DRHP p. 228) and +Rs 15.40 cr in FY26 (RHP via trackers) against PAT Rs 8.17 / 23.26 / 51.79 cr; one tracker reports Q1 FY27 CFO about Rs -2.84 cr (single source). Typical for a jewellery retailer stocking new showrooms; most profit is reinvested in inventory.",
    "page": "p. 228"
   },
   {
@@ -92,13 +92,7 @@
   {
    "level": "GUARD",
    "title": "Valuation model guard",
-   "detail": "AMBER: DCF and relative diverge by -41.1% - the divergence is the finding; name its cause",
-   "page": ""
-  },
-  {
-   "level": "GUARD",
-   "title": "Valuation model guard",
-   "detail": "RED: objects floor sits above blended fair value",
+   "detail": "AMBER: DCF and relative diverge by -40.9% - the divergence is the finding; name its cause",
    "page": ""
   },
   {
@@ -110,7 +104,7 @@
   {
    "level": "GAP",
    "title": "Data gap (high)",
-   "detail": "RHP not obtainable (nsearchives.nseindia.com blocked; not posted on SEBI); DRHP figures used - RHP may add or restate numbers",
+   "detail": "RHP not obtainable (nsearchives blocked); FY26 headline figures (revenue, EBITDA, PAT, net worth, borrowings, CFO) from trackers reproducing the RHP; FY26 working capital, cash and D&A estimated",
    "page": "RHP"
   },
   {
@@ -130,12 +124,6 @@
    "title": "Data gap (medium)",
    "detail": "Gold-price gains in gross margin (inventory held while gold rose); no hedging policy disclosed",
    "page": "RHP MD&A / management"
-  },
-  {
-   "level": "GAP",
-   "title": "Data gap (medium)",
-   "detail": "Audited numbers end 31-Dec-2025 (299 days old); Q4 FY26 and FY26 full-year not in the DRHP",
-   "page": "RHP"
   }
  ],
  "comfort": [
@@ -188,7 +176,7 @@
    "check": "Cash flow vs profit",
    "status": "WATCH",
    "page": "p. 228",
-   "finding": "Operating cash flow Rs -4.95 / -23.56 / -9.53 cr FY23-25 against PAT Rs 1.34 / 8.17 / 23.26 cr as inventory rose from Rs 44.81 cr to Rs 205.70 cr; 9M FY26 CFO +Rs 18.01 cr against PAT Rs 29.17 cr. Typical for a jewellery retailer stocking new showrooms; inventory days 122 -> 178 -> 205 (p. 101)."
+   "finding": "Operating cash flow Rs -23.56 / -9.53 cr FY24-25 (DRHP p. 228) and +Rs 15.40 cr in FY26 (RHP via trackers) against PAT Rs 8.17 / 23.26 / 51.79 cr; one tracker reports Q1 FY27 CFO about Rs -2.84 cr (single source). Typical for a jewellery retailer stocking new showrooms; most profit is reinvested in inventory."
   },
   {
    "id": "3",
@@ -298,64 +286,64 @@
  ],
  "history": {
   "years": [
-   "FY23",
    "FY24",
-   "FY25"
+   "FY25",
+   "FY26"
   ],
   "revenue": [
-   24.912,
    217.323,
-   351.28
+   351.28,
+   538.73
   ],
   "ebitda": [
-   2.269,
    12.871,
-   38.568
+   38.568,
+   82.93
   ],
   "pat": [
-   1.339,
    8.165,
-   23.262
+   23.262,
+   51.79
   ],
   "cfo": [
-   -4.947,
    -23.557,
-   -9.531
+   -9.531,
+   15.4
   ],
   "ebitda_margin": [
-   0.0911,
    0.0592,
-   0.1098
+   0.1098,
+   0.1539
   ],
   "pat_margin": [
-   0.0537,
    0.0376,
-   0.0662
+   0.0662,
+   0.0961
   ],
   "inventory": [
-   44.812,
    87.481,
-   205.696
+   205.696,
+   null
   ],
   "receivables": [
-   0.13,
    0.589,
-   1.21
+   1.21,
+   null
   ],
   "payables": [
-   21.644,
    26.055,
-   21.569
+   21.569,
+   null
   ],
   "nwc": [
-   23.3,
    62.01,
-   185.34
+   185.34,
+   null
   ],
   "nwc_pct": [
-   0.9353,
    0.2853,
-   0.5276
+   0.5276,
+   null
   ],
   "unit": "Rs crore"
  },
@@ -363,55 +351,55 @@
   "reference": 162.0,
   "floor": 153.0,
   "cap": 162.0,
-  "reference_note": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 23.4x on 9M FY26 PAT annualised (39.2x on FY25, before a full year of the merged business); P/B 2.49x post-issue; EV/EBITDA 11.8x annualised. Objects floor Rs 133.46.",
+  "reference_note": "Upper band Rs 162 (NSE issue page). At Rs 162: market cap Rs 911.9 cr post-issue; P/E 17.6x on FY26 PAT (13.4x pre-issue on the company's EPS of Rs 12.13); P/B 2.35x post-issue; EV/EBITDA 9.2x FY26. Objects floor Rs 133.46.",
   "scenarios": {
    "bear": {
-    "dcf": 55.6298,
-    "relative": 150.4771,
-    "blended": 103.0534,
-    "upside_floor": -0.3264,
-    "upside_cap": -0.3639
+    "dcf": 66.3725,
+    "relative": 187.05,
+    "blended": 126.7113,
+    "upside_floor": -0.1718,
+    "upside_cap": -0.2178
    },
    "neutral": {
-    "dcf": 88.6145,
-    "relative": 150.4771,
-    "blended": 119.5458,
-    "upside_floor": -0.2187,
-    "upside_cap": -0.2621
+    "dcf": 110.5223,
+    "relative": 187.05,
+    "blended": 148.7861,
+    "upside_floor": -0.0275,
+    "upside_cap": -0.0816
    },
    "bull": {
-    "dcf": 131.2878,
-    "relative": 150.4771,
-    "blended": 140.8824,
-    "upside_floor": -0.0792,
-    "upside_cap": -0.1304
+    "dcf": 162.1406,
+    "relative": 187.05,
+    "blended": 174.5953,
+    "upside_floor": 0.1411,
+    "upside_cap": 0.0777
    }
   },
   "objects_floor": 133.4603,
   "wacc": 0.1446,
-  "tv_share": 0.9041,
+  "tv_share": 0.8027,
   "reverse": {
-   "sentence": "The price asks the business to deliver 47.2 times its current free cash flow, in perpetuity.",
+   "sentence": "The price asks the business to deliver 37.5 times its current free cash flow, in perpetuity.",
    "levers": [
     {
      "label": "Lever 1 - implied perpetual growth on current FCFF",
-     "required": 0.12080782701410056,
+     "required": 0.1148270205005857,
      "actual": 0.045
     },
     {
      "label": "Lever 2 - implied WACC at terminal g",
-     "required": 0.06715124678099932,
+     "required": 0.07287628305145807,
      "actual": 0.1446
     },
     {
      "label": "Lever 3 - required EBIT margin (steady state)",
-     "required": 0.2784477607061514,
-     "actual": 0.1265
+     "required": 0.2499199466383525,
+     "actual": 0.1474
     },
     {
      "label": "Lever 4 - required NWC % of revenue (steady state)",
      "required": "Unreachable: needs negative working capital",
-     "actual": 0.4477
+     "actual": 0.4176
     }
    ]
   }
@@ -426,36 +414,36 @@
    "Y5"
   ],
   "revenue": [
-   481.095,
-   577.314,
-   721.6425,
-   851.5381,
-   953.7227,
-   1049.095
+   538.73,
+   635.7014,
+   775.5557,
+   899.6446,
+   1007.602,
+   1108.3622
   ],
   "ebitda": [
-   64.257,
-   63.5045,
-   79.3807,
-   93.6692,
-   104.9095,
-   115.4005
+   82.93,
+   79.4627,
+   96.9445,
+   112.4556,
+   125.9502,
+   138.5453
   ],
   "nopat": [
-   45.5243,
-   44.4494,
-   55.5618,
-   65.5629,
-   73.4304,
-   80.7735
+   59.4375,
+   56.3714,
+   68.7732,
+   79.7769,
+   89.3501,
+   98.2851
   ],
   "fcff": [
-   16.0293,
-   0.0631,
-   -9.386,
-   7.1099,
-   27.4474,
-   37.856
+   20.2745,
+   14.3769,
+   10.0343,
+   27.6595,
+   44.008,
+   55.9658
   ]
  },
  "sensitivity": {
@@ -476,92 +464,92 @@
    ],
    "values": [
     [
-     106.0571,
-     107.6181,
-     109.344,
-     111.2678,
-     113.4324
+     132.1754,
+     134.0748,
+     136.1748,
+     138.5157,
+     141.1496
     ],
     [
-     95.7493,
-     96.7189,
-     97.7701,
-     98.9173,
-     100.1788
+     119.4145,
+     120.5942,
+     121.8733,
+     123.2693,
+     124.8042
     ],
     [
-     87.4186,
-     87.9989,
-     88.6145,
-     89.2711,
-     89.9755
+     109.0671,
+     109.7732,
+     110.5223,
+     111.3212,
+     112.1783
     ],
     [
-     80.5643,
-     80.8829,
-     81.2107,
-     81.549,
-     81.8993
+     100.5236,
+     100.9114,
+     101.3103,
+     101.7219,
+     102.1481
     ],
     [
-     74.8404,
-     74.9808,
-     75.1154,
-     75.2435,
-     75.3641
+     93.3629,
+     93.5337,
+     93.6975,
+     93.8533,
+     94.0002
     ]
    ]
   },
   "nwc_margin": {
    "rows": [
+    0.36,
     0.39,
     0.42,
     0.45,
-    0.48,
-    0.51
+    0.48
    ],
    "cols": [
-    0.09,
-    0.1,
-    0.11,
-    0.12,
-    0.13
+    0.105,
+    0.115,
+    0.125,
+    0.135,
+    0.145
    ],
    "values": [
     [
-     79.3159,
-     88.2783,
-     97.2407,
-     106.2031,
-     115.1655
+     100.6557,
+     110.1677,
+     119.6796,
+     129.1916,
+     138.7036
     ],
     [
-     75.0028,
-     83.9652,
-     92.9276,
-     101.89,
-     110.8524
+     96.077,
+     105.589,
+     115.101,
+     124.6129,
+     134.1249
     ],
     [
-     70.6897,
-     79.6521,
-     88.6145,
-     97.5769,
-     106.5393
+     91.4983,
+     101.0103,
+     110.5223,
+     120.0343,
+     129.5462
     ],
     [
-     66.3766,
-     75.339,
-     84.3014,
-     93.2638,
-     102.2262
+     86.9196,
+     96.4316,
+     105.9436,
+     115.4556,
+     124.9676
     ],
     [
-     62.0635,
-     71.0259,
-     79.9883,
-     88.9507,
-     97.9131
+     82.341,
+     91.8529,
+     101.3649,
+     110.8769,
+     120.3889
     ]
    ]
   }
@@ -593,8 +581,8 @@
   },
   {
    "name": "M. K. Sons Fine Jewels Limited at reference",
-   "pe": 23.4503,
-   "pb": 2.4933,
+   "pe": 17.6078,
+   "pb": 2.3483,
    "issuer": true
   }
  ],
@@ -683,37 +671,37 @@
  },
  "earnings_quality": {
   "years": [
-   "FY23",
    "FY24",
-   "FY25"
+   "FY25",
+   "FY26"
   ],
   "price": 162.0,
   "shares": 5.6291,
   "tax": 0.2517,
   "rows": [
    {
-    "basis": "Reported FY25",
-    "pat": 23.262,
-    "eps": 4.1325,
-    "pe": 39.2
+    "basis": "Reported FY26",
+    "pat": 51.79,
+    "eps": 9.2004,
+    "pe": 17.61
    },
    {
-    "basis": "FY25 after: deposit interest",
-    "pat": 23.2388,
-    "eps": 4.1283,
-    "pe": 39.24
+    "basis": "FY26 after: deposit interest",
+    "pat": 51.7601,
+    "eps": 9.1951,
+    "pe": 17.62
    },
    {
-    "basis": "FY23-FY25 average, reported",
-    "pat": 10.922,
-    "eps": 1.9403,
-    "pe": 83.49
+    "basis": "FY24-FY26 average, reported",
+    "pat": 27.739,
+    "eps": 4.9278,
+    "pe": 32.87
    },
    {
-    "basis": "FY23-FY25 average, adjusted",
-    "pat": 10.9025,
-    "eps": 1.9368,
-    "pe": 83.64
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 27.7141,
+    "eps": 4.9234,
+    "pe": 32.9
    }
   ],
   "adjustments": [
@@ -721,39 +709,39 @@
     "item": "Interest on security deposits (Ind AS 116 unwinding, in other income)",
     "short": "deposit interest",
     "pre_tax": [
-     -0.018,
      -0.029,
-     -0.031
+     -0.031,
+     -0.04
     ],
     "include": true,
     "confidence": "High",
     "page": "p. 228",
     "reason": "Notional interest on lease deposits; non-operating and immaterial.",
     "post_tax": [
-     -0.0135,
      -0.0217,
-     -0.0232
+     -0.0232,
+     -0.0299
     ],
-    "pe_if_applied": 39.24
+    "pe_if_applied": 17.62
    },
    {
     "item": "Promoter directors' pay at the FY26 run-rate",
     "short": "promoter pay",
     "pre_tax": [
      -1.65,
-     -1.65,
-     -1.05
+     -1.05,
+     0.0
     ],
     "include": false,
     "confidence": "Medium",
     "page": "pp. 64, 195",
-    "reason": "No remuneration was paid to the three promoter directors before FY25 (Rs 0.60 cr in FY25); the FY26 rate is Rs 1.65 cr a year. Normalising FY23-25 for it lowers profit; a choice, not an accounting entry. For information.",
+    "reason": "No remuneration was paid to the three promoter directors before FY25 (Rs 0.60 cr in FY25); FY26 carries the full Rs 1.65 cr a year. Normalising FY24-25 for it lowers those years' profit; a choice, not an accounting entry. For information.",
     "post_tax": [
      -1.2347,
-     -1.2347,
-     -0.7857
+     -0.7857,
+     0.0
     ],
-    "pe_if_applied": 40.57
+    "pe_if_applied": 17.61
    },
    {
     "item": "Purchases from the promoter's proprietorship before its merger",
@@ -772,19 +760,19 @@
      0.0,
      0.0
     ],
-    "pe_if_applied": 39.2
+    "pe_if_applied": 17.61
    }
   ],
   "adjusted_pat": [
-   1.3255,
    8.1433,
-   23.2388
+   23.2388,
+   51.7601
   ],
-  "pe_reported": 39.2,
-  "pe_adjusted": 39.24,
-  "pat_change": -0.001,
+  "pe_reported": 17.61,
+  "pe_adjusted": 17.62,
+  "pat_change": -0.0006,
   "material": false,
-  "verdict": "Reported P/E is a fair measure: the adjustments found move FY25 PAT by -0.1%, within the 10% threshold. On the FY23-FY25 average, which smooths one-year items, the P/E is 83.5x reported and 83.6x adjusted.",
+  "verdict": "Reported P/E is a fair measure: the adjustments found move FY26 PAT by -0.1%, within the 10% threshold. On the FY24-FY26 average, which smooths one-year items, the P/E is 32.9x reported and 32.9x adjusted.",
   "flags": [
    "Notional interest on lease deposits; non-operating and immaterial."
   ],

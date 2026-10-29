@@ -1,121 +1,121 @@
 {
- "_source": "M. K. Sons Fine Jewels Limited: DRHP dated 11-May-2026 (SEBI filing 101528; printed page = PDF page - 5), restated financials to 31-Dec-2025, Rs million converted to Rs crore. The RHP is on nsearchives.nseindia.com (not reachable here) and was not posted on SEBI by 26-Oct-2026, so price band (Rs 153-162), lot (91), issue split (fresh 1.36 crore + OFS 0.34 crore shares) and dates come from the NSE issue page (read 26-Oct-2026). Valuation base = 9M FY26 annualised (x4/3) because the promoter's proprietorship was merged in only on 29-Mar-2025.",
+ "_source": "M. K. Sons Fine Jewels Limited: DRHP dated 11-May-2026 (SEBI filing 101528; printed page = PDF page - 5), restated financials to 31-Dec-2025, Rs million converted to Rs crore. The RHP is on nsearchives.nseindia.com (not reachable here) and was not posted on SEBI by 26-Oct-2026, so price band (Rs 153-162), lot (91), issue split (fresh 1.36 crore + OFS 0.34 crore shares) and dates come from the NSE issue page (read 26-Oct-2026). Valuation base = 9M FY26 annualised (x4/3) because the promoter's proprietorship was merged in only on 29-Mar-2025. UPDATE 29-Oct-2026: FY26 restated headline figures (revenue Rs 538.73 cr, EBITDA Rs 82.93 cr, PAT Rs 51.79 cr, net worth Rs 168.01 cr, borrowings Rs 68.44 cr, CFO Rs 15.40 cr, diluted EPS Rs 12.13) from the RHP as reproduced by IPO trackers; the valuation base is now FY26 actual instead of 9M FY26 annualised.",
  "screening": {
   "basis": {
    "name": "M. K. Sons Fine Jewels Limited",
    "platform": "Mainboard",
    "stage": "RHP",
    "doc_date": "2026-05-11",
-   "aud_to": "2025-12-31",
+   "aud_to": "2026-03-31",
    "band": "Yes",
    "brlm": "Aryaman Financial Services Limited",
-   "outside": "Price band, lot, issue split and dates from the NSE issue page; RHP not reachable, so DRHP (May-2026) figures are used",
+   "outside": "RHP not reachable; FY24-25 and Dec-25 detail from the DRHP (May-2026), FY26 headline figures from the RHP as reproduced by IPO trackers (29-Oct-2026)",
    "bid_cat": "Anchor",
    "exit": "2-3 year hold (assumed)"
   },
   "items": {
    "rev": [
-    24.912,
     217.323,
     351.28,
-    360.821
+    538.73,
+    null
    ],
    "oth": [
-    0.018,
     0.072,
     0.036,
-    0.024
+    null,
+    null
    ],
    "pbt": [
-    1.725,
     10.832,
     32.026,
-    39.946
+    null,
+    null
    ],
    "ctax": [
-    0.483,
     2.789,
     8.55,
-    11.0
+    null,
+    null
    ],
    "dtax": [
-    -0.097,
     -0.122,
     0.213,
-    -0.219
+    null,
+    null
    ],
    "pat": [
-    1.339,
     8.165,
     23.262,
-    29.165
+    51.79,
+    null
    ],
    "cfo": [
-    -4.947,
     -23.557,
     -9.531,
-    18.006
+    15.4,
+    null
    ],
    "rpt_s": [
     0.0,
     0.0,
-    0.0,
-    0.0
+    null,
+    null
    ],
    "rpt_p": [
-    0.459,
     3.849,
     21.715,
-    1.228
+    null,
+    null
    ],
    "nw": [
-    14.149,
     22.29,
     116.235,
-    145.418
+    168.01,
+    null
    ],
    "recv": [
-    0.13,
     0.589,
     1.21,
-    3.422
+    null,
+    null
    ],
    "inv": [
-    44.812,
     87.481,
     205.696,
-    240.592
+    null,
+    null
    ],
    "pay": [
-    21.644,
     26.055,
     21.569,
-    28.609
+    null,
+    null
    ],
    "cl": [
     4.995,
     4.995,
-    4.995,
-    4.995
+    null,
+    null
    ],
    "gw": [
     0,
     0,
-    0,
-    0
+    null,
+    null
    ]
   },
   "cites": {
-   "rev": "p. 227",
+   "rev": "p. 227; FY26 from RHP as reproduced by IPO trackers (Finology, INDmoney, Paytm Money)",
    "oth": "p. 227",
    "pbt": "p. 227",
    "ctax": "p. 227",
    "dtax": "p. 227",
-   "pat": "p. 227",
-   "cfo": "p. 228",
+   "pat": "p. 227; FY26 from RHP as reproduced by IPO trackers (Finology, INDmoney, Paytm Money)",
+   "cfo": "p. 228; FY26 from RHP as reproduced by IPO trackers (Finology, INDmoney, Paytm Money)",
    "rpt_s": "p. 64",
    "rpt_p": "p. 64 (purchases from the promoter's proprietorship before its merger, a promoter-group hotel, and rent to the promoter)",
-   "nw": "p. 226",
+   "nw": "p. 226; FY26 from RHP as reproduced by IPO trackers (Finology, INDmoney, Paytm Money)",
    "recv": "p. 226",
    "inv": "p. 226",
    "pay": "p. 226",
@@ -138,7 +138,7 @@
    "2": {
     "status": "WATCH",
     "page": "p. 228",
-    "finding": "Operating cash flow Rs -4.95 / -23.56 / -9.53 cr FY23-25 against PAT Rs 1.34 / 8.17 / 23.26 cr as inventory rose from Rs 44.81 cr to Rs 205.70 cr; 9M FY26 CFO +Rs 18.01 cr against PAT Rs 29.17 cr. Typical for a jewellery retailer stocking new showrooms; inventory days 122 -> 178 -> 205 (p. 101)."
+    "finding": "Operating cash flow Rs -23.56 / -9.53 cr FY24-25 (DRHP p. 228) and +Rs 15.40 cr in FY26 (RHP via trackers) against PAT Rs 8.17 / 23.26 / 51.79 cr; one tracker reports Q1 FY27 CFO about Rs -2.84 cr (single source). Typical for a jewellery retailer stocking new showrooms; most profit is reinvested in inventory."
    },
    "3": {
     "status": "PASS",
@@ -198,7 +198,7 @@
   },
   "gaps": [
    {
-    "item": "RHP not obtainable (nsearchives.nseindia.com blocked; not posted on SEBI); DRHP figures used - RHP may add or restate numbers",
+    "item": "RHP not obtainable (nsearchives blocked); FY26 headline figures (revenue, EBITDA, PAT, net worth, borrowings, CFO) from trackers reproducing the RHP; FY26 working capital, cash and D&A estimated",
     "severity": "High",
     "source": "RHP"
    },
@@ -216,11 +216,6 @@
     "item": "Gold-price gains in gross margin (inventory held while gold rose); no hedging policy disclosed",
     "severity": "Medium",
     "source": "RHP MD&A / management"
-   },
-   {
-    "item": "Audited numbers end 31-Dec-2025 (299 days old); Q4 FY26 and FY26 full-year not in the DRHP",
-    "severity": "Medium",
-    "source": "RHP"
    },
    {
     "item": "Aryaman Financial Services' track record of past issues",
@@ -277,38 +272,38 @@
    "exp_pct": 0,
    "gcp_pct": 0,
    "ipo_capex": 0,
-   "rev0": 481.095,
+   "rev0": 538.73,
    "rev_prev": 351.28,
-   "ebitda0": 64.257,
-   "da0": 3.42,
-   "pat0": 38.887,
-   "nw0": 145.418,
-   "nd0": 64.604,
-   "nwc0": 215.405,
+   "ebitda0": 82.93,
+   "da0": 3.5,
+   "pat0": 51.79,
+   "nw0": 168.01,
+   "nd0": 68.44,
+   "nwc0": 225.0,
    "nwc_prev": 185.337,
-   "capex0": 2.847,
+   "capex0": 3.0,
    "kd": 0.1
   },
   "drivers": {
    "g1": [
-    0.08,
-    0.2,
-    0.3
+    0.06,
+    0.18,
+    0.26
    ],
    "g2": [
-    0.12,
-    0.25,
-    0.32
+    0.1,
+    0.22,
+    0.28
    ],
    "g3": [
-    0.1,
-    0.18,
-    0.22
+    0.09,
+    0.16,
+    0.2
    ],
    "g4": [
     0.08,
     0.12,
-    0.15
+    0.14
    ],
    "g5": [
     0.07,
@@ -316,14 +311,14 @@
     0.12
    ],
    "m": [
-    0.085,
-    0.11,
-    0.13
+    0.095,
+    0.125,
+    0.15
    ],
    "nwc": [
-    0.5,
-    0.45,
-    0.4
+    0.47,
+    0.42,
+    0.38
    ],
    "roic": [
     0.12,
@@ -332,11 +327,11 @@
    ]
   },
   "rationale": {
-   "g1": "Revenue Rs 24.91 / 217.32 / 351.28 cr FY23-25 and Rs 360.82 cr in 9M FY26 (Rs 481.10 cr annualised, the base year here) (p. 227); part of the growth is gold-price inflation and the merged proprietorship (p. 64 of MD&A, p. 189). The issue funds Rs 151.51 cr of inventory for a new Maharashtra showroom and an expanded Ahmedabad showroom in FY27 (p. 91). Neutral 20-25% in the first two years as the showrooms open, then 10-18%; Bear 7-12%; Bull 30%+.",
-   "m": "EBITDA (issuer KPI: PBT + finance cost + D&A - other income) 9.11% / 5.92% / 10.98% FY23-25 and 13.36% in 9M FY26 (p. 101), helped by gold-price gains on inventory. Neutral 11% (FY25 level); Bear 8.5%; Bull 13%.",
-   "nwc": "Inventory + receivables - payables = 44.8% of annualised 9M FY26 revenue (p. 226); inventory days 205 (p. 101). Neutral 45%.",
+   "g1": "Revenue Rs 217.32 / 351.28 / 538.73 cr FY24-26 (+62%, +53%; FY26 from the RHP via trackers), partly gold-price inflation and the full year of the merged proprietorship (DRHP pp. 64, 189). The issue funds Rs 151.51 cr of inventory for a new Maharashtra showroom and an expanded Ahmedabad showroom in FY27 (DRHP p. 91). Neutral 18% / 22% as the showrooms open, then 16% / 12% / 10%; Bear 6-10%; Bull 26-28%.",
+   "m": "EBITDA margin 5.92% / 10.98% / 15.39% FY24-26 (FY26 EBITDA Rs 82.93 cr, RHP via trackers), lifted by rising gold prices on unhedged inventory. Neutral 12.5% (between FY25 and FY26); Bear 9.5%; Bull 15% (FY26 held).",
+   "nwc": "Estimate: Mar-26 working capital is not in the tracker data. FY26 CFO Rs 15.40 cr against PAT Rs 51.79 cr + D&A ~3.5 implies a working-capital build of about Rs 40 cr, so about Rs 225 cr (42% of revenue) from Rs 185.34 cr at Mar-25 (DRHP p. 226). Neutral 42%; Bear 47%; Bull 38%.",
    "roic": "ROCE 27.24% (FY25) and 26.84% (9M FY26, not annualised) (p. 101). Terminal ROIC 16% (Neutral) given the inventory intensity.",
-   "capex": "Showroom fit-outs are small and funded from accruals (p. 91); base capex Rs 2.85 cr (9M FY26 annualised). Net debt Rs 64.60 cr = borrowings Rs 72.11 cr + leases Rs 6.30 cr - cash Rs 13.81 cr (Dec-25). Fresh issue of 1.36 crore shares = Rs 220.32 cr at Rs 162."
+   "capex": "Net debt taken as Mar-26 borrowings Rs 68.44 cr (RHP via trackers); leases and cash at Mar-26 not available and assumed to offset (Dec-25: leases Rs 6.30 cr, cash Rs 13.81 cr). D&A Rs 3.5 cr and capex Rs 3.0 cr are estimates from the 9M FY26 run-rate (DRHP p. 228). Fresh issue 1.36 crore shares = Rs 220.32 cr at Rs 162."
   },
   "peers": [
    [
@@ -399,22 +394,22 @@
  },
  "kpi": {
   "ebitda": [
-   2.269,
    12.871,
-   38.568
+   38.568,
+   82.93
   ],
-  "_cite": "EBITDA from the issuer's KPI table (p. 101): PBT + finance cost + D&A - other income; reproduces from the P&L (p. 227). 9M FY26 Rs 48.19 cr."
+  "_cite": "EBITDA FY24-25 from the DRHP KPI table (p. 101); FY26 Rs 82.93 cr from the RHP as reproduced by trackers."
  },
  "earnings_quality": {
-  "_note": "Pre-tax Rs crore by year [FY23, FY24, FY25]; negative reduces profit.",
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]; negative reduces profit. FY26 deposit interest is an estimate at the 9M run-rate.",
   "adjustments": [
    {
     "item": "Interest on security deposits (Ind AS 116 unwinding, in other income)",
     "short": "deposit interest",
     "pre_tax": [
-     -0.018,
      -0.029,
-     -0.031
+     -0.031,
+     -0.04
     ],
     "include": true,
     "confidence": "High",
@@ -426,13 +421,13 @@
     "short": "promoter pay",
     "pre_tax": [
      -1.65,
-     -1.65,
-     -1.05
+     -1.05,
+     0.0
     ],
     "include": false,
     "confidence": "Medium",
     "page": "pp. 64, 195",
-    "reason": "No remuneration was paid to the three promoter directors before FY25 (Rs 0.60 cr in FY25); the FY26 rate is Rs 1.65 cr a year. Normalising FY23-25 for it lowers profit; a choice, not an accounting entry. For information."
+    "reason": "No remuneration was paid to the three promoter directors before FY25 (Rs 0.60 cr in FY25); FY26 carries the full Rs 1.65 cr a year. Normalising FY24-25 for it lowers those years' profit; a choice, not an accounting entry. For information."
    },
    {
     "item": "Purchases from the promoter's proprietorship before its merger",
