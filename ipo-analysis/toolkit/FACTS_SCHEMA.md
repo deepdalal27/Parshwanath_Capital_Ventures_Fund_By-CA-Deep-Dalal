@@ -93,9 +93,16 @@ with their standalone effect but stay out of the adjusted P/E.
   "exit_route": "2-3 year hold (assumed)",
   "headline": "One sentence: what decides this issue.",
   "red_flags": ["CFO 41% of PAT over 3 years", "Top supplier 74%, no supply contract"],
-  "status": "analysed"
+  "status": "analysed",
+  "company_pe": { "period": "FY26", "pat_cr": 27.01, "pat_basis": "attributable to owners", "eps_basic": 5.99,
+                  "eps_diluted": 5.99, "industry_pe": { "high": 46.25, "low": 12.97, "avg": 24.59 },
+                  "source": "RHP pp. 140-141 (Basis for Offer Price); PAT p. 85", "note": "" }
 }
 ```
+
+`company_pe` is required on every RHP-stage report (ROUTINE.md hard rule 10): the PAT and EPS exactly as the RHP states
+them. `build_issuer.py` adds the P/E at the floor and cap (band / EPS) and writes the "As disclosed by the company" block
+into `note.md`.
 
 `build_issuer.py` adds `files`, `analysed_on` and `model` (DCF / relative / blended per scenario, guard flags,
 objects floor and reverse-DCF sentence) and then rewrites `data/index.json`.

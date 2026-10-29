@@ -110,5 +110,24 @@
       "Seasonal demand (p. 22)"
     ]
   },
-  "rhp_read": false
+  "rhp_read": false,
+  "company_pe": {
+    "period": "FY25",
+    "pat_cr": 23.26,
+    "eps_basic": 10.26,
+    "eps_diluted": 10.26,
+    "industry_pe": {
+      "high": 32.86,
+      "low": 11.27,
+      "avg": 22.07
+    },
+    "source": "DRHP dated 11-May-2026, Basis for Offer Price (p. 100); PAT p. 227 (RHP not reachable; provisional)",
+    "note": "The DRHP's latest full year is FY25; the RHP may base the P/E on FY26.",
+    "pe_floor_basic": 14.91,
+    "pe_cap_basic": 15.79,
+    "pe_floor_diluted": 14.91,
+    "pe_cap_diluted": 15.79,
+    "floor": 153.0,
+    "cap": 162.0
+  }
 }

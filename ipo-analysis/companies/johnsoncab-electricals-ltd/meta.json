@@ -108,5 +108,19 @@
       "Price competition from organised and unorganised makers",
       "Delayed payments from government customers"
     ]
+  },
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 13.42,
+    "eps_basic": 17.81,
+    "eps_diluted": 17.81,
+    "source": "Public IPO trackers reproducing the offer document (RHP not reachable; provisional)",
+    "note": "EPS Rs 17.81 as reproduced by IPO Platform; it gives 10.67x-11.23x across the band, matching IPO Central. Industry P/E not reported by the trackers.",
+    "pe_floor_basic": 10.67,
+    "pe_cap_basic": 11.23,
+    "pe_floor_diluted": 10.67,
+    "pe_cap_diluted": 11.23,
+    "floor": 190.0,
+    "cap": 200.0
   }
 }

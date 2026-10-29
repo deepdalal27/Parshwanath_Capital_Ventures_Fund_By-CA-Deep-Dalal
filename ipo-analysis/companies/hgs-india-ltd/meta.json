@@ -108,5 +108,19 @@
       "Large global seismic-equipment makers",
       "Currency and import-cost swings"
     ]
+  },
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 11.64,
+    "eps_basic": 13.64,
+    "eps_diluted": 13.64,
+    "source": "Public IPO trackers reproducing the offer document (RHP not reachable; provisional)",
+    "note": "EPS is PAT over the 85.33 lakh pre-issue shares implied by the trackers' pre-issue P/E of 8.80x at Rs 120; the RHP's weighted-average EPS may differ slightly. Industry P/E not reported by the trackers.",
+    "pe_floor_basic": 8.36,
+    "pe_cap_basic": 8.8,
+    "pe_floor_diluted": 8.36,
+    "pe_cap_diluted": 8.8,
+    "floor": 114.0,
+    "cap": 120.0
   }
 }

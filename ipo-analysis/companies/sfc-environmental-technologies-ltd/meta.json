@@ -112,5 +112,24 @@
     "mf_share": null,
     "source": "Anchor bidding 26-Oct-2026 (RHP cover); allocation report on nsearchives.nseindia.com, not reachable from this environment"
   },
-  "rhp_read": true
+  "rhp_read": true,
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 154.36,
+    "pat_basis": "attributable to owners; total Rs 160.21 cr",
+    "eps_basic": 16.52,
+    "eps_diluted": 16.52,
+    "industry_pe": {
+      "high": 220.77,
+      "low": 31.34,
+      "avg": 101.38
+    },
+    "source": "RHP pp. 184-185 (Basis for Offer Price); PAT p. 412",
+    "pe_floor_basic": 18.95,
+    "pe_cap_basic": 19.98,
+    "pe_floor_diluted": 18.95,
+    "pe_cap_diluted": 19.98,
+    "floor": 313.0,
+    "cap": 330.0
+  }
 }

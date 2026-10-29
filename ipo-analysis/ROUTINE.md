@@ -65,6 +65,13 @@ fund manager. DRHPs are not covered.
 9. **Coverage: RHP with a price band, nothing else** (fund manager's instruction, 26-Oct-2026). Every Mainboard and SME IPO
    whose RHP is filed and whose price band is announced gets a report. DRHPs are never analysed or listed on the site.
    Old DRHP screens live in `archive/drhp/` and are not linked.
+10. **Company's own PAT and P/E, always** (fund manager's instruction, 29-Oct-2026). Every report and the website show the
+   restated PAT and the P/E the company discloses in the RHP's "Basis for Offer Price": latest-full-year basic and diluted
+   EPS, P/E at the floor and cap of the band, and the industry peer P/E (highest / lowest / average). Record them in
+   `meta.json.company_pe` (`period`, `pat_cr`, `pat_basis`, `eps_basic`, `eps_diluted`, `industry_pe` {`high`,`low`,`avg`},
+   `source` with page, optional `note`). The RHP prints the issuer's P/E as [●]; `build_issuer.py` divides the band by
+   the EPS (as the price-band advertisement does), writes the block into `note.md` before "Is the reported P/E right?",
+   and the site shows it on the card and in Issue facts. A missing `company_pe` prints a WARNING: fix it before publishing.
 
 ## Each run
 

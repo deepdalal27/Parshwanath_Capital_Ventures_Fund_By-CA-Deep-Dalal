@@ -112,5 +112,24 @@
       "Overhang: promoter group holds about 84% after the OFS"
     ]
   },
-  "rhp_read": false
+  "rhp_read": false,
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 265.2,
+    "pat_basis": "attributable to owners",
+    "eps_basic": 41.26,
+    "eps_diluted": 40.36,
+    "industry_pe": {
+      "high": 48.59,
+      "low": 28.94,
+      "avg": 38.23
+    },
+    "source": "SEBI Addendum (Sept-2026) pp. 8-9, Basis for Offer Price; PAT Add. p. 107 (RHP not reachable; provisional)",
+    "pe_floor_basic": 38.41,
+    "pe_cap_basic": 40.35,
+    "pe_floor_diluted": 39.27,
+    "pe_cap_diluted": 41.25,
+    "floor": 1585.0,
+    "cap": 1665.0
+  }
 }

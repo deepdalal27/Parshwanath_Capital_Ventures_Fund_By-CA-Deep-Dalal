@@ -92,6 +92,19 @@ Source: restated financials as reproduced by HDFC Sky, Chittorgarh, Chanakya Nit
 - **EV/EBITDA:** 11.8x FY26 and 13.9x on 4M FY27 annualised.
 - **At Rs 150:** market cap Rs 205.5 cr, P/E 17.3x.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 | Rs 11.86 cr |
+| EPS, FY26 (basic / diluted) | Rs 11.80 / Rs 11.80 |
+| P/E at floor price Rs 150 (basic / diluted) | 12.71x / 12.71x |
+| P/E at cap price Rs 158 (basic / diluted) | 13.39x / 13.39x |
+
+Source: Public IPO trackers reproducing the offer document (RHP not reachable; provisional). The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares. Industry P/E not reported by the trackers.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the FY26 P/E (18.25x) likely flatters recurring earnings, but no adjustment could be quantified.** We made no accounting adjustment (18.25x reported, 18.25x adjusted). However, the latest four months show margins well below FY26:

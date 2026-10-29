@@ -124,5 +124,23 @@
     ]
   },
   "call_basis": "Call rule (ROUTINE.md hard rule 6): Neutral value -26.4% vs the upper band lies between -10% and -30%, so the call is Neutral. No material issue was found.",
-  "rhp_read": true
+  "rhp_read": true,
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 50.88,
+    "eps_basic": 9.19,
+    "eps_diluted": 8.88,
+    "industry_pe": {
+      "high": 117.74,
+      "low": 45.7,
+      "avg": 81.62
+    },
+    "source": "RHP pp. 139-140 (Basis for Offer Price); PAT p. 89",
+    "pe_floor_basic": 72.36,
+    "pe_cap_basic": 76.17,
+    "pe_floor_diluted": 74.89,
+    "pe_cap_diluted": 78.83,
+    "floor": 665.0,
+    "cap": 700.0
+  }
 }

@@ -98,6 +98,20 @@ Sources: pp. 101, 226-228. FY25 net worth includes Rs 71.07 cr of shares issued 
 
 **At the upper band (Rs 162):** post-issue shares 5.6291 crore; market cap Rs 911.9 cr. P/E 39.2x on FY25 PAT, but only **23.4x on 9M FY26 PAT annualised** (Rs 38.89 cr), which is the more representative base because FY25 does not include a full year of the merged business. Post-issue net worth about Rs 365.74 cr, P/B 2.49x; EV Rs 756.2 cr, 11.8x annualised EBITDA. At Rs 153: P/E 22.1x annualised.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY25 | Rs 23.26 cr |
+| EPS, FY25 (basic / diluted) | Rs 10.26 / Rs 10.26 |
+| P/E at floor price Rs 153 (basic / diluted) | 14.91x / 14.91x |
+| P/E at cap price Rs 162 (basic / diluted) | 15.79x / 15.79x |
+| Industry peer P/E (highest / lowest / average) | 32.86x / 11.27x / 22.07x |
+
+Source: DRHP dated 11-May-2026, Basis for Offer Price (p. 100); PAT p. 227 (RHP not reachable; provisional). The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares. The DRHP's latest full year is FY25; the RHP may base the P/E on FY26.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported P/E is a fair measure.** The only adjustment found (notional interest on lease deposits) moves FY25 profit by -0.1%: 39.2x reported and 39.2x adjusted on FY25. On the FY23-25 average the P/E is 83.5x, which is not meaningful because the business was much smaller then.

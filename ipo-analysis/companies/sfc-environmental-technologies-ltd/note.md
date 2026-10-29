@@ -155,6 +155,20 @@ Sources: pp. 188, 411-412, 417. Q1 is seasonally weak (Q1 FY26 was a loss), so t
 - **EV:** Rs 3,175.1 cr, EV/EBITDA 13.5x FY26.
 - **At Rs 313:** P/E 19.9x.
 
+<!-- company-disclosed:start -->
+### As disclosed by the company (Basis for Offer Price)
+
+| Item | As disclosed |
+|---|---|
+| Restated PAT, FY26 (attributable to owners; total Rs 160.21 cr) | Rs 154.36 cr |
+| EPS, FY26 (basic / diluted) | Rs 16.52 / Rs 16.52 |
+| P/E at floor price Rs 313 (basic / diluted) | 18.95x / 18.95x |
+| P/E at cap price Rs 330 (basic / diluted) | 19.98x / 19.98x |
+| Industry peer P/E (highest / lowest / average) | 220.77x / 31.34x / 101.38x |
+
+Source: RHP pp. 184-185 (Basis for Offer Price); PAT p. 412. The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares.
+<!-- company-disclosed:end -->
+
 ### Is the reported P/E right?
 
 **Verdict: the reported P/E is a fair measure.** The adjustments found move FY26 profit by -1.0%: at Rs 330 the reported P/E is 20.9x and the adjusted P/E 21.2x. On the FY24-26 average the P/E is 22.0x reported and 22.7x adjusted.
