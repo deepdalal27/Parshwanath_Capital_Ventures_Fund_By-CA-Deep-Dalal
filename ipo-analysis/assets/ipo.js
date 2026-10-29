@@ -77,7 +77,9 @@
   function issueCard(i, r, today) {
     var ph = phase(i, today), ub = upperBand(i.price_band || (r && r.price_band));
     var lot = i.lot_size || (r && r.lot_size);
-    var minInv = lot && ub ? lot * ub : null;
+    // SME issues: the minimum retail application is two lots
+    var minLots = /SME/i.test(i.platform || (r && r.platform) || "") ? 2 : 1;
+    var minInv = lot && ub ? lot * ub * minLots : null;
     var status = ph === "Open" ? '<span class="chip chip--live">Open &middot; closes ' + short(i.close_date) + "</span>"
       : '<span class="chip">Opens ' + short(i.open_date) + "</span>";
     var head = '<div class="ic__top"><span class="chip chip--plain">' + esc(i.platform || (r && r.platform) || "Mainboard") + "</span>" + status +
@@ -86,7 +88,7 @@
       : '<span class="ic__name">' + esc(i.company) + "</span>";
     var kv = '<dl class="ic__kv">' +
       "<div><dt>Price band</dt><dd>" + bandText(i.price_band || (r && r.price_band)) + "</dd></div>" +
-      "<div><dt>Lot / min. bid</dt><dd>" + (lot ? lot + " sh" + (minInv ? " &middot; " + inr(minInv) : "") : "-") + "</dd></div>" +
+      "<div><dt>Lot / min. bid</dt><dd>" + (lot ? lot + " sh" + (minInv ? " &middot; " + inr(minInv) + (minLots > 1 ? " (2 lots)" : "") : "") : "-") + "</dd></div>" +
       "<div><dt>Issue size</dt><dd>" + (r && r.issue_size_cr ? inr(r.issue_size_cr) + " cr" : "-") + "</dd></div>" +
       "<div><dt>Listing</dt><dd>" + short((r && r.listing_date) || i.listing_date) + "</dd></div>" + companyPe(r && r.company_pe) + "</dl>";
     var val = "";
