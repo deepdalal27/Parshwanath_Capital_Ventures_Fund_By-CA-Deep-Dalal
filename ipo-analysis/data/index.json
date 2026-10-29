@@ -1,6 +1,81 @@
 {
-  "updated": "2026-10-29T10:05Z",
+  "updated": "2026-10-29T13:29Z",
   "issuers": [
+    {
+      "slug": "vedant-poly-fabs-ltd",
+      "company": "Vedant Poly Fabs Limited",
+      "platform": "SME",
+      "stage": "RHP",
+      "filed_on": null,
+      "analysed_on": "2026-10-29",
+      "sector": "Flexible packaging films and laminates (Barasat, West Bengal)",
+      "brlm": "Affinity Global Capital Market Private Limited",
+      "issue_size_cr": 56.68,
+      "price_band": "Rs 88-94",
+      "open_date": "2026-11-02",
+      "close_date": "2026-11-04",
+      "allotment_date": "2026-11-05",
+      "listing_date": "2026-11-09",
+      "lot_size": 1200,
+      "exchange": "NSE Emerge",
+      "depth": "Snapshot",
+      "rhp_read": false,
+      "company_pe": {
+        "period": "FY26",
+        "pat_cr": 10.97,
+        "eps_basic": 10.05,
+        "eps_diluted": 10.05,
+        "industry_pe": {
+          "high": 29.66,
+          "low": 12.25,
+          "avg": 20.96
+        },
+        "source": "IPO trackers reproducing the offer document (Multibagg, Chittorgarh, Chanakya, unp.me, IPO Watch, NiftyTrader; read 29-Oct-2026); RHP not reachable, provisional",
+        "note": "Basic EPS Rs 10.05 is on weighted shares (Rs 15.87 cr of promoter loan was converted into equity during FY26); on the 1.4725 crore shares outstanding before the issue EPS is Rs 7.45, a P/E of 11.8x-12.6x across the band. Diluted EPS assumed equal to basic. Industry P/E is from the two peers in the offer document (B&A Packaging 12.25x, Barflex Polyfilms 29.66x).",
+        "pe_floor_basic": 8.76,
+        "pe_cap_basic": 9.35,
+        "pe_floor_diluted": 8.76,
+        "pe_cap_diluted": 9.35,
+        "floor": 88.0,
+        "cap": 94.0
+      },
+      "call": "Neutral",
+      "business_stage": "Early scaling (moved from trading to manufacturing; capacity 8.85 million kg at 72% use)",
+      "headline": "A West Bengal flexible-packaging maker that moved from trading into manufacturing (FY26 revenue Rs 115 cr, EBITDA margin 16.7%, PAT Rs 11 cr), priced at 17.3x FY26 earnings after the issue; our fair value is Rs 68 (Neutral) because three years of negative operating cash flow and rising debt leave little free cash.",
+      "red_flags": [
+        "Revenue Rs 49.53 cr (FY24) -> Rs 81.58 cr (FY25) -> Rs 115.14 cr (FY26); EBITDA margin 3.0% -> 10.2% -> 16.7%",
+        "Operating cash flow negative three years running (FY26 Rs -11.46 cr against PAT Rs 10.97 cr); payables fell from Rs 21.40 cr to Rs 1.68 cr",
+        "Borrowings Rs 13.32 cr -> Rs 46.82 cr (debt/equity 1.11x); Rs 15.87 cr promoter-LLP loan converted to equity in FY26",
+        "West Bengal 96.8% of FY26 revenue; one plant at Barasat",
+        "RHP not reachable: figures from public trackers, no page cites; fair value Rs 57 / 68 / 81 vs Rs 94"
+      ],
+      "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 3,
+        "pass": 2,
+        "open": 10
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Related-party capex & subsidiaries",
+        "Customer / supplier / geographic concentration"
+      ],
+      "neutral": {
+        "dcf": 41.3656,
+        "relative": 94.2711,
+        "blended": 67.8183,
+        "upside_floor": -0.2293,
+        "upside_cap": -0.2785
+      },
+      "bear": 57.4424,
+      "bull": 80.9777,
+      "pdf": "VEDANT_POLY_FABS_LTD_Report.pdf",
+      "pe_reported": 17.27,
+      "pe_adjusted": 17.27,
+      "eq_material": false
+    },
     {
       "slug": "hgs-india-ltd",
       "company": "HGS (India) Limited",

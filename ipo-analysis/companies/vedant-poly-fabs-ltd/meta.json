@@ -1,0 +1,131 @@
+{
+  "slug": "vedant-poly-fabs-ltd",
+  "company": "Vedant Poly Fabs Limited",
+  "platform": "SME",
+  "stage": "RHP",
+  "rhp_read": false,
+  "filed_on": null,
+  "doc_url": "https://www.nseindia.com/market-data/all-upcoming-issues-ipo",
+  "sector": "Flexible packaging films and laminates (Barasat, West Bengal)",
+  "brlm": "Affinity Global Capital Market Private Limited",
+  "issue_size_cr": 56.68,
+  "price_band": "Rs 88-94",
+  "open_date": "2026-11-02",
+  "close_date": "2026-11-04",
+  "allotment_date": "2026-11-05",
+  "listing_date": "2026-11-09",
+  "lot_size": 1200,
+  "exchange": "NSE Emerge",
+  "depth": "Snapshot",
+  "status": "analysed",
+  "exit_route": "2-3 year hold (assumed)",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 10.97,
+    "eps_basic": 10.05,
+    "eps_diluted": 10.05,
+    "industry_pe": {
+      "high": 29.66,
+      "low": 12.25,
+      "avg": 20.96
+    },
+    "source": "IPO trackers reproducing the offer document (Multibagg, Chittorgarh, Chanakya, unp.me, IPO Watch, NiftyTrader; read 29-Oct-2026); RHP not reachable, provisional",
+    "note": "Basic EPS Rs 10.05 is on weighted shares (Rs 15.87 cr of promoter loan was converted into equity during FY26); on the 1.4725 crore shares outstanding before the issue EPS is Rs 7.45, a P/E of 11.8x-12.6x across the band. Diluted EPS assumed equal to basic. Industry P/E is from the two peers in the offer document (B&A Packaging 12.25x, Barflex Polyfilms 29.66x).",
+    "pe_floor_basic": 8.76,
+    "pe_cap_basic": 9.35,
+    "pe_floor_diluted": 8.76,
+    "pe_cap_diluted": 9.35,
+    "floor": 88.0,
+    "cap": 94.0
+  },
+  "files": {
+    "screening": "VEDANT_POLY_FABS_LTD_01_Screening.xlsx",
+    "anchor": "VEDANT_POLY_FABS_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "VEDANT_POLY_FABS_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "VEDANT_POLY_FABS_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 20.6137,
+      "relative": 94.2711,
+      "blended": 57.4424,
+      "upside_floor": -0.3472,
+      "upside_cap": -0.3889
+    },
+    "neutral": {
+      "dcf": 41.3656,
+      "relative": 94.2711,
+      "blended": 67.8183,
+      "upside_floor": -0.2293,
+      "upside_cap": -0.2785
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -56.1% - the divergence is the finding; name its cause",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": 62.9311,
+    "bull": {
+      "dcf": 67.6844,
+      "relative": 94.2711,
+      "blended": 80.9777,
+      "upside_floor": -0.0798,
+      "upside_cap": -0.1385
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 3,
+    "pass": 2,
+    "open": 10
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "analysed_on": "2026-10-29",
+  "call": "Neutral",
+  "business_stage": "Early scaling (moved from trading to manufacturing; capacity 8.85 million kg at 72% use)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor portion, if any, bids one working day before 2-Nov-2026; NSE allocation report not reachable"
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 94 upper band: Neutral value Rs 68 is 27.8% below (within 10-30%), so the call is Neutral; the Bull value Rs 81 is also below the price, so the call would read Avoid above about Rs 97. No material issue was found in the data available. Figures come from public trackers because the RHP was not reachable.",
+  "reference_note": "Upper band Rs 94 (54,26,400 fresh + 6,03,600 OFS shares, Rs 56.68 cr). At Rs 94: market cap Rs 189.4 cr post-issue; P/E 17.27x on FY26 PAT (12.62x on pre-issue shares; 9.35x on the company's weighted EPS of Rs 10.05); P/B 2.10x post-issue; EV/EBITDA 9.8x. Objects floor Rs 63.",
+  "headline": "A West Bengal flexible-packaging maker that moved from trading into manufacturing (FY26 revenue Rs 115 cr, EBITDA margin 16.7%, PAT Rs 11 cr), priced at 17.3x FY26 earnings after the issue; our fair value is Rs 68 (Neutral) because three years of negative operating cash flow and rising debt leave little free cash.",
+  "red_flags": [
+    "Revenue Rs 49.53 cr (FY24) -> Rs 81.58 cr (FY25) -> Rs 115.14 cr (FY26); EBITDA margin 3.0% -> 10.2% -> 16.7%",
+    "Operating cash flow negative three years running (FY26 Rs -11.46 cr against PAT Rs 10.97 cr); payables fell from Rs 21.40 cr to Rs 1.68 cr",
+    "Borrowings Rs 13.32 cr -> Rs 46.82 cr (debt/equity 1.11x); Rs 15.87 cr promoter-LLP loan converted to equity in FY26",
+    "West Bengal 96.8% of FY26 revenue; one plant at Barasat",
+    "RHP not reachable: figures from public trackers, no page cites; fair value Rs 57 / 68 / 81 vs Rs 94"
+  ],
+  "swot": {
+    "strengths": [
+      "Revenue up 2.3x in two years; EBITDA margin 16.7% (FY26)",
+      "RoNW 26% (FY26)",
+      "8.85 million kg capacity with 28% headroom",
+      "Promoters converted Rs 15.87 cr of loans to equity"
+    ],
+    "weaknesses": [
+      "Operating cash flow negative three years",
+      "Debt/equity 1.11x; borrowings up 3.5x",
+      "West Bengal 96.8% of revenue; one plant",
+      "Supplier credit collapsed in FY26"
+    ],
+    "opportunities": [
+      "Packaged dairy and edible-oil growth in eastern India",
+      "New extrusion coating and lamination line",
+      "Higher-value barrier films"
+    ],
+    "threats": [
+      "Polymer price swings",
+      "Competition from larger converters",
+      "Customer concentration"
+    ]
+  }
+}

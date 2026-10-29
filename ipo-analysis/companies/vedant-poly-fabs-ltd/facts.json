@@ -1,0 +1,404 @@
+{
+ "_source": "Vedant Poly Fabs Limited (NSE Emerge SME). The RHP is on nsearchives.nseindia.com, which this environment cannot reach; SME offer documents are not on SEBI. Restated standalone financials to 31-Mar-2026 as reproduced by public IPO trackers, cross-checked: net worth Rs 42.26 cr / NAV Rs 28.70 = 1.4725 crore pre-issue shares = PAT Rs 10.97 cr / pre-IPO EPS Rs 7.45; FY26 net worth = FY25 Rs 15.42 cr + PAT Rs 10.97 cr + Rs 15.87 cr promoter-LLP loan converted to equity. FY25 revenue is total income (operations split not reported). Items marked 'estimate' are analyst estimates. No page cites until the RHP is read.",
+ "screening": {
+  "basis": {
+   "name": "Vedant Poly Fabs Limited",
+   "platform": "SME",
+   "stage": "RHP",
+   "doc_date": null,
+   "aud_to": "2026-03-31",
+   "band": "Yes",
+   "brlm": "Affinity Global Capital Market Private Limited",
+   "outside": "RHP not reachable (nsearchives blocked); figures from public trackers reproducing the offer document",
+   "bid_cat": "NII / Retail",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    49.53,
+    81.58,
+    115.14,
+    null
+   ],
+   "oth": [
+    0.2,
+    null,
+    0.17,
+    null
+   ],
+   "pbt": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "ctax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "dtax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pat": [
+    0.64,
+    4.56,
+    10.97,
+    null
+   ],
+   "cfo": [
+    null,
+    -5.74,
+    -11.46,
+    null
+   ],
+   "rpt_s": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_p": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "nw": [
+    3.86,
+    15.42,
+    42.26,
+    null
+   ],
+   "recv": [
+    null,
+    null,
+    28.38,
+    null
+   ],
+   "inv": [
+    null,
+    15.41,
+    24.29,
+    null
+   ],
+   "pay": [
+    null,
+    21.4,
+    1.68,
+    null
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "gw": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "Revenue from operations FY24 49.53 and FY26 115.14; FY25 total income 81.58 (trackers)",
+   "oth": "Total income less revenue from operations",
+   "pat": "Restated (unp.me, Multibagg, NiftyTrader)",
+   "cfo": "Multibagg (operating cash outflow three years running)",
+   "nw": "Restated (unp.me, Chanakya); reconciles to NAV Rs 28.70 x 1.4725 crore shares",
+   "recv": "Multibagg (45.36% of current assets)",
+   "inv": "Multibagg (38.83% of current assets); FY25 = FY26 less the Rs 8.88 cr rise",
+   "pay": "Multibagg"
+  },
+  "single": {
+   "top1c": null,
+   "top10c": null,
+   "top1s": null,
+   "geo": 0.968,
+   "offer": 56.68
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "trackers",
+    "finding": "Net worth Rs 42.26 cr / NAV Rs 28.70 = 1.4725 crore shares = PAT Rs 10.97 cr / EPS Rs 7.45. The company's basic EPS of Rs 10.05 is on weighted shares: Rs 15.87 cr of promoter-LLP loan was converted into equity during FY26."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "Operating cash flow negative three years running: Rs -5.74 cr (FY25) and Rs -11.46 cr (FY26) against PAT Rs 4.56 / 10.97 cr. Trade payables fell from Rs 21.40 cr to Rs 1.68 cr and inventory rose Rs 8.88 cr in FY26; capex Rs 26.91 cr; funded by Rs 47.16 cr of financing (borrowings Rs 13.32 cr -> Rs 46.82 cr and the loan conversion)."
+   },
+   "3": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Tax split not available."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "Rs 15.87 cr FY26 loan from promoter entity Sethsawaria Poly Fab LLP converted into equity; trackers report the related-party ratio fell in FY26. Terms of conversion not read."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "objects (trackers)",
+    "finding": "Objects excluding GCP Rs 32.10 cr (working capital 17.59 + debt repayment 8.00 + plant and machinery 6.51) over 54.26 lakh fresh shares = Rs 63 a share after 6% assumed expenses, below the Rs 88 floor."
+   },
+   "7": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Goodwill and intangibles not available."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "West Bengal 96.8% of FY26 revenue; one plant (Barasat); trackers flag sharply higher counterparty concentration. Lamination 59% of FY26 revenue; billet-strip trading on a bill-to-ship basis is part of revenue."
+   },
+   "9": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Contingent liabilities and litigation not available."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Auditor not available."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Fresh issue Rs 51.01 cr: monitoring agency mandatory above Rs 50 cr; to be named in the RHP."
+   },
+   "R5": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "SME eligibility not re-computed."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Affinity Global Capital Market (BRLM): track record not compiled."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not obtainable (nsearchives.nseindia.com blocked); tracker figures, no page cites",
+    "severity": "High",
+    "source": "RHP (NSE Emerge)"
+   },
+   {
+    "item": "FY25 revenue from operations; FY24 cash flow; D&A, finance cost and tax; cash balance",
+    "severity": "Medium",
+    "source": "RHP restated financials"
+   },
+   {
+    "item": "Customer concentration (trackers flag a sharp rise) and the billet-trading share of revenue",
+    "severity": "Medium",
+    "source": "RHP business section"
+   },
+   {
+    "item": "Terms of the Rs 15.87 cr loan-to-equity conversion and other related-party transactions",
+    "severity": "Medium",
+    "source": "RHP capital structure / RPT"
+   },
+   {
+    "item": "Litigation and contingent liabilities",
+    "severity": "Low",
+    "source": "RHP"
+   },
+   {
+    "item": "Anchor book (if any)",
+    "severity": "Low",
+    "source": "NSE"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Vedant Poly Fabs Limited",
+   "board": "SME",
+   "offer": 94,
+   "anchor_px": 94,
+   "issue": 56.68,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": null,
+   "allot_date": "2026-11-05",
+   "list_date": "2026-11-09"
+  },
+  "total_shares_lakh": 201.51,
+  "overhang": [
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    40.3,
+    1095,
+    "SEBI ICDR (SME): three years"
+   ],
+   [
+    "Promoter holding above the minimum contribution (half)",
+    49.0,
+    365,
+    "SEBI ICDR (SME): 50% after one year (estimate of promoter holding after OFS)"
+   ],
+   [
+    "Promoter holding above the minimum contribution (other half)",
+    49.0,
+    730,
+    "SEBI ICDR (SME): 50% after two years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Vedant Poly Fabs Limited",
+   "basis": "Standalone",
+   "pre_sh": 1.4725,
+   "esop": 0,
+   "fresh": 51.008,
+   "fresh_sh_fixed": 0.54264,
+   "ofs_sh": 0.06036,
+   "floor": 88,
+   "cap": 94,
+   "obj_net": 32.1,
+   "exp_pct": 0.06,
+   "gcp_pct": 0,
+   "ipo_capex": 6.51,
+   "rev0": 115.14,
+   "rev_prev": 81.58,
+   "ebitda0": 19.18,
+   "da0": 1.8,
+   "pat0": 10.97,
+   "nw0": 42.26,
+   "nd0": 46.82,
+   "nwc0": 46.27,
+   "nwc_prev": 19.27,
+   "capex0": 12.0,
+   "kd": 0.1
+  },
+  "drivers": {
+   "g1": [
+    0.08,
+    0.2,
+    0.28
+   ],
+   "g2": [
+    0.07,
+    0.16,
+    0.22
+   ],
+   "g3": [
+    0.06,
+    0.13,
+    0.17
+   ],
+   "g4": [
+    0.05,
+    0.11,
+    0.14
+   ],
+   "g5": [
+    0.05,
+    0.09,
+    0.11
+   ],
+   "m": [
+    0.1,
+    0.13,
+    0.155
+   ],
+   "nwc": [
+    0.4,
+    0.33,
+    0.28
+   ],
+   "roic": [
+    0.15,
+    0.18,
+    0.22
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue Rs 49.53 cr (FY24) -> Rs 81.58 cr (FY25 total income) -> Rs 115.14 cr (FY26), +41% in FY26 as the business shifted from trading to manufacturing. Installed capacity rose from 6.85 to 8.85 million kg in FY26 at 71.64% utilisation, so Y1-Y2 growth can come from spare capacity and the IPO-funded machinery (Rs 6.51 cr). Neutral 20% then 16% / 13% / 11% / 9%; Bear 5-8%; Bull 28% fading to 11%.",
+   "m": "EBITDA Rs 1.48 / 8.30 / 19.18 cr FY24-26; FY26 margin 16.7% on revenue, the first year after the shift to manufacturing (lamination 59% of revenue). Flexible-packaging peers usually earn 10-14%. Neutral 13%; Bear 10%; Bull 15.5%.",
+   "nwc": "Issuer-defined net working capital (current assets less current liabilities) Rs 46.27 cr at Mar-26 (40% of revenue) against Rs 19.27 cr at Mar-25 (24% of FY25 total income). The jump came mainly from trade payables collapsing from Rs 21.40 cr to Rs 1.68 cr (supplier credit replaced by bank debt) and inventory rising Rs 8.88 cr; receivables Rs 28.38 cr. Neutral 33% (between FY25 and FY26, as supplier credit partly returns); Bear 40% (FY26 level persists); Bull 28%.",
+   "roic": "RoNW 25.95% on closing net worth in FY26 (ROE 38% on average equity per one tracker); terminal ROIC 18% (Neutral) after the issue adds equity.",
+   "capex": "Estimates: D&A Rs 1.8 cr (EBITDA 19.18 + other income 0.17 less PBT ~14.6 implied by PAT at 25% tax leaves ~Rs 4.75 cr for interest and D&A; interest on ~Rs 30 cr average debt at 10% is ~Rs 3.0 cr). Base capex Rs 12 cr (estimate): FY26 investing outflow of Rs 26.91 cr included a one-off 2 million kg capacity step; with 28% spare capacity and IPO-funded machinery, Rs 12 cr is taken as the run-rate. Net debt taken as gross borrowings Rs 46.82 cr (cash not disclosed). Fresh issue 54,26,400 shares = Rs 51.01 cr at Rs 94."
+  },
+  "peers": [
+   [
+    "B&A Packaging India Ltd (per share)",
+    "Y",
+    "Flexible packaging - issuer's peer (DRHP), not strictly comparable",
+    "Standalone",
+    174.44,
+    1,
+    null,
+    null,
+    null,
+    14.24,
+    180.16,
+    null
+   ],
+   [
+    "Barflex Polyfilms Ltd (per share)",
+    "Y",
+    "Polyfilms - issuer's peer (DRHP), not strictly comparable",
+    "Standalone",
+    57.24,
+    1,
+    null,
+    null,
+    null,
+    1.93,
+    38.82,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   1.48,
+   8.3,
+   19.18
+  ],
+  "_cite": "EBITDA as reproduced by unp.me (FY24 1.48, FY25 8.30, FY26 19.18)."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26].",
+  "adjustments": [
+   {
+    "item": "Other income",
+    "short": "other income",
+    "pre_tax": [
+     -0.2,
+     0,
+     -0.17
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "trackers",
+    "reason": "Small (about 1% of FY26 pre-tax profit); nature not known. Shown for information."
+   }
+  ],
+  "checked": [
+   "PAT growth (FY25 Rs 4.56 cr -> FY26 Rs 10.97 cr) ahead of revenue growth (+41%) is explained by the shift from trading to manufacturing (trackers); not tested against the notes",
+   "Capitalised costs, cash tax, exceptional items and related-party pricing could not be tested without the RHP",
+   "Profit is not yet cash: operating cash flow negative in FY25 and FY26"
+  ]
+ }
+}
