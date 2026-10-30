@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-10-29T13:31Z",
-  "today_ist": "2026-10-29",
+  "last_scan": "2026-10-30T02:15Z",
+  "today_ist": "2026-10-30",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [],
   "issues": [
@@ -39,7 +39,7 @@
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_BLSPOLY.zip",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/bls-polymers-limited-rhp_105327.html",
       "rhp_filed_on": "2026-10-19",
-      "status": "Open",
+      "status": "Closed",
       "slug": "bls-polymers-ltd",
       "report": "published",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792388466880.pdf",
@@ -75,7 +75,7 @@
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_SFCTECH.zip",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/oct-2026/sfc-environmental-technologies-ltd-rhp_105380.html",
       "rhp_filed_on": "2026-10-22",
-      "status": "Open",
+      "status": "Closed",
       "slug": "sfc-environmental-technologies-ltd",
       "report": "published",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1792670149542.PDF",
@@ -154,7 +154,7 @@
       "issue_size_text": "28,00,800 shares (Rs 56.02 cr at upper band)",
       "brlm": "ISK Advisors Private Limited",
       "exchange": "BSE SME",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "johnsoncab-electricals-ltd",
       "report": "provisional"
     },
@@ -171,7 +171,7 @@
       "issue_size_text": "Initial Public Offer comprising of Fresh Issue of up to 23,26,000 equity shares and Offer for Sale of up to 5,54,000 Equity Shares (including Market Maker portion of 1,45,200 Equity Shares and Anchor Allocation of 8,13,600 Equity shares)",
       "brlm": "Hem Securities Limited",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_HGSINDIALT.zip",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "hgs-india-ltd",
       "report": "provisional",
       "anchor_zip": "https://nsearchives.nseindia.com/content/ipo/ANCHOR_HGSINDIALT.zip"
@@ -186,7 +186,7 @@
       "price_band": "Rs 150-158",
       "issue_size_shares": 2624000,
       "source": "NSE",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "maxwell-engineering-solutions-ltd",
       "report": "provisional",
       "issue_size_text": "Initial Public Offer comprising of Fresh issue of up to 36,48,000 equity shares (including Market Maker portion of 2,22,400 Equity Shares and Anchor Allocation 10,24,000 Equity Shares)",
