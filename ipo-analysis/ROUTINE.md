@@ -97,6 +97,12 @@ BRLMs, RHP and anchor links) and SEBI's register of red herring prospectuses (wi
 `provisional` report whose `rhp_pdf` has now appeared. Errors (a blocked host) are listed at the end; record them in
 the run summary, never work around a block.
 
+**BSE-only SME issues (manual check, every run).** The scanner reads NSE only, and BSE's own servers refuse automated
+requests, so a BSE SME issue never reaches the calendar by itself (Johnsoncab, Antala Industries in Oct-2026). Each run,
+web-search for SME IPOs opening or open in the next seven days on BSE SME. Add any with a price band that is not
+already in `data/calendar.json` by hand: `source` "BSE SME (added manually)", `report` "to_do", with dates, band and
+lot. The scanner keeps manually added entries. Treat them as TODO issues in step 3.
+
 ### 2. Get the RHP
 In order: `rhp_pdf` from the calendar (SEBI attachdocs PDF; extension may be `.PDF`); the SEBI filing page
 `rhp_filing`; the NSE `rhp_zip` (nsearchives.nseindia.com - may be blocked); the company's investor page; the BRLMs'
