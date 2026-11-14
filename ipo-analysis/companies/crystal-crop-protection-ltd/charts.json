@@ -1,0 +1,949 @@
+{
+ "slug": "crystal-crop-protection-ltd",
+ "company": "Crystal Crop Protection Limited",
+ "generated": "2026-11-14T13:23Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 3151.968,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.1889,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 144.914,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.2889,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.1447,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.0938,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 2.7878,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2646,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 30.47,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 19.926,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 27.11,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 30.63,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 190.1954,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.3008,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 272.0,
+   "fmt": "rs",
+   "sub": "Working band Rs 259-272 (single aggregator, unconfirmed; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Goodwill vs tangible equity",
+   "detail": "Other intangibles Rs 782.10 cr at Mar-26 (Rs 370.75 cr Mar-24) from acquired brands (Rs 483.46 cr asset purchase and Rs 242.98 cr I&B Seeds business in FY25, p. 104); amortised over 5-10 years: Rs 142.73 cr in FY26 (p. 508), about equal to PAT. Goodwill Rs 25.73 cr.",
+   "page": "pp. 99, 508"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 113.27 cr at Jun-26 (entry tax Rs 69.20 cr, GST Rs 33.35 cr), 5.8% of equity. Litigation against the company Rs 255.94 cr (11.77% of net worth), including 85 criminal cases (mostly Insecticides Act sampling matters typical of agrochemicals).",
+   "page": "pp. 36, 603"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "Walker Chandiok & Co LLP issued a MODIFIED opinion (FY24-26 and Q1 FY27): an insurance claim receivable of Rs 16.30 cr recognised in FY13, rejected by the insurer and under appeal in the Supreme Court, should not be recognised (a contingent asset). Equity would be Rs 16.30 cr lower; no P&L effect in FY24-26.",
+   "page": "p. 448"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -32.3% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Price band and lot size not officially announced at writing; Rs 259-272 from a single aggregator",
+   "page": "Price-band advertisement / NSE-BSE notice"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Related-party transactions FY24-26",
+   "page": "RHP Restated note on related parties"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Anchor book (bids 17-Nov-2026)",
+   "page": "NSE/BSE anchor allocation"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "Basic EPS Rs 11.43 on PAT to owners Rs 145.68 cr = 12.75 crore weighted shares (the pre-conversion equity of 12.746 crore). CCDs (Rs 312.10 cr classed as equity) have since converted and a pre-IPO placement of Rs 84.29 cr at Rs 272.07 was made: pre-offer capital is 15.01 crore shares (p. 123). On that count FY26 EPS is Rs 9.70.",
+   "page": "pp. 101-102, 123, 183"
+  },
+  {
+   "title": "Cash flow vs profit",
+   "detail": "CFO Rs 337.79 / 383.03 / 256.42 cr FY24-26 against PAT Rs 87.24 / 118.39 / 144.91 cr: cumulative CFO 2.2x PAT. Q1 FY27 CFO Rs 43.47 cr against PAT Rs 135.78 cr (seasonal kharif build of receivables).",
+   "page": "pp. 103-104"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 24.75 / 41.92 / 56.89 cr = 23-29% of PBT; income tax paid Rs 21.24 / 20.62 / 61.24 cr (p. 104).",
+   "page": "p. 101"
+  },
+  {
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "14,717 active distributors; over 98% of revenue from repeat customers; top 10 suppliers 38.18% of FY26 purchases (51.33% in Q1 FY27).",
+   "page": "pp. 35, 44"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Fresh issue above Rs 100 cr: monitoring agency appointed.",
+   "page": "p. 182"
+  },
+  {
+   "title": "SME conditions",
+   "detail": "Mainboard issue under Reg 6(1); QIB up to 50%, NII at least 15%, retail at least 35%.",
+   "page": "cover"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 101-102, 123, 183",
+   "finding": "Basic EPS Rs 11.43 on PAT to owners Rs 145.68 cr = 12.75 crore weighted shares (the pre-conversion equity of 12.746 crore). CCDs (Rs 312.10 cr classed as equity) have since converted and a pre-IPO placement of Rs 84.29 cr at Rs 272.07 was made: pre-offer capital is 15.01 crore shares (p. 123). On that count FY26 EPS is Rs 9.70."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "PASS",
+   "page": "pp. 103-104",
+   "finding": "CFO Rs 337.79 / 383.03 / 256.42 cr FY24-26 against PAT Rs 87.24 / 118.39 / 144.91 cr: cumulative CFO 2.2x PAT. Q1 FY27 CFO Rs 43.47 cr against PAT Rs 135.78 cr (seasonal kharif build of receivables)."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 101",
+   "finding": "Current tax Rs 24.75 / 41.92 / 56.89 cr = 23-29% of PBT; income tax paid Rs 21.24 / 20.62 / 61.24 cr (p. 104)."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Related-party transactions not compiled in this run; the objects carry no related-party use (p. 182)."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 159-160",
+   "finding": "Fresh issue is amount-based (Rs 355.00 cr), not a fixed share count; objects are Rs 270.00 cr of debt repayment (company Rs 247.94 cr, subsidiary Saffire Rs 22.06 cr) plus up to 35% for unidentified acquisitions and GCP."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "WATCH",
+   "page": "pp. 99, 508",
+   "finding": "Other intangibles Rs 782.10 cr at Mar-26 (Rs 370.75 cr Mar-24) from acquired brands (Rs 483.46 cr asset purchase and Rs 242.98 cr I&B Seeds business in FY25, p. 104); amortised over 5-10 years: Rs 142.73 cr in FY26 (p. 508), about equal to PAT. Goodwill Rs 25.73 cr."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "PASS",
+   "page": "pp. 35, 44",
+   "finding": "14,717 active distributors; over 98% of revenue from repeat customers; top 10 suppliers 38.18% of FY26 purchases (51.33% in Q1 FY27)."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "pp. 36, 603",
+   "finding": "Contingent liabilities Rs 113.27 cr at Jun-26 (entry tax Rs 69.20 cr, GST Rs 33.35 cr), 5.8% of equity. Litigation against the company Rs 255.94 cr (11.77% of net worth), including 85 criminal cases (mostly Insecticides Act sampling matters typical of agrochemicals)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "p. 448",
+   "finding": "Walker Chandiok & Co LLP issued a MODIFIED opinion (FY24-26 and Q1 FY27): an insurance claim receivable of Rs 16.30 cr recognised in FY13, rejected by the insurer and under appeal in the Supreme Court, should not be recognised (a contingent asset). Equity would be Rs 16.30 cr lower; no P&L effect in FY24-26."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "p. 182",
+   "finding": "Fresh issue above Rs 100 cr: monitoring agency appointed."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "PASS",
+   "page": "cover",
+   "finding": "Mainboard issue under Reg 6(1); QIB up to 50%, NII at least 15%, retail at least 35%."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "",
+   "finding": "IIFL, DAM Capital and Motilal Oswal: large, active managers; track record not compiled in this run."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   2229.927,
+   2690.51,
+   3151.968
+  ],
+  "ebitda": [
+   209.061,
+   315.276,
+   456.229
+  ],
+  "pat": [
+   87.237,
+   118.392,
+   144.914
+  ],
+  "cfo": [
+   337.787,
+   383.029,
+   256.415
+  ],
+  "ebitda_margin": [
+   0.0938,
+   0.1172,
+   0.1447
+  ],
+  "pat_margin": [
+   0.0391,
+   0.044,
+   0.046
+  ],
+  "inventory": [
+   744.763,
+   1103.22,
+   1379.072
+  ],
+  "receivables": [
+   579.517,
+   662.98,
+   604.607
+  ],
+  "payables": [
+   265.763,
+   724.001,
+   784.607
+  ],
+  "nwc": [
+   1058.52,
+   1042.2,
+   1199.07
+  ],
+  "nwc_pct": [
+   0.4747,
+   0.3874,
+   0.3804
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 272.0,
+  "floor": 259.0,
+  "cap": 272.0,
+  "reference_note": "Working band Rs 259-272 (single aggregator, unconfirmed; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA.",
+  "scenarios": {
+   "bear": {
+    "dcf": 87.261,
+    "relative": 226.8428,
+    "blended": 157.0519,
+    "upside_floor": -0.3936,
+    "upside_cap": -0.4226
+   },
+   "neutral": {
+    "dcf": 153.548,
+    "relative": 226.8428,
+    "blended": 190.1954,
+    "upside_floor": -0.2657,
+    "upside_cap": -0.3008
+   },
+   "bull": {
+    "dcf": 222.204,
+    "relative": 226.8428,
+    "blended": 224.5234,
+    "upside_floor": -0.1331,
+    "upside_cap": -0.1745
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1431,
+  "tv_share": 0.714,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 33.7 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.11012560480628715,
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.0760111448906155,
+     "actual": 0.1431
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.25491249419492595,
+     "actual": 0.1337
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.3804
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   3151.968,
+   3561.7238,
+   3989.1307,
+   4427.9351,
+   4870.7286,
+   5309.0942
+  ],
+  "ebitda": [
+   477.169,
+   498.6413,
+   558.4783,
+   619.9109,
+   681.902,
+   743.2732
+  ],
+  "nopat": [
+   315.4444,
+   326.1014,
+   365.2335,
+   405.4092,
+   445.9501,
+   486.0856
+  ],
+  "fcff": [
+   136.6504,
+   187.8706,
+   186.7895,
+   222.2067,
+   261.0822,
+   303.0664
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1231,
+    0.1331,
+    0.1431,
+    0.1531,
+    0.1631
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     192.2766,
+     195.7518,
+     199.6053,
+     203.9149,
+     208.7811
+    ],
+    [
+     169.4022,
+     171.5671,
+     173.9214,
+     176.499,
+     179.3429
+    ],
+    [
+     150.8516,
+     152.1575,
+     153.548,
+     155.0365,
+     156.6399
+    ],
+    [
+     135.5219,
+     136.252,
+     137.0074,
+     137.7918,
+     138.6096
+    ],
+    [
+     122.6545,
+     122.9928,
+     123.3228,
+     123.6432,
+     123.9529
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.31,
+    0.34,
+    0.37,
+    0.4,
+    0.43
+   ],
+   "cols": [
+    0.12,
+    0.13,
+    0.14,
+    0.15,
+    0.16
+   ],
+   "values": [
+    [
+     136.4679,
+     152.7683,
+     169.0688,
+     185.3692,
+     201.6697
+    ],
+    [
+     128.7075,
+     145.0079,
+     161.3084,
+     177.6088,
+     193.9093
+    ],
+    [
+     120.9471,
+     137.2475,
+     153.548,
+     169.8484,
+     186.1488
+    ],
+    [
+     113.1867,
+     129.4871,
+     145.7876,
+     162.088,
+     178.3884
+    ],
+    [
+     105.4263,
+     121.7267,
+     138.0271,
+     154.3276,
+     170.628
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Kaveri Seeds Company Ltd",
+   "pe": 12.1268,
+   "pb": 2.0218,
+   "issuer": false
+  },
+  {
+   "name": "Sumitomo Chemical India Ltd",
+   "pe": 31.204,
+   "pb": 5.0044,
+   "issuer": false
+  },
+  {
+   "name": "Bayer CropScience Ltd",
+   "pe": 22.7274,
+   "pb": 5.2816,
+   "issuer": false
+  },
+  {
+   "name": "Rallis India Ltd",
+   "pe": 19.926,
+   "pb": 1.8056,
+   "issuer": false
+  },
+  {
+   "name": "Dhanuka Agritech Ltd",
+   "pe": 14.3825,
+   "pb": 2.4577,
+   "issuer": false
+  },
+  {
+   "name": "Crystal Crop Protection Limited at reference",
+   "pe": 30.4661,
+   "pb": 2.0586,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 45.3175
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 9.0689
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 81.5796
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 90.644
+   },
+   {
+    "label": "Non-institutional",
+    "value": 67.983
+   },
+   {
+    "label": "Retail",
+    "value": 158.627
+   }
+  ],
+  "issue_cr": 453.22,
+  "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 24.9938,
+    "days": 30,
+    "pct_float": 0.1326
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 24.9938,
+    "days": 90,
+    "pct_float": 0.1171
+   },
+   {
+    "label": "Pre-offer non-promoter shareholders (IFC, IFC Emerging Asia Fund, WhiteOak, pre-IPO placees, employee trust)",
+    "shares_lakh": 226.5,
+    "days": 180,
+    "pct_float": 0.9498
+   },
+   {
+    "label": "Promoter holding above minimum contribution (after OFS)",
+    "shares_lakh": 840.4,
+    "days": 180,
+    "pct_float": 3.524
+   },
+   {
+    "label": "Promoters' minimum contribution (20% of post-offer capital)",
+    "shares_lakh": 326.3,
+    "days": 540,
+    "pct_float": 0.25
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [
+   {
+    "name": "IIFL Capital Services Limited",
+    "owner": "Promoter group led by the IIFL founders; shareholding percentages not sourced in this run",
+    "listed": "Yes (formerly IIFL Securities Limited) - listing status per secondary sources, unverified",
+    "summary": {
+     "FY2024-25": {
+      "ipos": 16,
+      "amount_rs_m": 481737.17,
+      "d30_discount_lt25": 1,
+      "d30_premium_gt50": 6,
+      "d30_premium_25_50": 4,
+      "d30_premium_lt25": 5,
+      "d180_discount_25_50": 2,
+      "d180_premium_gt50": 6,
+      "d180_premium_25_50": 4,
+      "d180_premium_lt25": 4
+     },
+     "FY2025-26": {
+      "ipos": 29,
+      "amount_rs_m": 710091.04,
+      "d30_discount_25_50": 2,
+      "d30_discount_lt25": 9,
+      "d30_premium_gt50": 1,
+      "d30_premium_25_50": 6,
+      "d30_premium_lt25": 11,
+      "d180_discount_25_50": 6,
+      "d180_discount_lt25": 6,
+      "d180_premium_gt50": 5,
+      "d180_premium_25_50": 3,
+      "d180_premium_lt25": 8
+     },
+     "FY2026-27": {
+      "ipos": 19,
+      "amount_rs_m": 420721.21,
+      "d30_discount_lt25": 4,
+      "d30_premium_gt50": 2,
+      "d30_premium_25_50": 2,
+      "d180_premium_25_50": 1
+     }
+    },
+    "short": "IIFL"
+   }
+  ],
+  "issues": [
+   {
+    "issuer": "National Stock Exchange of India Ltd",
+    "sector": "Stock exchange / market infrastructure",
+    "listing_gain": 0.0084,
+    "d30": null,
+    "rev_growth": 0.1232,
+    "pat_growth": 0.2256,
+    "listing_date": "2026-09-24"
+   },
+   {
+    "issuer": "Karamtara Engineering Ltd",
+    "sector": "Transmission towers & solar structures",
+    "listing_gain": 0.2598,
+    "d30": null,
+    "rev_growth": 0.778,
+    "pat_growth": 1.2284,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Asset Reconstruction Company (India) Ltd",
+    "sector": "Asset reconstruction / financial services",
+    "listing_gain": 0.0,
+    "d30": null,
+    "rev_growth": 0.3208,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Rentomojo Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": 0.1942,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Manipal Payment & Identity Solutions Ltd",
+    "sector": "Not stated in offer document",
+    "listing_gain": -0.0265,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-17"
+   },
+   {
+    "issuer": "Orient Cables (India) Ltd",
+    "sector": "Cables and wires",
+    "listing_gain": 0.5331,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-05"
+   },
+   {
+    "issuer": "Elevate Campuses Ltd",
+    "sector": "Student housing / real estate",
+    "listing_gain": -0.0191,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-30"
+   },
+   {
+    "issuer": "Kanohar Electricals Ltd",
+    "sector": "Electrical equipment",
+    "listing_gain": 0.0847,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-09-16"
+   },
+   {
+    "issuer": "Moneyview Ltd",
+    "sector": "Digital lending (NBFC)",
+    "listing_gain": 0.6176,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-01"
+   },
+   {
+    "issuer": "AceVector Ltd",
+    "sector": "Consumer internet",
+    "listing_gain": -0.115,
+    "d30": null,
+    "rev_growth": null,
+    "pat_growth": null,
+    "listing_date": "2026-10-05"
+   }
+  ]
+ },
+ "swot": {
+  "strengths": [
+   "193 product brands, incl. acquired Gramoxone, Bavistin, Tilt, Furadan (pp. 305, 308)",
+   "14,717 active distributors in 23 states (p. 307)",
+   "Backward integration into technicals at Dahej and Nagpur (p. 307)",
+   "Top-3 in pearl millet and mustard seeds (p. 306)"
+  ],
+  "weaknesses": [
+   "ROE about 8% after brand amortisation (p. 186)",
+   "Working capital 38% of revenue (p. 186)",
+   "Monsoon-dependent, seasonal demand",
+   "Auditor's modified opinion (p. 448)"
+  ],
+  "opportunities": [
+   "Seeds growing 28% CAGR FY24-26 (p. 306)",
+   "Natural crop solutions and biologicals (p. 305)",
+   "New Jhagadia, Gujarat plant (p. 307)",
+   "Debt repayment from the issue lowers interest"
+  ],
+  "threats": [
+   "Weak monsoon or pest cycles",
+   "Chinese technical price swings",
+   "Regulatory bans on molecules",
+   "Pricing pressure from generics"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "price": 272.0,
+  "shares": 16.3168,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY26",
+    "pat": 144.914,
+    "eps": 8.8813,
+    "pe": 30.63
+   },
+   {
+    "basis": "FY26 after: CCD fair-value loss",
+    "pat": 160.5834,
+    "eps": 9.8416,
+    "pe": 27.64
+   },
+   {
+    "basis": "FY26 after: exceptional item",
+    "pat": 163.6799,
+    "eps": 10.0314,
+    "pe": 27.11
+   },
+   {
+    "basis": "FY24-FY26 average, reported",
+    "pat": 116.8477,
+    "eps": 7.1612,
+    "pe": 37.98
+   },
+   {
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 124.9368,
+    "eps": 7.6569,
+    "pe": 35.52
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Fair-value loss on compulsorily convertible debentures",
+    "short": "CCD fair-value loss",
+    "pre_tax": [
+     0.0,
+     7.352,
+     20.94
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 186-187",
+    "reason": "Non-cash change in the fair value of CCDs issued to IFC (Oct-2022) charged to profit; the CCDs have converted into equity, so the charge does not recur. Equals the issuer's EBITDA-to-adjusted-EBITDA bridge.",
+    "post_tax": [
+     0.0,
+     5.5015,
+     15.6694
+    ],
+    "pe_if_applied": 27.64
+   },
+   {
+    "item": "Exceptional item",
+    "short": "exceptional item",
+    "pre_tax": [
+     0.0,
+     0.0,
+     4.138
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "p. 101",
+    "reason": "One-off exceptional charge in FY26 (Rs 4.14 cr).",
+    "post_tax": [
+     0.0,
+     0.0,
+     3.0965
+    ],
+    "pe_if_applied": 29.99
+   },
+   {
+    "item": "Amortisation of acquired brands",
+    "short": "brand amortisation",
+    "pre_tax": [
+     53.786,
+     83.723,
+     142.73
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 508",
+    "reason": "Non-cash amortisation of brands bought from multinationals (5-10 year lives) roughly equals FY26 PAT; adding it back gives a cash-earnings view, but the company keeps buying brands, so it is shown for information and kept out of the adjusted P/E.",
+    "post_tax": [
+     40.2481,
+     62.6499,
+     106.8049
+    ],
+    "pe_if_applied": 17.63
+   },
+   {
+    "item": "Treasury income in other income",
+    "short": "interest income",
+    "pre_tax": [
+     -1.933,
+     -1.481,
+     -1.015
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "p. 103",
+    "reason": "Interest income on deposits; non-operating and small. For information.",
+    "post_tax": [
+     -1.4465,
+     -1.1082,
+     -0.7595
+    ],
+    "pe_if_applied": 30.79
+   }
+  ],
+  "adjusted_pat": [
+   87.237,
+   123.8935,
+   163.6799
+  ],
+  "pe_reported": 30.63,
+  "pe_adjusted": 27.11,
+  "pat_change": 0.1295,
+  "material": true,
+  "verdict": "Reported FY26 P/E of 30.6x understates earnings: adjusted P/E 27.1x (PAT +12.9%). On the FY24-FY26 average, which smooths one-year items, the P/E is 38.0x reported and 35.5x adjusted.",
+  "flags": [
+   "Non-cash change in the fair value of CCDs issued to IFC (Oct-2022) charged to profit; the CCDs have converted into equity, so the charge does not recur. Equals the issuer's EBITDA-to-adjusted-EBITDA bridge.",
+   "One-off exceptional charge in FY26 (Rs 4.14 cr)."
+  ],
+  "checked": [
+   "Profit is taxed in cash: current tax 23-29% of PBT (p. 101)",
+   "Auditor's modified opinion concerns a Rs 16.30 cr insurance receivable on the balance sheet, not FY24-26 profit (p. 448)",
+   "No capitalised interest identified; CWIP Rs 81.15 cr at Mar-26 (p. 99)",
+   "Q1 FY27 is the peak kharif quarter; not annualised"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 3,
+  "pass": 6,
+  "open": 6
+ }
+}

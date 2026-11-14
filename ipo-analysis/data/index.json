@@ -1,6 +1,82 @@
 {
-  "updated": "2026-10-30T02:15Z",
+  "updated": "2026-11-14T13:23Z",
   "issuers": [
+    {
+      "slug": "crystal-crop-protection-ltd",
+      "company": "Crystal Crop Protection Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-11-12",
+      "analysed_on": "2026-11-14",
+      "sector": "Agrochemicals and seeds (crop protection, natural crop solutions, hybrid seeds)",
+      "brlm": "IIFL Capital Services, DAM Capital Advisors, Motilal Oswal Investment Advisors",
+      "issue_size_cr": 455.72,
+      "price_band": "Rs 259-272",
+      "open_date": "2026-11-18",
+      "close_date": "2026-11-20",
+      "allotment_date": null,
+      "listing_date": null,
+      "lot_size": null,
+      "exchange": "NSE, BSE",
+      "depth": "Full",
+      "rhp_read": true,
+      "company_pe": {
+        "period": "FY26",
+        "pat_cr": 145.68,
+        "pat_basis": "attributable to owners; total Rs 144.91 cr",
+        "eps_basic": 11.43,
+        "eps_diluted": 11.06,
+        "industry_pe": {
+          "high": 31.2,
+          "low": 12.13,
+          "avg": 20.07
+        },
+        "source": "RHP pp. 183-185 (Basis for Offer Price); PAT p. 102",
+        "note": "The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band from a single aggregator, unconfirmed at writing.",
+        "pe_floor_basic": 22.66,
+        "pe_cap_basic": 23.8,
+        "pe_floor_diluted": 23.42,
+        "pe_cap_diluted": 24.59,
+        "floor": 259.0,
+        "cap": 272.0
+      },
+      "call": "Avoid",
+      "business_stage": "Established, acquisition-led growth (brands bought from multinationals; seeds scaled via I&B Seeds)",
+      "headline": "A Delhi-based agrochemicals and seeds company (FY26 revenue Rs 3,152 cr, adjusted EBITDA margin 15%, PAT Rs 146 cr) that has grown by buying brands from multinationals, raising Rs 355 cr of fresh money to cut debt, priced at 30.5x FY26 earnings against a 20x peer median; fair value Rs 190 (Avoid, by a hair) because brand amortisation and working capital keep returns on equity near 8%.",
+      "red_flags": [
+        "Revenue Rs 2,229.93 / 2,690.51 / 3,151.97 cr FY24-26; adjusted EBITDA margin 9.4% -> 12.0% -> 15.1%; PAT Rs 87.24 / 118.39 / 144.91 cr (pp. 101, 186)",
+        "Brand amortisation Rs 142.73 cr in FY26, about equal to PAT, from Rs 726 cr of acquisitions in FY25; intangibles Rs 782.10 cr (pp. 99, 104, 508)",
+        "Auditor's modified opinion: Rs 16.30 cr insurance claim receivable should not be recognised (balance sheet only) (p. 448)",
+        "Working capital 38% of revenue; borrowings Rs 820.04 cr at Mar-26; Q1 FY27 CFO Rs 43.47 cr vs PAT Rs 135.78 cr (seasonal) (pp. 99-104)",
+        "Band Rs 259-272 from a single aggregator, unconfirmed at writing; fair value Rs 157 / 190 / 225 vs Rs 272"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/crystal-crop-protection-limited-rhp_105734.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 3,
+        "pass": 6,
+        "open": 6
+      },
+      "focus_top": [
+        "Goodwill vs tangible equity",
+        "Contingent liabilities",
+        "Auditor qualifications / changes"
+      ],
+      "neutral": {
+        "dcf": 153.548,
+        "relative": 226.8428,
+        "blended": 190.1954,
+        "upside_floor": -0.2657,
+        "upside_cap": -0.3008
+      },
+      "bear": 157.0519,
+      "bull": 224.5234,
+      "pdf": "CRYSTAL_CROP_PROTECTION__Report.pdf",
+      "pe_reported": 30.63,
+      "pe_adjusted": 27.11,
+      "eq_material": true
+    },
     {
       "slug": "vedant-poly-fabs-ltd",
       "company": "Vedant Poly Fabs Limited",
