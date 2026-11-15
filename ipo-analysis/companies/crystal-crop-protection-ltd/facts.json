@@ -1,5 +1,5 @@
 {
- "_source": "RHP dated 12-Nov-2026 (SEBI filing 105734); printed page = PDF page - 5. Restated consolidated financials FY24-FY26 and Q1 FY27 (3 months to 30-Jun-2026), Rs million converted to Rs crore. Price band Rs 259-272 is from a single aggregator and unconfirmed at writing (the RHP prints [●]); the Rs 272.07 pre-IPO placement price (p. 123) is consistent with the reported cap.",
+ "_source": "RHP dated 12-Nov-2026 (SEBI filing 105734); printed page = PDF page - 5. Restated consolidated financials FY24-FY26 and Q1 FY27 (3 months to 30-Jun-2026), Rs million converted to Rs crore. Price band Rs 259-272 (lot 55) confirmed by the company's announcement of 14-Nov-2026 (the RHP prints [●]); the Rs 272.07 pre-IPO placement price (p. 123) is consistent with the reported cap.",
  "screening": {
   "basis": {
    "name": "Crystal Crop Protection Limited",
@@ -9,7 +9,7 @@
    "aud_to": "2026-06-30",
    "band": "No",
    "brlm": "IIFL Capital Services, DAM Capital Advisors, Motilal Oswal Investment Advisors",
-   "outside": "Price band Rs 259-272 from one aggregator, unconfirmed (RHP prints [●])",
+   "outside": "Price band Rs 259-272 and lot 55 from the company's price-band announcement (14-Nov-2026); RHP prints [●]",
    "bid_cat": "Anchor",
    "exit": "2-3 year hold (assumed)"
   },
@@ -197,11 +197,6 @@
    }
   },
   "gaps": [
-   {
-    "item": "Price band and lot size not officially announced at writing; Rs 259-272 from a single aggregator",
-    "severity": "High",
-    "source": "Price-band advertisement / NSE-BSE notice"
-   },
    {
     "item": "Related-party transactions FY24-26",
     "severity": "Medium",

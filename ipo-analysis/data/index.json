@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T13:23Z",
+  "updated": "2026-11-15T02:16Z",
   "issuers": [
     {
       "slug": "crystal-crop-protection-ltd",
@@ -15,8 +15,8 @@
       "open_date": "2026-11-18",
       "close_date": "2026-11-20",
       "allotment_date": null,
-      "listing_date": null,
-      "lot_size": null,
+      "listing_date": "2026-11-26",
+      "lot_size": 55,
       "exchange": "NSE, BSE",
       "depth": "Full",
       "rhp_read": true,
@@ -32,7 +32,7 @@
           "avg": 20.07
         },
         "source": "RHP pp. 183-185 (Basis for Offer Price); PAT p. 102",
-        "note": "The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band from a single aggregator, unconfirmed at writing.",
+        "note": "The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band confirmed by the company on 14-Nov-2026.",
         "pe_floor_basic": 22.66,
         "pe_cap_basic": 23.8,
         "pe_floor_diluted": 23.42,
@@ -48,7 +48,7 @@
         "Brand amortisation Rs 142.73 cr in FY26, about equal to PAT, from Rs 726 cr of acquisitions in FY25; intangibles Rs 782.10 cr (pp. 99, 104, 508)",
         "Auditor's modified opinion: Rs 16.30 cr insurance claim receivable should not be recognised (balance sheet only) (p. 448)",
         "Working capital 38% of revenue; borrowings Rs 820.04 cr at Mar-26; Q1 FY27 CFO Rs 43.47 cr vs PAT Rs 135.78 cr (seasonal) (pp. 99-104)",
-        "Band Rs 259-272 from a single aggregator, unconfirmed at writing; fair value Rs 157 / 190 / 225 vs Rs 272"
+        "Band Rs 259-272 (confirmed); fair value Rs 157 / 190 / 225 vs Rs 272"
       ],
       "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/crystal-crop-protection-limited-rhp_105734.html",
       "status": "analysed",

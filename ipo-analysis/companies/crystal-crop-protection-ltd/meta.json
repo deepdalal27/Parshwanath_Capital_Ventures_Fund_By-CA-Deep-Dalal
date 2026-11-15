@@ -14,8 +14,8 @@
   "open_date": "2026-11-18",
   "close_date": "2026-11-20",
   "allotment_date": null,
-  "listing_date": null,
-  "lot_size": null,
+  "listing_date": "2026-11-26",
+  "lot_size": 55,
   "exchange": "NSE, BSE",
   "depth": "Full",
   "exit_route": "2-3 year hold (assumed)",
@@ -32,7 +32,7 @@
       "avg": 20.07
     },
     "source": "RHP pp. 183-185 (Basis for Offer Price); PAT p. 102",
-    "note": "The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band from a single aggregator, unconfirmed at writing.",
+    "note": "The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band confirmed by the company on 14-Nov-2026.",
     "pe_floor_basic": 22.66,
     "pe_cap_basic": 23.8,
     "pe_floor_diluted": 23.42,
@@ -95,15 +95,15 @@
     "mf_share": null,
     "source": "Anchor bidding 17-Nov-2026; allocation not yet published at writing"
   },
-  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the working upper band of Rs 272 (from a single aggregator, unconfirmed at writing; the call will be re-checked when the band is officially announced): Neutral value Rs 190 is 30.1% below and the Bull value Rs 225 is also below the price, so the call is Avoid - by a hair. At Rs 271 or below it reads Neutral; at Rs 259 (floor) Neutral value is 26.6% below. No material governance issue; the auditor's modified opinion concerns a Rs 16.30 cr insurance receivable on the balance sheet.",
-  "reference_note": "Working band Rs 259-272 (single aggregator, unconfirmed; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA.",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the working upper band of Rs 272 (confirmed by the company's price-band announcement on 14-Nov-2026): Neutral value Rs 190 is 30.1% below and the Bull value Rs 225 is also below the price, so the call is Avoid - by a hair. At Rs 271 or below it reads Neutral; at Rs 259 (floor) Neutral value is 26.6% below. No material governance issue; the auditor's modified opinion concerns a Rs 16.30 cr insurance receivable on the balance sheet.",
+  "reference_note": "Band Rs 259-272, lot 55 (company announcement, 14-Nov-2026; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA.",
   "headline": "A Delhi-based agrochemicals and seeds company (FY26 revenue Rs 3,152 cr, adjusted EBITDA margin 15%, PAT Rs 146 cr) that has grown by buying brands from multinationals, raising Rs 355 cr of fresh money to cut debt, priced at 30.5x FY26 earnings against a 20x peer median; fair value Rs 190 (Avoid, by a hair) because brand amortisation and working capital keep returns on equity near 8%.",
   "red_flags": [
     "Revenue Rs 2,229.93 / 2,690.51 / 3,151.97 cr FY24-26; adjusted EBITDA margin 9.4% -> 12.0% -> 15.1%; PAT Rs 87.24 / 118.39 / 144.91 cr (pp. 101, 186)",
     "Brand amortisation Rs 142.73 cr in FY26, about equal to PAT, from Rs 726 cr of acquisitions in FY25; intangibles Rs 782.10 cr (pp. 99, 104, 508)",
     "Auditor's modified opinion: Rs 16.30 cr insurance claim receivable should not be recognised (balance sheet only) (p. 448)",
     "Working capital 38% of revenue; borrowings Rs 820.04 cr at Mar-26; Q1 FY27 CFO Rs 43.47 cr vs PAT Rs 135.78 cr (seasonal) (pp. 99-104)",
-    "Band Rs 259-272 from a single aggregator, unconfirmed at writing; fair value Rs 157 / 190 / 225 vs Rs 272"
+    "Band Rs 259-272 (confirmed); fair value Rs 157 / 190 / 225 vs Rs 272"
   ],
   "swot": {
     "strengths": [
