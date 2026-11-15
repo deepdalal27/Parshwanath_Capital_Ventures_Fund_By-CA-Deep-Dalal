@@ -6,7 +6,7 @@
 >
 > Anchor bidding is on 17-Nov; the issue is open **18-Nov to 20-Nov-2026** and lists on NSE and BSE. The lead managers are IIFL, DAM Capital and Motilal Oswal (pp. 1, 123, 159).
 >
-> **Price band: Rs 259-272, from a single aggregator and unconfirmed at writing.** The RHP prints the band as [●]. The pre-IPO placement price of Rs 272.07 is consistent with the reported cap. **The call will be re-checked when the band is officially announced.**
+> **Price band: Rs 259-272, lot 55 shares (Rs 14,960 at the cap), confirmed by the company's price-band announcement on 14-Nov-2026; listing on or about 26-Nov-2026.** The RHP prints the band as [●]; this report was first written on the band reported by an aggregator, which the announcement confirmed. The pre-IPO placement was at Rs 272.07.
 >
 > At Rs 272 the offer is about Rs 455.7 cr: fresh Rs 355.0 cr and OFS Rs 100.7 cr. Restated consolidated financials run to **30-Jun-2026**. Printed page numbers are cited (printed page = PDF page - 5).
 >
@@ -151,7 +151,7 @@ Sources: pp. 99-104, 186, 508. Q1 is the peak kharif quarter and is not annualis
 | P/E at cap price Rs 272 (basic / diluted) | 23.80x / 24.59x |
 | Industry peer P/E (highest / lowest / average) | 31.20x / 12.13x / 20.07x |
 
-Source: RHP pp. 183-185 (Basis for Offer Price); PAT p. 102. The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares. The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band from a single aggregator, unconfirmed at writing.
+Source: RHP pp. 183-185 (Basis for Offer Price); PAT p. 102. The RHP prints the issuer's P/E as [●] until the price band is fixed; the P/E shown is the band divided by the company's own EPS, the computation the price-band advertisement makes. These are pre-issue, latest-full-year figures; our own P/E elsewhere in this report is on post-issue shares. The EPS is on 12.75 crore weighted shares before the CCD conversion and the pre-IPO placement; on the 15.01 crore pre-offer shares FY26 EPS is Rs 9.70 (P/E 28.0x at Rs 272). Price band confirmed by the company on 14-Nov-2026.
 <!-- company-disclosed:end -->
 
 ### Is the reported P/E right?
@@ -279,7 +279,7 @@ The peers are those in the RHP's "Basis for Offer Price" (p. 185). Prices are BS
 | Audit qualification | Rs 16.30 cr insurance receivable (p. 448) | Whether it is resolved or written off |
 | Working capital | 38% of revenue (p. 186) | Decides cash conversion |
 | Unidentified acquisitions | Up to 35% of gross proceeds (p. 160) | Capital allocation risk |
-| Price band | Unconfirmed at writing | The call is sensitive to the cap |
+| Price band | Rs 259-272 (confirmed 14-Nov) | The call sits 0.1 pp from Neutral at the cap |
 
 ### What would change our view
 
@@ -299,7 +299,7 @@ The peers are those in the RHP's "Basis for Offer Price" (p. 185). Prices are BS
 
 ## 9. Conclusion
 
-**Avoid at Rs 272 (working upper band), by a hair. It reads Neutral at Rs 271 or below and at the Rs 259 floor.** The band is unconfirmed at writing, and the call will be re-checked when it is announced.
+**Avoid at Rs 272 (working upper band), by a hair. It reads Neutral at Rs 271 or below and at the Rs 259 floor.** The band was confirmed by the company on 14-Nov-2026.
 
 **The investment case.**
 - A sizeable Indian agrochemicals and seeds company: FY26 revenue Rs 3,152 cr, gross margin 38.5%, adjusted EBITDA margin 15%.
@@ -361,7 +361,6 @@ No check met the Fund's test for a material issue.
 
 | Item | Severity | Where to source |
 |---|---|---|
-| Price band and lot size (aggregator only) | High | Price-band advertisement / exchange notice |
 | Related-party transactions | Medium | RHP restated notes |
 | Anchor book | Medium | NSE / BSE |
 | Remaining lives of acquired brands | Low | RHP note 5 |

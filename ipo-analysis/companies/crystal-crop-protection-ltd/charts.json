@@ -1,7 +1,7 @@
 {
  "slug": "crystal-crop-protection-ltd",
  "company": "Crystal Crop Protection Limited",
- "generated": "2026-11-14T13:23Z",
+ "generated": "2026-11-15T02:15Z",
  "kpis": [
   {
    "label": "Revenue FY26",
@@ -67,7 +67,7 @@
    "label": "Reference price",
    "value": 272.0,
    "fmt": "rs",
-   "sub": "Working band Rs 259-272 (single aggregator, unconfirmed; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA."
+   "sub": "Band Rs 259-272, lot 55 (company announcement, 14-Nov-2026; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA."
   }
  ],
  "focus": [
@@ -94,12 +94,6 @@
    "title": "Valuation model guard",
    "detail": "AMBER: DCF and relative diverge by -32.3% - the divergence is the finding; name its cause",
    "page": ""
-  },
-  {
-   "level": "GAP",
-   "title": "Data gap (high)",
-   "detail": "Price band and lot size not officially announced at writing; Rs 259-272 from a single aggregator",
-   "page": "Price-band advertisement / NSE-BSE notice"
   },
   {
    "level": "GAP",
@@ -334,7 +328,7 @@
   "reference": 272.0,
   "floor": 259.0,
   "cap": 272.0,
-  "reference_note": "Working band Rs 259-272 (single aggregator, unconfirmed; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA.",
+  "reference_note": "Band Rs 259-272, lot 55 (company announcement, 14-Nov-2026; RHP prints [●]); pre-IPO placement at Rs 272.07 (p. 123). At Rs 272: 16.32 crore post-offer shares, market cap Rs 4,438 cr; P/E 30.5x FY26 PAT to owners (27.1x adjusted for the CCD fair-value loss and exceptional item); company's own P/E 23.8x basic / 24.6x diluted; P/B 2.06x post-offer; EV/EBITDA 9.6x FY26 adjusted EBITDA.",
   "scenarios": {
    "bear": {
     "dcf": 87.261,
