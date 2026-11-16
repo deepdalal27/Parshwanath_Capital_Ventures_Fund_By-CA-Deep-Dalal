@@ -1,0 +1,390 @@
+{
+ "_source": "Watrana Rentals Limited (NSE Emerge). RHP not reached (NSE issue feed redirecting; RHP file not located), so figures are the restated standalone financials to 31-Mar-2026 (and Q1 FY27 to 30-Jun-2026) as reproduced from the offer document by public IPO trackers (IPO Watch, IPO Platform, ipoji, IPO Central, Chittorgarh, Chanakya, news reports of 15-16 Nov-2026), cross-checked against each other. FY25 revenue is total income (operations split not reported). Items marked 'estimate' are analyst estimates derived from reported totals, not reported figures. No page cites are possible until the RHP is read.",
+ "screening": {
+  "basis": {
+   "name": "Watrana Rentals Limited",
+   "platform": "SME",
+   "stage": "RHP",
+   "doc_date": null,
+   "aud_to": "2026-03-31",
+   "band": "Yes",
+   "brlm": "Oneview Corporate Advisors Private Limited",
+   "outside": "RHP not reached; figures from public trackers reproducing the offer document",
+   "bid_cat": "NII / Retail",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    130.12,
+    179.66,
+    211.36,
+    53.5
+   ],
+   "oth": [
+    null,
+    null,
+    0.33,
+    null
+   ],
+   "pbt": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "ctax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "dtax": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pat": [
+    18.05,
+    24.43,
+    29.16,
+    7.68
+   ],
+   "cfo": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_s": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rpt_p": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "nw": [
+    31.96,
+    56.39,
+    85.55,
+    93.24
+   ],
+   "recv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "inv": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "pay": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "gw": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cites": {
+   "rev": "Revenue from operations FY24 and FY26 (Chanakya, IPO Platform); FY25 is total income (IPO Watch, ipoji); Q1 FY27 revenue about Rs 53.5 cr (3 months)",
+   "oth": "FY26 total income 211.69 less revenue from operations 211.36",
+   "pat": "Restated PAT (IPO Watch, ipoji, IPO Platform); Q1 FY27 Rs 7.68 cr (3 months)",
+   "nw": "Restated net worth (IPO Platform, Chittorgarh); NAV Rs 85.47 x 1.001 crore shares = Rs 85.55 cr"
+  },
+  "single": {
+   "top1c": null,
+   "top10c": null,
+   "top1s": null,
+   "geo": 1.0,
+   "offer": 120.1
+  },
+  "checks": {
+   "1": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "FY26 EPS Rs 29.13 and NAV Rs 85.47 both imply about 1.001 crore shares (PAT 29.16 / 29.13; net worth 85.55 / 85.47), but pre-issue shares are 1.14385 crore (pre-IPO market cap Rs 280.24 cr / Rs 245). About 13.4 lakh shares were therefore added after Mar-2026; trackers report no pre-IPO placement, so the source (allotment, bonus or conversion) and price need the RHP."
+   },
+   "2": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Operating cash flow not available. Borrowings rose from Rs 110.14 cr to Rs 164.08 cr in FY26 (+49%) while net worth rose Rs 29.16 cr: fleet growth is debt-funded, as is usual for equipment rental."
+   },
+   "3": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Current vs deferred tax split not available."
+   },
+   "4": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Related-party transactions not available without the RHP."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "objects (trackers)",
+    "finding": "Objects excluding GCP: fleet capex Rs 98.13 cr (MHE 65.02 + AWP 14.58 + batteries 18.52) over 49.02 lakh fresh shares = Rs 213 a share after 6% assumed expenses, below the Rs 232 floor."
+   },
+   "7": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Goodwill and intangibles not available."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "trackers",
+    "finding": "Rental income is 93.72% of Q1 FY27 revenue; customers in logistics, warehousing, FMCG, tyres and manufacturing across 25 states; customer concentration not available."
+   },
+   "9": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Contingent liabilities and litigation not available."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Auditor and any qualifications not available."
+   },
+   "R3": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "Fresh issue Rs 120.10 cr: monitoring agency is mandatory above Rs 50 cr; to be named in the RHP."
+   },
+   "R5": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "SME eligibility appears met on the reported numbers; not re-computed from the RHP."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Oneview Corporate Advisors (sole BRLM): track record not compiled in this run."
+   }
+  },
+  "gaps": [
+   {
+    "item": "RHP not read (NSE feed redirecting; RHP file not located); tracker figures, no page cites",
+    "severity": "High",
+    "source": "RHP (NSE Emerge)"
+   },
+   {
+    "item": "Cash flow statement, fixed assets, depreciation, cash and working capital; D&A, capex and working capital are estimated",
+    "severity": "High",
+    "source": "RHP restated financials"
+   },
+   {
+    "item": "Share count: about 13.4 lakh shares added after Mar-2026 (1.001 to 1.144 crore); source and price",
+    "severity": "Medium",
+    "source": "RHP capital structure"
+   },
+   {
+    "item": "Customer concentration, fleet age and utilisation (about 90% per one source)",
+    "severity": "Medium",
+    "source": "RHP business section"
+   },
+   {
+    "item": "Promoter holding, related-party transactions, litigation",
+    "severity": "Medium",
+    "source": "RHP"
+   },
+   {
+    "item": "Oneview Corporate Advisors track record",
+    "severity": "Low",
+    "source": "RHP / BRLM website"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Watrana Rentals Limited",
+   "board": "SME",
+   "offer": 245,
+   "anchor_px": 245,
+   "issue": 120.1,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-11-18",
+   "allot_date": null,
+   "list_date": "2026-11-27"
+  },
+  "total_shares_lakh": 163.405,
+  "overhang": [
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    32.68,
+    1095,
+    "SEBI ICDR (SME): three years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Watrana Rentals Limited",
+   "basis": "Standalone",
+   "pre_sh": 1.14385,
+   "esop": 0,
+   "fresh": 120.099,
+   "fresh_sh_fixed": 0.4902,
+   "ofs_sh": 0,
+   "floor": 232,
+   "cap": 245,
+   "obj_net": 98.13,
+   "exp_pct": 0.06,
+   "gcp_pct": 0,
+   "ipo_capex": 98.13,
+   "rev0": 211.36,
+   "rev_prev": 179.66,
+   "ebitda0": 65.01,
+   "da0": 13.4,
+   "pat0": 29.16,
+   "nw0": 85.55,
+   "nd0": 164.08,
+   "nwc0": 32.0,
+   "nwc_prev": 27.0,
+   "capex0": 26.0,
+   "kd": 0.095,
+   "w_pb": 0,
+   "w_eve": 0
+  },
+  "drivers": {
+   "g1": [
+    0.08,
+    0.15,
+    0.22
+   ],
+   "g2": [
+    0.07,
+    0.14,
+    0.2
+   ],
+   "g3": [
+    0.06,
+    0.12,
+    0.16
+   ],
+   "g4": [
+    0.06,
+    0.1,
+    0.13
+   ],
+   "g5": [
+    0.05,
+    0.08,
+    0.1
+   ],
+   "m": [
+    0.26,
+    0.29,
+    0.32
+   ],
+   "nwc": [
+    0.18,
+    0.15,
+    0.13
+   ],
+   "roic": [
+    0.12,
+    0.15,
+    0.18
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue Rs 130.12 / 179.66 / 211.36 cr FY24-26 (+38%, +18%); Q1 FY27 Rs 53.5 cr (about 1% ahead of the FY26 run-rate). The issue funds Rs 98.13 cr of new MHE, AWPs and batteries, which at the current asset turn can add a large step of rental revenue over two years. Neutral 15% then 14 / 12 / 10 / 8%; Bear 5-8%; Bull 22% fading to 10%.",
+   "m": "EBITDA margin 30.76% in FY26 (EBITDA Rs 65.01 cr), 33.91% in Q1 FY27 (not annualised). Rental EBITDA carries heavy depreciation below it. Neutral 29%; Bear 26%; Bull 32%.",
+   "nwc": "Estimate: working capital is not in the tracker data. Rental businesses bill monthly with modest receivables and little inventory beyond trading stock; taken at about 15% of revenue (Rs 32 cr; FY25 about Rs 27 cr). Neutral 15%; Bear 18%; Bull 13%.",
+   "roic": "RoNW 34.08% (FY26) on a leveraged equity base; terminal ROIC 15% (Neutral) for a capital-intensive rental fleet.",
+   "capex": "D&A Rs 13.4 cr is an estimate: EBITDA 65.01 + other income 0.33 - PBT about 38.9 (PAT 29.16 at 25%) leaves about Rs 26.4 cr for interest and D&A; interest on about Rs 137 cr average debt at 9.5% is about Rs 13.0 cr. Organic capex base Rs 26 cr is an estimate set so that growth capex runs at about 0.4 rupee per rupee of new revenue: the issue's Rs 98.13 cr of fleet spending (Y1-Y2) funds most of the next two to three years' growth, and counting a full asset-turn of organic capex on top would double count it (first run flagged terminal value above 100% of EV). FY26 balance-sheet growth (borrowings +Rs 53.9 cr, net worth +Rs 29.2 cr) suggests gross fleet capex of about Rs 70-80 cr in FY26. IPO capex Rs 98.13 cr (fleet). Net debt taken as gross borrowings Rs 164.08 cr (cash not disclosed, none credited). Fresh issue 49.02 lakh shares = Rs 120.10 cr at Rs 245.",
+   "relative": "Relative value uses peer P/E only (w_pb and w_eve set to 0). The RHP peer set as reproduced by trackers is Seemax Resources (P/E 16.07x, RoNW 23.41%) and Leap India (P/E 76.81x, RoNW 6.19%); Leap India is excluded as an outlier. Peer prices and EPS are not reported, so each peer is entered on a per-unit basis (price = its P/E, EPS = 1), which reproduces its P/E without inventing a price."
+  },
+  "peers": [
+   [
+    "Seemax Resources Ltd (P/E only, per unit)",
+    "Y",
+    "Equipment rental - issuer's peer (RHP via trackers)",
+    "Standalone",
+    16.07,
+    1,
+    null,
+    null,
+    null,
+    1,
+    null,
+    null
+   ],
+   [
+    "Leap India Ltd (P/E only, per unit)",
+    "N",
+    "Equipment / pallet rental - issuer's peer; excluded, P/E 76.8x on 6.2% RoNW",
+    "Standalone",
+    76.81,
+    1,
+    null,
+    null,
+    null,
+    1,
+    null,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   null,
+   null,
+   65.01
+  ],
+  "_cite": "FY26 EBITDA Rs 65.01 cr and margin 30.76% (IPO Platform, Chittorgarh); FY24-25 EBITDA not consistently reported."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]. The RHP's notes are needed to test depreciation policy, gains on sale of used equipment and capitalised costs.",
+  "adjustments": [
+   {
+    "item": "Other income in FY26 profit",
+    "short": "other income",
+    "pre_tax": [
+     0,
+     0,
+     -0.33
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "trackers (total income 211.69 vs revenue 211.36)",
+    "reason": "Rs 0.33 cr of other income, under 1% of pre-tax profit. Shown for information."
+   }
+  ],
+  "checked": [
+   "Profit growth (+19%) tracks revenue growth (+18%) in FY26; no step-change to explain",
+   "Depreciation policy (useful lives of forklifts and AWPs), gains on resale of used equipment within revenue, and cash tax could not be tested without the RHP; equipment-sale income inside revenue would flatter recurring rental earnings"
+  ]
+ }
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "watrana-rentals-ltd",
+  "company": "Watrana Rentals Limited",
+  "platform": "SME",
+  "stage": "RHP",
+  "rhp_read": false,
+  "filed_on": null,
+  "sector": "Material handling and aerial work platform rental",
+  "brlm": "Oneview Corporate Advisors Private Limited",
+  "issue_size_cr": 120.1,
+  "price_band": "Rs 232-245",
+  "open_date": "2026-11-19",
+  "close_date": "2026-11-23",
+  "allotment_date": null,
+  "listing_date": "2026-11-27",
+  "lot_size": 600,
+  "exchange": "NSE Emerge",
+  "depth": "Snapshot",
+  "status": "analysed",
+  "exit_route": "2-3 year hold (assumed)",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 29.16,
+    "eps_basic": 29.13,
+    "eps_diluted": 29.13,
+    "source": "Public IPO trackers reproducing the offer document (RHP not read; provisional)",
+    "note": "EPS Rs 29.13 is on about 1.001 crore weighted shares (PAT 29.16 / 29.13; NAV Rs 85.47 gives the same count). Pre-issue shares are now 1.14385 crore, so on today's count FY26 EPS is Rs 25.49 and the P/E is 9.10x-9.61x across the band. Diluted EPS assumed equal to basic. The RHP peer set (Seemax Resources 16.07x, Leap India 76.81x) is reported by trackers, but no industry high/low/average.",
+    "pe_floor_basic": 7.96,
+    "pe_cap_basic": 8.41,
+    "pe_floor_diluted": 7.96,
+    "pe_cap_diluted": 8.41,
+    "floor": 232.0,
+    "cap": 245.0
+  },
+  "files": {
+    "screening": "WATRANA_RENTALS_LTD_01_Screening.xlsx",
+    "anchor": "WATRANA_RENTALS_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "WATRANA_RENTALS_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "WATRANA_RENTALS_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 52.3193,
+      "relative": 286.7729,
+      "blended": 169.5461,
+      "upside_floor": -0.2692,
+      "upside_cap": -0.308
+    },
+    "neutral": {
+      "dcf": 133.217,
+      "relative": 286.7729,
+      "blended": 209.9949,
+      "upside_floor": -0.0948,
+      "upside_cap": -0.1429
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -53.5% - the divergence is the finding; name its cause",
+      "RED: objects floor sits above blended fair value",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 21.5 times its current free cash flow, in perpetuity.",
+    "objects_floor": 212.9613,
+    "bull": {
+      "dcf": 218.693,
+      "relative": 286.7729,
+      "blended": 252.7329,
+      "upside_floor": 0.0894,
+      "upside_cap": 0.0316
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 2,
+    "pass": 1,
+    "open": 12
+  },
+  "focus_top": [
+    "Bonus issue / share-count consistency",
+    "Customer / supplier / geographic concentration",
+    "Valuation model guard"
+  ],
+  "analysed_on": "2026-11-16",
+  "doc_url": null,
+  "call": "Neutral",
+  "business_stage": "Scaling (capital-intensive fleet growth; issue funds new fleet)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor portion, if any, bids 18-Nov-2026; allocation not reachable"
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the Rs 245 upper band: Neutral value Rs 210 is 14.3% below (within 10-30%) and the Bull value Rs 253 is above the price, so the call is Neutral. At the Rs 232 floor the Neutral value is 9.5% below, which would read Subscribe. No material issue was found in the data available. Figures come from public trackers because the RHP was not read.",
+  "reference_note": "Upper band Rs 245 (49,02,000 fresh shares, Rs 120.10 cr). At Rs 245: market cap Rs 400.3 cr post-issue; P/E 13.7x on FY26 PAT (9.6x pre-issue; 8.4x on the company's EPS of Rs 29.13); P/B about 2.0x post-issue; EV/EBITDA about 6.9x. One usable RHP peer P/E 16.1x. Objects floor Rs 213.",
+  "headline": "An equipment-rental company (2,646 forklifts and reach trucks, 33 aerial work platforms, 25 states) with FY26 revenue of Rs 211 cr, a 31% EBITDA margin and 34% RoNW, raising Rs 120 cr of fresh money almost entirely for new fleet, priced at 13.7x FY26 earnings; fair value Rs 210 (Neutral) because fleet growth absorbs cash and leverage is high before the issue.",
+  "red_flags": [
+    "Revenue Rs 130.12 cr (FY24) -> Rs 179.66 cr -> Rs 211.36 cr (FY26); PAT Rs 18.05 -> 24.43 -> 29.16 cr; EBITDA margin 30.76% in FY26",
+    "Borrowings Rs 164.08 cr against net worth Rs 85.55 cr (1.92x) in FY26, up 49% in a year",
+    "Rental income 93.7% of revenue; depreciation policy and equipment-resale income not visible without the RHP",
+    "EPS and NAV imply 1.001 crore shares but pre-issue shares are 1.144 crore: 13.4 lakh shares added after Mar-26",
+    "RHP not read: tracker figures, no page cites; fair value Rs 170 / 210 / 253 vs Rs 245"
+  ],
+  "swot": {
+    "strengths": [
+      "Revenue up 62% in two years; PAT Rs 29.16 cr",
+      "EBITDA margin 30.8%, RoNW 34%",
+      "Fleet of 2,646 MHE and 33 AWP units, about 90% utilised"
+    ],
+    "weaknesses": [
+      "Debt/equity 1.92x before the issue",
+      "Growth needs continuous fleet capex",
+      "Single business, single country"
+    ],
+    "opportunities": [
+      "Warehousing and logistics build-out",
+      "AWP rental as a second line",
+      "Rising rental penetration"
+    ],
+    "threats": [
+      "Rental-rate competition",
+      "Lower industrial utilisation",
+      "Interest-rate rises"
+    ]
+  }
+}

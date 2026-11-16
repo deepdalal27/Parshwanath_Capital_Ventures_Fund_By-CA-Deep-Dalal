@@ -1,0 +1,694 @@
+{
+ "slug": "watrana-rentals-ltd",
+ "company": "Watrana Rentals Limited",
+ "generated": "2026-11-16T02:20Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 211.36,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.2745,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 29.16,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.271,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.3076,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": null,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": null,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": null,
+   "fmt": "pct",
+   "tone": "warn"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 13.73,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 16.07,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 13.73,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 13.73,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 209.9949,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.1429,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 245.0,
+   "fmt": "rs",
+   "sub": "Upper band Rs 245 (49,02,000 fresh shares, Rs 120.10 cr). At Rs 245: market cap Rs 400.3 cr post-issue; P/E 13.7x on FY26 PAT (9.6x pre-issue; 8.4x on the company's EPS of Rs 29.13); P/B about 2.0x post-issue; EV/EBITDA about 6.9x. One usable RHP peer P/E 16.1x. Objects floor Rs 213."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Bonus issue / share-count consistency",
+   "detail": "FY26 EPS Rs 29.13 and NAV Rs 85.47 both imply about 1.001 crore shares (PAT 29.16 / 29.13; net worth 85.55 / 85.47), but pre-issue shares are 1.14385 crore (pre-IPO market cap Rs 280.24 cr / Rs 245). About 13.4 lakh shares were therefore added after Mar-2026; trackers report no pre-IPO placement, so the source (allotment, bonus or conversion) and price need the RHP.",
+   "page": "trackers"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Rental income is 93.72% of Q1 FY27 revenue; customers in logistics, warehousing, FMCG, tyres and manufacturing across 25 states; customer concentration not available.",
+   "page": "trackers"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -53.5% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "RED: objects floor sits above blended fair value",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "RHP not read (NSE feed redirecting; RHP file not located); tracker figures, no page cites",
+   "page": "RHP (NSE Emerge)"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Cash flow statement, fixed assets, depreciation, cash and working capital; D&A, capex and working capital are estimated",
+   "page": "RHP restated financials"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Share count: about 13.4 lakh shares added after Mar-2026 (1.001 to 1.144 crore); source and price",
+   "page": "RHP capital structure"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Customer concentration, fleet age and utilisation (about 90% per one source)",
+   "page": "RHP business section"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Promoter holding, related-party transactions, litigation",
+   "page": "RHP"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Objects arithmetic as price floor",
+   "detail": "Objects excluding GCP: fleet capex Rs 98.13 cr (MHE 65.02 + AWP 14.58 + batteries 18.52) over 49.02 lakh fresh shares = Rs 213 a share after 6% assumed expenses, below the Rs 232 floor.",
+   "page": "objects (trackers)"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "WATCH",
+   "page": "trackers",
+   "finding": "FY26 EPS Rs 29.13 and NAV Rs 85.47 both imply about 1.001 crore shares (PAT 29.16 / 29.13; net worth 85.55 / 85.47), but pre-issue shares are 1.14385 crore (pre-IPO market cap Rs 280.24 cr / Rs 245). About 13.4 lakh shares were therefore added after Mar-2026; trackers report no pre-IPO placement, so the source (allotment, bonus or conversion) and price need the RHP."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Operating cash flow not available. Borrowings rose from Rs 110.14 cr to Rs 164.08 cr in FY26 (+49%) while net worth rose Rs 29.16 cr: fleet growth is debt-funded, as is usual for equipment rental."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Current vs deferred tax split not available."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Related-party transactions not available without the RHP."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "PASS",
+   "page": "objects (trackers)",
+   "finding": "Objects excluding GCP: fleet capex Rs 98.13 cr (MHE 65.02 + AWP 14.58 + batteries 18.52) over 49.02 lakh fresh shares = Rs 213 a share after 6% assumed expenses, below the Rs 232 floor."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Goodwill and intangibles not available."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "trackers",
+   "finding": "Rental income is 93.72% of Q1 FY27 revenue; customers in logistics, warehousing, FMCG, tyres and manufacturing across 25 states; customer concentration not available."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Contingent liabilities and litigation not available."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Auditor and any qualifications not available."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "N.A.",
+   "page": "",
+   "finding": "Fresh issue Rs 120.10 cr: monitoring agency is mandatory above Rs 50 cr; to be named in the RHP."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "OPEN",
+   "page": "",
+   "finding": "SME eligibility appears met on the reported numbers; not re-computed from the RHP."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Oneview Corporate Advisors (sole BRLM): track record not compiled in this run."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   130.12,
+   179.66,
+   211.36
+  ],
+  "ebitda": [
+   null,
+   null,
+   65.01
+  ],
+  "pat": [
+   18.05,
+   24.43,
+   29.16
+  ],
+  "cfo": [
+   null,
+   null,
+   null
+  ],
+  "ebitda_margin": [
+   null,
+   null,
+   0.3076
+  ],
+  "pat_margin": [
+   0.1387,
+   0.136,
+   0.138
+  ],
+  "inventory": [
+   null,
+   null,
+   null
+  ],
+  "receivables": [
+   null,
+   null,
+   null
+  ],
+  "payables": [
+   null,
+   null,
+   null
+  ],
+  "nwc": [
+   null,
+   null,
+   null
+  ],
+  "nwc_pct": [
+   null,
+   null,
+   null
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 245.0,
+  "floor": 232.0,
+  "cap": 245.0,
+  "reference_note": "Upper band Rs 245 (49,02,000 fresh shares, Rs 120.10 cr). At Rs 245: market cap Rs 400.3 cr post-issue; P/E 13.7x on FY26 PAT (9.6x pre-issue; 8.4x on the company's EPS of Rs 29.13); P/B about 2.0x post-issue; EV/EBITDA about 6.9x. One usable RHP peer P/E 16.1x. Objects floor Rs 213.",
+  "scenarios": {
+   "bear": {
+    "dcf": 52.3193,
+    "relative": 286.7729,
+    "blended": 169.5461,
+    "upside_floor": -0.2692,
+    "upside_cap": -0.308
+   },
+   "neutral": {
+    "dcf": 133.217,
+    "relative": 286.7729,
+    "blended": 209.9949,
+    "upside_floor": -0.0948,
+    "upside_cap": -0.1429
+   },
+   "bull": {
+    "dcf": 218.693,
+    "relative": 286.7729,
+    "blended": 252.7329,
+    "upside_floor": 0.0894,
+    "upside_cap": 0.0316
+   }
+  },
+  "objects_floor": 212.9613,
+  "wacc": 0.1438,
+  "tv_share": 0.8791,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 21.5 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.09293878720891592,
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.09364724766742102,
+     "actual": 0.1438
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.38566275276927064,
+     "actual": 0.2442
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.1514
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   211.36,
+   243.064,
+   277.093,
+   310.3441,
+   341.3785,
+   368.6888
+  ],
+  "ebitda": [
+   65.01,
+   70.4886,
+   80.357,
+   89.9998,
+   98.9998,
+   106.9198
+  ],
+  "nopat": [
+   38.6198,
+   41.2153,
+   46.9854,
+   52.6237,
+   57.886,
+   62.5169
+  ],
+  "fcff": [
+   21.0198,
+   -34.7239,
+   -10.8966,
+   34.4195,
+   40.8954,
+   47.5652
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1238,
+    0.1338,
+    0.1438,
+    0.1538,
+    0.1638
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     181.9329,
+     185.4562,
+     189.3363,
+     193.6457,
+     198.4778
+    ],
+    [
+     153.8318,
+     155.8594,
+     158.0386,
+     160.3967,
+     162.9675
+    ],
+    [
+     131.0576,
+     132.1167,
+     133.217,
+     134.3652,
+     135.5694
+    ],
+    [
+     112.2596,
+     112.6801,
+     113.0819,
+     113.4624,
+     113.8182
+    ],
+    [
+     96.5069,
+     96.502,
+     96.4464,
+     96.3334,
+     96.1552
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.09,
+    0.12,
+    0.15,
+    0.18,
+    0.21
+   ],
+   "cols": [
+    0.27,
+    0.28,
+    0.29,
+    0.3,
+    0.31
+   ],
+   "values": [
+    [
+     121.8647,
+     132.9166,
+     143.9686,
+     155.0206,
+     166.0726
+    ],
+    [
+     116.4888,
+     127.5408,
+     138.5928,
+     149.6448,
+     160.6968
+    ],
+    [
+     111.113,
+     122.165,
+     133.217,
+     144.269,
+     155.321
+    ],
+    [
+     105.7372,
+     116.7892,
+     127.8412,
+     138.8932,
+     149.9452
+    ],
+    [
+     100.3614,
+     111.4134,
+     122.4654,
+     133.5174,
+     144.5694
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Seemax Resources Ltd (P/E only, per unit)",
+   "pe": 16.07,
+   "pb": null,
+   "issuer": false
+  },
+  {
+   "name": "Watrana Rentals Limited at reference",
+   "pe": 13.7292,
+   "pb": 2.0174,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 12.0088
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 2.4032
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 21.618
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 24.02
+   },
+   {
+    "label": "Non-institutional",
+    "value": 18.015
+   },
+   {
+    "label": "Retail",
+    "value": 42.035
+   }
+  ],
+  "issue_cr": 120.1,
+  "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 7.3531,
+    "days": 30,
+    "pct_float": 0.0634
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 7.3531,
+    "days": 90,
+    "pct_float": 0.0596
+   },
+   {
+    "label": "Promoters' minimum contribution (20% of post-issue capital)",
+    "shares_lakh": 32.68,
+    "days": 1095,
+    "pct_float": 0.25
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [],
+  "issues": []
+ },
+ "swot": {
+  "strengths": [
+   "Revenue up 62% in two years; PAT Rs 29.16 cr",
+   "EBITDA margin 30.8%, RoNW 34%",
+   "Fleet of 2,646 MHE and 33 AWP units, about 90% utilised"
+  ],
+  "weaknesses": [
+   "Debt/equity 1.92x before the issue",
+   "Growth needs continuous fleet capex",
+   "Single business, single country"
+  ],
+  "opportunities": [
+   "Warehousing and logistics build-out",
+   "AWP rental as a second line",
+   "Rising rental penetration"
+  ],
+  "threats": [
+   "Rental-rate competition",
+   "Lower industrial utilisation",
+   "Interest-rate rises"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "price": 245.0,
+  "shares": 1.6341,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY26",
+    "pat": 29.16,
+    "eps": 17.8447,
+    "pe": 13.73
+   },
+   {
+    "basis": "FY24-FY26 average, reported",
+    "pat": 23.88,
+    "eps": 14.6135,
+    "pe": 16.77
+   },
+   {
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 23.88,
+    "eps": 14.6135,
+    "pe": 16.77
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Other income in FY26 profit",
+    "short": "other income",
+    "pre_tax": [
+     0.0,
+     0.0,
+     -0.33
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "trackers (total income 211.69 vs revenue 211.36)",
+    "reason": "Rs 0.33 cr of other income, under 1% of pre-tax profit. Shown for information.",
+    "post_tax": [
+     0.0,
+     0.0,
+     -0.2469
+    ],
+    "pe_if_applied": 13.85
+   }
+  ],
+  "adjusted_pat": [
+   18.05,
+   24.43,
+   29.16
+  ],
+  "pe_reported": 13.73,
+  "pe_adjusted": 13.73,
+  "pat_change": 0.0,
+  "material": false,
+  "verdict": "Reported P/E is a fair measure: the adjustments found move FY26 PAT by +0.0%, within the 10% threshold. On the FY24-FY26 average, which smooths one-year items, the P/E is 16.8x reported and 16.8x adjusted.",
+  "flags": [],
+  "checked": [
+   "Profit growth (+19%) tracks revenue growth (+18%) in FY26; no step-change to explain",
+   "Depreciation policy (useful lives of forklifts and AWPs), gains on resale of used equipment within revenue, and cash tax could not be tested without the RHP; equipment-sale income inside revenue would flatter recurring rental earnings"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 2,
+  "pass": 1,
+  "open": 12
+ }
+}
