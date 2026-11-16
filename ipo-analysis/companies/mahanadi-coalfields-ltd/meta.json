@@ -1,0 +1,131 @@
+{
+  "slug": "mahanadi-coalfields-ltd",
+  "company": "Mahanadi Coalfields Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "rhp_read": true,
+  "filed_on": "2026-11-13",
+  "doc_date": "2026-11-13",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/mahanadi-coalfields-limited-rhp_105777.html",
+  "sector": "Coal mining (thermal coal; Coal India subsidiary, Odisha)",
+  "brlm": "SBI Capital Markets, Axis Capital, BOB Capital Markets, IDBI Capital Markets & Securities, IIFL Capital Services",
+  "issue_size_cr": 9000.97,
+  "price_band": "Rs 129-136",
+  "open_date": "2026-11-19",
+  "close_date": "2026-11-23",
+  "allotment_date": null,
+  "listing_date": "2026-11-27",
+  "lot_size": 110,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 10677.74,
+    "pat_basis": "attributable to owners; total Rs 10,698.12 cr",
+    "eps_basic": 16.13,
+    "eps_diluted": 16.13,
+    "industry_pe": {
+      "high": 18.34,
+      "low": 8.05,
+      "avg": 11.57
+    },
+    "source": "RHP pp. 121-123 (Basis for Offer Price); PAT p. 88",
+    "note": "EPS is on 661.84 crore shares after the Aug-2026 split of Rs 1,000 shares into Rs 2 shares; the offer is a pure OFS, so the share count does not change. FY26 PAT includes about Rs 1,859 cr (pre-tax) of income the company itself calls non-recurring; on recurring profit the P/E at Rs 136 is about 9.7x. Price band confirmed by the company on 16-Nov-2026.",
+    "pe_floor_basic": 8.0,
+    "pe_cap_basic": 8.43,
+    "pe_floor_diluted": 8.0,
+    "pe_cap_diluted": 8.43,
+    "floor": 129.0,
+    "cap": 136.0
+  },
+  "call": "Subscribe",
+  "business_stage": "Mature, cash-generative (India's largest single coal producer; pays out about 80% of profit)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 18-Nov-2026; allocation not yet published at writing"
+  },
+  "files": {
+    "screening": "MAHANADI_COALFIELDS_LTD_01_Screening.xlsx",
+    "anchor": "MAHANADI_COALFIELDS_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "MAHANADI_COALFIELDS_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "MAHANADI_COALFIELDS_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 94.2333,
+      "relative": 160.283,
+      "blended": 127.2582,
+      "upside_floor": -0.0135,
+      "upside_cap": -0.0643
+    },
+    "neutral": {
+      "dcf": 121.1047,
+      "relative": 160.283,
+      "blended": 140.6939,
+      "upside_floor": 0.0907,
+      "upside_cap": 0.0345
+    },
+    "flags": [],
+    "reverse_dcf": "The price asks the business to deliver 12.2 times its current free cash flow, in perpetuity.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 142.2696,
+      "relative": 160.283,
+      "blended": 151.2763,
+      "upside_floor": 0.1727,
+      "upside_cap": 0.1123
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 4,
+    "pass": 5,
+    "open": 5
+  },
+  "focus_top": [
+    "Customer / supplier / geographic concentration",
+    "Contingent liabilities",
+    "Auditor qualifications / changes"
+  ],
+  "analysed_on": "2026-11-16",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the upper band of Rs 136 (confirmed by the company's price-band announcement on 16-Nov-2026): Neutral value Rs 141 is 3.4% above the price, better than the -10% limit, so the call is Subscribe. On recurring FY26 earnings (excluding Rs 1,859 cr of one-off income) the Neutral value is about Rs 130 (-4%), still within the Subscribe limb. The call holds up to about Rs 156. No material governance or accounting issue; the lack of independent directors is a known PSU pattern with an exemption sought from SEBI.",
+  "reference_note": "Band Rs 129-136, lot 110 (company announcement, 16-Nov-2026; RHP prints [●]). Pure OFS by Coal India: 661.84 crore shares before and after; market cap Rs 90,010 cr at Rs 136. P/E 8.4x FY26 PAT to owners (9.7x on recurring profit); company's own P/E 8.43x basic = diluted (8.00x at Rs 129); P/B 4.2x; EV/EBITDA 5.8x after Rs 16,085 cr net cash; trailing dividend yield 9.3% (FY26 dividends Rs 8,400 cr).",
+  "headline": "India's largest single coal producer (21% of national output, about 45 years of reserves, FY26 revenue Rs 30,550 cr, operating EBITDA margin 42%, no debt) sold entirely by Coal India at 8.4x FY26 earnings (9.7x recurring) with a 9.3% trailing dividend yield; fair value Rs 141 (Subscribe) as a yield-and-value holding, while revenue has eased for two years and margins have slipped to 40%.",
+  "red_flags": [
+    "Revenue Rs 31,634.35 / 31,353.02 / 30,549.59 cr FY24-26; operating EBITDA margin 46.4% -> 43.6% -> 41.7% (40.1% in H1 FY27) (pp. 88, 124)",
+    "FY26 PAT includes Rs 1,859 cr pre-tax of income the company calls non-recurring: tax-refund interest Rs 1,163.92 cr and write-backs Rs 695.38 cr (pp. 512-513)",
+    "Pure OFS: the company receives nothing; Coal India keeps 90% and must sell more to meet minimum public shareholding (pp. 80, 570)",
+    "No independent directors at the RHP date; SEBI exemption sought (p. 42). Contingent liabilities 56% of net worth, mostly income tax (p. 24)",
+    "Band Rs 129-136 (confirmed); fair value Rs 127 / 141 / 151 vs Rs 136"
+  ],
+  "swot": {
+    "strengths": [
+      "India's largest single coal producer, 21% of output (p. 230)",
+      "About 45 years of audited reserves (p. 230)",
+      "Operating EBITDA margin about 42%; RoNW 54% (pp. 121, 124)",
+      "No debt; net cash about Rs 16,085 cr (pp. 86-87)"
+    ],
+    "weaknesses": [
+      "Revenue and profit down two years running (p. 88)",
+      "Administered coal prices",
+      "Assets uninsured (pp. 67-69)",
+      "No independent directors (p. 42)"
+    ],
+    "opportunities": [
+      "Coal demand about +4% a year to FY31 (p. 167)",
+      "Rail-led dispatch lowers cost (p. 229)",
+      "Coal gasification and solar diversification"
+    ],
+    "threats": [
+      "Energy transition after the 2030s",
+      "Wage and contractor cost inflation",
+      "Late payment by state utilities (p. 24)",
+      "Large tax demands (p. 24)"
+    ]
+  }
+}

@@ -1,0 +1,772 @@
+{
+ "slug": "mahanadi-coalfields-ltd",
+ "company": "Mahanadi Coalfields Limited",
+ "generated": "2026-11-16T13:27Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 30549.59,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": -0.0173,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 10677.74,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": -0.0504,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.4169,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.4641,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 0.795,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.2329,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 8.43,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 9.9348,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 9.69,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 8.43,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 140.6939,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": 0.0345,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 136.0,
+   "fmt": "rs",
+   "sub": "Band Rs 129-136, lot 110 (company announcement, 16-Nov-2026; RHP prints [●]). Pure OFS by Coal India: 661.84 crore shares before and after; market cap Rs 90,010 cr at Rs 136. P/E 8.4x FY26 PAT to owners (9.7x on recurring profit); company's own P/E 8.43x basic = diluted (8.00x at Rs 129); P/B 4.2x; EV/EBITDA 5.8x after Rs 16,085 cr net cash; trailing dividend yield 9.3% (FY26 dividends Rs 8,400 cr)."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Top customer (NTPC) 14.64%, top 5 41.09%, top 10 55.94% of FY26 revenue, all on long-term fuel supply agreements; state and central power utilities 44.81% of revenue. Typical of Indian coal.",
+   "page": "pp. 26-27"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 12,513.29 cr at Sep-26 (55.86% of net worth), up from Rs 8,506.23 cr at Mar-26 mainly on income-tax demands (Rs 8,074.83 cr). Delayed receivables from APGENCO Rs 1,929.88 cr and APPDCL Rs 502.16 cr.",
+   "page": "pp. 24-25"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "Unmodified opinion (Kadmawala & Co, appointed by the C&AG) with emphasis of matter and other matters: no insurance on assets; Rs 76.55 cr unplanned depreciation flagged by the C&AG; labour codes. Separately, the board has no independent directors at the RHP date (the Ministry of Coal appoints directors); the company has sought SEBI exemptions from board and committee composition rules (p. 42). No qualification.",
+   "page": "pp. 67-69"
+  },
+  {
+   "level": "WATCH",
+   "title": "CARO / audit trail",
+   "detail": "CARO remarks include reconciliation of MSME dues and of GST records; none rises to a qualification.",
+   "page": "pp. 67-69"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Anchor book (bids 18-Nov-2026)",
+   "page": "NSE/BSE anchor allocation"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Mine-wise cost and realisation; FSA price outlook",
+   "page": "Company / CIL disclosures"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "Basic = diluted EPS Rs 16.13 on PAT to owners Rs 10,677.74 cr = 661.84 crore shares, the share count after the Aug-2026 split of Rs 1,000 shares into Rs 2 shares (applied retrospectively). Pure OFS: no new shares.",
+   "page": "pp. 88, 121"
+  },
+  {
+   "title": "Cash flow vs profit",
+   "detail": "CFO Rs 6,325.58 / 7,704.96 / 12,477.53 cr FY24-26 against PAT Rs 11,841.55 / 10,825.12 / 10,698.12 cr: cumulative 80% of PAT. FY24-25 CFO was held down by a build-up of deposits under the mine-closure plan and receivables; H1 FY27 CFO Rs 8,997.13 cr is 1.8x PAT.",
+   "page": "pp. 88, 90-91"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 3,466.16 / 3,406.60 / 3,401.66 cr = 22-24% of PBT; profit is taxed in cash.",
+   "page": "p. 88"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill; the business was built, not bought.",
+   "page": "pp. 86-87"
+  },
+  {
+   "title": "Eligibility re-computation",
+   "detail": "Mainboard issue; net offer QIB up to 50%, NII at least 15%, retail at least 35%; employee reservation 3,30,91,815 shares and CIL shareholder reservation 6,61,83,630 shares (10% of the offer).",
+   "page": "p. 570"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 88, 121",
+   "finding": "Basic = diluted EPS Rs 16.13 on PAT to owners Rs 10,677.74 cr = 661.84 crore shares, the share count after the Aug-2026 split of Rs 1,000 shares into Rs 2 shares (applied retrospectively). Pure OFS: no new shares."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "PASS",
+   "page": "pp. 88, 90-91",
+   "finding": "CFO Rs 6,325.58 / 7,704.96 / 12,477.53 cr FY24-26 against PAT Rs 11,841.55 / 10,825.12 / 10,698.12 cr: cumulative 80% of PAT. FY24-25 CFO was held down by a build-up of deposits under the mine-closure plan and receivables; H1 FY27 CFO Rs 8,997.13 cr is 1.8x PAT."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "p. 88",
+   "finding": "Current tax Rs 3,466.16 / 3,406.60 / 3,401.66 cr = 22-24% of PBT; profit is taxed in cash."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "OPEN",
+   "page": "p. 26",
+   "finding": "Executives are seconded from Coal India and the company pays CIL for shared services; full related-party tables not compiled in this run."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "cover",
+   "finding": "Pure offer for sale by Coal India: the company receives no proceeds."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "pp. 86-87",
+   "finding": "No goodwill; the business was built, not bought."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 26-27",
+   "finding": "Top customer (NTPC) 14.64%, top 5 41.09%, top 10 55.94% of FY26 revenue, all on long-term fuel supply agreements; state and central power utilities 44.81% of revenue. Typical of Indian coal."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "pp. 24-25",
+   "finding": "Contingent liabilities Rs 12,513.29 cr at Sep-26 (55.86% of net worth), up from Rs 8,506.23 cr at Mar-26 mainly on income-tax demands (Rs 8,074.83 cr). Delayed receivables from APGENCO Rs 1,929.88 cr and APPDCL Rs 502.16 cr."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "pp. 67-69",
+   "finding": "Unmodified opinion (Kadmawala & Co, appointed by the C&AG) with emphasis of matter and other matters: no insurance on assets; Rs 76.55 cr unplanned depreciation flagged by the C&AG; labour codes. Separately, the board has no independent directors at the RHP date (the Ministry of Coal appoints directors); the company has sought SEBI exemptions from board and committee composition rules (p. 42). No qualification."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "WATCH",
+   "page": "pp. 67-69",
+   "finding": "CARO remarks include reconciliation of MSME dues and of GST records; none rises to a qualification."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "N.A.",
+   "page": "cover",
+   "finding": "Pure offer for sale: no proceeds to the company, so no monitoring agency."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "PASS",
+   "page": "p. 570",
+   "finding": "Mainboard issue; net offer QIB up to 50%, NII at least 15%, retail at least 35%; employee reservation 3,30,91,815 shares and CIL shareholder reservation 6,61,83,630 shares (10% of the offer)."
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "",
+   "finding": "SBI Capital, Axis, BOB Capital, IDBI Capital and IIFL: large managers with long PSU-disinvestment records; track record not compiled in this run."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   31634.35,
+   31353.02,
+   30549.59
+  ],
+  "ebitda": [
+   14680.92,
+   13655.48,
+   12735.24
+  ],
+  "pat": [
+   11841.37,
+   10823.58,
+   10677.74
+  ],
+  "cfo": [
+   6325.58,
+   7704.96,
+   12477.53
+  ],
+  "ebitda_margin": [
+   0.4641,
+   0.4355,
+   0.4169
+  ],
+  "pat_margin": [
+   0.3743,
+   0.3452,
+   0.3495
+  ],
+  "inventory": [
+   1279.22,
+   1880.19,
+   2239.02
+  ],
+  "receivables": [
+   2160.29,
+   2676.05,
+   3743.68
+  ],
+  "payables": [
+   1571.32,
+   1852.54,
+   2002.1
+  ],
+  "nwc": [
+   1868.19,
+   2703.7,
+   3980.6
+  ],
+  "nwc_pct": [
+   0.0591,
+   0.0862,
+   0.1303
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 136.0,
+  "floor": 129.0,
+  "cap": 136.0,
+  "reference_note": "Band Rs 129-136, lot 110 (company announcement, 16-Nov-2026; RHP prints [●]). Pure OFS by Coal India: 661.84 crore shares before and after; market cap Rs 90,010 cr at Rs 136. P/E 8.4x FY26 PAT to owners (9.7x on recurring profit); company's own P/E 8.43x basic = diluted (8.00x at Rs 129); P/B 4.2x; EV/EBITDA 5.8x after Rs 16,085 cr net cash; trailing dividend yield 9.3% (FY26 dividends Rs 8,400 cr).",
+  "scenarios": {
+   "bear": {
+    "dcf": 94.2333,
+    "relative": 160.283,
+    "blended": 127.2582,
+    "upside_floor": -0.0135,
+    "upside_cap": -0.0643
+   },
+   "neutral": {
+    "dcf": 121.1047,
+    "relative": 160.283,
+    "blended": 140.6939,
+    "upside_floor": 0.0907,
+    "upside_cap": 0.0345
+   },
+   "bull": {
+    "dcf": 142.2696,
+    "relative": 160.283,
+    "blended": 151.2763,
+    "upside_floor": 0.1727,
+    "upside_cap": 0.1123
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.142,
+  "tv_share": 0.5668,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 12.2 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.05546804093503241,
+     "actual": 0.03
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.11444397592366584,
+     "actual": 0.142
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.39958112041821253,
+     "actual": 0.321
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.1303
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   30549.59,
+   31466.0777,
+   32410.06,
+   33544.4121,
+   34718.4666,
+   35933.6129
+  ],
+  "ebitda": [
+   12735.24,
+   13215.7526,
+   13612.2252,
+   14088.6531,
+   14581.756,
+   15092.1174
+  ],
+  "nopat": [
+   7337.5529,
+   7631.3537,
+   7860.2943,
+   8135.4046,
+   8420.1438,
+   8714.8488
+  ],
+  "fcff": [
+   6060.6529,
+   8150.6852,
+   7756.4563,
+   8010.6259,
+   8290.9978,
+   8581.1827
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.122,
+    0.132,
+    0.142,
+    0.152,
+    0.162
+   ],
+   "cols": [
+    0.02,
+    0.025,
+    0.03,
+    0.035,
+    0.04
+   ],
+   "values": [
+    [
+     136.4845,
+     138.7824,
+     141.314,
+     144.1196,
+     147.2493
+    ],
+    [
+     126.6311,
+     128.3519,
+     130.2276,
+     132.2821,
+     134.5444
+    ],
+    [
+     118.3859,
+     119.693,
+     121.1047,
+     122.6357,
+     124.3035
+    ],
+    [
+     111.3839,
+     112.3879,
+     113.4634,
+     114.6199,
+     115.8679
+    ],
+    [
+     105.3628,
+     106.1405,
+     106.9677,
+     107.8503,
+     108.795
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.05,
+    0.08,
+    0.11,
+    0.14,
+    0.17
+   ],
+   "cols": [
+    0.4,
+    0.41,
+    0.42,
+    0.43,
+    0.44
+   ],
+   "values": [
+    [
+     117.8968,
+     120.8767,
+     123.8566,
+     126.8365,
+     129.8164
+    ],
+    [
+     116.5209,
+     119.5008,
+     122.4807,
+     125.4606,
+     128.4405
+    ],
+    [
+     115.145,
+     118.1249,
+     121.1047,
+     124.0846,
+     127.0645
+    ],
+    [
+     113.769,
+     116.7489,
+     119.7288,
+     122.7087,
+     125.6886
+    ],
+    [
+     112.3931,
+     115.373,
+     118.3529,
+     121.3328,
+     124.3126
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Coal India Ltd",
+   "pe": 8.0519,
+   "pb": 2.0812,
+   "issuer": false
+  },
+  {
+   "name": "NMDC Ltd",
+   "pe": 8.4652,
+   "pb": 1.8527,
+   "issuer": false
+  },
+  {
+   "name": "PT Bukit Asam Tbk (per share, Rs)",
+   "pe": 11.4044,
+   "pb": 1.4814,
+   "issuer": false
+  },
+  {
+   "name": "Yancoal Australia Ltd (per share, Rs)",
+   "pe": 18.3377,
+   "pb": 0.8965,
+   "issuer": false
+  },
+  {
+   "name": "Mahanadi Coalfields Limited at reference",
+   "pe": 8.4297,
+   "pb": 4.2346,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 765.0055
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 153.0929
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 1377.1476
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 1530.164
+   },
+   {
+    "label": "Non-institutional",
+    "value": 1147.623
+   },
+   {
+    "label": "Retail",
+    "value": 2677.787
+   }
+  ],
+  "issue_cr": 7650.82,
+  "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 843.8404,
+    "days": 30,
+    "pct_float": 0.1711
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 843.8404,
+    "days": 90,
+    "pct_float": 0.1461
+   },
+   {
+    "label": "Coal India holding above minimum contribution (70% of post-offer capital)",
+    "shares_lakh": 46328.54,
+    "days": 180,
+    "pct_float": 7.0
+   },
+   {
+    "label": "Coal India minimum contribution (20% of post-offer capital)",
+    "shares_lakh": 13236.73,
+    "days": 540,
+    "pct_float": 0.25
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [],
+  "issues": []
+ },
+ "swot": {
+  "strengths": [
+   "India's largest single coal producer, 21% of output (p. 230)",
+   "About 45 years of audited reserves (p. 230)",
+   "Operating EBITDA margin about 42%; RoNW 54% (pp. 121, 124)",
+   "No debt; net cash about Rs 16,085 cr (pp. 86-87)"
+  ],
+  "weaknesses": [
+   "Revenue and profit down two years running (p. 88)",
+   "Administered coal prices",
+   "Assets uninsured (pp. 67-69)",
+   "No independent directors (p. 42)"
+  ],
+  "opportunities": [
+   "Coal demand about +4% a year to FY31 (p. 167)",
+   "Rail-led dispatch lowers cost (p. 229)",
+   "Coal gasification and solar diversification"
+  ],
+  "threats": [
+   "Energy transition after the 2030s",
+   "Wage and contractor cost inflation",
+   "Late payment by state utilities (p. 24)",
+   "Large tax demands (p. 24)"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "price": 136.0,
+  "shares": 661.8363,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY26",
+    "pat": 10677.74,
+    "eps": 16.1335,
+    "pe": 8.43
+   },
+   {
+    "basis": "FY26 after: tax-refund interest",
+    "pat": 9806.7787,
+    "eps": 14.8175,
+    "pe": 9.18
+   },
+   {
+    "basis": "FY26 after: write-backs",
+    "pat": 9286.4258,
+    "eps": 14.0313,
+    "pe": 9.69
+   },
+   {
+    "basis": "FY24-FY26 average, reported",
+    "pat": 11114.23,
+    "eps": 16.793,
+    "pe": 8.1
+   },
+   {
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 10541.8703,
+    "eps": 15.9282,
+    "pe": 8.54
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Interest on income-tax and indirect-tax refunds (other income)",
+    "short": "tax-refund interest",
+    "pre_tax": [
+     0.0,
+     -19.25,
+     -1163.92
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 512-513",
+    "reason": "The company's own MD&A lists it as non-recurring: interest received on refunds of earlier-year taxes, Rs 1,163.92 cr in FY26 against Rs 19.25 cr in FY25. FY24 not separately disclosed.",
+    "post_tax": [
+     0.0,
+     -14.4048,
+     -870.9613
+    ],
+    "pe_if_applied": 9.18
+   },
+   {
+    "item": "Liabilities and provisions written back (other income)",
+    "short": "write-backs",
+    "pre_tax": [
+     -261.93,
+     -154.16,
+     -695.38
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 512-513",
+    "reason": "Listed by the company as non-recurring; FY26 includes the Rs 604.8 cr reversal of a water-charges provision now shown as a contingent liability. Smaller write-backs recur most years.",
+    "post_tax": [
+     -196.0022,
+     -115.3579,
+     -520.3529
+    ],
+    "pe_if_applied": 8.86
+   },
+   {
+    "item": "Reversal of stripping-activity provision (in revenue)",
+    "short": "stripping reversal",
+    "pre_tax": [
+     -398.49,
+     -568.31,
+     -489.7
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "pp. 511-512",
+    "reason": "Non-cash credit to revenue under the stripping-ratio accounting policy. It recurs every year as mines move through their stripping cycle, so it is shown for information and kept in the adjusted P/E.",
+    "post_tax": [
+     -298.1901,
+     -425.2664,
+     -366.4425
+    ],
+    "pe_if_applied": 8.73
+   }
+  ],
+  "adjusted_pat": [
+   11645.3678,
+   10693.8173,
+   9286.4258
+  ],
+  "pe_reported": 8.43,
+  "pe_adjusted": 9.69,
+  "pat_change": -0.1303,
+  "material": true,
+  "verdict": "Reported FY26 P/E of 8.4x is flattered by the items flagged: adjusted P/E 9.7x (PAT -13.0%). On the FY24-FY26 average, which smooths one-year items, the P/E is 8.1x reported and 8.5x adjusted.",
+  "flags": [
+   "The company's own MD&A lists it as non-recurring: interest received on refunds of earlier-year taxes, Rs 1,163.92 cr in FY26 against Rs 19.25 cr in FY25. FY24 not separately disclosed.",
+   "Listed by the company as non-recurring; FY26 includes the Rs 604.8 cr reversal of a water-charges provision now shown as a contingent liability. Smaller write-backs recur most years."
+  ],
+  "checked": [
+   "Profit is taxed in cash: current tax 22-24% of PBT (p. 88)",
+   "No goodwill or capitalised acquisition intangibles",
+   "Auditor's report is unmodified; emphasis of matter only (pp. 67-69)",
+   "H1 FY27 is six months; not annualised"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 4,
+  "pass": 5,
+  "open": 5
+ }
+}
