@@ -1,6 +1,76 @@
 {
-  "updated": "2026-11-15T02:16Z",
+  "updated": "2026-11-16T02:22Z",
   "issuers": [
+    {
+      "slug": "watrana-rentals-ltd",
+      "company": "Watrana Rentals Limited",
+      "platform": "SME",
+      "stage": "RHP",
+      "filed_on": null,
+      "analysed_on": "2026-11-16",
+      "sector": "Material handling and aerial work platform rental",
+      "brlm": "Oneview Corporate Advisors Private Limited",
+      "issue_size_cr": 120.1,
+      "price_band": "Rs 232-245",
+      "open_date": "2026-11-19",
+      "close_date": "2026-11-23",
+      "allotment_date": null,
+      "listing_date": "2026-11-27",
+      "lot_size": 600,
+      "exchange": "NSE Emerge",
+      "depth": "Snapshot",
+      "rhp_read": false,
+      "company_pe": {
+        "period": "FY26",
+        "pat_cr": 29.16,
+        "eps_basic": 29.13,
+        "eps_diluted": 29.13,
+        "source": "Public IPO trackers reproducing the offer document (RHP not read; provisional)",
+        "note": "EPS Rs 29.13 is on about 1.001 crore weighted shares (PAT 29.16 / 29.13; NAV Rs 85.47 gives the same count). Pre-issue shares are now 1.14385 crore, so on today's count FY26 EPS is Rs 25.49 and the P/E is 9.10x-9.61x across the band. Diluted EPS assumed equal to basic. The RHP peer set (Seemax Resources 16.07x, Leap India 76.81x) is reported by trackers, but no industry high/low/average.",
+        "pe_floor_basic": 7.96,
+        "pe_cap_basic": 8.41,
+        "pe_floor_diluted": 7.96,
+        "pe_cap_diluted": 8.41,
+        "floor": 232.0,
+        "cap": 245.0
+      },
+      "call": "Neutral",
+      "business_stage": "Scaling (capital-intensive fleet growth; issue funds new fleet)",
+      "headline": "An equipment-rental company (2,646 forklifts and reach trucks, 33 aerial work platforms, 25 states) with FY26 revenue of Rs 211 cr, a 31% EBITDA margin and 34% RoNW, raising Rs 120 cr of fresh money almost entirely for new fleet, priced at 13.7x FY26 earnings; fair value Rs 210 (Neutral) because fleet growth absorbs cash and leverage is high before the issue.",
+      "red_flags": [
+        "Revenue Rs 130.12 cr (FY24) -> Rs 179.66 cr -> Rs 211.36 cr (FY26); PAT Rs 18.05 -> 24.43 -> 29.16 cr; EBITDA margin 30.76% in FY26",
+        "Borrowings Rs 164.08 cr against net worth Rs 85.55 cr (1.92x) in FY26, up 49% in a year",
+        "Rental income 93.7% of revenue; depreciation policy and equipment-resale income not visible without the RHP",
+        "EPS and NAV imply 1.001 crore shares but pre-issue shares are 1.144 crore: 13.4 lakh shares added after Mar-26",
+        "RHP not read: tracker figures, no page cites; fair value Rs 170 / 210 / 253 vs Rs 245"
+      ],
+      "doc_url": null,
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 2,
+        "pass": 1,
+        "open": 12
+      },
+      "focus_top": [
+        "Bonus issue / share-count consistency",
+        "Customer / supplier / geographic concentration",
+        "Valuation model guard"
+      ],
+      "neutral": {
+        "dcf": 133.217,
+        "relative": 286.7729,
+        "blended": 209.9949,
+        "upside_floor": -0.0948,
+        "upside_cap": -0.1429
+      },
+      "bear": 169.5461,
+      "bull": 252.7329,
+      "pdf": "WATRANA_RENTALS_LTD_Report.pdf",
+      "pe_reported": 13.73,
+      "pe_adjusted": 13.73,
+      "eq_material": false
+    },
     {
       "slug": "crystal-crop-protection-ltd",
       "company": "Crystal Crop Protection Limited",
