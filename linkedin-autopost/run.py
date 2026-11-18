@@ -4,9 +4,14 @@
     python run.py --dry-run       # generate + render only (image and text saved in out/)
     python run.py --kind quote    # override the weekday schedule
     python run.py --force         # post even if today's post is already recorded
+    python run.py --plan          # print today's post type and recently used quotes (for the routine)
+    python run.py --post-file F   # use a post Claude already wrote (JSON) instead of calling the API
+
+Free mode (ROUTINE.md): a scheduled Claude Code routine writes the post JSON itself and calls
+--post-file, so no ANTHROPIC_API_KEY is needed.
 
 Environment:
-    ANTHROPIC_API_KEY
+    ANTHROPIC_API_KEY             only when the script writes the post itself (no --post-file)
     LINKEDIN_ORG_ID               numeric id of the Company Page
     LINKEDIN_ACCESS_TOKEN         or, to refresh automatically each run:
     LINKEDIN_CLIENT_ID, LINKEDIN_CLIENT_SECRET, LINKEDIN_REFRESH_TOKEN
@@ -19,13 +24,14 @@ import sys
 import time
 from zoneinfo import ZoneInfo
 
-from autopost.generate import generate
 from autopost.render import render
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 HISTORY = os.path.join(HERE, "data", "history.json")
 OUT = os.path.join(HERE, "out")
 MAX_WAIT_MIN = 60
+POST_KEYS = ["kind", "label", "headline", "stats", "chart", "points", "quote", "quote_author",
+             "takeaway", "caption", "hashtags", "alt_text", "sources"]
 
 
 def load(path):
@@ -74,6 +80,8 @@ def main():
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-wait", action="store_true")
     ap.add_argument("--kind", choices=["market", "quote"])
+    ap.add_argument("--plan", action="store_true")
+    ap.add_argument("--post-file")
     args = ap.parse_args()
 
     cfg = load(os.path.join(HERE, "config.json"))
@@ -92,8 +100,23 @@ def main():
     recent_quotes = [f"{p['quote']} - {p['quote_author']}" for p in history["posts"]
                      if p.get("quote") and p["date"] >= cutoff]
 
-    print(f"{today}: generating '{kind}' post with {cfg['model']}")
-    post = generate(cfg, rules, kind, now.strftime("%A, %d %B %Y"), recent_quotes)
+    if args.plan:
+        print(json.dumps({"date": today, "weekday": now.strftime("%A"), "kind": kind,
+                          "already_posted_today": any(p["date"] == today for p in history["posts"]),
+                          "recent_quotes_do_not_reuse": recent_quotes}, indent=2, ensure_ascii=False))
+        return
+
+    if args.post_file:
+        post = load(args.post_file)
+        missing = [k for k in POST_KEYS if k not in post]
+        if missing:
+            sys.exit(f"{args.post_file} is missing keys: {missing}")
+        kind = post["kind"]
+        print(f"{today}: using '{kind}' post from {args.post_file}")
+    else:
+        from autopost.generate import generate
+        print(f"{today}: generating '{kind}' post with {cfg['model']}")
+        post = generate(cfg, rules, kind, now.strftime("%A, %d %B %Y"), recent_quotes)
 
     os.makedirs(OUT, exist_ok=True)
     png = render(post, cfg, os.path.join(HERE, "..", cfg["logo"]), now.strftime("%d %b %Y").upper(),

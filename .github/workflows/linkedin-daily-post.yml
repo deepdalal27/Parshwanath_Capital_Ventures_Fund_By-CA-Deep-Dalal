@@ -1,10 +1,11 @@
 name: LinkedIn daily post
 
+# Paid option: needs an ANTHROPIC_API_KEY secret. The free daily post runs as a Claude Code routine
+# instead (linkedin-autopost/ROUTINE.md), so this workflow is manual-only. To switch to this one,
+# add the secret and uncomment the schedule (06:05 UTC = 11:35 IST; it waits and posts at 12:00 IST).
 on:
-  schedule:
-    # 06:05 UTC = 11:35 IST. The job writes the post, then waits and publishes at 12:00 IST.
-    # (GitHub can start scheduled jobs late; starting early keeps the post on time.)
-    - cron: "5 6 * * *"
+  # schedule:
+  #   - cron: "5 6 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
