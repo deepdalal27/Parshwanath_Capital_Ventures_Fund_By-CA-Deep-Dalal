@@ -1,0 +1,29 @@
+{
+  "_comment": "CA Deep Dalal's personal LinkedIn profile. Posts on odd dates (Instagram @findeependence posts on even dates). Rules: PROFILE_RULES.md. Steps: ROUTINE_PROFILE.md.",
+  "presenter": {
+    "photo": "assets/deep-dalal-fund-manager.jpg",
+    "name": "CA Deep Dalal",
+    "title": "Chartered Accountant · Fund Manager",
+    "focus": "Investments · Capital markets · IPOs"
+  },
+  "disclaimer": "Views are personal and for education only. Not investment advice or a recommendation.",
+  "timezone": "Asia/Kolkata",
+  "post_time": "09:10",
+  "post_on": "odd_dates",
+  "formats": [
+    {"id": "ipo", "label": "IPO Decoded", "brief": "Decode a live, upcoming or recently listed mainboard IPO from its RHP: offer structure (fresh issue vs OFS), objects, promoter holding, cash flows, peer valuation, key risks. Education only, no apply/avoid view."},
+    {"id": "markets", "label": "Market Structure", "brief": "One data-led insight on Indian capital markets from the last 1-2 weeks: flows (FII/DII, SIP, primary market fund-raising), valuations, breadth, regulation. Use a chart when verified data allows."},
+    {"id": "founders", "label": "Founder's Desk", "brief": "Capital markets for company founders and CFOs: IPO readiness, SME vs mainboard listing, pre-IPO rounds, anchor book, QIP, valuation, governance. Practical, drawn from SEBI rules and real recent issues."},
+    {"id": "playbook", "label": "Investor Playbook", "brief": "A clear investing framework for young investors and Gen Z: risk, position sizing, asset allocation, behaviour, compounding, reading a company's numbers. Grounded in data, never hype."},
+    {"id": "regulation", "label": "Regulatory Lens", "brief": "What a recent SEBI, RBI or tax change means for investors, issuers and intermediaries (merchant bankers, brokers, AIFs, PMS). Cite the circular or press release."}
+  ],
+  "hashtags": {
+    "ipo": ["IPO", "CapitalMarkets", "IndianStockMarket", "Investing"],
+    "markets": ["CapitalMarkets", "IndianEconomy", "StockMarket", "Investing"],
+    "founders": ["Startups", "Founders", "IPO", "Fundraising", "CapitalMarkets"],
+    "playbook": ["Investing", "PersonalFinance", "WealthCreation", "GenZ"],
+    "regulation": ["SEBI", "CapitalMarkets", "Regulation", "Investing"]
+  },
+  "linkedin_api_version": "202608",
+  "history_days_to_avoid_repeats": 120
+}
