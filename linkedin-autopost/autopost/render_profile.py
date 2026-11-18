@@ -34,6 +34,15 @@ PALETTES = {   # top colour, bottom colour, accent
 }
 
 
+def _fit_one(d, text, style, width, start, smallest):
+    """Largest font at which a single line (a number, a short label) fits the width."""
+    for size in range(start, smallest - 1, -4):
+        f = _font(style, size)
+        if d.textlength(text, font=f) <= width:
+            return f
+    return _font(style, smallest)
+
+
 def _palette(fmt):
     return PALETTES.get(fmt, PALETTES["markets"])
 
@@ -123,7 +132,9 @@ def _pill(d, text, x, y, accent):
 def _cover(d, s, accent, n):
     y = 270 if s.get("big") else 330
     if s.get("big"):
-        y = _text(d, s["big"], "sans_bold", W - 2 * PAD, 1, 230, 120, PAD, y, accent, 1.0)
+        bf = _fit_one(d, s["big"], "sans_bold", W - 2 * PAD, 230, 90)
+        d.text((PAD, y), s["big"], font=bf, fill=accent)
+        y += int(bf.size * 1.0)
         if s.get("big_label"):
             y = _text(d, s["big_label"], "sans_bold", W - 2 * PAD, 1, 34, 24, PAD, y + 4, WHITE) + 30
         else:
@@ -136,7 +147,7 @@ def _cover(d, s, accent, n):
 
 
 def _stat(d, s, accent):
-    f, _ = _fit(d, s["value"], "sans_bold", W - 2 * PAD, 1, 300, 120)
+    f = _fit_one(d, s["value"], "sans_bold", W - 2 * PAD, 300, 100)
     d.text((W // 2, 430), s["value"], font=f, fill=accent, anchor="mm")
     y = _text(d, s["label"], "sans_bold", W - 2 * PAD, 2, 52, 34, PAD, 640, WHITE, 1.15, anchor_center=True)
     if s.get("note"):
@@ -212,7 +223,7 @@ def _compare(d, s, accent):
         x = PAD + k * (cw + 40)
         fill = (255, 255, 255) if k == 0 else accent
         d.rounded_rectangle((x, 420, x + cw, 900), radius=36, fill=fill)
-        f, _ = _fit(d, side["value"], "sans_bold", cw - 50, 1, 150, 60)
+        f = _fit_one(d, side["value"], "sans_bold", cw - 60, 150, 56)
         d.text((x + cw // 2, 600), side["value"], font=f, fill=(20, 20, 30), anchor="mm")
         lf, ll = _fit(d, side["label"], "sans_bold", cw - 60, 3, 34, 24)
         yy = 720
