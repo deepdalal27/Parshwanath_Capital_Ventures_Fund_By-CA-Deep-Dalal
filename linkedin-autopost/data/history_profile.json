@@ -1,1 +1,21 @@
-{"posts": []}
+{
+  "posts": [
+    {
+      "date": "2026-11-18",
+      "format": "markets",
+      "urn": "urn:li:ugcPost:7528856624107655168",
+      "headline": "India's inflation crosses the RBI's 6% ceiling",
+      "type": "carousel",
+      "slides": 6,
+      "sources": [
+        "https://www.mospi.gov.in/uploads/latestreleasesfiles/1794480048335-Press%20Release%20of%20CPI%20for%20October%202026%20.pdf",
+        "https://swarajyamag.com/economy/indias-retail-inflation-rises-to-609-per-cent-in-october-breaches-rbis-6-per-cent-upper-tolerance-limit-for-first-time-in-two-years",
+        "https://www.downtoearth.org.in/economy/indias-retail-inflation-hits-two-year-high-of-609-as-food-prices-rise",
+        "https://www.policyedge.in/p/food-prices-rise-nearly-9-from-a-year-ago-pushing-indias-october-retail-inflation-above-6",
+        "https://www.mospi.gov.in/uploads/latestreleasesfiles/1789382372004-Press%20Release%20of%20CPI%20for%20August%202026.pdf",
+        "https://www.angelone.in/news/economy/india-s-retail-inflation-rises-to-4-38-in-june-2026-food-inflation-at-5-32",
+        "https://www.angelone.in/news/economy/india-retail-inflation-rises-to-4-45-in-july-2026-as-food-inflation-accelerates-to-5-52"
+      ]
+    }
+  ]
+}
