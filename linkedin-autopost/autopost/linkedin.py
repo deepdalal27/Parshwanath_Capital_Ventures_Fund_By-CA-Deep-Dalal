@@ -57,6 +57,17 @@ class LinkedIn:
                         "image upload")
         return value["image"]
 
+    def upload_document(self, pdf_path):
+        """Upload a PDF; LinkedIn shows it as a swipeable carousel."""
+        r = self._check(self.s.post(f"{API}/documents?action=initializeUpload", timeout=30,
+                                    json={"initializeUploadRequest": {"owner": self.org}}), "document init")
+        value = r.json()["value"]
+        with open(pdf_path, "rb") as f:
+            self._check(requests.put(value["uploadUrl"], data=f.read(), timeout=180,
+                                     headers={"Authorization": self.s.headers["Authorization"]}),
+                        "document upload")
+        return value["document"]
+
     def post(self, commentary, image_urn, title, alt_text):
         body = {
             "author": self.org,
@@ -64,9 +75,11 @@ class LinkedIn:
             "visibility": "PUBLIC",
             "distribution": {"feedDistribution": "MAIN_FEED", "targetEntities": [],
                              "thirdPartyDistributionChannels": []},
-            "content": {"media": {"id": image_urn, "title": title[:200], "altText": alt_text[:4086]}},
+            "content": {"media": {"id": image_urn, "title": title[:200]}},
             "lifecycleState": "PUBLISHED",
             "isReshareDisabledByAuthor": False,
         }
+        if alt_text and ":image:" in image_urn:          # alt text applies to images, not documents
+            body["content"]["media"]["altText"] = alt_text[:4086]
         r = self._check(self.s.post(f"{API}/posts", json=body, timeout=30), "post")
         return r.headers.get("x-restli-id", "")
