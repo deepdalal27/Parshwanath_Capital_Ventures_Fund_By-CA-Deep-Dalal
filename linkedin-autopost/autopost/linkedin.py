@@ -1,4 +1,4 @@
-"""Post an image + caption to a LinkedIn Company Page (Posts API + Images API).
+"""Post an image + caption to a LinkedIn Company Page or a member profile (Posts API + Images API).
 
 Needs an access token with the w_organization_social scope, issued to a page admin, from a
 LinkedIn app that has the Community Management API product. See README.md.
@@ -31,7 +31,10 @@ def to_commentary(caption, hashtags):
 
 class LinkedIn:
     def __init__(self, token, org_id, version):
-        self.org = f"urn:li:organization:{org_id}"
+        # org_id: the Company Page's number, or a full author URN such as "urn:li:person:<id>"
+        # for posting on a member's own profile (needs the w_member_social scope).
+        org_id = str(org_id)
+        self.org = org_id if org_id.startswith("urn:li:") else f"urn:li:organization:{org_id}"
         self.s = requests.Session()
         self.s.headers.update({
             "Authorization": f"Bearer {token}",

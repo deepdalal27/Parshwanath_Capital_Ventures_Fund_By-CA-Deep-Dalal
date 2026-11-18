@@ -84,3 +84,25 @@ makes the day's image and caption and reports what is missing, so you can post b
 - **LinkedIn API version:** `linkedin_api_version` in `config.json` (format `YYYYMM`). LinkedIn retires
   versions after about a year. If posting starts failing with a version error, set it to a recent month.
 - **Cost:** free mode uses your Claude plan's usage (one session a day); LinkedIn and GitHub are free.
+
+## Personal profile posts (CA Deep Dalal)
+
+A second scheduled routine posts on CA Deep Dalal's own LinkedIn profile on **odd dates at 09:10 IST**
+(Instagram @findeependence posts on even dates). Rotating formats: IPO Decoded, Market Structure,
+Founder's Desk, Investor Playbook, Regulatory Lens. Files: `ROUTINE_PROFILE.md` (steps),
+`PROFILE_RULES.md` (voice and compliance), `config_profile.json` (formats, time, hashtags),
+`run_profile.py` and `autopost/render_profile.py` (image), history in `data/history_profile.json`
+on the `linkedin-history` branch.
+
+One-time setup, in the same LinkedIn app (no review needed):
+
+1. **Products** tab: add **Share on LinkedIn** and **Sign In with LinkedIn using OpenID Connect**.
+2. Token generator (<https://www.linkedin.com/developers/tools/oauth/token-generator>): pick the app,
+   tick `openid`, `profile` and `w_member_social`, request the token while signed in as yourself.
+   When the Community Management API is approved later, generate one token with all of these plus
+   `w_organization_social`, so one token serves both the profile and the Company Page.
+3. Save the token as the network secret for `api.linkedin.com` and `www.linkedin.com` (Claude opens the
+   form), then run `LINKEDIN_ACCESS_TOKEN=proxy-injected python run_profile.py --whoami` and save the
+   `sub` value as the environment variable `LINKEDIN_PERSON_ID`.
+
+Tokens last 60 days; the run says when it needs a new one.
