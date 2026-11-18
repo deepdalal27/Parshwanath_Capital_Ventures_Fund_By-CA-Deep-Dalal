@@ -25,35 +25,39 @@ Check overlap with Instagram: fetch the last 10 @findeependence captions with
 (the token is added by the network proxy; skip this check if it fails) and choose a different subject or angle.
 
 ## 2. Write `out/profile.json`
+Visual first (see `PROFILE_RULES.md`): a 4-7 slide carousel, or 1 slide when one number or chart says it all.
 ```json
 {
   "format": "<format id from the plan>",
   "label": "<format label from the plan>",
-  "headline": "max 75 chars, the insight itself",
-  "dek": "max 110 chars, one line that frames it, or empty",
-  "stats": [{"label": "max 20 chars", "value": "max 12 chars", "change": "signed change with period, or empty"}],
-  "chart": {"type": "bar | line | none", "title": "what and period, max 55 chars", "unit": "%",
-            "labels": ["max 16 chars"], "values": [1.2], "source": "named source"},
-  "points": ["3-4 points, max 120 chars each, each with a fact or a mechanism"],
-  "takeaway": "max 110 chars, the judgement",
-  "caption": "150-260 words, per PROFILE_RULES.md, no hashtags, no disclaimer",
+  "headline": "max 70 chars, the post's title (used as the carousel title on LinkedIn)",
+  "slides": [
+    {"type": "cover", "big": "₹1.2L cr", "big_label": "max 8 words", "title": "max 8 words", "sub": "max 10 words"},
+    {"type": "stat", "value": "56%", "label": "max 8 words", "note": "max 10 words"},
+    {"type": "chart", "title": "max 8 words", "note": "max 10 words",
+     "chart": {"type": "bar", "labels": ["max 12 chars"], "values": [1.2], "unit": "%", "source": "named source"}},
+    {"type": "compare", "title": "max 8 words", "a": {"value": "₹500 cr", "label": "max 6 words"},
+     "b": {"value": "₹1,800 cr", "label": "max 6 words"}, "note": "max 10 words"},
+    {"type": "points", "title": "max 8 words", "items": ["max 6 words", "max 6 words", "max 6 words"]},
+    {"type": "end", "title": "the takeaway in one sentence", "sub": "max 10 words"}
+  ],
+  "caption": "60-120 words, per PROFILE_RULES.md, no hashtags, no disclaimer",
   "hashtags": ["3-5 words without #"],
-  "alt_text": "max 250 chars describing the image",
+  "alt_text": "max 250 chars describing the visuals",
   "sources": ["source names or URLs"]
 }
 ```
-Use `"stats": []` and `"chart": {"type": "none", "title": "", "unit": "", "labels": [], "values": [], "source": ""}`
-when there is no verified data set. Bar values are plain numbers in the same order as labels.
-Space on the card: with stat tiles AND a chart, write only 2 points of max 90 chars (the card drops points
-that do not fit); with only one of them, 3 points; with neither, 3-4 points. Use a chart only when it
-shows something the words cannot.
+Rules for slides: start with `cover`, end with `end` (carousel); use only verified figures; `big`, `value`
+and chart values come from your notes. Charts: bar for 3-6 comparable figures, line for 5-12 points over
+time, values as plain numbers in label order. Mix slide types so the carousel has rhythm (number, chart,
+comparison, points). A single-slide post uses one `cover` (with `big`) or one `chart` slide.
 
 ## 3. Preview and check
 ```bash
 python run_profile.py --post-file out/profile.json --dry-run
 ```
-Open `out/profile-<date>.png` and look at it: nothing cut off or overlapping, every number matches your
-notes, it reads well on a phone. Re-read the caption against every hard rule and the "fund-manager grade"
+Open every `out/profile-<date>-NN.png` and look at it: nothing cut off or overlapping, every number matches
+your notes, each slide is understood in 3 seconds on a phone. Too much text on a slide means split or cut it. Re-read the caption against every hard rule and the "fund-manager grade"
 standard in `PROFILE_RULES.md`. Fix and preview again if anything is off.
 
 ## 4. Post
@@ -61,7 +65,8 @@ standard in `PROFILE_RULES.md`. Fix and preview again if anything is off.
 LINKEDIN_ACCESS_TOKEN=${LINKEDIN_ACCESS_TOKEN:-proxy-injected} python run_profile.py --post-file out/profile.json
 ./history.sh push-profile
 ```
-It uploads the image, waits until 09:10 IST, publishes on the profile and records the post. The token is
+It uploads the carousel (PDF document) or the single image, waits until 09:10 IST, publishes on the profile
+and records the post. If LinkedIn refuses the carousel, it posts the cover slide as an image instead. The token is
 added by the environment's network proxy for api.linkedin.com and www.linkedin.com; never add or print it.
 Do not open a pull request.
 

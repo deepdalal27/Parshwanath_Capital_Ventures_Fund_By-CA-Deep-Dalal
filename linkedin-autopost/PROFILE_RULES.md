@@ -43,6 +43,7 @@ for all of them:
 - **Show the mechanism.** Explain why something happens and what follows from it (second-order effects),
   the way an investment committee note would.
 - **Use real numbers** with dates and sources, and one clear comparison where possible.
+- **No voiceover or video** on LinkedIn: carousels and single images only.
 - **End with a judgement**, not a slogan: what a careful investor, founder or banker should watch or do
   differently. Then one natural question that invites experts to comment.
 - **Voice:** confident, calm, first person where it reads naturally ("What I look for in an RHP...").
@@ -50,21 +51,27 @@ for all of them:
   (no "game-changer", "unlock", "delve", "in today's fast-paced world", "let that sink in").
 - **No em dashes** in the caption.
 
+## Visual first (most important)
+
+People scroll; they look, they do not read. Every post is designed to be understood in a few seconds
+from the visuals alone.
+
+- **Carousel by default** (4-7 slides), or a **single slide** when one number or one chart says it all.
+- **One idea per slide**, shown big: a hero number, a chart, a side-by-side comparison, or 3 very short
+  points. Slide text is a few words, never a paragraph: titles max 8 words, labels max 8 words,
+  points max 6 words, notes max 10 words.
+- **Lead with a number.** The cover slide carries the hook: ideally one striking, verified figure
+  (`big`) plus a question or statement title.
+- **Charts tell the story**: 3-6 bars or 5-12 points, clean labels, the key bar highlighted automatically.
+- **Last slide** is the takeaway in one sentence.
+- Full-colour design and the signature come from `autopost/render_profile.py`; never fight the template
+  with long text.
+
 ## Caption format (LinkedIn)
 
-- 150-260 words.
-- Line 1-2: the hook (under 210 characters, so it shows before "...see more").
-- Short paragraphs of 1-3 lines with white space between them. A numbered list of 3-4 points is good.
-- One closing question for discussion.
-- Hashtags go in the `hashtags` field (3-5, no '#'), never inside the caption.
-- No links in the caption (LinkedIn reduces reach for external links). Sources go in `sources`.
-
-## The image
-
-1080x1350, drawn by `autopost/render_profile.py`: a dark masthead with the format label and headline,
-optional stat tiles and one chart, 3-4 numbered key points, a takeaway band, and his signature footer
-(photo, name, "Chartered Accountant · Fund Manager"). Keep text short so it reads on a phone:
-headline max 75 characters, dek max 110, each point max 120, takeaway max 110.
+- 60-120 words. The slides carry the content; the caption frames it.
+- Line 1: the hook (under 150 characters). Then 2-4 short lines, then one closing question.
+- Hashtags go in the `hashtags` field (3-5, no '#'), never in the caption. No links in the caption.
 
 ## Formats (rotated in order, see `config_profile.json`)
 

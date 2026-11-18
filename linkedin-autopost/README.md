@@ -89,7 +89,9 @@ makes the day's image and caption and reports what is missing, so you can post b
 
 A second scheduled routine posts on CA Deep Dalal's own LinkedIn profile on **odd dates at 09:10 IST**
 (Instagram @findeependence posts on even dates). Rotating formats: IPO Decoded, Market Structure,
-Founder's Desk, Investor Playbook, Regulatory Lens. Files: `ROUTINE_PROFILE.md` (steps),
+Founder's Desk, Investor Playbook, Regulatory Lens. Posts are visual first: full-colour carousels
+of 4-7 slides (big numbers, charts, comparisons, very little text), posted as a LinkedIn document, or a
+single slide when one number says it all; short captions; no voiceover. Files: `ROUTINE_PROFILE.md` (steps),
 `PROFILE_RULES.md` (voice and compliance), `config_profile.json` (formats, time, hashtags),
 `run_profile.py` and `autopost/render_profile.py` (image), history in `data/history_profile.json`
 on the `linkedin-history` branch.

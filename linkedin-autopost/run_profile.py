@@ -22,8 +22,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG = os.path.join(HERE, "config_profile.json")
 HISTORY = os.path.join(HERE, "data", "history_profile.json")
 OUT = os.path.join(HERE, "out")
-KEYS = ["format", "label", "headline", "dek", "stats", "chart", "points", "takeaway", "caption",
-        "hashtags", "alt_text", "sources"]
+KEYS = ["format", "label", "headline", "slides", "caption", "hashtags", "alt_text", "sources"]
+SLIDE_TYPES = {"cover", "stat", "chart", "compare", "points", "end"}
 
 
 def load(path, default=None):
@@ -113,15 +113,19 @@ def main():
         sys.exit(f"{args.post_file} is missing keys: {missing}")
     if post["format"] not in [f["id"] for f in cfg["formats"]]:
         sys.exit(f"Unknown format {post['format']!r}")
+    bad = [s.get("type") for s in post["slides"] if s.get("type") not in SLIDE_TYPES]
+    if not 1 <= len(post["slides"]) <= 9 or bad:
+        sys.exit(f"slides must be 1-9 of {sorted(SLIDE_TYPES)}; got {len(post['slides'])} slides, unknown types {bad}")
 
-    from autopost.render_profile import render_profile
+    from autopost.render_profile import render_post
     os.makedirs(OUT, exist_ok=True)
-    png = render_profile(post, cfg, now.strftime("%d %b %Y").upper(), os.path.join(OUT, f"profile-{today}.png"),
-                         os.path.join(HERE, cfg["presenter"]["photo"]))
+    cover, pdf, pngs = render_post(post, cfg, os.path.join(OUT, f"profile-{today}"),
+                                   os.path.join(HERE, cfg["presenter"]["photo"]))
     caption, tags = caption_and_tags(post, cfg)
     with open(os.path.join(OUT, f"profile-{today}.json"), "w", encoding="utf-8") as f:
         json.dump({**post, "final_caption": caption, "final_hashtags": tags}, f, indent=2, ensure_ascii=False)
-    print(f"Image: {png}\n\n{caption}\n\n" + " ".join("#" + t for t in tags))
+    print("Slides: " + ", ".join(pngs) + (f"\nCarousel PDF: {pdf}" if pdf else "\nSingle image post"))
+    print(f"\n{caption}\n\n" + " ".join("#" + t for t in tags))
     if args.dry_run:
         print("\nDry run: not posted.")
         return
@@ -133,13 +137,22 @@ def main():
     from run import wait_until
     li = LinkedIn(token(), person if person.startswith("urn:li:") else f"urn:li:person:{person}",
                   cfg["linkedin_api_version"])
-    image = li.upload_image(png)
+    media, kind = None, "image"
+    if pdf:
+        try:
+            media, kind = li.upload_document(pdf), "carousel"
+        except Exception as e:                        # e.g. documents not allowed: post the cover instead
+            print(f"Carousel upload failed ({str(e)[:200]}); posting the cover slide as an image.")
+    if media is None:
+        media = li.upload_image(cover)
     if not args.no_wait:
         wait_until(cfg["post_time"], tz)
-    urn = li.post(to_commentary(caption, tags), image, post["headline"], post["alt_text"])
+    urn = li.post(to_commentary(caption, tags), media, post["headline"], post["alt_text"])
+    print(f"Posted as {kind}.")
     print(f"Posted: {urn}  https://www.linkedin.com/feed/update/{urn}/")
 
     history["posts"].append({"date": today, "format": post["format"], "urn": urn, "headline": post["headline"],
+                             "type": kind, "slides": len(post["slides"]),
                              "sources": post.get("sources", [])})
     os.makedirs(os.path.dirname(HISTORY), exist_ok=True)
     with open(HISTORY, "w", encoding="utf-8") as f:
