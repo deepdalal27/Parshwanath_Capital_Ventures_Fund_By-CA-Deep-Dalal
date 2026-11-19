@@ -1,48 +1,48 @@
 {
- "_source": "Watrana Rentals Limited (NSE Emerge). RHP not reached (NSE issue feed redirecting; RHP file not located), so figures are the restated standalone financials to 31-Mar-2026 (and Q1 FY27 to 30-Jun-2026) as reproduced from the offer document by public IPO trackers (IPO Watch, IPO Platform, ipoji, IPO Central, Chittorgarh, Chanakya, news reports of 15-16 Nov-2026), cross-checked against each other. FY25 revenue is total income (operations split not reported). Items marked 'estimate' are analyst estimates derived from reported totals, not reported figures. No page cites are possible until the RHP is read.",
+ "_source": "Watrana Rentals Limited, Red Herring Prospectus dated 11-Nov-2026 (NSE Emerge), restated standalone financial information to 30-Jun-2026 (audited by PRASS & Associates LLP), read from the RHP file at nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip. Page numbers are the RHP's printed pages. Price band Rs 232-245 and lot 600 shares are from the price-band announcement (the RHP prints [●]).",
  "screening": {
   "basis": {
    "name": "Watrana Rentals Limited",
    "platform": "SME",
    "stage": "RHP",
-   "doc_date": null,
-   "aud_to": "2026-03-31",
+   "doc_date": "2026-11-11",
+   "aud_to": "2026-06-30",
    "band": "Yes",
    "brlm": "Oneview Corporate Advisors Private Limited",
-   "outside": "RHP not reached; figures from public trackers reproducing the offer document",
-   "bid_cat": "NII / Retail",
+   "outside": "Price band and lot size from the company's price-band announcement; RHP prints [●]",
+   "bid_cat": "NII / Individual",
    "exit": "2-3 year hold (assumed)"
   },
   "items": {
    "rev": [
     130.12,
-    179.66,
+    179.48,
     211.36,
-    53.5
+    53.47
    ],
    "oth": [
-    null,
-    null,
-    0.33,
-    null
+    0.12,
+    0.18,
+    0.34,
+    0.15
    ],
    "pbt": [
-    null,
-    null,
-    null,
-    null
+    24.16,
+    32.85,
+    39.18,
+    10.33
    ],
    "ctax": [
-    null,
-    null,
-    null,
-    null
+    4.07,
+    5.7,
+    6.93,
+    1.99
    ],
    "dtax": [
-    null,
-    null,
-    null,
-    null
+    2.04,
+    2.71,
+    3.09,
+    0.66
    ],
    "pat": [
     18.05,
@@ -51,22 +51,22 @@
     7.68
    ],
    "cfo": [
-    null,
-    null,
-    null,
-    null
+    32.25,
+    34.17,
+    48.68,
+    16.72
    ],
    "rpt_s": [
-    null,
-    null,
-    null,
-    null
+    0.79,
+    3.39,
+    3.23,
+    0.3
    ],
    "rpt_p": [
-    null,
-    null,
-    null,
-    null
+    24.08,
+    27.26,
+    49.61,
+    2.02
    ],
    "nw": [
     31.96,
@@ -75,89 +75,107 @@
     93.24
    ],
    "recv": [
-    null,
-    null,
-    null,
-    null
+    29.07,
+    35.85,
+    38.02,
+    33.82
    ],
    "inv": [
-    null,
-    null,
-    null,
-    null
+    0.0,
+    1.64,
+    2.62,
+    2.85
    ],
    "pay": [
-    null,
-    null,
-    null,
-    null
+    7.13,
+    9.69,
+    4.26,
+    4.68
    ],
    "cl": [
-    null,
-    null,
-    null,
-    null
+    60.24,
+    79.74,
+    129.12,
+    133.8
    ],
    "gw": [
-    null,
-    null,
-    null,
-    null
+    0,
+    0,
+    0,
+    0
+   ],
+   "reval": [
+    0,
+    0,
+    0,
+    0
    ]
   },
   "cites": {
-   "rev": "Revenue from operations FY24 and FY26 (Chanakya, IPO Platform); FY25 is total income (IPO Watch, ipoji); Q1 FY27 revenue about Rs 53.5 cr (3 months)",
-   "oth": "FY26 total income 211.69 less revenue from operations 211.36",
-   "pat": "Restated PAT (IPO Watch, ipoji, IPO Platform); Q1 FY27 Rs 7.68 cr (3 months)",
-   "nw": "Restated net worth (IPO Platform, Chittorgarh); NAV Rs 85.47 x 1.001 crore shares = Rs 85.55 cr"
+   "rev": "Restated P&L p. 223; revenue split p. 237 (hiring 87.66%, sale of machinery/batteries 9.01%, freight and manpower 3.33% in FY26)",
+   "oth": "Other income p. 237 (profit on sale of machinery Rs 0.23 cr, FD interest Rs 0.06 cr, liability written back Rs 0.05 cr in FY26)",
+   "pbt": "Restated P&L p. 223 (FY26 after exceptional labour-code charge Rs 0.26 cr)",
+   "ctax": "p. 223",
+   "dtax": "p. 223; DTL from tax vs book depreciation p. 233",
+   "pat": "p. 223",
+   "cfo": "Restated cash flow p. 224",
+   "rpt_s": "Related-party summary pp. 61-62: hiring income from and goods sold to Watrana Traction Company / Watrana Traction Pvt Ltd / Futuristic Bots LLP",
+   "rpt_p": "pp. 61-62: machinery bought from Watrana Traction Company (Rs 25.21 cr in FY26, 642 units), MHE hire charges paid to it (Rs 18.42 / 19.35 / 12.08 cr), batteries and spares from Watrana Traction Pvt Ltd (Rs 4.76 / 7.74 / 10.88 cr), rent, repairs, machinery upgradation (Futuristic Bots LLP Rs 1.22 cr)",
+   "nw": "Restated balance sheet p. 222; NAV Rs 31.93 / 56.34 / 85.47 / 93.14 p. 105",
+   "recv": "p. 222 (net of Rs 0.19 cr provision, p. 235); unbilled revenue in other current assets Rs 3.33 / 10.56 / 13.78 / 21.17 cr (p. 236)",
+   "inv": "p. 222",
+   "pay": "p. 222",
+   "cl": "p. 222",
+   "gw": "No goodwill; intangibles Rs 0.08 cr (p. 222)"
   },
   "single": {
-   "top1c": null,
-   "top10c": null,
+   "top1c": 0.0333,
+   "top10c": 0.257,
    "top1s": null,
    "geo": 1.0,
+   "waca": 30.61,
    "offer": 120.1
   },
   "checks": {
    "1": {
-    "status": "WATCH",
-    "page": "trackers",
-    "finding": "FY26 EPS Rs 29.13 and NAV Rs 85.47 both imply about 1.001 crore shares (PAT 29.16 / 29.13; net worth 85.55 / 85.47), but pre-issue shares are 1.14385 crore (pre-IPO market cap Rs 280.24 cr / Rs 245). About 13.4 lakh shares were therefore added after Mar-2026; trackers report no pre-IPO placement, so the source (allotment, bonus or conversion) and price need the RHP."
+    "status": "PASS",
+    "page": "pp. 75-76, 105",
+    "finding": "Share count reconciles: 10,000 shares on incorporation; 1,000:1 bonus on 28-Sep-2024 (1.001 crore shares, on which the restated EPS of Rs 18.03 / 24.41 / 29.13 is computed); 14,28,500 shares allotted on 27-Jul-2026 at Rs 245 to the two promoters on conversion of Rs 35.00 cr of interest-free director loans, giving the pre-issue 1,14,38,500. The conversion is after the reporting date, so EPS excludes it; our P/E uses the full pre-issue and post-issue counts."
    },
    "2": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "Operating cash flow not available. Borrowings rose from Rs 110.14 cr to Rs 164.08 cr in FY26 (+49%) while net worth rose Rs 29.16 cr: fleet growth is debt-funded, as is usual for equipment rental."
+    "status": "PASS",
+    "page": "p. 224",
+    "finding": "Cumulative CFO Rs 115.10 cr against cumulative PAT Rs 71.64 cr over FY24-26 (161%). Free cash flow is negative because fleet capex (Rs 52.83 / 44.28 / 91.18 cr) exceeds CFO; borrowings funded the gap (debt Rs 93.12 cr to Rs 164.08 cr)."
    },
    "3": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "Current vs deferred tax split not available."
+    "status": "PASS",
+    "page": "pp. 223, 233",
+    "finding": "FY26 tax Rs 10.02 cr on PBT Rs 39.18 cr (25.6%): current Rs 6.93 cr, deferred Rs 3.09 cr. The deferred charge arises from faster tax depreciation on the fleet (DTL Rs 8.13 cr), usual for an equipment owner."
    },
    "4": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "Related-party transactions not available without the RHP."
+    "status": "WATCH",
+    "page": "pp. 61-62, 98, 213, 332",
+    "finding": "Disclosed promoter-group dealings: 642 MHE units bought from Watrana Traction Company for Rs 25.21 cr in FY26 (28% of FY26 capex; units it had earlier hired to the company), hire charges paid to it Rs 18.42 / 19.35 / 12.08 cr, batteries and spares from Watrana Traction Pvt Ltd Rs 4.76 / 7.74 / 10.88 cr, and a Rs 62 cr corporate guarantee from that company. Watrana Traction Pvt Ltd is in the same line of business; a non-compete agreement is dated 12-Aug-2025. The RHP states the promoters have no interest in the vendors quoting for the issue-funded equipment (p. 98)."
    },
    "5": {
     "status": "PASS",
-    "page": "objects (trackers)",
-    "finding": "Objects excluding GCP: fleet capex Rs 98.13 cr (MHE 65.02 + AWP 14.58 + batteries 18.52) over 49.02 lakh fresh shares = Rs 213 a share after 6% assumed expenses, below the Rs 232 floor."
+    "page": "pp. 87-88",
+    "finding": "Objects: Rs 98.13 cr for 323 MHE, 12 AWPs and 688 batteries (FY27 Rs 58.89 cr, FY28 Rs 39.23 cr), from unrelated vendors' quotations; no orders placed yet. GCP is capped at Rs 10 cr, so at Rs 245 issue expenses are at least about Rs 12 cr (10% of the issue). Objects floor computed by the model."
    },
    "7": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "Goodwill and intangibles not available."
+    "status": "PASS",
+    "page": "p. 222",
+    "finding": "No goodwill; intangibles Rs 0.08 cr."
    },
    "8": {
-    "status": "WATCH",
-    "page": "trackers",
-    "finding": "Rental income is 93.72% of Q1 FY27 revenue; customers in logistics, warehousing, FMCG, tyres and manufacturing across 25 states; customer concentration not available."
+    "status": "PASS",
+    "page": "pp. 24, 163-164",
+    "finding": "Customers are spread: largest customer 3.33% and top ten 25.70% of FY26 revenue (5.89% / 33.73% in Q1 FY27), 357 customers. Supply side more concentrated: top five suppliers 56.37% and top ten 64.81% of FY26 purchases. All revenue is from India; logistics and warehousing 21.55% of FY26 sales."
    },
    "9": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "Contingent liabilities and litigation not available."
+    "status": "PASS",
+    "page": "pp. 32, 46, 341",
+    "finding": "Contingent liabilities and commitments Rs 9.29 cr at 30-Jun-2026, of which capital commitments Rs 6.88 cr and LCs Rs 1.82 cr. One civil matter of Rs 16.00 cr names the company: an LLP-partner dispute in Futuristic Bots LLP (promoter group) against the promoters; the Delhi High Court vacated its interim order on 28-Oct-2026 and appointed an arbitrator. Tax matters Rs 0.05 cr."
    },
    "10": {
     "status": "N.A.",
@@ -165,56 +183,51 @@
     "finding": "No investor presentation reviewed."
    },
    "R1": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "Auditor and any qualifications not available."
+    "status": "WATCH",
+    "page": "pp. 40, 226, 293",
+    "finding": "PRASS & Associates LLP restated opinion carries an emphasis of matter (not a qualification) on the switch from WDV to straight-line depreciation from 1-Apr-2023, which raised FY24 PBT by Rs 12.05 cr. Fleet is depreciated over the Schedule II 15-year life."
    },
    "R3": {
-    "status": "N.A.",
-    "page": "",
-    "finding": "Fresh issue Rs 120.10 cr: monitoring agency is mandatory above Rs 50 cr; to be named in the RHP."
+    "status": "PASS",
+    "page": "p. 9",
+    "finding": "Monitoring agency appointed: Infomerics Valuation and Rating Ltd (agreement 5-Nov-2026)."
    },
    "R5": {
-    "status": "OPEN",
-    "page": "",
-    "finding": "SME eligibility appears met on the reported numbers; not re-computed from the RHP."
+    "status": "PASS",
+    "page": "cover",
+    "finding": "In-principle approval from NSE Emerge dated 27-Oct-2026; issue 30.00% of post-issue capital."
    },
    "R6": {
     "status": "OPEN",
     "page": "",
-    "finding": "Oneview Corporate Advisors (sole BRLM): track record not compiled in this run."
+    "finding": "Oneview Corporate Advisors (sole BRLM): past-issue track record not compiled in this run."
    }
   },
   "gaps": [
    {
-    "item": "RHP not read (NSE feed redirecting; RHP file not located); tracker figures, no page cites",
-    "severity": "High",
-    "source": "RHP (NSE Emerge)"
+    "item": "Final issue expenses and GCP amount (RHP prints [●]); taken at 10%, the minimum implied by the Rs 10 cr GCP cap",
+    "severity": "Low",
+    "source": "Prospectus"
    },
    {
-    "item": "Cash flow statement, fixed assets, depreciation, cash and working capital; D&A, capex and working capital are estimated",
-    "severity": "High",
-    "source": "RHP restated financials"
-   },
-   {
-    "item": "Share count: about 13.4 lakh shares added after Mar-2026 (1.001 to 1.144 crore); source and price",
+    "item": "Cost of fleet units sold through trading income (whether ex-fleet machines' book value sits in cost of sales); split of the FY26 trading margin",
     "severity": "Medium",
-    "source": "RHP capital structure"
+    "source": "Company / auditor"
    },
    {
-    "item": "Customer concentration, fleet age and utilisation (about 90% per one source)",
-    "severity": "Medium",
-    "source": "RHP business section"
+    "item": "Fleet utilisation is a management estimate, not audited (risk factor 18)",
+    "severity": "Low",
+    "source": "RHP p. 34"
    },
    {
-    "item": "Promoter holding, related-party transactions, litigation",
-    "severity": "Medium",
-    "source": "RHP"
+    "item": "Promoter lock-in: RHP states 81,50,360 excess shares, 20,000 fewer than 1,14,38,460 less 20% of post-issue capital",
+    "severity": "Low",
+    "source": "RHP p. 84 / Prospectus"
    },
    {
     "item": "Oneview Corporate Advisors track record",
     "severity": "Low",
-    "source": "RHP / BRLM website"
+    "source": "BRLM website"
    }
   ]
  },
@@ -241,9 +254,21 @@
   "overhang": [
    [
     "Promoters' minimum contribution (20% of post-issue capital)",
-    32.68,
+    32.681,
     1095,
-    "SEBI ICDR (SME): three years"
+    "p. 83"
+   ],
+   [
+    "Promoters' excess holding, first half",
+    40.7518,
+    365,
+    "p. 84"
+   ],
+   [
+    "Promoters' excess holding, second half",
+    40.7518,
+    730,
+    "p. 84"
    ]
   ]
  },
@@ -259,28 +284,28 @@
    "floor": 232,
    "cap": 245,
    "obj_net": 98.13,
-   "exp_pct": 0.06,
+   "exp_pct": 0.1,
    "gcp_pct": 0,
    "ipo_capex": 98.13,
    "rev0": 211.36,
-   "rev_prev": 179.66,
+   "rev_prev": 179.48,
    "ebitda0": 65.01,
-   "da0": 13.4,
+   "da0": 16.0,
    "pat0": 29.16,
    "nw0": 85.55,
-   "nd0": 164.08,
-   "nwc0": 32.0,
-   "nwc_prev": 27.0,
-   "capex0": 26.0,
-   "kd": 0.095,
+   "nd0": 126.76,
+   "nwc0": 27.17,
+   "nwc_prev": 19.28,
+   "capex0": 28.75,
+   "kd": 0.09,
    "w_pb": 0,
    "w_eve": 0
   },
   "drivers": {
    "g1": [
-    0.08,
-    0.15,
-    0.22
+    0.06,
+    0.13,
+    0.2
    ],
    "g2": [
     0.07,
@@ -303,14 +328,14 @@
     0.1
    ],
    "m": [
-    0.26,
-    0.29,
-    0.32
+    0.27,
+    0.3,
+    0.33
    ],
    "nwc": [
-    0.18,
     0.15,
-    0.13
+    0.12,
+    0.1
    ],
    "roic": [
     0.12,
@@ -319,72 +344,144 @@
    ]
   },
   "rationale": {
-   "g1": "Revenue Rs 130.12 / 179.66 / 211.36 cr FY24-26 (+38%, +18%); Q1 FY27 Rs 53.5 cr (about 1% ahead of the FY26 run-rate). The issue funds Rs 98.13 cr of new MHE, AWPs and batteries, which at the current asset turn can add a large step of rental revenue over two years. Neutral 15% then 14 / 12 / 10 / 8%; Bear 5-8%; Bull 22% fading to 10%.",
-   "m": "EBITDA margin 30.76% in FY26 (EBITDA Rs 65.01 cr), 33.91% in Q1 FY27 (not annualised). Rental EBITDA carries heavy depreciation below it. Neutral 29%; Bear 26%; Bull 32%.",
-   "nwc": "Estimate: working capital is not in the tracker data. Rental businesses bill monthly with modest receivables and little inventory beyond trading stock; taken at about 15% of revenue (Rs 32 cr; FY25 about Rs 27 cr). Neutral 15%; Bear 18%; Bull 13%.",
-   "roic": "RoNW 34.08% (FY26) on a leveraged equity base; terminal ROIC 15% (Neutral) for a capital-intensive rental fleet.",
-   "capex": "D&A Rs 13.4 cr is an estimate: EBITDA 65.01 + other income 0.33 - PBT about 38.9 (PAT 29.16 at 25%) leaves about Rs 26.4 cr for interest and D&A; interest on about Rs 137 cr average debt at 9.5% is about Rs 13.0 cr. Organic capex base Rs 26 cr is an estimate set so that growth capex runs at about 0.4 rupee per rupee of new revenue: the issue's Rs 98.13 cr of fleet spending (Y1-Y2) funds most of the next two to three years' growth, and counting a full asset-turn of organic capex on top would double count it (first run flagged terminal value above 100% of EV). FY26 balance-sheet growth (borrowings +Rs 53.9 cr, net worth +Rs 29.2 cr) suggests gross fleet capex of about Rs 70-80 cr in FY26. IPO capex Rs 98.13 cr (fleet). Net debt taken as gross borrowings Rs 164.08 cr (cash not disclosed, none credited). Fresh issue 49.02 lakh shares = Rs 120.10 cr at Rs 245.",
-   "relative": "Relative value uses peer P/E only (w_pb and w_eve set to 0). The RHP peer set as reproduced by trackers is Seemax Resources (P/E 16.07x, RoNW 23.41%) and Leap India (P/E 76.81x, RoNW 6.19%); Leap India is excluded as an outlier. Peer prices and EPS are not reported, so each peer is entered on a per-unit basis (price = its P/E, EPS = 1), which reproduces its P/E without inventing a price."
+   "g1": "Revenue from operations Rs 130.12 / 179.48 / 211.36 cr (+37.9%, +17.8%; p. 223). Q1 FY27 Rs 53.47 cr, about 1% above the FY26 quarterly average. Hiring income per owned MHE was about Rs 7.3-7.5 lakh a year in FY26 and Q1 FY27 (p. 108). The issue buys 323 MHE and 12 AWPs over FY27-28 (p. 88), roughly 12% more rental revenue at the current yield, on top of organic additions. Neutral 13% then 14 / 12 / 10 / 8%; Bear 5-7%; Bull 20% fading to 10%.",
+   "m": "EBITDA margin 29.19% / 28.85% / 30.76% (p. 107), 33.91% in Q1 FY27. FY26 gained from owning the 642 units previously hired from the promoter group (hire charges Rs 19.51 cr to Rs 12.40 cr, p. 237). Neutral 30%, the three-year average (29.6%) rounded for the hire-charge saving that persists; Bear 27%; Bull 33% (Q1 level).",
+   "nwc": "Operating working capital (inventory, receivables, unbilled revenue, loans and advances less trade payables, other current liabilities and short-term provisions; p. 222) Rs 13.17 / 19.28 / 27.17 cr, 10.1% / 10.7% / 12.9% of revenue. Unbilled revenue rose to Rs 21.17 cr at Jun-26 (p. 236). Neutral 12% (through-cycle); Bear 15%; Bull 10%.",
+   "roic": "RoCE 24.11% / 23.85% / 19.06% pre-tax (p. 107), about 14% after tax in FY26. Terminal ROIC 15% Neutral (near the after-tax return already earned), 12% Bear, 18% Bull.",
+   "capex": "D&A Rs 16.00 cr (p. 238); fleet capex Rs 52.83 / 44.28 / 91.18 cr (p. 224), FY26 including Rs 25.21 cr for 642 units already deployed (bought from the promoter group, p. 332). Net PPE is about 1.07x revenue (Rs 226.2 cr vs Rs 211.4 cr), so the business needs roughly Rs 1.07 of net fleet per rupee of new revenue. Over the Neutral five years revenue rises about Rs 150 cr, needing about Rs 160 cr of net fleet; the issue funds Rs 98.13 cr of it (modelled in Y1-Y2), leaving about Rs 0.40 per rupee of new revenue for organic growth capex. capex0 is set at D&A + 0.40 x FY26 revenue increase (16.00 + 0.40 x 31.88 = Rs 28.75 cr) so the issue-funded fleet is not counted twice.",
+   "nd0": "Borrowings Rs 164.08 cr at Mar-26 (long-term Rs 63.18 cr, short-term Rs 100.91 cr including Rs 46.04 cr of interest-free director loans; pp. 222, 233-234) less cash and bank Rs 2.32 cr, less Rs 35.00 cr of director loans converted into 14,28,500 shares on 27-Jul-2026 (p. 76): Rs 126.76 cr. The converted shares are in the pre-issue count.",
+   "kd": "FY26 interest on borrowings Rs 9.80 cr (p. 238) on average external debt of about Rs 108 cr (total less interest-free director loans) is about 9.1%; taken at 9.0%.",
+   "fresh": "Fresh issue 49,02,000 shares (cover) x Rs 245 = Rs 120.10 cr. Issue expenses taken at 10%: net proceeds cannot exceed objects Rs 98.13 cr plus GCP capped at Rs 10 cr (p. 87).",
+   "relative": "Relative value uses peer P/E only (w_pb and w_eve 0). The RHP peer set (p. 106): Seemax Resources (CMP Rs 93.67, EPS Rs 5.83, P/E 16.07x, NAV Rs 24.90, total income Rs 15.0 cr) and Leap India (CMP Rs 116.75, EPS Rs 1.52, P/E 76.81x, RoNW 6.19%). Leap India is excluded as an outlier. Peers are entered per share (shares = 1) from the RHP's CMP, EPS and NAV. Seemax is a fraction of Watrana's size, so P/B (3.8x) and EV/EBITDA are not used."
   },
   "peers": [
    [
-    "Seemax Resources Ltd (P/E only, per unit)",
+    "Seemax Resources Ltd (per share)",
     "Y",
-    "Equipment rental - issuer's peer (RHP via trackers)",
+    "Equipment rental - RHP peer",
     "Standalone",
-    16.07,
+    93.67,
     1,
     null,
     null,
     null,
-    1,
-    null,
+    5.83,
+    24.9,
     null
    ],
    [
-    "Leap India Ltd (P/E only, per unit)",
+    "Leap India Ltd (per share)",
     "N",
-    "Equipment / pallet rental - issuer's peer; excluded, P/E 76.8x on 6.2% RoNW",
-    "Standalone",
-    76.81,
+    "Pallet / equipment pooling - RHP peer; excluded, P/E 76.8x on 6.2% RoNW",
+    "Consolidated",
+    116.75,
     1,
     null,
     null,
     null,
-    1,
-    null,
+    1.52,
+    24.52,
     null
    ]
   ]
  },
  "kpi": {
   "ebitda": [
-   null,
-   null,
+   37.98,
+   51.77,
    65.01
   ],
-  "_cite": "FY26 EBITDA Rs 65.01 cr and margin 30.76% (IPO Platform, Chittorgarh); FY24-25 EBITDA not consistently reported."
+  "_cite": "EBITDA Rs 37.98 / 51.77 / 65.01 cr, margins 29.19% / 28.85% / 30.76% (KPI table p. 107); Q1 FY27 Rs 18.13 cr (33.91%)."
  },
  "earnings_quality": {
-  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]. The RHP's notes are needed to test depreciation policy, gains on sale of used equipment and capitalised costs.",
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26].",
   "adjustments": [
    {
-    "item": "Other income in FY26 profit",
-    "short": "other income",
+    "item": "Exceptional labour-code charge in FY26",
+    "short": "labour-code charge",
     "pre_tax": [
      0,
      0,
-     -0.33
+     0.26
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 223, 333",
+    "reason": "Rs 0.26 cr one-off charge for the new labour code notified 21-Nov-2025; adding it back raises recurring profit."
+   },
+   {
+    "item": "Liabilities no longer required written back",
+    "short": "write-backs",
+    "pre_tax": [
+     -0.01,
+     0,
+     -0.05
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "p. 237",
+    "reason": "Rs 0.05 cr in FY26 (Rs 0.01 cr in FY24) of non-recurring write-backs in other income."
+   },
+   {
+    "item": "Profit on sale of fleet machinery in other income",
+    "short": "fleet disposal gains",
+    "pre_tax": [
+     -0.05,
+     -0.16,
+     -0.23
     ],
     "include": false,
     "confidence": "Low",
-    "page": "trackers (total income 211.69 vs revenue 211.36)",
-    "reason": "Rs 0.33 cr of other income, under 1% of pre-tax profit. Shown for information."
+    "page": "p. 237",
+    "reason": "Rs 0.23 cr in FY26. Disposal of old units is part of running a fleet, so shown for information only."
+   },
+   {
+    "item": "Interest-free director loans (notional interest at 9%)",
+    "short": "interest-free director loans",
+    "pre_tax": [
+     0,
+     -1.06,
+     -2.61
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "pp. 234, 76",
+    "reason": "Director loans averaged about Rs 11.8 cr in FY25 and Rs 29.0 cr in FY26 and carried no interest. Rs 35.00 cr was converted into shares on 27-Jul-2026 at Rs 245, and those shares are in our share count, so the saving does not recur as an earnings gap; shown for information. FY24 not computed (opening balance not given)."
+   },
+   {
+    "item": "Depreciation method changed from WDV to straight line (FY24)",
+    "short": "WDV to SLM switch",
+    "pre_tax": [
+     -12.05,
+     0,
+     0
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "pp. 40, 293",
+    "reason": "The switch raised FY24 PBT by Rs 12.05 cr (depreciation Rs 7.43 cr instead of Rs 19.48 cr); the auditor notes it as an emphasis of matter. Straight line over the Schedule II 15-year life is the policy going forward and the FY25-26 effect is not disclosed, so it is not deducted from recurring earnings; it does make FY24 not comparable with earlier years."
+   },
+   {
+    "item": "Step-up in trading margin on machinery and battery sales",
+    "short": "trading margin step-up",
+    "pre_tax": [
+     0,
+     0,
+     -6.21
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "pp. 229, 237",
+    "reason": "Sale of machinery, batteries and spares Rs 19.05 cr in FY26 against stock-in-trade cost Rs 8.90 cr: a gross margin of Rs 10.15 cr, up from Rs 3.94 cr in FY25. The Rs 6.21 cr rise is about the whole of the FY26 PBT increase (Rs 6.33 cr). The restatement notes say some sold machines were reclassified from fixed assets to stock-in-trade, so part of this may be disposals of fleet units; the RHP does not split it. Shown for information."
    }
   ],
   "checked": [
-   "Profit growth (+19%) tracks revenue growth (+18%) in FY26; no step-change to explain",
-   "Depreciation policy (useful lives of forklifts and AWPs), gains on resale of used equipment within revenue, and cash tax could not be tested without the RHP; equipment-sale income inside revenue would flatter recurring rental earnings"
+   "Gratuity and leave provisions booked on actuarial valuation, rising with headcount (Rs 0.90 cr and Rs 0.24 cr in FY26; p. 224)",
+   "Doubtful-debt provision steady at Rs 0.19 cr; no write-back (p. 235)",
+   "No R&D, borrowing costs or pre-operative expenses capitalised; intangibles Rs 0.08 cr (p. 222)",
+   "No ESOP scheme (p. 77)",
+   "Director remuneration Rs 0.24 cr in FY26 for the two executive promoters (p. 238); no market-rate figure, so no adjustment",
+   "Hire charges to the promoter group fell from Rs 19.35 cr to Rs 12.08 cr after the company bought those units (p. 332): a structural saving, not a one-off"
   ]
  }
 }

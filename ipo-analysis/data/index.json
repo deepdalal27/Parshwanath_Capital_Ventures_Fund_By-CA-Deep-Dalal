@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T13:29Z",
+  "updated": "2026-11-19T13:28Z",
   "issuers": [
     {
       "slug": "mahanadi-coalfields-ltd",
@@ -82,9 +82,9 @@
       "company": "Watrana Rentals Limited",
       "platform": "SME",
       "stage": "RHP",
-      "filed_on": null,
-      "analysed_on": "2026-11-16",
-      "sector": "Material handling and aerial work platform rental",
+      "filed_on": "2026-11-11",
+      "analysed_on": "2026-11-19",
+      "sector": "Material handling equipment and aerial work platform rental",
       "brlm": "Oneview Corporate Advisors Private Limited",
       "issue_size_cr": 120.1,
       "price_band": "Rs 232-245",
@@ -95,14 +95,20 @@
       "lot_size": 600,
       "exchange": "NSE Emerge",
       "depth": "Snapshot",
-      "rhp_read": false,
+      "rhp_read": true,
       "company_pe": {
         "period": "FY26",
         "pat_cr": 29.16,
+        "pat_basis": "restated standalone",
         "eps_basic": 29.13,
         "eps_diluted": 29.13,
-        "source": "Public IPO trackers reproducing the offer document (RHP not read; provisional)",
-        "note": "EPS Rs 29.13 is on about 1.001 crore weighted shares (PAT 29.16 / 29.13; NAV Rs 85.47 gives the same count). Pre-issue shares are now 1.14385 crore, so on today's count FY26 EPS is Rs 25.49 and the P/E is 9.10x-9.61x across the band. Diluted EPS assumed equal to basic. The RHP peer set (Seemax Resources 16.07x, Leap India 76.81x) is reported by trackers, but no industry high/low/average.",
+        "industry_pe": {
+          "high": 76.81,
+          "low": 16.07,
+          "avg": 46.44
+        },
+        "source": "RHP pp. 104-106 (Basis for Issue Price); PAT p. 223",
+        "note": "EPS is on 1,00,10,000 weighted shares (post the 1,000:1 bonus of Sep-2024). It excludes the 14,28,500 shares allotted on 27-Jul-2026 on conversion of director loans, so on the 1,14,38,500 pre-issue shares FY26 EPS is Rs 25.49 (P/E 9.10x-9.61x across the band), and on the 1,63,40,500 post-issue shares Rs 17.85 (P/E 13.0x-13.7x). Weighted average EPS FY24-26 Rs 25.71. The industry P/E is the RHP's two peers only (Seemax Resources 16.07x, Leap India 76.81x).",
         "pe_floor_basic": 7.96,
         "pe_cap_basic": 8.41,
         "pe_floor_diluted": 7.96,
@@ -112,39 +118,40 @@
       },
       "call": "Neutral",
       "business_stage": "Scaling (capital-intensive fleet growth; issue funds new fleet)",
-      "headline": "An equipment-rental company (2,646 forklifts and reach trucks, 33 aerial work platforms, 25 states) with FY26 revenue of Rs 211 cr, a 31% EBITDA margin and 34% RoNW, raising Rs 120 cr of fresh money almost entirely for new fleet, priced at 13.7x FY26 earnings; fair value Rs 210 (Neutral) because fleet growth absorbs cash and leverage is high before the issue.",
+      "headline": "An equipment-rental company (2,646 owned forklifts and reach trucks, 33 aerial work platforms, 357 customers) with FY26 revenue of Rs 211 cr, a 31% EBITDA margin and Rs 29 cr PAT, raising Rs 120 cr of fresh money mostly for new fleet at 13.7x FY26 earnings post-issue; fair value Rs 219 (Neutral) because fleet growth uses all the cash it generates.",
       "red_flags": [
-        "Revenue Rs 130.12 cr (FY24) -> Rs 179.66 cr -> Rs 211.36 cr (FY26); PAT Rs 18.05 -> 24.43 -> 29.16 cr; EBITDA margin 30.76% in FY26",
-        "Borrowings Rs 164.08 cr against net worth Rs 85.55 cr (1.92x) in FY26, up 49% in a year",
-        "Rental income 93.7% of revenue; depreciation policy and equipment-resale income not visible without the RHP",
-        "EPS and NAV imply 1.001 crore shares but pre-issue shares are 1.144 crore: 13.4 lakh shares added after Mar-26",
-        "RHP not read: tracker figures, no page cites; fair value Rs 170 / 210 / 253 vs Rs 245"
+        "Revenue from operations Rs 130.12 cr (FY24) -> Rs 179.48 cr -> Rs 211.36 cr (FY26); PAT Rs 18.05 -> 24.43 -> 29.16 cr; EBITDA margin 30.76% (pp. 107, 223)",
+        "Cumulative CFO Rs 115.10 cr vs PAT Rs 71.64 cr over FY24-26, but fleet capex of Rs 188.29 cr was largely debt-funded: borrowings Rs 164.08 cr vs net worth Rs 85.55 cr at Mar-26 (p. 224)",
+        "Rs 35.00 cr of interest-free promoter loans converted into equity at Rs 245 on 27-Jul-2026, cutting debt to about Rs 129 cr before the issue (p. 76)",
+        "Promoter-group dealings disclosed: Rs 25.21 cr of fleet bought from Watrana Traction Company in FY26; hire charges and battery purchases from group entities; same-line group company under a non-compete (pp. 61-62, 213)",
+        "FY26 trading margin on machinery and battery sales rose to Rs 10.15 cr from Rs 3.94 cr, about the whole of the FY26 PBT increase (p. 237)",
+        "Fair value Rs 179 / 219 / 262 vs Rs 245; top customer 3.33% and top ten 25.70% of revenue (p. 163)"
       ],
-      "doc_url": null,
+      "doc_url": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip",
       "status": "analysed",
       "counts": {
         "fail": 0,
         "watch": 2,
-        "pass": 1,
-        "open": 12
+        "pass": 9,
+        "open": 5
       },
       "focus_top": [
-        "Bonus issue / share-count consistency",
-        "Customer / supplier / geographic concentration",
+        "Related-party capex & subsidiaries",
+        "Auditor qualifications / changes",
         "Valuation model guard"
       ],
       "neutral": {
-        "dcf": 133.217,
-        "relative": 286.7729,
-        "blended": 209.9949,
-        "upside_floor": -0.0948,
-        "upside_cap": -0.1429
+        "dcf": 152.1446,
+        "relative": 286.7175,
+        "blended": 219.431,
+        "upside_floor": -0.0542,
+        "upside_cap": -0.1044
       },
-      "bear": 169.5461,
-      "bull": 252.7329,
+      "bear": 179.0928,
+      "bull": 262.078,
       "pdf": "WATRANA_RENTALS_LTD_Report.pdf",
       "pe_reported": 13.73,
-      "pe_adjusted": 13.73,
+      "pe_adjusted": 13.66,
       "eq_material": false
     },
     {
