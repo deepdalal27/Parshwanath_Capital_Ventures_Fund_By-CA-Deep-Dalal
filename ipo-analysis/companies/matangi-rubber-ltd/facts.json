@@ -1,0 +1,491 @@
+{
+ "_source": "RHP dated 20-Nov-2026 (SEBI filing 105931); printed page = PDF page - 4. Restated financials: standalone FY24, consolidated FY25 (MG Industries Ltd from 31-Oct-2024), FY26 and Q1 FY27 (3 months to 30-Jun-2026), Rs lakh converted to Rs crore. Price band Rs 163-172 and lot 87 from the company's announcement as reported (Upstox, Chittorgarh); the RHP prints [●].",
+ "screening": {
+  "basis": {
+   "name": "Matangi Rubber Limited",
+   "platform": "Mainboard",
+   "stage": "RHP",
+   "doc_date": "2026-11-20",
+   "aud_to": "2026-06-30",
+   "band": "No",
+   "brlm": "Sarthi Capital Advisors Private Limited",
+   "outside": "Price band Rs 163-172 and lot 87 from the company's announcement as reported (Upstox, Chittorgarh); RHP prints [●]",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    90.1125,
+    101.3156,
+    129.7596,
+    47.7388
+   ],
+   "oth": [
+    1.1488,
+    4.987,
+    2.4641,
+    0.1918
+   ],
+   "pbt": [
+    6.286,
+    28.1984,
+    31.1504,
+    8.2272
+   ],
+   "ctax": [
+    1.8373,
+    6.0563,
+    6.608,
+    1.2258
+   ],
+   "dtax": [
+    -0.3635,
+    2.1145,
+    2.2126,
+    0.5848
+   ],
+   "pat": [
+    4.8121,
+    20.0276,
+    22.3298,
+    6.4166
+   ],
+   "cfo": [
+    2.0256,
+    18.3884,
+    3.298,
+    6.2529
+   ],
+   "rpt_s": [
+    null,
+    0.0,
+    0.9795,
+    0.0
+   ],
+   "rpt_p": [
+    1.6336,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "nw": [
+    40.2021,
+    85.1642,
+    127.7455,
+    134.1224
+   ],
+   "recv": [
+    13.0766,
+    24.3455,
+    27.8354,
+    29.6629
+   ],
+   "inv": [
+    23.5912,
+    34.726,
+    55.0627,
+    58.8505
+   ],
+   "pay": [
+    14.2647,
+    11.0695,
+    21.636,
+    26.8493
+   ],
+   "cl": [
+    5.5275,
+    5.5275,
+    6.7347,
+    6.6349
+   ],
+   "gw": [
+    0.0,
+    6.4671,
+    6.4671,
+    6.4671
+   ],
+   "reval": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "cites": {
+   "rev": "p. 70",
+   "oth": "p. 70",
+   "pbt": "p. 70",
+   "ctax": "p. 70 (incl. earlier-year provision)",
+   "dtax": "p. 70",
+   "pat": "p. 70 (total; owners Rs 4.81 / 19.66 / 21.82 / 6.28 cr)",
+   "cfo": "p. 71",
+   "rpt_s": "p. 78 (sale of goods to Qualimax Electronics FY26; FY24 sale to MG Industries Rs 1.70 cr before it became a subsidiary)",
+   "rpt_p": "p. 78 (FY24 purchases from MG Industries before acquisition)",
+   "nw": "p. 68 (equity attributable to owners)",
+   "recv": "p. 68",
+   "inv": "p. 68",
+   "pay": "p. 69",
+   "cl": "p. 76",
+   "gw": "p. 68 (MG Industries acquisition)",
+   "reval": "p. 313 (no revaluation)"
+  },
+  "single": {
+   "top1c": 0.8867,
+   "top10c": 0.9913,
+   "top1s": 0.3174,
+   "geo": 0.5184,
+   "fresh_net": null,
+   "waca": 26.67,
+   "offer": 125.16
+  },
+  "checks": {
+   "1": {
+    "status": "PASS",
+    "page": "pp. 70, 93-94, 130",
+    "finding": "Two bonus issues before filing: 2:1 on 28-Jul-2025 and 1:1 on 8-May-2026 (pp. 93-94); EPS restated post-bonus for all periods. FY26 basic EPS Rs 10.36 on PAT to owners Rs 21.82 cr = 2.106 crore weighted shares; pre-offer capital is 2.2855 crore shares (p. 92), on which FY26 EPS is Rs 9.55. Private placement of 11,38,898 shares at Rs 180 in Jan-2026 = Rs 90 after the 1:1 bonus."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "p. 71",
+    "finding": "CFO Rs 2.03 / 18.39 / 3.30 cr FY24-26 against PAT Rs 4.81 / 20.03 / 22.33 cr: cumulative CFO 50% of PAT. FY26 CFO was held down by an inventory build of Rs 20.34 cr for the new tube and 2/3-wheeler tyre plants and Rs 6.52 cr of other financial assets (including related-party loans). Q1 FY27 CFO Rs 6.25 cr against PAT Rs 6.42 cr."
+   },
+   "3": {
+    "status": "PASS",
+    "page": "pp. 70, 332",
+    "finding": "Current tax Rs 1.84 / 6.06 / 6.61 cr = 29% / 21% / 21% of PBT; deferred tax rises because tax depreciation (Rs 8.68 cr FY26) far exceeds book depreciation (Rs 0.45 cr) (p. 332). Tax paid Rs 1.30 / 3.86 / 5.87 cr (p. 71)."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "pp. 78-82, 115",
+    "finding": "Loans and advances to promoters and promoter entities outstanding Rs 13.13 cr at Jun-26 (Mohit Gupta Rs 5.81 cr, Manju Gupta Rs 1.94 cr, Moonriver Interiors LLP Rs 2.63 cr, Qualimax Electronics Rs 1.11 cr and others), given without repayment terms and interest-free except to the two promoters (p. 82); FY26 gross loans to Moonriver Interiors Rs 9.73 cr and to Mohit Gupta Rs 7.52 cr. Disclosed in full; no issue proceeds go to promoters (p. 115). No related-party capex."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "pp. 113-114",
+    "finding": "Fresh issue is a fixed 57,61,831 shares; specific objects Rs 72.49 cr (debt Rs 45.00 cr, rubber recycling plant Rs 19.06 cr, solid tyre plant Rs 8.44 cr). Grossed up for assumed 8% expenses and GCP the objects need about Rs 172 a share: the cap funds the objects with GCP at about 19% of the fresh issue (cap 25%)."
+   },
+   "6": {
+    "status": "PASS",
+    "page": "p. 313",
+    "finding": "No revaluation of property, plant and equipment in any year."
+   },
+   "7": {
+    "status": "PASS",
+    "page": "p. 68",
+    "finding": "Goodwill Rs 6.47 cr from the MG Industries acquisition (5.1% of equity); PPE fair-value uplift Rs 9.58 cr on acquisition (p. 313)."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 22-27",
+    "finding": "JK Tyre & Industries 36.25% / 41.19% / 59.56% of revenue FY24-26 and 88.67% in Q1 FY27; the second customer fell from 48.69% (FY25) and 25.15% (FY26) to 5.63% in Q1 FY27; top 10 customers 96-99%. Top supplier 31.74% of FY26 purchases; top 10 suppliers 73.69%. A long-term agreement exists only with JK Tyre (p. 23)."
+   },
+   "9": {
+    "status": "PASS",
+    "page": "pp. 76, 394-395",
+    "finding": "Contingent liabilities Rs 6.63 cr at Jun-26 (5.0% of equity): Jain Enterprises' Rs 4.19 cr recovery suit (Delhi High Court, in mediation) and GST/VAT demands Rs 2.44 cr. Materiality threshold Rs 0.79 cr (5% of average PAT). No criminal or regulatory action against the company or promoters."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "PASS",
+    "page": "p. 54",
+    "finding": "Statutory and peer-review auditor G B S G & Associates; no qualified opinion or disclaimer on internal financial controls for FY24-Q1 FY27 (p. 54). The FY26 change from WDV to straight-line depreciation is disclosed (p. 313) and is treated in the earnings-quality test."
+   },
+   "R2": {
+    "status": "WATCH",
+    "page": "pp. 35, 352",
+    "finding": "The accounting software used in FY26 did not have an audit-trail (edit log) feature; party balances are subject to confirmation (p. 352). Delays of up to 90-100 days in GST annual returns and up to 91 days in EPF compliances (p. 35)."
+   },
+   "R3": {
+    "status": "PASS",
+    "page": "p. 3",
+    "finding": "CARE Ratings appointed monitoring agency."
+   },
+   "R4": {
+    "status": "PASS",
+    "page": "pp. 70, 414",
+    "finding": "Reg 6(1): operating profit (PBT + finance cost - other income) Rs 8.73 / 27.80 / 34.61 cr FY24-26, average Rs 23.7 cr above the Rs 15 cr test (our computation); net worth positive each year."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "Sarthi Capital Advisors: small Mumbai lead manager; track record not compiled in this run."
+   }
+  },
+  "gaps": [
+   {
+    "item": "Offer expenses (RHP prints [●]; Rs 2.56 cr incurred to date)",
+    "severity": "Low",
+    "source": "Prospectus"
+   },
+   {
+    "item": "Anchor book (bids 30-Nov-2026)",
+    "severity": "Medium",
+    "source": "NSE / BSE anchor allocation"
+   },
+   {
+    "item": "Names of customers other than JK Tyre (consent not given)",
+    "severity": "Medium",
+    "source": "Company"
+   },
+   {
+    "item": "Contract terms with JK Tyre (tenor, pricing formula, exclusivity)",
+    "severity": "Medium",
+    "source": "Company / material contracts"
+   },
+   {
+    "item": "Lead manager's track record",
+    "severity": "Low",
+    "source": "RHP / exchange data"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Matangi Rubber Limited",
+   "board": "Mainboard",
+   "offer": 172,
+   "anchor_px": 172,
+   "issue": 125.16,
+   "emp": 0,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-11-30",
+   "list_date": "2026-12-08"
+  },
+  "total_shares_lakh": 286.17,
+  "overhang": [
+   [
+    "Pre-offer non-promoter shareholders (Capri Global, Emerging Securities, Jan-2026 placees and others), after OFS",
+    41.68,
+    180,
+    "pp. 107-110; six months"
+   ],
+   [
+    "Promoter holding above minimum contribution (after OFS)",
+    114.49,
+    365,
+    "p. 106; one year"
+   ],
+   [
+    "Promoters' minimum contribution (20% of post-offer capital)",
+    57.23,
+    1095,
+    "p. 106; three years"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Matangi Rubber Limited",
+   "basis": "Consolidated",
+   "pre_sh": 2.285545,
+   "esop": 0,
+   "fresh": 99.1035,
+   "fresh_sh_fixed": 0.5761831,
+   "ofs_sh": 0.151515,
+   "floor": 163,
+   "cap": 172,
+   "obj_net": 72.4938,
+   "exp_pct": 0.08,
+   "gcp_pct": 0.1885,
+   "ipo_capex": 27.4938,
+   "rev0": 129.7596,
+   "rev_prev": 101.3156,
+   "ebitda0": 35.0632,
+   "da0": 8.0,
+   "pat0": 18.18,
+   "nw0": 127.7455,
+   "nd0": 103.8648,
+   "nwc0": 61.2621,
+   "nwc_prev": 48.0021,
+   "capex0": 10.84,
+   "kd": 0.0875
+  },
+  "drivers": {
+   "g1": [
+    0.08,
+    0.25,
+    0.35
+   ],
+   "g2": [
+    0.07,
+    0.18,
+    0.25
+   ],
+   "g3": [
+    0.06,
+    0.14,
+    0.18
+   ],
+   "g4": [
+    0.06,
+    0.11,
+    0.14
+   ],
+   "g5": [
+    0.05,
+    0.09,
+    0.11
+   ],
+   "m": [
+    0.17,
+    0.23,
+    0.27
+   ],
+   "nwc": [
+    0.47,
+    0.4,
+    0.32
+   ],
+   "roic": [
+    0.11,
+    0.15,
+    0.18
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue from operations Rs 90.11 / 101.32 / 129.76 cr FY24-26 (+12.4%, +28.1%, the FY25-26 rise partly from consolidating MG Industries from Nov-2024) and Rs 47.74 cr in Q1 FY27 (p. 70), as the new Dehradun tube plant (Dec-2025) and Gwalior 2/3-wheeler tyre plant (Dec-2025; 37-39% utilised) ramp up (p. 134). Not annualised. Neutral 25% in Y1 fading to 9%; Bear 8% fading to 5% (JK Tyre volumes flat, second customer lost); Bull 35% fading to 11% (new plants and IPO-funded recycling and solid-tyre lines fill).",
+   "m": "EBITDA (issuer KPI, excludes other income) 11.52% / 30.49% / 27.02% FY24-26 and 22.43% in Q1 FY27 (p. 131). The FY25 step-up came from buying premixed compound and lower rubber prices (pp. 378, 381). Neutral 23% (three-year average 23.0%, close to the latest quarter); Bear 17%; Bull 27% (FY26 level).",
+   "nwc": "Inventory + receivables - payables = 24.9% / 47.4% / 47.2% of revenue FY24-26 (pp. 68-69); Q1 FY27 Rs 61.66 cr. Neutral 40% (three-year average 39.8%); Bear 47% (FY25-26 level); Bull 32%.",
+   "roic": "ROCE (issuer) 9.65% / 18.22% / 15.41% FY24-26 (p. 131). Terminal ROIC 15% (Neutral), 11% Bear, 18% Bull.",
+   "capex": "FY26 depreciation (Rs 0.45 cr) is not a normal charge: the switch from WDV to straight-line, with excess past depreciation set off, cut it by Rs 3.30 cr (p. 313), and tax depreciation was Rs 8.68 cr (p. 332). D&A for the DCF is set at Rs 8.0 cr, straight-line on the Jun-26 gross block (plant Rs 107.28 cr over 15 years = Rs 7.15 cr; buildings Rs 27.13 cr over 30 years = Rs 0.90 cr) (p. 313). FY26 capex of Rs 30.66 cr (p. 71) was the one-off build of the new tube and 2/3-wheeler plants. Existing capacity - tyre flaps 43.2 lakh, tubes 27.6 lakh and 2/3-wheeler tyres 7.1 lakh units a year, run at 79%, 84% and 37% in FY26 (p. 134) - supports roughly Rs 195-200 cr of revenue at FY26 realisations (our estimate from pp. 134, 378) against Rs 130 cr in FY26, so organic capex is taken as maintenance (= D&A) plus 0.10 x revenue growth (Rs 10.84 cr on FY26). IPO-funded capex Rs 27.49 cr (recycling and solid tyres, p. 114) is added in Neutral and Bull. Net debt Rs 103.86 cr = long-term borrowings Rs 51.23 cr + short-term Rs 57.68 cr + leases Rs 0.63 cr - cash Rs 5.68 cr (Mar-26, pp. 68-69); related-party loans of Rs 11.35 cr are not treated as cash. Fresh issue fixed at 57,61,831 shares = Rs 99.10 cr at the cap; expenses assumed 8%. PAT for the relative value is FY26 PAT to owners adjusted for the depreciation-method change and balances written back: Rs 21.82 cr - Rs 3.64 cr = Rs 18.18 cr (earnings-quality test)."
+  },
+  "peers": [
+   [
+    "Ceat Ltd (per share)",
+    "Y",
+    "Tyre maker; issuer's peer, p. 131 (different model: branded finished tyres)",
+    "Consolidated",
+    3541.6,
+    1,
+    null,
+    null,
+    null,
+    172.78,
+    1166.64,
+    null
+   ],
+   [
+    "TVS Srichakra Ltd (per share)",
+    "Y",
+    "2/3-wheeler tyre maker; issuer's peer, p. 131",
+    "Consolidated",
+    4608.8,
+    1,
+    null,
+    null,
+    null,
+    93.03,
+    899.71,
+    null
+   ],
+   [
+    "Tolins Tyres Ltd (per share)",
+    "Y",
+    "Tyres and tread rubber; issuer's peer, p. 131",
+    "Consolidated",
+    85.86,
+    1,
+    null,
+    null,
+    null,
+    9.03,
+    86.74,
+    null
+   ]
+  ]
+ },
+ "kpi": {
+  "ebitda": [
+   10.3848,
+   30.8868,
+   35.0632
+  ],
+  "_cite": "Issuer KPI table (p. 131): EBITDA = PBT + finance cost + D&A - other income."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]; negative reduces profit.",
+  "adjustments": [
+   {
+    "item": "Depreciation cut by the switch from WDV to straight-line (excess past depreciation set off)",
+    "short": "depreciation method change",
+    "pre_tax": [
+     0,
+     -1.277,
+     -3.2973
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 313, 379",
+    "reason": "The holding company (FY26) and MG Industries (FY25) moved from WDV to straight-line and set the excess of past WDV depreciation against the new charge, so some asset classes bore no depreciation: FY26 depreciation fell to Rs 0.45 cr on a Rs 136.9 cr gross block, lower by Rs 2.45 cr (company) + Rs 0.85 cr (MG Industries); FY25 lower by Rs 1.28 cr. Tax depreciation was Rs 8.68 cr in FY26 (p. 332). Q1 FY27 is lower by a further Rs 1.95 cr; only Rs 0.92 cr of excess remains to absorb, so the charge rises to a normal level in FY27."
+   },
+   {
+    "item": "Creditor balances written back to other income",
+    "short": "balances written back",
+    "pre_tax": [
+     -0.0057,
+     -1.6268,
+     -1.6786
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 71, 378",
+    "reason": "Old payable balances written back to profit: Rs 1.63 cr FY25 and Rs 1.68 cr FY26 (68% of FY26 other income). Non-operating and not expected to recur."
+   },
+   {
+    "item": "Profit on sale of property, plant and equipment",
+    "short": "asset-sale gain",
+    "pre_tax": [
+     0,
+     -1.9262,
+     0
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 71, 380-381",
+    "reason": "One-off gain of Rs 1.93 cr in FY25 other income."
+   },
+   {
+    "item": "Advances and investments written off",
+    "short": "write-offs",
+    "pre_tax": [
+     0,
+     1.3867,
+     0.2649
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 71",
+    "reason": "One-off write-offs (Rs 1.39 cr FY25, Rs 0.26 cr FY26) that lowered profit; shown so the test stays two-sided, kept out of the adjusted P/E."
+   },
+   {
+    "item": "Fair-value gains on investments",
+    "short": "fair-value gains",
+    "pre_tax": [
+     0,
+     -0.1569,
+     -0.3789
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "p. 71",
+    "reason": "Mark-to-market gains on investments in other income; small. For information."
+   }
+  ],
+  "checked": [
+   "No revaluation reserve and no capitalised interest identified (p. 313)",
+   "Current tax 21-29% of PBT; tax is paid in cash (pp. 70-71)",
+   "Q1 FY27 is not annualised",
+   "Government grant income is small (Rs 0.16 cr FY26) (p. 71)"
+  ]
+ }
+}
