@@ -16,6 +16,21 @@
         "https://www.angelone.in/news/economy/india-s-retail-inflation-rises-to-4-38-in-june-2026-food-inflation-at-5-32",
         "https://www.angelone.in/news/economy/india-retail-inflation-rises-to-4-45-in-july-2026-as-food-inflation-accelerates-to-5-52"
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "format": "founders",
+      "urn": "urn:li:ugcPost:7530880055070212096",
+      "headline": "SME IPOs: a busier window, a higher bar",
+      "type": "carousel",
+      "slides": 6,
+      "sources": [
+        "https://www.freepressjournal.in/business/sme-ipo-fundraising-nearly-doubles-to-379167-crore-listings-jump-111-in-julyseptember",
+        "https://www.deccanherald.com/business/sebi-tightens-norms-for-sme-ipos-3439930",
+        "https://inc42.com/buzz/inside-sebis-10-key-proposed-changes-to-sme-ipo-rules/",
+        "https://www.moneylife.in/article/sebi-proposes-sweeping-overhaul-of-sme-ipo-framework/81956.html",
+        "https://www.sebi.gov.in/sebi_data/attachdocs/oct-2026/1791972839578.pdf"
+      ]
     }
   ]
 }
