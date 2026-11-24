@@ -1,0 +1,137 @@
+{
+  "slug": "matangi-rubber-ltd",
+  "company": "Matangi Rubber Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "rhp_read": true,
+  "filed_on": "2026-11-20",
+  "doc_date": "2026-11-20",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/matangi-rubber-limited-rhp_105931.html",
+  "sector": "Tyre components and 2/3-wheeler tyres (contract manufacturing, job work)",
+  "brlm": "Sarthi Capital Advisors",
+  "issue_size_cr": 125.16,
+  "price_band": "Rs 163-172",
+  "open_date": "2026-12-01",
+  "close_date": "2026-12-03",
+  "allotment_date": "2026-12-04",
+  "listing_date": "2026-12-08",
+  "lot_size": 87,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 21.82,
+    "pat_basis": "attributable to owners; total Rs 22.33 cr",
+    "eps_basic": 10.36,
+    "eps_diluted": 10.36,
+    "industry_pe": {
+      "high": 42.72,
+      "low": 9.33,
+      "avg": 23.53
+    },
+    "source": "RHP pp. 130-131 (Basis for Offer Price); PAT p. 70",
+    "note": "EPS is on 2.106 crore weighted shares after the 2:1 (Jul-2025) and 1:1 (May-2026) bonus issues. On the 2.2855 crore pre-offer shares FY26 EPS is Rs 9.55 (P/E 18.0x at Rs 172). The RHP's industry P/E (42.72 / 9.33 / 23.53) is as printed on p. 130; its peer table on p. 131 shows Ceat 20.50x, TVS Srichakra 49.54x and Tolins 9.51x. Band as announced by the company and reported (Upstox, Chittorgarh); the RHP prints [●].",
+    "pe_floor_basic": 15.73,
+    "pe_cap_basic": 16.6,
+    "pe_floor_diluted": 15.73,
+    "pe_cap_diluted": 16.6,
+    "floor": 163.0,
+    "cap": 172.0
+  },
+  "call": "Avoid",
+  "business_stage": "Scaling (new tube and 2/3-wheeler tyre plants commissioned Dec-2025; recycling and solid-tyre plants planned)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 30-Nov-2026; allocation not yet published at writing"
+  },
+  "headline": "A Delhi-based maker of tyre flaps, tubes and 2/3-wheeler tyres for tyre companies (FY26 revenue Rs 130 cr, EBITDA margin 27%, PAT Rs 22.3 cr; JK Tyre 89% of Q1 FY27 revenue), priced at 22.6x FY26 earnings (27.1x after a depreciation-method change and one-offs) against a 20.5x peer median; fair value Rs 107 (Avoid) because working capital near 47% of revenue, debt and a return on capital close to its cost leave little free cash.",
+  "red_flags": [
+    "Revenue Rs 90.11 / 101.32 / 129.76 cr FY24-26; EBITDA margin 11.5% -> 30.5% -> 27.0% (22.4% in Q1 FY27); PAT Rs 4.81 / 20.03 / 22.33 cr (pp. 70, 131)",
+    "FY26 depreciation only Rs 0.45 cr on a Rs 137 cr gross block after a WDV-to-straight-line switch (Rs 3.30 cr lower, p. 313); adjusted P/E 26.5x vs 22.0x reported",
+    "JK Tyre 59.6% of FY26 and 88.7% of Q1 FY27 revenue; second customer fell from 25.2% to 5.6% (pp. 22-23)",
+    "Working capital 47% of revenue; cumulative CFO 50% of PAT FY24-26 (pp. 68-71)",
+    "Loans of Rs 13.13 cr outstanding to promoters and their entities, without repayment terms (p. 82)",
+    "Band Rs 163-172; fair value Rs 88 / 107 / 128 vs Rs 172; issue repays Rs 45 cr of debt (p. 114)"
+  ],
+  "swot": {
+    "strengths": [
+      "Five plants in Uttarakhand, Tamil Nadu and Madhya Pradesh; flap capacity 43.2 lakh units a year (pp. 129, 134)",
+      "Long relationship and agreement with JK Tyre, a top-3 Indian tyre maker (p. 23)",
+      "Operating history since 1985 in tyre flaps (p. 194)",
+      "New tube and 2/3-wheeler tyre plants already built (p. 134)"
+    ],
+    "weaknesses": [
+      "JK Tyre 88.7% of Q1 FY27 revenue (p. 22)",
+      "Working capital 47% of revenue (pp. 68-69)",
+      "Net debt Rs 104 cr before the issue (pp. 68-69)",
+      "Accounting software without audit trail in FY26 (p. 352)"
+    ],
+    "opportunities": [
+      "Filling the new 2/3-wheeler tyre plant (37% utilised) and tube plant (p. 134)",
+      "Rubber recycling and solid-tyre plants from the issue (p. 114)",
+      "Own-brand tyres and tubes (p. 203)",
+      "Indian tyre market growing about 7% a year (p. 166)"
+    ],
+    "threats": [
+      "Loss or cut of JK Tyre volumes",
+      "Natural rubber and crude-linked input prices (p. 378)",
+      "Tyre makers insourcing flaps and tubes",
+      "Shift to tubeless tyres reducing flap and tube demand"
+    ]
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the upper band of Rs 172 (as announced by the company and reported): Neutral value Rs 107 is 37.7% below the price and the Bull value Rs 128 is also below it (-25.4%), so the call is Avoid. At the Rs 163 floor the Neutral value is 34.3% below. It would read Neutral at about Rs 153 or below and Subscribe at about Rs 119 or below. No material issue under the Fund's rules: the promoter loans are disclosed in full and no issue proceeds go to promoters.",
+  "reference_note": "Band Rs 163-172, lot 87 (company announcement as reported; RHP prints [●]). At Rs 172: 2.8617 crore post-offer shares, market cap Rs 492 cr; P/E 22.6x FY26 PAT to owners (27.1x on adjusted Rs 18.18 cr); company's own P/E 16.6x (pre-offer weighted shares); P/B 2.25x post-offer; EV/EBITDA 14.4x FY26.",
+  "files": {
+    "screening": "MATANGI_RUBBER_LTD_01_Screening.xlsx",
+    "anchor": "MATANGI_RUBBER_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "MATANGI_RUBBER_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "MATANGI_RUBBER_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 10.9405,
+      "relative": 164.2226,
+      "blended": 87.5816,
+      "upside_floor": -0.4627,
+      "upside_cap": -0.4908
+    },
+    "neutral": {
+      "dcf": 50.0431,
+      "relative": 164.2226,
+      "blended": 107.1329,
+      "upside_floor": -0.3427,
+      "upside_cap": -0.3771
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -69.5% - the divergence is the finding; name its cause",
+      "RED: objects floor sits above blended fair value",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 121.6 times its current free cash flow, in perpetuity.",
+    "objects_floor": 171.999,
+    "bull": {
+      "dcf": 92.2584,
+      "relative": 164.2226,
+      "blended": 128.2405,
+      "upside_floor": -0.2132,
+      "upside_cap": -0.2544
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 4,
+    "pass": 9,
+    "open": 3
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries",
+    "Customer / supplier / geographic concentration"
+  ],
+  "analysed_on": "2026-11-24"
+}
