@@ -1,0 +1,772 @@
+{
+ "slug": "foodlink-fandb-holdings-india-ltd",
+ "company": "Foodlink F&B Holdings (India) Limited",
+ "generated": "2026-11-24T02:28Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 567.499,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.2266,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 29.107,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": null,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.1382,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.0812,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 3.4713,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.1071,
+   "fmt": "pct",
+   "tone": "warn"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 41.97,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": null,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 41.37,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 41.97,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 59.6365,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.6878,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 191.0,
+   "fmt": "rs",
+   "sub": "Band Rs 181-191, lot 78 (company announcement, 23-Nov-2026; RHP prints [●]). Shares were issued at Rs 363 in FY25-26 (p. 329). At Rs 191: 6.24 crore post-offer shares, market cap Rs 1,191 cr; P/E 40.9x FY26 PAT (about 55x at a 25.17% tax rate); company's own P/E 34.2x basic / 34.9x diluted; P/B 2.9x post-offer; EV/EBITDA 19.2x FY26 EBITDA after lease rentals."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Current vs deferred tax",
+   "detail": "Effective tax near nil: FY26 tax Rs -0.11 cr on PBT Rs 29.00 cr (current Rs 1.26 cr, deferred credit Rs 1.37 cr) as earlier losses are absorbed. At a normal 25.17% rate FY26 PAT would be about Rs 21.7 cr, so reported P/E flatters by about a third.",
+   "page": "p. 90"
+  },
+  {
+   "level": "WATCH",
+   "title": "Contingent liabilities",
+   "detail": "Income Tax search and seizure under s.132 on 17-21 Dec-2025 (Rs 1.06 cr cash seized); notice under s.158BC for the block period Apr-2019 to Feb-2026; no order yet; the auditor highlights it as an emphasis of matter. GST show-cause for Rs 23.32 cr, of which Rs 0.41 cr tax plus interest and penalty was confirmed and is under appeal. Contingent liabilities Rs 4.51 cr (Sep-26).",
+   "page": "pp. 44-45, 93, 357"
+  },
+  {
+   "level": "WATCH",
+   "title": "Auditor qualifications / changes",
+   "detail": "MSKA & Associates LLP (auditor since Nov-2023): unmodified opinion with emphasis of matter on the Income Tax search and its possible financial implications.",
+   "page": "p. 35"
+  },
+  {
+   "level": "WATCH",
+   "title": "SME conditions",
+   "detail": "Issue made under Reg 6(2) (the company does not meet the profitability track-record test): at least 75% to QIBs, at most 15% to NIIs and at most 10% to retail.",
+   "page": "p. 442"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Anchor book (bids 25-Nov-2026)",
+   "page": "NSE/BSE anchor allocation"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (high)",
+   "detail": "Outcome of the Income Tax block assessment (s.158BC)",
+   "page": "Company disclosures after listing"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Segment profitability (events vs restaurants vs banquets)",
+   "page": "Not disclosed in RHP"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "FY26 basic EPS Rs 5.58 on PAT Rs 29.11 cr = 5.22 crore weighted shares, in line with the 5,22,98,600 pre-offer shares (bonus 5:1 in Feb-2025 already reflected). Diluted EPS Rs 5.48 includes 16.05 lakh ESOPs in force at Rs 149.34 (p. 148).",
+   "page": "pp. 90, 108, 175"
+  },
+  {
+   "title": "Cash flow vs profit",
+   "detail": "CFO Rs 23.35 / 43.99 / 29.91 cr FY24-26 against PAT Rs -15.35 / 14.26 / 29.11 cr: cumulative CFO Rs 97.25 cr vs PAT Rs 28.02 cr. But CFO is before lease payments of Rs 20.28 / 23.21 / 25.87 cr (shown in financing); after leases cumulative cash from operations is Rs 27.9 cr. H1 FY27 CFO Rs 44.16 cr despite a Rs 16.15 cr loss (receivables collected).",
+   "page": "pp. 91-92"
+  },
+  {
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Related-party transactions Rs 6.11 / 9.33 / 9.25 cr FY24-26 (1.6-2.1% of revenue), mostly managerial remuneration and sitting fees; promoter remuneration Rs 2.89 cr in FY26 paid via the UAE subsidiary.",
+   "page": "pp. 31, 94-95"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill; other intangibles Rs 1.43 cr. Right-of-use assets Rs 89.14 cr against lease liabilities Rs 103.68 cr (Mar-26).",
+   "page": "p. 88"
+  },
+  {
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "No customer concentration disclosed as a risk: events business serves many one-off hosts (1,092 events in FY26). Top 10 suppliers 19.28% of materials in FY26. Events catering is 52.89% of FY26 revenue and highly seasonal (H2 = 63-70% of revenue, p. 50).",
+   "page": "pp. 26, 39"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "Fresh issue above Rs 100 cr: monitoring agency required and appointed.",
+   "page": "p. 150"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 90, 108, 175",
+   "finding": "FY26 basic EPS Rs 5.58 on PAT Rs 29.11 cr = 5.22 crore weighted shares, in line with the 5,22,98,600 pre-offer shares (bonus 5:1 in Feb-2025 already reflected). Diluted EPS Rs 5.48 includes 16.05 lakh ESOPs in force at Rs 149.34 (p. 148)."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "PASS",
+   "page": "pp. 91-92",
+   "finding": "CFO Rs 23.35 / 43.99 / 29.91 cr FY24-26 against PAT Rs -15.35 / 14.26 / 29.11 cr: cumulative CFO Rs 97.25 cr vs PAT Rs 28.02 cr. But CFO is before lease payments of Rs 20.28 / 23.21 / 25.87 cr (shown in financing); after leases cumulative cash from operations is Rs 27.9 cr. H1 FY27 CFO Rs 44.16 cr despite a Rs 16.15 cr loss (receivables collected)."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "WATCH",
+   "page": "p. 90",
+   "finding": "Effective tax near nil: FY26 tax Rs -0.11 cr on PBT Rs 29.00 cr (current Rs 1.26 cr, deferred credit Rs 1.37 cr) as earlier losses are absorbed. At a normal 25.17% rate FY26 PAT would be about Rs 21.7 cr, so reported P/E flatters by about a third."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "PASS",
+   "page": "pp. 31, 94-95",
+   "finding": "Related-party transactions Rs 6.11 / 9.33 / 9.25 cr FY24-26 (1.6-2.1% of revenue), mostly managerial remuneration and sitting fees; promoter remuneration Rs 2.89 cr in FY26 paid via the UAE subsidiary."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "N.A.",
+   "page": "pp. 150-151",
+   "finding": "Fresh issue is amount-based (Rs 192.00 cr). Specific objects Rs 134.71 cr: capex Rs 113.71 cr (one central kitchen Rs 21.40 cr, two banquets Rs 41.50 cr, four UAE restaurants Rs 50.81 cr; all in FY28; no locations identified, no orders placed, pp. 22-24) and debt repayment Rs 21.00 cr; GCP up to 25%."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "p. 88",
+   "finding": "No goodwill; other intangibles Rs 1.43 cr. Right-of-use assets Rs 89.14 cr against lease liabilities Rs 103.68 cr (Mar-26)."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "PASS",
+   "page": "pp. 26, 39",
+   "finding": "No customer concentration disclosed as a risk: events business serves many one-off hosts (1,092 events in FY26). Top 10 suppliers 19.28% of materials in FY26. Events catering is 52.89% of FY26 revenue and highly seasonal (H2 = 63-70% of revenue, p. 50)."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "WATCH",
+   "page": "pp. 44-45, 93, 357",
+   "finding": "Income Tax search and seizure under s.132 on 17-21 Dec-2025 (Rs 1.06 cr cash seized); notice under s.158BC for the block period Apr-2019 to Feb-2026; no order yet; the auditor highlights it as an emphasis of matter. GST show-cause for Rs 23.32 cr, of which Rs 0.41 cr tax plus interest and penalty was confirmed and is under appeal. Contingent liabilities Rs 4.51 cr (Sep-26)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "WATCH",
+   "page": "p. 35",
+   "finding": "MSKA & Associates LLP (auditor since Nov-2023): unmodified opinion with emphasis of matter on the Income Tax search and its possible financial implications."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "p. 150",
+   "finding": "Fresh issue above Rs 100 cr: monitoring agency required and appointed."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "WATCH",
+   "page": "p. 442",
+   "finding": "Issue made under Reg 6(2) (the company does not meet the profitability track-record test): at least 75% to QIBs, at most 15% to NIIs and at most 10% to retail."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "",
+   "finding": "Equirus and JM Financial: active mid-market managers; track record not compiled in this run."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   377.193,
+   450.861,
+   567.499
+  ],
+  "ebitda": [
+   30.63,
+   61.449,
+   78.433
+  ],
+  "pat": [
+   -15.352,
+   14.261,
+   29.107
+  ],
+  "cfo": [
+   23.352,
+   43.993,
+   29.907
+  ],
+  "ebitda_margin": [
+   0.0812,
+   0.1363,
+   0.1382
+  ],
+  "pat_margin": [
+   -0.0407,
+   0.0316,
+   0.0513
+  ],
+  "inventory": [
+   10.436,
+   16.81,
+   17.738
+  ],
+  "receivables": [
+   17.74,
+   29.843,
+   60.047
+  ],
+  "payables": [
+   40.66,
+   48.915,
+   62.899
+  ],
+  "nwc": [
+   -12.48,
+   -2.26,
+   14.89
+  ],
+  "nwc_pct": [
+   -0.0331,
+   -0.005,
+   0.0262
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 191.0,
+  "floor": 181.0,
+  "cap": 191.0,
+  "reference_note": "Band Rs 181-191, lot 78 (company announcement, 23-Nov-2026; RHP prints [●]). Shares were issued at Rs 363 in FY25-26 (p. 329). At Rs 191: 6.24 crore post-offer shares, market cap Rs 1,191 cr; P/E 40.9x FY26 PAT (about 55x at a 25.17% tax rate); company's own P/E 34.2x basic / 34.9x diluted; P/B 2.9x post-offer; EV/EBITDA 19.2x FY26 EBITDA after lease rentals.",
+  "scenarios": {
+   "bear": {
+    "dcf": 32.1246,
+    "relative": null,
+    "blended": 32.1246,
+    "upside_floor": -0.8225,
+    "upside_cap": -0.8318
+   },
+   "neutral": {
+    "dcf": 59.6365,
+    "relative": null,
+    "blended": 59.6365,
+    "upside_floor": -0.6705,
+    "upside_cap": -0.6878
+   },
+   "bull": {
+    "dcf": 90.1415,
+    "relative": null,
+    "blended": 90.1415,
+    "upside_floor": -0.502,
+    "upside_cap": -0.5281
+   }
+  },
+  "objects_floor": null,
+  "wacc": 0.1438,
+  "tv_share": 0.975,
+  "reverse": {
+   "sentence": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": "n.m. (FCF negative)",
+     "actual": 0.1438
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.331085303358644,
+     "actual": 0.0583
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.0262
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   567.499,
+   663.9738,
+   763.5699,
+   862.834,
+   957.7457,
+   1053.5203
+  ],
+  "ebitda": [
+   52.567,
+   66.3974,
+   76.357,
+   86.2834,
+   95.7746,
+   105.352
+  ],
+  "nopat": [
+   24.7403,
+   32.6083,
+   37.4996,
+   42.3745,
+   47.0357,
+   51.7393
+  ],
+  "fcff": [
+   -3.5127,
+   15.07,
+   -89.1767,
+   29.4494,
+   34.6773,
+   39.2686
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1238,
+    0.1338,
+    0.1438,
+    0.1538,
+    0.1638
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     69.7103,
+     70.4553,
+     71.2758,
+     72.187,
+     73.2087
+    ],
+    [
+     63.8837,
+     64.3124,
+     64.7732,
+     65.2718,
+     65.8154
+    ],
+    [
+     59.1799,
+     59.4039,
+     59.6365,
+     59.8793,
+     60.134
+    ],
+    [
+     55.3137,
+     55.4026,
+     55.4876,
+     55.568,
+     55.6433
+    ],
+    [
+     52.0882,
+     52.0872,
+     52.0754,
+     52.0515,
+     52.0138
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    -0.025,
+    0.005,
+    0.035,
+    0.065,
+    0.095
+   ],
+   "cols": [
+    0.08,
+    0.09,
+    0.1,
+    0.11,
+    0.12
+   ],
+   "values": [
+    [
+     51.4352,
+     59.4165,
+     67.3979,
+     75.3792,
+     83.3606
+    ],
+    [
+     47.5545,
+     55.5359,
+     63.5172,
+     71.4986,
+     79.4799
+    ],
+    [
+     43.6739,
+     51.6552,
+     59.6365,
+     67.6179,
+     75.5992
+    ],
+    [
+     39.7932,
+     47.7745,
+     55.7559,
+     63.7372,
+     71.7186
+    ],
+    [
+     35.9125,
+     43.8939,
+     51.8752,
+     59.8566,
+     67.8379
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Foodlink F&B Holdings (India) Limited at reference",
+   "pe": 41.9682,
+   "pb": 3.0088,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 54.1086
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 10.8282
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 97.4052
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 108.228
+   },
+   {
+    "label": "Non-institutional",
+    "value": 54.114
+   },
+   {
+    "label": "Retail",
+    "value": 36.076
+   }
+  ],
+  "issue_cr": 360.76,
+  "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 42.4979,
+    "days": 30,
+    "pct_float": 0.4091
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 42.4979,
+    "days": 90,
+    "pct_float": 0.2903
+   },
+   {
+    "label": "Pre-offer non-promoter shareholders after OFS (Arpit Khandelwal, V'Ocean, other investors)",
+    "shares_lakh": 137.1,
+    "days": 180,
+    "pct_float": 0.7259
+   },
+   {
+    "label": "Promoter and promoter-group holding above minimum contribution (after OFS)",
+    "shares_lakh": 172.83,
+    "days": 180,
+    "pct_float": 0.915
+   },
+   {
+    "label": "Promoters' minimum contribution (20% of post-offer capital)",
+    "shares_lakh": 124.7,
+    "days": 540,
+    "pct_float": 0.25
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [],
+  "issues": []
+ },
+ "swot": {
+  "strengths": [
+   "Leading organised luxury wedding caterer by FY25 revenue among peers (p. 175)",
+   "Seven centralised kitchens, 100,000 meals a day (p. 152)",
+   "Three businesses: events, restaurants, banquets (p. 26)",
+   "26% of revenue from outside India (p. 176)"
+  ],
+  "weaknesses": [
+   "PAT 5.1% of revenue in FY26 (p. 176)",
+   "Seasonal: first half loss-making (pp. 50, 90)",
+   "11 restaurants and 10 cloud kitchens shut since Apr-2023 (p. 25)",
+   "Near-nil tax charge flatters profit (p. 90)"
+  ],
+  "opportunities": [
+   "Wedding catering projected to grow 12% a year to FY30 (p. 205)",
+   "Two new banquets and a Rajasthan kitchen (p. 150)",
+   "Four new UAE restaurants (p. 150)",
+   "Destination weddings abroad"
+  ],
+  "threats": [
+   "Income Tax block assessment pending (p. 45)",
+   "UAE regional conflict (p. 47)",
+   "Slowdown in discretionary event spending",
+   "Food-safety or reputational incident (p. 32)"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "price": 191.0,
+  "shares": 6.3956,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY26",
+    "pat": 29.107,
+    "eps": 4.5511,
+    "pe": 41.97
+   },
+   {
+    "basis": "FY26 after: exceptional item",
+    "pat": 29.9084,
+    "eps": 4.6764,
+    "pe": 40.84
+   },
+   {
+    "basis": "FY26 after: write-backs",
+    "pat": 29.5268,
+    "eps": 4.6167,
+    "pe": 41.37
+   },
+   {
+    "basis": "FY24-FY26 average, reported",
+    "pat": 9.3387,
+    "eps": 1.4602,
+    "pe": 130.81
+   },
+   {
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 8.9071,
+    "eps": 1.3927,
+    "pe": 137.14
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Exceptional charge",
+    "short": "exceptional item",
+    "pre_tax": [
+     0.0,
+     0.0,
+     1.071
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "p. 90",
+    "reason": "One-off exceptional charge of Rs 1.07 cr in FY26.",
+    "post_tax": [
+     0.0,
+     0.0,
+     0.8014
+    ],
+    "pe_if_applied": 40.84
+   },
+   {
+    "item": "Liabilities written back as no longer required",
+    "short": "write-backs",
+    "pre_tax": [
+     -0.828,
+     -1.463,
+     -0.51
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "p. 91",
+    "reason": "Old payables written back to profit; not a recurring operating earning.",
+    "post_tax": [
+     -0.6196,
+     -1.0948,
+     -0.3816
+    ],
+    "pe_if_applied": 42.53
+   },
+   {
+    "item": "Tax shield from earlier losses",
+    "short": "low tax",
+    "pre_tax": [
+     0.0,
+     0.0,
+     -9.95
+    ],
+    "include": false,
+    "confidence": "High",
+    "page": "p. 90",
+    "reason": "FY26 tax was a Rs 0.11 cr credit on Rs 29.00 cr PBT. Charging a normal 25.17% would cut FY26 PAT by about Rs 7.4 cr (shown here as the pre-tax equivalent). Kept out of the adjusted P/E because the shield is real cash saving while it lasts; shown so the reader sees the normal-tax P/E.",
+    "post_tax": [
+     0.0,
+     0.0,
+     -7.4456
+    ],
+    "pe_if_applied": 56.39
+   }
+  ],
+  "adjusted_pat": [
+   -15.9716,
+   13.1662,
+   29.5268
+  ],
+  "pe_reported": 41.97,
+  "pe_adjusted": 41.37,
+  "pat_change": 0.0144,
+  "material": false,
+  "verdict": "Reported P/E is a fair measure: the adjustments found move FY26 PAT by +1.4%, within the 10% threshold. On the FY24-FY26 average, which smooths one-year items, the P/E is 130.8x reported and 137.1x adjusted.",
+  "flags": [
+   "One-off exceptional charge of Rs 1.07 cr in FY26.",
+   "Old payables written back to profit; not a recurring operating earning."
+  ],
+  "checked": [
+   "No capitalised interest identified; CWIP Rs 4.21 cr at Mar-26 (p. 88)",
+   "Share-based payment Rs 1.56 cr in FY26 is a real cost, left in (p. 91)",
+   "Interest income Rs 1.23 cr in FY26 is small (p. 91)",
+   "H1 FY27 loss of Rs 16.15 cr is seasonal (H1 was 30-37% of revenue in FY24-26, p. 50); not annualised"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 4,
+  "pass": 6,
+  "open": 5
+ }
+}

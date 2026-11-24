@@ -1,0 +1,131 @@
+{
+  "slug": "foodlink-fandb-holdings-india-ltd",
+  "company": "Foodlink F&B Holdings (India) Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "rhp_read": true,
+  "filed_on": "2026-11-19",
+  "doc_date": "2026-11-19",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/foodlink-fandb-holdings-india-limited-rhp_105865.html",
+  "sector": "Luxury food services (events catering, casual dining and cloud kitchens, banquets)",
+  "brlm": "Equirus Capital, JM Financial",
+  "issue_size_cr": 360.76,
+  "price_band": "Rs 181-191",
+  "open_date": "2026-11-26",
+  "close_date": "2026-11-30",
+  "allotment_date": null,
+  "listing_date": "2026-12-03",
+  "lot_size": 78,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 29.11,
+    "pat_basis": "attributable to owners (no NCI)",
+    "eps_basic": 5.58,
+    "eps_diluted": 5.48,
+    "industry_pe": null,
+    "source": "RHP pp. 175-176 (Basis for Offer Price); PAT p. 90",
+    "note": "The RHP gives no industry P/E: it states there are no listed peers in India or globally (p. 176). FY26 PAT carries almost no tax (Rs -0.11 cr on Rs 29.00 cr PBT); at a normal 25.17% rate EPS would be about Rs 4.15 (P/E 46x at Rs 191). H1 FY27 EPS Rs -3.09 (seasonal loss). Price band confirmed by the company on 23-Nov-2026.",
+    "pe_floor_basic": 32.44,
+    "pe_cap_basic": 34.23,
+    "pe_floor_diluted": 33.03,
+    "pe_cap_diluted": 34.85,
+    "floor": 181.0,
+    "cap": 191.0
+  },
+  "business_stage": "Scaling, recently profitable (loss in FY24; profit FY25-26; seasonal H1 losses)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 25-Nov-2026; allocation not yet published at writing"
+  },
+  "call": "Avoid",
+  "headline": "A Mumbai-based luxury caterer, restaurant and banquet operator (FY26 revenue Rs 567 cr, PAT Rs 29 cr with almost no tax, loss-making every first half) raising Rs 192 cr for new banquets, a kitchen and UAE restaurants, priced at 41x FY26 earnings (about 55x at a normal tax rate) with an Income Tax search still open; DCF fair value Rs 60 against Rs 191 (Avoid).",
+  "red_flags": [
+    "Revenue Rs 377.19 / 450.86 / 567.50 cr FY24-26; PAT Rs -15.35 / 14.26 / 29.11 cr; H1 FY27 loss Rs -16.15 cr (seasonal) (p. 90)",
+    "FY26 tax a Rs 0.11 cr credit on Rs 29.00 cr PBT (earlier losses); normal-tax P/E about 55x at Rs 191 (p. 90)",
+    "Income Tax search and seizure 17-21 Dec-2025, Rs 1.06 cr cash seized, block assessment (s.158BC) pending; auditor emphasis of matter (pp. 35, 45)",
+    "IPO band 47% below the Rs 363 a share paid by investors in FY25-26 (p. 329); Reg 6(2) issue: QIB at least 75%, retail up to 10% (p. 442)",
+    "No sites identified and no orders placed for the IPO-funded kitchen, banquets and UAE restaurants (pp. 22-24)",
+    "Band Rs 181-191 (confirmed); DCF fair value Rs 32 / 60 / 90 vs Rs 191"
+  ],
+  "swot": {
+    "strengths": [
+      "Leading organised luxury wedding caterer by FY25 revenue among peers (p. 175)",
+      "Seven centralised kitchens, 100,000 meals a day (p. 152)",
+      "Three businesses: events, restaurants, banquets (p. 26)",
+      "26% of revenue from outside India (p. 176)"
+    ],
+    "weaknesses": [
+      "PAT 5.1% of revenue in FY26 (p. 176)",
+      "Seasonal: first half loss-making (pp. 50, 90)",
+      "11 restaurants and 10 cloud kitchens shut since Apr-2023 (p. 25)",
+      "Near-nil tax charge flatters profit (p. 90)"
+    ],
+    "opportunities": [
+      "Wedding catering projected to grow 12% a year to FY30 (p. 205)",
+      "Two new banquets and a Rajasthan kitchen (p. 150)",
+      "Four new UAE restaurants (p. 150)",
+      "Destination weddings abroad"
+    ],
+    "threats": [
+      "Income Tax block assessment pending (p. 45)",
+      "UAE regional conflict (p. 47)",
+      "Slowdown in discretionary event spending",
+      "Food-safety or reputational incident (p. 32)"
+    ]
+  },
+  "files": {
+    "screening": "FOODLINK_FANDB_HOLDINGS__01_Screening.xlsx",
+    "anchor": "FOODLINK_FANDB_HOLDINGS__02_Anchor_QIB.xlsx",
+    "valuation": "FOODLINK_FANDB_HOLDINGS__03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "FOODLINK_FANDB_HOLDINGS__Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 32.1246,
+      "relative": null,
+      "blended": 32.1246,
+      "upside_floor": -0.8225,
+      "upside_cap": -0.8318
+    },
+    "neutral": {
+      "dcf": 59.6365,
+      "relative": null,
+      "blended": 59.6365,
+      "upside_floor": -0.6705,
+      "upside_cap": -0.6878
+    },
+    "flags": [
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "Current free cash flow is negative, so no multiple can be stated: the price assumes cash generation improves from here.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 90.1415,
+      "relative": null,
+      "blended": 90.1415,
+      "upside_floor": -0.502,
+      "upside_cap": -0.5281
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 4,
+    "pass": 6,
+    "open": 5
+  },
+  "focus_top": [
+    "Current vs deferred tax",
+    "Contingent liabilities",
+    "Auditor qualifications / changes"
+  ],
+  "analysed_on": "2026-11-24",
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the upper band of Rs 191 (confirmed by the company's price-band announcement on 23-Nov-2026): Neutral value Rs 60 is 68.8% below and the Bull value Rs 90 is also below the price, so the call is Avoid; the same at the Rs 181 floor. DCF only: the RHP states there are no listed peers (p. 176).",
+  "reference_note": "Band Rs 181-191, lot 78 (company announcement, 23-Nov-2026; RHP prints [●]). Shares were issued at Rs 363 in FY25-26 (p. 329). At Rs 191: 6.24 crore post-offer shares, market cap Rs 1,191 cr; P/E 40.9x FY26 PAT (about 55x at a 25.17% tax rate); company's own P/E 34.2x basic / 34.9x diluted; P/B 2.9x post-offer; EV/EBITDA 19.2x FY26 EBITDA after lease rentals."
+}
