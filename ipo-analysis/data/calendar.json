@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-11-22T13:15Z",
-  "today_ist": "2026-11-22",
+  "last_scan": "2026-11-24T02:19Z",
+  "today_ist": "2026-11-24",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [
     "NSE api/ipo-current-issue: HTTP 301 ",
@@ -256,7 +256,7 @@
       "price_band": "Rs 232-245",
       "brlm": "Oneview Corporate Advisors Private Limited",
       "source": "NSE RHP (dated 11-Nov-2026, nsearchives); entry added manually 16-Nov while NSE feed redirects",
-      "status": "Open",
+      "status": "Closed",
       "slug": "watrana-rentals-ltd",
       "report": "published",
       "rhp_zip": "https://nsearchives.nseindia.com/content/ipo/RHP_WATRANA.zip"
@@ -269,7 +269,7 @@
       "close_date": "2026-11-23",
       "price_band": "Rs 129-136",
       "source": "SEBI RHP (filed 13-Nov-2026); price band Rs 129-136 and lot 110 from the company's announcement (16-Nov-2026)",
-      "status": "Open",
+      "status": "Closed",
       "slug": "mahanadi-coalfields-ltd",
       "report": "published",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/nov-2026/mahanadi-coalfields-limited-rhp_105777.html",
@@ -310,15 +310,60 @@
       "exchange": "NSE, BSE",
       "open_date": "2026-11-26",
       "close_date": "2026-11-30",
-      "price_band": "TBA",
+      "price_band": "Rs 181-191",
       "brlm": "Equirus Capital Private Limited; JM Financial Limited",
-      "source": "SEBI RHP dated 19-Nov-2026 (anchor 25-Nov, bid 26-30 Nov; fresh issue Rs 192 cr + OFS of 88,35,382 shares). Price band not yet announced (added manually; NSE feed redirecting)",
+      "source": "SEBI RHP dated 19-Nov-2026; price band Rs 181-191 and lot 78 from the company's announcement (23-Nov-2026, as reported by Business Today/Upstox); anchor 25-Nov",
       "status": "Upcoming",
       "slug": "foodlink-fandb-holdings-india-ltd",
       "report": "to_do",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/nov-2026/foodlink-fandb-holdings-india-limited-rhp_105865.html",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795156924590.pdf",
-      "rhp_filed_on": "2026-11-19"
+      "rhp_filed_on": "2026-11-19",
+      "lot_size": 78,
+      "listing_date": "2026-12-03"
+    },
+    {
+      "company": "Matangi Rubber Limited",
+      "platform": "Mainboard",
+      "exchange": "NSE, BSE",
+      "open_date": "2026-12-01",
+      "close_date": "2026-12-03",
+      "listing_date": "2026-12-08",
+      "price_band": "Rs 163-172",
+      "lot_size": 87,
+      "source": "SEBI RHP; price band Rs 163-172 and lot 87 from the company's announcement (as reported by Upstox/Chittorgarh); anchor 30-Nov (added manually; NSE feed redirecting)",
+      "status": "Upcoming",
+      "slug": "matangi-rubber-ltd",
+      "report": "to_do",
+      "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/nov-2026/matangi-rubber-limited-rhp_105931.html",
+      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795409658818.pdf",
+      "rhp_filed_on": "2026-11-20"
+    },
+    {
+      "company": "Monomark Engineering (India) Limited",
+      "platform": "Mainboard",
+      "exchange": "NSE, BSE",
+      "open_date": "2026-12-02",
+      "close_date": "2026-12-04",
+      "listing_date": "2026-12-09",
+      "price_band": "TBA",
+      "source": "SEBI RHP dated 21-Nov-2026; price band not yet announced (added manually; NSE feed redirecting)",
+      "status": "Upcoming",
+      "slug": "monomark-engineering-india-ltd",
+      "report": "to_do",
+      "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
+      "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795410085057.pdf",
+      "rhp_filed_on": "2026-11-23",
+      "sebi_filings": [
+        {
+          "date": "2026-11-23",
+          "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html"
+        },
+        {
+          "date": "2026-11-23",
+          "url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html"
+        }
+      ]
     }
   ]
 }
