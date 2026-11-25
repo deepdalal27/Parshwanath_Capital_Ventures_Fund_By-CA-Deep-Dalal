@@ -1,0 +1,137 @@
+{
+  "slug": "monomark-engineering-india-ltd",
+  "company": "Monomark Engineering (India) Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "rhp_read": true,
+  "filed_on": "2026-11-21",
+  "doc_date": "2026-11-21",
+  "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
+  "sector": "Industrial O&M services, project execution and metal fabrication (metals, ports, cement)",
+  "brlm": "Holani Consultants",
+  "issue_size_cr": 175.5,
+  "price_band": "Rs 60-65",
+  "open_date": "2026-12-02",
+  "close_date": "2026-12-04",
+  "allotment_date": "2026-12-07",
+  "listing_date": "2026-12-09",
+  "lot_size": 225,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 25.9,
+    "pat_basis": "restated consolidated; all attributable to owners",
+    "eps_basic": 3.84,
+    "eps_diluted": 3.84,
+    "industry_pe": {
+      "high": 48.66,
+      "low": 5.99,
+      "avg": 27.32
+    },
+    "source": "RHP pp. 134-136 (Basis for Issue Price); PAT p. 86",
+    "note": "EPS is on 6.745 crore weighted shares after the 6:1 bonus (May-2025) and the Jul-2025 placement. On the 6.904 crore pre-issue shares FY26 EPS is Rs 3.75 (P/E 17.3x at Rs 65); on the 9.604 crore post-issue shares it is Rs 2.70 (P/E 24.1x). The industry P/E (48.66 / 5.99 / 27.32) is as printed on p. 135 and includes Thermax. Band as announced by the company and reported (Kotak Neo, Chittorgarh); the RHP prints [●].",
+    "pe_floor_basic": 15.62,
+    "pe_cap_basic": 16.93,
+    "pe_floor_diluted": 15.62,
+    "pe_cap_diluted": 16.93,
+    "floor": 60.0,
+    "cap": 65.0
+  },
+  "call": "Neutral",
+  "business_stage": "Scaling (O&M share up from 64% to 80% of revenue FY24-26; order book 3.1x revenue; port O&M added from FY25)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 1-Dec-2026; allocation not yet published at writing"
+  },
+  "headline": "A Chittorgarh industrial O&M and erection contractor for metal smelters, mines, ports and cement plants (FY26 revenue Rs 562 cr, EBITDA margin 8.7%, PAT Rs 25.9 cr; Vedanta group 78% of revenue), priced at 24.1x FY26 earnings (28.6x after recurring gratuity losses) against an 18.8x peer median; fair value Rs 47 (Neutral) because thin margins and working capital near 18% of revenue leave little free cash, while the order book and 20%+ ROCE support the business.",
+  "red_flags": [
+    "Revenue Rs 389.86 / 475.03 / 561.89 cr FY24-26 (+21.9%, +18.3%); EBITDA margin 8.2-8.7%; PAT Rs 14.83 / 18.21 / 25.90 cr; ROCE 20-22% (pp. 86, 138)",
+    "Vedanta group (incl. Hindustan Zinc) 77.9% of FY26 and 83.3% of Q1 FY27 revenue; Hindustan Zinc alone 35.4% (pp. 27, 190)",
+    "Unexecuted order book Rs 1,761.9 cr = 3.1x FY26 revenue, 96% multi-year O&M (p. 189)",
+    "Cumulative CFO 67% of PAT FY24-26; FY26 CFO Rs 8.1 cr as receivables rose Rs 33.2 cr (p. 87)",
+    "Rs 120 cr of proceeds go to working capital, mainly to cut trade payables from Rs 71.6 cr to Rs 20.0 cr (p. 120)",
+    "Band Rs 60-65; fair value Rs 38.6 / 47.2 / 52.2 vs Rs 65; Jul-2025 placement at Rs 38 (p. 103)"
+  ],
+  "swot": {
+    "strengths": [
+      "Order book Rs 1,761.9 cr = 3.1x FY26 revenue (p. 189)",
+      "16-year relationship with Hindustan Zinc; 87-94% repeat-client revenue (pp. 27, 138)",
+      "ROCE 20-22% and fixed-asset turnover 8.5x (p. 138)",
+      "Owned fleet of 232 cranes, hydras, trucks and excavators (p. 189)"
+    ],
+    "weaknesses": [
+      "Vedanta group 77.9% of FY26 revenue (p. 190)",
+      "EBITDA margin 8.2-8.7% (p. 138)",
+      "CFO 67% of PAT over FY24-26 (p. 87)",
+      "Late PF, ESIC, TDS and GST payments in each period (pp. 35-36)"
+    ],
+    "opportunities": [
+      "Port O&M at 17.6% gross margin (p. 400)",
+      "New Vedanta Goa and Silvassa units (p. 441)",
+      "Outsourcing of maintenance in metals and cement; O&M market +6% a year (p. 168)",
+      "UAE work through Monomark Engineering FZE (p. 191)"
+    ],
+    "threats": [
+      "Non-renewal or re-pricing of a large Vedanta-group contract",
+      "Site accidents reducing KPI-linked billing (p. 35)",
+      "Wage and labour-law cost inflation on a 6,800-person workforce",
+      "Recourse on Rs 23.0 cr of receivables financed by SBI for Vedanta (p. 88)"
+    ]
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the upper band of Rs 65 (as announced by the company and reported): Neutral value Rs 47.2 is 27.4% below the price, inside the -10% to -30% band, so the call is Neutral (Bull Rs 52.2 is also below the price, -19.6%). At the Rs 60 floor the Neutral value is 21.3% below. It would read Subscribe at about Rs 52.5 or below and Avoid above about Rs 67.4. No material issue under the Fund's rules.",
+  "reference_note": "Band Rs 60-65, lot 225 (company announcement as reported; RHP prints [●]). At Rs 65: 9.604 crore post-issue shares, market cap Rs 624 cr; P/E 24.1x FY26 PAT (28.6x on adjusted Rs 21.83 cr); company's own P/E 16.9x (pre-issue weighted shares); P/B 2.24x post-issue; EV/EBITDA 10.6x FY26.",
+  "files": {
+    "screening": "MONOMARK_ENGINEERING_IND_01_Screening.xlsx",
+    "anchor": "MONOMARK_ENGINEERING_IND_02_Anchor_QIB.xlsx",
+    "valuation": "MONOMARK_ENGINEERING_IND_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "MONOMARK_ENGINEERING_IND_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 22.5519,
+      "relative": 54.6934,
+      "blended": 38.6227,
+      "upside_floor": -0.3563,
+      "upside_cap": -0.4058
+    },
+    "neutral": {
+      "dcf": 39.7238,
+      "relative": 54.6934,
+      "blended": 47.2086,
+      "upside_floor": -0.2132,
+      "upside_cap": -0.2737
+    },
+    "flags": [
+      "AMBER: DCF and relative diverge by -27.4% - the divergence is the finding; name its cause",
+      "RED: objects floor sits above blended fair value",
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 344.4 times its current free cash flow, in perpetuity.",
+    "objects_floor": 64.9963,
+    "bull": {
+      "dcf": 49.771,
+      "relative": 54.6934,
+      "blended": 52.2322,
+      "upside_floor": -0.1295,
+      "upside_cap": -0.1964
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 4,
+    "pass": 10,
+    "open": 2
+  },
+  "focus_top": [
+    "Cash flow vs profit",
+    "Customer / supplier / geographic concentration",
+    "CARO / audit trail"
+  ],
+  "analysed_on": "2026-11-25"
+}

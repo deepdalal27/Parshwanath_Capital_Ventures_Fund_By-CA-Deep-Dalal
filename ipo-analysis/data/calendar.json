@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-11-25T13:15Z",
+  "last_scan": "2026-11-25T13:28Z",
   "today_ist": "2026-11-25",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [
@@ -350,7 +350,7 @@
       "source": "SEBI RHP dated 21-Nov-2026; price band Rs 60-65 and lot 225 from the company's announcement (as reported by Kotak Neo/Chittorgarh, 25-Nov-2026); fresh issue Rs 175.5 cr",
       "status": "Upcoming",
       "slug": "monomark-engineering-india-ltd",
-      "report": "to_do",
+      "report": "published",
       "rhp_filing": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
       "rhp_pdf": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1795410085057.pdf",
       "rhp_filed_on": "2026-11-23",

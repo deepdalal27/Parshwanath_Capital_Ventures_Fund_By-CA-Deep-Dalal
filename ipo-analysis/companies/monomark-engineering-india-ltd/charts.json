@@ -1,0 +1,816 @@
+{
+ "slug": "monomark-engineering-india-ltd",
+ "company": "Monomark Engineering (India) Limited",
+ "generated": "2026-11-25T13:26Z",
+ "kpis": [
+  {
+   "label": "Revenue FY26",
+   "value": 561.8889,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.2005,
+   "subfmt": "pct"
+  },
+  {
+   "label": "PAT FY26",
+   "value": 25.9033,
+   "fmt": "cr",
+   "sub": "CAGR FY24-FY26",
+   "subval": 0.3218,
+   "subfmt": "pct"
+  },
+  {
+   "label": "EBITDA margin",
+   "value": 0.0867,
+   "fmt": "pct",
+   "sub": "FY24",
+   "subval": 0.0818,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Cash conversion (CFO / PAT, 3 yrs)",
+   "value": 0.6709,
+   "fmt": "pct",
+   "tone": "bad"
+  },
+  {
+   "label": "Cash tax rate (3 yrs)",
+   "value": 0.256,
+   "fmt": "pct",
+   "tone": "good"
+  },
+  {
+   "label": "P/E at reference (post-issue)",
+   "value": 28.6,
+   "fmt": "x",
+   "sub": "peer median",
+   "subval": 18.79,
+   "subfmt": "x"
+  },
+  {
+   "label": "Adjusted P/E (earnings quality)",
+   "value": 28.6,
+   "fmt": "x",
+   "sub": "reported",
+   "subval": 24.1,
+   "subfmt": "x"
+  },
+  {
+   "label": "Blended value (Neutral)",
+   "value": 47.2086,
+   "fmt": "rs",
+   "sub": "vs reference",
+   "subval": -0.2737,
+   "subfmt": "pct"
+  },
+  {
+   "label": "Reference price",
+   "value": 65.0,
+   "fmt": "rs",
+   "sub": "Band Rs 60-65, lot 225 (company announcement as reported; RHP prints [●]). At Rs 65: 9.604 crore post-issue shares, market cap Rs 624 cr; P/E 24.1x FY26 PAT (28.6x on adjusted Rs 21.83 cr); company's own P/E 16.9x (pre-issue weighted shares); P/B 2.24x post-issue; EV/EBITDA 10.6x FY26."
+  }
+ ],
+ "focus": [
+  {
+   "level": "WATCH",
+   "title": "Cash flow vs profit",
+   "detail": "CFO Rs 15.23 / 16.17 / 8.14 cr FY24-26 against PAT Rs 14.83 / 18.21 / 25.90 cr: cumulative CFO 67% of PAT. FY26 CFO fell as receivables rose by Rs 33.22 cr (Vedanta and HZL billing cycles); Q1 FY27 CFO Rs 1.44 cr on PAT Rs 3.02 cr. Working capital is lumpy and growth-led, not a material issue.",
+   "page": "pp. 87, 138"
+  },
+  {
+   "level": "WATCH",
+   "title": "Customer / supplier / geographic concentration",
+   "detail": "Hindustan Zinc 42.01% / 35.74% / 35.35% of revenue FY24-26 and 41.31% in Q1 FY27; the Vedanta group (HZL, Vedanta Ltd and its units) Rs 252.0 / 310.2 / 437.5 cr = 64.7% / 65.3% / 77.9% of revenue, 83.3% in Q1 FY27 (p. 190). Top 5 customers 79.30% FY26, 91.37% Q1; top 10 suppliers 60.70% of FY26 purchases. O&M contracts run 2-5 years (p. 27). Concentration is typical for an industrial O&M contractor but is high.",
+   "page": "pp. 27, 190, 210-211"
+  },
+  {
+   "level": "WATCH",
+   "title": "CARO / audit trail",
+   "detail": "Delays in depositing PF and ESIC, filing TDS returns and paying GST in each of FY24-Q1 FY27; GST payable rose to Rs 14.28 cr at Mar-25 partly from delayed payment due to liquidity (p. 120). All dues paid by the RHP date.",
+   "page": "pp. 35-36"
+  },
+  {
+   "level": "WATCH",
+   "title": "SME conditions",
+   "detail": "Independent director Madan Lal Kothari is named in a 2021 chargesheet (IPC 420/467/468/471/120-B) as an attesting witness to an allegedly forged will in a private family dispute (FIR 405/2018, Jaipur); pending trial. Not related to the company.",
+   "page": "pp. 454-455"
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: DCF and relative diverge by -27.4% - the divergence is the finding; name its cause",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "RED: objects floor sits above blended fair value",
+   "page": ""
+  },
+  {
+   "level": "GUARD",
+   "title": "Valuation model guard",
+   "detail": "AMBER: TV above 75% of EV - DCF is mostly a terminal guess",
+   "page": ""
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Anchor book (bids 1-Dec-2026)",
+   "page": "NSE / BSE anchor allocation"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Contract terms with Hindustan Zinc and Vedanta (renewal dates, pricing, KPI deductions)",
+   "page": "Company / material contracts"
+  },
+  {
+   "level": "GAP",
+   "title": "Data gap (medium)",
+   "detail": "Revenue phasing of the Rs 1,761.9 cr order book by year",
+   "page": "Company"
+  }
+ ],
+ "comfort": [
+  {
+   "title": "Bonus issue / share-count consistency",
+   "detail": "Bonus issues of 89,52,516 shares in Mar-2017 and 5,40,75,600 shares (6:1) on 26-May-2025 (pp. 102-103); EPS restated for the bonus in all years (p. 86). FY26 basic EPS Rs 3.84 on PAT Rs 25.90 cr = 6.745 crore weighted shares; pre-issue capital 6,90,41,200 shares (p. 101), on which FY26 EPS is Rs 3.75. Private placement of 59,53,000 shares at Rs 38 to 31 non-promoter investors on 2-Jul-2025 (Rs 22.62 cr, registered-valuer price, p. 103).",
+   "page": "pp. 86, 101-103, 134"
+  },
+  {
+   "title": "Current vs deferred tax",
+   "detail": "Current tax Rs 4.09 / 8.20 / 8.61 cr = 20% / 32% / 24% of PBT; tax paid in cash Rs 3.87 / 8.87 / 8.27 cr (p. 87).",
+   "page": "pp. 86-87"
+  },
+  {
+   "title": "Related-party capex & subsidiaries",
+   "detail": "Related-party dealings are director pay (Rs 2.67 cr FY26), salaries of relatives and KMP, guest-house rent Rs 0.28 cr and equipment hire Rs 0.73 cr; no related-party capex, no loans to promoters outstanding, no funds into the UAE subsidiary from the issue.",
+   "page": "pp. 37, 89-90"
+  },
+  {
+   "title": "Objects arithmetic as price floor",
+   "detail": "Fresh issue fixed at 2,70,00,000 shares; specific object Rs 120.00 cr incremental working capital (Rs 82.50 cr FY27, Rs 37.50 cr FY28). With expenses assumed at 8% the cap leaves GCP of about Rs 41.5 cr (23.6% of gross, cap 25%), so the objects need about Rs 65 a share: the cap and the objects floor coincide.",
+   "page": "pp. 113-122"
+  },
+  {
+   "title": "Revaluation reserve",
+   "detail": "No revaluation of assets since incorporation.",
+   "page": "p. 232"
+  },
+  {
+   "title": "Goodwill vs tangible equity",
+   "detail": "No goodwill; intangibles Rs 0.57 cr.",
+   "page": "p. 84"
+  },
+  {
+   "title": "Contingent liabilities",
+   "detail": "Contingent liabilities Rs 56.47 cr at Jun-26 (47.3% of net worth), of which Rs 30.01 cr bank guarantees and Rs 23.00 cr receivables financed by SBI under Vedanta's vendor-finance programme with recourse (p. 88). Tax proceedings against the company Rs 1.20 cr; no criminal or regulatory action against the company or promoters (p. 58).",
+   "page": "pp. 58, 88"
+  },
+  {
+   "title": "Auditor qualifications / changes",
+   "detail": "Statutory and peer-review auditor Keyur Shah & Associates; no qualification or emphasis of matter identified in the restated financial information.",
+   "page": "pp. 88, 138"
+  },
+  {
+   "title": "Monitoring agency",
+   "detail": "CRISIL Ratings appointed monitoring agency.",
+   "page": "p. 98"
+  },
+  {
+   "title": "Eligibility re-computation",
+   "detail": "Reg 6(1): operating profit (PBT + finance cost - other income) Rs 25.84 / 32.43 / 40.97 cr FY24-26 (our computation), above the Rs 15 cr test; net worth positive each year.",
+   "page": "pp. 86, 468"
+  }
+ ],
+ "scorecard": [
+  {
+   "id": "1",
+   "check": "Bonus issue / share-count consistency",
+   "status": "PASS",
+   "page": "pp. 86, 101-103, 134",
+   "finding": "Bonus issues of 89,52,516 shares in Mar-2017 and 5,40,75,600 shares (6:1) on 26-May-2025 (pp. 102-103); EPS restated for the bonus in all years (p. 86). FY26 basic EPS Rs 3.84 on PAT Rs 25.90 cr = 6.745 crore weighted shares; pre-issue capital 6,90,41,200 shares (p. 101), on which FY26 EPS is Rs 3.75. Private placement of 59,53,000 shares at Rs 38 to 31 non-promoter investors on 2-Jul-2025 (Rs 22.62 cr, registered-valuer price, p. 103)."
+  },
+  {
+   "id": "2",
+   "check": "Cash flow vs profit",
+   "status": "WATCH",
+   "page": "pp. 87, 138",
+   "finding": "CFO Rs 15.23 / 16.17 / 8.14 cr FY24-26 against PAT Rs 14.83 / 18.21 / 25.90 cr: cumulative CFO 67% of PAT. FY26 CFO fell as receivables rose by Rs 33.22 cr (Vedanta and HZL billing cycles); Q1 FY27 CFO Rs 1.44 cr on PAT Rs 3.02 cr. Working capital is lumpy and growth-led, not a material issue."
+  },
+  {
+   "id": "3",
+   "check": "Current vs deferred tax",
+   "status": "PASS",
+   "page": "pp. 86-87",
+   "finding": "Current tax Rs 4.09 / 8.20 / 8.61 cr = 20% / 32% / 24% of PBT; tax paid in cash Rs 3.87 / 8.87 / 8.27 cr (p. 87)."
+  },
+  {
+   "id": "4",
+   "check": "Related-party capex & subsidiaries",
+   "status": "PASS",
+   "page": "pp. 37, 89-90",
+   "finding": "Related-party dealings are director pay (Rs 2.67 cr FY26), salaries of relatives and KMP, guest-house rent Rs 0.28 cr and equipment hire Rs 0.73 cr; no related-party capex, no loans to promoters outstanding, no funds into the UAE subsidiary from the issue."
+  },
+  {
+   "id": "5",
+   "check": "Objects arithmetic as price floor",
+   "status": "PASS",
+   "page": "pp. 113-122",
+   "finding": "Fresh issue fixed at 2,70,00,000 shares; specific object Rs 120.00 cr incremental working capital (Rs 82.50 cr FY27, Rs 37.50 cr FY28). With expenses assumed at 8% the cap leaves GCP of about Rs 41.5 cr (23.6% of gross, cap 25%), so the objects need about Rs 65 a share: the cap and the objects floor coincide."
+  },
+  {
+   "id": "6",
+   "check": "Revaluation reserve",
+   "status": "PASS",
+   "page": "p. 232",
+   "finding": "No revaluation of assets since incorporation."
+  },
+  {
+   "id": "7",
+   "check": "Goodwill vs tangible equity",
+   "status": "PASS",
+   "page": "p. 84",
+   "finding": "No goodwill; intangibles Rs 0.57 cr."
+  },
+  {
+   "id": "8",
+   "check": "Customer / supplier / geographic concentration",
+   "status": "WATCH",
+   "page": "pp. 27, 190, 210-211",
+   "finding": "Hindustan Zinc 42.01% / 35.74% / 35.35% of revenue FY24-26 and 41.31% in Q1 FY27; the Vedanta group (HZL, Vedanta Ltd and its units) Rs 252.0 / 310.2 / 437.5 cr = 64.7% / 65.3% / 77.9% of revenue, 83.3% in Q1 FY27 (p. 190). Top 5 customers 79.30% FY26, 91.37% Q1; top 10 suppliers 60.70% of FY26 purchases. O&M contracts run 2-5 years (p. 27). Concentration is typical for an industrial O&M contractor but is high."
+  },
+  {
+   "id": "9",
+   "check": "Contingent liabilities",
+   "status": "PASS",
+   "page": "pp. 58, 88",
+   "finding": "Contingent liabilities Rs 56.47 cr at Jun-26 (47.3% of net worth), of which Rs 30.01 cr bank guarantees and Rs 23.00 cr receivables financed by SBI under Vedanta's vendor-finance programme with recourse (p. 88). Tax proceedings against the company Rs 1.20 cr; no criminal or regulatory action against the company or promoters (p. 58)."
+  },
+  {
+   "id": "10",
+   "check": "Investor presentation vs DRHP",
+   "status": "N.A.",
+   "page": "",
+   "finding": "No investor presentation reviewed."
+  },
+  {
+   "id": "R1",
+   "check": "Auditor qualifications / changes",
+   "status": "PASS",
+   "page": "pp. 88, 138",
+   "finding": "Statutory and peer-review auditor Keyur Shah & Associates; no qualification or emphasis of matter identified in the restated financial information."
+  },
+  {
+   "id": "R2",
+   "check": "CARO / audit trail",
+   "status": "WATCH",
+   "page": "pp. 35-36",
+   "finding": "Delays in depositing PF and ESIC, filing TDS returns and paying GST in each of FY24-Q1 FY27; GST payable rose to Rs 14.28 cr at Mar-25 partly from delayed payment due to liquidity (p. 120). All dues paid by the RHP date."
+  },
+  {
+   "id": "R3",
+   "check": "Monitoring agency",
+   "status": "PASS",
+   "page": "p. 98",
+   "finding": "CRISIL Ratings appointed monitoring agency."
+  },
+  {
+   "id": "R4",
+   "check": "Eligibility re-computation",
+   "status": "PASS",
+   "page": "pp. 86, 468",
+   "finding": "Reg 6(1): operating profit (PBT + finance cost - other income) Rs 25.84 / 32.43 / 40.97 cr FY24-26 (our computation), above the Rs 15 cr test; net worth positive each year."
+  },
+  {
+   "id": "R5",
+   "check": "SME conditions",
+   "status": "WATCH",
+   "page": "pp. 454-455",
+   "finding": "Independent director Madan Lal Kothari is named in a 2021 chargesheet (IPC 420/467/468/471/120-B) as an attesting witness to an allegedly forged will in a private family dispute (FIR 405/2018, Jaipur); pending trial. Not related to the company."
+  },
+  {
+   "id": "R6",
+   "check": "Lead-manager track record",
+   "status": "OPEN",
+   "page": "p. 479",
+   "finding": "Holani Consultants (Jaipur): eight issues since FY25, mostly SME; 30-day returns mixed (from -41% to +20%); first larger mainboard issues in FY27."
+  },
+  {
+   "id": "R7",
+   "check": "Firm means of finance",
+   "status": "OPEN",
+   "page": "",
+   "finding": ""
+  }
+ ],
+ "history": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "revenue": [
+   389.8595,
+   475.0319,
+   561.8889
+  ],
+  "ebitda": [
+   31.885,
+   39.2638,
+   48.7423
+  ],
+  "pat": [
+   14.8263,
+   18.2126,
+   25.9033
+  ],
+  "cfo": [
+   15.2306,
+   16.1721,
+   8.1398
+  ],
+  "ebitda_margin": [
+   0.0818,
+   0.0827,
+   0.0867
+  ],
+  "pat_margin": [
+   0.038,
+   0.0383,
+   0.0461
+  ],
+  "inventory": [
+   43.4552,
+   63.1642,
+   60.9354
+  ],
+  "receivables": [
+   47.7335,
+   52.4113,
+   85.6313
+  ],
+  "payables": [
+   46.1043,
+   59.2159,
+   71.8708
+  ],
+  "nwc": [
+   45.08,
+   56.36,
+   74.7
+  ],
+  "nwc_pct": [
+   0.1156,
+   0.1186,
+   0.1329
+  ],
+  "unit": "Rs crore"
+ },
+ "valuation": {
+  "reference": 65.0,
+  "floor": 60.0,
+  "cap": 65.0,
+  "reference_note": "Band Rs 60-65, lot 225 (company announcement as reported; RHP prints [●]). At Rs 65: 9.604 crore post-issue shares, market cap Rs 624 cr; P/E 24.1x FY26 PAT (28.6x on adjusted Rs 21.83 cr); company's own P/E 16.9x (pre-issue weighted shares); P/B 2.24x post-issue; EV/EBITDA 10.6x FY26.",
+  "scenarios": {
+   "bear": {
+    "dcf": 22.5519,
+    "relative": 54.6934,
+    "blended": 38.6227,
+    "upside_floor": -0.3563,
+    "upside_cap": -0.4058
+   },
+   "neutral": {
+    "dcf": 39.7238,
+    "relative": 54.6934,
+    "blended": 47.2086,
+    "upside_floor": -0.2132,
+    "upside_cap": -0.2737
+   },
+   "bull": {
+    "dcf": 49.771,
+    "relative": 54.6934,
+    "blended": 52.2322,
+    "upside_floor": -0.1295,
+    "upside_cap": -0.1964
+   }
+  },
+  "objects_floor": 64.9963,
+  "wacc": 0.1446,
+  "tv_share": 0.7895,
+  "reverse": {
+   "sentence": "The price asks the business to deliver 344.4 times its current free cash flow, in perpetuity.",
+   "levers": [
+    {
+     "label": "Lever 1 - implied perpetual growth on current FCFF",
+     "required": 0.14125269597031453,
+     "actual": 0.045
+    },
+    {
+     "label": "Lever 2 - implied WACC at terminal g",
+     "required": 0.04803386158319436,
+     "actual": 0.1446
+    },
+    {
+     "label": "Lever 3 - required EBIT margin (steady state)",
+     "required": 0.15656493140332617,
+     "actual": 0.0729
+    },
+    {
+     "label": "Lever 4 - required NWC % of revenue (steady state)",
+     "required": "Unreachable: needs negative working capital",
+     "actual": 0.1866
+    }
+   ]
+  }
+ },
+ "dcf": {
+  "years": [
+   "Y0 (A)",
+   "Y1",
+   "Y2",
+   "Y3",
+   "Y4",
+   "Y5"
+  ],
+  "revenue": [
+   561.8889,
+   657.41,
+   756.0215,
+   854.3043,
+   948.2778,
+   1033.6228
+  ],
+  "ebitda": [
+   48.7423,
+   55.2224,
+   63.5058,
+   71.7616,
+   79.6553,
+   86.8243
+  ],
+  "nopat": [
+   30.6532,
+   34.5128,
+   39.6897,
+   44.8494,
+   49.7828,
+   54.2633
+  ],
+  "fcff": [
+   1.5044,
+   9.2402,
+   12.0748,
+   17.3265,
+   23.4667,
+   30.3635
+  ]
+ },
+ "sensitivity": {
+  "wacc_g": {
+   "rows": [
+    0.1246,
+    0.1346,
+    0.1446,
+    0.1546,
+    0.1646
+   ],
+   "cols": [
+    0.035,
+    0.04,
+    0.045,
+    0.05,
+    0.055
+   ],
+   "values": [
+    [
+     46.6916,
+     47.4971,
+     48.3928,
+     49.397,
+     50.5329
+    ],
+    [
+     42.4281,
+     42.9686,
+     43.5602,
+     44.2118,
+     44.9349
+    ],
+    [
+     38.9699,
+     39.3326,
+     39.7238,
+     40.1478,
+     40.6103
+    ],
+    [
+     36.1136,
+     36.354,
+     36.6095,
+     36.8821,
+     37.1743
+    ],
+    [
+     33.7186,
+     33.8735,
+     34.0352,
+     34.2046,
+     34.3828
+    ]
+   ]
+  },
+  "nwc_margin": {
+   "rows": [
+    0.124,
+    0.154,
+    0.184,
+    0.214,
+    0.244
+   ],
+   "cols": [
+    0.064,
+    0.074,
+    0.084,
+    0.094,
+    0.104
+   ],
+   "values": [
+    [
+     33.9875,
+     39.3964,
+     44.8053,
+     50.2143,
+     55.6232
+    ],
+    [
+     31.4467,
+     36.8556,
+     42.2646,
+     47.6735,
+     53.0824
+    ],
+    [
+     28.9059,
+     34.3148,
+     39.7238,
+     45.1327,
+     50.5416
+    ],
+    [
+     26.3651,
+     31.774,
+     37.183,
+     42.5919,
+     48.0008
+    ],
+    [
+     23.8243,
+     29.2333,
+     34.6422,
+     40.0511,
+     45.46
+    ]
+   ]
+  }
+ },
+ "peers": [
+  {
+   "name": "Power Mech Projects Ltd",
+   "pe": 18.79,
+   "pb": 2.7156,
+   "issuer": false
+  },
+  {
+   "name": "Thejo Engineering Ltd",
+   "pe": 44.2392,
+   "pb": 5.7506,
+   "issuer": false
+  },
+  {
+   "name": "ANI Integrated Services Ltd",
+   "pe": 5.9903,
+   "pb": 0.4337,
+   "issuer": false
+  },
+  {
+   "name": "Monomark Engineering (India) Limited at reference",
+   "pe": 28.5968,
+   "pb": 2.244,
+   "issuer": true
+  }
+ ],
+ "offer": {
+  "structure": [
+   {
+    "label": "Anchor: MF reserved",
+    "value": 17.5482
+   },
+   {
+    "label": "Anchor: insurers & pension",
+    "value": 3.5118
+   },
+   {
+    "label": "Anchor: open pool",
+    "value": 31.59
+   },
+   {
+    "label": "QIB (non-anchor)",
+    "value": 35.1
+   },
+   {
+    "label": "Non-institutional",
+    "value": 26.325
+   },
+   {
+    "label": "Retail",
+    "value": 61.425
+   }
+  ],
+  "issue_cr": 175.5,
+  "overhang": [
+   {
+    "label": "Anchor - tranche 1",
+    "shares_lakh": 40.5,
+    "days": 30,
+    "pct_float": 0.2143
+   },
+   {
+    "label": "Anchor - tranche 2",
+    "shares_lakh": 40.5,
+    "days": 90,
+    "pct_float": 0.1765
+   },
+   {
+    "label": "Pre-issue non-promoter shareholders (Jul-2025 placement at Rs 38, 31 holders)",
+    "shares_lakh": 59.53,
+    "days": 180,
+    "pct_float": 0.2205
+   },
+   {
+    "label": "Promoter holding above minimum contribution",
+    "shares_lakh": 438.8,
+    "days": 180,
+    "pct_float": 1.6252
+   },
+   {
+    "label": "Promoters' minimum contribution (20% of post-issue capital)",
+    "shares_lakh": 192.08,
+    "days": 548,
+    "pct_float": 0.25
+   }
+  ]
+ },
+ "brlm": {
+  "bankers": [],
+  "issues": []
+ },
+ "swot": {
+  "strengths": [
+   "Order book Rs 1,761.9 cr = 3.1x FY26 revenue (p. 189)",
+   "16-year relationship with Hindustan Zinc; 87-94% repeat-client revenue (pp. 27, 138)",
+   "ROCE 20-22% and fixed-asset turnover 8.5x (p. 138)",
+   "Owned fleet of 232 cranes, hydras, trucks and excavators (p. 189)"
+  ],
+  "weaknesses": [
+   "Vedanta group 77.9% of FY26 revenue (p. 190)",
+   "EBITDA margin 8.2-8.7% (p. 138)",
+   "CFO 67% of PAT over FY24-26 (p. 87)",
+   "Late PF, ESIC, TDS and GST payments in each period (pp. 35-36)"
+  ],
+  "opportunities": [
+   "Port O&M at 17.6% gross margin (p. 400)",
+   "New Vedanta Goa and Silvassa units (p. 441)",
+   "Outsourcing of maintenance in metals and cement; O&M market +6% a year (p. 168)",
+   "UAE work through Monomark Engineering FZE (p. 191)"
+  ],
+  "threats": [
+   "Non-renewal or re-pricing of a large Vedanta-group contract",
+   "Site accidents reducing KPI-linked billing (p. 35)",
+   "Wage and labour-law cost inflation on a 6,800-person workforce",
+   "Recourse on Rs 23.0 cr of receivables financed by SBI for Vedanta (p. 88)"
+  ]
+ },
+ "earnings_quality": {
+  "years": [
+   "FY24",
+   "FY25",
+   "FY26"
+  ],
+  "price": 65.0,
+  "shares": 9.6041,
+  "tax": 0.2517,
+  "rows": [
+   {
+    "basis": "Reported FY26",
+    "pat": 25.9033,
+    "eps": 2.6971,
+    "pe": 24.1
+   },
+   {
+    "basis": "FY26 after: gratuity remeasurement losses",
+    "pat": 21.8285,
+    "eps": 2.2728,
+    "pe": 28.6
+   },
+   {
+    "basis": "FY24-FY26 average, reported",
+    "pat": 19.6474,
+    "eps": 2.0457,
+    "pe": 31.77
+   },
+   {
+    "basis": "FY24-FY26 average, adjusted",
+    "pat": 14.8445,
+    "eps": 1.5456,
+    "pe": 42.05
+   }
+  ],
+  "adjustments": [
+   {
+    "item": "Recurring actuarial losses on the gratuity plan, taken to OCI each year",
+    "short": "gratuity remeasurement losses",
+    "pre_tax": [
+     -7.0243,
+     -6.7857,
+     -5.4454
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 86-87",
+    "reason": "Remeasurement losses on the defined-benefit (gratuity) plan of Rs 7.02 / 6.79 / 5.45 cr FY24-26 (and Rs 0.65 cr in Q1 FY27) go to other comprehensive income, not to profit (p. 86). For a contractor with 6,300-7,300 site employees, a loss in every year indicates that the service cost charged to profit understates the true cost of the obligation (attrition and wage assumptions). Total comprehensive income was Rs 21.84 cr in FY26 against PAT Rs 25.90 cr.",
+    "post_tax": [
+     -5.2563,
+     -5.0777,
+     -4.0748
+    ],
+    "pe_if_applied": 28.6
+   },
+   {
+    "item": "Loss on sale of fixed assets (fleet disposals)",
+    "short": "loss on asset sales",
+    "pre_tax": [
+     1.4174,
+     1.0668,
+     2.0398
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 87",
+    "reason": "Losses on sale of PPE of Rs 1.42 / 1.07 / 2.04 cr reduced profit (p. 87). They recur each year with routine replacement of trucks, cranes and loaders, so they are part of the cost of running the fleet; shown so the test stays two-sided, kept out of the adjusted P/E.",
+    "post_tax": [
+     1.0606,
+     0.7983,
+     1.5264
+    ],
+    "pe_if_applied": 22.76
+   },
+   {
+    "item": "Interest on fixed deposits in other income",
+    "short": "FD interest",
+    "pre_tax": [
+     -1.5469,
+     -2.0842,
+     -2.2892
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "p. 87",
+    "reason": "Interest received Rs 1.55 / 2.08 / 2.29 cr (p. 87), largely on deposits held as margin for bank guarantees that the O&M contracts require; small (6.5% of FY26 PBT) and linked to operations. For information.",
+    "post_tax": [
+     -1.1575,
+     -1.5596,
+     -1.713
+    ],
+    "pe_if_applied": 25.81
+   }
+  ],
+  "adjusted_pat": [
+   9.57,
+   13.1349,
+   21.8285
+  ],
+  "pe_reported": 24.1,
+  "pe_adjusted": 28.6,
+  "pat_change": -0.1573,
+  "material": true,
+  "verdict": "Reported FY26 P/E of 24.1x is flattered by the items flagged: adjusted P/E 28.6x (PAT -15.7%). On the FY24-FY26 average, which smooths one-year items, the P/E is 31.8x reported and 42.0x adjusted.",
+  "flags": [
+   "Remeasurement losses on the defined-benefit (gratuity) plan of Rs 7.02 / 6.79 / 5.45 cr FY24-26 (and Rs 0.65 cr in Q1 FY27) go to other comprehensive income, not to profit (p. 86). For a contractor with 6,300-7,300 site employees, a loss in every year indicates that the service cost charged to profit understates the true cost of the obligation (attrition and wage assumptions). Total comprehensive income was Rs 21.84 cr in FY26 against PAT Rs 25.90 cr."
+  ],
+  "checked": [
+   "Other income is under 0.6% of total income (p. 417)",
+   "No revaluation reserve, goodwill or capitalised development cost (pp. 84, 232)",
+   "Current tax 20-32% of PBT; tax paid in cash (pp. 86-87)",
+   "Q1 FY27 is not annualised",
+   "Unbilled revenue at year-end is billed within six months in each year (p. 42)"
+  ]
+ },
+ "counts": {
+  "fail": 0,
+  "watch": 4,
+  "pass": 10,
+  "open": 2
+ }
+}
