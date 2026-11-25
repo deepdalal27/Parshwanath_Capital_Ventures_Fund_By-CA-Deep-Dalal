@@ -1,6 +1,83 @@
 {
-  "updated": "2026-11-24T02:32Z",
+  "updated": "2026-11-25T13:28Z",
   "issuers": [
+    {
+      "slug": "monomark-engineering-india-ltd",
+      "company": "Monomark Engineering (India) Limited",
+      "platform": "Mainboard",
+      "stage": "RHP",
+      "filed_on": "2026-11-21",
+      "analysed_on": "2026-11-25",
+      "sector": "Industrial O&M services, project execution and metal fabrication (metals, ports, cement)",
+      "brlm": "Holani Consultants",
+      "issue_size_cr": 175.5,
+      "price_band": "Rs 60-65",
+      "open_date": "2026-12-02",
+      "close_date": "2026-12-04",
+      "allotment_date": "2026-12-07",
+      "listing_date": "2026-12-09",
+      "lot_size": 225,
+      "exchange": "NSE, BSE",
+      "depth": "Full",
+      "rhp_read": true,
+      "company_pe": {
+        "period": "FY26",
+        "pat_cr": 25.9,
+        "pat_basis": "restated consolidated; all attributable to owners",
+        "eps_basic": 3.84,
+        "eps_diluted": 3.84,
+        "industry_pe": {
+          "high": 48.66,
+          "low": 5.99,
+          "avg": 27.32
+        },
+        "source": "RHP pp. 134-136 (Basis for Issue Price); PAT p. 86",
+        "note": "EPS is on 6.745 crore weighted shares after the 6:1 bonus (May-2025) and the Jul-2025 placement. On the 6.904 crore pre-issue shares FY26 EPS is Rs 3.75 (P/E 17.3x at Rs 65); on the 9.604 crore post-issue shares it is Rs 2.70 (P/E 24.1x). The industry P/E (48.66 / 5.99 / 27.32) is as printed on p. 135 and includes Thermax. Band as announced by the company and reported (Kotak Neo, Chittorgarh); the RHP prints [●].",
+        "pe_floor_basic": 15.62,
+        "pe_cap_basic": 16.93,
+        "pe_floor_diluted": 15.62,
+        "pe_cap_diluted": 16.93,
+        "floor": 60.0,
+        "cap": 65.0
+      },
+      "call": "Neutral",
+      "business_stage": "Scaling (O&M share up from 64% to 80% of revenue FY24-26; order book 3.1x revenue; port O&M added from FY25)",
+      "headline": "A Chittorgarh industrial O&M and erection contractor for metal smelters, mines, ports and cement plants (FY26 revenue Rs 562 cr, EBITDA margin 8.7%, PAT Rs 25.9 cr; Vedanta group 78% of revenue), priced at 24.1x FY26 earnings (28.6x after recurring gratuity losses) against an 18.8x peer median; fair value Rs 47 (Neutral) because thin margins and working capital near 18% of revenue leave little free cash, while the order book and 20%+ ROCE support the business.",
+      "red_flags": [
+        "Revenue Rs 389.86 / 475.03 / 561.89 cr FY24-26 (+21.9%, +18.3%); EBITDA margin 8.2-8.7%; PAT Rs 14.83 / 18.21 / 25.90 cr; ROCE 20-22% (pp. 86, 138)",
+        "Vedanta group (incl. Hindustan Zinc) 77.9% of FY26 and 83.3% of Q1 FY27 revenue; Hindustan Zinc alone 35.4% (pp. 27, 190)",
+        "Unexecuted order book Rs 1,761.9 cr = 3.1x FY26 revenue, 96% multi-year O&M (p. 189)",
+        "Cumulative CFO 67% of PAT FY24-26; FY26 CFO Rs 8.1 cr as receivables rose Rs 33.2 cr (p. 87)",
+        "Rs 120 cr of proceeds go to working capital, mainly to cut trade payables from Rs 71.6 cr to Rs 20.0 cr (p. 120)",
+        "Band Rs 60-65; fair value Rs 38.6 / 47.2 / 52.2 vs Rs 65; Jul-2025 placement at Rs 38 (p. 103)"
+      ],
+      "doc_url": "https://www.sebi.gov.in/filings/public-issues/nov-2026/monomark-engineering-india-limited-rhp_105932.html",
+      "status": "analysed",
+      "counts": {
+        "fail": 0,
+        "watch": 4,
+        "pass": 10,
+        "open": 2
+      },
+      "focus_top": [
+        "Cash flow vs profit",
+        "Customer / supplier / geographic concentration",
+        "CARO / audit trail"
+      ],
+      "neutral": {
+        "dcf": 39.7238,
+        "relative": 54.6934,
+        "blended": 47.2086,
+        "upside_floor": -0.2132,
+        "upside_cap": -0.2737
+      },
+      "bear": 38.6227,
+      "bull": 52.2322,
+      "pdf": "MONOMARK_ENGINEERING_IND_Report.pdf",
+      "pe_reported": 24.1,
+      "pe_adjusted": 28.6,
+      "eq_material": true
+    },
     {
       "slug": "matangi-rubber-ltd",
       "company": "Matangi Rubber Limited",
