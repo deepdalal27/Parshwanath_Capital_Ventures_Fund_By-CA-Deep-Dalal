@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-11-24T13:15Z",
-  "today_ist": "2026-11-24",
+  "last_scan": "2026-11-25T02:15Z",
+  "today_ist": "2026-11-25",
   "coverage": "Every IPO with a filed RHP and an announced price band. DRHPs are not covered.",
   "errors": [
     "NSE api/ipo-current-issue: HTTP 301 ",
@@ -300,7 +300,7 @@
       "price_band": "Rs 130-142",
       "brlm": "Erudore Capital Private Limited",
       "source": "News and tracker reports 19-Nov-2026 (added manually; NSE feed redirecting). RHP not yet found in NSE archive; lot size unconfirmed (1,000 vs 4,000 in sources)",
-      "status": "Upcoming",
+      "status": "Open",
       "slug": "shree-siddhivinayak-greentech-industries-ltd",
       "report": "to_do"
     },
