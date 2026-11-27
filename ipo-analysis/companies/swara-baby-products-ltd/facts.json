@@ -1,0 +1,441 @@
+{
+ "_source": "RHP dated 26-Nov-2026 (NSE archive RHP_SWARA.zip; SEBI site unreachable this run); printed page = PDF page - 5. Restated consolidated financials FY24, FY25, FY26 and Q1 FY27 (3 months to 30-Jun-2026), Rs million converted to Rs crore. Solis Hygiene (common-control acquisition, 30-Dec-2025) is consolidated from 1-Apr-2023; KAEHPL (acquired 25-Dec-2025) only from that date. Price band Rs 105-111 and lot 135 from the company's announcement as reported (Upstox, Entrepreneur, 27-Nov-2026); the RHP prints [●].",
+ "screening": {
+  "basis": {
+   "name": "Swara Baby Products Limited",
+   "platform": "Mainboard",
+   "stage": "RHP",
+   "doc_date": "2026-11-26",
+   "aud_to": "2026-06-30",
+   "band": "No",
+   "brlm": "JM Financial Limited; Avendus Capital Private Limited",
+   "outside": "Price band Rs 105-111 and lot 135 from the company's announcement as reported (Upstox, Entrepreneur); RHP prints [●]",
+   "bid_cat": "Anchor",
+   "exit": "2-3 year hold (assumed)"
+  },
+  "items": {
+   "rev": [
+    749.96,
+    942.976,
+    1163.9,
+    322.884
+   ],
+   "oth": [
+    16.646,
+    16.689,
+    48.542,
+    11.945
+   ],
+   "pbt": [
+    118.673,
+    102.049,
+    122.02,
+    21.271
+   ],
+   "ctax": [
+    19.682,
+    16.476,
+    17.395,
+    3.794
+   ],
+   "dtax": [
+    5.02,
+    4.9,
+    9.036,
+    0.87
+   ],
+   "pat": [
+    93.971,
+    80.673,
+    95.589,
+    16.607
+   ],
+   "cfo": [
+    57.274,
+    60.155,
+    74.871,
+    35.151
+   ],
+   "rpt_s": [
+    221.105,
+    238.012,
+    299.487,
+    97.058
+   ],
+   "rpt_p": [
+    1.639,
+    23.366,
+    35.858,
+    8.49
+   ],
+   "nw": [
+    319.356,
+    399.922,
+    553.215,
+    570.474
+   ],
+   "recv": [
+    55.714,
+    104.91,
+    136.692,
+    119.082
+   ],
+   "inv": [
+    179.585,
+    223.474,
+    235.098,
+    290.446
+   ],
+   "pay": [
+    91.867,
+    109.518,
+    153.23,
+    216.356
+   ],
+   "cl": [
+    null,
+    null,
+    null,
+    0.144
+   ],
+   "gw": [
+    0,
+    0,
+    27.577,
+    27.577
+   ],
+   "reval": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "cites": {
+   "rev": "p. 89",
+   "oth": "p. 89 (mostly government grant income: Rs 11.38 / 15.03 / 38.14 cr, p. 90)",
+   "pbt": "p. 89",
+   "ctax": "p. 89 (current tax incl. earlier-year adjustments)",
+   "dtax": "p. 89",
+   "pat": "p. 89 (wholly owned subsidiaries; all attributable to owners)",
+   "cfo": "p. 90",
+   "rpt_s": "p. 44 (sale of products to related parties: Brainbees Solutions and, until 25-Dec-2025, K.A. Enterprises)",
+   "rpt_p": "p. 44 (purchases from related parties incl. promoter-group supplier)",
+   "nw": "p. 88 (total equity)",
+   "recv": "p. 88",
+   "inv": "p. 88",
+   "pay": "p. 88 (MSE + other creditors)",
+   "cl": "p. 91 (Jun-26 only: customs bank guarantees Rs 0.14 cr)",
+   "gw": "pp. 88, 415 (goodwill on the KAEHPL acquisition, provisional PPA)",
+   "reval": "p. 91 (net worth excludes revaluation reserves; none reported)"
+  },
+  "single": {
+   "top1c": 0.2264,
+   "top10c": 0.8031,
+   "geo": 0.015,
+   "fresh_net": 470.0,
+   "offer": 800.0
+  },
+  "checks": {
+   "1": {
+    "status": "WATCH",
+    "page": "pp. 109-111, 128, 170, 175-176",
+    "finding": "Pre-issue capital 24,42,84,747 shares (p. 108) after a 1:5 split and a 1:3 bonus on 14-Jan-2026; EPS restated for both (p. 170). FY26 basic EPS Rs 4.24 = PAT Rs 95.59 cr on about 22.5 crore weighted shares; on the 24.43 crore pre-issue shares it is Rs 3.91. In Dec-2025 the company issued 2.57 crore shares for KAEHPL and 4.73 crore for Solis Hygiene, both at Rs 22.50 a share (adjusted) to the promoter group and Brainbees (pp. 175-176); the cap of Rs 111 is 4.9x that price eleven months later."
+   },
+   "2": {
+    "status": "WATCH",
+    "page": "p. 90",
+    "finding": "CFO Rs 57.27 / 60.16 / 74.87 cr FY24-26 against PAT Rs 93.97 / 80.67 / 95.59 cr: cumulative CFO 71% of PAT. Inventory and receivables rose with growth; Q1 FY27 CFO Rs 35.15 cr on PAT Rs 16.61 cr was helped by a Rs 63.19 cr rise in trade payables."
+   },
+   "3": {
+    "status": "PASS",
+    "page": "pp. 89-90",
+    "finding": "Total tax 20.8% / 20.9% / 21.7% of PBT FY24-26; tax paid in cash Rs 20.10 / 19.19 / 16.08 cr (p. 90)."
+   },
+   "4": {
+    "status": "WATCH",
+    "page": "pp. 24-25, 43-45",
+    "finding": "Brainbees Solutions (FirstCry), the 76.59% promoter and a selling shareholder, is the largest customer: 27.03% / 23.45% / 22.64% of revenue FY24-26 and 26.15% in Q1 FY27 (p. 24). Related-party sales Rs 221.1 / 238.0 / 299.5 cr; Brainbees also lends Rs 102.03 cr unsecured at 8%, repayable on demand (p. 45), and pays Swara Hygiene Rs 5.50 cr a year as licensee of a 3.2 lakh sq ft Pithampur property (p. 44). The RHP states all were at arm's length; the dependence is commercial and disclosed."
+   },
+   "5": {
+    "status": "PASS",
+    "page": "pp. 135-138",
+    "finding": "Fresh issue up to Rs 500 cr: Rs 198.21 cr part-funds a Rs 554.85 cr Pithampur plant (Rs 234.39 cr already spent by 30-Sep-2026, Rs 100.11 cr of project loans tied up), Rs 100.00 cr repays company debt and Rs 27.50 cr repays subsidiary debt. Up to 35% of gross (about Rs 144 cr at 6% expenses) goes to unidentified acquisitions and general purposes. No proceeds repay the Brainbees loan (p. 164)."
+   },
+   "6": {
+    "status": "PASS",
+    "page": "p. 91",
+    "finding": "No revaluation reserve."
+   },
+   "7": {
+    "status": "WATCH",
+    "page": "pp. 88, 415",
+    "finding": "Goodwill Rs 27.58 cr and intangibles Rs 24.42 cr from the KAEHPL purchase for Rs 57.74 cr in shares (25-Dec-2025); purchase price allocation is provisional (p. 415). KAEHPL's vendor was K.A. Enterprises, a firm of the Birla promoters."
+   },
+   "8": {
+    "status": "WATCH",
+    "page": "pp. 24-25, 262-263",
+    "finding": "Top 10 customers 85.62% / 84.47% / 80.31% of revenue FY24-26, 72.69% in Q1 FY27; top customer (Brainbees) 22.64% FY26. Contract manufacturing is 76-86% of revenue; own brands (Shields, Cuddles) 20.85% FY26 but 9.69% in Q1 FY27 (p. 263). Baby diapers 79% of FY26 product sales (p. 262). Purchase orders can be cancelled without notice (p. 25)."
+   },
+   "9": {
+    "status": "PASS",
+    "page": "pp. 33-34, 91",
+    "finding": "Contingent liabilities only Rs 0.14 cr (customs guarantees). Litigation against the company Rs 0.15 cr (tax) and against subsidiaries Rs 3.24 cr; against promoters 16 tax and 3 regulatory matters, Rs 16.68 cr in all, mostly Brainbees (pp. 33-34)."
+   },
+   "10": {
+    "status": "N.A.",
+    "page": "",
+    "finding": "No investor presentation reviewed."
+   },
+   "R1": {
+    "status": "WATCH",
+    "page": "pp. 39-40",
+    "finding": "Walker Chandiok & Co LLP; unmodified opinion. CARO remarks: database-level audit trail not confirmed, minor delays in statutory dues, loans without repayment schedules, a disputed customs demand of Rs 1.06 cr (FY25), and quarterly bank statements not matching the books (Rs 10.15 cr difference at the company in FY25; KAEHPL in FY26)."
+   },
+   "R2": {
+    "status": "WATCH",
+    "page": "pp. 41-43, 419",
+    "finding": "Government grants and subsidies (MPIDC capital/investment assistance, interest subsidy, TUFS, textile PLI) gave income of Rs 16.00 / 16.61 / 45.24 cr FY24-26 incl. interest income on subsidy: 47.3% of FY26 profit (p. 42). Grant receivables Rs 103.49 cr at Mar-26 (Rs 18.05 cr overdue at Jun-26); schemes run 5-7 years and depend on compliance and disbursement (p. 42)."
+   },
+   "R3": {
+    "status": "PASS",
+    "page": "p. 7",
+    "finding": "CRISIL Ratings appointed monitoring agency (agreement dated 19-Oct-2026)."
+   },
+   "R4": {
+    "status": "PASS",
+    "page": "p. 1",
+    "finding": "Reg 6(1) issue: QIB not more than 50%, NII not less than 15%, retail not less than 35% of the net offer (p. 1)."
+   },
+   "R5": {
+    "status": "WATCH",
+    "page": "pp. 30-32",
+    "finding": "CMD Alok Birla guaranteed loans of SSPPL, a company that defaulted to SBI (classified NPA after 2006); ARCIL settled for Rs 1.00 cr in May-2026 with an 88.7% waiver, and archived CIBIL records (2011-14) still list the matter. A second ARCIL recovery case (PPPL, Rs 1.04 cr) in which he is co-mortgagor is pending before DRT Ahmedabad. Neither involves the company; it is currently not a wilful defaulter (p. 31)."
+   },
+   "R6": {
+    "status": "OPEN",
+    "page": "",
+    "finding": "JM Financial and Avendus Capital: large, established lead managers; past-issue track record not compiled for this report."
+   }
+  },
+  "gaps": [
+   {
+    "item": "Offer expenses (RHP prints [●]); 6% assumed",
+    "severity": "Low",
+    "source": "Prospectus"
+   },
+   {
+    "item": "Anchor book (bids 1-Dec-2026)",
+    "severity": "Medium",
+    "source": "NSE / BSE anchor allocation"
+   },
+   {
+    "item": "Pricing terms of the Brainbees supply arrangement and any minimum-offtake commitment",
+    "severity": "Medium",
+    "source": "Company / material contracts"
+   },
+   {
+    "item": "Capacity and revenue potential of the new Pithampur Project",
+    "severity": "Medium",
+    "source": "Company / Project Report"
+   },
+   {
+    "item": "Q1 FY26 comparatives (margin and own-brand trend)",
+    "severity": "Medium",
+    "source": "Company"
+   },
+   {
+    "item": "Expected grant income by scheme and year to expiry",
+    "severity": "Medium",
+    "source": "Company / note 55"
+   }
+  ]
+ },
+ "anchor": {
+  "inputs": {
+   "name": "Swara Baby Products Limited",
+   "board": "Mainboard",
+   "offer": 111,
+   "anchor_px": 111,
+   "issue": 800.0,
+   "emp": 1.25,
+   "shr": 0,
+   "qib_pct": 0.5,
+   "nii_pct": 0.15,
+   "rii_pct": 0.35,
+   "anc_pct": 0.6,
+   "mf_anc": 0.3333,
+   "ins_anc": 0.0667,
+   "bid_date": "2026-12-01",
+   "allot_date": "2026-12-07",
+   "list_date": "2026-12-09"
+  },
+  "total_shares_lakh": 2893.3,
+  "overhang": [
+   [
+    "Promoter and promoter-group holding above minimum contribution (after OFS)",
+    1594.48,
+    180,
+    "p. 128; six months"
+   ],
+   [
+    "Promoters' minimum contribution (20% of post-issue capital)",
+    578.66,
+    548,
+    "p. 128; eighteen months"
+   ]
+  ]
+ },
+ "valuation": {
+  "inputs": {
+   "name": "Swara Baby Products Limited",
+   "basis": "Consolidated",
+   "pre_sh": 24.428475,
+   "esop": 0.204867,
+   "fresh": 500.0,
+   "fresh_sh_fixed": 0,
+   "ofs_sh": 2.702703,
+   "floor": 105,
+   "cap": 111,
+   "obj_net": 325.706,
+   "exp_pct": 0.06,
+   "gcp_pct": 0.2886,
+   "ipo_capex": 198.206,
+   "capex_y1": 0.5545,
+   "rev0": 1163.9,
+   "rev_prev": 942.976,
+   "ebitda0": 144.228,
+   "da0": 51.04,
+   "pat0": 64.96,
+   "nw0": 553.215,
+   "nd0": 443.88,
+   "nwc0": 218.56,
+   "nwc_prev": 218.866,
+   "capex0": 84.17,
+   "kd": 0.09,
+   "w_dcf": 1.0
+  },
+  "drivers": {
+   "g1": [
+    0.1,
+    0.18,
+    0.24
+   ],
+   "g2": [
+    0.09,
+    0.16,
+    0.2
+   ],
+   "g3": [
+    0.08,
+    0.14,
+    0.17
+   ],
+   "g4": [
+    0.07,
+    0.12,
+    0.14
+   ],
+   "g5": [
+    0.06,
+    0.1,
+    0.12
+   ],
+   "m": [
+    0.095,
+    0.14,
+    0.155
+   ],
+   "nwc": [
+    0.23,
+    0.188,
+    0.17
+   ],
+   "roic": [
+    0.13,
+    0.16,
+    0.19
+   ]
+  },
+  "rationale": {
+   "g1": "Revenue from operations Rs 749.96 / 942.98 / 1,163.90 cr FY24-26 (+25.7%, +23.4%) and Rs 322.88 cr in Q1 FY27, not annualised (p. 89); FY26 includes KAEHPL (sanitary napkins) only from 25-Dec-2025, Rs 31.4 cr of feminine hygiene sales (p. 262), so organic FY26 growth was about 20%. Units produced 1,237 / 1,492 / 2,033 million; 20 lines at 65% utilisation against 70% the company treats as full (p. 172). The hygiene market is put at Rs 26,850 cr in FY26 growing 13% a year to FY30 (p. 208). Neutral 18% in Y1 fading to 10% as the new plant ramps; Bear 10% fading to 6% (a large brand customer insources or Brainbees cuts orders); Bull 24% fading to 12%.",
+   "m": "EBITDA excluding other income (PBT + finance cost + D&A - other income, our computation from p. 89) Rs 136.94 / 146.03 / 144.23 cr = 18.26% / 15.49% / 12.39% of revenue FY24-26 and 9.47% in Q1 FY27 (Rs 30.56 cr). The company's KPI EBITDA (15.90% FY26, p. 172) includes all other income, which is mostly government grants. Grants are scheme-bound (MPIDC 7 years, PLI 5 years, p. 41) but real cash while the schemes run: income was 1.5% / 1.6% / 3.3% of revenue FY24-26 (p. 42). Neutral 14.0% = 12.5% operating margin (between the FY26 level of 12.4% and the FY24-26 through-cycle average of 15.4%, weighted to the recent level because the decline has been steady) plus 1.5 points of grants at the FY24-25 run-rate for schemes already sanctioned, excluding the FY26 accrual step-up; Bear 9.5% (Q1 FY27 operating level persists and grants lapse); Bull 15.5% (scale, own-brand recovery and the 20% capital subsidy on the new Project, p. 149). The earnings-quality test below excludes all grant income, so the adjusted P/E shows the plants without subsidies.",
+   "nwc": "Trade working capital (inventory + receivables - trade payables) Rs 143.43 / 218.87 / 218.56 cr = 19.1% / 23.2% / 18.8% of revenue FY24-26 (p. 88); the company's NWC days 69 / 86 / 69 (p. 172). Incremental NWC per rupee of incremental revenue FY24-26 was 18.2% ((218.56 - 143.43) / (1,163.90 - 749.96)); the three-year average of 20.4% is lifted by FY25, when receivables nearly doubled to Rs 104.91 cr and fell back to 86 days. Jun-26 fell to Rs 193.17 cr as payables rose Rs 63.19 cr in the quarter (p. 90). Neutral 18.8% (FY26 level, in line with the incremental ratio); Bear 23% (FY25 level); Bull 17%.",
+   "roic": "ROCE (issuer, incl. grants) 27.65% / 18.75% / 16.19% FY24-26 (p. 172), average 20.9%, falling as capacity was added ahead of demand (utilisation 64.9% FY26 against 70% treated as full). House WACC is about 14.3%. Terminal ROIC 16% Neutral (below the FY24-26 average, above WACC because utilisation of the new lines lifts returns), 13% Bear (FY26 returns without the grant step-up), 19% Bull.",
+   "capex": "D&A Rs 23.84 / 37.61 / 51.04 cr FY24-26 (p. 89). Capex paid Rs 233.11 / 141.07 / 213.37 cr and capital grants received Rs 51.79 / 18.69 / 77.59 cr (p. 90): net capex Rs 181.3 / 122.4 / 135.8 cr, a period in which lines went from 12 to 20 (p. 172). FY26 net capex alone gives growth capex per rupee of revenue (k) of 0.38. Forward organic capex is lower because the Rs 554.85 cr Pithampur Project carries most of the next capacity step: its IPO-funded part (Rs 198.21 cr, 55% in FY27 per the schedule, p. 136) is modelled separately, and the existing 20 lines run at 65% against the 70% the company treats as full (p. 172). capex0 is set at Rs 84.17 cr so that k = 0.15 (maintenance at D&A plus debottlenecking); the Rs 122.15 cr of Project cost funded by loans and accruals (p. 138) is covered by that k over Y1-Y3. Net debt Rs 443.88 cr = borrowings Rs 229.01 cr non-current + Rs 214.05 cr current + leases Rs 5.09 cr - cash Rs 1.27 cr - other bank balances Rs 3.00 cr (Mar-26, p. 88); it includes the Rs 102.0 cr Brainbees loan. Fresh issue Rs 500 cr at the cap (4.50 crore shares); OFS Rs 300 cr = 2.70 crore shares at Rs 111; ESOP options in force 20,48,670 (p. 130). Offer expenses assumed 6% (large issue; RHP prints [●]). Grant receivables of Rs 103.49 cr at Mar-26 are not added to value. No listed peers: the RHP states none is comparable (p. 170), so the fair value is DCF only (w_dcf = 1); PAT for reference is FY26 PAT excluding grant income and interest on subsidy, Rs 64.96 cr (earnings-quality test)."
+  },
+  "peers": []
+ },
+ "kpi": {
+  "ebitda": [
+   136.94,
+   146.03,
+   144.23
+  ],
+  "_cite": "Our computation from p. 89: PBT + finance cost + D&A - other income. The issuer's KPI EBITDA (Rs 153.59 / 162.72 / 192.77 cr, p. 172) includes other income."
+ },
+ "earnings_quality": {
+  "_note": "Pre-tax Rs crore by year [FY24, FY25, FY26]; negative reduces profit.",
+  "adjustments": [
+   {
+    "item": "Government grant income (MPIDC capital/investment assistance, TUFS, textile PLI) in other income",
+    "short": "government grant income",
+    "pre_tax": [
+     -11.375,
+     -15.026,
+     -38.14
+    ],
+    "include": true,
+    "confidence": "Medium",
+    "page": "pp. 41-42, 90, 419",
+    "reason": "Income from government grants Rs 11.38 / 15.03 / 38.14 cr FY24-26 (p. 90) is 47% of FY26 profit (p. 42). It is real cash over time (grants received Rs 51.79 / 18.69 / 77.59 cr) but scheme-bound: MPIDC assistance runs 7 years and PLI 5 years, disbursement depends on approvals (Rs 18.05 cr overdue at Jun-26), and FY26 includes Rs 13.98 cr accrued for a Swara Hygiene sanction with nothing received by Mar-26 (p. 419). Excluded to show the profit the plants earn on their own."
+   },
+   {
+    "item": "Interest income on subsidy (unwinding of discounted grant receivables)",
+    "short": "interest income on subsidy",
+    "pre_tax": [
+     -2.207,
+     0.0,
+     -2.698
+    ],
+    "include": true,
+    "confidence": "High",
+    "page": "pp. 42, 90",
+    "reason": "Rs 2.21 / nil / 2.70 cr FY24-26 is accounting interest on the present value of future subsidy receivables (p. 42), a non-cash accrual."
+   },
+   {
+    "item": "Interest subsidy netted against finance cost",
+    "short": "interest subsidy in finance cost",
+    "pre_tax": [
+     -2.415,
+     -1.581,
+     -4.399
+    ],
+    "include": false,
+    "confidence": "Medium",
+    "page": "p. 42",
+    "reason": "Rs 2.42 / 1.58 / 4.40 cr of interest reimbursement is netted against finance cost (p. 42), so reported profit already includes it; removing it would cut profit by that amount. It is tied to the tenure of specific term loans; shown for information, kept out of the adjusted P/E."
+   },
+   {
+    "item": "Licence fee from Brainbees for the Pithampur property",
+    "short": "related-party licence fee",
+    "pre_tax": [
+     0.0,
+     0.0,
+     -5.498
+    ],
+    "include": false,
+    "confidence": "Low",
+    "page": "p. 44",
+    "reason": "Rent income Rs 5.50 cr in FY26 from the promoter Brainbees under a leave and licence agreement of 11-Dec-2025 (p. 44); recurring while the agreement runs. For information."
+   }
+  ],
+  "checked": [
+   "Tax 21-22% of PBT, paid in cash (pp. 89-90)",
+   "Share-based payment expense Rs 0.34 cr FY26 is charged to profit (p. 89)",
+   "Remeasurement losses on gratuity under Rs 0.14 cr a year (p. 89)",
+   "Goodwill Rs 27.58 cr not amortised; tested for impairment (p. 415)",
+   "Q1 FY27 is not annualised"
+  ]
+ }
+}
