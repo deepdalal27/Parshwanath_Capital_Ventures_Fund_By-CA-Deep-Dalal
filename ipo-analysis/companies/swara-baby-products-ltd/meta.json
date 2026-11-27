@@ -1,0 +1,131 @@
+{
+  "slug": "swara-baby-products-ltd",
+  "company": "Swara Baby Products Limited",
+  "platform": "Mainboard",
+  "stage": "RHP",
+  "rhp_read": true,
+  "filed_on": "2026-11-27",
+  "doc_date": "2026-11-26",
+  "doc_url": "https://nsearchives.nseindia.com/content/ipo/RHP_SWARA.zip",
+  "sector": "Contract manufacturing of disposable hygiene products (baby diapers, adult incontinence, sanitary napkins)",
+  "brlm": "JM Financial; Avendus Capital",
+  "issue_size_cr": 800.0,
+  "price_band": "Rs 105-111",
+  "open_date": "2026-12-02",
+  "close_date": "2026-12-04",
+  "allotment_date": "2026-12-07",
+  "listing_date": "2026-12-09",
+  "lot_size": 135,
+  "exchange": "NSE, BSE",
+  "depth": "Full",
+  "exit_route": "2-3 year hold (assumed)",
+  "status": "analysed",
+  "company_pe": {
+    "period": "FY26",
+    "pat_cr": 95.59,
+    "pat_basis": "restated consolidated; wholly owned subsidiaries, all attributable to owners",
+    "eps_basic": 4.24,
+    "eps_diluted": 4.24,
+    "industry_pe": null,
+    "source": "RHP p. 170 (Basis for Offer Price); PAT p. 89",
+    "note": "EPS is on about 22.5 crore weighted shares after the 1:5 split and 1:3 bonus (Jan-2026), with the Dec-2025 acquisition shares time-weighted. On the 24.43 crore pre-issue shares FY26 EPS is Rs 3.91 (P/E 28.4x at Rs 111); on the 28.93 crore post-issue shares it is Rs 3.30 (P/E 33.6x). The RHP gives no industry P/E: it states there are no comparable listed peers (p. 170). Band as announced by the company and reported (Upstox, Entrepreneur); the RHP prints [●].",
+    "pe_floor_basic": 24.76,
+    "pe_cap_basic": 26.18,
+    "pe_floor_diluted": 24.76,
+    "pe_cap_diluted": 26.18,
+    "floor": 105.0,
+    "cap": 111.0
+  },
+  "call": "Avoid",
+  "files": {
+    "screening": "SWARA_BABY_PRODUCTS_LTD_01_Screening.xlsx",
+    "anchor": "SWARA_BABY_PRODUCTS_LTD_02_Anchor_QIB.xlsx",
+    "valuation": "SWARA_BABY_PRODUCTS_LTD_03_Valuation.xlsx",
+    "note": "note.md",
+    "pdf": "SWARA_BABY_PRODUCTS_LTD_Report.pdf"
+  },
+  "model": {
+    "bear": {
+      "dcf": 2.3214,
+      "relative": null,
+      "blended": 2.3214,
+      "upside_floor": -0.9779,
+      "upside_cap": -0.9791
+    },
+    "neutral": {
+      "dcf": 23.2079,
+      "relative": null,
+      "blended": 23.2079,
+      "upside_floor": -0.779,
+      "upside_cap": -0.7909
+    },
+    "flags": [
+      "AMBER: TV above 75% of EV - DCF is mostly a terminal guess"
+    ],
+    "reverse_dcf": "The price asks the business to deliver 86.9 times its current free cash flow, in perpetuity.",
+    "objects_floor": null,
+    "bull": {
+      "dcf": 34.9205,
+      "relative": null,
+      "blended": 34.9205,
+      "upside_floor": -0.6674,
+      "upside_cap": -0.6854
+    }
+  },
+  "counts": {
+    "fail": 0,
+    "watch": 8,
+    "pass": 6,
+    "open": 2
+  },
+  "focus_top": [
+    "Bonus issue / share-count consistency",
+    "Cash flow vs profit",
+    "Related-party capex & subsidiaries"
+  ],
+  "analysed_on": "2026-11-27",
+  "business_stage": "Scaling (lines up from 12 to 20 FY24-26; two acquisitions in Dec-2025; Rs 554.85 cr new plant under way)",
+  "anchor": {
+    "amount_cr": null,
+    "investors": null,
+    "mf_share": null,
+    "source": "Anchor bidding 1-Dec-2026; allocation not yet published at writing"
+  },
+  "headline": "India's largest contract maker of baby and adult diapers (FY26 revenue Rs 1,164 cr, +23%; FirstCry-owner Brainbees holds 76.59% and buys 23% of output), priced at 33.8x FY26 earnings and 49.7x once government grants (47% of FY26 profit) are excluded; DCF fair value Rs 23 (Neutral) because operating margins have fallen from 18.3% to 9.5% while a large plant and working capital must be funded before free cash flow turns positive.",
+  "red_flags": [
+    "Revenue Rs 749.96 / 942.98 / 1,163.90 cr FY24-26 (+25.7%, +23.4%); operating EBITDA margin excl. other income 18.3% / 15.5% / 12.4%, 9.5% in Q1 FY27 (pp. 89, 172)",
+    "Government grant income Rs 11.38 / 15.03 / 38.14 cr FY24-26 = 47% of FY26 profit; Rs 103.49 cr receivable at Mar-26 (pp. 42, 90)",
+    "Brainbees (76.59% promoter, OFS seller) is the largest customer at 22.6% of FY26 revenue and lends Rs 102.0 cr on demand (pp. 24, 45, 128)",
+    "Market share ~38% of baby-diaper and 36% of adult-diaper contract manufacturing in FY26 (p. 168); hygiene market +13% a year to FY30 (p. 208)",
+    "CFO 71% of PAT FY24-26; net debt Rs 438.8 cr = 3.0x operating EBITDA; Rs 127.5 cr of the issue repays debt (pp. 90, 136, 172)",
+    "Band Rs 105-111; DCF fair value Rs 2.3 / 23.2 / 34.9 vs Rs 111; Dec-2025 acquisition shares issued at Rs 22.50 (pp. 175-176)"
+  ],
+  "swot": {
+    "strengths": [
+      "~38% share of baby-diaper contract manufacturing in FY26 (p. 168)",
+      "Revenue CAGR 24.6% FY24-26 (p. 89)",
+      "Brainbees as anchor customer and 76.59% shareholder (pp. 24, 128)",
+      "20 lines across baby, adult and feminine hygiene (p. 263)"
+    ],
+    "weaknesses": [
+      "Operating EBITDA margin 18.3% to 12.4% FY24-26, 9.5% in Q1 FY27 (p. 89)",
+      "Grants 47% of FY26 profit (p. 42)",
+      "CFO 71% of PAT FY24-26 (p. 90)",
+      "Top 10 customers 80.3% of FY26 revenue (p. 24)"
+    ],
+    "opportunities": [
+      "Hygiene market +13% a year to FY30 (p. 208)",
+      "New Rs 554.85 cr Pithampur plant (p. 138)",
+      "Feminine hygiene via KAEHPL, 8.9% of Q1 FY27 sales (p. 262)",
+      "Exports only 1.5% of revenue (p. 263)"
+    ],
+    "threats": [
+      "Customer insourcing or cancelled purchase orders (p. 25)",
+      "Delay or lapse of subsidies; Rs 18.05 cr overdue at Jun-26 (p. 42)",
+      "Pulp, nonwoven and polymer cost inflation",
+      "Recall of the on-demand Brainbees loan (p. 45)"
+    ]
+  },
+  "call_basis": "Call rule (ROUTINE.md hard rule 6), judged at the upper band of Rs 111 (as announced by the company and reported): fair value is the DCF alone because the RHP names no comparable listed peer (p. 170). Neutral value Rs 23.2 is 79.1% below the price, below the -30% line, and Bull Rs 34.9 is also below the price (-68.5%), so the Avoid limb applies. At the Rs 105 floor the Neutral value is 77.9% below. It would read Neutral at about Rs 35 or below and Subscribe at about Rs 26 or below. No material issue under the Fund's rules.",
+  "reference_note": "Band Rs 105-111, lot 135 (company announcement as reported; RHP prints [●]). At Rs 111: 28.93 crore post-issue shares (29.14 crore with ESOPs), market cap Rs 3,212 cr; P/E 33.8x FY26 PAT on diluted shares (49.7x excluding grants and subsidy interest, Rs 65.03 cr); company's own P/E 26.2x (pre-issue weighted shares); P/B 3.1x post-issue; EV/EBITDA 22.1x FY26 operating EBITDA (16.5x on the issuer's KPI EBITDA incl. other income)."
+}
